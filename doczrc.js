@@ -9,13 +9,5 @@ module.exports = {
     debug: false,
     port: 5001,
     protocol: 'http',
-    plugins: [postCSSPlugin()],
-    modifyBundlerConfig: function(config, dev, args) {
-      console.log('modifyBundlerConfig', JSON.stringify(config, null, 2));
-      return config;
-    },
-    modifyBabelRc: function(babelrc, args) {
-      console.log('modifyBabelRc', JSON.stringify(babelrc, null, 2), args);
-      return babelrc;
-    }
+    plugins: [postCSSPlugin()]
 };
