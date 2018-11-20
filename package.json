@@ -22,13 +22,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && npm run docz:build && cp -R ./docs ./public/docs",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docz:dev": "docz dev",
-    "docz:build": "docz build"
+    "docz:dev": "npm run gatsbyhack && docz dev",
+    "docz:build": "npm run gatsbyhack && docz build",
+    "gatsbyhack": "node ./gatsby-docz-hack.js"
   },
   "devDependencies": {
     "docz": "^0.12.12",
