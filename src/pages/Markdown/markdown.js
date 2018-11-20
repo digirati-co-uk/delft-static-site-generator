@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from "gatsby";
-
 import Layout from '../../components/Layout/layout';
 import substituteSpecialLinks from '../../utils';
 
@@ -9,7 +8,9 @@ const Markdown = ({ data }) => (
       <div
         className="article-main"
         dangerouslySetInnerHTML={{ 
-          __html: substituteSpecialLinks(data.markdownRemark.html) 
+          __html: data.markdownRemark 
+            ? substituteSpecialLinks(data.markdownRemark.html)
+            : ''
         }}
       />
   </Layout>

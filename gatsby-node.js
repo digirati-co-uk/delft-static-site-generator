@@ -42,19 +42,3 @@ exports.createPages = ({ actions, graphql }) => {
     })
   })
 };
-
-// exports.onCreateWebpackConfig = ({
-//   stage,
-//   rules,
-//   loaders,
-//   plugins,
-//   actions,
-// }) => {
-//   console.log('test', loaders);
-//   // plugins.define({
-//   //   "import-globals": { "Link": "gatsby"},
-//   // }));
-//   actions.setWebpackConfig({
-//     //plugins: 
-//   });
-// }

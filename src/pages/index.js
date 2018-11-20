@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from "gatsby";
-
 import Layout from '../components/Layout/layout';
 import substituteSpecialLinks from '../utils';
 
