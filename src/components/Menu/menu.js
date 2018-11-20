@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from '../Link/link';
+import { Link } from 'gatsby';
 import './menu.css';
 
 const Menu = props => (
