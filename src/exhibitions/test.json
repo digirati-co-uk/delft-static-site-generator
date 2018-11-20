@@ -1,0 +1,375 @@
+{
+    "label": {
+      "en": [
+        "Exhibition manifest example"
+      ],
+      "nl": [
+        "Tentoonstelling manifest"
+      ]
+    },
+    "type": "Manifest",
+    "id": "http://digirati.com/iiif/v3/temporary/manifest",
+    "items": [
+      {
+        "label": {
+          "en": [
+            "Single Image Canvas"
+          ],
+          "nl": [
+            "enkele afbeelding canvas"
+          ]
+
+        },
+        "thumbnail": [
+          {
+            "service": [
+              {
+                "protocol": "http://iiif.io/api/image",
+                "height": 1024,
+                "width": 771,
+                "sizes": [
+                  {
+                    "width": 75,
+                    "height": 100
+                  },
+                  {
+                    "width": 151,
+                    "height": 200
+                  },
+                  {
+                    "width": 301,
+                    "height": 400
+                  },
+                  {
+                    "width": 771,
+                    "height": 1024
+                  }
+                ],
+                "profile": [
+                  "http://iiif.io/api/image/2/level0.json"
+                ],
+                "id": "https://dlcs.io/thumbs/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+                "type": "ImageService2"
+              }
+            ],
+            "type": "Image",
+            "id": "https://dlcs.io/thumbs/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2/full/75,100/0/default.jpg"
+          }
+        ],
+        "height": 4250,
+        "width": 3200,
+        "type": "Canvas",
+        "id": "http://digirati.com/iiif/v3/temporary/canvas/c2",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://wellcomelibrary.org/iiif/b29358346/imageanno/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+                "target": "https://wellcomelibrary.org/iiif/b29358346/canvas/c0",
+                "body": {
+                  "format": "image/jpeg",
+                  "height": 1024,
+                  "width": 771,
+                  "service": [
+                    {
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "id": "https://dlcs.io/iiif-img/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+                      "type": "ImageService2"
+                    }
+                  ],
+                  "type": "Image",
+                  "id": "https://dlcs.io/iiif-img/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2/full/!1024,1024/0/default.jpg"
+                }
+              }
+            ],
+            "id": "http://digirati.com/iiif/v3/temporary/canvas/c2-ap0"
+          }
+        ]
+      },
+      {
+        "label": {
+          "en": [
+            "Image with hotspots"
+          ],
+          "nl": [
+            "afbeelding met hotspots"
+          ]
+        },
+        "thumbnail": [
+          {
+            "service": [
+              {
+                "protocol": "http://iiif.io/api/image",
+                "height": 1024,
+                "width": 869,
+                "sizes": [
+                  {
+                    "width": 85,
+                    "height": 100
+                  },
+                  {
+                    "width": 170,
+                    "height": 200
+                  },
+                  {
+                    "width": 339,
+                    "height": 400
+                  },
+                  {
+                    "width": 869,
+                    "height": 1024
+                  }
+                ],
+                "profile": [
+                  "http://iiif.io/api/image/2/level0.json"
+                ],
+                "id": "https://dlcs.io/thumbs/wellcome/1/73ebe57c-26f0-4d02-bf54-177bc22055b8",
+                "type": "ImageService2"
+              }
+            ],
+            "type": "Image",
+            "id": "https://dlcs.io/thumbs/wellcome/1/73ebe57c-26f0-4d02-bf54-177bc22055b8/full/85,100/0/default.jpg"
+          }
+        ],
+        "height": 3157,
+        "width": 2678,
+        "type": "Canvas",
+        "id": "http://digirati.com/iiif/v3/temporary/canvas/c3",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://wellcomelibrary.org/iiif/b29357998/imageanno/73ebe57c-26f0-4d02-bf54-177bc22055b8",
+                "target": "https://wellcomelibrary.org/iiif/b29357998/canvas/c0",
+                "body": {
+                  "format": "image/jpeg",
+                  "height": 1024,
+                  "width": 869,
+                  "service": [
+                    {
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "id": "https://dlcs.io/iiif-img/wellcome/1/73ebe57c-26f0-4d02-bf54-177bc22055b8",
+                      "type": "ImageService2"
+                    }
+                  ],
+                  "type": "Image",
+                  "id": "https://dlcs.io/iiif-img/wellcome/1/73ebe57c-26f0-4d02-bf54-177bc22055b8/full/!1024,1024/0/default.jpg"
+                }
+              },
+              {
+                "id": "http://digirati.com/iiif/v3/temporary/annot/c3-2",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "label": {
+                  "en": [
+                    "Text Annotation 2"
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "value": "Hotspot 1",
+                  "format": "text/plain"
+                },
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c3#xywh=137,95,1156,1418"
+              },
+              {
+                "id": "http://digirati.com/iiif/v3/temporary/annot/c3-3",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "label": {
+                  "en": [
+                    "Text Annotation 3"
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "value": "Hotspot 2",
+                  "format": "text/plain"
+                },
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c3#xywh=1406,101,1162,1394"
+              },
+              {
+                "id": "http://digirati.com/iiif/v3/temporary/annot/c3-4",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "label": {
+                  "en": [
+                    "Text Annotation 4"
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "value": "Hotspot 3",
+                  "format": "text/plain"
+                },
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c3#xywh=119,1621,1126,1400"
+              },
+              {
+                "id": "http://digirati.com/iiif/v3/temporary/annot/c3-5",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "label": {
+                  "en": [
+                    "Text Annotation 5"
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "value": "Hotspot 4",
+                  "format": "text/plain"
+                },
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c3#xywh=1436,1645,1114,1400"
+              }
+            ],
+            "id": "http://digirati.com/iiif/v3/temporary/canvas/c3-ap0"
+          }
+        ]
+      },
+      {
+        "label": {
+          "en": [
+            "Mixed media canvas"
+          ],
+          "nl": [
+            "canvas met gemengde media"
+          ]
+        },
+        "height": "3000",
+        "width": "3000",
+        "type": "Canvas",
+        "id": "http://digirati.com/iiif/v3/temporary/canvas/c1",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://wellcomelibrary.org/iiif/b28481173/imageanno/322c97f7-b241-42b1-b66b-67635ae05f4f",
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c1#xywh=0,0,1555,1031",
+                "body": {
+                  "format": "image/jpeg",
+                  "height": 681,
+                  "width": 1024,
+                  "service": [
+                    {
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "id": "https://dlcs.io/iiif-img/wellcome/1/322c97f7-b241-42b1-b66b-67635ae05f4f",
+                      "type": "ImageService2"
+                    }
+                  ],
+                  "type": "Image",
+                  "id": "https://dlcs.io/iiif-img/wellcome/1/322c97f7-b241-42b1-b66b-67635ae05f4f/full/!1024,1024/0/default.jpg"
+                }
+              },
+              {
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://wellcomelibrary.org/iiif/b20433128/imageanno/c6cf8fb9-39b8-4192-ad3f-ebcbb16bfb4b",
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c1#xywh=1198,733,1543,1090",
+                "body": {
+                  "format": "image/jpeg",
+                  "height": 724,
+                  "width": 1024,
+                  "service": [
+                    {
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "id": "https://dlcs.io/iiif-img/wellcome/1/c6cf8fb9-39b8-4192-ad3f-ebcbb16bfb4b",
+                      "type": "ImageService2"
+                    }
+                  ],
+                  "type": "Image",
+                  "id": "https://dlcs.io/iiif-img/wellcome/1/c6cf8fb9-39b8-4192-ad3f-ebcbb16bfb4b/full/!1024,1024/0/default.jpg"
+                }
+              },
+              {
+                "id": "http://digirati.com/iiif/v3/temporary/annot/c1-3",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Text Annotation 3"
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "value": "Visible annotation",
+                  "format": "text/plain"
+                },
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c1#xywh=190,1263,1209,1436"
+              },
+              {
+                "id": "http://digirati.com/iiif/v3/temporary/annot/c1-4",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "label": {
+                  "en": [
+                    "Text Annotation 4"
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "value": "Hotspot",
+                  "format": "text/plain"
+                },
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c1#xywh=1597,1132,870,524"
+              }
+            ],
+            "id": "http://digirati.com/iiif/v3/temporary/list/c1-ap1"
+          }
+        ]
+      },
+      {
+        "label": {
+          "en": [
+            "Video canvas"
+          ],
+          "nl": [
+            "video canvas"
+          ]
+        },
+        "height": 442,
+        "width": 1000,
+        "type": "Canvas",
+        "id": "http://digirati.com/iiif/v3/temporary/canvas/c4",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "http://digirati.com/iiif/v3/temporary/annot/c4-1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Video Annotation 1"
+                  ],
+                  "nl": [
+                    "video-annotatie"
+                  ]
+                },
+                "body": {
+                  "type": "Video",
+                  "height": 640,
+                  "width": 268,
+                  "duration": 1
+                },
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c4#xywh=0,0,1001,441"
+              }
+            ],
+            "id": "http://digirati.com/iiif/v3/temporary/list/c4-ap1"
+          }
+        ]
+      }
+    ],
+    "@context": [
+      "http://www.w3.org/ns/anno.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+    ]
+  }

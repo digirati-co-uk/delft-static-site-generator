@@ -1,0 +1,21 @@
+.main-menu {
+  flex: 1;
+  text-align: right;
+}
+
+.main-menu__list {
+  list-style: none none inside;
+  margin: 0;
+}
+.main-menu__list-item {
+  display: inline-block;
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+
+.main-menu__link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}

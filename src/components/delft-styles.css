@@ -1,0 +1,136 @@
+.article-main {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  background: #eee;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+.article-main h1,
+.article-main h2,
+.article-main h3,
+.article-main h4,
+.article-main h5,
+.article-main h6,
+.article-main p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 calc((100% - 960px) /2);
+}
+
+.article-main h1:after,
+.article-main h2:after,
+.article-main h3:after,
+.article-main h4:after,
+.article-main h5:after,
+.article-main h6:after,
+.article-main p:after {
+  content: ' ';
+  display: table;
+  clear: both;
+  position: relative;
+  width: 100vw;
+}
+
+.block-1-1, 
+.block-1-2,
+.block-2-1,
+.block-2-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  clip-path: polygon(
+    0% 50px,                 /* top left */
+    50px 0%,                 /* top left */
+    calc(100% - 50px) 0%,    /* top right */
+    100% 50px,               /* top right */
+    100% calc(100% - 50px),  /* bottom right */
+    calc(100% - 50px) 100%,  /* bottom right */
+    50px 100%,               /* bottom left */
+    0 calc(100% - 50px)      /* bottom left */
+  );
+  background: grey;
+}
+
+
+.block-1-1, 
+.block-1-2,
+.block-2-1,
+.block-2-2 {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+
+.block-1-1>p, 
+.block-1-2>p,
+.block-2-1>p,
+.block-2-2>p {
+  padding: 100px;
+}
+
+@media screen and (min-width: 640px) {
+  .block-1-1 {
+    width: 33.33%;
+    height: 400px;
+  }
+    
+  .block-1-2 {
+    width: 33.33%;
+    height: 800px;
+  }
+    
+  .block-2-1 {
+    width: 66.66%;
+    height: 400px;
+  }
+    
+  .block-2-2 {
+    width: 66.66%;
+    height: 800px;
+  }
+}
+  
+.bg-yellow {
+  background: yellow;
+}
+  
+.cover-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  font-family: georgia, serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.cover-link>span {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  padding: 8px 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
