@@ -13,16 +13,6 @@ const Menu = props => (
   </nav>
 );
 
-// const Menu = props => (
-//   <nav style={props.style} className="main-menu">
-//     <ul className="main-menu__list">
-//       <li className="main-menu__list-item"><a href="/exhibitions/" className="main-menu__link">Exhibitions</a></li>
-//       <li className="main-menu__list-item"><a href="/collections/" className="main-menu__link">Collections</a></li>
-//       <li className="main-menu__list-item"><a href="/about/" className="main-menu__link">About</a></li>
-//     </ul>
-//   </nav>
-// );
-
 Menu.propTypes = { 
   style: PropTypes.object,
 }
