@@ -22,7 +22,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build && npm run docz:build && cp -R ./docs ./public/docs",
+    "build": "gatsby build && npm run docz:build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
