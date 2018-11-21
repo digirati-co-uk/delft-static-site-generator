@@ -15,7 +15,11 @@
 .article-main h4,
 .article-main h5,
 .article-main h6,
-.article-main p {
+.article-main>p,
+.article-main .footnotes,
+.article-main>pre,
+.article-main>ol,
+.article-main>ul {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -28,7 +32,10 @@
 .article-main h4:after,
 .article-main h5:after,
 .article-main h6:after,
-.article-main p:after {
+.article-main>p:after,
+.article-main>pre:after,
+.article-main>ol:after,
+.article-main>ul:after {
   content: ' ';
   display: table;
   clear: both;
@@ -133,4 +140,8 @@
   padding: 8px 0;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
+}
+
+.footnotes li p {
+  display: inline;
 }
