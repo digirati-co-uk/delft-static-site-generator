@@ -1,5 +1,5 @@
 ---
-path: "/posts/article-demo"
+path: "/publications/article-demo"
 date: "2018-11-15"
 title: "Awesome article"
 ---
