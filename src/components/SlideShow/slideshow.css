@@ -1,0 +1,27 @@
+.slideshow {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: black;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.slideshow--isMobile {
+  background: #fff;
+  position: relative;
+  overflow: auto;
+}
+
+.slideshow__inner-frame {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  position: relative;
+  
+}
+
+.slide__overlay {
+  display: none;
+}
