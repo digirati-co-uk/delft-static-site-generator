@@ -6,11 +6,60 @@
 
 // You can delete this file if you're not using it
 const path = require("path");
+const fs = require('fs');
+
+
+const createCollectionPages = createPage => {
+  const collectionTemplate = path.resolve(`src/pages/Collection/collection.js`);
+  const collectionsPath = './src/collections';
+  fs
+    .readdirSync(collectionsPath)
+    .filter(
+      item => 
+        fs.statSync(path.join(collectionsPath, item)).isFile() &&
+        path.extname(item) === '.json'
+    ).map(
+      item => path.join(collectionsPath, item)
+    ).forEach(
+      item => {
+        const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
+        createPage({
+          path: pathname,
+          component: collectionTemplate,
+          context: JSON.parse(fs.readFileSync(item))
+        });
+      }
+    );
+};
+
+const createExhibitionPages = createPage => {
+  const exhibitionTemplate = path.resolve(`src/pages/Exhibition/exhibition.js`);
+  const exhibitionsPath = './src/exhibitions';
+  fs
+    .readdirSync(exhibitionsPath)
+    .filter(
+      item => 
+        fs.statSync(path.join(exhibitionsPath, item)).isFile() &&
+        path.extname(item) === '.json'
+    ).map(
+      item => path.join(exhibitionsPath, item)
+    ).forEach(
+      item => {
+        const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
+        createPage({
+          path: pathname,
+          component: exhibitionTemplate,
+          context: JSON.parse(fs.readFileSync(item))
+        });
+      }
+    );
+};
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
-  const mdTemplate = path.resolve(`src/pages/Markdown/markdown.js`)
+  createCollectionPages(createPage);
+  createExhibitionPages(createPage);
+  const mdTemplate = path.resolve(`src/pages/Markdown/markdown.js`);
 
   return graphql(`
     {
@@ -40,5 +89,5 @@ exports.createPages = ({ actions, graphql }) => {
         context: {}, // additional data can be passed via context
       })
     })
-  })
+  });
 };

@@ -13,17 +13,17 @@ Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et,
 
 <div class="block-1-1">
 
-[Test Collection](/collection/test)
+[Test Collection](/collections/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/collection/test)
+[Test Collection](/collections/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/collection/test)
+[Test Collection](/collections/test)
 </div>
 
 
@@ -31,15 +31,15 @@ Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et,
 
 <div class="block-1-1">
 
-[Test Collection](/collection/test)
+[Test Collection](/collections/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/collection/test)
+[Test Collection](/collections/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/collection/test)
+[Test Collection](/collections/test)
 </div>

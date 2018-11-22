@@ -9,7 +9,7 @@ title: "Front Page"
 Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
 <section class="block-2-1">
 
-[Test title](/collection/test)
+[Test title](/collections/test)
 </section>
 <div class="block-1-1">
 
@@ -22,7 +22,7 @@ Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  offi
 
 <div class="block-2-1">
 
-[it is totally different](/collection/test)
+[it is totally different](/collections/test)
 </div>
 
 <div class="block-2-1 bg-yellow">
@@ -33,12 +33,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh 
 
 <div class="block-1-1">
 
-[asdsda](/collection/test)
+[asdsda](/collections/test)
 </div>
 
 <section class="block-2-1">
 
-[Test title](/collection/test)
+[Test title](/collections/test)
 </section>
 <div class="block-1-1">
 
@@ -51,5 +51,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh 
 
 <div class="block-2-1">
 
-[it is totally different](/collection/test)
+[it is totally different](/collections/test)
 </div>
