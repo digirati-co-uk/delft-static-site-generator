@@ -4,4 +4,18 @@ menu: Page Templates
 ---
 
 
+import { Playground, PropsTable } from 'docz';
+import GatsbyDemoHelper from '../gatsby-demo-helper';
+import FrontPage from './index';
+
 # Front Page
+
+<Playground>
+  <GatsbyDemoHelper>
+    <FrontPage data={{
+      markdownRemark: {
+        html: '<h1>Display page</h1>'
+      }
+    }}/>
+  </GatsbyDemoHelper>
+</Playground>
