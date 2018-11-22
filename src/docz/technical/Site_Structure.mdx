@@ -1,0 +1,256 @@
+---
+title: Static Site Structure and Editorial Process
+menu: Technical Documentation
+---
+
+# Static Site Structure and Editorial Process
+
+We are using gatsby to generate the static site, therefore the basic workflow is essentially 
+the same. 
+
+For the fixed elements of the site React components being used (e.g. Header, Menu, IIIFSlideShow 
+viewer). A basic documentation for these components can be found under the `Components` section 
+on the left main menu.
+
+The github repository has been connected to netlify, thus the site will be rebuilt after every 
+push to github. And the endresults will be visible at:
+
+[https://delft-static-site-generator.netlify.com](https://delft-static-site-generator.netlify.com)
+
+
+## Folder structure
+
+The `content` folder contains the regular pages for the website. Front Matter being used 
+on top of the documents in order to provide extra information for the templating engine about 
+the page. Essentially it is a YAML metadata descriptior for the content. 
+
+```YAML
+---
+path: "/publications/brute-force-the-rise-and-fall-of-brutalism"
+date: "2018-11-15"
+title: "Brute Force: the rise and fall of Brutalism"
+---
+```
+
+Where `path` will be the final location for the document on the website. The `title` will 
+appear in the browser's tabbar can be different than the level 1 header in the document.
+
+
+The `src/static` folder can contaion non IIIF images, extra scripts and styles. 
+
+The raw collection manifests placed under the `src/collections` directory.
+
+And the `src/exhibitions` folder is designed to process IIIF Presentation v3 manifest for the exhibitions.
+
+
+### Publications
+
+Publications have two special features:
+- Table of contents being generated
+- The editors can add footnotes and the footnotes getting rendered in a block underneath the content.
+
+### Collections and Exhibitions Page
+
+The collections and exhibition pages are regular md pages, this way the editors have full 
+control over the content, so it is not a programmatic listing.
+
+
+In order to create the designed blocks for the normal html being used:
+
+```
+<div class="block-1-1">
+
+[Test Collection](/collections/test)
+</div>
+```
+
+Please note that 1 empty line after the html markup is required for the markdown engine t
+o return to it's original state and process markdown again.
+
+
+### Collection Object
+  - special markup for the mentions
+### Exhibition Page
+
+## Basic Md Pages
+
+The full set of the [markdown syntax](https://www.markdownguide.org/basic-syntax/) can be 
+used in tandem with [html markup](https://www.w3.org/TR/2011/WD-html-markup-20110113/).
+
+### Basics, differences;
+### Auto generating TOC;
+
+### Enabling footnotes;
+### Adding Images;
+### Adding Zoomable images;
+
+## Adding HTML, JS, Extra Css to the compiled md
+
+Adding basic `HTML` and additional `scripts` and `css` is easy, can be done by adding it inline. 
+Note that not all markdown processors will be able to display this content so for example on github 
+these blocks will not appear as HTML, CSS and the javascript will not getting evaluated. On the other 
+hand, `gatsby.js` has a development server which provides preview for the content. To run the 
+development server please follow the instructions at [the inro section](./).
+
+To add extra html, open the file you want to edit and type the HTML block wherever you want to place it 
+in the text flow. So for example if you want to add an embedded youtube video in your article the following 
+markup will work fine:
+
+```md
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius at ipsum nec lacinia. Nunc facilisis 
+dignissim feugiat. Vestibulum venenatis leo eros, ut scelerisque orci feugiat at. Aliquam nec pulvinar 
+erat, quis bibendum lacus. Mauris dignissim nibh vitae nunc elementum rhoncus. Ut vestibulum neque tortor, 
+vitae varius risus ultrices a. Duis viverra aliquam tincidunt.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NLoenod6SOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Proin quis sollicitudin nulla, et lacinia dui. Maecenas eu scelerisque massa, quis tempor orci. Praesent 
+pretium lacinia arcu. Suspendisse eget dictum massa. Cras a erat tristique, semper lacus a, placerat 
+nibh. Donec gravida molestie tincidunt. Curabitur non mi sem. Donec consequat vel tellus et dictum.
+
+```
+
+<div style={{ border: 'grey 1px solid', padding: '16px'}}>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius at ipsum nec lacinia. Nunc facilisis 
+dignissim feugiat. Vestibulum venenatis leo eros, ut scelerisque orci feugiat at. Aliquam nec pulvinar 
+erat, quis bibendum lacus. Mauris dignissim nibh vitae nunc elementum rhoncus. Ut vestibulum neque tortor, 
+vitae varius risus ultrices a. Duis viverra aliquam tincidunt.
+
+<div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NLoenod6SOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+Proin quis sollicitudin nulla, et lacinia dui. Maecenas eu scelerisque massa, quis tempor orci. Praesent 
+pretium lacinia arcu. Suspendisse eget dictum massa. Cras a erat tristique, semper lacus a, placerat 
+nibh. Donec gravida molestie tincidunt. Curabitur non mi sem. Donec consequat vel tellus et dictum.
+
+</div>
+
+Notice the empty like after the iframe element, that indicates to the markdown engine that it can return to 
+its markdown processing state. If theres no empty line between the HTML fragment and the next paragraph, 
+then the next paragraph will be processed as HTML.
+
+Adding styles is the same as in HTML. Linked stylesheets, inline style attributes and style tags can be used. So 
+for example if we want the video in the previous example to occupy the full with of the parent, we can add the 
+following inline style definition.
+
+```md
+<style type="text/css">
+  .flexy-vid {
+    height: 0;
+    margin-bottom: 0.88889rem;
+    overflow: hidden;
+    padding-bottom: 67.5%;
+    padding-top: 1.38889rem;
+    position: relative;
+  }
+  .flexy-vid iframe {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+</style>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius at ipsum nec lacinia. Nunc facilisis 
+dignissim feugiat. Vestibulum venenatis leo eros, ut scelerisque orci feugiat at. Aliquam nec pulvinar 
+erat, quis bibendum lacus. Mauris dignissim nibh vitae nunc elementum rhoncus. Ut vestibulum neque tortor, 
+vitae varius risus ultrices a. Duis viverra aliquam tincidunt.
+
+<div class="flexy-vid">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/NLoenod6SOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+Proin quis sollicitudin nulla, et lacinia dui. Maecenas eu scelerisque massa, quis tempor orci. Praesent 
+pretium lacinia arcu. Suspendisse eget dictum massa. Cras a erat tristique, semper lacus a, placerat 
+nibh. Donec gravida molestie tincidunt. Curabitur non mi sem. Donec consequat vel tellus et dictum.
+
+```
+
+<div style={{ border: 'grey 1px solid', padding: '16px'}}>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius at ipsum nec lacinia. Nunc facilisis 
+dignissim feugiat. Vestibulum venenatis leo eros, ut scelerisque orci feugiat at. Aliquam nec pulvinar 
+erat, quis bibendum lacus. Mauris dignissim nibh vitae nunc elementum rhoncus. Ut vestibulum neque tortor, 
+vitae varius risus ultrices a. Duis viverra aliquam tincidunt.
+
+
+<div 
+  style={{
+    height: 0,
+    marginBottom: '0.88889rem',
+    marginTop: 16,
+    overflow: 'hidden',
+    paddingBottom: '67.5%',
+    paddingTop: '1.38889rem',
+    position: 'relative',
+  }}>
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/NLoenod6SOA" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style={{
+      height: '100%',
+      position: 'absolute',
+      top: 0,
+      width: '100%',
+      left: 0,
+    }}
+  ></iframe>
+</div>
+
+Proin quis sollicitudin nulla, et lacinia dui. Maecenas eu scelerisque massa, quis tempor orci. Praesent 
+pretium lacinia arcu. Suspendisse eget dictum massa. Cras a erat tristique, semper lacus a, placerat 
+nibh. Donec gravida molestie tincidunt. Curabitur non mi sem. Donec consequat vel tellus et dictum.
+
+</div>
+
+Obviously inline styles are not effective for this scenario, because embedded videos can occur anywhere on 
+the site, so it should be included in a linked stylesheet. The example was to demonstrate the possibilities.
+
+
+## Special links
+- Exhibitions 
+- Collections
+
+## Cross Browser and device testing
+
+The initial development is done on chrome. After Digirati received the final designs, we start to implement it. After 
+the design implementation finished we address the cross browser issues. There are exceptions, the known to be problematic 
+parts:
+  - Object Clipping [(case study)](./docz-technical-object-clipping)
+  - Canvas Panel / Slideshow demos (WIP)
+
+
+The following [browsers](https://digirati-browser-support.netlify.com/) will be supported:
+
+*Windows*
+
+- Internet Explorer 11
+- Edge (latest versions)
+- Chrome (latest versions)
+- Firefox (latest versions) (edited)
+
+*macOS*
+
+- Safari 9+
+- Google Chrome (latest versions)
+- Mozilla Firefox (latest versions)
+
+*iOS*
+
+- Safari for iOS 9.3+
+- Google Chrome (latest versions)
+
+*Android*
+
+- Google Chrome (latest versions)
+
+
+Testing will be carried out using Browser-Stack and for couple of days 'real' browsers and physical devices.
