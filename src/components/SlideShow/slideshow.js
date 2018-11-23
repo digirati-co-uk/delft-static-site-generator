@@ -227,5 +227,5 @@ class SlideShow extends Component {
     );
   }
 }
-
-export default withBemClass('slideshow')(SlideShow);
+// NOTE: this is because Gatsby.js client only hack...
+export default typeof withBemClass === 'function' ? withBemClass('slideshow')(SlideShow) : SlideShow;
