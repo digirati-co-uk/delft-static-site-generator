@@ -13,11 +13,11 @@ Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  offi
 </section>
 <div class="block-1-1">
 
-[Ohter test title](/exhibition/test)
+[Ohter test title](/exhibitions/test)
 </div>
 <div class="block-1-1">
 
-[something else](/exhibition/asd)
+[something else](/exhibitions/asd)
 </div>
 
 <div class="block-2-1">
@@ -42,11 +42,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh 
 </section>
 <div class="block-1-1">
 
-[Ohter test title](/exhibition/test)
+[Ohter test title](/exhibitions/test)
 </div>
 <div class="block-1-1">
 
-[something else](/exhibition/asd)
+[something else](/exhibitions/asd)
 </div>
 
 <div class="block-2-1">

@@ -10,17 +10,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus urna, congue i
 
 <div class="block-1-1">
 
-[Test Collection](/exhibition/test)
+[Test Exhibition](/exhibitions/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/exhibition/test)
+[Test Exhibition](/exhibitions/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/exhibition/test)
+[Test Exhibition](/exhibitions/test)
 </div>
 
 
@@ -30,15 +30,15 @@ Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et,
 
 <div class="block-1-1">
 
-[Test Collection](/exhibition/test)
+[Test Exhibition](/exhibitions/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/exhibition/test)
+[Test Exhibition](/exhibitions/test)
 </div>
 
 <div class="block-1-1">
 
-[Test Collection](/exhibition/test)
+[Test Exhibition](/exhibitions/test)
 </div>
