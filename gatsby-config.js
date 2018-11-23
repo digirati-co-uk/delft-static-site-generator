@@ -22,6 +22,15 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-numbered-footnotes',
+          {
+            resolve: 'gatsby-remark-toc',
+            options: {
+              header: 'Table of Contents', // the custom header text
+              include: [
+                `content/publications/**/*.md` // an include glob to match against
+              ]
+            }
+          }
         ],
       },
     },

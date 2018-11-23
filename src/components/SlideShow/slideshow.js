@@ -38,7 +38,6 @@ const ManifestCabinet = ({
   // TODO: finalize this without set timeout
   setTimeout(()=> {
     const selectedThumb = document.querySelector('.selected-thumbnail');
-    console.log(selectedThumb.parentNode.parentNode.offsetWidth, selectedThumb.offsetWidth, selectedThumb.offsetLeft, selectedThumb);
     selectedThumb.parentNode.parentNode.scrollLeft = 
       selectedThumb.offsetLeft > selectedThumb.parentNode.parentNode.offsetWidth - selectedThumb.offsetWidth 
         ? selectedThumb.offsetLeft - (selectedThumb.parentNode.parentNode.offsetWidth - selectedThumb.offsetWidth)
