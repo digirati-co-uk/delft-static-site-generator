@@ -21,22 +21,33 @@ class CollectionPage extends React.Component {
     const { renderSlideShow } = this.state;
     return (
       <Layout>
-        <h2>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label=='Title').map(item=>item.value).join(' ')}</h2>
         <div id="slideshow" style={{ width: '100vw', height: '80vh' }}>
           { renderSlideShow }
         </div>
-        <section>
-          <h3>Part of Collections</h3>
+        <div className="article-main">
+          <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label=='Title').map(item=>item.value).join(' ')}</h1>
+          {
+            pageContext && 
+            pageContext.metadata && 
+            pageContext.metadata.filter(
+              item=>item.label=='Description'
+            ).map(
+              item=>item.value
+            )
+            .join('\n')
+            .split('\n')
+            .map(
+              paragraph=>(<p>{paragraph}</p>)
+            )}
+          <h2>Part of Collections</h2>
           <ul>
             <li>Test collection</li>
           </ul>
-        </section>
-        <section>
-          <h3>Part of Exhibitions</h3>
+          <h2>Part of Exhibitions</h2>
           <ul>
             <li>Test Exhibition</li>
           </ul>
-        </section>
+        </div>
         {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
       </Layout>
     )

@@ -7,9 +7,9 @@ title: "Front Page"
 ## Welcome  to  the  Digital  Archive  of  TU  Delft
 
 Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
-<section class="block-2-1 light">
+<section class="block-2-1">
 
-[Test title](/collections/test2)
+[Forth Bridge illustrations 1886-1887](/collections/test3)
 </section>
 <div class="block-1-1">
 
@@ -17,12 +17,12 @@ Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  offi
 </div>
 <div class="block-1-1">
 
-[something else](/exhibitions/asd)
+[something else](/exhibitions/test)
 </div>
 
 <div class="block-2-1 light">
 
-[it is totally different](/collections/test)
+[it is totally different](/collections/test2)
 </div>
 
 <div class="block-2-1 bg-yellow">
@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh 
 
 <div class="block-1-1 light">
 
-[asdsda](/collections/test)
+[asdsda](/collections/test3)
 </div>
 
 <section class="block-2-1 light">
@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh 
 </div>
 <div class="block-1-1">
 
-[something else](/exhibitions/asd)
+[something else](/exhibitions/test)
 </div>
 
 <div class="block-2-1 light">

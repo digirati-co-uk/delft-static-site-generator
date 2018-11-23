@@ -16,14 +16,17 @@ import {
 } from '@canvas-panel/slideshow';
 
 import './slideshow.css';
+
 const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
   const thumb = thumbnail.__jsonld;
   if ((pWidth || pHeight) && thumb.hasOwnProperty('sizes')) {
      //TODO: compute the sizes properly
+    let thumbUrlParts = (thumb.id || thumb['@id']).split('/');
+    thumbUrlParts[thumbUrlParts.length-3] = ',100';
+    return thumbUrlParts.join('/');
+  } else {
+    return (thumb.id || thumb['@id']);
   }
-  let thumbUrlParts = (thumb.id || thumb['@id']).split('/');
-  thumbUrlParts[thumbUrlParts.length-3] = ',100';
-  return thumbUrlParts.join('/');
 }
 
 const ManifestCabinet = ({
@@ -71,6 +74,7 @@ const ManifestCabinet = ({
               style={{
                 border: canvasId === (currentCanvas.id || currentCanvas['@id']) ? '8px solid white' : '8px solid black',
                 margin: 0,
+                height: '100%',
               }}
               className={canvasId === (currentCanvas.id || currentCanvas['@id']) ? 'selected-thumbnail' : ''}
               onClick={()=>goToRange(index)}
