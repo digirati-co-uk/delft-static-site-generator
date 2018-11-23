@@ -3,16 +3,16 @@ import { graphql } from "gatsby";
 import Layout from '../../components/Layout/layout';
 import substituteSpecialLinks from '../../utils';
 
-const Markdown = ({ data }) => (
+const Markdown = ({ pageContext, data }) => (
   <Layout>
-      <div
-        className="article-main"
-        dangerouslySetInnerHTML={{ 
-          __html: data.markdownRemark 
-            ? substituteSpecialLinks(data.markdownRemark.html)
-            : ''
-        }}
-      />
+    <div
+      className="article-main"
+      dangerouslySetInnerHTML={{ 
+        __html: data.markdownRemark 
+          ? substituteSpecialLinks(data.markdownRemark.html, pageContext)
+          : ''
+      }}
+    />
   </Layout>
 );
 

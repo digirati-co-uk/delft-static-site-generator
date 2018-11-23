@@ -146,6 +146,13 @@
 .bg-yellow {
   background: yellow;
 }
+
+.light, 
+.light a,
+.light a span {
+  color: white;
+
+}
   
 .cover-link {
   width: 100%;
@@ -162,6 +169,8 @@
   font-size: 2rem;
   line-height: 1.2;
   text-align: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .cover-link>span {

@@ -12,7 +12,7 @@ const fs = require('fs');
 const createCollectionPages = createPage => {
   const collectionTemplate = path.resolve(`src/pages/Collection/collection.js`);
   const collectionsPath = './src/collections';
-  fs
+  return fs
     .readdirSync(collectionsPath)
     .filter(
       item => 
@@ -20,15 +20,18 @@ const createCollectionPages = createPage => {
         path.extname(item) === '.json'
     ).map(
       item => path.join(collectionsPath, item)
-    ).forEach(
-      item => {
+    ).reduce(
+      (thumbnails, item) => {
         const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
+        const context = JSON.parse(fs.readFileSync(item));
         createPage({
           path: pathname,
           component: collectionTemplate,
-          context: JSON.parse(fs.readFileSync(item))
+          context: context,
         });
-      }
+        thumbnails[pathname] = context.sequences[0].canvases[0].thumbnail['@id'];
+        return thumbnails;
+      }, {}
     );
 };
 
@@ -57,7 +60,7 @@ const createExhibitionPages = createPage => {
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-  createCollectionPages(createPage);
+  const collectionThumbnails = createCollectionPages(createPage);
   createExhibitionPages(createPage);
   const mdTemplate = path.resolve(`src/pages/Markdown/markdown.js`);
 
@@ -69,6 +72,7 @@ exports.createPages = ({ actions, graphql }) => {
       ) {
         edges {
           node {
+            html
             frontmatter {
               path
             }
@@ -83,10 +87,23 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      const manifestLinks = node.html.match(
+        /<a href="(\/(collection|exhibition)s\/.*)">/g
+      );
+      const thumbnails = (manifestLinks||[]).reduce((t, item) => {
+        const pathname = item.split('"')[1].substr(1);
+        console.log(node.frontmatter.path, pathname, collectionThumbnails[pathname]);
+        if (collectionThumbnails.hasOwnProperty(pathname)) {
+          t[pathname] = collectionThumbnails[pathname];
+        }
+        return t;
+      }, {});
       createPage({
         path: node.frontmatter.path,
         component: mdTemplate,
-        context: {}, // additional data can be passed via context
+        context: {
+          thumbnails: thumbnails,
+        }, // additional data can be passed via context
       })
     })
   });
