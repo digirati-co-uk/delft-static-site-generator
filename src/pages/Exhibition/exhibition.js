@@ -122,7 +122,7 @@ const ExhibitionPage = (props) => (
                       }}
                     >
                       {canvas.items &&
-                        canvas.items[0].items.map(
+                        (canvas.items[0].items || []).map(
                           annotation=> (
                             annotation.motivation=='painting' 
                               ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)}/>
