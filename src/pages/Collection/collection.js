@@ -25,12 +25,12 @@ class CollectionPage extends React.Component {
           { renderSlideShow }
         </div>
         <div className="article-main">
-          <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label=='Title').map(item=>item.value).join(' ')}</h1>
+          <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label==='Title').map(item=>item.value).join(' ')}</h1>
           {
             pageContext && 
             pageContext.metadata && 
             pageContext.metadata.filter(
-              item=>item.label=='Description'
+              item=>item.label==='Description'
             ).map(
               item=>item.value
             )
