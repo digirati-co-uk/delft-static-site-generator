@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout/layout';
+import CanvasModal from '../../components/CanvasModal/CanvasModal';
 
 
 const filterToPreferredChoices = choices => {
@@ -27,12 +28,13 @@ const IIIFVideoAnnotationCover = ({body, position}) => (
   <div style={position}>
     <video
       src={body.id} 
-      width={body.width} 
-      height={body.height} 
+      width={'100%'/*body.width*/} 
+      height={'100%'/*body.height*/} 
       controls 
       style={{
         width: '100%',
-        objectFit: 'cover'
+        height: '100%'
+        //objectFit: 'cover'
     }}
     >
     </video>
@@ -90,18 +92,6 @@ const AnnotationBodyRenderer = ({body, position}) => (
       )
     )}
   </>
-);
-
-const CanvasModal = ({ canvas, hideCanvasDetails }) => (
-  canvas 
-    ? (
-      <div style={{position: 'fixed', width: '100%', height: '100%', top: 0, left: 0, background: 'rgba(0,0,0,0.5)', padding: 32}}>
-        <div style={{ width: '100%', height: '100%', background: 'grey' }}>
-          <button onClick={hideCanvasDetails}>close</button>canvas selected
-        </div>
-      </div>
-    )
-    : ''
 );
 
 class ExhibitionPage extends React.Component {
@@ -172,7 +162,7 @@ class ExhibitionPage extends React.Component {
                           (canvas.items[0].items || []).map(
                             annotation=> (
                               annotation.motivation === 'painting' 
-                                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)}/>
+                                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
                                 : <div 
                                     style={
                                       Object.assign(
@@ -183,8 +173,23 @@ class ExhibitionPage extends React.Component {
                                       (annotation.label 
                                         ? annotation.label.en || [] : []).join('')
                                     } />
-                                  
-                              
+                            ))
+                        }
+                        {canvas.annotations &&
+                          (canvas.annotations[0].items || []).map(
+                            annotation=> (
+                              annotation.motivation === 'painting' 
+                                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
+                                : <div 
+                                    style={
+                                      Object.assign(
+                                        xywhResolver(annotation, canvas),
+                                        {border: '2px dashed red'}
+                                      )} 
+                                    title={
+                                      (annotation.label 
+                                        ? annotation.label.en || [] : []).join('')
+                                    } />
                             ))
                         }
                         {!canvas.summary && (
@@ -200,9 +205,8 @@ class ExhibitionPage extends React.Component {
                               alignItems: 'center',
                               justifyContent: 'flex-end',
                               pointerEvents: 'none',
-                            }}
-                          >
-                            <h2>{(canvas.label ? canvas.label.en ||[] : []).join('')}</h2>
+                                                            }}
+                          > <h2>{(canvas.label ? canvas.label.en ||[] : []).join('')}</h2>
                           </div>
                         )}
                       </div>
@@ -218,7 +222,7 @@ class ExhibitionPage extends React.Component {
                 </div>
             ))}
         </div>
-        <CanvasModal canvas={this.state.selectedCanvas} hideCanvasDetails={this.hideCanvasDetails} />
+        <CanvasModal canvas={this.state.selectedCanvas} manifest={manifest} hideCanvasDetails={this.hideCanvasDetails} />
         <p>DEBUG pageContext:</p>
         <pre>{JSON.stringify(this.props, null, 2)}</pre>
       </Layout>

@@ -258,7 +258,15 @@
                   "type": "Image",
                   "id": "https://dlcs.io/iiif-img/wellcome/1/73ebe57c-26f0-4d02-bf54-177bc22055b8/full/!1024,1024/0/default.jpg"
                 }
-              },
+              }
+            ],
+            "id": "http://digirati.com/iiif/v3/temporary/canvas/c3-ap0"
+          }
+        ],
+        "annotations": [
+          {
+            "type": "AnnotationPage",
+            "items": [
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-2",
                 "type": "Annotation",
@@ -323,8 +331,7 @@
                 },
                 "target": "http://digirati.com/iiif/v3/temporary/canvas/c3#xywh=1436,1645,1114,1400"
               }
-            ],
-            "id": "http://digirati.com/iiif/v3/temporary/canvas/c3-ap0"
+            ]
           }
         ]
       },
@@ -442,8 +449,8 @@
             "video canvas"
           ]
         },
-        "height": 442,
-        "width": 1000,
+        "height": 704,
+        "width": 1280,
         "type": "Canvas",
         "id": "http://digirati.com/iiif/v3/temporary/canvas/c4",
         "items": [
@@ -465,11 +472,11 @@
                 "body": {
                   "id": "https://www.w3schools.com/html/mov_bbb.mp4",
                   "type": "Video",
-                  "height": 320,
-                  "width": 176,
+                  "width": 320,
+                  "height": 176,
                   "duration": 1
                 },
-                "target": "http://digirati.com/iiif/v3/temporary/canvas/c4#xywh=0,0,1001,441"
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c4"
               }
             ],
             "id": "http://digirati.com/iiif/v3/temporary/list/c4-ap1"

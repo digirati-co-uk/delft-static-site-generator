@@ -157,7 +157,6 @@ class SlideShow extends Component {
                     region,
                     goToRange,
                   } = rangeProps;
-                  console.log(manifest);
                   const allThumbnails = manifest.getSequences().reduce(
                     (sequenceThumbnails, sequence) => 
                       Object.assign(
