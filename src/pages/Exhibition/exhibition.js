@@ -11,9 +11,16 @@ const filterToPreferredChoices = choices => {
 }
 
 const IIIFImageAnnotationCover = ({body, position}) => body.service ? (
-  <img src={body.service[0].id.replace('info.json','') + '/full/full/0/default.jpg'} style={position}/>
+  <img 
+    src={body.service[0].id.replace('info.json','') + '/full/full/0/default.jpg'} 
+    style={position}
+    alt=""
+  />
 ) : (
-  <img src={body.id} style={position}/>
+  <img 
+    src={body.id} style={position} 
+    alt=""
+  />
 );
 
 const IIIFVideoAnnotationCover = ({body, position}) => (
@@ -23,15 +30,20 @@ const IIIFVideoAnnotationCover = ({body, position}) => (
       width={body.width} 
       height={body.height} 
       controls 
-      style={{width: '100%', objectFit: 'cover'}}
+      style={{
+        width: '100%',
+        objectFit: 'cover'
+    }}
     >
     </video>
   </div>
 );
 
-const IIIFTextAnnotationCover = ({body, position}) => {
-
-};
+const IIIFTextAnnotationCover = ({body, position}) => (
+  <div style={position}>
+    {body.value}
+  </div>
+);
 
 const xywhResolver = (annotation, canvas) => {
   const xywhMatch = annotation.target.match(
@@ -64,13 +76,13 @@ const xywhResolver = (annotation, canvas) => {
 const AnnotationBodyRenderer = ({body, position}) => (
   <>
     {body.type==="Text" && (
-      <p style={position}>{body.value}</p>
+      <IIIFTextAnnotationCover style={position} body={body} />
     )}
     {body.type==="Image" && (
       <IIIFImageAnnotationCover body={body} position={position}/>
     )}
     {body.type==="Video" && (
-      <IIIFVideoAnnotationCover  body={body} position={position}/>
+      <IIIFVideoAnnotationCover  body={body} position={position} />
     )}
     {body.type === "Choice" && (
       filterToPreferredChoices(body.items).map(
@@ -80,101 +92,139 @@ const AnnotationBodyRenderer = ({body, position}) => (
   </>
 );
 
-const ExhibitionPage = (props) => (
-  <Layout>
-      <h2>This is a exhibit page (WIP)</h2>
-      <div style={{display: 'flex', flexWrap: 'wrap'}}>
-          {props.pageContext.items.map(canvas=> (
-              <div
-                className={
-                  canvas.behaviours && 
-                  canvas.behaviours.length > 0 
-                    ? canvas.behaviours.join(' ')
-                    : 'listing-size-2-1'
-                }
-              >
+const CanvasModal = ({ canvas, hideCanvasDetails }) => (
+  canvas 
+    ? (
+      <div style={{position: 'fixed', width: '100%', height: '100%', top: 0, left: 0, background: 'rgba(0,0,0,0.5)', padding: 32}}>
+        <div style={{ width: '100%', height: '100%', background: 'grey' }}>
+          <button onClick={hideCanvasDetails}>close</button>canvas selected
+        </div>
+      </div>
+    )
+    : ''
+);
+
+class ExhibitionPage extends React.Component {
+  state = {
+    selectedCanvas: null,
+  };
+
+  showCanvasDetails = canvas => () => {
+    this.setState({
+      selectedCanvas: canvas,
+    });
+  };
+  
+  hideCanvasDetails = () => {
+    this.setState({
+      selectedCanvas: null,
+    })
+  };
+
+  render() {
+    const manifest = this.props.pageContext;
+    return (
+      <Layout>
+        <h2>This is a exhibit page (WIP)</h2>
+        <div style={{display: 'flex', flexWrap: 'wrap'}}>
+            {manifest.items.map(canvas=> (
                 <div
-                  style={{
-                    width: canvas.summary ? '50%' : '100%', 
-                    height: '100%', 
-                    overflow: 'hidden', 
-                    position: 'absolute',
-                  }}
+                  className={
+                    canvas.behaviours && 
+                    canvas.behaviours.length > 0 
+                      ? canvas.behaviours.join(' ')
+                      : 'listing-size-2-1'
+                  }
                 >
-                  <div style={{
-                    width: '100%',
-                    height: '100%',
-                    padding: '0 ' + (
-                      canvas.height > canvas.width 
-                        ? ((canvas.height - canvas.width )/ 2 / canvas.width * 100) + '%'
-                        : 0),
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}>
+                  <div
+                    style={{
+                      width: canvas.summary ? '50%' : '100%', 
+                      height: '100%', 
+                      overflow: 'hidden', 
+                      position: 'absolute',
+                    }}
+                  >
                     <div
                       style={{
-                        width: '100%', 
-                        height: 0,
-                        position: 'relative',
-                        paddingBottom: (canvas.height/canvas.width * 100) + '%', 
-                        background: 'lightgray',
+                        width: '100%',
+                        height: '100%',
+                        padding: '0 ' + (
+                          canvas.height > canvas.width 
+                            ? ((canvas.height - canvas.width )/ 2 / canvas.width * 100) + '%'
+                            : 0),
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        cursor: 'pointer',
                       }}
+                      onClick={this.showCanvasDetails(canvas)}
                     >
-                      {canvas.items &&
-                        (canvas.items[0].items || []).map(
-                          annotation=> (
-                            annotation.motivation=='painting' 
-                              ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)}/>
-                              : <div 
-                                  style={
-                                    Object.assign(
-                                      xywhResolver(annotation, canvas),
-                                      {border: '2px dashed red'}
-                                    )} 
-                                  title={
-                                    (annotation.label 
-                                      ? annotation.label.en || [] : []).join('')
-                                  } />
-                                
-                            
-                          ))
-                      }
-                      {!canvas.summary && (
-                        <div
-                          style={{
-                            position: 'absolute',
-                            top:0,
-                            left:0,
-                            bottom: 0,
-                            right: 0,
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            pointerEvents: 'none',
-                          }}
-                        >
-                          <h2>{(canvas.label ? canvas.label.en ||[] : []).join('')}</h2>
-                        </div>
-                      )}
+                      <div
+                        style={{
+                          width: '100%', 
+                          height: 0,
+                          position: 'relative',
+                          paddingBottom: (canvas.height/canvas.width * 100) + '%', 
+                          background: 'lightgray',
+                        }}
+                      >
+                        {canvas.items &&
+                          (canvas.items[0].items || []).map(
+                            annotation=> (
+                              annotation.motivation === 'painting' 
+                                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)}/>
+                                : <div 
+                                    style={
+                                      Object.assign(
+                                        xywhResolver(annotation, canvas),
+                                        {border: '2px dashed red'}
+                                      )} 
+                                    title={
+                                      (annotation.label 
+                                        ? annotation.label.en || [] : []).join('')
+                                    } />
+                                  
+                              
+                            ))
+                        }
+                        {!canvas.summary && (
+                          <div
+                            style={{
+                              position: 'absolute',
+                              top:0,
+                              left:0,
+                              bottom: 0,
+                              right: 0,
+                              display: 'flex',
+                              flexDirection: 'column',
+                              alignItems: 'center',
+                              justifyContent: 'flex-end',
+                              pointerEvents: 'none',
+                            }}
+                          >
+                            <h2>{(canvas.label ? canvas.label.en ||[] : []).join('')}</h2>
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
+                  {canvas.summary && (
+                    <div style={{ position: 'absolute', left: '50%',width: '50%', boxSizing: 'border-box', padding: 32}}>
+                      <h2>{(canvas.label ? canvas.label.en ||[] : []).join('')}</h2>
+                      <p>{(canvas.summary ? canvas.summary.en ||[] : []).join('')}</p>
+                      <a>Read More</a>
+                    </div>
+                  )}
                 </div>
-                {canvas.summary && (
-                  <div style={{ position: 'absolute', left: '50%',width: '50%', boxSizing: 'border-box', padding: 32}}>
-                    <h2>{(canvas.label ? canvas.label.en ||[] : []).join('')}</h2>
-                    <p>{(canvas.summary ? canvas.summary.en ||[] : []).join('')}</p>
-                    <a>Read More</a>
-                  </div>
-                )}
-              </div>
-          ))}
-      </div>
-      <p>DEBUG pageContext:</p>
-      <pre>{JSON.stringify(props, null, 2)}</pre>
-  </Layout>
-);
+            ))}
+        </div>
+        <CanvasModal canvas={this.state.selectedCanvas} hideCanvasDetails={this.hideCanvasDetails} />
+        <p>DEBUG pageContext:</p>
+        <pre>{JSON.stringify(this.props, null, 2)}</pre>
+      </Layout>
+    )
+  };
+} 
 
 export default ExhibitionPage;
 
