@@ -72,7 +72,7 @@ const CanvasModal = ({ canvas, hideCanvasDetails }) => (
                           </div>
                           <div className={'canvas-modal__info-and-nav'}>
                             <div className={'canvas-modal__info'}>
-                              {console.log('region', region) && region}
+                              
                             </div>
                             <div className={'canvas-modal__nav'}>
                               <CanvasNavigation

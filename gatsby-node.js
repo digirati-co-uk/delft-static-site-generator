@@ -81,7 +81,6 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
   `).then(result => {
-      console.log(result);
     if (result.errors) {
       return Promise.reject(result.errors)
     }
@@ -92,7 +91,6 @@ exports.createPages = ({ actions, graphql }) => {
       );
       const thumbnails = (manifestLinks||[]).reduce((t, item) => {
         const pathname = item.split('"')[1].substr(1);
-        console.log(node.frontmatter.path, pathname, collectionThumbnails[pathname]);
         if (collectionThumbnails.hasOwnProperty(pathname)) {
           t[pathname] = collectionThumbnails[pathname];
         }
