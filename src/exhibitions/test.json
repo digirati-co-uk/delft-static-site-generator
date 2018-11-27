@@ -265,12 +265,13 @@
         ],
         "annotations": [
           {
+            "id": "http://digirati.com/iiif/v3/temporary/annot/c3-21",
             "type": "AnnotationPage",
             "items": [
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-2",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 2"
@@ -286,7 +287,7 @@
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-3",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 3"
@@ -302,7 +303,7 @@
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-4",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 4"
@@ -318,7 +319,7 @@
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-5",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 5"
