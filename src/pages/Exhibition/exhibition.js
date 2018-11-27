@@ -117,7 +117,7 @@ class ExhibitionPage extends React.Component {
       <Layout>
         <h2>This is a exhibit page (WIP)</h2>
         <div style={{display: 'flex', flexWrap: 'wrap'}}>
-            {manifest.items.map(canvas=> (
+            {manifest && manifest.items && manifest.items.map(canvas=> (
                 <div
                   className={
                     canvas.behaviours && 
