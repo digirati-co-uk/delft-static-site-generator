@@ -151,7 +151,6 @@ The following example demonstrates the simple image use case. The canvas propert
     "nl": [
       "Enkele afbeelding canvas"
     ]
-
   },
   "thumbnail": [
     {
@@ -225,6 +224,55 @@ The following example demonstrates the simple image use case. The canvas propert
 In this use case the canvas size will be matched to the IIIF image size on the editor. 
 
 If the source Manifest specifies a *thumbnail service* that will be automatically included.
+
+### Image cropping
+
+The fragment selector will be used on W3C Annotations to crop the images (and later videos as well). 
+
+
+```json
+{
+  ...
+  "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=10,10,200,300"
+  }
+}
+```
+
+The image annotation from the previous example look like this:
+
+```json
+{
+  "motivation": "painting",
+  "type": "Annotation",
+  "id": "https://wellcomelibrary.org/iiif/b29358346/imageanno/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+  "target": "https://wellcomelibrary.org/iiif/b29358346/canvas/c0",
+  "selector": {
+    "type": "FragmentSelector",
+    "conformsTo": "http://www.w3.org/TR/media-frags/",
+    "value": "xywh=300,300,500,300"
+  },
+  "body": {
+    "format": "image/jpeg",
+    "height": 4250,
+    "width": 3200,
+    "service": [
+      {
+        "profile": "http://iiif.io/api/image/2/level1.json",
+        "id": "https://dlcs.io/iiif-img/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+        "type": "ImageService2"
+      }
+    ],
+    "type": "Image",
+    "id": "https://dlcs.io/iiif-img/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2/full/!1024,1024/0/default.jpg"
+  }
+}
+```
+
+In this project the supported media fragment notations are from the [W3C Media Fragment Specification](https://www.w3.org/TR/media-frags/).
+Namely `xywh`, (`t` stretch goal).
 
 
 ## Video Canvas
@@ -475,6 +523,10 @@ TODO: Explanation
 Partial target selectors (`xywh`) used for selecting the points of interest on the canvas. Notice that the `target` properties 
 on the text annotations all have `#xywh=x,y,width,height`. All values in points/pixels, and the `x` and `y` coordinates are 
 from the the top left corner of the canvas.
+
+The `target` xywh can be combined with the FramgmentSelector for cropped images. Note that the order is alwas starts with the cropping of the image 
+specified by the FragmentSelector. And the cropped image get transformed to its final position defined by the `xywh` parameter defined on the `target` 
+property.
 
 The point of interest are all text annotations in this case with `motivation` set to `tagging`, because content of the tagging annotations are 
 not drawn on the canvas. 
