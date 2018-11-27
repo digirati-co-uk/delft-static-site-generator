@@ -114,5 +114,7 @@ ManifestCabinet.defaultProps = {
   showControls: false,
 };
 
-  
-export default withBemClass('manifest-cabinet')(ManifestCabinet);
+// NOTE: this is gatsby.js specific.
+export default typeof withBemClass === 'function' 
+  ? withBemClass('manifest-cabinet')(ManifestCabinet)
+  : ManifestCabinet;
