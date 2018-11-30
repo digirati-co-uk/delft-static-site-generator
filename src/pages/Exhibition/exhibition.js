@@ -223,8 +223,8 @@ class ExhibitionPage extends React.Component {
             ))}
         </div>
         <CanvasModal canvas={this.state.selectedCanvas} manifest={manifest} hideCanvasDetails={this.hideCanvasDetails} />
-        <p>DEBUG pageContext:</p>
-        <pre>{JSON.stringify(this.props, null, 2)}</pre>
+        {/* <p>DEBUG pageContext:</p>
+        <pre>{JSON.stringify(this.props, null, 2)}</pre> */}
       </Layout>
     )
   };

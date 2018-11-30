@@ -1,59 +1,61 @@
 import React from 'react';
 import Layout from '../../components/Layout/layout';
-import SlideShow from '../../components/SlideShow/slideshow';
+import { getTranslation } from '../../utils';
+import { Link } from 'gatsby';
 
-class CollectionPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      renderSlideShow: 'Loading...',
-    };
-  }
+const getThumbnailImageSource = thumbnail =>
+  typeof thumbnail === "string"
+    ? thumbnail
+    : Array.isArray(thumbnail)
+      ? getThumbnailImageSource(thumbnail[0])
+      : (thumbnail.id || thumbnail['@id']);
 
-  componentDidMount() {
-    // Client only hack
-    this.setState({
-      renderSlideShow: (<SlideShow jsonld={this.props.pageContext}/>) 
-    });
-  }
-  render() {
-    const { pageContext } = this.props;
-    const { renderSlideShow } = this.state;
-    return (
-      <Layout>
-        <div id="slideshow" style={{ width: '100vw', height: '80vh' }}>
-          { renderSlideShow }
+const CollectionPage = (props) => {
+  const { collection, objectLinks } = props.pageContext;
+  return (
+    <Layout>
+      <div className="article-main">
+        <h1>{collection && collection.label && getTranslation(collection.label, 'en')}</h1>
+        {
+          collection && 
+          collection.summary && 
+          getTranslation(collection.summary, 'en', '\n').split('\n')
+          .map(
+            paragraph=>(<p>{paragraph}</p>)
+          )}
+        <div className="object-listing">
+        { 
+          collection &&
+          collection.items && 
+          collection.items.filter(
+            resource => resource.type === 'Manifest'
+          ).map(
+            manifest =>
+              <div className="object-link">
+                <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image"/>
+                <div className="object-link__details">
+                  <h2 className="object-link__header">{getTranslation(manifest.label, 'en')}</h2>
+                  {manifest.summary 
+                    ? getTranslation(manifest.summary, 'en', '\n')
+                      .split('\n')
+                      .map(
+                        paragraph=>
+                          <p className="object-link__paragraph">
+                            {paragraph}
+                          </p>
+                      )
+                    : ''
+                  }
+                  <Link to={objectLinks[manifest.id||manifest['@id']]}>Read More</Link>
+                </div>
+              </div>
+          )
+        }
         </div>
-        <div className="article-main">
-          <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label==='Title').map(item=>item.value).join(' ')}</h1>
-          {
-            pageContext && 
-            pageContext.metadata && 
-            pageContext.metadata.filter(
-              item=>item.label==='Description'
-            ).map(
-              item=>item.value
-            )
-            .join('\n')
-            .split('\n')
-            .map(
-              paragraph=>(<p>{paragraph}</p>)
-            )}
-          <h2>Part of Collections</h2>
-          <ul>
-            <li>Test collection</li>
-          </ul>
-          <h2>Part of Exhibitions</h2>
-          <ul>
-            <li>Test Exhibition</li>
-          </ul>
-        </div>
-        {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
-      </Layout>
-    )
-  }
-}
-
+      </div>
+      {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
+    </Layout>
+  )
+};
 
 export default CollectionPage;
-

@@ -9,7 +9,7 @@ title: "Front Page"
 Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
 <section class="listing-size-2-1">
 
-[Forth Bridge illustrations 1886-1887](/collections/test3)
+[Forth Bridge illustrations 1886-1887](/collections/test)
 </section>
 <div class="listing-size-1-1">
 
@@ -22,7 +22,7 @@ Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  offi
 
 <div class="listing-size-2-1 light">
 
-[it is totally different](/collections/test2)
+[it is totally different](/collections/test)
 </div>
 
 <div class="listing-size-2-1 bg-yellow">
@@ -33,7 +33,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh 
 
 <div class="listing-size-1-1 light">
 
-[asdsda](/collections/test3)
+[asdsda](/collections/test)
 </div>
 
 <section class="listing-size-2-1 light">

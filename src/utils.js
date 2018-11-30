@@ -16,5 +16,7 @@ const substituteSpecialLinks = (html, pageContext) => {
   );
 };
 
+export const getTranslation = (obj, lang, glue=' ') => (obj[lang] || []).join(glue)
+
 export default substituteSpecialLinks;
 

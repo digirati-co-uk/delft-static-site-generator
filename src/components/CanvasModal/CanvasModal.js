@@ -66,7 +66,6 @@ const CanvasModal = ({ canvas, hideCanvasDetails }) => (
                               fullscreenProps={{
                                 isFullscreen: false,
                               }}
-                              //renderPanel={renderPanel}
                             />
                           </SimpleSlideTransition>
                           </div>

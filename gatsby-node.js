@@ -9,7 +9,7 @@ const path = require("path");
 const fs = require('fs');
 
 
-const createCollectionPages = createPage => {
+const createCollectionPages = (createPage, objectLinks) => {
   const collectionTemplate = path.resolve(`src/pages/Collection/collection.js`);
   const collectionsPath = './src/collections';
   return fs
@@ -21,24 +21,58 @@ const createCollectionPages = createPage => {
     ).map(
       item => path.join(collectionsPath, item)
     ).reduce(
-      (thumbnails, item) => {
+      (meta, item) => {
         const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
         const context = JSON.parse(fs.readFileSync(item));
         createPage({
           path: pathname,
           component: collectionTemplate,
+          context: {
+            objectLinks: objectLinks,
+            collection: context
+          },
+        });
+        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
+        meta.links[(context.id||context['@id'])] = pathname;
+        meta.reverseLinks[pathname] = (context.id||context['@id']);
+        return meta;
+      }, { thumbnails: {}, links: {}, reverseLinks: {} }
+    );
+};
+
+const createObjectPages = createPage => {
+  const manifestTemplate = path.resolve(`src/pages/Object/object.js`);
+  const manifestsPath = './src/objects';
+  return fs
+    .readdirSync(manifestsPath)
+    .filter(
+      item => 
+        fs.statSync(path.join(manifestsPath, item)).isFile() &&
+        path.extname(item) === '.json'
+    ).map(
+      item => path.join(manifestsPath, item)
+    ).reduce(
+      (meta, item) => {
+        const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
+        const context = JSON.parse(fs.readFileSync(item));
+        createPage({
+          path: pathname,
+          component: manifestTemplate,
           context: context,
         });
-        thumbnails[pathname] = context.sequences[0].canvases[0].thumbnail['@id'];
-        return thumbnails;
-      }, {}
+        
+        meta.thumbnails[pathname] = context.sequences[0].canvases[0].thumbnail['@id']; //context.items[0].thumbnail[0].id;
+        meta.links[(context.id||context['@id'])] = pathname;
+        meta.reverseLinks[pathname] = (context.id||context['@id']);
+        return meta;
+      }, { thumbnails: {}, links: {}, reverseLinks: {} }
     );
 };
 
 const createExhibitionPages = createPage => {
   const exhibitionTemplate = path.resolve(`src/pages/Exhibition/exhibition.js`);
   const exhibitionsPath = './src/exhibitions';
-  fs
+  return fs
     .readdirSync(exhibitionsPath)
     .filter(
       item => 
@@ -46,22 +80,28 @@ const createExhibitionPages = createPage => {
         path.extname(item) === '.json'
     ).map(
       item => path.join(exhibitionsPath, item)
-    ).forEach(
-      item => {
+    ).reduce(
+      (meta, item) => {
         const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
+        const context = JSON.parse(fs.readFileSync(item));
         createPage({
           path: pathname,
           component: exhibitionTemplate,
-          context: JSON.parse(fs.readFileSync(item))
+          context: context
         });
-      }
+        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
+        meta.links[(context.id||context['@id'])] = pathname;
+        meta.reverseLinks[pathname] = (context.id||context['@id']);
+        return meta;
+      }, { thumbnails: {}, links: {}, reverseLinks: {} }
     );
 };
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-  const collectionThumbnails = createCollectionPages(createPage);
-  createExhibitionPages(createPage);
+  const objectMeta = createObjectPages(createPage);
+  const collectionMeta = createCollectionPages(createPage, objectMeta.links);
+  const exhibitionMeta = createExhibitionPages(createPage);
   const mdTemplate = path.resolve(`src/pages/Markdown/markdown.js`);
 
   return graphql(`
@@ -87,13 +127,17 @@ exports.createPages = ({ actions, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       const manifestLinks = node.html.match(
-        /<a href="(\/(collection|exhibition)s\/.*)">/g
+        /<a href="(\/(collection|exhibition|object)s\/.*)">/g
       );
       const thumbnails = (manifestLinks||[]).reduce((t, item) => {
         const pathname = item.split('"')[1].substr(1);
-        if (collectionThumbnails.hasOwnProperty(pathname)) {
-          t[pathname] = collectionThumbnails[pathname];
-        }
+        if (objectMeta.thumbnails.hasOwnProperty(pathname)) {
+          t[pathname] = objectMeta.thumbnails[pathname];
+        } else if (collectionMeta.thumbnails.hasOwnProperty(pathname)){
+          t[pathname] = collectionMeta.thumbnails[pathname];
+        } else if (exhibitionMeta.thumbnails.hasOwnProperty(pathname)){
+          t[pathname] = exhibitionMeta.thumbnails[pathname];
+        } 
         return t;
       }, {});
       createPage({

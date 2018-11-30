@@ -75,9 +75,7 @@ const ManifestCabinet = ({
             return (
               <img
                 key={`${canvasId}--thumb`}
-                src={
-                  thumbnailGetSize(allThumbnails[canvasId], null, height) 
-                } 
+                src={thumbnailGetSize(allThumbnails[canvasId], null, height)} 
                 className={
                   bem.element('thumb').modifiers({
                     selected: isSelected 
