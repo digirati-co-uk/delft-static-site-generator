@@ -10,7 +10,7 @@ const fs = require('fs');
 
 
 const createCollectionPages = (createPage, objectLinks) => {
-  const collectionTemplate = path.resolve(`src/pages/Collection/collection.js`);
+  const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './src/collections';
   return fs
     .readdirSync(collectionsPath)
@@ -41,7 +41,7 @@ const createCollectionPages = (createPage, objectLinks) => {
 };
 
 const createObjectPages = createPage => {
-  const manifestTemplate = path.resolve(`src/pages/Object/object.js`);
+  const manifestTemplate = path.resolve(`src/pages/Object/Object.js`);
   const manifestsPath = './src/objects';
   return fs
     .readdirSync(manifestsPath)
