@@ -70,7 +70,7 @@ const createObjectPages = createPage => {
 };
 
 const createExhibitionPages = createPage => {
-  const exhibitionTemplate = path.resolve(`src/pages/Exhibition/exhibition.js`);
+  const exhibitionTemplate = path.resolve(`src/pages/Exhibition/Exhibition.js`);
   const exhibitionsPath = './src/exhibitions';
   return fs
     .readdirSync(exhibitionsPath)
