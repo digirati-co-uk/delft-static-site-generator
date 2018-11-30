@@ -120,23 +120,23 @@
 
 @media screen and (min-width: 640px) {
   .listing-size-1-1 {
-    width: 33.33vw;
-    height: 33.33vw;
+    width: 33vw;
+    height: 33vw;
   }
     
   .listing-size-1-2 {
-    width: 33.33vw;
-    height: 66.66vw;
+    width: 33vw;
+    height: 66vw;
   }
     
   .listing-size-2-1 {
-    width: 66.66vw;
-    height: 33.33vw;
+    width: 66vw;
+    height: 33vw;
   }
     
   .listing-size-2-2 {
-    width: 66.66vw;
-    height: 66.66vw;
+    width: 66vw;
+    height: 66vw;
   }
 
   .listing-size-1-1, 
