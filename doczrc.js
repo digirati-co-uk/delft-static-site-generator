@@ -5,7 +5,7 @@ module.exports = {
   description: 'This application generates a static site for the Technical University Delft - exhibitions',
   src: './src/',
   dest: './docs/',
-  base: '/',
+  base: '/docs/',
   debug: false,
   port: 5001,
   protocol: 'http',
