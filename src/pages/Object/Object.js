@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout/layout';
 import SlideShow from '../../components/SlideShow/slideshow';
 
-class CollectionPage extends React.Component {
+class ObjectPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -25,12 +25,12 @@ class CollectionPage extends React.Component {
           { renderSlideShow }
         </div>
         <div className="article-main">
-          <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label=='Title').map(item=>item.value).join(' ')}</h1>
+          <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label==='Title').map(item=>item.value).join(' ')}</h1>
           {
             pageContext && 
             pageContext.metadata && 
             pageContext.metadata.filter(
-              item=>item.label=='Description'
+              item=>item.label==='Description'
             ).map(
               item=>item.value
             )
@@ -54,6 +54,4 @@ class CollectionPage extends React.Component {
   }
 }
 
-
-export default CollectionPage;
-
+export default ObjectPage;

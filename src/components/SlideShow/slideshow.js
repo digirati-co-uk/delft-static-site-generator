@@ -15,94 +15,30 @@ import {
   CanvasNavigation,
 } from '@canvas-panel/slideshow';
 
+import ManifestCabinet from '../ManifestCabinet/ManifestCabinet';
+
 import './slideshow.css';
 
-const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
-  const thumb = thumbnail.__jsonld;
-  if ((pWidth || pHeight) && thumb.hasOwnProperty('sizes')) {
-     //TODO: compute the sizes properly
-    let thumbUrlParts = (thumb.id || thumb['@id']).split('/');
-    thumbUrlParts[thumbUrlParts.length-3] = ',100';
-    return thumbUrlParts.join('/');
-  } else {
-    return (thumb.id || thumb['@id']);
+const thumbnailCache = {};
+
+const getThumbnails = (manifest, clearCache = false) => {
+  const manifestId = manifest.id || manifest['@id'];
+  if (!clearCache && thumbnailCache.hasOwnProperty(manifestId)) {
+    return thumbnailCache[manifestId];
   }
+  const thumbnails = manifest.getSequences().reduce(
+    (sequenceThumbnails, sequence) => 
+      Object.assign(
+        sequenceThumbnails, 
+        sequence.getCanvases().reduce((canvasThumbnails, canvas) => { 
+          canvasThumbnails[canvas.id || canvas['@id']] = canvas.getThumbnail();
+          return canvasThumbnails;
+        }, {})
+      )
+    , {});
+  thumbnailCache[manifestId] = thumbnails;
+  return thumbnails;
 }
-
-const ManifestCabinet = ({
-  children,
-  allThumbnails,
-  canvasList, 
-  currentCanvas,
-  height,
-  showControls,
-  goToRange,
-}) => {
-  // TODO: finalize this without set timeout
-  setTimeout(()=> {
-    const selectedThumb = document.querySelector('.selected-thumbnail');
-    selectedThumb.parentNode.parentNode.scrollLeft = 
-      selectedThumb.offsetLeft > selectedThumb.parentNode.parentNode.offsetWidth - selectedThumb.offsetWidth 
-        ? selectedThumb.offsetLeft - (selectedThumb.parentNode.parentNode.offsetWidth - selectedThumb.offsetWidth)
-        : 0;
-  },100);
-  return (
-    <div
-      style={{
-        height: height,
-        position: 'relative',
-        bottom: 0,
-        left: 0,
-        right: 0,
-      }}
-    >
-      <div
-        style={{
-          width: '100%',
-          height: '100%',
-          overflowX: 'auto',
-        }}
-      >
-        <div
-          style={{
-            display: 'flex',
-            height: height,
-          }}
-        >
-          {canvasList.map((canvasId, index) =>(
-            <img src={ thumbnailGetSize(allThumbnails[canvasId], null, height) } 
-              style={{
-                border: canvasId === (currentCanvas.id || currentCanvas['@id']) ? '8px solid white' : '8px solid black',
-                margin: 0,
-                height: '100%',
-              }}
-              className={canvasId === (currentCanvas.id || currentCanvas['@id']) ? 'selected-thumbnail' : ''}
-              onClick={()=>goToRange(index)}
-            />
-          ))}
-        </div>
-        { showControls && (
-          <>{children}</>
-          )}
-      </div>
-    </div>
-  );
-}
-
-ManifestCabinet.propTypes = {
-  allThumbnails: PropTypes.object.isRequired,
-  canvasList: PropTypes.array.isRequired, 
-  currentCanvas: PropTypes.object,
-  height: PropTypes.number,
-  previousRange: PropTypes.func,
-  nextRange: PropTypes.func,
-  showControls: PropTypes.bool,
-};
-
-ManifestCabinet.defaultProps = {
-  height: 116,
-  showControls: false,
-};
 
 class SlideShow extends Component {
   state = {
@@ -157,17 +93,7 @@ class SlideShow extends Component {
                     region,
                     goToRange,
                   } = rangeProps;
-                  console.log(manifest);
-                  const allThumbnails = manifest.getSequences().reduce(
-                    (sequenceThumbnails, sequence) => 
-                      Object.assign(
-                        sequenceThumbnails, 
-                        sequence.getCanvases().reduce((canvasThumbnails, canvas) => { 
-                          canvasThumbnails[canvas.id || canvas['@id']] = canvas.getThumbnail();
-                          return canvasThumbnails;
-                        }, {})
-                      )
-                    , {});
+                  const allThumbnails = getThumbnails(manifest);
                         
                   return (
                     <>

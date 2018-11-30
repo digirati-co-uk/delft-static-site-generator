@@ -11,6 +11,8 @@
     "id": "http://digirati.com/iiif/v3/temporary/manifest",
     "items": [
       {
+        "id": "http://digirati.com/iiif/v3/temporary/canvas/c1",
+        "type": "Canvas",
         "label": {
           "en": [
             "Single Image Canvas"
@@ -18,8 +20,37 @@
           "nl": [
             "enkele afbeelding canvas"
           ]
-
         },
+        "height": 4250,
+        "width": 3200,
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://wellcomelibrary.org/iiif/b29358346/imageanno/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+                "target": "https://wellcomelibrary.org/iiif/b29358346/canvas/c0",
+                "body": {
+                  "format": "image/jpeg",
+                  "height": 1024,
+                  "width": 771,
+                  "service": [
+                    {
+                      "profile": "http://iiif.io/api/image/2/level1.json",
+                      "id": "https://dlcs.io/iiif-img/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+                      "type": "ImageService2"
+                    }
+                  ],
+                  "type": "Image",
+                  "id": "https://dlcs.io/iiif-img/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2/full/!1024,1024/0/default.jpg"
+                }
+              }
+            ],
+            "id": "http://digirati.com/iiif/v3/temporary/canvas/c2-ap0"
+          }
+        ],
         "thumbnail": [
           {
             "service": [
@@ -56,10 +87,32 @@
             "id": "https://dlcs.io/thumbs/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2/full/75,100/0/default.jpg"
           }
         ],
+        "behaviours": [
+          "listing-size-1-1",
+          "text-colour-light"
+        ]
+      },
+      {
+        "id": "http://digirati.com/iiif/v3/temporary/canvas/c2",
+        "type": "Canvas",
+        "label": {
+          "en": [
+            "Single Image Canvas with Description"
+          ],
+          "nl": [
+            "enkele afbeelding canvas"
+          ]
+        },
+        "summary": {
+          "en": [
+            "Sed pharetra ante purus, non fringilla purus gravida non. Aenean eu ligula sodales, porttitor nunc ut, scelerisque erat. Ut at nunc eget est facilisis egestas. Nulla ultricies vestibulum consequat. Donec dignissim tristique nibh at posuere. Maecenas augue velit, mollis sed nisl quis, porta sodales nisi. Morbi id pellentesque elit. In semper auctor nunc. Sed accumsan sapien sit amet tempor dictum. Aliquam vitae tempus sapien. Etiam tincidunt eros odio, non luctus felis maximus id. Quisque ex mi, mattis eu nisl vel, viverra mollis lectus. Maecenas elit arcu, tristique a nisi nec, blandit commodo tortor. Nullam ut erat sit amet metus pulvinar interdum vel in augue."
+          ],
+          "nl": [
+            "Donec ex magna, finibus ut scelerisque ac, ultricies quis purus. Etiam congue dictum porttitor. Donec at quam lorem. Cras quis pellentesque dolor, sit amet auctor orci. Nam metus massa, sodales quis dictum et, mattis vitae eros. Maecenas cursus magna sed dignissim interdum. Morbi luctus dolor id diam bibendum, vel tincidunt enim varius. Mauris porttitor tincidunt mi, sed tempus felis euismod a. Nam vehicula sem odio. Donec ipsum massa, congue fermentum imperdiet at, consectetur ac orci. Fusce venenatis ligula et lectus facilisis blandit."
+          ]
+        },
         "height": 4250,
         "width": 3200,
-        "type": "Canvas",
-        "id": "http://digirati.com/iiif/v3/temporary/canvas/c2",
         "items": [
           {
             "type": "AnnotationPage",
@@ -87,6 +140,42 @@
             ],
             "id": "http://digirati.com/iiif/v3/temporary/canvas/c2-ap0"
           }
+        ],
+        "thumbnail": [
+          {
+            "service": [
+              {
+                "protocol": "http://iiif.io/api/image",
+                "height": 1024,
+                "width": 771,
+                "sizes": [
+                  {
+                    "width": 75,
+                    "height": 100
+                  },
+                  {
+                    "width": 151,
+                    "height": 200
+                  },
+                  {
+                    "width": 301,
+                    "height": 400
+                  },
+                  {
+                    "width": 771,
+                    "height": 1024
+                  }
+                ],
+                "profile": [
+                  "http://iiif.io/api/image/2/level0.json"
+                ],
+                "id": "https://dlcs.io/thumbs/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2",
+                "type": "ImageService2"
+              }
+            ],
+            "type": "Image",
+            "id": "https://dlcs.io/thumbs/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2/full/75,100/0/default.jpg"
+          }
         ]
       },
       {
@@ -96,6 +185,14 @@
           ],
           "nl": [
             "afbeelding met hotspots"
+          ]
+        },
+        "summary": {
+          "en": [
+            "Sed pharetra ante purus, non fringilla purus gravida non. Aenean eu ligula sodales, porttitor nunc ut, scelerisque erat. Ut at nunc eget est facilisis egestas. Nulla ultricies vestibulum consequat. Donec dignissim tristique nibh at posuere. Maecenas augue velit, mollis sed nisl quis, porta sodales nisi. Morbi id pellentesque elit. In semper auctor nunc. Sed accumsan sapien sit amet tempor dictum. Aliquam vitae tempus sapien. Etiam tincidunt eros odio, non luctus felis maximus id. Quisque ex mi, mattis eu nisl vel, viverra mollis lectus. Maecenas elit arcu, tristique a nisi nec, blandit commodo tortor. Nullam ut erat sit amet metus pulvinar interdum vel in augue."
+          ],
+          "nl": [
+            "Donec ex magna, finibus ut scelerisque ac, ultricies quis purus. Etiam congue dictum porttitor. Donec at quam lorem. Cras quis pellentesque dolor, sit amet auctor orci. Nam metus massa, sodales quis dictum et, mattis vitae eros. Maecenas cursus magna sed dignissim interdum. Morbi luctus dolor id diam bibendum, vel tincidunt enim varius. Mauris porttitor tincidunt mi, sed tempus felis euismod a. Nam vehicula sem odio. Donec ipsum massa, congue fermentum imperdiet at, consectetur ac orci. Fusce venenatis ligula et lectus facilisis blandit."
           ]
         },
         "thumbnail": [
@@ -161,11 +258,20 @@
                   "type": "Image",
                   "id": "https://dlcs.io/iiif-img/wellcome/1/73ebe57c-26f0-4d02-bf54-177bc22055b8/full/!1024,1024/0/default.jpg"
                 }
-              },
+              }
+            ],
+            "id": "http://digirati.com/iiif/v3/temporary/canvas/c3-ap0"
+          }
+        ],
+        "annotations": [
+          {
+            "id": "http://digirati.com/iiif/v3/temporary/annot/c3-21",
+            "type": "AnnotationPage",
+            "items": [
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-2",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 2"
@@ -181,7 +287,7 @@
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-3",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 3"
@@ -197,7 +303,7 @@
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-4",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 4"
@@ -213,7 +319,7 @@
               {
                 "id": "http://digirati.com/iiif/v3/temporary/annot/c3-5",
                 "type": "Annotation",
-                "motivation": "tagging",
+                "motivation": "layout-viewport-focus",
                 "label": {
                   "en": [
                     "Text Annotation 5"
@@ -226,8 +332,7 @@
                 },
                 "target": "http://digirati.com/iiif/v3/temporary/canvas/c3#xywh=1436,1645,1114,1400"
               }
-            ],
-            "id": "http://digirati.com/iiif/v3/temporary/canvas/c3-ap0"
+            ]
           }
         ]
       },
@@ -240,8 +345,16 @@
             "canvas met gemengde media"
           ]
         },
-        "height": "3000",
-        "width": "3000",
+        "summary": {
+          "en": [
+            "Sed pharetra ante purus, non fringilla purus gravida non. Aenean eu ligula sodales, porttitor nunc ut, scelerisque erat. Ut at nunc eget est facilisis egestas. Nulla ultricies vestibulum consequat. Donec dignissim tristique nibh at posuere. Maecenas augue velit, mollis sed nisl quis, porta sodales nisi. Morbi id pellentesque elit. In semper auctor nunc. Sed accumsan sapien sit amet tempor dictum. Aliquam vitae tempus sapien. Etiam tincidunt eros odio, non luctus felis maximus id. Quisque ex mi, mattis eu nisl vel, viverra mollis lectus. Maecenas elit arcu, tristique a nisi nec, blandit commodo tortor. Nullam ut erat sit amet metus pulvinar interdum vel in augue."
+          ],
+          "nl": [
+            "Donec ex magna, finibus ut scelerisque ac, ultricies quis purus. Etiam congue dictum porttitor. Donec at quam lorem. Cras quis pellentesque dolor, sit amet auctor orci. Nam metus massa, sodales quis dictum et, mattis vitae eros. Maecenas cursus magna sed dignissim interdum. Morbi luctus dolor id diam bibendum, vel tincidunt enim varius. Mauris porttitor tincidunt mi, sed tempus felis euismod a. Nam vehicula sem odio. Donec ipsum massa, congue fermentum imperdiet at, consectetur ac orci. Fusce venenatis ligula et lectus facilisis blandit."
+          ]
+        },
+        "height": 3000,
+        "width": 3000,
         "type": "Canvas",
         "id": "http://digirati.com/iiif/v3/temporary/canvas/c1",
         "items": [
@@ -323,6 +436,9 @@
             ],
             "id": "http://digirati.com/iiif/v3/temporary/list/c1-ap1"
           }
+        ],
+        "behaviours": [
+          "listing-size-2-2"
         ]
       },
       {
@@ -334,8 +450,8 @@
             "video canvas"
           ]
         },
-        "height": 442,
-        "width": 1000,
+        "height": 704,
+        "width": 1280,
         "type": "Canvas",
         "id": "http://digirati.com/iiif/v3/temporary/canvas/c4",
         "items": [
@@ -355,16 +471,20 @@
                   ]
                 },
                 "body": {
+                  "id": "https://www.w3schools.com/html/mov_bbb.mp4",
                   "type": "Video",
-                  "height": 640,
-                  "width": 268,
+                  "width": 320,
+                  "height": 176,
                   "duration": 1
                 },
-                "target": "http://digirati.com/iiif/v3/temporary/canvas/c4#xywh=0,0,1001,441"
+                "target": "http://digirati.com/iiif/v3/temporary/canvas/c4"
               }
             ],
             "id": "http://digirati.com/iiif/v3/temporary/list/c4-ap1"
           }
+        ],
+        "behaviours": [
+          "listing-size-2-2"
         ]
       }
     ],
