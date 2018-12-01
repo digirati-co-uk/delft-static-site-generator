@@ -51,7 +51,6 @@ const createCollectionPages = (createPage, objectLinks) => {
             collection: context
           },
         });
-        console.log(pathname, context.items[0].thumbnail[0].id);
         meta.thumbnails[pathname] = context.items[0].thumbnail[0].id;
         meta.links[context.id] = pathname;
         meta.reverseLinks[pathname] = context.id;
@@ -105,11 +104,13 @@ const createExhibitionPages = createPage => {
       (meta, item) => {
         const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
         const context = JSON.parse(fs.readFileSync(item));
+        console.log(pathname);
         createPage({
           path: pathname,
           component: exhibitionTemplate,
           context: context
         });
+        console.log(pathname, 'create page done');
         meta.thumbnails[pathname] = context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
         meta.links[(context.id||context['@id'])] = pathname;
         meta.reverseLinks[pathname] = (context.id||context['@id']);

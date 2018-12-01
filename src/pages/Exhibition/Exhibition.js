@@ -244,10 +244,12 @@ class ExhibitionPage extends React.Component {
 					    <div class="maintitle">{getTranslation(manifest.label, 'en')}</div>
               <div />
             </div>
-            <div class="block cutcorners w-8 h-8 image">
-              {this.renderMediaHolder(manifest.items[0], this.renderAnnotationBody(manifest.items[0]))}
-              <div class="caption">{(manifest.items[0].label ? manifest.items[0].label.en ||[] : []).join('')}</div>
-            </div>
+            {manifest.items && manifest.items.length > 0 && ( 
+              <div class="block cutcorners w-8 h-8 image">
+                {this.renderMediaHolder(manifest.items[0], this.renderAnnotationBody(manifest.items[0]))}
+                <div class="caption">{(manifest.items[0].label ? manifest.items[0].label.en ||[] : []).join('')}</div>
+              </div>
+            )}
             <div class="block info cutcorners w-4 h-4">
               <div class="boxtitle">ABOUT</div>
               <div class="text">
