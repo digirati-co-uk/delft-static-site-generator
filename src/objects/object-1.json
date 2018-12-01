@@ -1,0 +1,73 @@
+{
+  "label": {
+    "en": [
+      "First test object"
+    ]
+  },
+  "type": "Manifest",
+  "id": "https://delft-static-site-generator.netlify.com/objects/object-1",
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Canvas 1"
+        ]
+      },
+      "height": 1669,
+      "width": 1640,
+      "type": "Canvas",
+      "id": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c1",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://delft-static-site-generator.netlify.com/objects/object-1/annot/c1-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Image Annotation 1"
+                ]
+              },
+              "body": {
+                "id": "https://dlc.services/iiif-img/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpg",
+                "service": [
+                  {
+                    "id": "https://dlc.services/iiif-img/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 1669,
+                "width": 1640
+              },
+              "target": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c1"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/objects/object-1/list/c1-ap1"
+        }
+      ],
+      "thumbnail":[{
+        "id": "https://dlc.services/thumbs/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8/full/1006,1024/0/default.jpg",
+        "type": "Image",
+        "format": "image/jpg",
+        "service": [
+          {
+            "id": "https://dlc.services/thumbs/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8",
+            "type": "ImageService3",
+            "profile": "level2"
+          }
+        ],
+        "height": 1024,
+        "width": 1006
+      }]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

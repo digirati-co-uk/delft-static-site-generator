@@ -26,6 +26,7 @@ const getThumbnails = (manifest, clearCache = false) => {
   if (!clearCache && thumbnailCache.hasOwnProperty(manifestId)) {
     return thumbnailCache[manifestId];
   }
+
   const thumbnails = manifest.getSequences().reduce(
     (sequenceThumbnails, sequence) => 
       Object.assign(
@@ -131,20 +132,24 @@ class SlideShow extends Component {
                         </React.Fragment>
                       )}
                     </div>
-                    <ManifestCabinet 
-                      currentCanvas={canvas}
-                      allThumbnails={allThumbnails}
-                      canvasList={canvasList}
-                      height={116}
-                      goToRange={goToRange}
-                    >
-                      <CanvasNavigation
-                        previousRange={previousRange}
-                        nextRange={nextRange}
-                        canvasList={canvasList}
-                        currentIndex={currentIndex}
-                      />
-                    </ManifestCabinet>
+                    {
+                      Object.keys(allThumbnails).length > 0 && (
+                        <ManifestCabinet 
+                          currentCanvas={canvas}
+                          allThumbnails={allThumbnails}
+                          canvasList={canvasList}
+                          height={116}
+                          goToRange={goToRange}
+                        >
+                          <CanvasNavigation
+                            previousRange={previousRange}
+                            nextRange={nextRange}
+                            canvasList={canvasList}
+                            currentIndex={currentIndex}
+                          />
+                        </ManifestCabinet>
+                      )
+                    }
                     </>
                   );
                 }}

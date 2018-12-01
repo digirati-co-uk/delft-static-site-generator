@@ -1,15 +1,290 @@
 {
     "label": {
       "en": [
-        "Exhibition manifest example"
+        "Rise of a Campus"
       ],
       "nl": [
         "Tentoonstelling manifest"
       ]
     },
+    "summary": {
+      "en": [
+        "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+      ],
+      "nl": [
+        "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+      ]
+    },
     "type": "Manifest",
     "id": "http://digirati.com/iiif/v3/temporary/manifest",
     "items": [
+      {
+        "label": {
+          "en": [
+            "FROM THE KANAALWEG TO THE THIJSSEWEG (Single Image Canvas)"
+          ],
+          "nl": [
+            "enkele afbeelding canvas"
+          ]
+        },
+        "height": 1669,
+        "width": 1640,
+        "type": "Canvas",
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c1",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://delft-static-site-generator.netlify.com/objects/object-1/annot/c1-1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Image Annotation 1"
+                  ]
+                },
+                "body": {
+                  "id": "https://dlc.services/iiif-img/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpg",
+                  "service": [
+                    {
+                      "id": "https://dlc.services/iiif-img/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 1669,
+                  "width": 1640
+                },
+                "target": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c1"
+              }
+            ],
+            "id": "https://delft-static-site-generator.netlify.com/objects/object-1/list/c1-ap1"
+          }
+        ],
+        "thumbnail":[{
+          "id": "https://dlc.services/thumbs/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8/full/1006,1024/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/5/34/662c0d59-9112-4bfd-b97f-0dbd693d2ec8",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "height": 1024,
+          "width": 1006
+        }],
+        "behaviours": ["w-4", "h-4"]
+      },
+      {
+        "label": {
+          "en": [
+            ""
+          ]
+        },
+        "summary": {
+          "en": [
+            "Geodesy instructor Jan Ebbinge operating a spirit level on campus in preparation for an open day of the Faculty of Geodesy around 1980."
+          ]
+        },
+        "requiredStatement": {
+          "label": { "en": [ "Attribution" ] },
+          "value": {
+            "en": [
+              "Faculty of Architecture and the Built Environment / OTB Photo Archive / Photo: Axel Smitsod magnimust ipid."
+            ]
+          }
+        },
+        "height": 1628,
+        "width": 1625,
+        "type": "Canvas",
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-3/canvas/c1",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://delft-static-site-generator.netlify.com/objects/object-3/annot/c1-1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Image Annotation 1"
+                  ]
+                },
+                "body": {
+                  "id": "https://dlc.services/iiif-img/5/34/bbad1499-3c1c-4497-8463-82db9813782a/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpg",
+                  "service": [
+                    {
+                      "id": "https://dlc.services/iiif-img/5/34/bbad1499-3c1c-4497-8463-82db9813782a",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 1628,
+                  "width": 1625
+                },
+                "target": "https://delft-static-site-generator.netlify.com/objects/object-3/canvas/c1"
+              }
+            ],
+            "id": "https://delft-static-site-generator.netlify.com/objects/object-3/list/c1-ap1"
+          }
+        ],
+        "thumbnail": [{
+          "id": "https://dlc.services/thumbs/5/34/bbad1499-3c1c-4497-8463-82db9813782a/full/1022,1024/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/5/34/bbad1499-3c1c-4497-8463-82db9813782a",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "height": 1024,
+          "width": 1022
+        }],
+        "behaviours": ["w-7", "h-4", "row"]
+      },
+      {
+        "label": {
+          "en": [
+            ""
+          ]
+        },
+        "summary": {
+          "en": [
+            "Uciunt, ad maio tem sincil et, omnis voloribero eume quam ilignimi, sitasi idenisci beaque ventiis atustion perum alicili cimaxim rempel is aliqui ilitat diti nos reserrorrum iurite a nostia quasimus."
+          ]
+        },
+        "height": 2037,
+        "width": 2048,
+        "type": "Canvas",
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-2/canvas/c1",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://delft-static-site-generator.netlify.com/objects/object-2/annot/c1-1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Image Annotation 1"
+                  ]
+                },
+                "body": {
+                  "id": "https://dlc.services/iiif-img/5/34/968b38be-8751-4e74-b562-b62f887d3faa/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpg",
+                  "service": [
+                    {
+                      "id": "https://dlc.services/iiif-img/5/34/968b38be-8751-4e74-b562-b62f887d3faa",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 2037,
+                  "width": 2048
+                },
+                "target": "https://delft-static-site-generator.netlify.com/objects/object-2/canvas/c1"
+              }
+            ],
+            "id": "https://delft-static-site-generator.netlify.com/objects/object-2/list/c1-ap1"
+          }
+        ],
+        "thumbnail": [{
+          "id": "https://dlc.services/thumbs/5/34/968b38be-8751-4e74-b562-b62f887d3faa/full/1024,1018/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/5/34/968b38be-8751-4e74-b562-b62f887d3faa",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "height": 1018,
+          "width": 1024
+        }],
+        "behaviours": ["w-5", "h-7", "column"]
+      },
+      {
+        "label": {
+          "en": [
+            ""
+          ]
+        },
+        "summary": {
+          "en": [
+            "Uciunt, ad maio tem sincil et, omnis voloribero eume quam ilignimi, sitasi idenisci beaque ventiis atustion perum alicili cimaxim rempel is aliqui ilitat diti nos reserrorrum iurite a nostia quasimus."
+          ]
+        },
+        "height": 1495,
+        "width": 1997,
+        "type": "Canvas",
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-4/canvas/c1",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://delft-static-site-generator.netlify.com/objects/object-4/annot/c1-1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Image Annotation 1"
+                  ]
+                },
+                "body": {
+                  "id": "https://dlc.services/iiif-img/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964/full/full/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpg",
+                  "service": [
+                    {
+                      "id": "https://dlc.services/iiif-img/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 1495,
+                  "width": 1997
+                },
+                "target": "https://delft-static-site-generator.netlify.com/objects/object-4/canvas/c1"
+              }
+            ],
+            "id": "https://delft-static-site-generator.netlify.com/objects/object-4/list/c1-ap1"
+          }
+        ],
+        "thumbnail": [{
+          "id": "https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964/full/full/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "service": [
+            {
+              "id": "https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "height": 767,
+          "width": 1024
+        }],
+        "behaviours": [
+          "caption-left",
+          "row", 
+          "w-7", 
+          "h-3"
+        ]
+      },
       {
         "id": "http://digirati.com/iiif/v3/temporary/canvas/c1",
         "type": "Canvas",
@@ -88,8 +363,8 @@
           }
         ],
         "behaviours": [
-          "listing-size-1-1",
-          "text-colour-light"
+          "w-7",
+          "h-5"
         ]
       },
       {
@@ -176,7 +451,8 @@
             "type": "Image",
             "id": "https://dlcs.io/thumbs/wellcome/1/0d181baf-3c89-48b9-9f1e-b4b525b32eb2/full/75,100/0/default.jpg"
           }
-        ]
+        ],
+        "behaviours": ["w-5", "h-7", "column"]
       },
       {
         "label": {
@@ -334,7 +610,8 @@
               }
             ]
           }
-        ]
+        ],
+        "behaviours": ["caption-left","row", "w-7", "h-3"]
       },
       {
         "label": {
@@ -437,9 +714,7 @@
             "id": "http://digirati.com/iiif/v3/temporary/list/c1-ap1"
           }
         ],
-        "behaviours": [
-          "listing-size-2-2"
-        ]
+        "behaviours": ["w-5", "h-7", "column"]
       },
       {
         "label": {
@@ -483,9 +758,7 @@
             "id": "http://digirati.com/iiif/v3/temporary/list/c4-ap1"
           }
         ],
-        "behaviours": [
-          "listing-size-2-2"
-        ]
+        "behaviours": ["w-5", "h-5", "column"]
       }
     ],
     "@context": [

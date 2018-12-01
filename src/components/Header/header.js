@@ -5,27 +5,31 @@ import Menu from '../Menu/menu';
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'yellow',
+      background: '#e1c136',
     }}
   >
     <div
       style={{
         display: 'flex',
-        msFlexDirection: 'row',
-        padding: '1rem 1.0875rem',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: '0.6rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0, fontSize: 18, flex: 1 }}>
+      
         <Link
           to="/"
           style={{
             color: 'black',
             textDecoration: 'none',
+            borderBottom: 0,
+            fontWeight: 'bold',
           }}
         >
           {siteTitle}
         </Link>
-      </h1>
+      
       <Menu />
     </div>
   </div>

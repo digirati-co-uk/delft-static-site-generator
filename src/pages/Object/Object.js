@@ -24,7 +24,7 @@ class ObjectPage extends React.Component {
         <div id="slideshow" style={{ width: '100vw', height: '80vh' }}>
           { renderSlideShow }
         </div>
-        <div className="article-main">
+        <main>
           <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label==='Title').map(item=>item.value).join(' ')}</h1>
           {
             pageContext && 
@@ -47,7 +47,7 @@ class ObjectPage extends React.Component {
           <ul>
             <li>Test Exhibition</li>
           </ul>
-        </div>
+        </main>
         {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
       </Layout>
     )

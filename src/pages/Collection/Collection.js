@@ -14,7 +14,7 @@ const CollectionPage = (props) => {
   const { collection, objectLinks } = props.pageContext;
   return (
     <Layout>
-      <div className="article-main">
+      <main>
         <h1>{collection && collection.label && getTranslation(collection.label, 'en')}</h1>
         {
           collection && 
@@ -34,7 +34,7 @@ const CollectionPage = (props) => {
           ).map(
             manifest =>
               <div className="object-link">
-                <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image"/>
+                <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />
                 <div className="object-link__details">
                   <h2 className="object-link__header">{getTranslation(manifest.label, 'en')}</h2>
                   {manifest.summary 
@@ -54,7 +54,7 @@ const CollectionPage = (props) => {
           )
         }
         </div>
-      </div>
+      </main>
       {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
     </Layout>
   )

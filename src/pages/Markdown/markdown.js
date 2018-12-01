@@ -5,8 +5,7 @@ import substituteSpecialLinks from '../../utils';
 
 const Markdown = ({ pageContext, data }) => (
   <Layout>
-    <div
-      className="article-main"
+    <main
       dangerouslySetInnerHTML={{ 
         __html: data.markdownRemark 
           ? substituteSpecialLinks(data.markdownRemark.html, pageContext)

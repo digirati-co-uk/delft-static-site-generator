@@ -7,7 +7,26 @@
 // You can delete this file if you're not using it
 const path = require("path");
 const fs = require('fs');
+var Upgrader = require('iiif-prezi2to3');
+let upgrader = new Upgrader({"deref_links " : false});
 
+const IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE =
+  'http://iiif.io/api/presentation/3/context.json';
+
+const convertToV3ifNecessary = manifest => {
+  const context = manifest['@context'];
+  const isNotP3 =
+    context &&
+    ((context.constructor === Array &&
+      context.filter(namespace=> namespace === IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE).length === 0) ||
+      (context.constructor === String &&
+        !context !== IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE));
+  if (isNotP3) {
+    return upgrader.processResource(manifest, true);
+  } else {
+    return manifest;
+  }
+};
 
 const createCollectionPages = (createPage, objectLinks) => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
@@ -23,7 +42,7 @@ const createCollectionPages = (createPage, objectLinks) => {
     ).reduce(
       (meta, item) => {
         const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
-        const context = JSON.parse(fs.readFileSync(item));
+        const context = convertToV3ifNecessary(JSON.parse(fs.readFileSync(item)));
         createPage({
           path: pathname,
           component: collectionTemplate,
@@ -32,9 +51,10 @@ const createCollectionPages = (createPage, objectLinks) => {
             collection: context
           },
         });
-        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
-        meta.links[(context.id||context['@id'])] = pathname;
-        meta.reverseLinks[pathname] = (context.id||context['@id']);
+        console.log(pathname, context.items[0].thumbnail[0].id);
+        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id;
+        meta.links[context.id] = pathname;
+        meta.reverseLinks[pathname] = context.id;
         return meta;
       }, { thumbnails: {}, links: {}, reverseLinks: {} }
     );
@@ -53,17 +73,18 @@ const createObjectPages = createPage => {
       item => path.join(manifestsPath, item)
     ).reduce(
       (meta, item) => {
+        
         const pathname = item.replace(/^src\//,'').replace(/\.json$/,'');
-        const context = JSON.parse(fs.readFileSync(item));
+        const context = convertToV3ifNecessary(JSON.parse(fs.readFileSync(item)), true);
         createPage({
           path: pathname,
           component: manifestTemplate,
           context: context,
         });
-        
-        meta.thumbnails[pathname] = context.sequences[0].canvases[0].thumbnail['@id']; //context.items[0].thumbnail[0].id;
-        meta.links[(context.id||context['@id'])] = pathname;
-        meta.reverseLinks[pathname] = (context.id||context['@id']);
+        // TODO: cover image if defined, first canvas thumbnail as fall-back, than first canvas image fallback...
+        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id;
+        meta.links[context.id] = pathname;
+        meta.reverseLinks[pathname] = context.id;
         return meta;
       }, { thumbnails: {}, links: {}, reverseLinks: {} }
     );

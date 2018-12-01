@@ -1,15 +1,12 @@
 import React from 'react';
 import {
   Manifest,
-  Fullscreen,
   RangeNavigationProvider,
-  withBemClass,
-  Responsive,
+  
 } from '@canvas-panel/core';
 import {
   MobilePageView,
   SimpleSlideTransition,
-  ProgressIndicator,
   Slide,
   CanvasNavigation,
 } from '@canvas-panel/slideshow';

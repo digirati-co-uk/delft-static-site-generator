@@ -1,0 +1,495 @@
+// .article-main {
+//   padding: 50px 0;
+//   display: flex;
+//   flex-wrap: wrap;
+//   flex-direction: row;
+//   align-items: flex-start;
+//   justify-content: center;
+//   background: #e9e9e9;
+//   color: black;
+//   font-family: 'f-mono', 'Courier New', Courier, monospace;
+//   line-height: 1.28;
+// }
+html {
+  background: #e9e9e9;
+  color: black;
+  font-family: 'f-mono', 'Courier New', Courier, monospace;
+  line-height: 1.28;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main>p,
+main .footnotes,
+main>pre,
+main>ol,
+main>ul {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  // main {
+  //   h1,
+  //   h2,
+  //   h3,
+  //   h4,
+  //   h5,
+  //   h6,
+  //   p,
+  //   .footnotes,
+  //   pre,
+  //   ol,
+  //   ul {
+  //     // width: 100%;
+  //     // margin-left: auto;
+  //     // margin-right: auto;
+  //     // //padding: 0 calc((100% - 960px) /2);
+  //     padding: 0 1rem;
+  //   }
+  // }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  pre,
+  ol,
+  ul {
+    margin-top: 1em;
+  }
+
+  .article-main h1:after,
+  .article-main h2:after,
+  .article-main h3:after,
+  .article-main h4:after,
+  .article-main h5:after,
+  .article-main h6:after,
+  .article-main>p:after,
+  .article-main>pre:after,
+  .article-main>ol:after,
+  .article-main>ul:after {
+    content: ' ';
+    display: table;
+    clear: both;
+    position: relative;
+    width: 100vw;
+  }
+}
+
+.listing-size-1-1, 
+.listing-size-1-2,
+.listing-size-2-1,
+.listing-size-2-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+
+  clip-path: polygon(
+    calc(0% + 1rem) 0%, 
+    calc(100% -  1rem) 0%, 
+    100% 1rem, 
+    100% calc(100% - 1rem), 
+    calc(100% - 1rem) 100%, 
+    1rem 100%, 
+    0% calc(100% - 1rem), 
+    0% 1rem); 
+  background: black;
+}
+
+
+.listing-size-1-1, 
+.listing-size-1-2,
+.listing-size-2-1,
+.listing-size-2-2 {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  position: relative;
+}
+
+
+.listing-size-1-1>p, 
+.listing-size-1-2>p,
+.listing-size-2-1>p,
+.listing-size-2-2>p {
+  padding: 100px;
+}
+
+@media screen and (min-width: 640px) {
+  .listing-size-1-1 {
+    width: 33%;
+    height: 33vw;
+  }
+    
+  .listing-size-1-2 {
+    width: 33%;
+    height: 66vw;
+  }
+    
+  .listing-size-2-1 {
+    width: 66%;
+    height: 33vw;
+  }
+    
+  .listing-size-2-2 {
+    width: 66%;
+    height: 66vw;
+  }
+
+  .listing-size-1-1, 
+  .listing-size-1-2,
+  .listing-size-2-1,
+  .listing-size-2-2 {
+    clip-path: polygon(
+    calc(0% + 1rem) 0%, 
+    calc(100% -  1rem) 0%, 
+    100% 1rem, 
+    100% calc(100% - 1rem), 
+    calc(100% - 1rem) 100%, 
+    1rem 100%, 
+    0% calc(100% - 1rem), 
+    0% 1rem);
+  }
+}
+  
+.bg-yellow {
+  background: #e1c136;
+}
+
+.light, 
+.light a,
+.light a span {
+  color: white;
+
+}
+  
+.cover-link {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  // font-family: georgia, serif;
+  // font-weight: bold;
+  // font-size: 2rem;
+  // line-height: 1.2;
+  // text-align: center;
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  border-bottom: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.cover-link>span {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  padding: 8px 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+}
+
+.footnotes li p {
+  display: inline;
+}
+
+.object-listing {
+  margin: 0;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.object-link {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  min-height: 300px;
+}
+
+.object-link__image {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.object-link__details {
+  width: 50%;
+  padding: 0 28px;
+}
+.object-link .object-link__header {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+
+// new scss
+// typo
+@font-face {
+	font-family: 'f-medium';
+	font-weight: normal;
+	src:url('../static/fonts/FoundersGrotesk.Medium.otf');
+}
+@font-face {
+	font-family: 'f-regular';
+	font-weight: normal;
+	src:url('../static/fonts/FoundersGrotesk.Regular.otf');
+}
+@font-face {
+	font-family: 'f-mono';
+	font-weight: normal;
+	src:url('../static/fonts/FoundersGroteskMonoRegular.otf');
+}
+
+.maintitle {
+	font-family: 'f-medium';
+	font-size: 2.3rem;
+  text-align: center;
+}
+
+.text {
+	font-family: 'f-regular';
+}
+
+
+.caption,
+.boxtitle {
+	font-family: 'f-mono';
+	text-align: center;
+}
+
+a,
+.facts {
+	font-family: 'f-mono';
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 0.1em solid;
+	text-transform: uppercase;
+}
+
+
+
+
+// blocks 
+$pico: "(max-width: 350px)";
+$mini-down: "(max-width: 600px)";
+$small: "(min-width: 601px) and (max-width: 900px)";
+$small-up: "(min-width: 601px)";
+$small-down: "(max-width: 980px)";
+$medium: "(min-width: 981px) and (max-width: 1150px)";
+$medium-up: "(min-width: 981px)";
+$medium-down: "(max-width: 1150px)";
+$large-up: "(min-width: 1151px)";
+$large: "(min-width: 1151px) and (max-width:1499px)";
+$xlarge: "(min-width: 1500px)";
+
+//grid based on fixed px dimensions 12 columns wide
+@media #{$medium-up} {
+	@for $i from 1 through 12 {
+		.w-#{$i} {
+			grid-column: auto / span #{$i};
+			width: #{$i*100}px;
+		}
+		.h-#{$i} {
+			grid-row: auto / span #{$i};
+			height: #{$i*100}px;
+		}
+	}
+
+}
+
+$gw: 100px; // basic unit for the grid
+$width: 1rem; // width of the chamfered edges
+
+main {
+	max-width: calc(1200px);
+	margin:0 auto;
+	.blocks {
+		padding:1rem;
+		@media #{$medium-up} {
+			display: grid;
+			 // grid-auto-flow: row;
+			grid-template-columns: repeat(12, #{$gw});
+			grid-auto-rows: #{$gw};
+			// grid-auto-rows: minmax(8%, auto);
+		}
+		.margin {
+			margin-bottom: 2rem;
+		}
+		@media #{$small-down} {
+			& {
+				max-width: 30rem;
+				margin:0 auto;
+			}
+			.block {
+			}
+		}
+
+		// this only works in new browsers but should fallback gracefully
+		.cutcorners {
+			clip-path: polygon(
+				calc(0% + #{$width}) 0%, 
+				calc(100% -  #{$width}) 0%, 
+				100%  #{$width},
+				100% calc(100% - #{$width}), 
+				calc(100% - #{$width}) 100%,
+				#{$width} 100%,
+				0% calc(100% - #{$width}),
+				0% #{$width}
+			);
+    }
+    .block {
+      position: relative;
+    }
+
+		.title,
+		.info {
+			padding:2rem;
+		}
+		.title {
+			background-color: rgb(225,193,54);
+			display: flex;
+			flex-flow: column nowrap;
+			justify-content: space-between;
+			
+		}
+		.info {
+			.boxtitle {
+				margin-bottom:1.5rem;
+			}
+			background-color: #000;
+			color:#fff;
+			overflow-y:auto;
+			
+		}
+
+		.image {
+			img {
+				vertical-align: bottom;
+				width: 100%;
+				height: 100%;
+				object-fit:cover;
+			}
+			.caption {
+				color:white;
+				padding:0 2rem;
+				position: absolute;
+				text-align: center;
+				bottom: 1rem;
+				left:0;
+				width: 100%;
+			}
+		}
+
+		@media #{$medium-up} {
+			.block {
+				&.row {
+					display: flex;
+				}
+
+				// caption and image changes order on desktop
+				// this way the order remains on mobile
+				&.row.caption-left {
+					flex-direction: row-reverse;					
+				}
+				&.column {
+					display: flex;
+					flex-flow: column;
+				}
+				a.readmore {
+					display: inline-block;
+					margin-top:1rem;
+				}
+			}			
+		}
+
+	}
+}
+
+//svg arrow
+.arrow {
+	width: 1.4rem;
+	margin:-0.15rem;
+	svg {
+		transform-origin:50% 50%;
+		width: 100%;
+		height: 100%;
+		// margin:-3px;
+		path {
+			fill: #fff;
+		}
+	}
+	margin-bottom: 1rem;
+	&.up {
+		transform: rotate(90deg);
+		margin-left: -0.4rem;
+	}
+	&.left {
+		@media #{$small-down} {
+			transform: rotate(90deg);
+		}
+
+	}
+	&.right {
+		transform: rotate(180deg);
+		@media #{$small-down} {
+			transform: rotate(270deg);
+		}
+	}
+}
+
+.canvas-preview {
+  width: 100%;
+  
+  overflow: hidden;
+  position: relative;
+}
+@media #{$medium-up} {
+  .canvas-preview {
+    position: absolute;
+    height: 100%; 
+  }
+}
+@media #{$small-down} {
+  .maintitle {
+    line-height: 2.3rem;
+    margin-top: 0.6rem;
+  }
+}

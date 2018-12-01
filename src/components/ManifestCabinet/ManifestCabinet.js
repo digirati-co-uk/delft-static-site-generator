@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { withBemClass } from '@canvas-panel/core';
 import './ManifestCabinet.scss';
 
 const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
   const thumb = thumbnail.__jsonld;
+  console.log('thumb', thumb);
   if (
     (pWidth || pHeight) && 
     thumb.hasOwnProperty('service') && 
@@ -37,6 +37,7 @@ const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
     }
     return thumbUrlParts.join('/');
   } else {
+    console.log('returning plain thumb id', thumb.id);
     return (thumb.id || thumb['@id']);
   }
 };
@@ -81,6 +82,7 @@ const ManifestCabinet = ({
                     selected: isSelected 
                   })
                 }
+                alt={''}
                 onClick={()=>goToRange(index)}
               />
             );
