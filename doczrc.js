@@ -10,19 +10,12 @@ module.exports = {
   port: 5001,
   protocol: 'http',
   plugins: [postCSSPlugin()],
-  modifyBabelRc: function (config) {
-    const projectFolder = config.presets[0][0].split('/node_modules/')[0];
-    config.presets = [
-      [
-        projectFolder + '/node_modules/babel-preset-gatsby/index.js',
-        {
-          targets: {
-            browsers: [">0.25%", "not dead"],
-          },
-        },
-      ],
-    ].concat(config.presets);
-    config.plugins.push(projectFolder + '/node_modules/babel-plugin-remove-graphql-queries/index.js');
-    return config;
-  }  
+  modifyBundlerConfig: (config) => {
+    config.resolve.extensions.push('.scss')
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: ["style-loader", "css-loader", "sass-loader"]
+    });
+    return config
+  }
 };
