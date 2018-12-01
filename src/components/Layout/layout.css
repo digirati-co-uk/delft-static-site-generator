@@ -184,6 +184,10 @@ textarea {
 html {
   box-sizing: border-box;
   overflow-y: scroll;
+  background: #e9e9e9;
+  color: black;
+  font-family: 'f-mono', 'Courier New', Courier, monospace;
+  line-height: 1.28;
 }
 * {
   box-sizing: inherit;
