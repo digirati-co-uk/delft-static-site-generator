@@ -3,7 +3,7 @@ import './languageSelector.css';
 
 const LanguageSelector = props => (
   <span className="language-selector">
-    <a href="en" className="language-selector__translation">EN</a>/<a href="nl" className="language-selector__translation">NL</a>
+    <a href="/en" className="language-selector__translation">EN</a>/<a href="/nl" className="language-selector__translation">NL</a>
   </span>
 );
 
