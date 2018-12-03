@@ -1,0 +1,22 @@
+.header {
+  background: #1d1c73;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 17px 1rem 30px;
+  height: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__site-title {
+  color: white;
+  text-decoration: none;
+  border-bottom: 0;
+  font-weight: normal;
+  font-size: 16px; /* TODO: rem */
+}

@@ -1,0 +1,14 @@
+.language-selector, 
+.language-selector__translation {
+  font-weight: normal;
+  color: white;
+  font-size: 16px; /* TODO: rem */
+}
+
+.language-selector__translation {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 0;
+  font-size: 16px; /* TODO: rem */
+}
+

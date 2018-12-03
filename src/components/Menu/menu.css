@@ -1,5 +1,4 @@
 .main-menu {
-  flex: 1;
   text-align: right;
 }
 
@@ -14,8 +13,10 @@
 }
 
 .main-menu__link {
-  font-weight: bold;
-  color: black;
+  font-weight: normal;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
+  border-bottom: 0;
+  font-size: 16px; /* TODO: rem */
 }

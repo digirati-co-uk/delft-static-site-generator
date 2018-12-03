@@ -5,7 +5,6 @@ import './ManifestCabinet.scss';
 
 const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
   const thumb = thumbnail.__jsonld;
-  console.log('thumb', thumb);
   if (
     (pWidth || pHeight) && 
     thumb.hasOwnProperty('service') && 
@@ -37,70 +36,98 @@ const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
     }
     return thumbUrlParts.join('/');
   } else {
-    console.log('returning plain thumb id', thumb.id);
     return (thumb.id || thumb['@id']);
   }
 };
 
-const ManifestCabinet = ({
-    children,
-    allThumbnails,
-    canvasList, 
-    currentCanvas,
-    height,
-    showControls,
-    goToRange,
-    bem
-  }) => {
-  
-  return (
-    <div style={{ height: height }} className={bem}>
-      <div className={bem.element('scroll')}>
-        <div style={{ height: height }} className={bem.element('thumb-list')}>
-          {canvasList.map((canvasId, index) => {
-            const isSelected = canvasId === (currentCanvas.id || currentCanvas['@id']);
-            if (isSelected) {
-              setTimeout(()=>{
-                let selectedThumbnail = document.querySelector('.' + bem.element('thumb') + '--selected');
-                // Jumping all across the screen...
-                //selectedThumbnail.scrollIntoView({behavior: "smooth", block: 'nearest', inline: "nearest"}) 
-                const list = selectedThumbnail.parentNode.parentNode;
-                const rect = selectedThumbnail.getBoundingClientRect();
-                if (rect.x < 0) {
-                  list.scrollLeft = 0;
-                } else if (selectedThumbnail.parentNode.parentNode.offsetWidth - rect.width < rect.x ) {
-                  list.scrollLeft = selectedThumbnail.offsetLeft - (selectedThumbnail.parentNode.parentNode.offsetWidth - rect.width);
-                }
-              },100);
-            }
-            return (
-              <img
-                key={`${canvasId}--thumb`}
-                src={thumbnailGetSize(allThumbnails[canvasId], null, height)} 
-                className={
-                  bem.element('thumb').modifiers({
-                    selected: isSelected 
-                  })
-                }
-                alt={''}
-                onClick={()=>goToRange(index)}
-              />
-            );
-          })}
+
+
+class ManifestCabinet extends React.Component {
+  thumbnailCache = {};
+
+  componentDidUpdate(/*prevProps, prevState*/) {
+    if (this.selectedThumbnail) {
+      const list = this.selectedThumbnail.parentNode.parentNode;
+      const rect = this.selectedThumbnail.getBoundingClientRect();
+      if (rect.x < 0) {
+        list.scrollLeft = 0;
+      } else if (list.offsetWidth - rect.width < rect.x ) {
+        list.scrollLeft = this.selectedThumbnail.offsetLeft - (list.offsetWidth - rect.width);
+      }
+    }   
+  }
+
+  getThumbnails = (manifest) => {
+    const manifestId = manifest.id || manifest['@id'];
+    if (this.thumbnailCache.hasOwnProperty(manifestId)) {
+      return this.thumbnailCache[manifestId];
+    }
+    
+    const thumbnails = manifest.getSequences().reduce(
+      (sequenceThumbnails, sequence) => 
+        Object.assign(
+          sequenceThumbnails, 
+          sequence.getCanvases().reduce((canvasThumbnails, canvas) => { 
+            canvasThumbnails[canvas.id || canvas['@id']] = canvas.getThumbnail();
+            return canvasThumbnails;
+          }, {})
+        )
+      , {});
+    this.thumbnailCache[manifestId] = thumbnails;
+    return thumbnails;
+  };
+
+  render() {
+    const {
+      children,
+      manifest,
+      canvasList, 
+      currentCanvas,
+      height,
+      showControls,
+      goToRange,
+      bem
+    } = this.props;
+    const allThumbnails = this.getThumbnails(manifest);
+
+    return (
+      <div style={{ height: height }} className={bem}>
+        <div className={bem.element('scroll')}>
+          <div style={{ height: height }} className={bem.element('thumb-list')}>
+            {canvasList.map((canvasId, index) => {
+              const isSelected = canvasId === (currentCanvas.id || currentCanvas['@id']);
+              return (
+                <img
+                  ref={imageEl => {
+                    if (isSelected) {
+                      this.selectedThumbnail = imageEl
+                    }
+                  }}
+                  key={`${canvasId}--thumb`}
+                  src={thumbnailGetSize(allThumbnails[canvasId], null, height)} 
+                  className={
+                    bem.element('thumb').modifiers({
+                      selected: isSelected 
+                    })
+                  }
+                  alt=""
+                  onClick={()=>goToRange(index)}
+                />
+              );
+            })}
+          </div>
+          { showControls && (
+            <>{children}</>
+            )}
         </div>
-        { showControls && (
-          <>{children}</>
-          )}
       </div>
-    </div>
-  );
-}; 
-
-
+    );
+  }
+};
 
 
 ManifestCabinet.propTypes = {
-  allThumbnails: PropTypes.object.isRequired,
+  manifest: PropTypes.object.isRequired,
   canvasList: PropTypes.array.isRequired, 
   currentCanvas: PropTypes.object,
   height: PropTypes.number,

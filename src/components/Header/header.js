@@ -1,38 +1,21 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Menu from '../Menu/menu';
+import Logo from '../Logo/logo';
+import LanguageSelector from '../LanguageSelector/languageSelector';
+import './header.css'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#e1c136',
-    }}
-  >
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        padding: '0.6rem 1.0875rem',
-      }}
-    >
-      
-        <Link
-          to="/"
-          style={{
-            color: 'black',
-            textDecoration: 'none',
-            borderBottom: 0,
-            fontWeight: 'bold',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      
+  <header className="header">
+    <div className="header__content">
+      <Link to="/" className="header__site-title">
+        {siteTitle}
+      </Link>
       <Menu />
+      <LanguageSelector />
+      <Logo />
     </div>
-  </div>
+  </header>
 )
 
 export default Header

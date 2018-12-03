@@ -19,27 +19,7 @@ import ManifestCabinet from '../ManifestCabinet/ManifestCabinet';
 
 import './slideshow.css';
 
-const thumbnailCache = {};
 
-const getThumbnails = (manifest, clearCache = false) => {
-  const manifestId = manifest.id || manifest['@id'];
-  if (!clearCache && thumbnailCache.hasOwnProperty(manifestId)) {
-    return thumbnailCache[manifestId];
-  }
-
-  const thumbnails = manifest.getSequences().reduce(
-    (sequenceThumbnails, sequence) => 
-      Object.assign(
-        sequenceThumbnails, 
-        sequence.getCanvases().reduce((canvasThumbnails, canvas) => { 
-          canvasThumbnails[canvas.id || canvas['@id']] = canvas.getThumbnail();
-          return canvasThumbnails;
-        }, {})
-      )
-    , {});
-  thumbnailCache[manifestId] = thumbnails;
-  return thumbnails;
-}
 
 class SlideShow extends Component {
   state = {
@@ -94,8 +74,6 @@ class SlideShow extends Component {
                     region,
                     goToRange,
                   } = rangeProps;
-                  const allThumbnails = getThumbnails(manifest);
-                        
                   return (
                     <>
                     <div className={bem.element('inner-frame')} ref={ref}>
@@ -133,10 +111,10 @@ class SlideShow extends Component {
                       )}
                     </div>
                     {
-                      Object.keys(allThumbnails).length > 0 && (
+                      canvasList.length > 1 && (
                         <ManifestCabinet 
                           currentCanvas={canvas}
-                          allThumbnails={allThumbnails}
+                          manifest={manifest}
                           canvasList={canvasList}
                           height={116}
                           goToRange={goToRange}
