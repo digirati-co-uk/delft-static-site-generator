@@ -38,34 +38,46 @@
           ]
         },
         "thumbnail": [
-          { 
-            "id": "https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964/full/full/0/default.jpg", 
-            "service": {
+          {
+            "id": "https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg",
+            "type": "Image",
+            "width":1022,
+            "height":1024,
+            "service": {  
               "@context":"http://iiif.io/api/image/2/context.json",
-              "@id":"https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964",
-              "profile": [
+              "@id": "https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391",
+              "profile":[  
                 "http://iiif.io/api/image/2/level0.json",
-                {
-                  "formats" : [ "jpg" ],
-                  "qualities" : [ "color" ],
-                  "supports" : [ "sizeByWhListed" ]
+                {  
+                    "formats":[  
+                      "jpg"
+                    ],
+                    "qualities":[  
+                      "color"
+                    ],
+                    "supports":[  
+                      "sizeByWhListed"
+                    ]
                 }
               ],
-              "width" : 1024,
-              "height" : 767,
-              "sizes" : [
-                {
-                  "width": 1024, 
-                  "height": 767
-                }, {
-                  "width": 400, 
-                  "height": 299
-                }, {
-                  "width": 200,
-                  "height": 150
-                }, {
-                  "width": 100,
-                  "height": 75
+              "width":1022,
+              "height":1024,
+              "sizes":[  
+                {  
+                    "width":1022,
+                    "height":1024
+                },
+                {  
+                    "width":399,
+                    "height":400
+                },
+                {  
+                    "width":200,
+                    "height":200
+                },
+                {  
+                    "width":100,
+                    "height":100
                 }
               ]
             }

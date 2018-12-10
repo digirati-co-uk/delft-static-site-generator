@@ -23,6 +23,132 @@
       {
         "label": {
           "en": [
+            "Object 4"
+          ],
+          "nl": [
+            "Object 4"
+          ]
+        },
+        "summary": {
+          "en": [
+            " cursus hendrerit, ligula magna dapibus neque, ac aliquet  vulputate."
+          ],
+          "nl": [
+            "c pretium magna est, eu commodo erat volutpat ac. Curabitur placerat urna vi commodo."
+          ]
+        },
+        "thumbnail": [
+          { 
+            "id": "https://dlc.services/thumbs/5/1/73465289-f503-4850-be04-15ae8264819c/full/full/0/default.jpg", 
+            "service": {  
+              "@context":"http://iiif.io/api/image/2/context.json",
+              "@id":"https://dlc.services/thumbs/5/1/73465289-f503-4850-be04-15ae8264819c",
+              "profile":[  
+                 "http://iiif.io/api/image/2/level0.json",
+                 {  
+                    "formats":[  
+                       "jpg"
+                    ],
+                    "qualities":[  
+                       "color"
+                    ],
+                    "supports":[  
+                       "sizeByWhListed"
+                    ]
+                 }
+              ],
+              "width":1024,
+              "height":767,
+              "sizes":[  
+                 {  
+                    "width":1024,
+                    "height":767
+                 },
+                 {  
+                    "width":400,
+                    "height":299
+                 },
+                 {  
+                    "width":200,
+                    "height":150
+                 },
+                 {  
+                    "width":100,
+                    "height":75
+                 }
+              ]
+            }
+          }
+        ],
+        "type": "Manifest",
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-4"
+      },
+      {
+        "label": {
+          "en": [
+            "Object 1"
+          ],
+          "nl": [
+            "Object 1"
+          ]
+        },
+        "summary": {
+          "en": [
+            " cursus hendrerit, ligula magna dapibus neque, ac aliquet nisl ex nec nisi. Nulla gravida eleifend commodo. "
+          ],
+          "nl": [
+            "c pretium magna est, eu commodo erat volutpat ac. Curabitur placerat urna vitae neque sollicitudin iaculis. "
+          ]
+        },
+        "thumbnail": [
+          { 
+            "id": "https://dlc.services/thumbs/5/1/2378e17e-f976-419f-92f7-cb3bb883e009/full/full/0/default.jpeg", 
+            "service": {  
+              "@context":"http://iiif.io/api/image/2/context.json",
+              "@id":"https://dlc.services/thumbs/5/1/2378e17e-f976-419f-92f7-cb3bb883e009",
+              "profile":[  
+                 "http://iiif.io/api/image/2/level0.json",
+                 {  
+                    "formats":[  
+                       "jpg"
+                    ],
+                    "qualities":[  
+                       "color"
+                    ],
+                    "supports":[  
+                       "sizeByWhListed"
+                    ]
+                 }
+              ],
+              "width":1006,
+              "height":1024,
+              "sizes":[  
+                 {  
+                    "width":1006,
+                    "height":1024
+                 },
+                 {  
+                    "width":393,
+                    "height":400
+                 },
+                 {  
+                    "width":197,
+                    "height":200
+                 },
+                 {  
+                    "width":98,
+                    "height":100
+                 }
+              ]
+            }
+          }
+        ],
+        "type": "Manifest",
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-1"
+      },
+      {
+        "label": {
+          "en": [
             "Object 2"
           ],
           "nl": [
@@ -31,42 +157,51 @@
         },
         "summary": {
           "en": [
-            "Nulla gravida elei elit dapibus velit, sit amet pulvinar."
+            " cursus hendrerit, ligula magna dapibus neque, ac aliquet nisl ex nec nisi. Nulla gravida eleifend commodo. "
           ],
           "nl": [
-            "Curabitur placerat urna vitae neque sollicitudin iaculis. Aliquam ut nunc eget elit dictum commodo."
+            "c pretium magna est, eu commodo erat volutpat ac. Curabitur placerat urna vitae neque sollicitudin iaculis."
           ]
         },
         "thumbnail": [
           { 
-            "id": "https://dlc.services/thumbs/5/34/968b38be-8751-4e74-b562-b62f887d3faa/full/1024,1018/0/default.jpg", 
-            "service": {
+            "id": "https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg", 
+            "service": {  
               "@context":"http://iiif.io/api/image/2/context.json",
-              "@id":"https://dlc.services/thumbs/5/34/968b38be-8751-4e74-b562-b62f887d3faa",
-              "profile": [
-                "http://iiif.io/api/image/2/level0.json",
-                {
-                  "formats" : [ "jpg" ],
-                  "qualities" : [ "color" ],
-                  "supports" : [ "sizeByWhListed" ]
-                }
+              "@id":"https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391",
+              "profile":[  
+                 "http://iiif.io/api/image/2/level0.json",
+                 {  
+                    "formats":[  
+                       "jpg"
+                    ],
+                    "qualities":[  
+                       "color"
+                    ],
+                    "supports":[  
+                       "sizeByWhListed"
+                    ]
+                 }
               ],
-              "width" : 1024,
-              "height" : 1018,
-              "sizes" : [
-                {
-                  "width": 1024,
-                  "height": 1018
-                }, {
-                  "width": 400,
-                  "height": 398
-                }, {
-                  "width": 200,
-                  "height": 199
-                }, {
-                  "width": 100,
-                  "height": 99
-                }
+              "width":1022,
+              "height":1024,
+              "sizes":[  
+                 {  
+                    "width":1022,
+                    "height":1024
+                 },
+                 {  
+                    "width":399,
+                    "height":400
+                 },
+                 {  
+                    "width":200,
+                    "height":200
+                 },
+                 {  
+                    "width":100,
+                    "height":100
+                 }
               ]
             }
           }
@@ -85,184 +220,57 @@
         },
         "summary": {
           "en": [
-            "Nulla gravida eleifend commodo. Vivamus ornare ex nec auctor vulputate. Integer feugiat, sem elit dapibus velit, sit amet pulvinar."
+            " cursus hendrerit, ligula magna dapibus neque, ac aliquet nisl ex nec nisi. Nulla gravida eleifend commodo. Vivamus ornare ex nec auctor vulputate."
           ],
           "nl": [
-            "Volutpat ac. Curabitur placerat urna vitae neque ut nunc eget."
+            "c pretium magna est, eu commodo erat volutpat ac. Curabitur placerat urna vitae neque sollicitudin iaculis. "
           ]
         },
         "thumbnail": [
           { 
-            "id": "https://dlc.services/thumbs/5/34/bbad1499-3c1c-4497-8463-82db9813782a/full/1022,1024/0/default.jpg", 
-            "service": {
+            "id": "https://dlc.services/thumbs/5/1/3115675e-1f06-4b85-8670-fb05593c4b36/full/full/0/default.jpg", 
+            "service": {  
               "@context":"http://iiif.io/api/image/2/context.json",
-              "@id":"https://dlc.services/thumbs/5/34/bbad1499-3c1c-4497-8463-82db9813782a",
-              "profile": [
-                "http://iiif.io/api/image/2/level0.json",
-                {
-                  "formats" : [ "jpg" ],
-                  "qualities" : [ "color" ],
-                  "supports" : [ "sizeByWhListed" ]
-                }
+              "@id":"https://dlc.services/thumbs/5/1/3115675e-1f06-4b85-8670-fb05593c4b36",
+              "profile":[  
+                 "http://iiif.io/api/image/2/level0.json",
+                 {  
+                    "formats":[  
+                       "jpg"
+                    ],
+                    "qualities":[  
+                       "color"
+                    ],
+                    "supports":[  
+                       "sizeByWhListed"
+                    ]
+                 }
               ],
-              "width" : 1022,
-              "height" : 1024,
-              "sizes" : [
-                {
-                  "width": 1022,
-                  "height": 1024
-                }, {
-                  "width": 399,
-                  "height": 400
-                }, {
-                  "width": 200,
-                  "height": 200
-                }, {
-                  "width": 100,
-                  "height": 100
-                }
+              "width":1024,
+              "height":1018,
+              "sizes":[  
+                 {  
+                    "width":1024,
+                    "height":1018
+                 },
+                 {  
+                    "width":400,
+                    "height":398
+                 },
+                 {  
+                    "width":200,
+                    "height":199
+                 },
+                 {  
+                    "width":100,
+                    "height":99
+                 }
               ]
             }
           }
         ],
         "type": "Manifest",
         "id": "https://delft-static-site-generator.netlify.com/objects/object-3"
-      },
-      {
-        "label": {
-          "en": [
-            "Object 4"
-          ],
-          "nl": [
-            "Object 4"
-          ]
-        },
-        "summary": {
-          "en": [
-            " cursus hendrerit, ligula magna dapibus neque, ac aliquet nisl ex nec nisi. Nulla gravida elei, sit amet pulvinar."
-          ],
-          "nl": [
-            "c pretium magna est, eu commodo erat volutpat ac. Curabitur placerat. Aliquam ut nunc eget elit dictum commodo."
-          ]
-        },
-        "thumbnail": [
-          { 
-            "id": "https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964/full/full/0/default.jpg", 
-            "service": {
-              "@context":"http://iiif.io/api/image/2/context.json",
-              "@id":"https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964",
-              "profile": [
-                "http://iiif.io/api/image/2/level0.json",
-                {
-                  "formats" : [ "jpg" ],
-                  "qualities" : [ "color" ],
-                  "supports" : [ "sizeByWhListed" ]
-                }
-              ],
-              "width" : 1024,
-              "height" : 767,
-              "sizes" : [
-                {
-                  "width": 1024, 
-                  "height": 767
-                }, {
-                  "width": 400, 
-                  "height": 299
-                }, {
-                  "width": 200,
-                  "height": 150
-                }, {
-                  "width": 100,
-                  "height": 75
-                }
-              ]
-            }
-          }
-        ],
-        "type": "Manifest",
-        "id": "https://delft-static-site-generator.netlify.com/objects/object-4"
-      },
-      {
-        "label": {
-          "en": [
-            "Multi Canvas Object"
-          ],
-          "nl": [
-            "Meerdere Canvasobjecten"
-          ]
-        },
-        "summary": {
-          "en": [
-            " cursus hendrerit, ligula magna dap, sit amet pulvinar."
-          ],
-          "nl": [
-            "c pretium magna est, eu commodo erat volutpat ac. Curab iaculis. Aliquam ut nunc eget elit dictum commodo."
-          ]
-        },
-        "thumbnail": [
-          { 
-            "id": "https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964/full/full/0/default.jpg", 
-            "service": {
-              "@context":"http://iiif.io/api/image/2/context.json",
-              "@id":"https://dlc.services/thumbs/5/34/dbc3f644-5830-4d71-87c9-db12e35d1964",
-              "profile": [
-                "http://iiif.io/api/image/2/level0.json",
-                {
-                  "formats" : [ "jpg" ],
-                  "qualities" : [ "color" ],
-                  "supports" : [ "sizeByWhListed" ]
-                }
-              ],
-              "width" : 1024,
-              "height" : 767,
-              "sizes" : [
-                {
-                  "width": 1024, 
-                  "height": 767
-                }, {
-                  "width": 400, 
-                  "height": 299
-                }, {
-                  "width": 200,
-                  "height": 150
-                }, {
-                  "width": 100,
-                  "height": 75
-                }
-              ]
-            }
-          }
-        ],
-        "type": "Manifest",
-        "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object"
-      },
-      {
-        "label": {
-          "en": [
-            "IIIF Presentation V2 manifest"
-          ],
-          "nl": [
-            "IIIF Presentation V2 manifest"
-          ]
-        },
-        "summary": {
-          "en": [
-            "Testing accidental load of a IIIF Presentation v2 manifest, site shouldn't break if the manifest is valid"
-          ],
-          "nl": [
-            "c pretium magna est, eu commodo erat volutpat ac. Curabitur iaculis. Aliquam ut nunc eget elit dictum commodo."
-          ]
-        },
-        "thumbnail": [
-          {
-            "@id": "https://view.nls.uk/iiif/7443/74438561.5/full/full/0/native.jpg",
-            "@type": "Image",
-            "height": 113,
-            "width": 150
-          }
-        ],
-        "type": "Manifest",
-        "id": "https://delft-static-site-generator.netlify.com/objects/iiif-presnetation-v2-manifest"
       }
     ],
     "@context": [
