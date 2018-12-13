@@ -153,6 +153,29 @@ main {
   justify-content: space-between;
 }
 
+.cover-link:after {
+  content: ' ';
+  
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  mix-blend-mode: multiply;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.block:nth-child(2n+1) .cover-link:after {
+  background: #e1c136;
+}
+// .block:nth-child(2n) .cover-link:after {
+//   background: #ff7945;
+// }
+
+// .block:nth-child(3n) .cover-link:after {
+//   background: #50b8c1;
+// }
+
 .cover-link>span {
   position: absolute;
   display: block;

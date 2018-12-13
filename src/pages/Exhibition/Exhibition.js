@@ -12,18 +12,33 @@ const filterToPreferredChoices = choices => {
   );
 }
 
-const IIIFImageAnnotationCover = ({body, position}) => body.service ? (
-  <img 
-    src={body.service[0].id.replace('info.json','') + '/full/full/0/default.jpg'} 
-    style={position}
-    alt=""
-  />
-) : (
-  <img 
-    src={body.id} style={position} 
-    alt=""
-  />
-);
+const IIIFImageAnnotationCover = ({body, position}) => {
+  position = position || {
+    top: 0,
+    left:0,
+    width: '100%',
+    height: '100%',
+    position: 'absolute',
+  };
+  if (!body.service) {
+    return (
+      <img 
+        src={body.id} 
+        style={position} 
+        alt=""
+      />
+    );
+  }
+  const service = (Array.isArray(body.service) ? body.service[0] : body.service );
+  const id = service['@id'] || service.id;
+  return (
+    <img 
+      src={id.replace('info.json','') + '/full/full/0/default.jpg'} 
+      style={position}
+      alt=""
+    />
+  );
+};
 
 const IIIFVideoAnnotationCover = ({body, position}) => (
   <div style={position}>
@@ -49,30 +64,32 @@ const IIIFTextAnnotationCover = ({body, position}) => (
 );
 
 const xywhResolver = (annotation, canvas) => {
-  const xywhMatch = annotation.target.match(
+  if (annotation.target) {
+    const xywhMatch = annotation.target.match(
     /xywh=(\d+),(\d+),(\d+),(\d+)/
-  );
-  if (xywhMatch) {
-    const [_xywh, _x, _y, _w, _h] = xywhMatch;
-    return {
-      position: 'absolute',
-      left: (parseInt(_x, 10)/canvas.width*100) + '%',
-      top: (parseInt(_y, 10)/canvas.height*100) + '%',
-      width: (parseInt(_w, 10)/canvas.width*100) + '%',
-      height: (parseInt(_h, 10)/canvas.height*100) + '%',
-      margin: 0,
-      padding: 0,
+    );
+    if (xywhMatch) {
+      const [_xywh, _x, _y, _w, _h] = xywhMatch;
+      return {
+        position: 'absolute',
+        left: (parseInt(_x, 10)/canvas.width*100) + '%',
+        top: (parseInt(_y, 10)/canvas.height*100) + '%',
+        width: (parseInt(_w, 10)/canvas.width*100) + '%',
+        height: (parseInt(_h, 10)/canvas.height*100) + '%',
+        margin: 0,
+        padding: 0,
+      }
     }
-  } else {
-    return {
-      position: 'absolute',
-      left: 0,
-      top: 0,
-      width: '100%',
-      height: '100%',
-      margin: 0,
-      padding: 0,
-    }
+  }
+
+  return {
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    width: '100%',
+    height: '100%',
+    margin: 0,
+    padding: 0,
   }
 }
 
@@ -113,43 +130,46 @@ class ExhibitionPage extends React.Component {
   };
 
   renderAnnotationBody = (canvas) => (
-    <>
-    {canvas.items &&
-      (canvas.items[0].items || []).map(
-        annotation=> (
-          annotation.motivation === 'painting' 
-            ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
-            : <div 
-                style={
-                  Object.assign(
-                    xywhResolver(annotation, canvas),
-                    {border: '2px dashed red'}
-                  )} 
-                title={
-                  (annotation.label 
-                    ? annotation.label.en || [] : []).join('')
-                } />
-        ))
-    }
-    {canvas.annotations &&
-      (canvas.annotations[0].items || []).map(
-        annotation=> (
-          annotation.motivation === 'painting' 
-            ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
-            : <div 
-                style={
-                  Object.assign(
-                    xywhResolver(annotation, canvas),
-                    {border: '2px dashed red'}
-                  )} 
-                title={
-                  (annotation.label 
-                    ? annotation.label.en || [] : []).join('')
-                } />
-        ))
-    }
-    </>
-  )
+    <React.Fragment>
+      {canvas.thumbnail && canvas.thumbnail.length > 0 ? (
+      < AnnotationBodyRenderer body={canvas.thumbnail[0]} />
+        ) : (
+        canvas.items &&
+          (canvas.items[0].items || []).map(
+            annotation=> (
+              annotation.motivation === 'painting' 
+                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
+                : <div 
+                    style={
+                      Object.assign(
+                        xywhResolver(annotation, canvas),
+                        {border: '2px dashed red'}
+                      )}
+                    title={
+                      (annotation.label 
+                        ? annotation.label.en || [] : []).join('')
+                    } />
+            ))
+        )}
+        {canvas.annotations &&
+          (canvas.annotations[0].items || []).map(
+            annotation=> (
+              annotation.motivation === 'painting' 
+                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
+                : <div 
+                    style={
+                      Object.assign(
+                        xywhResolver(annotation, canvas),
+                        {border: '2px dashed red'}
+                      )} 
+                    title={
+                      (annotation.label 
+                        ? annotation.label.en || [] : []).join('')
+                    } />
+            ))
+        }
+    </React.Fragment>
+  );
 
   renderMediaHolder = (canvas, content) => (
     <div className="canvas-preview">
@@ -172,7 +192,7 @@ class ExhibitionPage extends React.Component {
         <div
           style={{
             width: '100%', 
-            height: 0,
+            height: '100%',
             position: 'relative',
             paddingBottom: (canvas.height/canvas.width * 100) + '%', 
             background: 'lightgray',

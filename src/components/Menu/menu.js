@@ -16,10 +16,10 @@ const Menu = props => (
 
 Menu.propTypes = { 
   style: PropTypes.object,
-}
+};
 
 Menu.defaultProps = {
   style: {},
-}
+};
 
 export default Menu;
