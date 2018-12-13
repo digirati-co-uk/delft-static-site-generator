@@ -136,10 +136,11 @@ class ExhibitionPage extends React.Component {
         ) : (
         canvas.items &&
           (canvas.items[0].items || []).map(
-            annotation=> (
+            (annotation, idx) => (
               annotation.motivation === 'painting' 
-                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
+                ? <AnnotationBodyRenderer key={`items_painting__${idx}`}  body={annotation.body} position={xywhResolver(annotation, canvas)} />
                 : <div 
+                    key={`items_tagging__${idx}`}
                     style={
                       Object.assign(
                         xywhResolver(annotation, canvas),
@@ -153,10 +154,11 @@ class ExhibitionPage extends React.Component {
         )}
         {canvas.annotations &&
           (canvas.annotations[0].items || []).map(
-            annotation=> (
+            (annotation, idx) => (
               annotation.motivation === 'painting' 
-                ? <AnnotationBodyRenderer body={annotation.body} position={xywhResolver(annotation, canvas)} />
-                : <div 
+                ? <AnnotationBodyRenderer key={`annotation_painting__${idx}`} body={annotation.body} position={xywhResolver(annotation, canvas)} />
+                : <div
+                    key={`annotation_tagging__${idx}`}
                     style={
                       Object.assign(
                         xywhResolver(annotation, canvas),
@@ -195,7 +197,7 @@ class ExhibitionPage extends React.Component {
             height: '100%',
             position: 'relative',
             paddingBottom: (canvas.height/canvas.width * 100) + '%', 
-            background: 'lightgray',
+            background: '#373737',
           }}
         >
           {content}
@@ -258,29 +260,30 @@ class ExhibitionPage extends React.Component {
     return (
       <Layout>
         <main>
-          <div class="blocks">
-            <div class="block title cutcorners w-4 h-4 ">
-              <div class="boxtitle">EXHIBITION</div>
-					    <div class="maintitle">{getTranslation(manifest.label, 'en')}</div>
+          <div className="blocks">
+            <div className="block title cutcorners w-4 h-4 ">
+              <div className="boxtitle">EXHIBITION</div>
+					    <div className="maintitle">{getTranslation(manifest.label, 'en')}</div>
               <div />
             </div>
             {manifest.items && manifest.items.length > 0 && ( 
-              <div class="block cutcorners w-8 h-8 image">
+              <div className="block cutcorners w-8 h-8 image">
                 {this.renderMediaHolder(manifest.items[0], this.renderAnnotationBody(manifest.items[0]))}
-                <div class="caption">{(manifest.items[0].label ? manifest.items[0].label.en ||[] : []).join('')}</div>
+                <div className="caption">{(manifest.items[0].label ? manifest.items[0].label.en ||[] : []).join('')}</div>
               </div>
             )}
-            <div class="block info cutcorners w-4 h-4">
-              <div class="boxtitle">ABOUT</div>
-              <div class="text">
+            <div className="block info cutcorners w-4 h-4">
+              <div className="boxtitle">ABOUT</div>
+              <div className="text">
                 { getTranslation(manifest.summary, 'en', '\n')
                     .split('\n')
-                    .map(paragraph=><p>{paragraph}</p>)}
-                <p><a class="readmore" href="">Read More</a></p>
+                    .map((paragraph, idx)=><p key={`about__${idx}`}>{paragraph}</p>)}
+                <p><a className="readmore" href="">Read More</a></p>
               </div>
             </div>
             {manifest && manifest.items && manifest.items.map((canvas,index) => index==0 ? '' : (
               <div 
+                key={`manifest_item_${index}`}
                 className={this.getBlockClasses(canvas)}
               >
                 {
@@ -307,7 +310,7 @@ class ExhibitionPage extends React.Component {
                   : (
                     <>
                     {this.renderMediaHolder(canvas, this.renderAnnotationBody(canvas))}
-                    <div class="caption">{(canvas.label ? canvas.label.en ||[] : []).join('')}</div>
+                    <div className="caption">{(canvas.label ? canvas.label.en ||[] : []).join('')}</div>
                     </>
                   )
                 }

@@ -22,6 +22,13 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;    
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    svg polygon {
+      fill: #fff;
+    }
   }
   &__inner-frame {
     overflow: hidden;
@@ -41,7 +48,8 @@
     flex-direction: row;
     min-height: 60px;
     width: 100%;
-    background: lightgrey;
+    background: black;
+    color: white;
     .canvas-navigation {
       position: relative;
     }
@@ -57,5 +65,8 @@
     width: 120px;
     overflow: hidden;
     position: relative;
+  }
+  .slide__viewport {
+    background: #373737;
   }
 }
