@@ -30,8 +30,13 @@
       fill: #fff;
     }
   }
-  &__inner-frame {
+  &__slide-transition-wrapper {
     overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  &__inner-frame {
+    //overflow: hidden;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -50,21 +55,32 @@
     width: 100%;
     background: black;
     color: white;
-    .canvas-navigation {
-      position: relative;
-    }
-    .canvas-navigation__next,
-    .canvas-navigation__previous {
-      background: transparent;
-    }
   }
   &__info {
     flex: 1;
+    padding: 36px;
   }
   &__nav {
     width: 120px;
     overflow: hidden;
     position: relative;
+    padding: 36px 20px 36px 0;
+    box-sizing: content-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      background: transparent;
+      width: 40px;
+      height: 40px;
+      border: 0;
+      outline: 0;
+      cursor: pointer;
+      padding: 6px;
+      box-sizing: border-box;
+      margin: 0 !important;
+    }
   }
   .slide__viewport {
     background: #373737;
