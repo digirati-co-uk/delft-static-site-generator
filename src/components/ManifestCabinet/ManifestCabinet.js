@@ -108,8 +108,11 @@ class ManifestCabinet extends React.Component {
                   className={
                     bem.element('thumb').modifiers({
                       selected: isSelected 
-                    })
+                    }) + ' cutcorners'
                   }
+                  style={{
+                    width: height,
+                  }}
                   alt=""
                   onClick={()=>goToRange(index)}
                 />

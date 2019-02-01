@@ -103,29 +103,31 @@ class SlideShow extends Component {
                             canvasList={canvasList}
                             currentIndex={currentIndex}
                           />
-                          <ProgressIndicator
+                          {/* <ProgressIndicator
                             currentCanvas={currentIndex}
                             totalCanvases={canvasList.length}
-                          />
+                          /> */}
                         </React.Fragment>
                       )}
                     </div>
                     {
                       canvasList.length > 1 && (
-                        <ManifestCabinet 
-                          currentCanvas={canvas}
-                          manifest={manifest}
-                          canvasList={canvasList}
-                          height={116}
-                          goToRange={goToRange}
-                        >
-                          <CanvasNavigation
-                            previousRange={previousRange}
-                            nextRange={nextRange}
+                        <div className={bem.element('manifest-cabinet-holder')}>
+                          <ManifestCabinet 
+                            currentCanvas={canvas}
+                            manifest={manifest}
                             canvasList={canvasList}
-                            currentIndex={currentIndex}
-                          />
-                        </ManifestCabinet>
+                            height={80}
+                            goToRange={goToRange}
+                          >
+                            <CanvasNavigation
+                              previousRange={previousRange}
+                              nextRange={nextRange}
+                              canvasList={canvasList}
+                              currentIndex={currentIndex}
+                            />
+                          </ManifestCabinet>
+                        </div>
                       )
                     }
                     </>

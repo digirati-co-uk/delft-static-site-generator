@@ -1,6 +1,9 @@
 import React from 'react';
 import Layout from '../../components/Layout/layout';
 import SlideShow from '../../components/SlideShow/slideshow';
+import { getTranslation } from '../../utils';
+
+const isHtml = val => val.match(/<[^>]+>/) !== null;
 
 class ObjectPage extends React.Component {
   constructor(props) {
@@ -25,28 +28,60 @@ class ObjectPage extends React.Component {
           { renderSlideShow }
         </div>
         <main>
-          <h1>{pageContext && pageContext.metadata && pageContext.metadata.filter(item=>item.label==='Title').map(item=>item.value).join(' ')}</h1>
-          {
-            pageContext && 
-            pageContext.metadata && 
-            pageContext.metadata.filter(
-              item=>item.label==='Description'
-            ).map(
-              item=>item.value
-            )
-            .join('\n')
-            .split('\n')
-            .map(
-              paragraph=>(<p>{paragraph}</p>)
-            )}
-          <h2>Part of Collections</h2>
-          <ul>
-            <li>Test collection</li>
-          </ul>
-          <h2>Part of Exhibitions</h2>
-          <ul>
-            <li>Test Exhibition</li>
-          </ul>
+          <div className="blocks blocks--auto-height">
+            <aside className="w-4">
+              <div className="block info cutcorners w-4 h-4 ">
+                <div className="boxtitle">Part of Collections</div>
+                <ol>
+                  <li>Test collection</li>
+                </ol>
+              </div>
+              <div className="block info cutcorners w-4 h-4 ">
+                <div className="boxtitle">Part of Exhibitions</div>
+                <ol>
+                  <li>Test Exhibition</li>
+                </ol>
+              </div>
+            </aside>
+            <article className="w-8 block--align-right">
+              <div className="w-7">
+              <h1>{pageContext && pageContext.label && getTranslation(pageContext.label, 'en')}</h1>
+              {
+                pageContext && 
+                pageContext.metadata && 
+                pageContext.metadata.map(
+                  metadata=> {
+                    const label = getTranslation(metadata.label, 'en');
+                    const value = getTranslation(metadata.value, 'en');
+                    const isLabelHTML = isHtml(label);
+                    const isValueHTML = isHtml(value);
+                    return (
+                      <React.Fragment>
+                        { isLabelHTML ? (
+                          <dt
+                            dangerouslySetInnerHTML={{
+                              __html: label
+                            }} 
+                          />
+                        ) : (
+                          <dt>{ label }</dt>
+                        )}
+                        { isValueHTML ? (
+                          <dd 
+                            dangerouslySetInnerHTML={{
+                              __html: value
+                            }} />
+                        ) : (
+                          <dd>{ value }</dd>
+                        )}
+                      </React.Fragment>
+                    );
+                  }
+                )
+              }
+              </div>
+            </article>
+          </div>
         </main>
         {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
       </Layout>

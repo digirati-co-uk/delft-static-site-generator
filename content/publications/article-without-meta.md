@@ -1,8 +1,6 @@
 ---
-path: "/publications/article-demo"
+path: "/publications/article-without-meta"
 date: "2018-11-15"
-title: "Awesome article"
-author: "Adam von Digirati"
 ---
 
 # Article page

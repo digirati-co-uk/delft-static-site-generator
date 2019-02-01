@@ -3,6 +3,7 @@
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 10000;
   &__scroll {
     width: 100%;
     height: 100%;
@@ -12,11 +13,13 @@
     display: flex;
   }
   &__thumb {
-    margin: 0;
     height: 100%;
-    border: 8px solid black;
+    margin: 0px 8px;
+    object-fit: cover;
+    box-sizing: border-box;
     &--selected {
-      border: 8px solid white;
+      //border: 8px solid white;
+      //margin: 0;
     }
   }
 }

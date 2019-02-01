@@ -326,7 +326,10 @@ main {
 			grid-template-columns: repeat(12, #{$gw});
 			grid-auto-rows: #{$gw};
 			// grid-auto-rows: minmax(8%, auto);
-		}
+    }
+    &--auto-height {
+      grid-auto-rows: auto;
+    }
 		.margin {
 			margin-bottom: 2rem;
 		}
@@ -339,21 +342,15 @@ main {
 			}
 		}
 
-		// this only works in new browsers but should fallback gracefully
-		.cutcorners {
-			clip-path: polygon(
-				calc(0% + #{$width}) 0%, 
-				calc(100% -  #{$width}) 0%, 
-				100%  #{$width},
-				100% calc(100% - #{$width}), 
-				calc(100% - #{$width}) 100%,
-				#{$width} 100%,
-				0% calc(100% - #{$width}),
-				0% #{$width}
-			);
-    }
+		
     .block {
       position: relative;
+    }
+    .block--align-right {
+      display: inline-flex; 
+      align-items: flex-end;
+      justify-content: flex-start;
+      flex-direction: column;
     }
 
 		.title,
@@ -366,7 +363,14 @@ main {
 			flex-flow: column nowrap;
 			justify-content: space-between;
 			
-		}
+    }
+    .title--fountain-blue {
+      background-color: #50b8c1;
+    }
+    .title--pomegranate {
+      background-color: #e64616;
+    }
+
 		.info {
 			.boxtitle {
 				margin-bottom:1.5rem;
@@ -418,6 +422,20 @@ main {
 		}
 
 	}
+}
+
+// this only works in new browsers but should fallback gracefully
+.cutcorners {
+  clip-path: polygon(
+    calc(0% + #{$width}) 0%, 
+    calc(100% -  #{$width}) 0%, 
+    100%  #{$width},
+    100% calc(100% - #{$width}), 
+    calc(100% - #{$width}) 100%,
+    #{$width} 100%,
+    0% calc(100% - #{$width}),
+    0% #{$width}
+  );
 }
 
 //svg arrow
