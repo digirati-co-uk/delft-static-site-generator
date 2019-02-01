@@ -18,7 +18,9 @@ const Markdown = ({ pageContext, data }) => {
         substituteSpecialLinks(data.markdownRemark.html, pageContext)
     )
     : '';
-  const { title, author } = data.markdownRemark.frontmatter;
+  const { title, author } = data.markdownRemark 
+    ? data.markdownRemark.frontmatter 
+    : { author: '-', title: '-' };
   return (
     <Layout>
       { content.hasOwnProperty('toc') ? (
