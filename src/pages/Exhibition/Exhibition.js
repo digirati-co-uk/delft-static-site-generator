@@ -140,9 +140,9 @@ class ExhibitionPage extends React.Component {
     </div>
   )
 
-  getBlockClasses = canvas => (canvas.behaviours
-    && canvas.behaviours.length > 0
-      ? `block cutcorners ${canvas.behaviours.join(' ')}${canvas.summary ? '' : ' image'}`
+  getBlockClasses = canvas => (canvas.behavior
+    && canvas.behavior.length > 0
+      ? `block cutcorners ${canvas.behavior.join(' ')}${canvas.summary ? '' : ' image'}`
       : `block cutcorners w-8 h-8 image${canvas.summary ? '' : ' image'}`)
 
   getBlockImageClasses = (canvas) => {

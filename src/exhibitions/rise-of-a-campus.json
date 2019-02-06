@@ -78,7 +78,7 @@
           "height": 1024,
           "width": 1006
         }],
-        "behaviours": ["w-4", "h-4"]
+        "behavior": ["w-4", "h-4"]
       },
       {
         "label": {
@@ -150,7 +150,7 @@
           "height": 1024,
           "width": 1022
         }],
-        "behaviours": ["w-7", "h-4", "row"]
+        "behavior": ["w-7", "h-4", "row"]
       },
       {
         "label": {
@@ -214,7 +214,7 @@
           "height": 1018,
           "width": 1024
         }],
-        "behaviours": ["w-5", "h-7", "column"]
+        "behavior": ["w-5", "h-7", "column"]
       },
       {
         "label": {
@@ -278,7 +278,7 @@
           "height": 767,
           "width": 1024
         }],
-        "behaviours": [
+        "behavior": [
           "caption-left",
           "row", 
           "w-7", 
