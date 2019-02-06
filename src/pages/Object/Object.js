@@ -1,11 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
 import SlideShow from '../../components/SlideShow/slideshow';
-import { getTranslation } from '../../utils';
+import { getTranslation as translate, getPageLanguage } from '../../utils';
 
 const isHtml = val => val.match(/<[^>]+>/) !== null;
 
 class ObjectPage extends React.Component {
+  propTypes = {
+    pageContext: PropTypes.object.isRequired,
+    '*': PropTypes.string.isRequired,
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -14,16 +20,19 @@ class ObjectPage extends React.Component {
   }
 
   componentDidMount() {
+    const { pageContext } = this.props;
     // Client only hack
     this.setState({
-      renderSlideShow: (<SlideShow jsonld={this.props.pageContext}/>) 
+      renderSlideShow: (<SlideShow jsonld={pageContext} />),
     });
   }
+
   render() {
-    const { pageContext } = this.props;
+    const { pageContext, '*': path } = this.props;
     const { renderSlideShow } = this.state;
+    const pageLanguage = getPageLanguage(path);
     return (
-      <Layout>
+      <Layout language={pageLanguage} path={path}>
         <div id="slideshow" style={{ width: '100vw', height: '80vh' }}>
           { renderSlideShow }
         </div>
@@ -45,38 +54,37 @@ class ObjectPage extends React.Component {
             </aside>
             <article className="w-8 block--align-right">
               <div className="w-7">
-              <h1>{pageContext && pageContext.label && getTranslation(pageContext.label, 'en')}</h1>
-              {
-                pageContext && 
-                pageContext.metadata && 
-                pageContext.metadata.map(
-                  metadata=> {
-                    const label = getTranslation(metadata.label, 'en');
-                    const value = getTranslation(metadata.value, 'en');
+                <h1>
+                  {
+                    pageContext
+                    && pageContext.label
+                    && translate(pageContext.label, pageLanguage)
+                  }
+                </h1>
+                {
+                pageContext
+                && pageContext.metadata
+                && pageContext.metadata.map(
+                  (metadata) => {
+                    const label = translate(metadata.label, pageLanguage);
+                    const value = translate(metadata.value, pageLanguage);
                     const isLabelHTML = isHtml(label);
                     const isValueHTML = isHtml(value);
                     return (
                       <React.Fragment>
                         { isLabelHTML ? (
-                          <dt
-                            dangerouslySetInnerHTML={{
-                              __html: label
-                            }} 
-                          />
+                          <dt dangerouslySetInnerHTML={{ __html: label }} />
                         ) : (
                           <dt>{ label }</dt>
                         )}
                         { isValueHTML ? (
-                          <dd 
-                            dangerouslySetInnerHTML={{
-                              __html: value
-                            }} />
+                          <dd dangerouslySetInnerHTML={{ __html: value }} />
                         ) : (
                           <dd>{ value }</dd>
                         )}
                       </React.Fragment>
                     );
-                  }
+                  },
                 )
               }
               </div>
@@ -85,7 +93,7 @@ class ObjectPage extends React.Component {
         </main>
         {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
       </Layout>
-    )
+    );
   }
 }
 

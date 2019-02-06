@@ -1,84 +1,30 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
 import CanvasModal from '../../components/CanvasModal/CanvasModal';
-import { getTranslation } from '../../utils';
-
-
-const filterToPreferredChoices = choices => {
-  return choices.filter(
-    choice => 
-      !choice.hasOwnProperty('language') || 
-      (choice.hasOwnProperty('language') && choice.language === 'en')
-  );
-}
-
-const IIIFImageAnnotationCover = ({body, position}) => {
-  position = position || {
-    top: 0,
-    left:0,
-    width: '100%',
-    height: '100%',
-    position: 'absolute',
-  };
-  if (!body.service) {
-    return (
-      <img 
-        src={body.id} 
-        style={position} 
-        alt=""
-      />
-    );
-  }
-  const service = (Array.isArray(body.service) ? body.service[0] : body.service );
-  const id = service['@id'] || service.id;
-  return (
-    <img 
-      src={id.replace('info.json','') + '/full/full/0/default.jpg'} 
-      style={position}
-      alt=""
-    />
-  );
-};
-
-const IIIFVideoAnnotationCover = ({body, position}) => (
-  <div style={position}>
-    <video
-      src={body.id} 
-      width={'100%'/*body.width*/} 
-      height={'100%'/*body.height*/} 
-      controls 
-      style={{
-        width: '100%',
-        height: '100%'
-        //objectFit: 'cover'
-    }}
-    >
-    </video>
-  </div>
-);
-
-const IIIFTextAnnotationCover = ({body, position}) => (
-  <div style={position}>
-    {body.value}
-  </div>
-);
+import { Arrow } from '../../components/Arrow/Arrow';
+import { getTranslation as translate, getPageLanguage } from '../../utils';
+import { AnnotationBodyRenderer } from '../../components/AnnotationBodyRenderer/AnnotationBodyRenderer';
 
 const xywhResolver = (annotation, canvas) => {
   if (annotation.target) {
     const xywhMatch = annotation.target.match(
-    /xywh=(\d+),(\d+),(\d+),(\d+)/
+    /xywh=(\d+),(\d+),(\d+),(\d+)/,
     );
     if (xywhMatch) {
-      const [_xywh, _x, _y, _w, _h] = xywhMatch;
+      const _x = parseInt(xywhMatch[1], 10);
+      const _y = parseInt(xywhMatch[2], 10);
+      const _w = parseInt(xywhMatch[3], 10);
+      const _h = parseInt(xywhMatch[4], 10);
       return {
         position: 'absolute',
-        left: (parseInt(_x, 10)/canvas.width*100) + '%',
-        top: (parseInt(_y, 10)/canvas.height*100) + '%',
-        width: (parseInt(_w, 10)/canvas.width*100) + '%',
-        height: (parseInt(_h, 10)/canvas.height*100) + '%',
+        left: `${_x / canvas.width * 100}%`,
+        top: `${_y / canvas.height * 100}%`,
+        width: `${_w / canvas.width * 100}%`,
+        height: `${_h / canvas.height * 100}%`,
         margin: 0,
         padding: 0,
-      }
+      };
     }
   }
 
@@ -90,240 +36,251 @@ const xywhResolver = (annotation, canvas) => {
     height: '100%',
     margin: 0,
     padding: 0,
-  }
-}
+  };
+};
 
-const AnnotationBodyRenderer = ({body, position}) => (
-  <>
-    {body.type==="Text" && (
-      <IIIFTextAnnotationCover style={position} body={body} />
-    )}
-    {body.type==="Image" && (
-      <IIIFImageAnnotationCover body={body} position={position}/>
-    )}
-    {body.type==="Video" && (
-      <IIIFVideoAnnotationCover  body={body} position={position} />
-    )}
-    {body.type === "Choice" && (
-      filterToPreferredChoices(body.items).map(
-        choice => <AnnotationBodyRenderer body={choice} position={position}/>
-      )
-    )}
-  </>
-);
+const EXHIBITION_BEHAVIOURS = [
+  'column',
+  'block',
+  'cutcorners',
+  'caption-left',
+  'row',
+  'column',
+];
 
 class ExhibitionPage extends React.Component {
-  state = {
-    selectedCanvas: null,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedCanvas: null,
+    };
+  }
 
   showCanvasDetails = canvas => () => {
     this.setState({
       selectedCanvas: canvas,
     });
   };
-  
+
   hideCanvasDetails = () => {
     this.setState({
       selectedCanvas: null,
-    })
+    });
   };
 
-  renderAnnotationBody = (canvas) => (
+  renderAnnotation = (annotation, key, pageLanguage, canvas) => (annotation.motivation === 'painting'
+      ? (
+        <AnnotationBodyRenderer
+          key={key}
+          body={annotation.body}
+          position={xywhResolver(annotation, canvas)}
+          pageLanguage={pageLanguage}
+        />
+      ) : (
+        <div
+          key={key}
+          style={
+            Object.assign(
+              xywhResolver(annotation, canvas),
+              { border: '2px dashed red' },
+            )}
+          title={translate(annotation.label, pageLanguage)}
+        />
+      ));
+
+  renderCanvasBody = (canvas, pageLanguage) => (
     <React.Fragment>
       {canvas.thumbnail && canvas.thumbnail.length > 0 ? (
-      < AnnotationBodyRenderer body={canvas.thumbnail[0]} />
-        ) : (
-        canvas.items &&
-          (canvas.items[0].items || []).map(
+        <AnnotationBodyRenderer body={canvas.thumbnail[0]} pageLanguage={pageLanguage} />
+      ) : (
+        canvas.items
+          && (canvas.items[0].items || []).map(
             (annotation, idx) => (
-              annotation.motivation === 'painting' 
-                ? <AnnotationBodyRenderer key={`items_painting__${idx}`}  body={annotation.body} position={xywhResolver(annotation, canvas)} />
-                : <div 
-                    key={`items_tagging__${idx}`}
-                    style={
-                      Object.assign(
-                        xywhResolver(annotation, canvas),
-                        {border: '2px dashed red'}
-                      )}
-                    title={
-                      (annotation.label 
-                        ? annotation.label.en || [] : []).join('')
-                    } />
-            ))
-        )}
-        {canvas.annotations &&
-          (canvas.annotations[0].items || []).map(
+              this.renderAnnotation(
+                annotation,
+                `canvas_items__${idx}`,
+                pageLanguage,
+                canvas,
+              )
+            ),
+        ))}
+      {canvas.annotations
+          && (canvas.annotations[0].items || []).map(
             (annotation, idx) => (
-              annotation.motivation === 'painting' 
-                ? <AnnotationBodyRenderer key={`annotation_painting__${idx}`} body={annotation.body} position={xywhResolver(annotation, canvas)} />
-                : <div
-                    key={`annotation_tagging__${idx}`}
-                    style={
-                      Object.assign(
-                        xywhResolver(annotation, canvas),
-                        {border: '2px dashed red'}
-                      )} 
-                    title={
-                      (annotation.label 
-                        ? annotation.label.en || [] : []).join('')
-                    } />
-            ))
+              this.renderAnnotation(
+                annotation,
+                `canvas_annotation__${idx}`,
+                pageLanguage,
+                canvas,
+              )
+            ),
+)
         }
     </React.Fragment>
   );
 
   renderMediaHolder = (canvas, content) => (
     <div className="canvas-preview">
-      <div
-        style={{
-          width: '100%',
-          height: '100%',
-          // This doesn't work
-          // padding: '0 ' + (
-          //   canvas.height > canvas.width 
-          //     ? ((canvas.height - canvas.width )/ 2 / canvas.width * 100) + '%'
-          //     : 0),
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          cursor: 'pointer',
-        }}
+      <button
+        className="canvas-preview__flex"
         onClick={this.showCanvasDetails(canvas)}
+        role="link"
+        type="button"
       >
         <div
           style={{
-            width: '100%', 
-            height: '100%',
-            position: 'relative',
-            paddingBottom: (canvas.height/canvas.width * 100) + '%', 
-            background: '#373737',
+            paddingBottom: `${canvas.height / canvas.width * 100}%`,
           }}
+          className="canvas-preview__center"
         >
           {content}
         </div>
-      </div>
+      </button>
     </div>
   )
 
-  getBlockClasses = canvas => 
-    canvas.behaviours && 
-    canvas.behaviours.length > 0 
-      ? 'block cutcorners ' + canvas.behaviours.join(' ') + (canvas.summary ? '' : ' image')
-      : 'block cutcorners w-8 h-8 image' + (canvas.summary ? '' : ' image')
-  
-  getBlockImageClasses = canvas => {
+  getBlockClasses = canvas => (canvas.behaviours
+    && canvas.behaviours.length > 0
+      ? `block cutcorners ${canvas.behaviours.join(' ')}${canvas.summary ? '' : ' image'}`
+      : `block cutcorners w-8 h-8 image${canvas.summary ? '' : ' image'}`)
+
+  getBlockImageClasses = (canvas) => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
     return blockClasses.reduce((textClasses, cls) => {
-      if (['column', 'block', 'cutcorners', 'caption-left', 'row', 'column'].indexOf(cls) === -1) {
+      if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
         let newCls = cls;
-        if(blockClasses.indexOf('column') !== -1 && cls.indexOf('h-')===0) {
-          newCls = 'h-' + (parseInt(cls.substr(2), 10) - (Math.ceil(parseInt(cls.substr(2), 10)/4)));
-        } if(blockClasses.indexOf('row') !== -1 && cls.indexOf('w-')===0) {
-          newCls = 'w-' + (parseInt(cls.substr(2), 10) - Math.ceil(parseInt(cls.substr(2), 10)/3));
+        if (blockClasses.indexOf('column') !== -1 && cls.indexOf('h-') === 0) {
+          newCls = `h-${parseInt(cls.substr(2), 10) - (Math.ceil(parseInt(cls.substr(2), 10) / 4))}`;
+        } if (blockClasses.indexOf('row') !== -1 && cls.indexOf('w-') === 0) {
+          newCls = `w-${parseInt(cls.substr(2), 10) - Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
         }
         textClasses.push(newCls);
       }
       return textClasses;
-    }, ['block', 'image', 'cutcorners']).join(' ')
+    }, ['block', 'image', 'cutcorners']).join(' ');
   }
 
-  getBlockTextClasses = canvas => {
+  getBlockTextClasses = (canvas) => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
     return blockClasses.reduce((textClasses, cls) => {
-      if (['column', 'block', 'cutcorners', 'caption-left', 'row', 'column'].indexOf(cls) === -1) {
+      if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
         let newCls = cls;
-        if(blockClasses.indexOf('column') !== -1 && cls.indexOf('h-')===0) {
-          newCls = 'h-' + Math.ceil(parseInt(cls.substr(2), 10)/4);
-        } if(blockClasses.indexOf('row') !== -1 && cls.indexOf('w-')===0) {
-          newCls = 'w-' + Math.ceil(parseInt(cls.substr(2), 10)/3);
+        if (
+          blockClasses.indexOf('column') !== -1
+          && cls.indexOf('h-') === 0
+        ) {
+          newCls = `h-${Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
+        }
+        if (
+          blockClasses.indexOf('row') !== -1
+          && cls.indexOf('w-') === 0
+        ) {
+          newCls = `w-${Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
         }
         textClasses.push(newCls);
       }
       return textClasses;
-    }, ['block', 'info', 'cutcorners']).join(' ')
+    }, ['block', 'info', 'cutcorners']).join(' ');
   };
 
-  getBlockArrowClasses = canvas => {
+  getBlockArrowClasses = (canvas) => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
     if (blockClasses.indexOf('column') !== -1) {
       return 'arrow up';
-    } else if (blockClasses.indexOf('caption-left') !== -1) {
+    } if (blockClasses.indexOf('caption-left') !== -1) {
       return 'arrow right';
-    } else {
-      return 'arrow left';      
     }
+      return 'arrow left';
   };
 
   render() {
-    const manifest = this.props.pageContext;
+    const { pageContext: manifest, '*': path } = this.props;
+    const pageLanguage = getPageLanguage(path);
+    const { selectedCanvas } = this.state;
     return (
-      <Layout>
+      <Layout language={pageLanguage} path={path}>
         <main>
           <div className="blocks">
             <div className="block title cutcorners w-4 h-4 ">
               <div className="boxtitle">EXHIBITION</div>
-					    <div className="maintitle">{getTranslation(manifest.label, 'en')}</div>
+              <div className="maintitle">{translate(manifest.label, pageLanguage)}</div>
               <div />
             </div>
-            {manifest.items && manifest.items.length > 0 && ( 
+            {manifest.items && manifest.items.length > 0 && (
               <div className="block cutcorners w-8 h-8 image">
-                {this.renderMediaHolder(manifest.items[0], this.renderAnnotationBody(manifest.items[0]))}
-                <div className="caption">{(manifest.items[0].label ? manifest.items[0].label.en ||[] : []).join('')}</div>
+                {this.renderMediaHolder(
+                  manifest.items[0],
+                  this.renderCanvasBody(manifest.items[0]),
+                )}
+                <div className="caption">{manifest.items[0].label && translate(manifest.items[0].label, pageLanguage)}</div>
               </div>
             )}
             <div className="block info cutcorners w-4 h-4">
               <div className="boxtitle">ABOUT</div>
               <div className="text">
-                { getTranslation(manifest.summary, 'en', '\n')
+                { translate(manifest.summary, pageLanguage, '\n')
                     .split('\n')
-                    .map((paragraph, idx)=><p key={`about__${idx}`}>{paragraph}</p>)}
-                <p><a className="readmore" href="">Read More</a></p>
+                    .map(paragraph => <p key={`about__${paragraph}`}>{paragraph}</p>)}
+                <p><a className="readmore" href="/#">Read More</a></p>
               </div>
             </div>
-            {manifest && manifest.items && manifest.items.map((canvas,index) => index==0 ? '' : (
-              <div 
-                key={`manifest_item_${index}`}
-                className={this.getBlockClasses(canvas)}
-              >
-                {
-                  canvas.summary 
+            {manifest && manifest.items && manifest.items.map(
+              (canvas, index) => (index === 0 ? '' : (
+                <div
+                  key={`manifest_item_${canvas.id}`}
+                  className={this.getBlockClasses(canvas)}
+                >
+                  {
+                  canvas.summary
                   ? (
-                    <>
+                    <React.Fragment>
                       <div className={this.getBlockImageClasses(canvas)}>
-                        {this.renderMediaHolder(canvas, this.renderAnnotationBody(canvas))}
+                        {this.renderMediaHolder(
+                          canvas,
+                          this.renderCanvasBody(canvas, pageLanguage),
+                        )}
                       </div>
                       <div className={this.getBlockTextClasses(canvas)}>
                         <div className={this.getBlockArrowClasses(canvas)}>
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
-                          </svg>
+                          <Arrow />
                         </div>
                         <div className="text">
-                          <p>{(canvas.label ? canvas.label.en ||[] : []).join('')}</p>
-                          <p>{(canvas.summary ? canvas.summary.en ||[] : []).join('')}</p>
-                          <p className="facts">{(canvas.requiredStatement && canvas.requiredStatement.value ? canvas.requiredStatement.value.en ||[] : []).join('')}</p>
+                          <p>{translate(canvas.label, pageLanguage)}</p>
+                          <p>{translate(canvas.summary, pageLanguage)}</p>
+                          {canvas.requiredStatement && (
+                            <p className="facts">{ translate(canvas.requiredStatement.value, pageLanguage)}</p>
+                          )}
                         </div>
                       </div>
-                    </>
-                  ) 
+                    </React.Fragment>
+                  )
                   : (
-                    <>
-                    {this.renderMediaHolder(canvas, this.renderAnnotationBody(canvas))}
-                    <div className="caption">{(canvas.label ? canvas.label.en ||[] : []).join('')}</div>
-                    </>
+                    <React.Fragment>
+                      {this.renderMediaHolder(canvas, this.renderCanvasBody(canvas, pageLanguage))}
+                      <div className="caption">{translate(canvas.label, pageLanguage)}</div>
+                    </React.Fragment>
                   )
                 }
-              </div>
-            ))}
+                </div>
+            )),
+            )}
           </div>
         </main>
-        <CanvasModal canvas={this.state.selectedCanvas} manifest={manifest} hideCanvasDetails={this.hideCanvasDetails} />
+        <CanvasModal
+          selectedCanvas={selectedCanvas}
+          manifest={manifest}
+          hideCanvasDetails={this.hideCanvasDetails}
+        />
         {/* <p>DEBUG pageContext:</p>
         <pre>{JSON.stringify(this.props, null, 2)}</pre> */}
       </Layout>
-    )
-  };
-} 
+    );
+  }
+}
+
+ExhibitionPage.propTypes = {
+  pageContext: PropTypes.object.isRequired,
+  '*': PropTypes.string.isRequired,
+};
 
 export default ExhibitionPage;

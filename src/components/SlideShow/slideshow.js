@@ -10,16 +10,11 @@ import {
 import {
   MobilePageView,
   SimpleSlideTransition,
-  ProgressIndicator,
   Slide,
   CanvasNavigation,
 } from '@canvas-panel/slideshow';
-
 import ManifestCabinet from '../ManifestCabinet/ManifestCabinet';
-
 import './slideshow.css';
-
-
 
 class SlideShow extends Component {
   state = {
@@ -27,15 +22,20 @@ class SlideShow extends Component {
   };
 
   static propTypes = {
-    jsonld: PropTypes.object,
+    jsonld: PropTypes.object.isRequired,
     mobileBreakpoint: PropTypes.number,
+    renderPanel: PropTypes.func,
+    bem: PropTypes.object,
   };
 
   static defaultProps = {
     mobileBreakpoint: 767,
+    renderPanel: () => {},
+    bem: {},
   };
 
-  componentWillMount() {
+  constructor(props) {
+    super(props);
     window.addEventListener('resize', this.setSize);
   }
 
@@ -47,9 +47,7 @@ class SlideShow extends Component {
     this.setState({ innerWidth: window.innerWidth });
   };
 
-  qualifiesForMobile = () => {
-    return this.state.innerWidth <= this.props.mobileBreakpoint;
-  };
+  qualifiesForMobile = () => this.state.innerWidth <= this.props.mobileBreakpoint;
 
   render() {
     const { jsonld, renderPanel, bem } = this.props;
@@ -63,7 +61,7 @@ class SlideShow extends Component {
           {({ ref, ...fullscreenProps }) => (
             <Manifest jsonLd={jsonld}>
               <RangeNavigationProvider>
-                {rangeProps => {
+                {(rangeProps) => {
                   const {
                     manifest,
                     canvas,
@@ -75,16 +73,16 @@ class SlideShow extends Component {
                     goToRange,
                   } = rangeProps;
                   return (
-                    <>
-                    <div className={bem.element('inner-frame')} ref={ref}>
-                      {this.qualifiesForMobile() ? (
-                        <MobilePageView
-                          manifest={manifest}
-                          previousRange={previousRange}
-                          nextRange={nextRange}
-                          fullscreenProps={fullscreenProps}
-                          {...rangeProps}
-                        />
+                    <React.Fragment>
+                      <div className={bem.element('inner-frame')} ref={ref}>
+                        {this.qualifiesForMobile() ? (
+                          <MobilePageView
+                            manifest={manifest}
+                            previousRange={previousRange}
+                            nextRange={nextRange}
+                            fullscreenProps={fullscreenProps}
+                            {...rangeProps}
+                          />
                       ) : (
                         <React.Fragment>
                           <SimpleSlideTransition id={currentIndex}>
@@ -103,17 +101,13 @@ class SlideShow extends Component {
                             canvasList={canvasList}
                             currentIndex={currentIndex}
                           />
-                          {/* <ProgressIndicator
-                            currentCanvas={currentIndex}
-                            totalCanvases={canvasList.length}
-                          /> */}
                         </React.Fragment>
                       )}
-                    </div>
-                    {
+                      </div>
+                      {
                       canvasList.length > 1 && (
                         <div className={bem.element('manifest-cabinet-holder')}>
-                          <ManifestCabinet 
+                          <ManifestCabinet
                             currentCanvas={canvas}
                             manifest={manifest}
                             canvasList={canvasList}
@@ -130,7 +124,7 @@ class SlideShow extends Component {
                         </div>
                       )
                     }
-                    </>
+                    </React.Fragment>
                   );
                 }}
               </RangeNavigationProvider>
@@ -141,5 +135,6 @@ class SlideShow extends Component {
     );
   }
 }
+
 // NOTE: this is because Gatsby.js client only hack...
 export default typeof withBemClass === 'function' ? withBemClass('slideshow')(SlideShow) : SlideShow;

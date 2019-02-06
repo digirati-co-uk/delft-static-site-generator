@@ -1,9 +1,9 @@
 import React from 'react';
 import './footer.css';
 
-const Footer = props => (
+const Footer = () => (
   <footer className="footer">
-    TODO: footer    
+    TODO: footer
   </footer>
 );
 

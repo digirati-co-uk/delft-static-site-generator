@@ -5,16 +5,16 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/src/images`,
-      }
-    },{
-      resolve: `gatsby-source-filesystem`,
+      },
+    }, {
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
-        name: "markdown-pages",
+        name: 'markdown-pages',
       },
     },
     {
@@ -27,10 +27,10 @@ module.exports = {
             options: {
               header: 'Table of Contents', // the custom header text
               include: [
-                `content/publications/**/*.md` // an include glob to match against
-              ]
-            }
-          }
+                `content/**/publications/**/*.md`, // an include glob to match against
+              ],
+            },
+          },
         ],
       },
     },
@@ -53,4 +53,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
   ],
-}
+};

@@ -1,9 +1,39 @@
+@font-face {
+	font-family: 'f-medium';
+	font-weight: normal;
+	src:url('../static/fonts/FoundersGrotesk.Medium.otf');
+}
+@font-face {
+	font-family: 'f-regular';
+	font-weight: normal;
+	src:url('../static/fonts/FoundersGrotesk.Regular.otf');
+}
+@font-face {
+	font-family: 'f-mono';
+	font-weight: normal;
+	src:url('../static/fonts/FoundersGroteskMonoRegular.otf');
+}
+
+// blocks 
+$pico: "(max-width: 350px)";
+$mini-down: "(max-width: 600px)";
+$small: "(min-width: 601px) and (max-width: 900px)";
+$small-up: "(min-width: 601px)";
+$small-down: "(max-width: 980px)";
+$medium: "(min-width: 981px) and (max-width: 1200px)";
+$medium-up: "(min-width: 981px)";
+$medium-down: "(max-width: 1200px)";
+$large-up: "(min-width: 1200px)";
+$large: "(min-width: 1151px) and (max-width:1499px)";
+$xlarge: "(min-width: 1500px)";
+
 html {
   background: #e9e9e9;
   color: black;
-  font-family: 'f-mono', 'Courier New', Courier, monospace;
+  font-family: 'f-regular', 'Courier New', Courier, monospace;
   line-height: 1.28;
 }
+
 main {
   h1,
   h2,
@@ -16,11 +46,35 @@ main {
  &>pre,
  &>ol,
  &>ul {
-   margin-left: 20px;
-   margin-right: 20px;
-   padding: 0 1rem;
+  //  margin-left: 20px;
+  //  margin-right: 20px;
+  //  padding: 0 1rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+  @media #{$small-down} {
+    max-width: 30rem;
+    margin: 1rem auto 1rem
+  }
  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'f-medium';
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 0.3px;
+  }
+  p {
+    font-size: 1.625rem;
+    line-height: 2rem;
+    letter-spacing: 0.3px;
+  }
+  
 }
+
  
 
 
@@ -151,6 +205,11 @@ main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
+  @media #{$small-down} {
+    position: relative;
+    grid-row: auto / span 4;
+    height: 400px; 
+  }
 }
 
 .cover-link:after {
@@ -232,25 +291,6 @@ main {
   padding: 0;
 }
 
-
-// new scss
-// typo
-@font-face {
-	font-family: 'f-medium';
-	font-weight: normal;
-	src:url('../static/fonts/FoundersGrotesk.Medium.otf');
-}
-@font-face {
-	font-family: 'f-regular';
-	font-weight: normal;
-	src:url('../static/fonts/FoundersGrotesk.Regular.otf');
-}
-@font-face {
-	font-family: 'f-mono';
-	font-weight: normal;
-	src:url('../static/fonts/FoundersGroteskMonoRegular.otf');
-}
-
 .maintitle {
 	font-family: 'f-medium';
 	font-size: 2.3rem;
@@ -284,18 +324,7 @@ a {
 
 
 
-// blocks 
-$pico: "(max-width: 350px)";
-$mini-down: "(max-width: 600px)";
-$small: "(min-width: 601px) and (max-width: 900px)";
-$small-up: "(min-width: 601px)";
-$small-down: "(max-width: 980px)";
-$medium: "(min-width: 981px) and (max-width: 1150px)";
-$medium-up: "(min-width: 981px)";
-$medium-down: "(max-width: 1150px)";
-$large-up: "(min-width: 1151px)";
-$large: "(min-width: 1151px) and (max-width:1499px)";
-$xlarge: "(min-width: 1500px)";
+
 
 //grid based on fixed px dimensions 12 columns wide
 @media #{$medium-up} {
@@ -315,18 +344,19 @@ $xlarge: "(min-width: 1500px)";
 $gw: 100px; // basic unit for the grid
 $width: 1rem; // width of the chamfered edges
 
+
 main {
-	max-width: calc(1200px);
-	margin:0 auto;
+  max-width: calc(1200px + 2rem);
+  margin: 0 auto;
 	.blocks {
 		padding:1rem;
 		@media #{$medium-up} {
 			display: grid;
-			 // grid-auto-flow: row;
 			grid-template-columns: repeat(12, #{$gw});
 			grid-auto-rows: #{$gw};
 			// grid-auto-rows: minmax(8%, auto);
     }
+    
     &--auto-height {
       grid-auto-rows: auto;
     }
@@ -345,6 +375,10 @@ main {
 		
     .block {
       position: relative;
+      p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+      }
     }
     .block--align-right {
       display: inline-flex; 
@@ -386,7 +420,8 @@ main {
 				vertical-align: bottom;
 				width: 100%;
 				height: 100%;
-				object-fit:cover;
+        object-fit:cover;    
+        position: absolute;
 			}
 			.caption {
 				color:white;
@@ -475,6 +510,24 @@ main {
   
   overflow: hidden;
   position: relative;
+  &__flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: #373737;
+    text-align: left;
+  }
+  &__center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
 }
 @media #{$medium-up} {
   .canvas-preview {

@@ -6,6 +6,7 @@
   "dependencies": {
     "@canvas-panel/core": "^0.1.1",
     "@canvas-panel/slideshow": "^0.1.1",
+    "classnames": "^2.2.6",
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-manifest": "^2.0.5",
@@ -18,6 +19,7 @@
     "gatsby-transformer-sharp": "^2.1.4",
     "iiif-prezi2to3": "^1.0.8",
     "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0"
@@ -41,6 +43,11 @@
     "docz": "^0.12.12",
     "docz-plugin-postcss": "^0.0.1",
     "docz-theme-default": "^0.12.12",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
     "gatsby-remark-numbered-footnotes": "^1.0.0",
     "gatsby-remark-toc": "^1.1.0",
     "prettier": "^1.14.2"

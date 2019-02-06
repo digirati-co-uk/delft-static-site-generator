@@ -1,16 +1,14 @@
 ---
-path: "/publications/article-demo"
-date: "2018-11-15"
-title: "Awesome article"
-author: "Adam von Digirati"
+path: "/nl/publications/article-without-meta"
+date: "2018-11-14"
 ---
 
-# Article page
+# [NL] Article page
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta pellentesque sem. Curabitur posuere nisl dui, in porta urna laoreet at. Duis in cursus orci. Suspendisse maximus dui at sollicitudin consequat. Vestibulum vitae lacus leo. Sed ac dui euismod, congue diam id, suscipit neque. Duis eu volutpat purus. Mauris vitae lobortis leo. Maecenas gravida iaculis tempus. Sed volutpat mollis consectetur. Maecenas velit felis, semper vel mollis rhoncus, iaculis vel urna. Morbi dui velit, dapibus ac sagittis ut, vehicula tincidunt turpis.
 
 
-# Supported Markdown Features
+## Supported Markdown Features
 
 This is normal body copy.[^also] It includes a couple footnotes.[^thing]
 

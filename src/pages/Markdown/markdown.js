@@ -1,29 +1,30 @@
 import React from 'react';
-import { graphql } from "gatsby";
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
-import substituteSpecialLinks from '../../utils';
+import substituteSpecialLinks, { getPageLanguage } from '../../utils';
 
-const articlePageTransform = html => {
-  return html.match(/<h2>Table of Contents<\/h2>/) 
+const articlePageTransform = html => (html.match(/<h2>Table of Contents<\/h2>/)
     ? {
-      toc:  html.match(/<h2>Table of Contents<\/h2>\n<ul>((?:\s|\S)+?)<\/ul>/)[1], 
+      toc: html.match(/<h2>Table of Contents<\/h2>\n<ul>((?:\s|\S)+?)<\/ul>/)[1],
       html: html.replace(/<h2>Table of Contents<\/h2>\n<ul>((?:\s|\S)+?)<\/ul>/, ''),
+      isPublication: true,
     }
-    : {html};
-};
-  
-const Markdown = ({ pageContext, data }) => {
-  const content = data.markdownRemark 
+    : { html });
+
+const Markdown = ({ pageContext, data, '*': path }) => {
+  const pageLanguage = getPageLanguage(path);
+  const content = data.markdownRemark
     ? articlePageTransform(
-        substituteSpecialLinks(data.markdownRemark.html, pageContext)
+        substituteSpecialLinks(data.markdownRemark.html, pageContext),
     )
     : '';
-  const { title, author } = data.markdownRemark 
-    ? data.markdownRemark.frontmatter 
+  const { title, author } = data.markdownRemark
+    ? data.markdownRemark.frontmatter
     : { author: '-', title: '-' };
   return (
-    <Layout>
-      { content.hasOwnProperty('toc') ? (
+    <Layout language={pageLanguage} path={path}>
+      { content.isPublication ? (
         <main>
           <div className="blocks blocks--auto-height">
             <aside className="w-4">
@@ -34,31 +35,35 @@ const Markdown = ({ pageContext, data }) => {
               </div>
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="boxtitle">Table of Contents</div>
-                <ol dangerouslySetInnerHTML={{__html:content.toc}}></ol>
+                <ol dangerouslySetInnerHTML={{ __html: content.toc }} />
               </div>
             </aside>
-            <article 
+            <article
               className="w-8"
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: 'flex-end'
+                alignItems: 'flex-end',
               }}
             >
               <div
                 className="w-7"
-                dangerouslySetInnerHTML={{__html:content.html}}
-              >
-
-              </div>
+                dangerouslySetInnerHTML={{ __html: content.html }}
+              />
             </article>
           </div>
         </main>
       ) : (
-        <main dangerouslySetInnerHTML={{__html:content.html}}/>
+        <main dangerouslySetInnerHTML={{ __html: content.html }} />
       )}
     </Layout>
   );
+};
+
+Markdown.propTypes = {
+  pageContext: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired,
+  '*': PropTypes.string.isRequired,
 };
 
 export default Markdown;
@@ -75,4 +80,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
