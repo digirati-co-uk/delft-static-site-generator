@@ -10,7 +10,7 @@ const Publications = ({ data, '*': pagePath }) => {
     <Layout language={pageLanguage} path={pagePath}>
       <main>
         <div className="blocks">
-          {data.allMarkdownRemark.edges.map((article) => {
+          {data.allMarkdownRemark && (data.allMarkdownRemark.edges || []).map((article) => {
           const {
             title, date, path, author,
           } = article.node.frontmatter;

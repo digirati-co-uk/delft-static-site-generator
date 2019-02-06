@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './languageSelector.css';
 
-const LanguageSelector = ({ path }) => {
+const LanguageSelector = ({ path = '' }) => {
   const pathNoLocale = path.replace(/^(en|nl)/, '');
   return (
     <span className="language-selector">
