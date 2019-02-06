@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
+import GithubLink from '../../components/GithubLink/GithubLink';
 import substituteSpecialLinks, { getPageLanguage } from '../../utils';
 
 const articlePageTransform = html => (html.match(/<h2>Table of Contents<\/h2>/)
@@ -30,7 +31,10 @@ const Markdown = ({ pageContext, data, '*': path }) => {
             <aside className="w-4">
               <div className="block title cutcorners w-4 h-4 title--pomegranate">
                 <div className="boxtitle">Article</div>
-                <div className="maintitle">{title}</div>
+                <div className="maintitle">
+                  {title}
+                  <GithubLink href={path} />
+                </div>
                 <div className="boxtitle">{author}</div>
               </div>
               <div className="block info cutcorners w-4 h-4 ">

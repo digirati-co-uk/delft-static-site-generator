@@ -580,3 +580,15 @@ main {
   font-size: 1.625rem;
   line-height: 2rem;
 }
+
+.github-link {
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  svg {
+    width: 1.6rem;
+    height: 1.6rem;
+    vertical-align: baseline;
+  }
+}

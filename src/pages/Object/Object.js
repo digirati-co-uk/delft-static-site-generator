@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
 import SlideShow from '../../components/SlideShow/slideshow';
+import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 
 const isHtml = val => val.match(/<[^>]+>/) !== null;
@@ -60,6 +61,7 @@ class ObjectPage extends React.Component {
                     && pageContext.label
                     && translate(pageContext.label, pageLanguage)
                   }
+                  <GithubLink href={path} />
                 </h1>
                 {
                 pageContext

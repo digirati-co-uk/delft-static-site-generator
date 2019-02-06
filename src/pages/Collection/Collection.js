@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-
+import GithubLink from '../../components/GithubLink/GithubLink';
 import Layout from '../../components/Layout/layout';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 
@@ -45,7 +45,10 @@ const CollectionPage = ({ pageContext, '*': path }) => {
           <aside className="w-4">
             <div className="block title cutcorners w-4 h-4 title--fountain-blue">
               <div className="boxtitle">Collection</div>
-              <div className="maintitle">{title}</div>
+              <div className="maintitle">
+                {title}
+                <GithubLink href={path} />
+              </div>
               <div className="boxtitle">{curator}</div>
             </div>
             <div className="block info cutcorners w-4">{summary}</div>

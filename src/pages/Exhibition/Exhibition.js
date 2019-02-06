@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
 import CanvasModal from '../../components/CanvasModal/CanvasModal';
+import GithubLink from '../../components/GithubLink/GithubLink';
 import { Arrow } from '../../components/Arrow/Arrow';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { AnnotationBodyRenderer } from '../../components/AnnotationBodyRenderer/AnnotationBodyRenderer';
@@ -203,7 +204,10 @@ class ExhibitionPage extends React.Component {
           <div className="blocks">
             <div className="block title cutcorners w-4 h-4 ">
               <div className="boxtitle">EXHIBITION</div>
-              <div className="maintitle">{translate(manifest.label, pageLanguage)}</div>
+              <div className="maintitle">
+                {translate(manifest.label, pageLanguage)}
+                <GithubLink href={path} />
+              </div>
               <div />
             </div>
             {manifest.items && manifest.items.length > 0 && (
