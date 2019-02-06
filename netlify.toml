@@ -4,3 +4,7 @@
   to = "docs/index.html"
   status = 200
   force = false
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
