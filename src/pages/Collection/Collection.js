@@ -59,14 +59,14 @@ const CollectionPage = ({ pageContext, '*': path }) => {
                     <div className="block image cutcorners w-3 h-3">
                       <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />
                     </div>
-                    <p>{translate(manifest.label, pageLanguage)}</p>
+                    <p className="collection-list__label">{translate(manifest.label, pageLanguage)}</p>
                     {manifest.summary
                       ? translate(manifest.summary, pageLanguage, '\n')
                         .split('\n')
-                        .map(paragraph => <p>{paragraph}</p>)
+                        .map(paragraph => <p className="collection-list__summary">{paragraph}</p>)
                       : ''
                     }
-                    <Link to={objectLinks[manifest.id || manifest['@id']]}>Read More</Link>
+                    <Link to={[pageLanguage, objectLinks[manifest.id || manifest['@id']]].join('/')}>Read More</Link>
                   </div>
                 </div>
               ),

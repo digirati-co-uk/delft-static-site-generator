@@ -53,7 +53,7 @@ main {
   margin-bottom: 1rem;
   @media #{$small-down} {
     max-width: 30rem;
-    margin: 1rem auto 1rem
+    margin: 1rem auto 1rem;
   }
  }
   h1,
@@ -66,13 +66,28 @@ main {
     font-size: 2rem;
     line-height: 2rem;
     letter-spacing: 0.3px;
+    font-weight: normal;
   }
   p {
     font-size: 1.625rem;
     line-height: 2rem;
     letter-spacing: 0.3px;
   }
-  
+  article {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+   &>p,
+    .footnotes,
+   &>pre,
+   &>ol,
+   &>ul {
+    padding: 0;
+   } 
+  }
 }
 
  
@@ -246,7 +261,8 @@ main {
   color: black;
   font-weight: bold;
   padding: 8px 0;
-  font-family: 'Courier New', Courier, monospace;
+  //font-family: 'Courier New', Courier, monospace;
+  font-family: 'f-mono';
   font-size: 1rem;
 }
 
@@ -540,4 +556,27 @@ main {
     line-height: 2.3rem;
     margin-top: 0.6rem;
   }
+}
+
+.collection-list {
+  &__summary {
+    font-family: 'f-mono';
+    line-height: 1.25;
+  }
+  &__label {
+    font-family: 'f-mono';
+    line-height: 1.25;
+  }
+}
+
+.metadata-label {
+  font-family: 'f-mono';
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.metadata-value {
+  font-family: 'f-regular';
+  font-size: 1.625rem;
+  line-height: 2rem;
 }

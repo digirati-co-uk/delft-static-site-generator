@@ -73,14 +73,20 @@ class ObjectPage extends React.Component {
                     return (
                       <React.Fragment>
                         { isLabelHTML ? (
-                          <dt dangerouslySetInnerHTML={{ __html: label }} />
+                          <dt
+                            className="metadata-label"
+                            dangerouslySetInnerHTML={{ __html: label }}
+                          />
                         ) : (
-                          <dt>{ label }</dt>
+                          <dt className="metadata-label">{ label }</dt>
                         )}
                         { isValueHTML ? (
-                          <dd dangerouslySetInnerHTML={{ __html: value }} />
+                          <dd
+                            className="metadata-value"
+                            dangerouslySetInnerHTML={{ __html: value }}
+                          />
                         ) : (
-                          <dd>{ value }</dd>
+                          <dd className="metadata-value">{ value }</dd>
                         )}
                       </React.Fragment>
                     );
