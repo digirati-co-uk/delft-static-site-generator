@@ -53,36 +53,30 @@ class ExhibitionPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedCanvas: null,
       renderCanvasModal: '',
     };
   }
 
-  componentDidMount() {
+  showCanvasDetails = canvas => () => {
     const { pageContext: manifest, '*': path } = this.props;
     const pageLanguage = getPageLanguage(path);
-    const { selectedCanvas } = this.state;
     this.setState({
       renderCanvasModal: (
         <CanvasModal
-          selectedCanvas={selectedCanvas}
+          selectedCanvas={canvas}
           manifest={manifest}
           hideCanvasDetails={this.hideCanvasDetails}
           pageLanguage={pageLanguage}
         />
       ),
-    });
-  }
-
-  showCanvasDetails = canvas => () => {
-    this.setState({
-      selectedCanvas: canvas,
+    }, () => {
+      console.log('showCanvasDetails', this.state);
     });
   };
 
   hideCanvasDetails = () => {
     this.setState({
-      selectedCanvas: null,
+      renderCanvasModal: '',
     });
   };
 
@@ -288,7 +282,7 @@ class ExhibitionPage extends React.Component {
             )}
           </div>
         </main>
-        {renderCanvasModal}
+        { renderCanvasModal }
         {/* <p>DEBUG pageContext:</p>
         <pre>{JSON.stringify(this.props, null, 2)}</pre> */}
       </Layout>
