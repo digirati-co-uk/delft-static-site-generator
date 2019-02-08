@@ -106,7 +106,6 @@ class ThinCanvasPanel extends React.Component {
   componentDidUpdate(prevProps) {
     const { currentNavItem, canvas } = this.props;
     if (prevProps.canvas.id !== canvas.id) {
-      console.log(this.viewer);
       this.displayAnnotationsOnCanvas();
     }
     if (currentNavItem !== prevProps.currentNavItem) {

@@ -69,8 +69,6 @@ class ExhibitionPage extends React.Component {
           pageLanguage={pageLanguage}
         />
       ),
-    }, () => {
-      console.log('showCanvasDetails', this.state);
     });
   };
 
