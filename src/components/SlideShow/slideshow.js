@@ -47,7 +47,11 @@ class SlideShow extends Component {
     this.setState({ innerWidth: window.innerWidth });
   };
 
-  qualifiesForMobile = () => this.state.innerWidth <= this.props.mobileBreakpoint;
+  qualifiesForMobile = () => {
+    const { innerWidth } = this.state;
+    const { mobileBreakpoint } = this.props;
+    return innerWidth <= mobileBreakpoint;
+  };
 
   render() {
     const { jsonld, renderPanel, bem } = this.props;

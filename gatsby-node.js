@@ -185,6 +185,10 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
             test: /@canvas-panel\/(core|slideshow)/,
             use: loaders.null(),
           },
+          {
+            test: /openseadragon/,
+            use: loaders.null(),
+          },
         ],
       },
     });

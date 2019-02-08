@@ -54,7 +54,24 @@ class ExhibitionPage extends React.Component {
     super(props);
     this.state = {
       selectedCanvas: null,
+      renderCanvasModal: '',
     };
+  }
+
+  componentDidMount() {
+    const { pageContext: manifest, '*': path } = this.props;
+    const pageLanguage = getPageLanguage(path);
+    const { selectedCanvas } = this.state;
+    this.setState({
+      renderCanvasModal: (
+        <CanvasModal
+          selectedCanvas={selectedCanvas}
+          manifest={manifest}
+          hideCanvasDetails={this.hideCanvasDetails}
+          pageLanguage={pageLanguage}
+        />
+      ),
+    });
   }
 
   showCanvasDetails = canvas => () => {
@@ -68,6 +85,7 @@ class ExhibitionPage extends React.Component {
       selectedCanvas: null,
     });
   };
+
 
   renderAnnotation = (annotation, key, pageLanguage, canvas) => (annotation.motivation === 'painting'
       ? (
@@ -197,7 +215,7 @@ class ExhibitionPage extends React.Component {
   render() {
     const { pageContext: manifest, '*': path } = this.props;
     const pageLanguage = getPageLanguage(path);
-    const { selectedCanvas } = this.state;
+    const { renderCanvasModal } = this.state;
     return (
       <Layout language={pageLanguage} path={path}>
         <main>
@@ -270,12 +288,7 @@ class ExhibitionPage extends React.Component {
             )}
           </div>
         </main>
-        <CanvasModal
-          selectedCanvas={selectedCanvas}
-          manifest={manifest}
-          hideCanvasDetails={this.hideCanvasDetails}
-          pageLanguage={pageLanguage}
-        />
+        {renderCanvasModal}
         {/* <p>DEBUG pageContext:</p>
         <pre>{JSON.stringify(this.props, null, 2)}</pre> */}
       </Layout>
