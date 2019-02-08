@@ -274,6 +274,7 @@ class ExhibitionPage extends React.Component {
           selectedCanvas={selectedCanvas}
           manifest={manifest}
           hideCanvasDetails={this.hideCanvasDetails}
+          pageLanguage={pageLanguage}
         />
         {/* <p>DEBUG pageContext:</p>
         <pre>{JSON.stringify(this.props, null, 2)}</pre> */}
