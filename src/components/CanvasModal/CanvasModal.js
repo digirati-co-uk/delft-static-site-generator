@@ -105,9 +105,7 @@ class CanvasModal extends React.Component {
                               ) : ''}
                       </div>
                     </div>
-
                   </div>
-                    );
                   <button
                     onClick={hideCanvasDetails}
                     className="canvas-modal__close"
