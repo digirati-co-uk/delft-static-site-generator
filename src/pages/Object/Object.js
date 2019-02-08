@@ -43,13 +43,25 @@ class ObjectPage extends React.Component {
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="boxtitle">Part of Collections</div>
                 <ol>
-                  <li>Test collection</li>
+                  {(pageContext.collections || []).map(collection => (
+                    <li key={`/${pageLanguage}/${collection[1]}`}>
+                      <a href={`/${pageLanguage}/${collection[1]}`}>
+                        {translate(collection[2], pageLanguage)}
+                      </a>
+                    </li>
+                  ))}
                 </ol>
               </div>
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="boxtitle">Part of Exhibitions</div>
                 <ol>
-                  <li>Test Exhibition</li>
+                  {(pageContext.exhibitions || []).map(exhibition => (
+                    <li key={`/${pageLanguage}/${exhibition[1]}`}>
+                      <a href={`/${pageLanguage}/${exhibition[1]}`}>
+                        {translate(exhibition[2], pageLanguage)}
+                      </a>
+                    </li>
+                  ))}
                 </ol>
               </div>
             </aside>
