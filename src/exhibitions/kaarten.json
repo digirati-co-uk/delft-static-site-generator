@@ -1,0 +1,308 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Untitled Manifest"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 3222,
+      "width": 3367,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/thumbs/7/4/0981f119-783a-469c-b8a5-a6c64e7116f8/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3222,
+                "width": 3367,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "id": "https://dlc.services/thumbs/7/4/0981f119-783a-469c-b8a5-a6c64e7116f8/info.json",
+                  "type": "ImageService2"
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/4/0981f119-783a-469c-b8a5-a6c64e7116f8/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/4/0981f119-783a-469c-b8a5-a6c64e7116f8/info.json"
+                  }
+                }
+              ],
+              "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/annotation/2c8d1c2f-39b0-98cb-9399-b3e145f40521",
+              "target": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/a37bee57-7bd0-9c5a-77f6-5203ea859602"
+            }
+          ],
+          "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/list/8ca8a28d-bd6a-756b-d6da-16c8f529a34e"
+        }
+      ],
+      "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/a37bee57-7bd0-9c5a-77f6-5203ea859602"
+    },
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 3259,
+      "width": 4354,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/thumbs/7/4/0d9219aa-f0bd-43ac-8edc-d72788bff39f/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3259,
+                "width": 4354,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "id": "https://dlc.services/thumbs/7/4/0d9219aa-f0bd-43ac-8edc-d72788bff39f/info.json",
+                  "type": "ImageService2"
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/4/0d9219aa-f0bd-43ac-8edc-d72788bff39f/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/4/0d9219aa-f0bd-43ac-8edc-d72788bff39f/info.json"
+                  }
+                }
+              ],
+              "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/annotation/02d74c12-f78a-40a5-71f0-fa7dbf5e383c",
+              "target": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/9a3dff21-d32d-df4f-9ff2-327b4870e5e0"
+            }
+          ],
+          "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/list/52cffcb9-3aad-0db2-44bc-c3cdad510558"
+        }
+      ],
+      "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/9a3dff21-d32d-df4f-9ff2-327b4870e5e0",
+      "behavior": [
+        "w-8",
+        "h-6"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 3979,
+      "width": 3162,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/thumbs/7/4/434710b1-85c2-462b-8a36-314ce02270fe/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3979,
+                "width": 3162,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "id": "https://dlc.services/thumbs/7/4/434710b1-85c2-462b-8a36-314ce02270fe/info.json",
+                  "type": "ImageService2"
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/4/434710b1-85c2-462b-8a36-314ce02270fe/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/4/434710b1-85c2-462b-8a36-314ce02270fe/info.json"
+                  }
+                }
+              ],
+              "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/annotation/e5995db8-925b-00b2-bf20-55bdd67464a0",
+              "target": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/7de16d43-1aba-c9cc-80ab-aadbc66d48fb"
+            }
+          ],
+          "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/list/76b7646a-bf95-cdc0-5497-0e6e5da9e0c8"
+        }
+      ],
+      "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/7de16d43-1aba-c9cc-80ab-aadbc66d48fb",
+      "behavior": [
+        "w-4",
+        "h-6"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 4239,
+      "width": 3281,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/thumbs/7/4/52c18efb-87c3-40d8-bbf5-4f2e8c751a7c/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4239,
+                "width": 3281,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "id": "https://dlc.services/thumbs/7/4/52c18efb-87c3-40d8-bbf5-4f2e8c751a7c/info.json",
+                  "type": "ImageService2"
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/4/52c18efb-87c3-40d8-bbf5-4f2e8c751a7c/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/4/52c18efb-87c3-40d8-bbf5-4f2e8c751a7c/info.json"
+                  }
+                }
+              ],
+              "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/annotation/4c49ee5b-545c-29d6-e61a-126390ee9390",
+              "target": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/f700925b-df1c-5df1-939c-572d8b7464b3"
+            }
+          ],
+          "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/list/872552b1-e037-3105-0219-d3c231f3fe3b"
+        }
+      ],
+      "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/f700925b-df1c-5df1-939c-572d8b7464b3"
+    },
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 4099,
+      "width": 3264,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/thumbs/7/4/531858e2-8f28-4951-be57-ff2abc9d3adc/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4099,
+                "width": 3264,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "id": "https://dlc.services/thumbs/7/4/531858e2-8f28-4951-be57-ff2abc9d3adc/info.json",
+                  "type": "ImageService2"
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/4/531858e2-8f28-4951-be57-ff2abc9d3adc/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/4/531858e2-8f28-4951-be57-ff2abc9d3adc/info.json"
+                  }
+                }
+              ],
+              "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/annotation/3ba621b8-f307-7dbe-7d6a-be902bdd2cd2",
+              "target": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/1320add0-22b2-6d83-ce49-48fa28502a9b#xywh=370,1424,2799,2359"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/thumbs/7/4/5ef7bae1-22a1-4721-9194-6a4c10d75660/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3413,
+                "width": 3556,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "id": "https://dlc.services/thumbs/7/4/5ef7bae1-22a1-4721-9194-6a4c10d75660/info.json",
+                  "type": "ImageService2"
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/4/5ef7bae1-22a1-4721-9194-6a4c10d75660/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/4/5ef7bae1-22a1-4721-9194-6a4c10d75660/info.json"
+                  }
+                }
+              ],
+              "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/annotation/ce173d6c-b76a-80a3-b123-22f8385a216a",
+              "target": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/1320add0-22b2-6d83-ce49-48fa28502a9b#xywh=0,0,1855,2517"
+            }
+          ],
+          "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/list/46a442b0-5690-66f6-7e1f-c26bdaf36b26"
+        }
+      ],
+      "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/canvas/1320add0-22b2-6d83-ce49-48fa28502a9b",
+      "behavior": [
+        "w-8",
+        "h-8"
+      ]
+    }
+  ],
+  "id": "http://digirati.com/iiif/v3/3243e291-70d0-6c40-4483-2fd54052c694/manifest"
+}
