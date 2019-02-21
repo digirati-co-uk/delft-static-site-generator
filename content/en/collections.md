@@ -1,15 +1,14 @@
 ---
 path: "/en/collections"
 date: "2018-11-15"
-title: "Collections"
+title: "Digital collections"
 ---
 
-# Test title
+# Digital collections
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus urna, congue in nisi sagittis, egestas pellentesque tellus. Nullam eu consectetur nulla. Maecenas vitae sem at mi tempor auctor vitae nec libero. Sed at augue cursus, sagittis nisi vitae, porta leo. Maecenas tempor quam magna, eu congue quam faucibus sed. Etiam a pharetra ex, sed porta metus. Nulla blandit tortor sagittis, viverra sapien ut, pretium purus. Duis vitae elit id dui tincidunt volutpat. Nam quam elit, mollis nec venenatis ut, lacinia vitae ligula.
+## Academic heritage
 
-Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et, rhoncus eget quam. Praesent dignissim vestibulum ex ac condimentum. Fusce lacinia tortor ut tempus lobortis. Aenean eros libero, iaculis non urna ut, tristique aliquet ex. Nullam nec sem eu risus imperdiet fermentum. Nunc eu metus sed mauris congue consectetur eu vel dui. Praesent eu venenatis urna, sed condimentum augue. Praesent sollicitudin sagittis tempus. Proin vitae elit ut lacus bibendum sollicitudin vitae sed sem. Donec a nulla sagittis, venenatis elit ac, ultricies mi. Curabitur dignissim consectetur luctus. Mauris hendrerit velit et mollis facilisis. Nullam eget tortor eu elit convallis tempor.
-
+The museum collection is a legacy of instruments and other memorabilia from education and research. These include measuring equipment, lecture materials, demonstration equipment, research collections as well as art and documentary collections (film and photography). The collections include approximately 8000 items. They provide a picture of the history of research and education at TU Delft.
 
 <div class="blocks">
 <div class="block cutcorners w-4 h-4 image">
@@ -26,10 +25,9 @@ Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et,
 </div>
 </div>
 
+## Trésor
 
-
-## Another Test title
-
+The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, like speeches, dissertations and lecture notes. Visit the [Trésor website](https://tresor.tudelft.nl) for more information.
 
 <main>
 <div class="blocks">
@@ -48,3 +46,7 @@ Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et,
 </div>
 </div>
 </main>
+
+## Study collection
+
+## External collections

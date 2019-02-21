@@ -4,11 +4,9 @@ date: "2018-11-15"
 title: "[NL] Front Page"
 ---
 
-# [NL] Welcome  to  the  Digital  Archive  of  TU  Delft
+# Academisch Erfgoed van de TU Delft
 
-Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
-
-
+This website is a portal to TU Delft Library’s Special Collections. Visit online exhibitions, make one yourself, attend to an event, browse the collections, learn more about the history of the university or get in touch with the Academic Heritage Team of TU Delft Library and Histechnica, the association for friends of academic heritage.
 
 <div class="blocks">
 <div class="block cutcorners w-5 h-8 image">
