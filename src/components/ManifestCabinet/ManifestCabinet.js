@@ -6,13 +6,13 @@ import './ManifestCabinet.scss';
 const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
   const thumb = thumbnail.__jsonld;
   if (
-    (pWidth || pHeight) && 
-    thumb.hasOwnProperty('service') && 
-    thumb.service.hasOwnProperty('sizes')
+    (pWidth || pHeight)
+    && thumb.hasOwnProperty('service')
+    && thumb.service.hasOwnProperty('sizes')
   ) {
     let closestSizeIndex = -1;
     let minDistanceX = Number.MAX_SAFE_INTEGER;
-    let minDistanceY = Number.MAX_SAFE_INTEGER; 
+    let minDistanceY = Number.MAX_SAFE_INTEGER;
     thumb.service.sizes.forEach((size, index) => {
       if (pWidth) {
         const xDistance = Math.abs(size.width - pWidth);
@@ -20,7 +20,7 @@ const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
           closestSizeIndex = index;
           minDistanceX = xDistance;
         }
-      };
+      }
       if (pHeight) {
         const yDistance = Math.abs(size.height - pHeight);
         if (minDistanceY >= yDistance) {
@@ -29,32 +29,30 @@ const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
         }
       }
     });
-    let thumbUrlParts = (thumb.id || thumb['@id']).split('/');
+    const thumbUrlParts = (thumb.id || thumb['@id']).split('/');
     if (closestSizeIndex !== -1) {
       const size = thumb.service.sizes[closestSizeIndex];
-      thumbUrlParts[thumbUrlParts.length-3] = [size.width, size.height].join(',');
+      thumbUrlParts[thumbUrlParts.length - 3] = [size.width, size.height].join(',');
     }
     return thumbUrlParts.join('/');
-  } else {
-    return (thumb.id || thumb['@id']);
   }
+    return (thumb.id || thumb['@id']);
 };
-
 
 
 class ManifestCabinet extends React.Component {
   thumbnailCache = {};
 
-  componentDidUpdate(/*prevProps, prevState*/) {
+  componentDidUpdate(/* prevProps, prevState */) {
     if (this.selectedThumbnail) {
       const list = this.selectedThumbnail.parentNode.parentNode;
       const rect = this.selectedThumbnail.getBoundingClientRect();
       if (rect.x < 0) {
         list.scrollLeft = 0;
-      } else if (list.offsetWidth - rect.width < rect.x ) {
+      } else if (list.offsetWidth - rect.width < rect.x) {
         list.scrollLeft = this.selectedThumbnail.offsetLeft - (list.offsetWidth - rect.width);
       }
-    }   
+    }
   }
 
   getThumbnails = (manifest) => {
@@ -62,17 +60,26 @@ class ManifestCabinet extends React.Component {
     if (this.thumbnailCache.hasOwnProperty(manifestId)) {
       return this.thumbnailCache[manifestId];
     }
-    
+
     const thumbnails = manifest.getSequences().reduce(
-      (sequenceThumbnails, sequence) => 
-        Object.assign(
-          sequenceThumbnails, 
-          sequence.getCanvases().reduce((canvasThumbnails, canvas) => { 
-            canvasThumbnails[canvas.id || canvas['@id']] = canvas.getThumbnail();
+      (sequenceThumbnails, sequence) => Object.assign(
+          sequenceThumbnails,
+          sequence.getCanvases().reduce((canvasThumbnails, canvas) => {
+             let thumbnail = canvas.getThumbnail();
+             if (!thumbnail) {
+              canvas.getImages().forEach((image) => {
+                thumbnail = image.getThumbnail();
+                if (thumbnail) {
+                  return true;
+                }
+              });
+             }
+             canvasThumbnails[canvas.id || canvas['@id']] = thumbnail;
             return canvasThumbnails;
-          }, {})
-        )
-      , {});
+          }, {}),
+        ),
+       {},
+    );
     this.thumbnailCache[manifestId] = thumbnails;
     return thumbnails;
   };
@@ -81,41 +88,55 @@ class ManifestCabinet extends React.Component {
     const {
       children,
       manifest,
-      canvasList, 
+      canvasList,
       currentCanvas,
       height,
       showControls,
       goToRange,
-      bem
+      bem,
     } = this.props;
     const allThumbnails = this.getThumbnails(manifest);
 
     return (
-      <div style={{ height: height }} className={bem}>
+      <div style={{ height }} className={bem}>
         <div className={bem.element('scroll')}>
-          <div style={{ height: height }} className={bem.element('thumb-list')}>
+          <div style={{ height, width: (height + 16) * canvasList.length }} className={bem.element('thumb-list')}>
             {canvasList.map((canvasId, index) => {
               const isSelected = canvasId === (currentCanvas.id || currentCanvas['@id']);
+              const thumbnail = allThumbnails[canvasId]
+                ? thumbnailGetSize(allThumbnails[canvasId], null, height)
+                : null;
               return (
-                <img
-                  ref={imageEl => {
-                    if (isSelected) {
-                      this.selectedThumbnail = imageEl
-                    }
-                  }}
+                <button
                   key={`${canvasId}--thumb`}
-                  src={thumbnailGetSize(allThumbnails[canvasId], null, height)} 
+                  onClick={() => goToRange(index)}
+                  type="button"
                   className={
-                    bem.element('thumb').modifiers({
-                      selected: isSelected 
-                    }) + ' cutcorners'
+                    `${bem.element('thumb').modifiers({
+                      selected: isSelected,
+                    })} cutcorners`
                   }
                   style={{
                     width: height,
+                    height,
                   }}
-                  alt=""
-                  onClick={()=>goToRange(index)}
-                />
+                >
+                  {thumbnail ? (
+                    <img
+                      ref={(imageEl) => {
+                        if (isSelected) {
+                          this.selectedThumbnail = imageEl;
+                        }
+                      }}
+                      src={thumbnail}
+                      className={bem.element('thumb-img')}
+
+                      alt=""
+                    />
+                  ) : (
+                    <div className={bem.element('thumb-missing')}> no thumb </div>
+                  )}
+                </button>
               );
             })}
           </div>
@@ -126,25 +147,33 @@ class ManifestCabinet extends React.Component {
       </div>
     );
   }
-};
+}
 
 
 ManifestCabinet.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]),
   manifest: PropTypes.object.isRequired,
-  canvasList: PropTypes.array.isRequired, 
+  canvasList: PropTypes.array.isRequired,
   currentCanvas: PropTypes.object,
   height: PropTypes.number,
-  previousRange: PropTypes.func,
-  nextRange: PropTypes.func,
+  goToRange: PropTypes.func,
+  bem: PropTypes.object,
   showControls: PropTypes.bool,
 };
 
 ManifestCabinet.defaultProps = {
+  goToRange: null,
+  children: null,
   height: 116,
   showControls: false,
+  currentCanvas: 0,
+  bem: null,
 };
 
 // NOTE: this is gatsby.js specific.
-export default typeof withBemClass === 'function' 
+export default typeof withBemClass === 'function'
   ? withBemClass('manifest-cabinet')(ManifestCabinet)
   : ManifestCabinet;

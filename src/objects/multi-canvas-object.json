@@ -1,252 +1,800 @@
 {
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
   "label": {
     "en": [
-      "First test object"
+      "Multi canvas object"
+    ],
+    "nl": [
+      "Meerdere canvas objecten"
     ]
   },
-  "summary": {
-    "en": [
-      "This is some new content"
-    ]
-  },
-  "type": "Manifest",
-  "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object",
+  "metadata": [
+		{
+			"label": {
+        "en": [ "Title" ],
+        "nl": [ "Titel" ]
+      },
+			"value": {
+        "en": ["Forth Bridge illustrations 1886-1887"],
+        "nl": [" - "]
+      }
+		},
+		{
+      "label": {
+        "en": [ "Description" ],
+        "nl": [ "Omschrijving" ]
+      },
+			"value": {
+        "en": ["40 black-and-white photographs capturing the construction of the Forth Bridge by Glasgow-based Sir William Arrol & Co. Close-up and distance views of superstructure, cantilevers, lifting platforms and viaduct. Taken at weekly or fortnightly intervals from 1886-1887 by Philip Phillips, son of one of the contractors. Silver gelatin prints."],
+        "nl": [" - "]
+      }
+    },
+		{
+      "label": {
+        "en": [ "Part reference" ],
+        "nl": ["Onderdeel Referentie"]
+      },
+			"value": {
+        "en": [""],
+        "nl": [""]
+      }
+		},
+		{
+      "label": {
+        "en": [ "Shelfmark" ],
+        "nl": [ "Shelfmark ???" ]
+      },
+			"value": {
+        "en": ["RB.l.229"],
+        "nl": ["RB.l.229"]
+      }
+		},
+		{
+      "label": {
+        "en": [ "" ],
+        "nl": [ "" ]
+      },
+			"value": {
+        "en": ["<a href=\"http://digital.nls.uk/74464117\">View in our digital gallery</a>"],
+        "nl": ["<a href=\"http://digital.nls.uk/74464117\">Bekijk in onze digitale galerij</a>"]
+      }
+		},
+		{
+      "label": {
+        "en": [ "Full conditions of use" ]
+      },
+			"value": {
+        "en": ["You have permission to use this work under the <a target=\"_top\" href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Licence</a> unless otherwise stated."]
+      }
+		}
+	],
   "items": [
     {
       "label": {
         "en": [
-          "Canvas 1"
+          "1st Canvas"
+        ],
+        "nl": [
+          "eerst canvas"
+        ]
+      },
+      "height": 671,
+      "width": 1191,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/5/1/08256e88-fa03-4c0e-905e-92ceed23f6b3/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 671,
+                "width": 1191,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/5/1/08256e88-fa03-4c0e-905e-92ceed23f6b3",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1191,
+                  "height": 671,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 577
+                    },
+                    {
+                      "width": 400,
+                      "height": 225
+                    },
+                    {
+                      "width": 200,
+                      "height": 113
+                    },
+                    {
+                      "width": 100,
+                      "height": 56
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/5/1/08256e88-fa03-4c0e-905e-92ceed23f6b3/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/5/1/08256e88-fa03-4c0e-905e-92ceed23f6b3",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 577,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 577
+                      },
+                      {
+                        "width": 400,
+                        "height": 225
+                      },
+                      {
+                        "width": 200,
+                        "height": 113
+                      },
+                      {
+                        "width": 100,
+                        "height": 56
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/annotation/ff0d1326-175d-3d13-7e3e-3515db5445c0",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/884fc9ee-08f8-1be3-e4ac-c2afb2fa1b4e"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/list/7dacf072-8bfd-aa89-e597-e5669b4f2ad1"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/884fc9ee-08f8-1be3-e4ac-c2afb2fa1b4e"
+    },
+    {
+      "label": {
+        "en": [
+          "2nd Canvas"
+        ],
+        "nl": [
+          "tweede canvas"
         ]
       },
       "height": 1669,
       "width": 1640,
       "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c1",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/annot/c1-1",
-              "type": "Annotation",
               "motivation": "painting",
-              "label": {
-                "en": [
-                  "Image Annotation 1"
-                ]
-              },
+              "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/5/1/2378e17e-f976-419f-92f7-cb3bb883e009/full/full/0/default.jpgg",
+                "id": "https://dlc.services/iiif-img/5/1/2378e17e-f976-419f-92f7-cb3bb883e009/full/full/0/default.jpg",
                 "type": "Image",
-                "format": "image/jpg",
-                "service": [
-                  {
-                    "id": "https://dlc.services/iiif-img/5/1/2378e17e-F976-419f-92f7-Cb3bb883e009",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
+                "format": "image/jpeg",
                 "height": 1669,
-                "width": 1640
+                "width": 1640,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/5/1/2378e17e-f976-419f-92f7-cb3bb883e009",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1640,
+                  "height": 1669,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1006,
+                      "height": 1024
+                    },
+                    {
+                      "width": 393,
+                      "height": 400
+                    },
+                    {
+                      "width": 197,
+                      "height": 200
+                    },
+                    {
+                      "width": 98,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
               },
-              "target": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c1"
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/5/1/2378e17e-f976-419f-92f7-cb3bb883e009/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/5/1/2378e17e-f976-419f-92f7-cb3bb883e009",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1006,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 1006,
+                        "height": 1024
+                      },
+                      {
+                        "width": 393,
+                        "height": 400
+                      },
+                      {
+                        "width": 197,
+                        "height": 200
+                      },
+                      {
+                        "width": 98,
+                        "height": 100
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/annotation/1c011313-3b63-f933-aaa4-c4abcb513438",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/77689e9f-4ef2-6412-4455-5d611f84824e"
             }
           ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/list/c1-ap1"
+          "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/list/48ffed49-977a-9e0e-5f2f-e79f6585aa4b"
         }
       ],
-      "thumbnail":[{
-        "id": "https://dlc.services/thumbs/5/1/2378e17e-f976-419f-92f7-cb3bb883e009/full/full/0/default.jpg",
-        "type": "Image",
-        "format": "image/jpg",
-        "service": [
-          {
-            "id": "https://dlc.services/thumbs/5/1/2378e17e-f976-419f-92f7-cb3bb883e009",
-            "type": "ImageService3",
-            "profile": "level2"
-          }
-        ],
-        "height": 1024,
-        "width": 1006
-      }]
+      "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/77689e9f-4ef2-6412-4455-5d611f84824e"
     },
     {
       "label": {
         "en": [
-          "Canvas 2"
+          "3rd Canvas"
+        ],
+        "nl": [
+          "derde canvas"
         ]
       },
       "height": 2037,
       "width": 2048,
       "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c2",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/annot/c2-1",
-              "type": "Annotation",
               "motivation": "painting",
-              "label": {
-                "en": [
-                  "Image Annotation 1"
-                ]
-              },
-              "body": {
-                "id": "https://dlc.services/iiif-img/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpg",
-                "service": [
-                  {
-                    "id": "https://dlc.services/iiif-img/5/1/bb277e73-7526-4416-9b0f-07b72748f391",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "height": 2037,
-                "width": 2048
-              },
-              "target": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c2"
-            }
-          ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/list/c2-ap1"
-        }
-      ],
-      "thumbnail": [{
-        "id": "https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg",
-        "type": "Image",
-        "format": "image/jpg",
-        "service": [
-          {
-            "id": "https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391",
-            "type": "ImageService3",
-            "profile": "level2"
-          }
-        ],
-        "height": 1018,
-        "width": 1024
-      }]
-    },
-    {
-      "label": {
-        "en": [
-          "Canvas 3"
-        ]
-      },
-      "height": 1628,
-      "width": 1625,
-      "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c3",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/annot/c3-1",
               "type": "Annotation",
-              "motivation": "painting",
-              "label": {
-                "en": [
-                  "Image Annotation 1"
-                ]
-              },
               "body": {
                 "id": "https://dlc.services/iiif-img/5/1/3115675e-1f06-4b85-8670-fb05593c4b36/full/full/0/default.jpg",
                 "type": "Image",
-                "format": "image/jpg",
-                "service": [
-                  {
-                    "id": "https://dlc.services/iiif-img/5/1/3115675e-1f06-4b85-8670-fb05593c4b36",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "height": 1628,
-                "width": 1625
+                "format": "image/jpeg",
+                "height": 2037,
+                "width": 2048,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/5/1/3115675e-1f06-4b85-8670-fb05593c4b36",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2048,
+                  "height": 2037,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 1018
+                    },
+                    {
+                      "width": 400,
+                      "height": 398
+                    },
+                    {
+                      "width": 200,
+                      "height": 199
+                    },
+                    {
+                      "width": 100,
+                      "height": 99
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
               },
-              "target": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c3"
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/5/1/3115675e-1f06-4b85-8670-fb05593c4b36/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/5/1/3115675e-1f06-4b85-8670-fb05593c4b36",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 1018,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 1018
+                      },
+                      {
+                        "width": 400,
+                        "height": 398
+                      },
+                      {
+                        "width": 200,
+                        "height": 199
+                      },
+                      {
+                        "width": 100,
+                        "height": 99
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/annotation/a50b700f-7c81-3112-3689-5a7e7037df34",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/fbf3301d-cb4e-0e6c-f9c2-02d7445011b5"
             }
           ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/list/c3-ap1"
+          "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/list/6c320017-7d6d-189d-cdec-13287c571a06"
         }
       ],
-      "thumbnail": [{
-        "id": "https://dlc.services/thumbs/5/1/3115675e-1f06-4b85-8670-fb05593c4b36/full/1022,1024/0/default.jpg",
-        "type": "Image",
-        "format": "image/jpg",
-        "service": [
-          {
-            "id": "https://dlc.services/thumbs/5/1/3115675e-1f06-4b85-8670-fb05593c4b36",
-            "type": "ImageService3",
-            "profile": "level2"
-          }
-        ],
-        "height": 1024,
-        "width": 1022
-      }]
+      "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/fbf3301d-cb4e-0e6c-f9c2-02d7445011b5"
     },
     {
       "label": {
         "en": [
-          "Canvas 4"
+          "4th Canvas"
+        ],
+        "nl": [
+          "vierde doek"
         ]
       },
-      "height": 1495,
-      "width": 1997,
+      "height": 1876,
+      "width": 2263,
       "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c4",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/annot/c4-1",
-              "type": "Annotation",
               "motivation": "painting",
-              "label": {
-                "en": [
-                  "Image Annotation 1"
-                ]
-              },
+              "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/5/1/73465289-f503-4850-be04-15ae8264819c/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/5/1/43860efa-3b7d-4954-a234-9b7d438621b5/full/full/0/default.jpg",
                 "type": "Image",
-                "format": "image/jpg",
-                "service": [
-                  {
-                    "id": "https://dlc.services/iiif-img/5/1/73465289-f503-4850-be04-15ae8264819c",
-                    "type": "ImageService3",
-                    "profile": "level2"
-                  }
-                ],
-                "height": 1495,
-                "width": 1997
+                "format": "image/jpeg",
+                "height": 1876,
+                "width": 2263,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/5/1/43860efa-3b7d-4954-a234-9b7d438621b5",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2263,
+                  "height": 1876,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 849
+                    },
+                    {
+                      "width": 400,
+                      "height": 332
+                    },
+                    {
+                      "width": 200,
+                      "height": 166
+                    },
+                    {
+                      "width": 100,
+                      "height": 83
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
               },
-              "target": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/canvas/c4"
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/5/1/43860efa-3b7d-4954-a234-9b7d438621b5/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/5/1/43860efa-3b7d-4954-a234-9b7d438621b5",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 849,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 849
+                      },
+                      {
+                        "width": 400,
+                        "height": 332
+                      },
+                      {
+                        "width": 200,
+                        "height": 166
+                      },
+                      {
+                        "width": 100,
+                        "height": 83
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/annotation/544dd627-a5d3-f15a-18fb-10cad758eb55",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/94607bca-0d09-c68f-732b-9348f8e21d2d"
             }
           ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/multi-canvas-object/list/c4-ap1"
+          "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/list/1e756191-98b1-6e26-236e-8df9c476a7fb"
         }
       ],
-      "thumbnail": [{
-        "id": "https://dlc.services/thumbs/5/1/73465289-f503-4850-be04-15ae8264819c/full/full/0/default.jpg",
-        "type": "Image",
-        "format": "image/jpg",
-        "service": [
-          {
-            "id": "https://dlc.services/thumbs/5/1/73465289-f503-4850-be04-15ae8264819c",
-            "type": "ImageService3",
-            "profile": "level2"
-          }
+      "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/94607bca-0d09-c68f-732b-9348f8e21d2d"
+    },
+    {
+      "label": {
+        "en": [
+          "Fifth canvas"
         ],
-        "height": 767,
-        "width": 1024
-      }]
+        "nl": [
+          "vijfde canvas"
+        ]
+      },
+      "height": 2551,
+      "width": 3916,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/5/1/515e9162-9c17-4bc5-8a79-9fb6f59c44c5/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2551,
+                "width": 3916,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/5/1/515e9162-9c17-4bc5-8a79-9fb6f59c44c5",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3916,
+                  "height": 2551,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 667
+                    },
+                    {
+                      "width": 400,
+                      "height": 261
+                    },
+                    {
+                      "width": 200,
+                      "height": 130
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/5/1/515e9162-9c17-4bc5-8a79-9fb6f59c44c5/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/5/1/515e9162-9c17-4bc5-8a79-9fb6f59c44c5",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 667,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 667
+                      },
+                      {
+                        "width": 400,
+                        "height": 261
+                      },
+                      {
+                        "width": 200,
+                        "height": 130
+                      },
+                      {
+                        "width": 100,
+                        "height": 65
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/annotation/7a80efa4-17c8-a58b-0be9-15ec3a77e886",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/95204d48-eed3-8a29-dff1-fc7eda57a09a"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/list/259cc037-92ef-603c-09d8-4cab18dc4938"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/canvas/95204d48-eed3-8a29-dff1-fc7eda57a09a"
     }
   ],
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/3/context.json"
-  ]
+  "id": "https://delft-static-site-generator.netlify.com/iiif/18fe5949-601f-b19f-1cde-f78f8f6caa28/manifest"
 }

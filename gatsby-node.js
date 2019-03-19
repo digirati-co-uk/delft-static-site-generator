@@ -68,6 +68,53 @@ const getAllAnnotationsFromManifest = (
     }, _annotations || {});
 
 
+const getThumbnails = thumbnails => (thumbnails || []).map(thumbnail => thumbnail.id);
+
+const getFirstThumbnail = thumbnails => getThumbnails(thumbnails || [])[0];
+
+const getCanvasThumbnail = (canvas) => {
+  let thumbnail = null;
+  if (!thumbnail && canvas) {
+    if (canvas.thumbnail) {
+      thumbnail = getFirstThumbnail(canvas.thumbnail);
+    }
+    if (!thumbnail) {
+      canvas.items.forEach((annotationList) => {
+        if (!thumbnail && annotationList.items) {
+          annotationList.items.forEach(
+            (annotation) => {
+              if (!thumbnail && annotation.thumbnail) {
+                thumbnail = getFirstThumbnail(annotation.thumbnail);
+              }
+            },
+          );
+        }
+      });
+    }
+  }
+  return thumbnail;
+};
+
+const getManifestThumbnail = (manifest) => {
+  let thumbnail = null;
+  if (manifest.thumbnail) {
+    thumbnail = getFirstThumbnail(manifest.thumbnail);
+  }
+
+  if (!thumbnail && manifest.posterCanvas) {
+    thumbnail = getCanvasThumbnail(manifest.posterCanvas);
+  }
+
+  if (!thumbnail && manifest.items.length > 0) {
+    manifest.items.forEach((canvas) => {
+      if (!thumbnail) {
+        thumbnail = getCanvasThumbnail(canvas);
+      }
+    });
+  }
+  return thumbnail;
+};
+
 const getAllObjectLinks = (
   collection,
   collectionPath,
@@ -104,7 +151,8 @@ const createCollectionPages = (objectLinks) => {
             collection: context,
           },
         };
-        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id;
+        meta.thumbnails[pathname] = getManifestThumbnail(context);
+        // context.items[0].thumbnail[0].id;
         meta.links[context.id] = pathname;
         meta.reverseLinks[pathname] = context.id;
         getAllObjectLinks(context, pathname, meta.objectInCollections);
@@ -126,19 +174,16 @@ const createObjectPages = () => {
     .reduce(
       (meta, item) => {
         const [pathname, context] = getManifestContext(item);
-        // createTranslatedPage({
-        //   path: pathname,
-        //   component: manifestTemplate,
-        //   context,
-        // }, createPage);
         meta.pages[pathname] = {
           path: pathname,
           component: manifestTemplate,
           context,
         };
+
         // TODO: cover image if defined, first canvas thumbnail as fall-back,
         // than first canvas image fallback...
-        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id;
+        meta.thumbnails[pathname] = getManifestThumbnail(context); // context.items[0].thumbnail[0].id;
+        console.log(pathname, meta.thumbnails[pathname]);
         meta.links[context.id] = pathname;
         meta.reverseLinks[pathname] = context.id;
         getAllAnnotationsFromManifest(context, pathname, meta.annotationsPartOfObjects);
@@ -171,7 +216,7 @@ const createExhibitionPages = () => {
           component: exhibitionTemplate,
           context,
         };
-        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
+        meta.thumbnails[pathname] = getManifestThumbnail(context); // /context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
         meta.links[(context.id || context['@id'])] = pathname;
         meta.reverseLinks[pathname] = (context.id || context['@id']);
 

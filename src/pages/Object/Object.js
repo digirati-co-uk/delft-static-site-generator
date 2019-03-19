@@ -8,11 +8,6 @@ import { getTranslation as translate, getPageLanguage } from '../../utils';
 const isHtml = val => val.match(/<[^>]+>/) !== null;
 
 class ObjectPage extends React.Component {
-  propTypes = {
-    pageContext: PropTypes.object.isRequired,
-    '*': PropTypes.string.isRequired,
-  };
-
   constructor(props) {
     super(props);
     this.state = {
@@ -116,5 +111,10 @@ class ObjectPage extends React.Component {
     );
   }
 }
+
+ObjectPage.propTypes = {
+  pageContext: PropTypes.object.isRequired,
+  '*': PropTypes.string.isRequired,
+};
 
 export default ObjectPage;
