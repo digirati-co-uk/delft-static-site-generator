@@ -23,4 +23,48 @@ export const getPageLanguage = (pathname) => {
   return languageCandidate === 'nl' ? languageCandidate : 'en';
 };
 
+export const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
+  const thumb = thumbnail.__jsonld;
+  if (!thumb.hasOwnProperty('service') || !(pWidth || pHeight)) {
+    return (thumb.id || thumb['@id']);
+  }
+  const service = Array.isArray(thumb.service) ? thumb.service[0] : thumb.service;
+  if (!service) {
+    return (thumb.id || thumb['@id']);
+  }
+  if (
+    service.hasOwnProperty('sizes')
+    && Array.isArray(service.sizes)
+    && service.sizes.length > 0
+  ) {
+    let closestSizeIndex = -1;
+    let minDistanceX = Number.MAX_SAFE_INTEGER;
+    let minDistanceY = Number.MAX_SAFE_INTEGER;
+    service.sizes.forEach((size, index) => {
+      if (pWidth) {
+        const xDistance = Math.abs(size.width - pWidth);
+        if (minDistanceX >= xDistance) {
+          closestSizeIndex = index;
+          minDistanceX = xDistance;
+        }
+      }
+      if (pHeight) {
+        const yDistance = Math.abs(size.height - pHeight);
+        if (minDistanceY >= yDistance) {
+          closestSizeIndex = index;
+          minDistanceY = yDistance;
+        }
+      }
+    });
+    const thumbUrlParts = (thumb.id || thumb['@id']).split('/');
+    if (closestSizeIndex !== -1) {
+      const size = service.sizes[closestSizeIndex];
+      thumbUrlParts[thumbUrlParts.length - 3] = [size.width, size.height].join(',');
+    }
+    return thumbUrlParts.join('/');
+  }
+  return (thumb.id || thumb['@id']);
+};
+
+
 export default substituteSpecialLinks;

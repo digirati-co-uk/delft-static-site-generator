@@ -1,44 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withBemClass } from '@canvas-panel/core';
+import { thumbnailGetSize } from '../../utils';
 import './ManifestCabinet.scss';
-
-const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
-  const thumb = thumbnail.__jsonld;
-  if (
-    (pWidth || pHeight)
-    && thumb.hasOwnProperty('service')
-    && thumb.service.hasOwnProperty('sizes')
-  ) {
-    let closestSizeIndex = -1;
-    let minDistanceX = Number.MAX_SAFE_INTEGER;
-    let minDistanceY = Number.MAX_SAFE_INTEGER;
-    thumb.service.sizes.forEach((size, index) => {
-      if (pWidth) {
-        const xDistance = Math.abs(size.width - pWidth);
-        if (minDistanceX >= xDistance) {
-          closestSizeIndex = index;
-          minDistanceX = xDistance;
-        }
-      }
-      if (pHeight) {
-        const yDistance = Math.abs(size.height - pHeight);
-        if (minDistanceY >= yDistance) {
-          closestSizeIndex = index;
-          minDistanceY = yDistance;
-        }
-      }
-    });
-    const thumbUrlParts = (thumb.id || thumb['@id']).split('/');
-    if (closestSizeIndex !== -1) {
-      const size = thumb.service.sizes[closestSizeIndex];
-      thumbUrlParts[thumbUrlParts.length - 3] = [size.width, size.height].join(',');
-    }
-    return thumbUrlParts.join('/');
-  }
-    return (thumb.id || thumb['@id']);
-};
-
 
 class ManifestCabinet extends React.Component {
   thumbnailCache = {};

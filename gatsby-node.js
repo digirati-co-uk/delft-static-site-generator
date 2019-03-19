@@ -182,7 +182,7 @@ const createObjectPages = () => {
 
         // TODO: cover image if defined, first canvas thumbnail as fall-back,
         // than first canvas image fallback...
-        meta.thumbnails[pathname] = getManifestThumbnail(context); // context.items[0].thumbnail[0].id;
+        meta.thumbnails[pathname] = getManifestThumbnail(context);
         console.log(pathname, meta.thumbnails[pathname]);
         meta.links[context.id] = pathname;
         meta.reverseLinks[pathname] = context.id;
@@ -206,17 +206,12 @@ const createExhibitionPages = () => {
     .reduce(
       (meta, item) => {
         const [pathname, context] = getManifestContext(item);
-        // createTranslatedPage({
-        //   path: pathname,
-        //   component: exhibitionTemplate,
-        //   context,
-        // }, createPage);
         meta.pages[pathname] = {
           path: pathname,
           component: exhibitionTemplate,
           context,
         };
-        meta.thumbnails[pathname] = getManifestThumbnail(context); // /context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
+        meta.thumbnails[pathname] = getManifestThumbnail(context);
         meta.links[(context.id || context['@id'])] = pathname;
         meta.reverseLinks[pathname] = (context.id || context['@id']);
 
