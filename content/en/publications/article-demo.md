@@ -75,9 +75,9 @@ This is an ordered list:
 
 Image example: 
 
-    <img src="http://lorempixel.com/400/200/" />
+    <img src="//lorempixel.com/400/200/" />
 
-<img src="http://lorempixel.com/400/200/" />
+<img src="//lorempixel.com/400/200/" />
 
 Image in block:
 
