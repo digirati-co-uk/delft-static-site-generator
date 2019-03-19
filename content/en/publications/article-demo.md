@@ -73,6 +73,54 @@ This is an ordered list:
 4. list item 4
 
 
+Image example: 
+
+    <img src="http://lorempixel.com/400/200/" />
+
+<img src="http://lorempixel.com/400/200/" />
+
+Image in block:
+
+    <div class="block image cutcorners w-7 h-4 row">
+        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+    </div>
+
+
+<div class="block image cutcorners w-7 h-4 row">
+    <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+</div>
+
+
+Image in block with info:
+
+    <div class="block cutcorners w-7 h-4 row">
+        <div class="block image cutcorners w-4 h-4">
+            <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="" />
+        </div>
+        <div class="block info cutcorners w-3 h-4">
+            <div class="text">
+                <p>Geodesy instructor Jan Ebbinge operating a spirit level on campus in preparation for an open day of the Faculty of Geodesy around 1980.</p>
+                <p class="facts">Faculty of Architecture and the Built Environment / OTB Photo Archive / Photo: Axel Smitsod magnimust ipid.</p>
+            </div>
+        </div>
+    </div>
+
+
+<div class="block cutcorners w-7 h-4 row">
+    <div class="block image cutcorners w-4 h-4">
+        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="" />
+    </div>
+    <div class="block info cutcorners w-3 h-4">
+        <div class="text">
+            <p>Geodesy instructor Jan Ebbinge operating a spirit level on campus in preparation for an open day of the Faculty of Geodesy around 1980.</p>
+            <p class="facts">Faculty of Architecture and the Built Environment / OTB Photo Archive / Photo: Axel Smitsod magnimust ipid.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
 Quisque suscipit, mauris id vestibulum euismod, felis elit vulputate augue, eu aliquam purus massa eu dolor. Sed efficitur placerat turpis et fermentum. Donec a sodales leo. Phasellus in magna malesuada, laoreet nisi id, condimentum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut luctus nulla. Nullam luctus enim non pulvinar hendrerit. Sed ante lacus, sodales eget nunc id, cursus rhoncus ipsum. Fusce nisl ligula, congue a augue sed, vestibulum suscipit leo.
 
 Aliquam fermentum vestibulum nisl a porttitor. Fusce ultrices dui sit amet semper dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris sit amet massa sed lorem rhoncus ultrices quis id augue. Nunc est elit, ornare interdum nibh eget, aliquet convallis lectus. Curabitur a aliquam justo. Quisque rutrum efficitur ligula, id efficitur lorem fermentum a.
