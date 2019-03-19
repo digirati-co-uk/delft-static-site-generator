@@ -25,7 +25,6 @@ class Header extends React.Component {
   render() {
     const { language, path, t } = this.props;
     const { isMobileMenuOpen } = this.state;
-    console.log(t);
     return (
       <header className="header">
         <div className="header__content">

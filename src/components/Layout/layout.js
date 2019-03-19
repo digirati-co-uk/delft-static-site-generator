@@ -22,7 +22,7 @@ const Layout = ({ children, language, path }) => (
         }
       `}
     render={data => (
-      <TranslatorProvider translations={translations[language]}>
+      <TranslatorProvider translations={translations[language] || translations.en}>
         <React.Fragment>
           <Helmet
             title={data.site.siteMetadata.title}

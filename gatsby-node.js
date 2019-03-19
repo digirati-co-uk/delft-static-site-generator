@@ -183,7 +183,6 @@ const createObjectPages = () => {
         // TODO: cover image if defined, first canvas thumbnail as fall-back,
         // than first canvas image fallback...
         meta.thumbnails[pathname] = getManifestThumbnail(context);
-        console.log(pathname, meta.thumbnails[pathname]);
         meta.links[context.id] = pathname;
         meta.reverseLinks[pathname] = context.id;
         getAllAnnotationsFromManifest(context, pathname, meta.annotationsPartOfObjects);
@@ -237,7 +236,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   // console.log(JSON.stringify(exhibitionMeta.annotationsPartOfExhibition, null, 2));
   // console.log(JSON.stringify(objectMeta.annotationsPartOfObjects, null, 2));
-  console.log(JSON.stringify(collectionMeta.objectInCollections, null, 2));
+  // console.log(JSON.stringify(collectionMeta.objectInCollections, null, 2));
 
   return graphql(`
     {
