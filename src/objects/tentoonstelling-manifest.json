@@ -16,7 +16,7 @@
     ]
   },
   "type": "Manifest",
-  "id": "http://digirati.com/iiif/v3/temporary/manifest",
+  "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest",
   "items": [
     {
       "label": {
@@ -30,13 +30,13 @@
       "height": 1669,
       "width": 1640,
       "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c1",
+      "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://delft-static-site-generator.netlify.com/objects/object-1/annot/c1-1",
+              "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/annot/c1-1",
               "type": "Annotation",
               "motivation": "painting",
               "label": {
@@ -58,10 +58,10 @@
                 "height": 1669,
                 "width": 1640
               },
-              "target": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c1"
+              "target": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1"
             }
           ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/object-1/list/c1-ap1"
+          "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/list/c1-ap1"
         }
       ],
       "thumbnail": [
@@ -102,13 +102,13 @@
       "height": 2037,
       "width": 2048,
       "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/object-2/canvas/c1",
+      "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://delft-static-site-generator.netlify.com/objects/object-2/annot/c1-1",
+              "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/annot/c1-1",
               "type": "Annotation",
               "motivation": "painting",
               "label": {
@@ -130,10 +130,10 @@
                 "height": 2037,
                 "width": 2048
               },
-              "target": "https://delft-static-site-generator.netlify.com/objects/object-2/canvas/c1"
+              "target": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1"
             }
           ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/object-2/list/c1-ap1"
+          "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/list/c1-ap1"
         }
       ],
       "thumbnail": [
@@ -172,13 +172,13 @@
       "height": 1495,
       "width": 1997,
       "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/object-4/canvas/c1",
+      "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://delft-static-site-generator.netlify.com/objects/object-4/annot/c1-1",
+              "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/annot/c1-1",
               "type": "Annotation",
               "motivation": "painting",
               "label": {
@@ -200,10 +200,10 @@
                 "height": 1495,
                 "width": 1997
               },
-              "target": "https://delft-static-site-generator.netlify.com/objects/object-4/canvas/c1"
+              "target": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1"
             }
           ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/object-4/list/c1-ap1"
+          "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/list/c1-ap1"
         }
       ],
       "thumbnail": [
@@ -255,13 +255,13 @@
       "height": 1628,
       "width": 1625,
       "type": "Canvas",
-      "id": "https://delft-static-site-generator.netlify.com/objects/object-3/canvas/c1",
+      "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://delft-static-site-generator.netlify.com/objects/object-3/annot/c1-1",
+              "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/annot/c1-1",
               "type": "Annotation",
               "motivation": "painting",
               "label": {
@@ -283,10 +283,10 @@
                 "height": 1628,
                 "width": 1625
               },
-              "target": "https://delft-static-site-generator.netlify.com/objects/object-2/canvas/c1"
+              "target": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/canvas/c1"
             }
           ],
-          "id": "https://delft-static-site-generator.netlify.com/objects/object-3/list/c1-ap1"
+          "id": "https://delft-static-site-generator.netlify.com/objects/tentoonstelling-manifest/list/c1-ap1"
         }
       ],
       "thumbnail": [

@@ -52,13 +52,28 @@ const getAllAnnotationsFromManifest = (
       const processAnnotationPage = (annotationPage) => {
         (annotationPage.items || []).forEach(
           (annotation) => {
-            const annotationId = annotation.service && annotation.service.length > 0
-              ? annotation.service[0].id
-              : annotation.id;
-            if (!annotations[annotationId]) {
-              annotations[annotationId] = [];
+            // console.log(annotation.service);
+            let annotationId = annotation.id;
+            if (annotation.body && annotation.body.type === 'Image') {
+              if (annotation.body.service) {
+                const service = Array.isArray(annotation.body.service)
+                  ? annotation.body.service[0]
+                  : annotation.body.service;
+                if (typeof service === 'string') {
+                  annotationId = service;
+                } else if (typeof service.id === 'string') {
+                  annotationId = service.id;
+                }
+              }
+              if (annotationId === annotation.id && typeof annotation.body.id === 'string') {
+                annotationId = annotation.body.id;
+              }
+
+              if (!annotations[annotationId]) {
+                annotations[annotationId] = [];
+              }
+              annotations[annotationId].push([manifest.id, manifestPath, manifest.label]);
             }
-            annotations[annotationId].push([manifest.id, manifestPath, manifest.label]);
           },
         );
       };
