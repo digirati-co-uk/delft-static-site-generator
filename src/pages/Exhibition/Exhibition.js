@@ -220,26 +220,19 @@ class ExhibitionPage extends React.Component {
               </div>
               <div />
             </div>
-            {manifest.items && manifest.items.length > 0 && (
-              <div className="block cutcorners w-8 h-8 image">
-                {this.renderMediaHolder(
-                  manifest.items[0],
-                  this.renderCanvasBody(manifest.items[0]),
-                )}
-                <div className="caption">{manifest.items[0].label && translate(manifest.items[0].label, pageLanguage)}</div>
-              </div>
-            )}
-            <div className="block info cutcorners w-4 h-4">
-              <div className="boxtitle">ABOUT</div>
-              <div className="text">
-                { translate(manifest.summary, pageLanguage, '\n')
-                    .split('\n')
-                    .map(paragraph => <p key={`about__${paragraph}`}>{paragraph}</p>)}
-                <p><a className="readmore" href="/#">Read More</a></p>
-              </div>
-            </div>
+
             {manifest && manifest.items && manifest.items.map(
-              (canvas, index) => (index === 0 ? '' : (
+              canvas => ((canvas.behavior || []).indexOf('info') !== -1 ? (
+                <div className={this.getBlockClasses(canvas)}>
+                  <div className="boxtitle">{translate(canvas.label || { en: ['About'], nl: ['Over'] }, pageLanguage, '\n').toUpperCase()}</div>
+                  <div className="text">
+                    { translate(canvas.summary, pageLanguage, '\n')
+                        .split('\n')
+                        .map(paragraph => <p key={`about__${paragraph}`}>{paragraph}</p>)}
+                    <p><a className="readmore" onClick={this.showCanvasDetails(canvas)}>Read More</a></p>
+                  </div>
+                </div>
+              ) : (
                 <div
                   key={`manifest_item_${canvas.id}`}
                   className={this.getBlockClasses(canvas)}

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import ContainerDimensions from 'react-container-dimensions';
 import { Arrow } from '../Arrow/Arrow';
 import { Close } from '../Close/Close';
@@ -45,67 +46,85 @@ class CanvasModal extends React.Component {
             <ContainerDimensions>
               {({ width, height }) => (
                 <div className="canvas-modal__content" style={{ width: width - 64, height: Math.floor(height - 64) }}>
-                  <div className="canvas-modal__inner-frame">
-                    <div className="canvas-modal__content-slide">
-                      <div className="canvas-modal__top-part">
-                        <ThinCanvasPanel
-                          canvas={selectedCanvas}
-                          navItemsCallback={this.navItemsCallback}
-                          currentNavItem={currentNavItem}
-                        />
-                      </div>
-                      <div className="canvas-modal__info-and-nav">
-                        <div className="canvas-modal__info">
-                          {currentLabelAndDescriptionSource.label ? (
-                            <h6>
-                              {getTranslation(currentLabelAndDescriptionSource.label, pageLanguage)}
-                            </h6>
-                          ) : '' }
-                          {currentLabelAndDescriptionSource.summary ? (
-                            <p>
-                              {getTranslation(
-                                currentLabelAndDescriptionSource.summary, pageLanguage,
-                              )}
-                            </p>
-                          ) : ''}
+
+                  {(selectedCanvas.behavior || []).indexOf('info') !== -1 ? (
+                    <div className="canvas-modal__essay">
+                      {annotations.map(annotation => (
+                        <main>
+                          { annotation.label && (
+                            <h3>{getTranslation(annotation.label, pageLanguage)}</h3>
+                          )}
+                          { annotation.summary && getTranslation(annotation.summary, pageLanguage, '\n')
+                            .split('\n')
+                            .map(paragraph => <p key={`about__${paragraph}`}>{paragraph}</p>)
+                          }
+                        </main>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="canvas-modal__inner-frame">
+                      <div className="canvas-modal__content-slide">
+                        <div className="canvas-modal__top-part">
+                          <ThinCanvasPanel
+                            canvas={selectedCanvas}
+                            navItemsCallback={this.navItemsCallback}
+                            currentNavItem={currentNavItem}
+                          />
                         </div>
-                        {navItems.length > 1 ? (
-                          <div className="canvas-modal__nav">
-                            {currentNavItem + 1}
-                            {' / '}
-                            {navItems.length}
+                        <div className="canvas-modal__info-and-nav">
+                          <div className="canvas-modal__info">
+                            {currentLabelAndDescriptionSource.label ? (
+                              <h6>
+                                {getTranslation(currentLabelAndDescriptionSource.label, pageLanguage)}
+                              </h6>
+                            ) : '' }
+                            {currentLabelAndDescriptionSource.summary ? (
+                              <p>
+                                {getTranslation(
+                                  currentLabelAndDescriptionSource.summary, pageLanguage,
+                                )}
+                              </p>
+                            ) : ''}
                           </div>
-                              ) : ''}
-                        {navItems.length > 1 ? (
-                          <div className="canvas-modal__nav">
-                            <button
-                              className="arrow left"
-                              onClick={() => this.setState({ currentNavItem: currentNavItem - 1 })}
-                              type="button"
-                              style={{
-                                  visibility: currentNavItem === 0 ? 'hidden' : 'visible',
+                          <div className="canvas-modal__nav"><Link to={[pageLanguage, 'objects/multi-canvas-object'].join('/')}>View Details</Link></div>
+                          {navItems.length > 1 ? (
+                            <div className="canvas-modal__nav">
+                              {currentNavItem + 1}
+                              {' / '}
+                              {navItems.length}
+                            </div>
+                                ) : ''}
+                          {navItems.length > 1 ? (
+                            <div className="canvas-modal__nav">
+                              <button
+                                className="arrow left"
+                                onClick={() => this.setState({ currentNavItem: currentNavItem - 1 })}
+                                type="button"
+                                style={{
+                                    visibility: currentNavItem === 0 ? 'hidden' : 'visible',
+                                  }}
+                              >
+                                <Arrow />
+                              </button>
+                              <button
+                                className="arrow right"
+                                onClick={() => this.setState({ currentNavItem: currentNavItem + 1 })}
+                                type="button"
+                                style={{
+                                  visibility:
+                                    currentNavItem + 1 === navItems.length
+                                      ? 'hidden'
+                                      : 'visible',
                                 }}
-                            >
-                              <Arrow />
-                            </button>
-                            <button
-                              className="arrow right"
-                              onClick={() => this.setState({ currentNavItem: currentNavItem + 1 })}
-                              type="button"
-                              style={{
-                                visibility:
-                                  currentNavItem + 1 === navItems.length
-                                    ? 'hidden'
-                                    : 'visible',
-                              }}
-                            >
-                              <Arrow />
-                            </button>
-                          </div>
-                              ) : ''}
+                              >
+                                <Arrow />
+                              </button>
+                            </div>
+                                ) : ''}
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  )}
                   <button
                     onClick={hideCanvasDetails}
                     className="canvas-modal__close"

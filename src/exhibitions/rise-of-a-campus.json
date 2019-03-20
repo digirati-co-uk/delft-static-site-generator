@@ -7,14 +7,6 @@
         "Tentoonstelling manifest"
       ]
     },
-    "summary": {
-      "en": [
-        "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
-      ],
-      "nl": [
-        "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
-      ]
-    },
     "type": "Manifest",
     "id": "http://digirati.com/iiif/v3/temporary/manifest",
     "items": [
@@ -78,7 +70,23 @@
           "height": 1024,
           "width": 1006
         }],
-        "behavior": ["w-4", "h-4"]
+        "behavior": ["w-8", "h-8"]
+      },
+      {
+        "type": "Canvas",
+        "width": 1000,
+        "height": 1000,
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c0",
+        "summary": {
+          "en": [
+            "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+          ],
+          "nl": [
+            "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+          ]
+        },
+        "items": [],
+        "behavior": ["w-4", "h-4", "info"]
       },
       {
         "label": {

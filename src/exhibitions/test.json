@@ -1,18 +1,10 @@
 {
     "label": {
       "en": [
-        "Rise of a Campus"
+        "Rise of a Campus [test every structure]"
       ],
       "nl": [
-        "Tentoonstelling manifest"
-      ]
-    },
-    "summary": {
-      "en": [
-        "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
-      ],
-      "nl": [
-        "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+        "Tentoonstelling manifest [test elke structuur]"
       ]
     },
     "type": "Manifest",
@@ -83,7 +75,88 @@
           "height": 1024,
           "width": 1006
         }],
-        "behavior": ["w-4", "h-4"]
+        "behavior": ["w-8", "h-8"]
+      },
+      {
+        "type": "Canvas",
+        "width": 1000,
+        "height": 1000,
+        "id": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c0",
+        "summary": {
+          "en": [
+            "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+          ],
+          "nl": [
+            "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+          ]
+        },
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://delft-static-site-generator.netlify.com/objects/object-1/annot/c0-1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Title"
+                  ],
+                  "nl": [
+                    "[NL]Title"
+                  ]
+                },
+                "summary": {
+                  "en": [
+                    "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+                  ],
+                  "nl": [
+                    "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "format": "text/html",
+                  "value": "null",
+                  "height": 1669,
+                  "width": 1640
+                },
+                "target": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c0"
+              },
+              {
+                "id": "https://delft-static-site-generator.netlify.com/objects/object-1/annot/c0-1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "label": {
+                  "en": [
+                    "Title 2"
+                  ],
+                  "nl": [
+                    "[NL]Title 2"
+                  ]
+                },
+                "summary": {
+                  "en": [
+                    "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+                  ],
+                  "nl": [
+                    "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+                  ]
+                },
+                "body": {
+                  "type": "TextualBody",
+                  "format": "text/html",
+                  "value": "null",
+                  "height": 1669,
+                  "width": 1640
+                },
+                "target": "https://delft-static-site-generator.netlify.com/objects/object-1/canvas/c0"
+              }
+            ],
+            "id": "https://delft-static-site-generator.netlify.com/objects/object-1/list/c0-ap1"
+          }
+        ],
+        "behavior": ["w-4", "h-4", "info"]
       },
       {
         "label": {
