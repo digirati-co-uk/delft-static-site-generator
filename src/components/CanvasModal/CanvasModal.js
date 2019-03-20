@@ -10,6 +10,26 @@ import { getTranslation } from '../../utils';
 
 import ThinCanvasPanel from './ThinCanvasPanel';
 
+const getAnnotationId = (annotation) => {
+  let annotationId = annotation.id;
+  if (annotation.body && annotation.body.type === 'Image') {
+    if (annotation.body.service) {
+      const service = Array.isArray(annotation.body.service)
+        ? annotation.body.service[0]
+        : annotation.body.service;
+      if (typeof service === 'string') {
+        annotationId = service;
+      } else if (typeof service.id === 'string') {
+        annotationId = service.id;
+      }
+    }
+    if (annotationId === annotation.id && typeof annotation.body.id === 'string') {
+      annotationId = annotation.body.id;
+    }
+  }
+  return annotationId;
+};
+
 class CanvasModal extends React.Component {
   state = {
     navItems: [],
@@ -24,7 +44,12 @@ class CanvasModal extends React.Component {
   };
 
   render() {
-    const { selectedCanvas, hideCanvasDetails, pageLanguage } = this.props;
+    const {
+      selectedCanvas,
+      hideCanvasDetails,
+      pageLanguage,
+      annotationDetails,
+    } = this.props;
     const { navItems, currentNavItem } = this.state;
     const annotations = selectedCanvas
       && selectedCanvas.items
@@ -39,6 +64,9 @@ class CanvasModal extends React.Component {
     const currentLabelAndDescriptionSource = navItems.length > 0 && currentNavItem !== -1
         ? navItems[currentNavItem]
           : activeAnnotationFallback;
+    const imageAnnotations = annotations.filter(annotation => annotation.body.type === 'Image');
+    const detailsLink = imageAnnotations.length === 1
+      && annotationDetails[getAnnotationId(imageAnnotations[0])];
     return (
       selectedCanvas
         ? (
@@ -75,7 +103,10 @@ class CanvasModal extends React.Component {
                           <div className="canvas-modal__info">
                             {currentLabelAndDescriptionSource.label ? (
                               <h6>
-                                {getTranslation(currentLabelAndDescriptionSource.label, pageLanguage)}
+                                {getTranslation(
+                                  currentLabelAndDescriptionSource.label,
+                                  pageLanguage,
+                                )}
                               </h6>
                             ) : '' }
                             {currentLabelAndDescriptionSource.summary ? (
@@ -86,7 +117,11 @@ class CanvasModal extends React.Component {
                               </p>
                             ) : ''}
                           </div>
-                          <div className="canvas-modal__nav"><Link to={[pageLanguage, 'objects/multi-canvas-object'].join('/')}>View Details</Link></div>
+                          {detailsLink && (
+                            <div className="canvas-modal__nav">
+                              <Link to={[pageLanguage, detailsLink].join('/')}>View Details</Link>
+                            </div>
+                          )}
                           {navItems.length > 1 ? (
                             <div className="canvas-modal__nav">
                               {currentNavItem + 1}
@@ -98,7 +133,9 @@ class CanvasModal extends React.Component {
                             <div className="canvas-modal__nav">
                               <button
                                 className="arrow left"
-                                onClick={() => this.setState({ currentNavItem: currentNavItem - 1 })}
+                                onClick={
+                                  () => this.setState({ currentNavItem: currentNavItem - 1 })
+                                }
                                 type="button"
                                 style={{
                                     visibility: currentNavItem === 0 ? 'hidden' : 'visible',
@@ -108,7 +145,9 @@ class CanvasModal extends React.Component {
                               </button>
                               <button
                                 className="arrow right"
-                                onClick={() => this.setState({ currentNavItem: currentNavItem + 1 })}
+                                onClick={
+                                  () => this.setState({ currentNavItem: currentNavItem + 1 })
+                                }
                                 type="button"
                                 style={{
                                   visibility:
@@ -146,10 +185,12 @@ CanvasModal.propTypes = {
   selectedCanvas: PropTypes.any,
   hideCanvasDetails: PropTypes.func.isRequired,
   pageLanguage: PropTypes.string.isRequired,
+  annotationDetails: PropTypes.any,
 };
 
 CanvasModal.defaultProps = {
   selectedCanvas: null,
+  annotationDetails: {},
 };
 
 export default CanvasModal;

@@ -57,7 +57,7 @@ class ExhibitionPage extends React.Component {
     };
   }
 
-  showCanvasDetails = canvas => () => {
+  showCanvasDetails = (canvas, annotationDetails) => () => {
     const { pageContext: manifest, '*': path } = this.props;
     const pageLanguage = getPageLanguage(path);
     this.setState({
@@ -67,6 +67,7 @@ class ExhibitionPage extends React.Component {
           manifest={manifest}
           hideCanvasDetails={this.hideCanvasDetails}
           pageLanguage={pageLanguage}
+          annotationDetails={annotationDetails}
         />
       ),
     });
@@ -134,7 +135,7 @@ class ExhibitionPage extends React.Component {
     <div className="canvas-preview">
       <button
         className="canvas-preview__flex"
-        onClick={this.showCanvasDetails(canvas)}
+        onClick={this.showCanvasDetails(canvas, this.props.pageContext.annotationDetails)}
         role="link"
         type="button"
       >

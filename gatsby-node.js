@@ -52,7 +52,6 @@ const getAllAnnotationsFromManifest = (
       const processAnnotationPage = (annotationPage) => {
         (annotationPage.items || []).forEach(
           (annotation) => {
-            // console.log(annotation.service);
             let annotationId = annotation.id;
             if (annotation.body && annotation.body.type === 'Image') {
               if (annotation.body.service) {
@@ -328,7 +327,18 @@ exports.createPages = ({ actions, graphql }) => {
       },
     );
     Object.values(exhibitionMeta.pages).forEach(
-      exhibition => createTranslatedPage(exhibition, createPage),
+      (exhibition) => {
+        const annos = Object.entries(exhibitionMeta.annotationsPartOfExhibition)
+          .filter(([key, value]) => value.filter(item => item[1] === exhibition.path).length > 0)
+          .reduce((_annos, [key]) => {
+            try {
+              _annos[key] = objectMeta.annotationsPartOfObjects[key][0][1];
+            } catch (err) {}
+            return _annos;
+          }, {});
+        exhibition.context.annotationDetails = annos;
+        createTranslatedPage(exhibition, createPage);
+      },
     );
     Object.values(collectionMeta.pages).forEach(
       collection => createTranslatedPage(collection, createPage),
