@@ -307,9 +307,13 @@ exports.createPages = ({ actions, graphql }) => {
     Object.values(objectMeta.pages).forEach(
       (object) => {
         object.context.collections = collectionMeta.objectInCollections[object.context.id];
+
+        const annos = Object.entries(objectMeta.annotationsPartOfObjects)
+            .filter(([key, value]) => value.filter(item => item[1] === object.path).length > 0)
+            .map(([key]) => key);
+
         object.context.exhibitions = Object.values(
-          Object.keys(objectMeta.annotationsPartOfObjects)
-            .reduce((_exhibitions, annotation) => {
+          annos.reduce((_exhibitions, annotation) => {
               if (exhibitionMeta.annotationsPartOfExhibition[annotation]) {
                 exhibitionMeta.annotationsPartOfExhibition[annotation].forEach(
                   (exhibition) => {
