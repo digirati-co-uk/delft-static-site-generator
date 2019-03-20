@@ -334,13 +334,16 @@ a {
 	color: inherit;
 	text-decoration: none;
 	border-bottom: 0.1em solid;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-
-
-
-
+button.readmore {
+  color: #fff;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
 
 //grid based on fixed px dimensions 12 columns wide
 @media #{$medium-up} {
@@ -464,10 +467,12 @@ main {
 				&.column {
 					display: flex;
 					flex-flow: column;
-				}
+        }
+        button.readmore,
 				a.readmore {
 					display: inline-block;
-					margin-top:1rem;
+          margin-top:1rem;
+
 				}
 			}			
 		}

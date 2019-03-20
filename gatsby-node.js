@@ -52,13 +52,27 @@ const getAllAnnotationsFromManifest = (
       const processAnnotationPage = (annotationPage) => {
         (annotationPage.items || []).forEach(
           (annotation) => {
-            const annotationId = annotation.service && annotation.service.length > 0
-              ? annotation.service[0].id
-              : annotation.id;
-            if (!annotations[annotationId]) {
-              annotations[annotationId] = [];
+            let annotationId = annotation.id;
+            if (annotation.body && annotation.body.type === 'Image') {
+              if (annotation.body.service) {
+                const service = Array.isArray(annotation.body.service)
+                  ? annotation.body.service[0]
+                  : annotation.body.service;
+                if (typeof service === 'string') {
+                  annotationId = service;
+                } else if (typeof service.id === 'string') {
+                  annotationId = service.id;
+                }
+              }
+              if (annotationId === annotation.id && typeof annotation.body.id === 'string') {
+                annotationId = annotation.body.id;
+              }
+
+              if (!annotations[annotationId]) {
+                annotations[annotationId] = [];
+              }
+              annotations[annotationId].push([manifest.id, manifestPath, manifest.label]);
             }
-            annotations[annotationId].push([manifest.id, manifestPath, manifest.label]);
           },
         );
       };
@@ -67,6 +81,53 @@ const getAllAnnotationsFromManifest = (
       return annotations;
     }, _annotations || {});
 
+
+const getThumbnails = thumbnails => (thumbnails || []).map(thumbnail => thumbnail.id);
+
+const getFirstThumbnail = thumbnails => getThumbnails(thumbnails || [])[0];
+
+const getCanvasThumbnail = (canvas) => {
+  let thumbnail = null;
+  if (!thumbnail && canvas) {
+    if (canvas.thumbnail) {
+      thumbnail = getFirstThumbnail(canvas.thumbnail);
+    }
+    if (!thumbnail) {
+      canvas.items.forEach((annotationList) => {
+        if (!thumbnail && annotationList.items) {
+          annotationList.items.forEach(
+            (annotation) => {
+              if (!thumbnail && annotation.thumbnail) {
+                thumbnail = getFirstThumbnail(annotation.thumbnail);
+              }
+            },
+          );
+        }
+      });
+    }
+  }
+  return thumbnail;
+};
+
+const getManifestThumbnail = (manifest) => {
+  let thumbnail = null;
+  if (manifest.thumbnail) {
+    thumbnail = getFirstThumbnail(manifest.thumbnail);
+  }
+
+  if (!thumbnail && manifest.posterCanvas) {
+    thumbnail = getCanvasThumbnail(manifest.posterCanvas);
+  }
+
+  if (!thumbnail && manifest.items.length > 0) {
+    manifest.items.forEach((canvas) => {
+      if (!thumbnail) {
+        thumbnail = getCanvasThumbnail(canvas);
+      }
+    });
+  }
+  return thumbnail;
+};
 
 const getAllObjectLinks = (
   collection,
@@ -104,7 +165,8 @@ const createCollectionPages = (objectLinks) => {
             collection: context,
           },
         };
-        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id;
+        meta.thumbnails[pathname] = getManifestThumbnail(context);
+        // context.items[0].thumbnail[0].id;
         meta.links[context.id] = pathname;
         meta.reverseLinks[pathname] = context.id;
         getAllObjectLinks(context, pathname, meta.objectInCollections);
@@ -126,19 +188,15 @@ const createObjectPages = () => {
     .reduce(
       (meta, item) => {
         const [pathname, context] = getManifestContext(item);
-        // createTranslatedPage({
-        //   path: pathname,
-        //   component: manifestTemplate,
-        //   context,
-        // }, createPage);
         meta.pages[pathname] = {
           path: pathname,
           component: manifestTemplate,
           context,
         };
+
         // TODO: cover image if defined, first canvas thumbnail as fall-back,
         // than first canvas image fallback...
-        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id;
+        meta.thumbnails[pathname] = getManifestThumbnail(context);
         meta.links[context.id] = pathname;
         meta.reverseLinks[pathname] = context.id;
         getAllAnnotationsFromManifest(context, pathname, meta.annotationsPartOfObjects);
@@ -161,17 +219,12 @@ const createExhibitionPages = () => {
     .reduce(
       (meta, item) => {
         const [pathname, context] = getManifestContext(item);
-        // createTranslatedPage({
-        //   path: pathname,
-        //   component: exhibitionTemplate,
-        //   context,
-        // }, createPage);
         meta.pages[pathname] = {
           path: pathname,
           component: exhibitionTemplate,
           context,
         };
-        meta.thumbnails[pathname] = context.items[0].thumbnail[0].id || context.items[0].thumbnail[0]['@id'];
+        meta.thumbnails[pathname] = getManifestThumbnail(context);
         meta.links[(context.id || context['@id'])] = pathname;
         meta.reverseLinks[pathname] = (context.id || context['@id']);
 
@@ -197,7 +250,7 @@ exports.createPages = ({ actions, graphql }) => {
 
   // console.log(JSON.stringify(exhibitionMeta.annotationsPartOfExhibition, null, 2));
   // console.log(JSON.stringify(objectMeta.annotationsPartOfObjects, null, 2));
-  console.log(JSON.stringify(collectionMeta.objectInCollections, null, 2));
+  // console.log(JSON.stringify(collectionMeta.objectInCollections, null, 2));
 
   return graphql(`
     {
@@ -253,9 +306,13 @@ exports.createPages = ({ actions, graphql }) => {
     Object.values(objectMeta.pages).forEach(
       (object) => {
         object.context.collections = collectionMeta.objectInCollections[object.context.id];
+
+        const annos = Object.entries(objectMeta.annotationsPartOfObjects)
+            .filter(([key, value]) => value.filter(item => item[1] === object.path).length > 0)
+            .map(([key]) => key);
+
         object.context.exhibitions = Object.values(
-          Object.keys(objectMeta.annotationsPartOfObjects)
-            .reduce((_exhibitions, annotation) => {
+          annos.reduce((_exhibitions, annotation) => {
               if (exhibitionMeta.annotationsPartOfExhibition[annotation]) {
                 exhibitionMeta.annotationsPartOfExhibition[annotation].forEach(
                   (exhibition) => {
@@ -270,7 +327,18 @@ exports.createPages = ({ actions, graphql }) => {
       },
     );
     Object.values(exhibitionMeta.pages).forEach(
-      exhibition => createTranslatedPage(exhibition, createPage),
+      (exhibition) => {
+        const annos = Object.entries(exhibitionMeta.annotationsPartOfExhibition)
+          .filter(([key, value]) => value.filter(item => item[1] === exhibition.path).length > 0)
+          .reduce((_annos, [key]) => {
+            try {
+              _annos[key] = objectMeta.annotationsPartOfObjects[key][0][1];
+            } catch (err) {}
+            return _annos;
+          }, {});
+        exhibition.context.annotationDetails = annos;
+        createTranslatedPage(exhibition, createPage);
+      },
     );
     Object.values(collectionMeta.pages).forEach(
       collection => createTranslatedPage(collection, createPage),

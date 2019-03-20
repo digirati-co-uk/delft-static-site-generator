@@ -7680,7 +7680,7 @@ into-stream@^3.1.0:
     from2 "^2.1.1"
     p-is-promise "^1.1.0"
 
-invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.3, invariant@^2.2.4:
+invariant@^2.1.2, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.3, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   dependencies:
@@ -11805,6 +11805,13 @@ react-transition-group@2.5.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
+
+react-translate@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/react-translate/-/react-translate-6.1.0.tgz#f1d8137684c3cd7f5a2fae541bd82ba81b18b1a1"
+  dependencies:
+    invariant "^2.1.2"
+    prop-types "^15.6.0"
 
 react@16.6.3, react@^16.3.2, react@^16.6.3:
   version "16.6.3"

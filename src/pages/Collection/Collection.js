@@ -57,7 +57,7 @@ const CollectionPage = ({ pageContext, '*': path }) => {
             {
             items.map(
               manifest => (
-                <div className="w-4 h-6 block--align-right">
+                <div key={`collection__${objectLinks[manifest.id || manifest['@id']]}`} className="w-4 h-6 block--align-right">
                   <div className="block w-3 h-6">
                     <div className="block image cutcorners w-3 h-3">
                       <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />
