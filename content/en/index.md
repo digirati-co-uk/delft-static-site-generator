@@ -4,18 +4,16 @@ date: "2018-11-15"
 title: "Front Page"
 ---
 
-# Welcome  to  the  Digital  Archive  of  TU  Delft
-
-Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
+#####Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
 
 
 
 <div class="blocks">
-<div class="block cutcorners w-5 h-8 image">
+<div class="block tint yellow cutcorners w-5 h-8 image">
 
 [Rise of a campus](/en/exhibitions/rise-of-a-campus)
 </div>
-<div class="block cutcorners w-7 h-5 image">
+<div class="block tint copper cutcorners w-7 h-5 image">
 
 [collection](/en/collections/another-collection)
 </div>
