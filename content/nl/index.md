@@ -6,7 +6,7 @@ title: "[NL] Front Page"
 
 # Academisch Erfgoed van de TU Delft
 
-This website is a portal to TU Delft Library’s Special Collections. Visit online exhibitions, make one yourself, attend to an event, browse the collections, learn more about the history of the university or get in touch with the Academic Heritage Team of TU Delft Library and Histechnica, the association for friends of academic heritage.
+Welcome! This is the portal to TU Delft's academic heritage and the special collections of TU Delft Library. Visit online exhibitions, browse the digital collections, learn more about the history of the university or get in touch with the Academic Heritage Team of TU Delft Library.
 
 <div class="blocks">
 <div class="block cutcorners w-5 h-8 image">
