@@ -6,7 +6,7 @@ title: "Front Page"
 
 # TU Delft's Academic Heritage
 
-Welcome! This is the portal to TU Delft's academic heritage and the special collections of TU Delft Library. Visit [online exhibitions](/en/exhibitions), browse the [digital collections](/en/collections), learn more about the [history of the university](en/publications) or [get in touch](en/about) with the Academic Heritage Team of TU Delft Library.
+Welcome! This is the portal to TU Delft's academic heritage and the special collections of TU Delft Library. Visit online exhibitions, browse the digital collections, learn more about the history of the university or get in touch with the Academic Heritage Team of TU Delft Library.
 
 <div class="blocks">
 <div class="block cutcorners w-5 h-8 image">
