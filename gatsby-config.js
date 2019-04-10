@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'TU DELFT ACADEMIC HERITAGE',
+    title: 'TU Delft Academic Heritage',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

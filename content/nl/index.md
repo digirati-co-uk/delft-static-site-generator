@@ -1,14 +1,12 @@
 ---
 path: "/nl"
 date: "2018-11-15"
-title: "[NL] Front Page"
+title: "Academisch Erfgoed"
 ---
 
-# [NL] Welcome  to  the  Digital  Archive  of  TU  Delft
+# Academisch Erfgoed van de TU Delft
 
-Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
-
-
+Welkom! Dit is het digitale portaal voor het Academisch Erfgoed van de TU Delft en de Bijzondere Collecties van de TU Delft Library. Bezoek [online tentoonstellingen](/nl/exhibitions/), verken de [digitale collecties](/nl/collections/), lees meer over de [geschiedenis van de universiteit](/nl/publications/) of neem [contact](/nl/about/) op met het Academisch Erfgoed Team van de TU Delft Library.
 
 <div class="blocks">
 <div class="block cutcorners w-5 h-8 image">

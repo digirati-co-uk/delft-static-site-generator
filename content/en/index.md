@@ -1,14 +1,12 @@
 ---
-path: "/en/"
+path: "/en"
 date: "2018-11-15"
-title: "Front Page"
+title: "Academic Heritage"
 ---
 
-# Welcome  to  the  Digital  Archive  of  TU  Delft
+# TU Delft's Academic Heritage
 
-Aquia  doluptation  exped  etum  lacea  quatur?  Onsequa  spelestibus  quo  officid  elenim  et,  volorerit,  aut  aces  as  iur  magnim  esserum.
-
-
+Welcome! This is the portal to TU Delft's Academic Heritage and the Special Collections of TU Delft Library. Visit [online exhibitions](/en/exhibitions/), browse the [digital collections](/en/collections/), learn more about the [history of the university](/en/publications/) or [get in touch](/en/about/) with the Academic Heritage Team of TU Delft Library.
 
 <div class="blocks">
 <div class="block cutcorners w-5 h-8 image">

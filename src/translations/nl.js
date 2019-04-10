@@ -7,6 +7,6 @@ export default {
     ABOUT: 'Over',
   },
   Header: {
-    SITE_TITLE: 'Tu Delft Academisch Erfgoed',
+    SITE_TITLE: 'Academisch Erfgoed',
   },
 };

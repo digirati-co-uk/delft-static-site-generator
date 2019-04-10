@@ -1,0 +1,164 @@
+{
+  "label": {
+    "en": [
+      "University history"
+    ],
+    "nl": [
+      "Universiteitsgeschiedenis"
+    ]
+  },
+  "summary": { 
+    "en": [ 
+      "Digitised books about the history of the Delft University of Technology"
+    ],
+    "nl": [
+      "Gedigitaliseerde boeken over de geschiedenis van de TU Delft"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [ "Part of" ]
+      },
+      "value": {
+        "none": [ "Trésor" ]
+      }
+    }
+  ],
+  "type": "Collection",
+  "id": "https://delft-static-site-generator.netlify.com/collections/university-history",
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School, 1842-1905 : samengest. ter gelegenheid van de oprichting der Technische Hoogeschool"
+        ],
+        "nl": [
+          "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School, 1842-1905 : samengest. ter gelegenheid van de oprichting der Technische Hoogeschool"
+        ]
+      },
+      "summary": {
+        "en": [
+          ""
+        ],
+        "nl": [
+          ""
+        ]
+      },
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 900,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 900,
+                "height": 1024
+              },
+              {
+                "width": 352,
+                "height": 400
+              },
+              {
+                "width": 176,
+                "height": 200
+              },
+              {
+                "width": 88,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/6/69a9bc61-f3db-4f73-9d01-32c5e128fdbe",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/69a9bc61-f3db-4f73-9d01-32c5e128fdbe/full/full/0/default.jpg"
+        }
+      ],
+      "type": "Manifest",
+      "id": "https://delft-static-site-generator.netlify.com/objects/txf18197"
+    },
+    {
+      "label": {
+        "en": [
+          "De Polytechnische School : album bevattende de portretten der docenten en afbeeldingen van gebouwen, laboratoria, teekenzalen, enz."
+        ],
+        "nl": [
+          "De Polytechnische School : album bevattende de portretten der docenten en afbeeldingen van gebouwen, laboratoria, teekenzalen, enz."
+        ]
+      },
+      "summary": {
+        "en": [
+          ""
+        ],
+        "nl": [
+          ""
+        ]
+      },
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 671,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 671
+              },
+              {
+                "width": 400,
+                "height": 262
+              },
+              {
+                "width": 200,
+                "height": 131
+              },
+              {
+                "width": 100,
+                "height": 65
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/6/af00be81-a289-43b3-8509-2b1efe7d3bb8",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/af00be81-a289-43b3-8509-2b1efe7d3bb8/full/full/0/default.jpg"
+        }
+      ],
+      "type": "Manifest",
+      "id": "https://delft-static-site-generator.netlify.com/objects/txf952A16"
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

@@ -7,6 +7,6 @@ export default {
     ABOUT: 'About',
   },
   Header: {
-    SITE_TITLE: 'Tu Delft Academic Heritage',
+    SITE_TITLE: 'Academic Heritage',
   },
 };
