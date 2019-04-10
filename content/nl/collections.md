@@ -33,16 +33,9 @@ Het Trésor bevat historische boeken, tijdschriften, kaarten, foto’s en prente
 
 <div class="block cutcorners w-4 h-4 image">
 
-[Another Collection](/nl/collections/another-collection)
+[Universiteitsgeschiedenis](/nl/collections/university-history)
 </div>
-<div class="block cutcorners w-4 h-4 image">
 
-[Single object](/nl/collections/single-object-collection)
-</div>
-<div class="block cutcorners w-4 h-4 image">
-
-[Test Collection](/nl/collections/test)
-</div>
 </div>
 
 ## Studieverzameling

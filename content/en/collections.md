@@ -33,16 +33,9 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 
 <div class="block cutcorners w-4 h-4 image">
 
-[Another Collection](/en/collections/another-collection)
+[University History](/en/collections/university-history)
 </div>
-<div class="block cutcorners w-4 h-4 image">
 
-[Single object](/en/collections/single-object-collection)
-</div>
-<div class="block cutcorners w-4 h-4 image">
-
-[Test Collection](/en/collections/test)
-</div>
 </div>
 
 ## Study collection
