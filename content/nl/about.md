@@ -1,12 +1,10 @@
 ---
 path: "/nl/about"
 date: "2018-11-15"
-title: "[NL] About"
+title: "Over"
 ---
 
-# [NL] About the project
-
-This is a [link to the article demo page](/nl/publications/article-demo)
+# Over het Academisch Erfgoed Team van de TU Delft Library
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus urna, congue in nisi sagittis, egestas pellentesque tellus. Nullam eu consectetur nulla. Maecenas vitae sem at mi tempor auctor vitae nec libero. Sed at augue cursus, sagittis nisi vitae, porta leo. Maecenas tempor quam magna, eu congue quam faucibus sed. Etiam a pharetra ex, sed porta metus. Nulla blandit tortor sagittis, viverra sapien ut, pretium purus. Duis vitae elit id dui tincidunt volutpat. Nam quam elit, mollis nec venenatis ut, lacinia vitae ligula.
 

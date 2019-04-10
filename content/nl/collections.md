@@ -1,15 +1,14 @@
 ---
 path: "/nl/collections"
 date: "2018-11-15"
-title: "[NL] Collections"
+title: "Digitale Collecties"
 ---
 
-# [NL] Test title
+# Digitale collecties
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus urna, congue in nisi sagittis, egestas pellentesque tellus. Nullam eu consectetur nulla. Maecenas vitae sem at mi tempor auctor vitae nec libero. Sed at augue cursus, sagittis nisi vitae, porta leo. Maecenas tempor quam magna, eu congue quam faucibus sed. Etiam a pharetra ex, sed porta metus. Nulla blandit tortor sagittis, viverra sapien ut, pretium purus. Duis vitae elit id dui tincidunt volutpat. Nam quam elit, mollis nec venenatis ut, lacinia vitae ligula.
+## Academisch erfgoed
 
-Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et, rhoncus eget quam. Praesent dignissim vestibulum ex ac condimentum. Fusce lacinia tortor ut tempus lobortis. Aenean eros libero, iaculis non urna ut, tristique aliquet ex. Nullam nec sem eu risus imperdiet fermentum. Nunc eu metus sed mauris congue consectetur eu vel dui. Praesent eu venenatis urna, sed condimentum augue. Praesent sollicitudin sagittis tempus. Proin vitae elit ut lacus bibendum sollicitudin vitae sed sem. Donec a nulla sagittis, venenatis elit ac, ultricies mi. Curabitur dignissim consectetur luctus. Mauris hendrerit velit et mollis facilisis. Nullam eget tortor eu elit convallis tempor.
-
+De Museumcollectie bevat bronnen en hulpmiddelen die faculteiten in het verleden hebben gebruikt bij het onderwijs of onderzoek. Het gaat om meetinstrumenten, proefstukken, collegematerialen, demonstratietoestellen, onderzoekscollecties, maar ook om kunst en documentaire collecties (film en fotografie). De collecties tellen ongeveer 8.000 objecten. Ze geven een beeld van de geschiedenis van onderwijs en onderzoek aan de TU Delft.
 
 <div class="blocks">
 <div class="block cutcorners w-4 h-4 image">
@@ -26,11 +25,9 @@ Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et,
 </div>
 </div>
 
+## Trésor
 
-
-## Another Test title
-
-
+Het Trésor bevat historische boeken, tijdschriften, kaarten, foto’s en prenten van vóór 1900. Ze zijn bijzonder vanwege hun ouderdom, zeldzaamheid, kostbaarheid of kwetsbaarheid. Daarnaast verzamelt het Trésor ook de productie van de TU Delft die niet in de gangbare tijdschriften is opgenomen, zoals redevoeringen, dissertaties en collegedictaten. Voor meer informatie, bezoek de [website van de Trésor](https://tresor.tudelft.nl).
 
 <div class="blocks">
 
@@ -48,3 +45,6 @@ Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et,
 </div>
 </div>
 
+## Studieverzameling
+
+## Externe collecties
