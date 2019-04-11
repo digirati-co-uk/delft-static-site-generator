@@ -10,15 +10,23 @@ author: "Abel Streefland"
 Test 1 2 3 
 Morbi dui velit, dapibus ac sagittis ut, vehicula tincidunt turpis.
 
-## A subtitle about footnotes
+## A new subtitle about footnotes and links.
 
-This.[^this] Should be a footnote. Does [this](article-demo) work?
+This should be a footnote.[^this] `[^this]` Does [this](article-demo) `[this](article-demo)` work? And [this](/en/collections/university-history/) `[this](/en/collections/university-history/)`. And [Google](http://google.com)? `[Google](http://google.com)`
+
+Dus `http://` voor een link naar buiten, `/` voor een link relatief aan root.
 
 ## Supported Markdown Features
 
 This is normal body copy.[^also] It includes a couple footnotes.[^thing]
 
-**Bold text** and *italics* are both available
+And three dashes `---` become a line:
+
+---
+
+Does ~~stikethrough~~ work? Yep: `~~stikethrough~~`.
+
+**Bold text** `**Bold text**` and *italics* `*italics*` are both available
 
 <div>
  Custom Html
@@ -76,6 +84,7 @@ This is an ordered list:
 3. list item 3
 4. list item 4
 
+    test 1 2 3
 
 Image example: 
 
