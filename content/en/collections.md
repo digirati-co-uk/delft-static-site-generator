@@ -41,3 +41,12 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 ## Study collection
 
 ## External collections
+
+<div class="blocks">
+
+<div class="block cutcorners w-4 h-4 image">
+
+[Histechnica](/en/collections/histechnica)
+</div>
+
+</div>
