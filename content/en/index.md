@@ -20,7 +20,7 @@ Welcome! This is the portal to TU Delft's Academic Heritage and the Special Coll
 
 <div class="block cutcorners w-3 h-3 info">
 
-Proin dapibus tristique odio eu viverra. Vestibulum ut ex et nulla molestie condimentum nec quis magna. Vivamus
+Would you like to become a friend? Please visit the website of <a href="http://beta.histechnica.nl">Histechnica</a>, the Friends Association of TU Delft's Academic Heritage.
 
 </div>
 <div class="block cutcorners w-4 h-7 image">

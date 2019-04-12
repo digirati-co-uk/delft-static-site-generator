@@ -20,7 +20,7 @@ Welkom! Dit is het digitale portaal voor het Academisch Erfgoed van de TU Delft 
 
 <div class="block cutcorners w-3 h-3 info">
 
-Proin dapibus tristique odio eu viverra. Vestibulum ut ex et nulla molestie condimentum nec quis magna. Vivamus
+Vrienden worden? Bezoek ook de website van <a href="http://beta.histechnica.nl">Histechnica</a>, de vriendenvereniging van het Academisch Erfgoed van de TU delft.
 
 </div>
 <div class="block cutcorners w-4 h-7 image">
