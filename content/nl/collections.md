@@ -41,3 +41,12 @@ Het Trésor bevat historische boeken, tijdschriften, kaarten, foto’s en prente
 ## Studieverzameling
 
 ## Externe collecties
+
+<div class="blocks">
+
+<div class="block cutcorners w-4 h-4 image">
+
+[Histechnica](/nl/collections/histechnica)
+</div>
+
+</div>
