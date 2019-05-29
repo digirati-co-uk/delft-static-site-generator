@@ -1,18 +1,18 @@
 {
   "label": {
     "en": [
-      "Tekeningen"
+      "Map room"
     ],
     "nl": [
-      "Tekeningen"
+      "Kaartenkamer"
     ]
   },
   "summary": { 
     "en": [ 
-      "Campus Real Estate - Afdeling Beheer en Onderhoud"
+      "From the collection of the map room of TU Delft Library"
     ],
     "nl": [
-      "Campus Real Estate - Afdeling Beheer en Onderhoud"
+      "Uit de collectie van de kaartenkamer van de TU Delft Library"
     ]
   },
   "metadata": [
@@ -26,15 +26,15 @@
     }
   ],
   "type": "Collection",
-  "id": "https://delft-static-site-generator.netlify.com/collections/cre-tib",
+  "id": "https://delft-static-site-generator.netlify.com/collections/lib-kaartenkamer",
   "items": [
     {
       "label": {
         "en": [
-          "Oude Delft 75"
+          "Maps of Delft and environs"
         ],
         "nl": [
-          "Oude Delft 75"
+          "Kaarten van Delft en omgeving"
         ]
       },
       "summary": {
@@ -62,43 +62,43 @@
                 ]
               }
             ],
-            "width": 747,
+            "width": 832,
             "height": 1024,
             "sizes": [
               {
-                "width": 747,
+                "width": 832,
                 "height": 1024
               },
               {
-                "width": 292,
+                "width": 325,
                 "height": 400
               },
               {
-                "width": 146,
+                "width": 162,
                 "height": 200
               },
               {
-                "width": 73,
+                "width": 81,
                 "height": 100
               }
             ],
-            "id": "https://dlc.services/thumbs/7/14/074a4598-5988-46a2-95f4-f8c625a1fcb3",
+            "id": "https://dlc.services/thumbs/7/4/b830b54a-46f8-468f-9971-ab9525838d40",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/14/074a4598-5988-46a2-95f4-f8c625a1fcb3/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/4/b830b54a-46f8-468f-9971-ab9525838d40/full/full/0/default.jpg"
         }
       ],
       "type": "Manifest",
-      "id": "https://dlc.services/iiif-resource/7/string1/aa270916"
+      "id": "https://dlc.services/iiif-resource/7/string1/kaarten-campus-plattegronden"
     },
     {
       "label": {
         "en": [
-          "Botanical Garden (Cultuurtuin)"
+          "Extension plans of the city of Delft"
         ],
         "nl": [
-          "Botanische Tuin (Cultuurtuin)"
+          "Uitbreidingsplannen van de Gemeente Delft"
         ]
       },
       "summary": {
@@ -126,43 +126,43 @@
                 ]
               }
             ],
-            "width": 1024,
-            "height": 613,
+            "width": 724,
+            "height": 1024,
             "sizes": [
               {
-                "width": 1024,
-                "height": 613
+                "width": 724,
+                "height": 1024
               },
               {
-                "width": 400,
-                "height": 239
+                "width": 283,
+                "height": 400
               },
               {
-                "width": 200,
-                "height": 120
+                "width": 141,
+                "height": 200
               },
               {
-                "width": 100,
-                "height": 60
+                "width": 71,
+                "height": 100
               }
             ],
-            "id": "https://dlc.services/thumbs/7/14/a53c4f8b-85bc-405c-8dc5-313a017c5c27",
+            "id": "https://dlc.services/thumbs/7/4/53f5f9da-94c0-41c2-a647-a63c30b9a7b5",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/14/a53c4f8b-85bc-405c-8dc5-313a017c5c27/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/4/53f5f9da-94c0-41c2-a647-a63c30b9a7b5/full/full/0/default.jpg"
         }
       ],
       "type": "Manifest",
-      "id": "https://dlc.services/iiif-resource/7/string1/aa270936"
+      "id": "https://dlc.services/iiif-resource/7/string1/kaarten-campus-uitbreidingsplannen"
     }, 
 	{
       "label": {
         "en": [
-          "Oude Delft 39"
+          "Guide maps of the TU Delft campus"
         ],
         "nl": [
-          "Oude Delft 39"
+          "Gidskaartjes"
         ]
       },
       "summary": {
@@ -191,42 +191,42 @@
               }
             ],
             "width": 1024,
-            "height": 712,
+            "height": 754,
             "sizes": [
               {
                 "width": 1024,
-                "height": 712
+                "height": 754
               },
               {
                 "width": 400,
-                "height": 278
+                "height": 294
               },
               {
                 "width": 200,
-                "height": 139
+                "height": 147
               },
               {
                 "width": 100,
-                "height": 70
+                "height": 74
               }
             ],
-            "id": "https://dlc.services/thumbs/7/14/749ae76f-8c57-48da-ba23-df42e6fdcb10",
+            "id": "https://dlc.services/thumbs/7/4/a0f6b14a-ba83-48e8-8efb-9371b3dde5d8",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/14/749ae76f-8c57-48da-ba23-df42e6fdcb10/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/4/a0f6b14a-ba83-48e8-8efb-9371b3dde5d8/full/full/0/default.jpg"
         }
       ],
       "type": "Manifest",
-      "id": "https://dlc.services/iiif-resource/7/string1/aa270963"
+      "id": "https://dlc.services/iiif-resource/7/string1/gidskaartjes-edit"
 	},
 	{
       "label": {
         "en": [
-          "Aula Conference Centre"
+          "Plan for the area between Architecture and Civil Engineering"
         ],
         "nl": [
-          "Aula Conference Centre"
+          "Inrichting gebied tussen Bouwkunde en Civiele Techniek"
         ]
       },
       "summary": {
@@ -254,43 +254,43 @@
                 ]
               }
             ],
-            "width": 1024,
-            "height": 669,
+            "width": 730,
+            "height": 1024,
             "sizes": [
               {
-                "width": 1024,
-                "height": 669
+                "width": 730,
+                "height": 1024
               },
               {
-                "width": 400,
-                "height": 261
+                "width": 285,
+                "height": 400
               },
               {
-                "width": 200,
-                "height": 131
+                "width": 143,
+                "height": 200
               },
               {
-                "width": 100,
-                "height": 65
+                "width": 71,
+                "height": 100
               }
             ],
-            "id": "https://dlc.services/thumbs/7/14/0a64e909-6e9a-4754-8f51-e724d375d42f",
+            "id": "https://dlc.services/thumbs/7/4/c1678746-aec2-4b10-b8ff-b0db4afaf989",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/14/0a64e909-6e9a-4754-8f51-e724d375d42f/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/4/c1678746-aec2-4b10-b8ff-b0db4afaf989/full/full/0/default.jpg"
         }
       ],
       "type": "Manifest",
-      "id": "https://dlc.services/iiif-resource/7/string1/aa270970"
+      "id": "https://dlc.services/iiif-resource/7/string1/kaarten-campus-citg"
 	},
 	{
       "label": {
         "en": [
-          "Oude Delft 118"
+          "Het maken van drie-dimensionale kaarten"
         ],
         "nl": [
-          "Oude Delft 118"
+          "Het maken van drie-dimensionale kaarten"
         ]
       },
       "summary": {
@@ -319,143 +319,15 @@
               }
             ],
             "width": 1024,
-            "height": 771,
+            "height": 727,
             "sizes": [
               {
                 "width": 1024,
-                "height": 771
+                "height": 727
               },
               {
                 "width": 400,
-                "height": 301
-              },
-              {
-                "width": 200,
-                "height": 151
-              },
-              {
-                "width": 100,
-                "height": 75
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/14/bf648f99-2a40-491c-9570-4b66f044b0bb",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/14/bf648f99-2a40-491c-9570-4b66f044b0bb/full/full/0/default.jpg"
-        }
-      ],
-      "type": "Manifest",
-      "id": "https://dlc.services/iiif-resource/7/string1/aa270978"
-	},
-	{
-      "label": {
-        "en": [
-          "Campus"
-        ],
-        "nl": [
-          "Campus"
-        ]
-      },
-      "summary": {
-        "en": [
-          ""
-        ],
-        "nl": [
-          ""
-        ]
-      },
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 355,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 355
-              },
-              {
-                "width": 400,
-                "height": 139
-              },
-              {
-                "width": 200,
-                "height": 69
-              },
-              {
-                "width": 100,
-                "height": 35
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/14/69f7031d-2b4b-447f-98f2-110bef3136c7",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/14/69f7031d-2b4b-447f-98f2-110bef3136c7/full/full/0/default.jpg"
-        }
-      ],
-      "type": "Manifest",
-      "id": "https://dlc.services/iiif-resource/7/string1/aa270992"
-	},
-	{
-      "label": {
-        "en": [
-          "Kanaalweg 4 (Geodesy)"
-        ],
-        "nl": [
-          "Kanaalweg 4 (Geodesie)"
-        ]
-      },
-      "summary": {
-        "en": [
-          ""
-        ],
-        "nl": [
-          ""
-        ]
-      },
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 729,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 729
-              },
-              {
-                "width": 400,
-                "height": 285
+                "height": 284
               },
               {
                 "width": 200,
@@ -466,15 +338,79 @@
                 "height": 71
               }
             ],
-            "id": "https://dlc.services/thumbs/7/14/16736394-97d6-4755-84cd-d1dd7fa47756",
+            "id": "https://dlc.services/thumbs/7/4/0ca2fb7b-a98c-4ae3-9589-f24bd167e8b3",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/14/16736394-97d6-4755-84cd-d1dd7fa47756/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/4/0ca2fb7b-a98c-4ae3-9589-f24bd167e8b3/full/full/0/default.jpg"
         }
       ],
       "type": "Manifest",
-      "id": "https://dlc.services/iiif-resource/7/string1/aa271035"
+      "id": "https://dlc.services/iiif-resource/7/string1/kaarten-publicaties-integraal"
+	},
+	{
+      "label": {
+        "en": [
+          "Toekomst TU Wijk"
+        ],
+        "nl": [
+          "Toekomst TU Wijk"
+        ]
+      },
+      "summary": {
+        "en": [
+          ""
+        ],
+        "nl": [
+          ""
+        ]
+      },
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 742,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 742,
+                "height": 1024
+              },
+              {
+                "width": 290,
+                "height": 400
+              },
+              {
+                "width": 145,
+                "height": 200
+              },
+              {
+                "width": 72,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/4/b4d480ab-2f16-412a-a0b5-4420f9592123",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/4/b4d480ab-2f16-412a-a0b5-4420f9592123/full/full/0/default.jpg"
+        }
+      ],
+      "type": "Manifest",
+      "id": "https://dlc.services/iiif-resource/7/string1/kaarten-publicaties-cvb"
 	}
   ],
   "@context": [

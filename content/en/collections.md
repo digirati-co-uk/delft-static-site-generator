@@ -6,43 +6,42 @@ title: "Digital Collections"
 
 # Digital collections
 
-## Academic heritage
-
-The museum collection is a legacy of instruments and other memorabilia from education and research. These include measuring equipment, lecture materials, demonstration equipment, research collections as well as art and documentary collections (film and photography). The collections include approximately 8000 items. They provide a picture of the history of research and education at TU Delft.
-
-## Trésor
-
-The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, like speeches, dissertations and lecture notes. Visit the [Trésor website](https://tresor.tudelft.nl) for more information.
+## TU Delft Library
 
 <div class="blocks">
 
 <div class="block cutcorners w-4 h-4 image">
 
-[University History](/en/collections/university-history)
+[Trésor](/en/collections/lib-tresor)
 </div>
-
-</div>
-
-## Photography
-
-<div class="blocks">
 <div class="block cutcorners w-4 h-4 image">
 
-[Photos](/en/collections/fotografie)
+[Map room](/en/collections/lib-kaartenkamer)
 </div>
+<div class="block cutcorners w-4 h-4 image">
+
+[Photos](/en/collections/lib-fotografie)
+</div>
+<div class="block cutcorners w-4 h-4 image">
+
+[Image archive](/en/collections/lib-fotoarchief)
+</div>
+
 </div>
 
 ## Campus
 
 <div class="blocks">
+
 <div class="block cutcorners w-4 h-4 image">
 
-[OTB](/en/collections/otb-fotoarchief)
+[Campus Real Estate](/en/collections/tu-cre-tib)
 </div>
 <div class="block cutcorners w-4 h-4 image">
 
-[CRE](/en/collections/cre-tib)
+[OTB](/en/collections/tu-bk-otb-fotoarchief)
 </div>
+
 </div>
 
 ## External collections
@@ -51,11 +50,23 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 
 <div class="block cutcorners w-4 h-4 image">
 
-[Histechnica](/en/collections/histechnica)
+[National Archives](/en/collections/ex-na)
 </div>
 <div class="block cutcorners w-4 h-4 image">
 
-[The New Institute](/en/collections/hni)
+[The New Institute](/en/collections/ex-hni)
+</div>
+<div class="block cutcorners w-4 h-4 image">
+
+[Stadsarchief Delft](/en/collections/ex-stadsarchief-delft)
+</div>
+<div class="block cutcorners w-4 h-4 image">
+
+[Histechnica](/en/collections/ex-histechnica)
+</div>
+<div class="block cutcorners w-4 h-4 image">
+
+[Aviodrome](/en/collections/ex-aviodrome)
 </div>
 
 </div>
