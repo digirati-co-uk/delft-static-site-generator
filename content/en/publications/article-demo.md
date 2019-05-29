@@ -1,7 +1,7 @@
 ---
 path: "/en/publications/article-demo"
 date: "2018-11-11"
-title: "Awesome article"
+title: "Demo article"
 author: "Adam von Digirati"
 ---
 

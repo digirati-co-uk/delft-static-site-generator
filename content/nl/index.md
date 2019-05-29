@@ -11,11 +11,11 @@ Welkom! Dit is het digitale portaal voor het Academisch Erfgoed van de TU Delft 
 <div class="blocks">
 <div class="block cutcorners w-5 h-8 image">
 
-[Rise of a campus](/nl/exhibitions/rise-of-a-campus)
+[Rise of a Campus](/nl/exhibitions/rise-of-a-campus)
 </div>
 <div class="block cutcorners w-7 h-5 image">
 
-[collection](/nl/collections/another-collection)
+[Bouwtekeningen](/nl/collections/tu-cre-tib)
 </div>
 
 <div class="block cutcorners w-3 h-3 info">
@@ -25,27 +25,11 @@ Vrienden worden? Bezoek ook de website van <a href="http://beta.histechnica.nl">
 </div>
 <div class="block cutcorners w-4 h-7 image">
 
-[object](/nl/objects/object-3)
+[Slingeruurwerk](/nl/objects/photo-schwartz-slingeruurwerk)
 </div>
 <div class="block cutcorners w-8 h-4 title">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh arcu, ac congue ligula tristique eget. Proin eu sapien id neque imperdiet aliquam. Aliquam eu arcu lorem. Suspendisse vitae metus turpis. Proin dapibus tristique odio eu viverra. Vestibulum ut ex et nulla molestie condimentum nec quis magna. Vivamus vel mattis libero, id lobortis leo. Sed molestie ornare rhoncus. Curabitur felis felis, porta et gravida in, auctor a mi. Suspendisse porta enim augue, ut ornare nisl dignissim quis. 
-</div>
-<div class="block cutcorners w-4 h-4 image">
-
-[Multi Canvas Object](/nl/collections/single-object-collection)
-</div>
-<div class="block cutcorners w-4 h-4 image">
-
-[collection](/nl/collections/another-collection)
-</div>
-<div class="block cutcorners w-4 h-8 image">
-
-[tall exhibition](/nl/exhibitions/test)
-</div>
-<div class="block cutcorners w-8 h-4 title">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis nibh arcu, ac congue ligula tristique eget. Proin eu sapien id neque imperdiet aliquam. Aliquam eu arcu lorem. Suspendisse vitae metus turpis. Proin dapibus tristique odio eu viverra. Vestibulum ut ex et nulla molestie condimentum nec quis magna. Vivamus vel mattis libero, id lobortis leo. Sed molestie ornare rhoncus. Curabitur felis felis, porta et gravida in, auctor a mi. Suspendisse porta enim augue, ut ornare nisl dignissim quis. 
+Since 2017, when TU Delft celebrated its 175th anniversary, the university has been investing in raising the profile of its academic heritage by improving the preservation of its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 </div>
 </div>
 
