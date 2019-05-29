@@ -1,18 +1,18 @@
 {
   "label": {
     "en": [
-      "Histechnica"
+      "Aviodrome"
     ],
     "nl": [
-      "Histechnica"
+      "Aviodrome"
     ]
   },
   "summary": { 
     "en": [ 
-      "From the archive of Histechnica, friends of TU Delft's Academic Heritage"
+      "Aerial photos of Delft"
     ],
     "nl": [
-      "Uit het archief van Histechnica, vrienden van het Academisch Erfgoed van de TU Delft"
+      "Luchtfoto's van Delft"
     ]
   },
   "metadata": [
@@ -26,15 +26,15 @@
     }
   ],
   "type": "Collection",
-  "id": "https://delft-static-site-generator.netlify.com/collections/histechnica",
+  "id": "https://delft-static-site-generator.netlify.com/collections/ex-aviodrome",
   "items": [
     {
       "label": {
         "en": [
-          "Memorial book on the occasion of the 40th work anniversary of J.H. Makkink, with the compliments of his staff"
+          "Aerial photos of Delft"
         ],
         "nl": [
-          "Gedenkboek ter gelegenheid van het 40-jarig ambtsjubileum van Ir. J.H. Makkink aangeboden door zijn personeel"
+          "Luchtfoto's van Delft"
         ]
       },
       "summary": {
@@ -62,36 +62,36 @@
                 ]
               }
             ],
-            "width": 873,
-            "height": 1024,
+            "width": 1024,
+            "height": 714,
             "sizes": [
               {
-                "width": 873,
-                "height": 1024
+                "width": 1024,
+                "height": 714
               },
               {
-                "width": 341,
-                "height": 400
+                "width": 400,
+                "height": 279
               },
               {
-                "width": 170,
-                "height": 200
+                "width": 200,
+                "height": 139
               },
               {
-                "width": 85,
-                "height": 100
+                "width": 100,
+                "height": 70
               }
             ],
-            "id": "https://dlc.services/thumbs/7/5/f617cad2-2c43-48ad-9d7b-f849c08364a1",
+            "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/5/f617cad2-2c43-48ad-9d7b-f849c08364a1/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94/full/full/0/default.jpg"
         }
       ],
       "type": "Manifest",
-      "id": "https://delft-static-site-generator.netlify.com/objects/gedenkboek-makkink"
-    }
+      "id": "https://dlc.services/iiif-resource/7/string1/aviodrome"
+    }   
   ],
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",

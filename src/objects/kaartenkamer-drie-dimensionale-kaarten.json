@@ -1,0 +1,204 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Het maken van drie-dimensionale kaarten"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Magazine"
+        ]
+      },
+      "value": {
+        "en": [
+          "Delft Integraal 1986.3/4"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kaartenkamer, TU Delft Library"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/kaarten-publicaties-integraal",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 727,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 727
+              },
+              {
+                "width": 400,
+                "height": 284
+              },
+              {
+                "width": 200,
+                "height": 142
+              },
+              {
+                "width": 100,
+                "height": 71
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/4/0ca2fb7b-a98c-4ae3-9589-f24bd167e8b3",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/4/0ca2fb7b-a98c-4ae3-9589-f24bd167e8b3/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3559,
+      "width": 5014,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-publicaties&n1=&n2=51",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/4/0ca2fb7b-a98c-4ae3-9589-f24bd167e8b3/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-publicaties&n1=&n2=51#",
+              "body": {
+                "height": 3559,
+                "width": 5014,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3559,
+                  "width": 5014,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/4/0ca2fb7b-a98c-4ae3-9589-f24bd167e8b3",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/4/0ca2fb7b-a98c-4ae3-9589-f24bd167e8b3/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/1d3ccd7b-d0f4-4580-a971-59eb086d2797"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 729,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 729
+              },
+              {
+                "width": 400,
+                "height": 285
+              },
+              {
+                "width": 200,
+                "height": 142
+              },
+              {
+                "width": 100,
+                "height": 71
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/4/c9103529-5af3-4e38-8060-05c11aee3be4",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/4/c9103529-5af3-4e38-8060-05c11aee3be4/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3571,
+      "width": 5018,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-publicaties&n1=&n2=52",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/4/c9103529-5af3-4e38-8060-05c11aee3be4/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-publicaties&n1=&n2=52#xywh=0,0,5018,3571",
+              "body": {
+                "height": 3571,
+                "width": 5018,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3571,
+                  "width": 5018,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/4/c9103529-5af3-4e38-8060-05c11aee3be4",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/4/c9103529-5af3-4e38-8060-05c11aee3be4/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/c1e18540-ff7f-4c4a-b8eb-774c53fbfd5a"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

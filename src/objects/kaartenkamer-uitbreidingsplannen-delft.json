@@ -1,0 +1,204 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Extension plans of the city of Delft"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "1954/1964"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kaartenkamer, TU Delft Library"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/kaarten-campus-uitbreidingsplannen",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 724,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 724,
+                "height": 1024
+              },
+              {
+                "width": 283,
+                "height": 400
+              },
+              {
+                "width": 141,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/4/53f5f9da-94c0-41c2-a647-a63c30b9a7b5",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/4/53f5f9da-94c0-41c2-a647-a63c30b9a7b5/full/full/0/default.jpg"
+        }
+      ],
+      "height": 14045,
+      "width": 9930,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-campus&n1=&n2=45",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/4/53f5f9da-94c0-41c2-a647-a63c30b9a7b5/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-campus&n1=&n2=45#",
+              "body": {
+                "height": 14045,
+                "width": 9930,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 14045,
+                  "width": 9930,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/4/53f5f9da-94c0-41c2-a647-a63c30b9a7b5",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/4/53f5f9da-94c0-41c2-a647-a63c30b9a7b5/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/be8fa83a-0b9a-4ec9-ae50-d91f9c5ea0e7"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 537,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 537,
+                "height": 1024
+              },
+              {
+                "width": 210,
+                "height": 400
+              },
+              {
+                "width": 105,
+                "height": 200
+              },
+              {
+                "width": 52,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/4/9ed34fe4-41c4-4023-b82a-97590859b288",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/4/9ed34fe4-41c4-4023-b82a-97590859b288/full/full/0/default.jpg"
+        }
+      ],
+      "height": 23210,
+      "width": 12181,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-campus&n1=&n2=50",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/4/9ed34fe4-41c4-4023-b82a-97590859b288/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-campus&n1=&n2=50#",
+              "body": {
+                "height": 23210,
+                "width": 12181,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 23210,
+                  "width": 12181,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/4/9ed34fe4-41c4-4023-b82a-97590859b288",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/4/9ed34fe4-41c4-4023-b82a-97590859b288/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/48cd4f5b-44b6-4f85-bf18-347bd40dd346"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

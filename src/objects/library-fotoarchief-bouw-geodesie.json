@@ -1,0 +1,204 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Construction of the Faculty of Geodesy"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "1970s"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "TU Delft Library"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/bouw-geodesie",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1006,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 1006,
+                "height": 1024
+              },
+              {
+                "width": 393,
+                "height": 400
+              },
+              {
+                "width": 197,
+                "height": 200
+              },
+              {
+                "width": 98,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/15/1b87c7f9-982a-4cfc-a12c-db87eadadc28",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/15/1b87c7f9-982a-4cfc-a12c-db87eadadc28/full/full/0/default.jpg"
+        }
+      ],
+      "height": 6953,
+      "width": 6832,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=bouw-geodesie&n1=&n2=4",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/15/1b87c7f9-982a-4cfc-a12c-db87eadadc28/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=bouw-geodesie&n1=&n2=4#",
+              "body": {
+                "height": 6953,
+                "width": 6832,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 6953,
+                  "width": 6832,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/15/1b87c7f9-982a-4cfc-a12c-db87eadadc28",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/15/1b87c7f9-982a-4cfc-a12c-db87eadadc28/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/7b689ad5-ea76-4fb5-a1de-6e68fbd478ec"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1004,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 1004,
+                "height": 1024
+              },
+              {
+                "width": 392,
+                "height": 400
+              },
+              {
+                "width": 196,
+                "height": 200
+              },
+              {
+                "width": 98,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/15/d7f1bb04-640d-4ea0-8c34-eb40951c6ba8",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/15/d7f1bb04-640d-4ea0-8c34-eb40951c6ba8/full/full/0/default.jpg"
+        }
+      ],
+      "height": 6960,
+      "width": 6824,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=bouw-geodesie&n1=&n2=5",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/15/d7f1bb04-640d-4ea0-8c34-eb40951c6ba8/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=bouw-geodesie&n1=&n2=5#",
+              "body": {
+                "height": 6960,
+                "width": 6824,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 6960,
+                  "width": 6824,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/15/d7f1bb04-640d-4ea0-8c34-eb40951c6ba8",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/15/d7f1bb04-640d-4ea0-8c34-eb40951c6ba8/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/3264fe85-886c-44ff-94a7-548b5d17be42"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

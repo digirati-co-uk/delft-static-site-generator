@@ -1,0 +1,126 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Inrichting gebied tussen Bouwkunde en Civiele Techniek"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "1976"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "Kaartenkamer, TU Delft Library"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/kaarten-campus-citg",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 730,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 730,
+                "height": 1024
+              },
+              {
+                "width": 285,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/4/c1678746-aec2-4b10-b8ff-b0db4afaf989",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/4/c1678746-aec2-4b10-b8ff-b0db4afaf989/full/full/0/default.jpg"
+        }
+      ],
+      "height": 10321,
+      "width": 7361,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-campus&n1=&n2=46",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/4/c1678746-aec2-4b10-b8ff-b0db4afaf989/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten-campus&n1=&n2=46#",
+              "body": {
+                "height": 10321,
+                "width": 7361,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 10321,
+                  "width": 7361,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/4/c1678746-aec2-4b10-b8ff-b0db4afaf989",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/4/c1678746-aec2-4b10-b8ff-b0db4afaf989/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/4d291ffa-ea7b-4b34-83f7-0adfa6ba588e"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

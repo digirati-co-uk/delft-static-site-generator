@@ -1,0 +1,672 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the 'Afterlife of Satellites' exhibition at TU Delft Library"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2018"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johannes Schwartz"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/2018-library-01-afterlife-of-satellites",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2e8bb0df-bbd3-4320-a395-ca40c283748a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2e8bb0df-bbd3-4320-a395-ca40c283748a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3182,
+      "width": 4771,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=76",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2e8bb0df-bbd3-4320-a395-ca40c283748a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=76#",
+              "body": {
+                "height": 3182,
+                "width": 4771,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3182,
+                  "width": 4771,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2e8bb0df-bbd3-4320-a395-ca40c283748a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2e8bb0df-bbd3-4320-a395-ca40c283748a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/c0e6312a-35ff-456b-bc6c-2ff3c3202fe8"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/81d40d9e-99a7-47be-92c5-a42bc1e4c481",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/81d40d9e-99a7-47be-92c5-a42bc1e4c481/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4455,
+      "width": 3182,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=77",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/81d40d9e-99a7-47be-92c5-a42bc1e4c481/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=77#",
+              "body": {
+                "height": 4455,
+                "width": 3182,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4455,
+                  "width": 3182,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/81d40d9e-99a7-47be-92c5-a42bc1e4c481",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/81d40d9e-99a7-47be-92c5-a42bc1e4c481/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/4e9e3768-1af0-4e35-81fe-7d65bc96ed2f"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/171b4a68-e632-4a8b-8174-15b0943d7a3a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/171b4a68-e632-4a8b-8174-15b0943d7a3a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4455,
+      "width": 3182,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=78",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/171b4a68-e632-4a8b-8174-15b0943d7a3a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=78#",
+              "body": {
+                "height": 4455,
+                "width": 3182,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4455,
+                  "width": 3182,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/171b4a68-e632-4a8b-8174-15b0943d7a3a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/171b4a68-e632-4a8b-8174-15b0943d7a3a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/9ba58ac2-aa5f-42ee-a26d-3ccbd0607569"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2d210704-c261-49ff-bf46-f40f342e276e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2d210704-c261-49ff-bf46-f40f342e276e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4455,
+      "width": 3182,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=79",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2d210704-c261-49ff-bf46-f40f342e276e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=79#",
+              "body": {
+                "height": 4455,
+                "width": 3182,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4455,
+                  "width": 3182,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2d210704-c261-49ff-bf46-f40f342e276e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2d210704-c261-49ff-bf46-f40f342e276e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e0bbc5c5-1a5a-4923-ae31-d52ab474aa96"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2406e081-2ad3-4fdc-ba6b-f2a7706bba5c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2406e081-2ad3-4fdc-ba6b-f2a7706bba5c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4350,
+      "width": 3107,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=80",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2406e081-2ad3-4fdc-ba6b-f2a7706bba5c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=80#",
+              "body": {
+                "height": 4350,
+                "width": 3107,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4350,
+                  "width": 3107,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2406e081-2ad3-4fdc-ba6b-f2a7706bba5c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2406e081-2ad3-4fdc-ba6b-f2a7706bba5c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/684dc02b-7a34-42c6-8eb6-ad60c83e09a7"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/f903e926-f8ad-43fd-b499-35f60a3de25f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/f903e926-f8ad-43fd-b499-35f60a3de25f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4455,
+      "width": 3182,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=81",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/f903e926-f8ad-43fd-b499-35f60a3de25f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=81#",
+              "body": {
+                "height": 4455,
+                "width": 3182,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4455,
+                  "width": 3182,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/f903e926-f8ad-43fd-b499-35f60a3de25f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/f903e926-f8ad-43fd-b499-35f60a3de25f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/27cd781a-fb52-48c3-8ef8-c1b002e7011c"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 731,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 731
+              },
+              {
+                "width": 400,
+                "height": 286
+              },
+              {
+                "width": 200,
+                "height": 143
+              },
+              {
+                "width": 100,
+                "height": 71
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/ebd46d38-1c4e-431c-a452-f845af306f8a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/ebd46d38-1c4e-431c-a452-f845af306f8a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3090,
+      "width": 4327,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=82",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/ebd46d38-1c4e-431c-a452-f845af306f8a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=82#",
+              "body": {
+                "height": 3090,
+                "width": 4327,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3090,
+                  "width": 4327,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/ebd46d38-1c4e-431c-a452-f845af306f8a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/ebd46d38-1c4e-431c-a452-f845af306f8a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b622944e-ef34-4b9a-b7eb-29634ca9acd3"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 731,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 731
+              },
+              {
+                "width": 400,
+                "height": 286
+              },
+              {
+                "width": 200,
+                "height": 143
+              },
+              {
+                "width": 100,
+                "height": 71
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/70030f8c-9a89-43c5-94e0-81d225ada0bb",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/70030f8c-9a89-43c5-94e0-81d225ada0bb/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3182,
+      "width": 4455,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=83",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/70030f8c-9a89-43c5-94e0-81d225ada0bb/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-library-01-afterlife-of-satellites&n1=&n2=83#",
+              "body": {
+                "height": 3182,
+                "width": 4455,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3182,
+                  "width": 4455,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/70030f8c-9a89-43c5-94e0-81d225ada0bb",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/70030f8c-9a89-43c5-94e0-81d225ada0bb/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/3feecd45-8dd8-4fa0-a1ac-253673db8bf5"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

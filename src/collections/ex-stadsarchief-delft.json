@@ -1,104 +1,40 @@
 {
   "label": {
     "en": [
-      "University history"
+      "Stadsarchief Delft"
     ],
     "nl": [
-      "Universiteitsgeschiedenis"
+      "Stadsarchief Delft"
     ]
   },
   "summary": { 
     "en": [ 
-      "Digitised books about the history of the Delft University of Technology"
+      "Maps and photos from Delft City Archive"
     ],
     "nl": [
-      "Gedigitaliseerde boeken over de geschiedenis van de TU Delft"
+      "Kaarten en foto's van Stadsarchief Delft"
     ]
   },
   "metadata": [
     {
       "label": {
-        "none": [ "Part of" ]
+        "none": [ "" ]
       },
       "value": {
-        "none": [ "Trésor" ]
+        "none": [ "" ]
       }
     }
   ],
   "type": "Collection",
-  "id": "https://delft-static-site-generator.netlify.com/collections/university-history",
+  "id": "https://delft-static-site-generator.netlify.com/collections/ex-stadsarchief-delft",
   "items": [
     {
       "label": {
         "en": [
-          "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School, 1842-1905 : samengest. ter gelegenheid van de oprichting der Technische Hoogeschool"
+          "Photos of the fire and demolition of the Faculty of Architecture"
         ],
         "nl": [
-          "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School, 1842-1905 : samengest. ter gelegenheid van de oprichting der Technische Hoogeschool"
-        ]
-      },
-      "summary": {
-        "en": [
-          ""
-        ],
-        "nl": [
-          ""
-        ]
-      },
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 900,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 900,
-                "height": 1024
-              },
-              {
-                "width": 352,
-                "height": 400
-              },
-              {
-                "width": 176,
-                "height": 200
-              },
-              {
-                "width": 88,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/6/69a9bc61-f3db-4f73-9d01-32c5e128fdbe",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/6/69a9bc61-f3db-4f73-9d01-32c5e128fdbe/full/full/0/default.jpg"
-        }
-      ],
-      "type": "Manifest",
-      "id": "https://delft-static-site-generator.netlify.com/objects/txf18197"
-    },
-    {
-      "label": {
-        "en": [
-          "De Polytechnische School : album bevattende de portretten der docenten en afbeeldingen van gebouwen, laboratoria, teekenzalen, enz."
-        ],
-        "nl": [
-          "De Polytechnische School : album bevattende de portretten der docenten en afbeeldingen van gebouwen, laboratoria, teekenzalen, enz."
+          "Foto's van de brand en sloop van de faculteit Bouwkunde"
         ]
       },
       "summary": {
@@ -127,35 +63,99 @@
               }
             ],
             "width": 1024,
-            "height": 682,
+            "height": 685,
             "sizes": [
               {
                 "width": 1024,
-                "height": 682
+                "height": 685
               },
               {
                 "width": 400,
-                "height": 266
+                "height": 268
               },
               {
                 "width": 200,
-                "height": 133
+                "height": 134
               },
               {
                 "width": 100,
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/6/6e38e297-2fcd-4c31-9f0c-d184fa1216ba",
+            "id": "https://dlc.services/thumbs/7/9/33d03773-8fb5-4527-a95b-8956b09fa21a",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/6/6e38e297-2fcd-4c31-9f0c-d184fa1216ba/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/9/33d03773-8fb5-4527-a95b-8956b09fa21a/full/full/0/default.jpg"
         }
       ],
       "type": "Manifest",
-      "id": "https://delft-static-site-generator.netlify.com/objects/txf952A16"
-    }
+      "id": "https://dlc.services/iiif-resource/7/string1/spiero-bk"
+    },
+    {
+      "label": {
+        "en": [
+          "City plan of Delft and extension plans for the Wippolder"
+        ],
+        "nl": [
+          "Plattegronden en uitbreidingsplannen van de Gemeente Delft"
+        ]
+      },
+      "summary": {
+        "en": [
+          ""
+        ],
+        "nl": [
+          ""
+        ]
+      },
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 813,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 813
+              },
+              {
+                "width": 400,
+                "height": 318
+              },
+              {
+                "width": 200,
+                "height": 159
+              },
+              {
+                "width": 100,
+                "height": 79
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/2e519ba0-c6c5-4892-9f36-d96873514630",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/2e519ba0-c6c5-4892-9f36-d96873514630/full/full/0/default.jpg"
+        }
+      ],
+      "type": "Manifest",
+      "id": "https://dlc.services/iiif-resource/7/string1/kaarten"
+    }  
   ],
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",

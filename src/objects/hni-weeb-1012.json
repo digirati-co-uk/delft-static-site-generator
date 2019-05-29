@@ -1,0 +1,114 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Weeber, C.J.M. (Carlos José Maria / Carel) / Archief"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Code"
+        ]
+      },
+      "value": {
+        "en": [
+          "1012"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/weeb-1012",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1022,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 1022,
+                "height": 1024
+              },
+              {
+                "width": 399,
+                "height": 400
+              },
+              {
+                "width": 200,
+                "height": 200
+              },
+              {
+                "width": 100,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/8/82ed3d4a-63e8-4773-9c9d-cc467dc4969a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/8/82ed3d4a-63e8-4773-9c9d-cc467dc4969a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4821,
+      "width": 4811,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-1012&n1=&n2=87",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/8/82ed3d4a-63e8-4773-9c9d-cc467dc4969a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-1012&n1=&n2=87#",
+              "body": {
+                "height": 4821,
+                "width": 4811,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4821,
+                  "width": 4811,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/8/82ed3d4a-63e8-4773-9c9d-cc467dc4969a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/8/82ed3d4a-63e8-4773-9c9d-cc467dc4969a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/d69b90a5-e363-457d-bc68-9e9c1f24db73"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

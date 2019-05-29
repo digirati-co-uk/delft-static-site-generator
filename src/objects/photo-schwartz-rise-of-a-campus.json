@@ -1,0 +1,1374 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the 'Rise of a Campus' exhibition at TU Delft Aula"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2017"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johannes Schwartz"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/2017-aula-rise-of-a-campus",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/84314b47-c24b-4009-af65-70d5aba10853",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/84314b47-c24b-4009-af65-70d5aba10853/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 7438,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=0",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/84314b47-c24b-4009-af65-70d5aba10853/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=0#",
+              "body": {
+                "height": 4961,
+                "width": 7438,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 7438,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/84314b47-c24b-4009-af65-70d5aba10853",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/84314b47-c24b-4009-af65-70d5aba10853/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/f18055d5-7d84-4e41-a547-228eb7badaad"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/90b5f8f2-b5fd-41c4-8fe0-1eac2ac26a0c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/90b5f8f2-b5fd-41c4-8fe0-1eac2ac26a0c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 7438,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=1",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/90b5f8f2-b5fd-41c4-8fe0-1eac2ac26a0c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=1#",
+              "body": {
+                "height": 4961,
+                "width": 7438,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 7438,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/90b5f8f2-b5fd-41c4-8fe0-1eac2ac26a0c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/90b5f8f2-b5fd-41c4-8fe0-1eac2ac26a0c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/9a0f4d15-a990-4ed6-9c8a-f95624b664ae"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/8d82aab2-d4e8-4da3-9a90-b59cc0f1e4be",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/8d82aab2-d4e8-4da3-9a90-b59cc0f1e4be/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 7438,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=2",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/8d82aab2-d4e8-4da3-9a90-b59cc0f1e4be/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=2#",
+              "body": {
+                "height": 4961,
+                "width": 7438,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 7438,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/8d82aab2-d4e8-4da3-9a90-b59cc0f1e4be",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/8d82aab2-d4e8-4da3-9a90-b59cc0f1e4be/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/f2f48bbb-9b61-4182-8e41-75ac8736ea75"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/450827bc-327b-4388-9b10-95789e239e86",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/450827bc-327b-4388-9b10-95789e239e86/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=3",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/450827bc-327b-4388-9b10-95789e239e86/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=3#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/450827bc-327b-4388-9b10-95789e239e86",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/450827bc-327b-4388-9b10-95789e239e86/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/0e952c52-2b77-403d-8c0d-215ccbe6864f"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/647cd38c-5b14-4a95-9233-33c0146f3a41",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/647cd38c-5b14-4a95-9233-33c0146f3a41/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=4",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/647cd38c-5b14-4a95-9233-33c0146f3a41/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=4#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/647cd38c-5b14-4a95-9233-33c0146f3a41",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/647cd38c-5b14-4a95-9233-33c0146f3a41/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e44775c5-0bd4-4dc0-91d9-3762a10d6f06"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/a7da5a85-003f-4fd7-8694-ffb29b5b0dbf",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/a7da5a85-003f-4fd7-8694-ffb29b5b0dbf/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=5",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/a7da5a85-003f-4fd7-8694-ffb29b5b0dbf/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=5#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/a7da5a85-003f-4fd7-8694-ffb29b5b0dbf",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/a7da5a85-003f-4fd7-8694-ffb29b5b0dbf/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/7a94c8ea-ea96-4d8e-b527-87487f12480a"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/5250c9fc-423a-42f9-968b-442427c0a00e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/5250c9fc-423a-42f9-968b-442427c0a00e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=6",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/5250c9fc-423a-42f9-968b-442427c0a00e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=6#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/5250c9fc-423a-42f9-968b-442427c0a00e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/5250c9fc-423a-42f9-968b-442427c0a00e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/ce82feff-ac48-483f-8749-dd9f5ef13cb2"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/ed86d4a4-0f2a-40a6-a24c-ae476b0b5c17",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/ed86d4a4-0f2a-40a6-a24c-ae476b0b5c17/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=7",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/ed86d4a4-0f2a-40a6-a24c-ae476b0b5c17/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=7#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/ed86d4a4-0f2a-40a6-a24c-ae476b0b5c17",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/ed86d4a4-0f2a-40a6-a24c-ae476b0b5c17/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/2f352516-f8f1-4e5c-8612-5fb2ad021f22"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/d6aed930-09da-49e5-8b93-3147dc9c2de6",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/d6aed930-09da-49e5-8b93-3147dc9c2de6/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=8",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/d6aed930-09da-49e5-8b93-3147dc9c2de6/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=8#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/d6aed930-09da-49e5-8b93-3147dc9c2de6",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/d6aed930-09da-49e5-8b93-3147dc9c2de6/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/997329b5-3b1c-469e-80ae-977aa3c58882"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/4619eb3c-6b70-4cc0-a6d8-89838006d00e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/4619eb3c-6b70-4cc0-a6d8-89838006d00e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=9",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/4619eb3c-6b70-4cc0-a6d8-89838006d00e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=9#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/4619eb3c-6b70-4cc0-a6d8-89838006d00e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/4619eb3c-6b70-4cc0-a6d8-89838006d00e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/87a6c13b-db96-46ba-a106-f354e978bdcd"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/06eb24a5-6454-4242-8f5d-7816d5928860",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/06eb24a5-6454-4242-8f5d-7816d5928860/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=10",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/06eb24a5-6454-4242-8f5d-7816d5928860/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=10#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/06eb24a5-6454-4242-8f5d-7816d5928860",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/06eb24a5-6454-4242-8f5d-7816d5928860/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/f51bacc5-8320-42dd-860c-22a14cad48d2"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/eea77741-75be-4a5a-be6d-c16434e57c9f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/eea77741-75be-4a5a-be6d-c16434e57c9f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=11",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/eea77741-75be-4a5a-be6d-c16434e57c9f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=11#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/eea77741-75be-4a5a-be6d-c16434e57c9f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/eea77741-75be-4a5a-be6d-c16434e57c9f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8f72c7bc-c0f3-4c54-b3b6-d5c39c7630db"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/8ad490e1-267a-44f2-bbce-264b92f4cb01",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/8ad490e1-267a-44f2-bbce-264b92f4cb01/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3309,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=12",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/8ad490e1-267a-44f2-bbce-264b92f4cb01/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=12#",
+              "body": {
+                "height": 4961,
+                "width": 3309,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3309,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/8ad490e1-267a-44f2-bbce-264b92f4cb01",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/8ad490e1-267a-44f2-bbce-264b92f4cb01/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/084d6582-99b1-48c3-8bf5-94b6cd24d7c7"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/c4b5db7c-3ece-467c-9c20-df2af4f8b6b1",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/c4b5db7c-3ece-467c-9c20-df2af4f8b6b1/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3310,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=13",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/c4b5db7c-3ece-467c-9c20-df2af4f8b6b1/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=13#",
+              "body": {
+                "height": 4961,
+                "width": 3310,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3310,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/c4b5db7c-3ece-467c-9c20-df2af4f8b6b1",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/c4b5db7c-3ece-467c-9c20-df2af4f8b6b1/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8346e196-a15c-4d23-8420-31847b51b21e"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/f8791454-c9ea-4c6a-b3d9-2159f8a7779a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/f8791454-c9ea-4c6a-b3d9-2159f8a7779a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3310,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=14",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/f8791454-c9ea-4c6a-b3d9-2159f8a7779a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=14#",
+              "body": {
+                "height": 4961,
+                "width": 3310,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3310,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/f8791454-c9ea-4c6a-b3d9-2159f8a7779a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/f8791454-c9ea-4c6a-b3d9-2159f8a7779a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/f1e3c3f0-04b8-4854-b022-6f886ac2f7f1"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/6882493f-e340-4c7c-b699-8bea0f192a63",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/6882493f-e340-4c7c-b699-8bea0f192a63/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 7438,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=15",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/6882493f-e340-4c7c-b699-8bea0f192a63/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=15#",
+              "body": {
+                "height": 4961,
+                "width": 7438,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 7438,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/6882493f-e340-4c7c-b699-8bea0f192a63",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/6882493f-e340-4c7c-b699-8bea0f192a63/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/a2e6b03b-2bcd-421d-87fa-b1a644d9a87d"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2512d3cb-89e6-4ebd-8fef-b0c882b020c7",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2512d3cb-89e6-4ebd-8fef-b0c882b020c7/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4961,
+      "width": 3310,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=16",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2512d3cb-89e6-4ebd-8fef-b0c882b020c7/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2017-aula-rise-of-a-campus&n1=&n2=16#",
+              "body": {
+                "height": 4961,
+                "width": 3310,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4961,
+                  "width": 3310,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2512d3cb-89e6-4ebd-8fef-b0c882b020c7",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2512d3cb-89e6-4ebd-8fef-b0c882b020c7/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b26ce84e-4b21-4547-8801-e52411c282c5"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

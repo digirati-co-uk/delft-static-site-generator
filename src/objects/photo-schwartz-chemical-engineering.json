@@ -1,0 +1,2154 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the empty Chemical Engineering building"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2018"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johannes Schwartz"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/2018-erfgoed-chemische-technologie",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/f3e105e4-2677-436a-b05d-08dfcf0b0a71",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/f3e105e4-2677-436a-b05d-08dfcf0b0a71/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=32",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/f3e105e4-2677-436a-b05d-08dfcf0b0a71/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=32#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/f3e105e4-2677-436a-b05d-08dfcf0b0a71",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/f3e105e4-2677-436a-b05d-08dfcf0b0a71/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/7fd92968-e05d-4e0d-8bc0-5acf73b03246"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/9511c7c4-9eee-46f8-8460-64eaff35ec7c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/9511c7c4-9eee-46f8-8460-64eaff35ec7c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=33",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/9511c7c4-9eee-46f8-8460-64eaff35ec7c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=33#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/9511c7c4-9eee-46f8-8460-64eaff35ec7c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/9511c7c4-9eee-46f8-8460-64eaff35ec7c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/781b5fc7-d4f1-49eb-8066-e303e316c931"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/dc64837c-9777-4165-9cee-64af4f942df9",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/dc64837c-9777-4165-9cee-64af4f942df9/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=34",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/dc64837c-9777-4165-9cee-64af4f942df9/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=34#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/dc64837c-9777-4165-9cee-64af4f942df9",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/dc64837c-9777-4165-9cee-64af4f942df9/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/fe6e1e9d-0101-4e52-b974-1d790215e029"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/f35df3ad-c4e3-4225-8a94-10479c8a5216",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/f35df3ad-c4e3-4225-8a94-10479c8a5216/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=35",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/f35df3ad-c4e3-4225-8a94-10479c8a5216/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=35#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/f35df3ad-c4e3-4225-8a94-10479c8a5216",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/f35df3ad-c4e3-4225-8a94-10479c8a5216/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/12d57e8d-fe35-4101-8f21-6b738d84f373"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2cfabaf3-cc86-4cb9-9fb1-bc8e2719c126",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2cfabaf3-cc86-4cb9-9fb1-bc8e2719c126/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=36",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2cfabaf3-cc86-4cb9-9fb1-bc8e2719c126/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=36#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2cfabaf3-cc86-4cb9-9fb1-bc8e2719c126",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2cfabaf3-cc86-4cb9-9fb1-bc8e2719c126/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/560a8c89-0c07-4791-ace2-836fa76bc237"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/8297d86e-fc2c-4b90-aef1-60398b5e93ad",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/8297d86e-fc2c-4b90-aef1-60398b5e93ad/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=37",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/8297d86e-fc2c-4b90-aef1-60398b5e93ad/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=37#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/8297d86e-fc2c-4b90-aef1-60398b5e93ad",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/8297d86e-fc2c-4b90-aef1-60398b5e93ad/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/820ed133-d021-49f5-9bdf-f7065cbcaf84"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2a4e378c-9aa0-4acc-8c37-5c19cb563e01",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2a4e378c-9aa0-4acc-8c37-5c19cb563e01/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=38",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2a4e378c-9aa0-4acc-8c37-5c19cb563e01/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=38#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2a4e378c-9aa0-4acc-8c37-5c19cb563e01",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2a4e378c-9aa0-4acc-8c37-5c19cb563e01/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/3a71caff-ef0d-4e44-8867-196704d56587"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/d30219b9-699b-4e03-9fd2-ed1cf65c759e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/d30219b9-699b-4e03-9fd2-ed1cf65c759e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=39",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/d30219b9-699b-4e03-9fd2-ed1cf65c759e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=39#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/d30219b9-699b-4e03-9fd2-ed1cf65c759e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/d30219b9-699b-4e03-9fd2-ed1cf65c759e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/217ba1e2-5f70-4433-b783-66f071e4231c"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2970521c-9dd1-4184-ae13-63eadf1ea148",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2970521c-9dd1-4184-ae13-63eadf1ea148/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=40",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2970521c-9dd1-4184-ae13-63eadf1ea148/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=40#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2970521c-9dd1-4184-ae13-63eadf1ea148",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2970521c-9dd1-4184-ae13-63eadf1ea148/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b6f2fb8d-222a-4c19-b35c-bc1d7419ca28"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/c74426b4-ab3f-4823-bfa0-2b290684e923",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/c74426b4-ab3f-4823-bfa0-2b290684e923/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=41",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/c74426b4-ab3f-4823-bfa0-2b290684e923/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=41#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/c74426b4-ab3f-4823-bfa0-2b290684e923",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/c74426b4-ab3f-4823-bfa0-2b290684e923/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/3b094bde-3ea4-4e4a-970b-bc74a444be6d"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/9cf4707e-8032-4a6f-8438-b58d6b3566f4",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/9cf4707e-8032-4a6f-8438-b58d6b3566f4/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=42",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/9cf4707e-8032-4a6f-8438-b58d6b3566f4/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=42#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/9cf4707e-8032-4a6f-8438-b58d6b3566f4",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/9cf4707e-8032-4a6f-8438-b58d6b3566f4/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b3af135b-4c67-4655-9a6a-fed9ff775013"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/508b4448-7bf8-4fa7-8823-e1564c3b470d",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/508b4448-7bf8-4fa7-8823-e1564c3b470d/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=43",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/508b4448-7bf8-4fa7-8823-e1564c3b470d/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=43#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/508b4448-7bf8-4fa7-8823-e1564c3b470d",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/508b4448-7bf8-4fa7-8823-e1564c3b470d/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/106d0733-697d-4bad-8738-950b58fbf026"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/63c7025c-0c15-416a-a220-1d90954c91ee",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/63c7025c-0c15-416a-a220-1d90954c91ee/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=44",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/63c7025c-0c15-416a-a220-1d90954c91ee/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=44#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/63c7025c-0c15-416a-a220-1d90954c91ee",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/63c7025c-0c15-416a-a220-1d90954c91ee/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/77bb211b-5cdc-40dd-b03a-fc13c2820bc9"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/be5db9e8-cdff-41ee-b2d4-64921a529946",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/be5db9e8-cdff-41ee-b2d4-64921a529946/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=45",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/be5db9e8-cdff-41ee-b2d4-64921a529946/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=45#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/be5db9e8-cdff-41ee-b2d4-64921a529946",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/be5db9e8-cdff-41ee-b2d4-64921a529946/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/107aeb8b-746f-4329-9b07-499e7f11b796"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/7cfe54e4-2061-46d0-bd9c-7cf70bdf38b5",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/7cfe54e4-2061-46d0-bd9c-7cf70bdf38b5/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=46",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/7cfe54e4-2061-46d0-bd9c-7cf70bdf38b5/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=46#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/7cfe54e4-2061-46d0-bd9c-7cf70bdf38b5",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/7cfe54e4-2061-46d0-bd9c-7cf70bdf38b5/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/5beff24d-dcd1-466d-9976-b16383d07513"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/ee480ac8-e50d-4334-aa82-7e431ffa486a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/ee480ac8-e50d-4334-aa82-7e431ffa486a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=47",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/ee480ac8-e50d-4334-aa82-7e431ffa486a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=47#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/ee480ac8-e50d-4334-aa82-7e431ffa486a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/ee480ac8-e50d-4334-aa82-7e431ffa486a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/ac484a5f-c823-45d6-bd84-325e551f4ff9"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/d7a3adc9-b88a-4a06-867f-1b8c3d20d6aa",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/d7a3adc9-b88a-4a06-867f-1b8c3d20d6aa/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=48",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/d7a3adc9-b88a-4a06-867f-1b8c3d20d6aa/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=48#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/d7a3adc9-b88a-4a06-867f-1b8c3d20d6aa",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/d7a3adc9-b88a-4a06-867f-1b8c3d20d6aa/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/9162007b-acc1-48e8-b522-ed73cdcbc571"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/e867b64c-2492-4e38-85e3-bbda62316b4a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/e867b64c-2492-4e38-85e3-bbda62316b4a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=49",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/e867b64c-2492-4e38-85e3-bbda62316b4a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=49#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/e867b64c-2492-4e38-85e3-bbda62316b4a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/e867b64c-2492-4e38-85e3-bbda62316b4a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/1db1c0c4-4256-4ea5-9502-423aeae35144"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/45ba698f-ba63-4394-97a3-31eb2680844c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/45ba698f-ba63-4394-97a3-31eb2680844c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=50",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/45ba698f-ba63-4394-97a3-31eb2680844c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=50#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/45ba698f-ba63-4394-97a3-31eb2680844c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/45ba698f-ba63-4394-97a3-31eb2680844c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/07835fbe-7358-4f5e-8b17-95d13b9de1dd"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/b91560c3-118a-4b22-a166-69a3cab0ca2f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/b91560c3-118a-4b22-a166-69a3cab0ca2f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=51",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/b91560c3-118a-4b22-a166-69a3cab0ca2f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=51#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/b91560c3-118a-4b22-a166-69a3cab0ca2f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/b91560c3-118a-4b22-a166-69a3cab0ca2f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b4e97476-c888-4fd0-b6af-9a47e9d5ad24"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/7e85354b-ecd5-40ed-aec2-811f0ff8f9ca",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/7e85354b-ecd5-40ed-aec2-811f0ff8f9ca/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2652,
+      "width": 3976,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=52",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/7e85354b-ecd5-40ed-aec2-811f0ff8f9ca/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=52#",
+              "body": {
+                "height": 2652,
+                "width": 3976,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2652,
+                  "width": 3976,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/7e85354b-ecd5-40ed-aec2-811f0ff8f9ca",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/7e85354b-ecd5-40ed-aec2-811f0ff8f9ca/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/62a479e3-edad-499c-bbbe-e89ad6b170b1"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/36833a6f-874c-4b5c-9d70-eecf6f04c8ee",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/36833a6f-874c-4b5c-9d70-eecf6f04c8ee/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3976,
+      "width": 2652,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=53",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/36833a6f-874c-4b5c-9d70-eecf6f04c8ee/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=53#",
+              "body": {
+                "height": 3976,
+                "width": 2652,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3976,
+                  "width": 2652,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/36833a6f-874c-4b5c-9d70-eecf6f04c8ee",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/36833a6f-874c-4b5c-9d70-eecf6f04c8ee/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/97c89d39-156b-4e2f-a567-673a802b994b"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/e4012a88-fa45-4086-aabe-ecb8f89ba286",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/e4012a88-fa45-4086-aabe-ecb8f89ba286/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5291,
+      "width": 3779,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=54",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/e4012a88-fa45-4086-aabe-ecb8f89ba286/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=54#",
+              "body": {
+                "height": 5291,
+                "width": 3779,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5291,
+                  "width": 3779,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/e4012a88-fa45-4086-aabe-ecb8f89ba286",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/e4012a88-fa45-4086-aabe-ecb8f89ba286/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/18a74650-f7c4-42af-adfc-49d8d7aa25b2"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 819,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 819,
+                "height": 1024
+              },
+              {
+                "width": 320,
+                "height": 400
+              },
+              {
+                "width": 160,
+                "height": 200
+              },
+              {
+                "width": 80,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/815bca00-c4f1-4713-98c0-7150cd1d449f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/815bca00-c4f1-4713-98c0-7150cd1d449f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4604,
+      "width": 3683,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=55",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/815bca00-c4f1-4713-98c0-7150cd1d449f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=55#",
+              "body": {
+                "height": 4604,
+                "width": 3683,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4604,
+                  "width": 3683,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/815bca00-c4f1-4713-98c0-7150cd1d449f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/815bca00-c4f1-4713-98c0-7150cd1d449f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/95ba2cb9-139c-4b36-a750-8ff9351b71cd"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 464,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 464,
+                "height": 1024
+              },
+              {
+                "width": 181,
+                "height": 400
+              },
+              {
+                "width": 91,
+                "height": 200
+              },
+              {
+                "width": 45,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/8a966773-6549-4d70-ad17-1c6116117743",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/8a966773-6549-4d70-ad17-1c6116117743/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5861,
+      "width": 2657,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=56",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/8a966773-6549-4d70-ad17-1c6116117743/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=56#",
+              "body": {
+                "height": 5861,
+                "width": 2657,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5861,
+                  "width": 2657,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/8a966773-6549-4d70-ad17-1c6116117743",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/8a966773-6549-4d70-ad17-1c6116117743/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/291f3873-cde7-4e5a-a35f-95a540ec33b0"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 409,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 409,
+                "height": 1024
+              },
+              {
+                "width": 160,
+                "height": 400
+              },
+              {
+                "width": 80,
+                "height": 200
+              },
+              {
+                "width": 40,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/d5f5fee2-2364-4a08-81b6-e84b775db218",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/d5f5fee2-2364-4a08-81b6-e84b775db218/full/full/0/default.jpg"
+        }
+      ],
+      "height": 6666,
+      "width": 2661,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=57",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/d5f5fee2-2364-4a08-81b6-e84b775db218/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=57#",
+              "body": {
+                "height": 6666,
+                "width": 2661,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 6666,
+                  "width": 2661,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/d5f5fee2-2364-4a08-81b6-e84b775db218",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/d5f5fee2-2364-4a08-81b6-e84b775db218/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8e4fc949-4909-4839-b649-94d94c564af5"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/00a1a6c3-25cb-4873-b570-2a77205852c9",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/00a1a6c3-25cb-4873-b570-2a77205852c9/full/full/0/default.jpg"
+        }
+      ],
+      "height": 1280,
+      "width": 854,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=58",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/00a1a6c3-25cb-4873-b570-2a77205852c9/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-chemische-technologie&n1=&n2=58#",
+              "body": {
+                "height": 1280,
+                "width": 854,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 1280,
+                  "width": 854,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/00a1a6c3-25cb-4873-b570-2a77205852c9",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/00a1a6c3-25cb-4873-b570-2a77205852c9/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e7d95f3e-ffe7-4893-b291-dab4b21e5167"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

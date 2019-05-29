@@ -1,0 +1,270 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "City plan of Delft and extension plans for the Wippolder, 1900-1921"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "Stadsarchief Delft"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/kaarten",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 813,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 813
+              },
+              {
+                "width": 400,
+                "height": 318
+              },
+              {
+                "width": 200,
+                "height": 159
+              },
+              {
+                "width": 100,
+                "height": 79
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/2e519ba0-c6c5-4892-9f36-d96873514630",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/2e519ba0-c6c5-4892-9f36-d96873514630/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5381,
+      "width": 6774,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten&n1=&n2=5",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/9/2e519ba0-c6c5-4892-9f36-d96873514630/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten&n1=&n2=5#",
+              "body": {
+                "height": 5381,
+                "width": 6774,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5381,
+                  "width": 6774,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/9/2e519ba0-c6c5-4892-9f36-d96873514630",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/9/2e519ba0-c6c5-4892-9f36-d96873514630/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/752bc3cb-4f7f-4291-adb7-bee442b249f4"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 638,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 638
+              },
+              {
+                "width": 400,
+                "height": 249
+              },
+              {
+                "width": 200,
+                "height": 125
+              },
+              {
+                "width": 100,
+                "height": 62
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf/full/full/0/default.jpg"
+        }
+      ],
+      "height": 6775,
+      "width": 10878,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten&n1=&n2=4",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten&n1=&n2=4#",
+              "body": {
+                "height": 6775,
+                "width": 10878,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 6775,
+                  "width": 10878,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/fcd92cc5-4734-4992-995c-3b53b6357acf"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 775,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 775,
+                "height": 1024
+              },
+              {
+                "width": 303,
+                "height": 400
+              },
+              {
+                "width": 151,
+                "height": 200
+              },
+              {
+                "width": 76,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4746,
+      "width": 3592,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten&n1=&n2=6",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/9/0e47c645-285d-411e-a662-96438bcf60e0/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=kaarten&n1=&n2=6#",
+              "body": {
+                "height": 4746,
+                "width": 3592,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4746,
+                  "width": 3592,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/0f5455b2-e3cc-48f7-9562-6ae7bfd7f08b"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}
