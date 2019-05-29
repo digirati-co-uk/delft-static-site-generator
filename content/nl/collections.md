@@ -13,15 +13,7 @@ De Museumcollectie bevat bronnen en hulpmiddelen die faculteiten in het verleden
 <div class="blocks">
 <div class="block cutcorners w-4 h-4 image">
 
-[Test Collection](/nl/collections/test)
-</div>
-<div class="block cutcorners w-4 h-4 image">
-
-[Single object](/nl/collections/single-object-collection)
-</div>
-<div class="block cutcorners w-4 h-4 image">
-
-[Another Collection](/nl/collections/another-collection)
+[Test Collection](/nl/collections/fotografie)
 </div>
 </div>
 
@@ -47,6 +39,10 @@ Het Trésor bevat historische boeken, tijdschriften, kaarten, foto’s en prente
 <div class="block cutcorners w-4 h-4 image">
 
 [Histechnica](/nl/collections/histechnica)
+</div>
+<div class="block cutcorners w-4 h-4 image">
+
+[Histechnica](/nl/collections/otb-fotoarchief)
 </div>
 
 </div>
