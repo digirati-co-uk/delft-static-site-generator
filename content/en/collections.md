@@ -13,7 +13,7 @@ The museum collection is a legacy of instruments and other memorabilia from educ
 <div class="blocks">
 <div class="block cutcorners w-4 h-4 image">
 
-[Test Collection](/en/collections/fotografie)
+[Photos](/en/collections/fotografie)
 </div>
 </div>
 
@@ -42,7 +42,7 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 </div>
 <div class="block cutcorners w-4 h-4 image">
 
-[Histechnica](/en/collections/otb-fotoarchief)
+[OTB](/en/collections/otb-fotoarchief)
 </div>
 
 </div>
