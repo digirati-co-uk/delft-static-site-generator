@@ -1,0 +1,372 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the fire and demolition of the Faculty of Architecture"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2008"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "K.G. Spiero"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "Stadsarchief Delft"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/spiero-bk",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 685,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 685
+              },
+              {
+                "width": 400,
+                "height": 268
+              },
+              {
+                "width": 200,
+                "height": 134
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/33d03773-8fb5-4527-a95b-8956b09fa21a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/33d03773-8fb5-4527-a95b-8956b09fa21a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2592,
+      "width": 3872,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=0",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/9/33d03773-8fb5-4527-a95b-8956b09fa21a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=0#",
+              "body": {
+                "height": 2592,
+                "width": 3872,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2592,
+                  "width": 3872,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/9/33d03773-8fb5-4527-a95b-8956b09fa21a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/9/33d03773-8fb5-4527-a95b-8956b09fa21a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b12ba52b-18dc-486d-ba0c-ea6b80da97b5"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 685,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 685
+              },
+              {
+                "width": 400,
+                "height": 268
+              },
+              {
+                "width": 200,
+                "height": 134
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/fd1e3033-f53a-419d-960b-84ee388dda40",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/fd1e3033-f53a-419d-960b-84ee388dda40/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2592,
+      "width": 3872,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=1",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/9/fd1e3033-f53a-419d-960b-84ee388dda40/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=1#",
+              "body": {
+                "height": 2592,
+                "width": 3872,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2592,
+                  "width": 3872,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/9/fd1e3033-f53a-419d-960b-84ee388dda40",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/9/fd1e3033-f53a-419d-960b-84ee388dda40/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/510dffcf-88fc-4f2e-a911-3c0a77d454d8"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 685,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 685
+              },
+              {
+                "width": 400,
+                "height": 268
+              },
+              {
+                "width": 200,
+                "height": 134
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/f0c5d205-32b9-4de7-afcb-181dc90a26b7",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/f0c5d205-32b9-4de7-afcb-181dc90a26b7/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2592,
+      "width": 3872,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=2",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/9/f0c5d205-32b9-4de7-afcb-181dc90a26b7/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=2#",
+              "body": {
+                "height": 2592,
+                "width": 3872,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2592,
+                  "width": 3872,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/9/f0c5d205-32b9-4de7-afcb-181dc90a26b7",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/9/f0c5d205-32b9-4de7-afcb-181dc90a26b7/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/dcc52f41-2c36-40c3-986d-be967ac9c5ee"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 685,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 685
+              },
+              {
+                "width": 400,
+                "height": 268
+              },
+              {
+                "width": 200,
+                "height": 134
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/9/2ff0afba-e54f-4563-9026-70de8f7989a4",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/9/2ff0afba-e54f-4563-9026-70de8f7989a4/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2605,
+      "width": 3892,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=3",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/9/2ff0afba-e54f-4563-9026-70de8f7989a4/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=spiero-bk&n1=&n2=3#",
+              "body": {
+                "height": 2605,
+                "width": 3892,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2605,
+                  "width": 3892,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/9/2ff0afba-e54f-4563-9026-70de8f7989a4",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/9/2ff0afba-e54f-4563-9026-70de8f7989a4/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/1e05354f-dd98-4449-81a8-4a6d38dcb630"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

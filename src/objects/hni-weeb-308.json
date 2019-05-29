@@ -1,0 +1,270 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Weeber, C.J.M. (Carlos José Maria / Carel) / Archief"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Code"
+        ]
+      },
+      "value": {
+        "en": [
+          "WEEB 308"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/weeb-308",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 780,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 780,
+                "height": 1024
+              },
+              {
+                "width": 305,
+                "height": 400
+              },
+              {
+                "width": 152,
+                "height": 200
+              },
+              {
+                "width": 76,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/8/3aa330dd-1133-4635-8114-a45124665c9a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/8/3aa330dd-1133-4635-8114-a45124665c9a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3513,
+      "width": 2677,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-308&n1=&n2=81",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/8/3aa330dd-1133-4635-8114-a45124665c9a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-308&n1=&n2=81#",
+              "body": {
+                "height": 3513,
+                "width": 2677,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3513,
+                  "width": 2677,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/8/3aa330dd-1133-4635-8114-a45124665c9a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/8/3aa330dd-1133-4635-8114-a45124665c9a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e0008174-f980-4031-8333-62526c6db225"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 771,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 771
+              },
+              {
+                "width": 400,
+                "height": 301
+              },
+              {
+                "width": 200,
+                "height": 150
+              },
+              {
+                "width": 100,
+                "height": 75
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/8/9a194ec4-e80d-4c45-bdd7-4ef7fd13d4d0",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/8/9a194ec4-e80d-4c45-bdd7-4ef7fd13d4d0/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2666,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-308&n1=&n2=82",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/8/9a194ec4-e80d-4c45-bdd7-4ef7fd13d4d0/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-308&n1=&n2=82#",
+              "body": {
+                "height": 2666,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2666,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/8/9a194ec4-e80d-4c45-bdd7-4ef7fd13d4d0",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/8/9a194ec4-e80d-4c45-bdd7-4ef7fd13d4d0/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/c8d684ed-8945-427c-b3d5-d7526db2b019"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 771,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 771
+              },
+              {
+                "width": 400,
+                "height": 301
+              },
+              {
+                "width": 200,
+                "height": 150
+              },
+              {
+                "width": 100,
+                "height": 75
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/8/20c7d915-0206-4acf-8017-7c175e2ef27c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/8/20c7d915-0206-4acf-8017-7c175e2ef27c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2666,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-308&n1=&n2=83",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/8/20c7d915-0206-4acf-8017-7c175e2ef27c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=weeb-308&n1=&n2=83#",
+              "body": {
+                "height": 2666,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2666,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/8/20c7d915-0206-4acf-8017-7c175e2ef27c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/8/20c7d915-0206-4acf-8017-7c175e2ef27c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/14df13ce-f5fd-4f30-9394-1f4242263af7"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

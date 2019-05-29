@@ -1,0 +1,750 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the 'Object-based Learning' exhibition curated by Charlotte van Wijk at Teaching Lab, TU Delft"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2018"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johannes Schwartz"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/2018-teaching-lab-03",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 768,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 768,
+                "height": 1024
+              },
+              {
+                "width": 300,
+                "height": 400
+              },
+              {
+                "width": 150,
+                "height": 200
+              },
+              {
+                "width": 75,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/a6c263cd-a656-4767-b68b-7b4f948b6618",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/a6c263cd-a656-4767-b68b-7b4f948b6618/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4725,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=87",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/a6c263cd-a656-4767-b68b-7b4f948b6618/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=87#",
+              "body": {
+                "height": 4725,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4725,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/a6c263cd-a656-4767-b68b-7b4f948b6618",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/a6c263cd-a656-4767-b68b-7b4f948b6618/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/64352c42-644c-4c3a-bd10-976176f7d058"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 768,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 768,
+                "height": 1024
+              },
+              {
+                "width": 300,
+                "height": 400
+              },
+              {
+                "width": 150,
+                "height": 200
+              },
+              {
+                "width": 75,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/3ea3b268-c500-44c2-a2aa-1ed580a91f0b",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/3ea3b268-c500-44c2-a2aa-1ed580a91f0b/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4725,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=88",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/3ea3b268-c500-44c2-a2aa-1ed580a91f0b/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=88#",
+              "body": {
+                "height": 4725,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4725,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/3ea3b268-c500-44c2-a2aa-1ed580a91f0b",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/3ea3b268-c500-44c2-a2aa-1ed580a91f0b/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/03ff416e-6ebb-494c-a780-2ffe8c6f9b7b"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 768,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 768,
+                "height": 1024
+              },
+              {
+                "width": 300,
+                "height": 400
+              },
+              {
+                "width": 150,
+                "height": 200
+              },
+              {
+                "width": 75,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/05157fff-1021-4068-8864-eeaf642dd72a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/05157fff-1021-4068-8864-eeaf642dd72a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4724,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=89",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/05157fff-1021-4068-8864-eeaf642dd72a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=89#",
+              "body": {
+                "height": 4724,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4724,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/05157fff-1021-4068-8864-eeaf642dd72a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/05157fff-1021-4068-8864-eeaf642dd72a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/0362e549-e28e-4785-b838-d125da669578"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 768,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 768,
+                "height": 1024
+              },
+              {
+                "width": 300,
+                "height": 400
+              },
+              {
+                "width": 150,
+                "height": 200
+              },
+              {
+                "width": 75,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/ed04ef5f-1548-47b1-8b20-da74c3f64521",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/ed04ef5f-1548-47b1-8b20-da74c3f64521/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4724,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=90",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/ed04ef5f-1548-47b1-8b20-da74c3f64521/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=90#",
+              "body": {
+                "height": 4724,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4724,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/ed04ef5f-1548-47b1-8b20-da74c3f64521",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/ed04ef5f-1548-47b1-8b20-da74c3f64521/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/cfd2eb87-6c11-497a-a7cd-6f4cb0da6912"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 768,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 768,
+                "height": 1024
+              },
+              {
+                "width": 300,
+                "height": 400
+              },
+              {
+                "width": 150,
+                "height": 200
+              },
+              {
+                "width": 75,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/b799194a-fff9-49e6-913c-dbe1597b5fe3",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/b799194a-fff9-49e6-913c-dbe1597b5fe3/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4724,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=91",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/b799194a-fff9-49e6-913c-dbe1597b5fe3/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=91#",
+              "body": {
+                "height": 4724,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4724,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/b799194a-fff9-49e6-913c-dbe1597b5fe3",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/b799194a-fff9-49e6-913c-dbe1597b5fe3/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/239f61c3-812a-4d04-96df-eb86f5732a71"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 768,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 768,
+                "height": 1024
+              },
+              {
+                "width": 300,
+                "height": 400
+              },
+              {
+                "width": 150,
+                "height": 200
+              },
+              {
+                "width": 75,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/6e28d63a-d820-4156-ae0c-135ad510106d",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/6e28d63a-d820-4156-ae0c-135ad510106d/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4724,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=92",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/6e28d63a-d820-4156-ae0c-135ad510106d/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=92#",
+              "body": {
+                "height": 4724,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4724,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/6e28d63a-d820-4156-ae0c-135ad510106d",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/6e28d63a-d820-4156-ae0c-135ad510106d/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/502a51ff-88b9-4f0d-9b65-6fb87567d0d6"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 768,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 768,
+                "height": 1024
+              },
+              {
+                "width": 300,
+                "height": 400
+              },
+              {
+                "width": 150,
+                "height": 200
+              },
+              {
+                "width": 75,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/e946b790-18f2-4800-9d9b-7ff76b23e21f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/e946b790-18f2-4800-9d9b-7ff76b23e21f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4724,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=93",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/e946b790-18f2-4800-9d9b-7ff76b23e21f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=93#",
+              "body": {
+                "height": 4724,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4724,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/e946b790-18f2-4800-9d9b-7ff76b23e21f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/e946b790-18f2-4800-9d9b-7ff76b23e21f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/87cd683f-2e3f-4a52-bed8-6bba3e9a0ba7"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/01a330ba-67c3-422d-a7c9-81b3244004eb",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/01a330ba-67c3-422d-a7c9-81b3244004eb/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5312,
+      "width": 3543,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=95",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/01a330ba-67c3-422d-a7c9-81b3244004eb/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=95#",
+              "body": {
+                "height": 5312,
+                "width": 3543,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5312,
+                  "width": 3543,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/01a330ba-67c3-422d-a7c9-81b3244004eb",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/01a330ba-67c3-422d-a7c9-81b3244004eb/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8b8968e9-e731-419a-9bbe-c807e84e4346"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 768,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 768
+              },
+              {
+                "width": 400,
+                "height": 300
+              },
+              {
+                "width": 200,
+                "height": 150
+              },
+              {
+                "width": 100,
+                "height": 75
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/a4af600d-359b-4815-80c5-56b9d5ca5e08",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/a4af600d-359b-4815-80c5-56b9d5ca5e08/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3543,
+      "width": 4724,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=94",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/a4af600d-359b-4815-80c5-56b9d5ca5e08/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-teaching-lab-03&n1=&n2=94#",
+              "body": {
+                "height": 3543,
+                "width": 4724,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3543,
+                  "width": 4724,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/a4af600d-359b-4815-80c5-56b9d5ca5e08",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/a4af600d-359b-4815-80c5-56b9d5ca5e08/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/591afc70-8470-4e13-9a31-4e601ef354e8"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

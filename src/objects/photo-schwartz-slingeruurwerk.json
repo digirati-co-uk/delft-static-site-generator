@@ -1,0 +1,1374 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the pendulum clock by Strasser & Rohde, on display at the depot of Stichting De Hollandse Cirkel, Kanaalweg 4"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2018"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johannes Schwartz"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/2018-erfgoed-slingeruurwerk",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/cecff2fb-80d6-4fe0-8cff-53893e3a7276",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/cecff2fb-80d6-4fe0-8cff-53893e3a7276/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7182,
+      "width": 5130,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=59",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/cecff2fb-80d6-4fe0-8cff-53893e3a7276/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=59#",
+              "body": {
+                "height": 7182,
+                "width": 5130,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7182,
+                  "width": 5130,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/cecff2fb-80d6-4fe0-8cff-53893e3a7276",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/cecff2fb-80d6-4fe0-8cff-53893e3a7276/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/4f6cf688-67fb-4da0-8168-21a8d0df16f7"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/4e964af9-a9fc-42fd-b88d-064601a03c82",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/4e964af9-a9fc-42fd-b88d-064601a03c82/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7293,
+      "width": 5209,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=60",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/4e964af9-a9fc-42fd-b88d-064601a03c82/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=60#",
+              "body": {
+                "height": 7293,
+                "width": 5209,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7293,
+                  "width": 5209,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/4e964af9-a9fc-42fd-b88d-064601a03c82",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/4e964af9-a9fc-42fd-b88d-064601a03c82/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b9f1fabb-a29c-412c-996c-a01695177074"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/08b8c28a-b26b-489e-ad80-8fb12e40f0cd",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/08b8c28a-b26b-489e-ad80-8fb12e40f0cd/full/full/0/default.jpg"
+        }
+      ],
+      "height": 6557,
+      "width": 4683,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=61",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/08b8c28a-b26b-489e-ad80-8fb12e40f0cd/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=61#",
+              "body": {
+                "height": 6557,
+                "width": 4683,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 6557,
+                  "width": 4683,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/08b8c28a-b26b-489e-ad80-8fb12e40f0cd",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/08b8c28a-b26b-489e-ad80-8fb12e40f0cd/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/72fbfcd0-c14a-4a13-8c47-1a1659eb49fb"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/0e6c6921-3764-4eac-a1e1-2f0c8b1d236a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/0e6c6921-3764-4eac-a1e1-2f0c8b1d236a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7095,
+      "width": 5067,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=62",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/0e6c6921-3764-4eac-a1e1-2f0c8b1d236a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=62#",
+              "body": {
+                "height": 7095,
+                "width": 5067,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7095,
+                  "width": 5067,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/0e6c6921-3764-4eac-a1e1-2f0c8b1d236a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/0e6c6921-3764-4eac-a1e1-2f0c8b1d236a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/5940c5f0-74eb-4599-ae33-b078cf8e39da"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 732,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 732,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/6b8c459b-f6e9-43f9-9e7f-963b2db72c6c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/6b8c459b-f6e9-43f9-9e7f-963b2db72c6c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7121,
+      "width": 5087,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=63",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/6b8c459b-f6e9-43f9-9e7f-963b2db72c6c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=63#",
+              "body": {
+                "height": 7121,
+                "width": 5087,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7121,
+                  "width": 5087,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/6b8c459b-f6e9-43f9-9e7f-963b2db72c6c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/6b8c459b-f6e9-43f9-9e7f-963b2db72c6c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/d20d3531-285f-4494-98cf-c2a594299982"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/8391f790-e94c-485d-8ae4-f03c8da73ede",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/8391f790-e94c-485d-8ae4-f03c8da73ede/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7245,
+      "width": 5175,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=64",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/8391f790-e94c-485d-8ae4-f03c8da73ede/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=64#",
+              "body": {
+                "height": 7245,
+                "width": 5175,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7245,
+                  "width": 5175,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/8391f790-e94c-485d-8ae4-f03c8da73ede",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/8391f790-e94c-485d-8ae4-f03c8da73ede/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/c7949604-212b-4c91-aa1e-f8123034e249"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/f12a96bc-eaf8-443d-950e-0267dd8f8245",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/f12a96bc-eaf8-443d-950e-0267dd8f8245/full/full/0/default.jpg"
+        }
+      ],
+      "height": 6937,
+      "width": 4955,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=65",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/f12a96bc-eaf8-443d-950e-0267dd8f8245/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=65#",
+              "body": {
+                "height": 6937,
+                "width": 4955,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 6937,
+                  "width": 4955,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/f12a96bc-eaf8-443d-950e-0267dd8f8245",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/f12a96bc-eaf8-443d-950e-0267dd8f8245/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/0cfd4957-0384-4a0d-8419-2758f907f4ba"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/be292452-4e4e-4073-84ba-29a45cc72ec8",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/be292452-4e4e-4073-84ba-29a45cc72ec8/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7082,
+      "width": 5059,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=66",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/be292452-4e4e-4073-84ba-29a45cc72ec8/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=66#",
+              "body": {
+                "height": 7082,
+                "width": 5059,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7082,
+                  "width": 5059,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/be292452-4e4e-4073-84ba-29a45cc72ec8",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/be292452-4e4e-4073-84ba-29a45cc72ec8/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/2969fb9f-1a2b-4458-a0ab-a6b0fb314694"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/cfed924f-39a8-45c0-9754-711608044c42",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/cfed924f-39a8-45c0-9754-711608044c42/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=67",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/cfed924f-39a8-45c0-9754-711608044c42/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=67#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/cfed924f-39a8-45c0-9754-711608044c42",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/cfed924f-39a8-45c0-9754-711608044c42/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e440a2f6-cec1-44b2-b210-ea6923568073"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/69269846-6bc5-4702-aa29-a70f56fef593",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/69269846-6bc5-4702-aa29-a70f56fef593/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=68",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/69269846-6bc5-4702-aa29-a70f56fef593/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=68#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/69269846-6bc5-4702-aa29-a70f56fef593",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/69269846-6bc5-4702-aa29-a70f56fef593/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/5bcd36e0-aeb4-4249-a14a-7540366eb180"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/0d19a5a0-de05-411d-83d0-d12bf55641fc",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/0d19a5a0-de05-411d-83d0-d12bf55641fc/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=69",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/0d19a5a0-de05-411d-83d0-d12bf55641fc/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=69#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/0d19a5a0-de05-411d-83d0-d12bf55641fc",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/0d19a5a0-de05-411d-83d0-d12bf55641fc/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/0b52fa1a-afc2-497f-872f-3b6544833f9e"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/22d38c22-ee71-4e50-a17f-ebaa9f17de9e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/22d38c22-ee71-4e50-a17f-ebaa9f17de9e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=70",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/22d38c22-ee71-4e50-a17f-ebaa9f17de9e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=70#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/22d38c22-ee71-4e50-a17f-ebaa9f17de9e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/22d38c22-ee71-4e50-a17f-ebaa9f17de9e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8377020a-774a-4c18-a450-195bfa674f85"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/ee44fad8-02e9-41c8-b9ea-5ce3d918c112",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/ee44fad8-02e9-41c8-b9ea-5ce3d918c112/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=71",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/ee44fad8-02e9-41c8-b9ea-5ce3d918c112/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=71#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/ee44fad8-02e9-41c8-b9ea-5ce3d918c112",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/ee44fad8-02e9-41c8-b9ea-5ce3d918c112/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/5dc526e6-4e29-4daf-b5d0-d52e5598999b"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/0177e304-9f99-4a79-a314-9071dbf279bb",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/0177e304-9f99-4a79-a314-9071dbf279bb/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=72",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/0177e304-9f99-4a79-a314-9071dbf279bb/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=72#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/0177e304-9f99-4a79-a314-9071dbf279bb",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/0177e304-9f99-4a79-a314-9071dbf279bb/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/056f5179-0bd9-4c02-97c2-ad80e7bd1152"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/f972ec90-d2cf-4351-949f-74326d4abfa7",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/f972ec90-d2cf-4351-949f-74326d4abfa7/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=73",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/f972ec90-d2cf-4351-949f-74326d4abfa7/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=73#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/f972ec90-d2cf-4351-949f-74326d4abfa7",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/f972ec90-d2cf-4351-949f-74326d4abfa7/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b026d814-61b8-488f-b70b-6cd316a279c8"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/b416b522-d24a-4d4a-82ee-170a2f9f4eb2",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/b416b522-d24a-4d4a-82ee-170a2f9f4eb2/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=74",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/b416b522-d24a-4d4a-82ee-170a2f9f4eb2/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=74#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/b416b522-d24a-4d4a-82ee-170a2f9f4eb2",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/b416b522-d24a-4d4a-82ee-170a2f9f4eb2/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/bbbbc71c-6f6f-4709-afc6-8c91c5300a55"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/6a49507a-c8c2-4f63-95c8-e630ec915cbd",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/6a49507a-c8c2-4f63-95c8-e630ec915cbd/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=75",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/6a49507a-c8c2-4f63-95c8-e630ec915cbd/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2018-erfgoed-slingeruurwerk&n1=&n2=75#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/6a49507a-c8c2-4f63-95c8-e630ec915cbd",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/6a49507a-c8c2-4f63-95c8-e630ec915cbd/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/ce3e9584-d3d7-495e-8660-a5e72135eb0d"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

@@ -1,0 +1,2154 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the 'From the highest point' exhibition at Panorama Mesdag (The Hague)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2019"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johannes Schwartz"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/2019-extern-vanaf-het-hoogste-punt",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/361e3a8e-3194-4d8a-86a2-afed54960a77",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/361e3a8e-3194-4d8a-86a2-afed54960a77/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=122",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/361e3a8e-3194-4d8a-86a2-afed54960a77/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=122#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/361e3a8e-3194-4d8a-86a2-afed54960a77",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/361e3a8e-3194-4d8a-86a2-afed54960a77/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/0c17a3f7-1be5-41d6-9a06-6474ee706c39"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/85f3e6e1-9b56-44eb-93b1-afdca33782c4",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/85f3e6e1-9b56-44eb-93b1-afdca33782c4/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=96",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/85f3e6e1-9b56-44eb-93b1-afdca33782c4/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=96#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/85f3e6e1-9b56-44eb-93b1-afdca33782c4",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/85f3e6e1-9b56-44eb-93b1-afdca33782c4/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/43973bb5-fa26-413c-9ebc-86f6d0c0925a"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/cf9cc166-4a16-4bc4-9365-2762ca4969f5",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/cf9cc166-4a16-4bc4-9365-2762ca4969f5/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=117",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/cf9cc166-4a16-4bc4-9365-2762ca4969f5/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=117#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/cf9cc166-4a16-4bc4-9365-2762ca4969f5",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/cf9cc166-4a16-4bc4-9365-2762ca4969f5/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/45c51cd9-87da-4564-860f-e173907e67de"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/4dc94345-8eff-4600-8c1a-c5fa898cdcae",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/4dc94345-8eff-4600-8c1a-c5fa898cdcae/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=120",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/4dc94345-8eff-4600-8c1a-c5fa898cdcae/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=120#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/4dc94345-8eff-4600-8c1a-c5fa898cdcae",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/4dc94345-8eff-4600-8c1a-c5fa898cdcae/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/fb953225-c400-42d7-a1ad-366c73ecc0b3"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/719b35d7-3fbc-481f-8299-5e76343ceca9",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/719b35d7-3fbc-481f-8299-5e76343ceca9/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=118",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/719b35d7-3fbc-481f-8299-5e76343ceca9/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=118#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/719b35d7-3fbc-481f-8299-5e76343ceca9",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/719b35d7-3fbc-481f-8299-5e76343ceca9/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/44e203b6-4324-46b2-9259-3149b58b7bb2"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/6ef3fa1b-aa4c-48d3-b946-4b5eb64486e6",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/6ef3fa1b-aa4c-48d3-b946-4b5eb64486e6/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=119",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/6ef3fa1b-aa4c-48d3-b946-4b5eb64486e6/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=119#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/6ef3fa1b-aa4c-48d3-b946-4b5eb64486e6",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/6ef3fa1b-aa4c-48d3-b946-4b5eb64486e6/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/de5a7bcd-341a-4f3e-8771-b9970ac547e5"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/e27aee8f-889a-4c66-922b-474013e1a8e2",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/e27aee8f-889a-4c66-922b-474013e1a8e2/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=97",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/e27aee8f-889a-4c66-922b-474013e1a8e2/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=97#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/e27aee8f-889a-4c66-922b-474013e1a8e2",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/e27aee8f-889a-4c66-922b-474013e1a8e2/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/ce216e30-ef82-4415-9442-a7216196d66e"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/9c339f6d-1433-4edd-b0d3-def44c8b7ccc",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/9c339f6d-1433-4edd-b0d3-def44c8b7ccc/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=99",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/9c339f6d-1433-4edd-b0d3-def44c8b7ccc/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=99#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/9c339f6d-1433-4edd-b0d3-def44c8b7ccc",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/9c339f6d-1433-4edd-b0d3-def44c8b7ccc/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/611d5341-37d8-4537-8bd0-acafa5888932"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 731,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 731,
+                "height": 1024
+              },
+              {
+                "width": 286,
+                "height": 400
+              },
+              {
+                "width": 143,
+                "height": 200
+              },
+              {
+                "width": 71,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/e4c50cb5-c620-4d88-b991-762dfe65b7a1",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/e4c50cb5-c620-4d88-b991-762dfe65b7a1/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7426,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=98",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/e4c50cb5-c620-4d88-b991-762dfe65b7a1/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=98#",
+              "body": {
+                "height": 7426,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7426,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/e4c50cb5-c620-4d88-b991-762dfe65b7a1",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/e4c50cb5-c620-4d88-b991-762dfe65b7a1/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8246e2d7-85f4-4bdc-92d6-6b9383f149ef"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/65774880-96cf-40af-9e8e-da5ddba3637e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/65774880-96cf-40af-9e8e-da5ddba3637e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=121",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/65774880-96cf-40af-9e8e-da5ddba3637e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=121#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/65774880-96cf-40af-9e8e-da5ddba3637e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/65774880-96cf-40af-9e8e-da5ddba3637e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/4201a070-7653-4b0c-ad49-4c6d8b179d6d"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/071b5fe0-8245-4f29-9473-e506540d7f0c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/071b5fe0-8245-4f29-9473-e506540d7f0c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=100",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/071b5fe0-8245-4f29-9473-e506540d7f0c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=100#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/071b5fe0-8245-4f29-9473-e506540d7f0c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/071b5fe0-8245-4f29-9473-e506540d7f0c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/cb9fad4f-1827-4b99-9abe-cced777d2073"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/17776575-0545-4f2e-9d37-fbee4312f238",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/17776575-0545-4f2e-9d37-fbee4312f238/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=113",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/17776575-0545-4f2e-9d37-fbee4312f238/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=113#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/17776575-0545-4f2e-9d37-fbee4312f238",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/17776575-0545-4f2e-9d37-fbee4312f238/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/845eb368-9bfe-4fc5-93c2-bcabc0145d6b"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/63f50cca-a381-48c1-934d-96894bdbce1a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/63f50cca-a381-48c1-934d-96894bdbce1a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=116",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/63f50cca-a381-48c1-934d-96894bdbce1a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=116#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/63f50cca-a381-48c1-934d-96894bdbce1a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/63f50cca-a381-48c1-934d-96894bdbce1a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e64058ca-280c-4933-90af-def492e8db11"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/e8a8247f-f5d9-4290-ad81-a4306443b469",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/e8a8247f-f5d9-4290-ad81-a4306443b469/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=115",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/e8a8247f-f5d9-4290-ad81-a4306443b469/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=115#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/e8a8247f-f5d9-4290-ad81-a4306443b469",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/e8a8247f-f5d9-4290-ad81-a4306443b469/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/cd03ee85-a8f7-46d3-a1e1-9c77cbef9a71"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/2853f402-607f-4467-95ca-471eb13f7ca5",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/2853f402-607f-4467-95ca-471eb13f7ca5/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=101",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/2853f402-607f-4467-95ca-471eb13f7ca5/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=101#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/2853f402-607f-4467-95ca-471eb13f7ca5",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/2853f402-607f-4467-95ca-471eb13f7ca5/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/230f3496-30b8-4993-8fd6-f84eaabe0de4"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/cf84d13c-f969-49dc-a402-e9528b25bf35",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/cf84d13c-f969-49dc-a402-e9528b25bf35/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=103",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/cf84d13c-f969-49dc-a402-e9528b25bf35/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=103#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/cf84d13c-f969-49dc-a402-e9528b25bf35",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/cf84d13c-f969-49dc-a402-e9528b25bf35/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/929edaca-8aa3-4a0a-954e-fdd003dde28d"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/7fd6f49b-18bf-4d2b-837b-931aa9b5464c",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/7fd6f49b-18bf-4d2b-837b-931aa9b5464c/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=112",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/7fd6f49b-18bf-4d2b-837b-931aa9b5464c/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=112#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/7fd6f49b-18bf-4d2b-837b-931aa9b5464c",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/7fd6f49b-18bf-4d2b-837b-931aa9b5464c/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/c56e632c-28d2-4c8d-8092-e919a942f28b"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/b6d4af30-1344-4b92-a326-190b47d5adb5",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/b6d4af30-1344-4b92-a326-190b47d5adb5/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=102",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/b6d4af30-1344-4b92-a326-190b47d5adb5/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=102#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/b6d4af30-1344-4b92-a326-190b47d5adb5",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/b6d4af30-1344-4b92-a326-190b47d5adb5/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/1d189d67-edc3-47b9-932e-e03b53a7e06f"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/05d8ef8e-1205-40ce-bb4b-1e18180abe32",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/05d8ef8e-1205-40ce-bb4b-1e18180abe32/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=104",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/05d8ef8e-1205-40ce-bb4b-1e18180abe32/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=104#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/05d8ef8e-1205-40ce-bb4b-1e18180abe32",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/05d8ef8e-1205-40ce-bb4b-1e18180abe32/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/9817e473-85fb-48e2-8073-43e5afd05e0e"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 683,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 683,
+                "height": 1024
+              },
+              {
+                "width": 267,
+                "height": 400
+              },
+              {
+                "width": 133,
+                "height": 200
+              },
+              {
+                "width": 67,
+                "height": 100
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/ffaa6759-dd22-42fd-af89-c30acbb1832f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/ffaa6759-dd22-42fd-af89-c30acbb1832f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 7952,
+      "width": 5304,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=105",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/ffaa6759-dd22-42fd-af89-c30acbb1832f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=105#",
+              "body": {
+                "height": 7952,
+                "width": 5304,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 7952,
+                  "width": 5304,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/ffaa6759-dd22-42fd-af89-c30acbb1832f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/ffaa6759-dd22-42fd-af89-c30acbb1832f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/23e082dc-5b42-4095-aa4f-7bacc5e85d06"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/291321b6-8fd9-4430-8411-5bd854ad5617",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/291321b6-8fd9-4430-8411-5bd854ad5617/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5260,
+      "width": 7886,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=108",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/291321b6-8fd9-4430-8411-5bd854ad5617/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=108#",
+              "body": {
+                "height": 5260,
+                "width": 7886,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5260,
+                  "width": 7886,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/291321b6-8fd9-4430-8411-5bd854ad5617",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/291321b6-8fd9-4430-8411-5bd854ad5617/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/64bd7f27-6880-4c83-bdbe-59c07607ce3e"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/6a9e74de-fa4f-4acf-a5db-c8da7334df87",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/6a9e74de-fa4f-4acf-a5db-c8da7334df87/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5266,
+      "width": 7895,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=107",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/6a9e74de-fa4f-4acf-a5db-c8da7334df87/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=107#",
+              "body": {
+                "height": 5266,
+                "width": 7895,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5266,
+                  "width": 7895,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/6a9e74de-fa4f-4acf-a5db-c8da7334df87",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/6a9e74de-fa4f-4acf-a5db-c8da7334df87/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/4bedebfc-e9b0-4199-951b-8f1b81c0c02b"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/7370368b-7e2e-4120-bc5a-611e12709795",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/7370368b-7e2e-4120-bc5a-611e12709795/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=106",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/7370368b-7e2e-4120-bc5a-611e12709795/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=106#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/7370368b-7e2e-4120-bc5a-611e12709795",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/7370368b-7e2e-4120-bc5a-611e12709795/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/12b67de7-973d-41a8-b890-cbf65823e4b0"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/0f09fbaa-7b29-40d4-9deb-561a7878adb8",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/0f09fbaa-7b29-40d4-9deb-561a7878adb8/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5304,
+      "width": 7952,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=114",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/0f09fbaa-7b29-40d4-9deb-561a7878adb8/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=114#",
+              "body": {
+                "height": 5304,
+                "width": 7952,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5304,
+                  "width": 7952,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/0f09fbaa-7b29-40d4-9deb-561a7878adb8",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/0f09fbaa-7b29-40d4-9deb-561a7878adb8/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/90e9f411-6f19-46ac-bb82-eb2af93d18a4"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/3a100e55-9bd0-4a46-b224-1b1f1ef48129",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/3a100e55-9bd0-4a46-b224-1b1f1ef48129/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5275,
+      "width": 7908,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=109",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/3a100e55-9bd0-4a46-b224-1b1f1ef48129/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=109#",
+              "body": {
+                "height": 5275,
+                "width": 7908,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5275,
+                  "width": 7908,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/3a100e55-9bd0-4a46-b224-1b1f1ef48129",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/3a100e55-9bd0-4a46-b224-1b1f1ef48129/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/d8ca44b6-e047-4294-8b9a-1b0618376de7"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/57bb7e72-4549-4629-81ca-1d61e4279a2d",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/57bb7e72-4549-4629-81ca-1d61e4279a2d/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5275,
+      "width": 7908,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=110",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/57bb7e72-4549-4629-81ca-1d61e4279a2d/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=110#",
+              "body": {
+                "height": 5275,
+                "width": 7908,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5275,
+                  "width": 7908,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/57bb7e72-4549-4629-81ca-1d61e4279a2d",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/57bb7e72-4549-4629-81ca-1d61e4279a2d/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/9543aebd-95c3-41cf-8cc9-0fa422b76782"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/c1f27b30-9b26-4c1c-89ea-784d31f8370e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/c1f27b30-9b26-4c1c-89ea-784d31f8370e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5275,
+      "width": 7908,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=111",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/c1f27b30-9b26-4c1c-89ea-784d31f8370e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-extern-vanaf-het-hoogste-punt&n1=&n2=111#",
+              "body": {
+                "height": 5275,
+                "width": 7908,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5275,
+                  "width": 7908,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/c1f27b30-9b26-4c1c-89ea-784d31f8370e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/c1f27b30-9b26-4c1c-89ea-784d31f8370e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/caba274d-068c-4fd2-b374-1a4b0879d91b"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}
