@@ -9,7 +9,20 @@ const substituteSpecialLinks = (html, pageContext) => html.replace(
       const hasThumbnail = p3 && pageContext && pageContext.thumbnails
         && pageContext.thumbnails.hasOwnProperty(p3.substr(1));
       if (hasThumbnail) {
-        return `<a href="/${p2}${p3}" class="cover-link" style="background-image: url(${pageContext.thumbnails[p3.substr(1)]});"><div class="boxtitle">${p4}</div><div class="maintitle">${p5}</div><div></div></a>`;
+        let template = `
+          <a href="/${p2}${p3}" class="cover-link">
+            <div class="image">
+              <img class="bg" src="${pageContext.thumbnails[p3.substr(1)]}">
+            </div>
+            <div class="content">
+              <div class="boxtitle">${p4}</div>
+              <div class="maintitle">${p5}</div>
+              <div></div>
+            </div>
+
+          </a>
+        `;
+        return template;
       }
         return `<a href="/${p2}${p3}"><div class="boxtitle">${p4}</div><div class="maintitle">${p5}</div><div></div></a>`;
     },

@@ -4,16 +4,14 @@ date: "2018-11-15"
 title: "Academic Heritage"
 ---
 
-# TU Delft's Academic Heritage
-
-Welcome! This is the portal to TU Delft's Academic Heritage and the Special Collections of TU Delft Library. Visit [online exhibitions](/en/exhibitions/), browse the [digital collections](/en/collections/), learn more about the [history of the university](/en/publications/) or [get in touch](/en/about/) with the Academic Heritage Team of TU Delft Library.
+##### Welcome! This is the portal to TU Delft's Academic Heritage and the Special Collections of TU Delft Library. Visit [online exhibitions](/en/exhibitions/), browse the [digital collections](/en/collections/), learn more about the [history of the university](/en/publications/) or [get in touch](/en/about/) with the Academic Heritage Team of TU Delft Library.
 
 <div class="blocks">
-<div class="block cutcorners w-5 h-8 image">
+<div class="block tint yellow cutcorners w-5 h-8 image">
 
 [Rise of a Campus](/en/exhibitions/rise-of-a-campus)
 </div>
-<div class="block cutcorners w-7 h-5 image">
+<div class="block tint copper cutcorners w-7 h-5 image">
 
 [Floor plans](/en/collections/tu-cre-tib)
 </div>

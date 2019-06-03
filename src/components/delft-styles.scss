@@ -39,8 +39,6 @@ main {
   h2,
   h3,
   h4,
-  h5,
-  h6,
  &>p,
   .footnotes,
  &>pre,
@@ -59,9 +57,7 @@ main {
   h1,
   h2,
   h3,
-  h4,
-  h5,
-  h6 {
+  h4 {
     font-family: 'f-medium';
     font-size: 2rem;
     line-height: 2rem;
@@ -90,7 +86,18 @@ main {
   }
 }
 
- 
+
+h5 {
+ font-size: 1.2rem;
+ font-weight: 500;
+ text-align: center;
+ max-width: 39rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ margin: 2rem auto 1rem auto;
+ line-height: 1.4;
+}
+
 
 
 @media screen and (min-width: 640px) {
@@ -98,8 +105,6 @@ main {
   h2,
   h3,
   h4,
-  h5,
-  h6,
   p,
   pre,
   ol,
@@ -201,11 +206,12 @@ main {
 }
 
 .cover-link {
+  display: block;
   width: 100%;
   height: 100%;
   position: absolute;
   text-transform: uppercase;
-  color: black;
+  // color: black;
   text-decoration: none;
   // font-family: georgia, serif;
   // font-weight: bold;
@@ -217,9 +223,28 @@ main {
   background-position: center;
   margin: 0;
   border-bottom: 0;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
+  .content {
+    display: flex;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+  }
+  .image {
+    position:  absolute;
+    z-index: -1;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+    img.bg {
+      width: 100%;
+      height: 100%;
+      object-fit:cover;
+      filter:grayscale(100%);
+    }
+  }
   @media #{$small-down} {
     position: relative;
     grid-row: auto / span 4;
@@ -227,7 +252,7 @@ main {
   }
 }
 
-.cover-link:after {
+.cover-link .image:after {
   content: ' ';
   
   width: 100%;
@@ -239,9 +264,20 @@ main {
   opacity: 0.9;
 }
 
-.block:nth-child(2n+1) .cover-link:after {
-  background: #e1c136;
+.block.tint {
+  color:white;
 }
+
+.block.yellow.tint .image:after {
+  background-color: #e1c136;
+}
+.block.copper.tint .cover-link .image:after {
+  background-color: rgba(235,113,74,1);
+}
+
+// .block:nth-child(2n+1) .cover-link:after {
+//   background: #e1c136;
+// }
 // .block:nth-child(2n) .cover-link:after {
 //   background: #ff7945;
 // }
