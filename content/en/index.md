@@ -11,7 +11,7 @@ title: "Academic Heritage"
 
 [Rise of a Campus](/en/exhibitions/rise-of-a-campus)
 </div>
-<div class="block tint copper cutcorners w-7 h-5 image">
+<div class="block cutcorners w-7 h-5 image">
 
 [Floor plans](/en/collections/tu-cre-tib)
 </div>
@@ -25,7 +25,7 @@ Would you like to become a friend? Please visit the website of <a href="http://b
 
 [Pendulum clock](/en/objects/photo-schwartz-slingeruurwerk)
 </div>
-<div class="block cutcorners w-8 h-4 title">
+<div class="block tint copper cutcorners w-8 h-4 title">
 
 Since 2017, when TU Delft celebrated its 175th anniversary, the university has been investing in raising the profile of its academic heritage by improving the preservation of its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 </div>
