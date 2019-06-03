@@ -4,12 +4,10 @@ date: "2018-11-15"
 title: "Academisch Erfgoed"
 ---
 
-# Academisch Erfgoed van de TU Delft
-
-Welkom! Dit is het digitale portaal voor het Academisch Erfgoed van de TU Delft en de Bijzondere Collecties van de TU Delft Library. Bezoek [online tentoonstellingen](/nl/exhibitions/), verken de [digitale collecties](/nl/collections/), lees meer over de [geschiedenis van de universiteit](/nl/publications/) of neem [contact](/nl/about/) op met het Academisch Erfgoed Team van de TU Delft Library.
+##### Welkom! Dit is het digitale portaal voor het Academisch Erfgoed van de TU Delft en de Bijzondere Collecties van de TU Delft Library. Bezoek [online tentoonstellingen](/nl/exhibitions/), verken de [digitale collecties](/nl/collections/), lees meer over de [geschiedenis van de universiteit](/nl/publications/) of neem [contact](/nl/about/) op met het Academisch Erfgoed Team van de TU Delft Library.
 
 <div class="blocks">
-<div class="block cutcorners w-5 h-8 image">
+<div class="block tint yellow cutcorners w-5 h-8 image">
 
 [Rise of a Campus](/nl/exhibitions/rise-of-a-campus)
 </div>
@@ -23,7 +21,7 @@ Welkom! Dit is het digitale portaal voor het Academisch Erfgoed van de TU Delft 
 Vrienden worden? Bezoek ook de website van <a href="http://beta.histechnica.nl">Histechnica</a>, de vriendenvereniging van het Academisch Erfgoed van de TU delft.
 
 </div>
-<div class="block cutcorners w-4 h-7 image">
+<div class="block tint copper cutcorners w-4 h-7 image">
 
 [Slingeruurwerk](/nl/objects/photo-schwartz-slingeruurwerk)
 </div>
