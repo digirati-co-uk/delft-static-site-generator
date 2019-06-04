@@ -181,20 +181,15 @@
           "items": [
             {
               "type": "Annotation",
-              "label": {
-                "en": [
-                  "About"
-                ]
-              },
-              "motivation": "layout-viewport-focus",
               "body": {
                 "type": "TextualBody",
-                "value": "",
+                "value": "null",
                 "format": "text/plain",
                 "language": "en"
               },
-              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/40556453-9668-6244-8b0f-25d241839c95",
-              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/fdb5d955-6903-ad1e-7532-01744ac08747#xywh=0,0,1000,666.6666666666666",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/fdb5d955-6903-ad1e-7532-01744ac08747#xywh=0,0,300,200",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/e68b05cd-0062-1279-0f7f-1666473439b5",
+              "motivation": "painting",
               "summary": {
                 "en": [
                   "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere. ",
@@ -202,6 +197,11 @@
                   "The campus of Delft University of Technology (TU Delft) is special. It is the oldest Dutch university campus. The first steps towards establishing the campus were taken around 1900 when the university was in need of modern buildings for research and education. The groundwork for the campus as we know it today was laid after the Second World War. But that was not the end of the story. Beginning in the 1980s, the campus underwent a series of transformations, which challenged the original concept. ",
                   "",
                   "In this exhibition, a brief and selective history of the Delft campus and its changes over time are presented. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Rise of a Campus"
                 ]
               }
             }
@@ -224,7 +224,7 @@
     {
       "label": {
         "en": [
-          "Untitled Canvas"
+          "3ME"
         ]
       },
       "height": 1000,
@@ -1131,7 +1131,8 @@
         ]
       },
       "behavior": [
-        "w-8",
+        "row",
+        "w-6",
         "h-8"
       ]
     },
@@ -1282,7 +1283,7 @@
       ],
       "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/570cca77-27d0-5de8-10a8-17148dd13e41",
       "behavior": [
-        "w-4",
+        "w-6",
         "h-8"
       ]
     }
