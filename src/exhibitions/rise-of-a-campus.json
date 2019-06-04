@@ -209,10 +209,9 @@
         }
       ],
       "behavior": [
-        "layout-split",
-        "info-position-left",
         "info",
-        "h-4"
+        "h-4",
+        "w-4"
       ],
       "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/fdb5d955-6903-ad1e-7532-01744ac08747",
       "summary": {
@@ -1131,7 +1130,7 @@
         ]
       },
       "behavior": [
-        "row",
+        "column",
         "w-6",
         "h-8"
       ]
