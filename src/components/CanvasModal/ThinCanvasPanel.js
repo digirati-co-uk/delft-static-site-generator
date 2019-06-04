@@ -29,6 +29,23 @@ const getHashParams = (uri) => {
   return {};
 };
 
+const ensureInfoJson = url => (url.endsWith('/info.json')
+    ? url
+    : `${url}/info.json`);
+
+const getTileSourceUrl = (service) => {
+  if (Array.isArray(service)) {
+    if (typeof service[0] === 'string') {
+      return ensureInfoJson(service[0]);
+    }
+    return ensureInfoJson(service[0].id);
+  }
+    if (typeof service === 'string') {
+      return ensureInfoJson(service);
+    }
+    return ensureInfoJson(service.id);
+};
+
 const parseVideo = (url) => {
   // - Supported YouTube URL formats:
   //   - http://www.youtube.com/watch?v=My2FRPA3Gf8
@@ -189,6 +206,7 @@ class ThinCanvasPanel extends React.Component {
     });
   }
 
+
   displayAnnotationsOnCanvas = () => {
     const { canvas, navItemsCallback, currentNavItem } = this.props;
     this.navItems = [];
@@ -203,17 +221,10 @@ class ThinCanvasPanel extends React.Component {
       switch (annotation.body.type) {
         case 'Image':
           delete coords.height;
-          if (annotation.body.service && annotation.body.service.length > 0) {
-            this.viewer.addTiledImage({
-              tileSource: `${annotation.body.service[0].id}/info.json`,
-              ...coords,
-            });
-          } else {
-            this.viewer.addTiledImage({
-              tileSource: annotation.body.id,
-              ...coords,
-            });
-          }
+          this.viewer.addTiledImage({
+            tileSource: getTileSourceUrl(annotation.body.service),
+            ...coords,
+          });
 
           break;
         case 'Video':
