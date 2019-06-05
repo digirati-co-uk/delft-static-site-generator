@@ -85,6 +85,8 @@ class ExhibitionPage extends React.Component {
         <AnnotationBodyRenderer
           key={key}
           body={annotation.body}
+          annotation={annotation}
+          canvas={canvas}
           position={xywhResolver(annotation, canvas)}
           pageLanguage={pageLanguage}
         />
