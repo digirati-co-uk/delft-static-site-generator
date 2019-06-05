@@ -879,7 +879,9 @@
       "behavior": [
         "layout-split",
         "info-position-left",
-        "info"
+        "info",
+        "w-4",
+        "h-4"
       ],
       "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/eb7a4b91-e7c4-a664-555e-73aa6e0683cd",
       "summary": {
@@ -1427,9 +1429,9 @@
         }
       ],
       "behavior": [
-        "layout-split",
-        "info-position-left",
-        "info"
+        "info",
+        "w-4",
+        "h-4"
       ],
       "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/d288a797-5dbb-9b11-02ec-6740c0f2bde8",
       "summary": {
