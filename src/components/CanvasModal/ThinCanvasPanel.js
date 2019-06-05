@@ -206,6 +206,44 @@ class ThinCanvasPanel extends React.Component {
     });
   }
 
+  getAnnotationCrop = (annotation, canvas) => {
+    if (annotation && annotation.body && annotation.body.id) {
+      const iiifPathParts = annotation.body.id.split('/');
+      const xywh = iiifPathParts[iiifPathParts.length - 4];
+      if (xywh !== 'full' && xywh !== 'max') {
+        return parseXYWH(xywh);
+        // const coords = parseXYWH(xywh);
+        // return {
+        //   clip: new OpenSeadragon.Rect(
+        //     coords.x,
+        //     coords.y,
+        //     coords.width,
+        //     coords.height,
+        //   ),
+        // };
+      }
+    }
+  }
+
+  computeImageCords = (realCords, crop, annotation, canvas) => {
+    if (!crop) {
+      return this.convertCoordsToViewportRelative(
+        realCords,
+        canvas,
+      );
+    }
+    const ratioX = crop.width / annotation.body.width;
+    const ratioD = realCords.width / crop.width;
+    return this.convertCoordsToViewportRelative(
+      {
+        x: realCords.x - (crop.x * ratioD), // parseInt((realCords.x / ratioX), 10),
+        y: realCords.y - (crop.y * ratioD), // parseInt((realCords.y / ratioY), 10),
+        width: parseInt(realCords.width / ratioX, 10),
+        height: parseInt(realCords.height / ratioX, 10),
+      },
+      canvas,
+    );
+  };
 
   displayAnnotationsOnCanvas = () => {
     const { canvas, navItemsCallback, currentNavItem } = this.props;
@@ -220,12 +258,23 @@ class ThinCanvasPanel extends React.Component {
       );
       switch (annotation.body.type) {
         case 'Image':
-          delete coords.height;
+          const realCords = parseXYWH(getHashParams(annotation.target || '').xywh);
+          const crop = this.getAnnotationCrop(annotation, canvas);
+          const computedImageCords = this.computeImageCords(realCords, crop, annotation, canvas);
+          delete computedImageCords.height;
+
           this.viewer.addTiledImage({
             tileSource: getTileSourceUrl(annotation.body.service),
-            ...coords,
+            ...computedImageCords,
+            ...(crop ? {
+                  clip: new OpenSeadragon.Rect(
+                    crop.x,
+                    crop.y,
+                    crop.width,
+                    crop.height,
+                  ),
+                } : {}),
           });
-
           break;
         case 'Video':
           this.viewer.addOverlay(

@@ -89,6 +89,7 @@ class ExhibitionPage extends React.Component {
           canvas={canvas}
           position={xywhResolver(annotation, canvas)}
           pageLanguage={pageLanguage}
+          canvasSize={this.getCanvasPhysicalSize(canvas)}
         />
       ) : (
         <div
@@ -173,6 +174,19 @@ class ExhibitionPage extends React.Component {
       return textClasses;
     }, ['block', 'image', 'cutcorners']).join(' ');
   }
+
+  getCanvasPhysicalSize = canvas => this.getBlockImageClasses(canvas).split(' ')
+    .reduce((_canvasSize, className) => {
+      if (className.startsWith('w-')) {
+        _canvasSize.width = parseInt(className.substr(2), 10) * 100;
+      } else if (className.startsWith('h-')) {
+        _canvasSize.height = parseInt(className.substr(2), 10) * 100;
+      }
+      return _canvasSize;
+    }, {
+      width: 1200,
+      height: 1200,
+    });
 
   getBlockTextClasses = (canvas) => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
