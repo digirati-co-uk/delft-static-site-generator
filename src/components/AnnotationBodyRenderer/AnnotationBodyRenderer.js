@@ -20,30 +20,64 @@ const AnnotationPositionType = PropTypes.shape({
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 });
 
-const IIIFImageAnnotationCover = ({ body, position }) => {
-  if (!body.service) {
+const imageCanvasRealiveSize = (bodyId, canvas) => {
+  const pathParts = bodyId.split('/');
+  const xywh = pathParts[pathParts.length - 4];
+  if (xywh !== 'full') {
+    const [x, y, w, h] = xywh.split(',');
+    return {
+      width: parseInt(w, 10) / parseInt(canvas.width, 10),
+      height: parseInt(h, 10) / parseInt(canvas.height, 10),
+    };
+  }
+  return {
+    width: 1,
+    height: 1,
+  };
+};
+
+const IIIFImageAnnotationCover = ({
+ body, position, annotation, canvas, canvasSize: canvasPhysicalSize = { width: 1200, height: 1200 },
+}) => {
+  if (!body) {
+    return ('error');
+  }
+  // console.log('IIIFImageAnnotationCover', body, position, annotation, canvas);
+  // const canvasPhysicalSize = convertBehaviourToPhysicalSize(canvas);
+  if (body.id) {
+    const imageRelativeSize = imageCanvasRealiveSize(body.id, canvas);
+    canvasPhysicalSize.width /= imageRelativeSize.width;
+    canvasPhysicalSize.height /= imageRelativeSize.height;
     return (
       <img
-        src={body.id}
+        src={
+          body.id.replace('/full/0/default.jpg', `/!${parseInt(canvasPhysicalSize.width, 10)},${parseInt(canvasPhysicalSize.height, 10)}/0/default.jpg`)
+        }
         style={position}
-        alt=""
+        alt={body.id}
       />
     );
   }
-  const service = (Array.isArray(body.service) ? body.service[0] : body.service);
-  const id = service['@id'] || service.id;
-  return (
-    <img
-      src={`${id.replace('info.json', '')}/full/full/0/default.jpg`}
-      style={position}
-      alt=""
-    />
-  );
+  if (body.service) {
+    const service = (Array.isArray(body.service) ? body.service[0] : body.service);
+    const id = service['@id'] || service.id;
+    return (
+      <img
+        src={
+          `${id.replace('info.json', '')}/full/!${canvasPhysicalSize.width},${canvasPhysicalSize.height}/0/default.jpg`
+        }
+        style={position}
+        alt={id}
+      />
+    );
+  }
 };
 
 IIIFImageAnnotationCover.propTypes = {
   body: AnnotationBodyType,
   position: AnnotationPositionType,
+  canvas: PropTypes.any,
+  annotation: PropTypes.any,
 };
 
 IIIFImageAnnotationCover.defaultProps = {
@@ -100,16 +134,18 @@ IIIFTextAnnotationCover.defaultProps = {
 };
 
 
-export const AnnotationBodyRenderer = ({ body, position, pageLanguage }) => {
+export const AnnotationBodyRenderer = ({
+ body, position, pageLanguage, annotation, canvas, canvasSize,
+}) => {
   switch (body.type) {
     case 'Choice':
       return filterToPreferredChoices(body.items, pageLanguage).map(
-        choice => <AnnotationBodyRenderer body={choice} position={position} />,
+        choice => <AnnotationBodyRenderer body={choice} position={position} annotation={annotation} canvas={canvas} canvasSize={canvasSize} />,
       );
     case 'Video':
       return <IIIFVideoAnnotationCover body={body} position={position} />;
     case 'Image':
-      return <IIIFImageAnnotationCover body={body} position={position} />;
+      return <IIIFImageAnnotationCover body={body} position={position} annotation={annotation} canvas={canvas} canvasSize={canvasSize} />;
     case 'Text':
       return <IIIFTextAnnotationCover style={position} body={body} />;
     default:
@@ -121,6 +157,8 @@ AnnotationBodyRenderer.propTypes = {
   body: AnnotationBodyType,
   position: AnnotationPositionType,
   pageLanguage: PropTypes.string,
+  annotation: PropTypes.any,
+  canvas: PropTypes.any,
 };
 
 AnnotationBodyRenderer.defaultProps = {

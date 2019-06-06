@@ -9,7 +9,11 @@ title: "Exhibitions"
 ## TU Delft Aula
 
 <div class="blocks">
-<div class="block cutcorners w-4 h-4 image">
+<div class="block tint yellow cutcorners w-4 h-4 image">
+
+[Test](/en/exhibitions/test)
+</div>
+<div class="block tint copper cutcorners w-4 h-4 image">
 
 [Rise of a campus](/en/exhibitions/rise-of-a-campus)
 </div>

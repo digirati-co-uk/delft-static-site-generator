@@ -119,7 +119,9 @@ const getManifestThumbnail = (manifest) => {
     thumbnail = getCanvasThumbnail(manifest.posterCanvas);
   }
 
-  if (!thumbnail && manifest.items.length > 0) {
+  if (!thumbnail
+    && Array.isArray(manifest.items)
+    && manifest.items.length > 0) {
     manifest.items.forEach((canvas) => {
       if (!thumbnail) {
         thumbnail = getCanvasThumbnail(canvas);
@@ -333,7 +335,9 @@ exports.createPages = ({ actions, graphql }) => {
           .reduce((_annos, [key]) => {
             try {
               _annos[key] = objectMeta.annotationsPartOfObjects[key][0][1];
-            } catch (err) {}
+            } catch (err) {
+              // console.log(key, err);
+            }
             return _annos;
           }, {});
         exhibition.context.annotationDetails = annos;

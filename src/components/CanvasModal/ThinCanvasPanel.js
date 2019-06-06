@@ -29,6 +29,23 @@ const getHashParams = (uri) => {
   return {};
 };
 
+const ensureInfoJson = url => (url.endsWith('/info.json')
+    ? url
+    : `${url}/info.json`);
+
+const getTileSourceUrl = (service) => {
+  if (Array.isArray(service)) {
+    if (typeof service[0] === 'string') {
+      return ensureInfoJson(service[0]);
+    }
+    return ensureInfoJson(service[0].id);
+  }
+    if (typeof service === 'string') {
+      return ensureInfoJson(service);
+    }
+    return ensureInfoJson(service.id);
+};
+
 const parseVideo = (url) => {
   // - Supported YouTube URL formats:
   //   - http://www.youtube.com/watch?v=My2FRPA3Gf8
@@ -189,6 +206,45 @@ class ThinCanvasPanel extends React.Component {
     });
   }
 
+  getAnnotationCrop = (annotation, canvas) => {
+    if (annotation && annotation.body && annotation.body.id) {
+      const iiifPathParts = annotation.body.id.split('/');
+      const xywh = iiifPathParts[iiifPathParts.length - 4];
+      if (xywh !== 'full' && xywh !== 'max') {
+        return parseXYWH(xywh);
+        // const coords = parseXYWH(xywh);
+        // return {
+        //   clip: new OpenSeadragon.Rect(
+        //     coords.x,
+        //     coords.y,
+        //     coords.width,
+        //     coords.height,
+        //   ),
+        // };
+      }
+    }
+  }
+
+  computeImageCords = (realCords, crop, annotation, canvas) => {
+    if (!crop) {
+      return this.convertCoordsToViewportRelative(
+        realCords,
+        canvas,
+      );
+    }
+    const ratioX = crop.width / annotation.body.width;
+    const ratioD = realCords.width / crop.width;
+    return this.convertCoordsToViewportRelative(
+      {
+        x: realCords.x - (crop.x * ratioD), // parseInt((realCords.x / ratioX), 10),
+        y: realCords.y - (crop.y * ratioD), // parseInt((realCords.y / ratioY), 10),
+        width: parseInt(realCords.width / ratioX, 10),
+        height: parseInt(realCords.height / ratioX, 10),
+      },
+      canvas,
+    );
+  };
+
   displayAnnotationsOnCanvas = () => {
     const { canvas, navItemsCallback, currentNavItem } = this.props;
     this.navItems = [];
@@ -202,19 +258,23 @@ class ThinCanvasPanel extends React.Component {
       );
       switch (annotation.body.type) {
         case 'Image':
-          delete coords.height;
-          if (annotation.body.service && annotation.body.service.length > 0) {
-            this.viewer.addTiledImage({
-              tileSource: `${annotation.body.service[0].id}/info.json`,
-              ...coords,
-            });
-          } else {
-            this.viewer.addTiledImage({
-              tileSource: annotation.body.id,
-              ...coords,
-            });
-          }
+          const realCords = parseXYWH(getHashParams(annotation.target || '').xywh);
+          const crop = this.getAnnotationCrop(annotation, canvas);
+          const computedImageCords = this.computeImageCords(realCords, crop, annotation, canvas);
+          delete computedImageCords.height;
 
+          this.viewer.addTiledImage({
+            tileSource: getTileSourceUrl(annotation.body.service),
+            ...computedImageCords,
+            ...(crop ? {
+                  clip: new OpenSeadragon.Rect(
+                    crop.x,
+                    crop.y,
+                    crop.width,
+                    crop.height,
+                  ),
+                } : {}),
+          });
           break;
         case 'Video':
           this.viewer.addOverlay(
