@@ -42,7 +42,7 @@ const CollectionPage = ({ pageContext, '*': path }) => {
     <Layout language={pageLanguage} path={path}>
       <main>
         <div className="blocks blocks--auto-height">
-          <aside className="w-4">
+          <aside className="w-min-4">
             <div className="block title cutcorners w-4 h-4 title--fountain-blue">
               <div className="boxtitle">Collection</div>
               <div className="maintitle">
@@ -51,15 +51,15 @@ const CollectionPage = ({ pageContext, '*': path }) => {
               </div>
               <div className="boxtitle">{curator}</div>
             </div>
-            <div className="block info cutcorners w-4">{summary}</div>
+            <div className="block info cutcorners w-min-4">{summary}</div>
           </aside>
           <article className="w-8">
             {
             items.map(
               manifest => (
-                <div key={`collection__${objectLinks[manifest.id || manifest['@id']]}`} className="w-4 h-6 block--align-right">
-                  <div className="block w-3 h-6">
-                    <div className="block image cutcorners w-3 h-3">
+                <div key={`collection__${objectLinks[manifest.id || manifest['@id']]}`} className="w-4 h-min-6 block--align-right">
+                  <div className="block collection-item w-3 h-min-4">
+                    <div className="block aspectratio-square image cutcorners w-3 h-3">
                       <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />
                     </div>
                     <p className="collection-list__label">{translate(manifest.label, pageLanguage)}</p>

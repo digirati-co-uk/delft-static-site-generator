@@ -63,11 +63,13 @@ main {
   //  margin-left: 20px;
   //  margin-right: 20px;
   //  padding: 0 1rem;
+  margin:0;
   padding: 0 2rem;
-  margin-bottom: 1rem;
+  // margin-top: 1em;
+  // margin-bottom: 1em;
   @media #{$small-down} {
     max-width: 30rem;
-    margin: 1rem auto 1rem;
+    // margin: 1rem auto 1rem;
   }
  }
   h1,
@@ -75,10 +77,11 @@ main {
   h3,
   h4 {
     font-family: 'f-medium';
-    font-size: 2rem;
-    line-height: 2rem;
-    letter-spacing: 0.3px;
     font-weight: normal;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-top:2rem;
   }
   p {
     font-size: 1.625rem;
@@ -111,22 +114,11 @@ h5 {
   max-width: 60rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin: 3rem auto 1rem auto;
+  margin: 0 auto;
+  margin-bottom:2rem;
   line-height: 1.4;
-}
-
-
-
-@media screen and (min-width: 640px) {
-  h1,
-  h2,
-  h3,
-  h4,
-  p,
-  pre,
-  ol,
-  ul {
-    margin-top: 1em;
+  a {
+    text-transform: uppercase;
   }
 }
 
@@ -212,8 +204,9 @@ h5 {
 }
   
 .bg-yellow {
-  background: #e1c136;
+  background-color: #e1c136;
 }
+
 
 .light, 
 .light a,
@@ -227,7 +220,9 @@ h5 {
   width: 100%;
   height: 100%;
   position: absolute;
-  text-transform: uppercase;
+  .boxtitle {
+    text-transform: uppercase;
+  }
   // color: black;
   text-decoration: none;
   // font-family: georgia, serif;
@@ -235,7 +230,7 @@ h5 {
   // font-size: 2rem;
   // line-height: 1.2;
   // text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -291,6 +286,9 @@ h5 {
 .block.copper.tint .cover-link .image:after {
   background-color: rgba(235,113,74,1);
 }
+.block.purple.tint .cover-link .image:after {
+  background-color: #8658e0;;
+}
 
 // .block:nth-child(2n+1) .cover-link:after {
 //   background: #e1c136;
@@ -303,21 +301,21 @@ h5 {
 //   background: #50b8c1;
 // }
 
-.cover-link>span {
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  color: black;
-  font-weight: bold;
-  padding: 8px 0;
-  //font-family: 'Courier New', Courier, monospace;
-  font-family: 'f-mono';
-  font-size: 1rem;
-}
+// .cover-link>span {
+//   position: absolute;
+//   display: block;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   text-align: center;
+//   text-transform: uppercase;
+//   color: black;
+//   font-weight: bold;
+//   padding: 8px 0;
+//   //font-family: 'Courier New', Courier, monospace;
+//   font-family: 'f-mono';
+//   font-size: 1rem;
+// }
 
 .footnotes li p {
   display: inline;
@@ -346,7 +344,7 @@ h5 {
   display: inline-block;
   position: relative;
   object-fit: cover;
-  max-height: 300px;
+  // max-height: 300px;
 }
 
 .object-link__details {
@@ -380,14 +378,14 @@ h5 {
 a,
 .facts {
 	font-family: 'f-mono';
-  font-size: 0.8em;
+  // font-size: 0.8em;
   line-height: 1.2;
 }
 a {
 	color: inherit;
 	text-decoration: none;
 	border-bottom: 0.1em solid;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 button.readmore {
@@ -402,28 +400,39 @@ $gw: 100px; // basic unit for the grid
 $width: 1rem; // width of the chamfered edges
 
 //grid based on fixed px dimensions 12 columns wide
-@media #{$large-up} {
-	@for $i from 1 through 12 {
-		.w-#{$i} {
-			grid-column: auto / span #{$i};
-			width: #{$i*100}px;
-		}
-		.h-#{$i} {
-			grid-row: auto / span #{$i};
-			height: #{$i*100}px;
-		}
-	}
 
+@for $i from 1 through 12 {
+  @media #{$large-up} {
+    .w-#{$i} {
+      grid-column: auto / span #{$i};
+      width: #{$i*100}px;
+    }
+    .h-#{$i} {
+      grid-row: auto / span #{$i};
+      height: #{$i*100}px;
+    }
+    .w-min-#{$i} {
+      grid-column: auto / span #{$i};
+      width: #{$i*100}px;
+      min-height: #{$i*100}px;
+    }
+ 
+  }
+  @media #{$medium-down} {
+    .aspectratio-square {
+      padding-bottom:100%;
+    }
+  }
 }
-
 
 
 
 main {
   max-width: calc(1200px + 2rem);
-  margin: 0 auto;
+  margin: 1.5rem auto;
+  padding:0.5rem;
 	.blocks {
-		padding:1rem;
+		margin:1rem;
 		@media #{$large-up} {
 			display: grid;
 			grid-template-columns: repeat(12, #{$gw});
@@ -463,7 +472,7 @@ main {
 
 		.title,
 		.info {
-			padding:2rem;
+			padding:1.5rem;
 		}
 		.title {
 			background-color: rgb(225,193,54);
@@ -616,6 +625,13 @@ main {
     line-height: 2.3rem;
     margin-top: 0.6rem;
   }
+}
+
+.collection-item {
+  .image {
+    margin-bottom: 1rem;
+  }
+  margin-bottom:2rem;
 }
 
 .collection-list {
