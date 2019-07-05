@@ -17,14 +17,14 @@
 // blocks 
 $pico: "(max-width: 350px)";
 $mini-down: "(max-width: 600px)";
-$small: "(min-width: 601px) and (max-width: 900px)";
+$small: "(min-width: 601px) and (max-width: 980px)";
 $small-up: "(min-width: 601px)";
 $small-down: "(max-width: 980px)";
-$medium: "(min-width: 981px) and (max-width: 1200px)";
+$medium: "(min-width: 981px) and (max-width: 1230px)";
 $medium-up: "(min-width: 981px)";
-$medium-down: "(max-width: 1200px)";
-$large-up: "(min-width: 1200px)";
-$large: "(min-width: 1151px) and (max-width:1499px)";
+$medium-down: "(max-width: 1229px)";
+$large-up: "(min-width: 1230px)";
+$large: "(min-width: 1230px) and (max-width:1499px)";
 $xlarge: "(min-width: 1500px)";
 
 html {
@@ -32,6 +32,22 @@ html {
   color: black;
   font-family: 'f-regular', 'Courier New', Courier, monospace;
   line-height: 1.28;
+}
+
+html {
+	@media #{$large-up} {
+		font-size: 100%;
+	}
+	@media #{$medium} {
+		font-size: 120%;
+	}
+	@media #{$small} {
+		font-size: 120%;
+	}
+	@media #{$mini-down} {
+		font-size: 100%;
+	}
+  overflow-y: scroll;
 }
 
 main {
@@ -88,14 +104,15 @@ main {
 
 
 h5 {
- font-size: 1.2rem;
- font-weight: 500;
- text-align: center;
- max-width: 39rem;
- padding-left: 1rem;
- padding-right: 1rem;
- margin: 2rem auto 1rem auto;
- line-height: 1.4;
+  font-family: 'f-regular';
+  font-size: 1.3rem;
+  font-weight: 500;
+  // text-align: center;
+  max-width: 60rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 3rem auto 1rem auto;
+  line-height: 1.4;
 }
 
 
@@ -245,7 +262,7 @@ h5 {
       filter:grayscale(100%);
     }
   }
-  @media #{$small-down} {
+  @media #{$medium-down} {
     position: relative;
     grid-row: auto / span 4;
     height: 400px; 
@@ -381,8 +398,11 @@ button.readmore {
   outline: none;
 }
 
+$gw: 100px; // basic unit for the grid
+$width: 1rem; // width of the chamfered edges
+
 //grid based on fixed px dimensions 12 columns wide
-@media #{$medium-up} {
+@media #{$large-up} {
 	@for $i from 1 through 12 {
 		.w-#{$i} {
 			grid-column: auto / span #{$i};
@@ -396,8 +416,7 @@ button.readmore {
 
 }
 
-$gw: 100px; // basic unit for the grid
-$width: 1rem; // width of the chamfered edges
+
 
 
 main {
@@ -405,7 +424,7 @@ main {
   margin: 0 auto;
 	.blocks {
 		padding:1rem;
-		@media #{$medium-up} {
+		@media #{$large-up} {
 			display: grid;
 			grid-template-columns: repeat(12, #{$gw});
 			grid-auto-rows: #{$gw};
@@ -418,7 +437,7 @@ main {
 		.margin {
 			margin-bottom: 2rem;
 		}
-		@media #{$small-down} {
+		@media #{$medium-down} {
 			& {
 				max-width: 30rem;
 				margin:0 auto;
@@ -489,7 +508,7 @@ main {
 			}
 		}
 
-		@media #{$medium-up} {
+		@media #{$large-up} {
 			.block {
 				&.row {
 					display: flex;
@@ -549,14 +568,14 @@ main {
 		margin-left: -0.4rem;
 	}
 	&.left {
-		@media #{$small-down} {
+		@media #{$medium-down} {
 			transform: rotate(90deg);
 		}
 
 	}
 	&.right {
 		transform: rotate(180deg);
-		@media #{$small-down} {
+		@media #{$medium-down} {
 			transform: rotate(270deg);
 		}
 	}
@@ -586,13 +605,13 @@ main {
     position: relative;
   }
 }
-@media #{$medium-up} {
+@media #{$large-up} {
   .canvas-preview {
     position: absolute;
     height: 100%; 
   }
 }
-@media #{$small-down} {
+@media #{$medium-down} {
   .maintitle {
     line-height: 2.3rem;
     margin-top: 0.6rem;
