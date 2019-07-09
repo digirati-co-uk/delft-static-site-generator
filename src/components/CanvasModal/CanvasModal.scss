@@ -84,9 +84,11 @@
     display: flex;
     flex-direction: row;
     min-height: 100px;
+    max-height: 150px;
     width: 100%;
     background: black;
     color: white;
+    overflow-y:auto;
   }
   &__info {
     flex: 1;
