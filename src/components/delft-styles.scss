@@ -39,10 +39,10 @@ html {
 		font-size: 100%;
 	}
 	@media #{$medium} {
-		font-size: 120%;
+		font-size: 80%;
 	}
 	@media #{$small} {
-		font-size: 120%;
+		font-size: 100%;
 	}
 	@media #{$mini-down} {
 		font-size: 100%;
@@ -269,7 +269,7 @@ h5 {
       filter:grayscale(100%);
     }
   }
-  @media #{$medium-down} {
+  @media #{$small-down} {
     position: relative;
     grid-row: auto / span 4;
     height: 400px; 
@@ -418,29 +418,29 @@ button.readmore {
   outline: none;
 }
 
-$gw: 100px; // basic unit for the grid
+$gw: 6.25rem; // basic unit for the grid
 $width: 1rem; // width of the chamfered edges
 
 //grid based on fixed px dimensions 12 columns wide
 
 @for $i from 1 through 12 {
-  @media #{$large-up} {
+  @media #{$medium-up} {
     .w-#{$i} {
       grid-column: auto / span #{$i};
-      width: #{$i*100}px;
+      width: #{$i*6.25}rem;
     }
     .h-#{$i} {
       grid-row: auto / span #{$i};
-      height: #{$i*100}px;
+      height: #{$i*6.25}rem;
     }
     .w-min-#{$i} {
       grid-column: auto / span #{$i};
-      width: #{$i*100}px;
-      min-height: #{$i*100}px;
+      width: #{$i*6.25}rem;
+      min-height: #{$i*6.25}rem;
     }
  
   }
-  @media #{$medium-down} {
+  @media #{$small-down} {
     .aspectratio-square {
       padding-bottom:100%;
     }
@@ -454,12 +454,13 @@ main {
   margin: 1.5rem auto;
   padding:0.5rem;
 	.blocks {
-		margin:1rem;
-		@media #{$large-up} {
+    margin:1rem auto;
+		@media #{$medium-up} {
 			display: grid;
 			grid-template-columns: repeat(12, #{$gw});
 			grid-auto-rows: #{$gw};
-			// grid-auto-rows: minmax(8%, auto);
+      // grid-auto-rows: minmax(8%, auto);
+      width:12*$gw;
     }
     
     &--auto-height {
@@ -468,7 +469,7 @@ main {
 		.margin {
 			margin-bottom: 2rem;
 		}
-		@media #{$medium-down} {
+		@media #{$small-down} {
 			& {
 				max-width: 30rem;
 				margin:0 auto;
@@ -539,7 +540,7 @@ main {
 			}
 		}
 
-		@media #{$large-up} {
+		@media #{$medium-up} {
 			.block {
 				&.row {
 					display: flex;
@@ -599,14 +600,14 @@ main {
 		margin-left: -0.4rem;
 	}
 	&.left {
-		@media #{$medium-down} {
+		@media #{$small-down} {
 			transform: rotate(90deg);
 		}
 
 	}
 	&.right {
 		transform: rotate(180deg);
-		@media #{$medium-down} {
+		@media #{$small-down} {
 			transform: rotate(270deg);
 		}
 	}
@@ -636,13 +637,13 @@ main {
     position: relative;
   }
 }
-@media #{$large-up} {
+@media #{$medium-up} {
   .canvas-preview {
     position: absolute;
     height: 100%; 
   }
 }
-@media #{$medium-down} {
+@media #{$small-down} {
   .maintitle {
     line-height: 2.3rem;
     margin-top: 0.6rem;
