@@ -51,43 +51,54 @@ html {
   overflow-y: scroll;
 }
 
+h1,h2,h3,h4,h5 {
+  font-family: 'f-medium';
+  font-weight: normal;
+}
+
+h1+h2 {
+  // margin-bottom: 0;
+  margin-top:0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size:1.7rem;
+}
+
 main {
-  h1,
-  h2,
-  h3,
-  h4,
- &>p,
-  .footnotes,
- &>pre,
- &>ol,
- &>ul {
-  //  margin-left: 20px;
-  //  margin-right: 20px;
-  //  padding: 0 1rem;
-  margin:0;
-  padding: 0 2rem;
-  // margin-top: 1em;
-  // margin-bottom: 1em;
-  @media #{$small-down} {
-    max-width: 30rem;
-    // margin: 1rem auto 1rem;
+
+  max-width: calc(1200px + 2rem);
+  margin: 3rem auto;
+
+  >h1,
+  >h2,
+  >h3,
+  >h6,
+  >p,
+  >pre,
+  >ol,
+  >ul,
+  .footnotes {
+    padding: 0 2rem;
   }
- }
-  h1,
-  h2,
-  h3,
-  h4 {
-    font-family: 'f-medium';
-    font-weight: normal;
-  }
-  h1 {
-    font-size: 2.5rem;
-    margin-top:2rem;
-  }
+
+
   p {
-    font-size: 1.625rem;
-    line-height: 2rem;
-    letter-spacing: 0.3px;
+    font-size: 1.5rem;
+    @media #{$small-down} {
+      font-size:1.2rem;
+    }
+    line-height: 1.21;
+    &+p {
+      margin-top:1em;
+    }
+    // letter-spacing: 0.3px;
   }
   article {
     h1,
@@ -102,12 +113,15 @@ main {
    &>ol,
    &>ul {
     padding: 0;
+    max-width: 55rem;
+    margin-left:auto;
+    margin-right:auto;
    } 
   }
 }
 
 
-h5 {
+h6 {
   font-family: 'f-regular';
   font-size: 1.3rem;
   font-weight: 500;
@@ -422,7 +436,7 @@ button.readmore {
   outline: none;
 }
 
-$gw: 6.25rem; // basic unit for the grid
+$gw: 6.248rem; // basic unit for the grid
 $width: 1rem; // width of the chamfered edges
 
 //grid based on fixed px dimensions 12 columns wide
@@ -452,124 +466,116 @@ $width: 1rem; // width of the chamfered edges
 }
 
 
-
-main {
-  max-width: calc(1200px + 2rem);
-  margin: 2rem auto;
-  // padding:0.5rem;
-	.blocks {
-    margin:1rem auto;
-		@media #{$medium-up} {
-			display: grid;
-			grid-template-columns: repeat(12, #{$gw});
-			grid-auto-rows: #{$gw};
-      // grid-auto-rows: minmax(8%, auto);
-      // width:12*$gw;
-      align-content: center;
-      justify-content: center; /* adjusted */
+.blocks {
+  margin:1rem auto;
+  @media #{$medium-up} {
+    display: grid;
+    grid-template-columns: repeat(12, #{$gw});
+    grid-auto-rows: #{$gw};
+    // grid-auto-rows: minmax(8%, auto);
+    // width:12*$gw;
+    align-content: center;
+    justify-content: center; /* adjusted */
+  }
+  
+  &--auto-height {
+    grid-auto-rows: auto;
+  }
+  .margin {
+    margin-bottom: 2rem;
+  }
+  @media #{$small-down} {
+    & {
+      max-width: 30rem;
+      margin:0 auto;
     }
+  }
+  .block {
+    position: relative;
+    overflow:hidden;
+    p {
+      font-size: 1rem;
+      line-height: 1.3rem;
+    }
+  }
+  .block--align-right {
+    display: inline-flex; 
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .title,
+  .info {
+    padding:1.5rem;
+  }
+  .title {
+    background-color: rgb(225,193,54);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     
-    &--auto-height {
-      grid-auto-rows: auto;
-    }
-		.margin {
-			margin-bottom: 2rem;
-		}
-		@media #{$small-down} {
-			& {
-				max-width: 30rem;
-				margin:0 auto;
-			}
-		}
+  }
+  .title--fountain-blue {
+    background-color: #50b8c1;
+  }
+  .title--pomegranate {
+    background-color: #e64616;
+  }
 
-		
+  .info {
+    .boxtitle {
+      margin-bottom:1.5rem;
+    }
+    background-color: #000;
+    color:#fff;
+    overflow-y:auto;
+    
+  }
+
+  .image {
+    img {
+      vertical-align: bottom;
+      width: 100%;
+      height: 100%;
+      object-fit:cover;    
+      position: absolute;
+    }
+    .caption {
+      color:white;
+      padding:0 2rem;
+      position: absolute;
+      text-align: center;
+      bottom: 1rem;
+      left:0;
+      width: 100%;
+    }
+  }
+
+  @media #{$medium-up} {
     .block {
-      position: relative;
-      overflow:hidden;
-      p {
-        font-size: 1rem;
-        line-height: 1.3rem;
+      &.row {
+        display: flex;
       }
-    }
-    .block--align-right {
-      display: inline-flex; 
-      align-items: flex-end;
-      justify-content: flex-start;
-      flex-direction: column;
-    }
 
-		.title,
-		.info {
-			padding:1.5rem;
-		}
-		.title {
-			background-color: rgb(225,193,54);
-			display: flex;
-			flex-flow: column nowrap;
-			justify-content: space-between;
-			
-    }
-    .title--fountain-blue {
-      background-color: #50b8c1;
-    }
-    .title--pomegranate {
-      background-color: #e64616;
-    }
+      // caption and image changes order on desktop
+      // this way the order remains on mobile
+      &.row.caption-left {
+        flex-direction: row-reverse;					
+      }
+      &.column {
+        display: flex;
+        flex-flow: column;
+      }
+      button.readmore,
+      a.readmore {
+        display: inline-block;
+        margin-top:1rem;
 
-		.info {
-			.boxtitle {
-				margin-bottom:1.5rem;
-			}
-			background-color: #000;
-			color:#fff;
-			overflow-y:auto;
-			
-		}
+      }
+    }			
+  }
 
-		.image {
-			img {
-				vertical-align: bottom;
-				width: 100%;
-				height: 100%;
-        object-fit:cover;    
-        position: absolute;
-			}
-			.caption {
-				color:white;
-				padding:0 2rem;
-				position: absolute;
-				text-align: center;
-				bottom: 1rem;
-				left:0;
-				width: 100%;
-			}
-		}
-
-		@media #{$medium-up} {
-			.block {
-				&.row {
-					display: flex;
-				}
-
-				// caption and image changes order on desktop
-				// this way the order remains on mobile
-				&.row.caption-left {
-					flex-direction: row-reverse;					
-				}
-				&.column {
-					display: flex;
-					flex-flow: column;
-        }
-        button.readmore,
-				a.readmore {
-					display: inline-block;
-          margin-top:1rem;
-
-				}
-			}			
-		}
-
-	}
 }
 
 // this only works in new browsers but should fallback gracefully
