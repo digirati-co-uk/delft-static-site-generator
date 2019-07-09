@@ -29,7 +29,7 @@ class ObjectPage extends React.Component {
     const pageLanguage = getPageLanguage(path);
     return (
       <Layout language={pageLanguage} path={path}>
-        <div id="slideshow" style={{ width: '100vw', height: '80vh' }}>
+        <div id="slideshow" style={{ width: '100%', height: '80vh' }}>
           { renderSlideShow }
         </div>
         <main>
