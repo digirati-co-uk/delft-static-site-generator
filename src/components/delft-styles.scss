@@ -14,6 +14,7 @@
 	src:url('../static/fonts/FoundersGroteskMonoRegular.otf');
 }
 
+
 // blocks 
 $pico: "(max-width: 350px)";
 $mini-down: "(max-width: 600px)";
@@ -42,10 +43,10 @@ html {
 		font-size: 80%;
 	}
 	@media #{$small} {
-		font-size: 100%;
+		font-size: 90%;
 	}
 	@media #{$mini-down} {
-		font-size: 100%;
+		font-size: 90%;
 	}
   overflow-y: scroll;
 }
@@ -452,7 +453,7 @@ $width: 1rem; // width of the chamfered edges
 main {
   max-width: calc(1200px + 2rem);
   margin: 1.5rem auto;
-  padding:0.5rem;
+  // padding:0.5rem;
 	.blocks {
     margin:1rem auto;
 		@media #{$medium-up} {
@@ -460,7 +461,9 @@ main {
 			grid-template-columns: repeat(12, #{$gw});
 			grid-auto-rows: #{$gw};
       // grid-auto-rows: minmax(8%, auto);
-      width:12*$gw;
+      // width:12*$gw;
+      align-content: center;
+      justify-content: center; /* adjusted */
     }
     
     &--auto-height {
@@ -474,13 +477,12 @@ main {
 				max-width: 30rem;
 				margin:0 auto;
 			}
-			.block {
-			}
 		}
 
 		
     .block {
       position: relative;
+      overflow:hidden;
       p {
         font-size: 1rem;
         line-height: 1.3rem;

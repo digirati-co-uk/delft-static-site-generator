@@ -18,10 +18,10 @@
   text-decoration: none;
   text-transform: uppercase;
   border-bottom: 0;
-  font-size: 16px; /* TODO: rem */
+  font-size: 1rem; /* TODO: rem */
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
   .main_menu {
     align-items: stretch;
   }
