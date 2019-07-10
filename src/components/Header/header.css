@@ -31,11 +31,11 @@
   text-decoration: none;
   border-bottom: 0;
   font-weight: normal;
-  font-size: 16px; /* TODO: rem */
+  font-size: 1rem;
   min-width: 40%;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
   .header__content { 
     padding: 0.5rem 1rem;
     height: auto;
@@ -51,7 +51,7 @@
     background: #1d1c73;
     height: auto; 
     flex-direction: column; 
-    width: 100vw; 
+    width: 100%; 
     left: 0;
     top: 47px;
     transform: translateY(-110%);

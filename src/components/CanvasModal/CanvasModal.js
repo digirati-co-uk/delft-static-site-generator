@@ -73,7 +73,8 @@ class CanvasModal extends React.Component {
           <div className="canvas-modal">
             <ContainerDimensions>
               {({ width, height }) => (
-                <div className="canvas-modal__content" style={{ width: width - 64, height: Math.floor(height - 64) }}>
+                // <div className="canvas-modal__content" style={{ width: width - 64, height: Math.floor(height - 64) }}>
+                <div className="canvas-modal__content">
 
                   {(selectedCanvas.behavior || []).indexOf('info') !== -1 ? (
                     <div className="canvas-modal__essay">
@@ -90,6 +91,7 @@ class CanvasModal extends React.Component {
                       ))}
                     </div>
                   ) : (
+                    
                     <div className="canvas-modal__inner-frame">
                       <div className="canvas-modal__content-slide">
                         <div className="canvas-modal__top-part">
@@ -102,12 +104,12 @@ class CanvasModal extends React.Component {
                         <div className="canvas-modal__info-and-nav">
                           <div className="canvas-modal__info">
                             {currentLabelAndDescriptionSource.label ? (
-                              <h6>
+                              <div className="canvas-modal__info-title">
                                 {getTranslation(
                                   currentLabelAndDescriptionSource.label,
                                   pageLanguage,
                                 )}
-                              </h6>
+                              </div>
                             ) : '' }
                             {currentLabelAndDescriptionSource.summary ? (
                               <p>
