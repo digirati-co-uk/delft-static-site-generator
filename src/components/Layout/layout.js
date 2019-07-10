@@ -27,8 +27,8 @@ const Layout = ({ children, language, path }) => (
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-                { name: 'description', content: 'Sample' },
-                { name: 'keywords', content: 'sample, something' },
+                { name: 'description', content: 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.' },
+                { name: 'keywords', content: 'academic heritage, heritage, special collections, library, history, technology, iiif, open source' },
               ]}
           >
             <html lang={language} />
