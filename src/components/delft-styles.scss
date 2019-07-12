@@ -75,6 +75,7 @@ main {
 
   max-width: calc(1200px + 2rem);
   margin: 3rem auto;
+  padding:0.5rem;
 
   >h1,
   >h2,
@@ -435,6 +436,8 @@ button.readmore {
   background: transparent;
   cursor: pointer;
   outline: none;
+  padding:0;
+  border-bottom: 0.1em solid;
 }
 
 $gw: 6.248rem; // basic unit for the grid
@@ -466,6 +469,17 @@ $width: 1rem; // width of the chamfered edges
   }
 }
 
+.markdown-article {
+  @media #{$medium-up} {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  @media #{$small-down} {
+    margin-top:2rem;
+    padding:1rem;
+  }
+}
 
 .blocks {
   margin:1rem auto;
@@ -500,10 +514,13 @@ $width: 1rem; // width of the chamfered edges
     }
   }
   .block--align-right {
-    display: inline-flex; 
-    align-items: flex-end;
-    justify-content: flex-start;
-    flex-direction: column;
+    @media #{$medium-up} {
+      display: inline-flex; 
+      align-items: flex-end;
+      justify-content: flex-start;
+      flex-direction: column;
+  
+    }
   }
 
   .title,
@@ -706,6 +723,10 @@ $width: 1rem; // width of the chamfered edges
   border: 0;
   cursor: pointer;
   margin-left: 0.5rem;
+  font-size:0.85rem;
+  display:inline-block;
+  
+  border-bottom: 0.1em solid;
   svg {
     width: 1.6rem;
     height: 1.6rem;
