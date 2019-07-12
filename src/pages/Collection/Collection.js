@@ -59,17 +59,19 @@ const CollectionPage = ({ pageContext, '*': path }) => {
               manifest => (
                 <div key={`collection__${objectLinks[manifest.id || manifest['@id']]}`} className="w-4 h-min-6 block--align-right">
                   <div className="block collection-item w-3 h-min-4">
-                    <div className="block aspectratio-square image cutcorners w-3 h-3">
-                      <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />
-                    </div>
-                    <p className="collection-list__label">{translate(manifest.label, pageLanguage)}</p>
-                    {manifest.summary
-                      ? translate(manifest.summary, pageLanguage, '\n')
-                        .split('\n')
-                        .map(paragraph => <p className="collection-list__summary">{paragraph}</p>)
-                      : ''
-                    }
-                    <Link to={[pageLanguage, objectLinks[manifest.id || manifest['@id']]].join('/')}>Read More</Link>
+                    
+                    <Link to={[pageLanguage, objectLinks[manifest.id || manifest['@id']]].join('/')}>
+                      <div className="block aspectratio-square image cutcorners w-3 h-3">
+                        <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />
+                      </div>
+                      <p className="collection-list__label">{translate(manifest.label, pageLanguage)}</p>
+                      {manifest.summary
+                        ? translate(manifest.summary, pageLanguage, '\n')
+                          .split('\n')
+                          .map(paragraph => <p className="collection-list__summary">{paragraph}</p>)
+                        : ''
+                      }
+                    </Link>
                   </div>
                 </div>
               ),

@@ -42,14 +42,7 @@ const Markdown = ({ pageContext, data, '*': path }) => {
                 <ol dangerouslySetInnerHTML={{ __html: content.toc }} />
               </div>
             </aside>
-            <article
-              className="w-8"
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'flex-end',
-              }}
-            >
+            <article className="markdown-article w-8">
               <div
                 className="w-7"
                 dangerouslySetInnerHTML={{ __html: content.html }}
