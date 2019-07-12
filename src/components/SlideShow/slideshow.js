@@ -13,8 +13,13 @@ import {
   Slide,
   CanvasNavigation,
 } from '@canvas-panel/slideshow';
-import ManifestCabinet from '../ManifestCabinet/ManifestCabinet';
 import './slideshow.css';
+
+
+import { Grid } from 'react-virtualized';
+import ContainerDimensions from 'react-container-dimensions';
+import { thumbnailGetSize } from '../../utils';
+import ManifestCabinet from '../ManifestCabinet/ManifestCabinet';
 
 class SlideShow extends Component {
   state = {
@@ -36,6 +41,7 @@ class SlideShow extends Component {
 
   constructor(props) {
     super(props);
+    this.thumbnailCache = {};
     window.addEventListener('resize', this.setSize);
   }
 
@@ -44,23 +50,94 @@ class SlideShow extends Component {
   }
 
   setSize = () => {
-    this.setState({ innerWidth: window.innerWidth });
+    this.setState({
+      innerWidth: Math.floor(window.innerWidth),
+    });
   };
 
-  qualifiesForMobile = () => {
-    const { innerWidth } = this.state;
-    const { mobileBreakpoint } = this.props;
-    return innerWidth <= mobileBreakpoint;
+  getThumbnails = (manifest) => {
+    const manifestId = manifest.id || manifest['@id'];
+    if (this.thumbnailCache.hasOwnProperty(manifestId)) {
+      return this.thumbnailCache[manifestId];
+    }
+
+    const thumbnails = manifest.getSequences().reduce(
+      (sequenceThumbnails, sequence) => Object.assign(
+          sequenceThumbnails,
+          sequence.getCanvases().reduce((canvasThumbnails, canvas) => {
+             let thumbnail = canvas.getThumbnail();
+             if (!thumbnail) {
+              canvas.getImages().forEach((image) => {
+                thumbnail = image.getThumbnail();
+                if (thumbnail) {
+                  return true;
+                }
+              });
+             }
+             canvasThumbnails[canvas.id || canvas['@id']] = thumbnail;
+            return canvasThumbnails;
+          }, {}),
+        ),
+       {},
+    );
+    this.thumbnailCache[manifestId] = thumbnails;
+    return thumbnails;
+  };
+
+  cellRenderer = ({
+    columnIndex, key, rowIndex, style, width, height,
+  }) => {
+      const canvasId = this.canvasList[columnIndex];
+      const thumbnail = this.allThumbnails[canvasId]
+        ? thumbnailGetSize(this.allThumbnails[canvasId], null, height)
+        : null;
+      const isSelected = this.currentIndex === columnIndex;
+      if (!thumbnail) {
+        return '';
+      }
+      return (
+        <div
+          key={`${canvasId}--thumb--${isSelected}`}
+          style={style}
+        >
+
+
+          <button
+
+            onClick={() => this.goToRange(columnIndex)}
+            type="button"
+            className={
+            `manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`
+          }
+            style={{
+            width: height,
+            height,
+          }}
+          >
+            {thumbnail ? (
+              <img
+                ref={(imageEl) => {
+                if (isSelected) {
+                  this.selectedThumbnail = imageEl;
+                }
+              }}
+                src={thumbnail.replace('/full/full/', '/full/!100,100/')}
+                className="manifest-cabinet__thumb-img"
+
+                alt=""
+              />
+          ) : (
+            <div className="manifest-cabinet__thumb-missing"> no thumb </div>
+          )}
+          </button>
+        </div>
+      );
   };
 
   render() {
     const { jsonld, renderPanel, bem } = this.props;
     return (
-      <div
-        className={bem.modifiers({
-          isMobile: Responsive.md.phone(),
-        })}
-      >
+      <div className={bem}>
         <Fullscreen>
           {({ ref, ...fullscreenProps }) => (
             <Manifest jsonLd={jsonld}>
@@ -76,58 +153,51 @@ class SlideShow extends Component {
                     region,
                     goToRange,
                   } = rangeProps;
+                  this.canvasList = canvasList;
+                  this.allThumbnails = this.getThumbnails(manifest);
+                  this.currentIndex = currentIndex;
+                  this.goToRange = goToRange;
                   return (
                     <React.Fragment>
                       <div className={bem.element('inner-frame')} ref={ref}>
-                        {this.qualifiesForMobile() ? (
-                          <MobilePageView
-                            manifest={manifest}
-                            previousRange={previousRange}
-                            nextRange={nextRange}
+                        <SimpleSlideTransition id={currentIndex}>
+                          <Slide
                             fullscreenProps={fullscreenProps}
-                            {...rangeProps}
+                            behaviors={canvas.__jsonld.behavior || []}
+                            manifest={manifest}
+                            canvas={canvas}
+                            region={region}
+                            renderPanel={renderPanel}
                           />
-                      ) : (
-                        <React.Fragment>
-                          <SimpleSlideTransition id={currentIndex}>
-                            <Slide
-                              fullscreenProps={fullscreenProps}
-                              behaviors={canvas.__jsonld.behavior || []}
-                              manifest={manifest}
-                              canvas={canvas}
-                              region={region}
-                              renderPanel={renderPanel}
-                            />
-                          </SimpleSlideTransition>
-                          <CanvasNavigation
-                            previousRange={previousRange}
-                            nextRange={nextRange}
-                            canvasList={canvasList}
-                            currentIndex={currentIndex}
-                          />
-                        </React.Fragment>
-                      )}
+                        </SimpleSlideTransition>
+                        <CanvasNavigation
+                          previousRange={previousRange}
+                          nextRange={nextRange}
+                          canvasList={canvasList}
+                          currentIndex={currentIndex}
+                        />
                       </div>
                       {
-                      canvasList.length > 1 && (
-                        <div className={bem.element('manifest-cabinet-holder')}>
-                          <ManifestCabinet
-                            currentCanvas={canvas}
-                            manifest={manifest}
-                            canvasList={canvasList}
-                            height={80}
-                            goToRange={goToRange}
-                          >
-                            <CanvasNavigation
-                              previousRange={previousRange}
-                              nextRange={nextRange}
-                              canvasList={canvasList}
-                              currentIndex={currentIndex}
-                            />
-                          </ManifestCabinet>
-                        </div>
-                      )
-                    }
+                        canvasList.length > 1 && (
+                          <div className={bem.element('manifest-cabinet-holder')}>
+                            <ContainerDimensions>
+                              {({ width, height }) => (
+                                <Grid
+                                  cellRenderer={this.cellRenderer}
+                                  columnWidth={116}
+                                  columnCount={canvasList.length}
+                                  height={124}
+                                  overscanColumnCount={5}
+                                  overscanRowCount={1}
+                                  rowHeight={116}
+                                  rowCount={1}
+                                  width={width}
+                                />
+                              )}
+                            </ContainerDimensions>
+                          </div>
+                        )
+                      }
                     </React.Fragment>
                   );
                 }}
