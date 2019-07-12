@@ -5,10 +5,8 @@ import {
   Fullscreen,
   RangeNavigationProvider,
   withBemClass,
-  Responsive,
 } from '@canvas-panel/core';
 import {
-  MobilePageView,
   SimpleSlideTransition,
   Slide,
   CanvasNavigation,
@@ -19,7 +17,6 @@ import './slideshow.css';
 import { Grid } from 'react-virtualized';
 import ContainerDimensions from 'react-container-dimensions';
 import { thumbnailGetSize } from '../../utils';
-import ManifestCabinet from '../ManifestCabinet/ManifestCabinet';
 
 class SlideShow extends Component {
   state = {
