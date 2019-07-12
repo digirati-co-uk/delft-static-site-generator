@@ -235,6 +235,7 @@ h6 {
 
 }
 
+
 .cover-link {
   display: block;
   width: 100%;
@@ -293,6 +294,28 @@ h6 {
     position: relative;
     grid-row: auto / span 4;
     height: 400px; 
+  }
+}
+
+
+.cover-link {
+  .image img {
+    transition: transform 1s ease;
+  }
+  &:hover {
+    .image img {
+      transform: scale(1.13)
+    }
+  }
+}
+.collection-item {
+  .image img {
+    transition: transform 1s ease;
+  }
+  &:hover {
+    .image img {
+      transform: scale(1.3);
+    }
   }
 }
 
@@ -508,6 +531,8 @@ $width: 1rem; // width of the chamfered edges
   .block {
     position: relative;
     overflow:hidden;
+    margin-right:-1px;
+    margin-bottom:-1px;
     p {
       font-size: 1rem;
       line-height: 1.3rem;
@@ -692,7 +717,7 @@ $width: 1rem; // width of the chamfered edges
     }
     margin-bottom: 1rem;
   }
-  margin-bottom:2rem;
+  padding-bottom:2rem;
 }
 
 .collection-list {
