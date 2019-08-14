@@ -1,11 +1,11 @@
 ---
-path: "/nl/publications/glas"
+path: "/nl/publications/delta-glas"
 date: "2019-01-14"
 title: "Historische glas-in-loodramen terug op hun plek"
 author: "Abel Streefland"
 ---
 
-*Dit artikel is eerder verschenen in* [Delta](https://www.delta.tudelft.nl/article/tu-historie-nap-als-rotsvast-referentievlak)*.*
+*Dit artikel is eerder verschenen in* [Delta](https://www.delta.tudelft.nl/article/historische-glas-loodramen-terug-op-hun-plek)*.*
 
 ---
 

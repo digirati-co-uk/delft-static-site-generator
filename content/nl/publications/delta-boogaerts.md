@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/boogaerts"
+path: "/nl/publications/delta-boogaerts"
 date: "2017-10-18"
 title: "In Memoriam: prof.dr.ir. Theo Bogaerts"
 author: "Abel Streefland"
