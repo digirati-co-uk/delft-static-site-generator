@@ -12,7 +12,7 @@ title: "Digitale Collecties"
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[TrésorZ](/nl/collections/lib-tresor)
+[Trésor](/nl/collections/lib-tresor)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
