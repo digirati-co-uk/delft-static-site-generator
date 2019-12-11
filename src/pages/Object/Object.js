@@ -4,6 +4,7 @@ import Layout from '../../components/Layout/layout';
 import SlideShow from '../../components/SlideShow/slideshow';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
+import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 
 const isHtml = val => val.match(/<[^>]+>/) !== null;
 
@@ -69,6 +70,7 @@ class ObjectPage extends React.Component {
                     && translate(pageContext.label, pageLanguage)
                   }
                   <GithubLink href={path} />
+                  <IIIFLink href={path} />
                 </h1>
                 {
                 pageContext

@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-const GITHUB_BASE = 'https://github.com/digirati-co-uk/delft-static-site-generator/blob/master/';
+import { GITHUB_BASE } from '../../utils';
 
 const getGitLink = (href) => {
   if (/\/(collections|objects|exhibitions)\//.test(href)) {

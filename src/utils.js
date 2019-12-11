@@ -9,7 +9,7 @@ const substituteSpecialLinks = (html, pageContext) => html.replace(
       const hasThumbnail = p3 && pageContext && pageContext.thumbnails
         && pageContext.thumbnails.hasOwnProperty(p3.substr(1));
       if (hasThumbnail) {
-        let template = `
+        const template = `
           <a href="/${p2}${p3}" class="cover-link">
             <div class="image">
               <img class="bg" src="${pageContext.thumbnails[p3.substr(1)]}">
@@ -81,3 +81,6 @@ export const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
 
 
 export default substituteSpecialLinks;
+
+export const GITHUB_RAW_JSON_BASE = 'https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/src';
+export const GITHUB_BASE = 'https://github.com/digirati-co-uk/delft-static-site-generator/blob/master/';

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
 import CanvasModal from '../../components/CanvasModal/CanvasModal';
 import GithubLink from '../../components/GithubLink/GithubLink';
+import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 import { Arrow } from '../../components/Arrow/Arrow';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { AnnotationBodyRenderer } from '../../components/AnnotationBodyRenderer/AnnotationBodyRenderer';
@@ -234,6 +235,7 @@ class ExhibitionPage extends React.Component {
               <div className="maintitle">
                 {translate(manifest.label, pageLanguage)}
                 <GithubLink href={path} />
+                <IIIFLink href={path} />
               </div>
               <div />
             </div>
