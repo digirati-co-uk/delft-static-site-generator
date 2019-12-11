@@ -1,18 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import IIIFIcon from '../../../public/icons/logo-iiif-34x30.png';
+import { GITHUB_RAW_JSON_BASE } from '../../utils';
 import './IIIFLink.scss';
 
-const RAW_BASE = 'https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/src';
 
 const getIIIFLink = (href) => {
-  console.log(href);
   if (/\/(collections|objects|exhibitions)\//.test(href)) {
-    const baselink = `${href.replace(/(en|nl)/, `${RAW_BASE}`)}.json`;
-    const manifest = `${href.replace(/(en|nl)/, `?manifest=${RAW_BASE}`)}.json`;
+    const baselink = `${href.replace(/(en|nl)/, `${GITHUB_RAW_JSON_BASE}`)}.json`;
+    const manifest = `${href.replace(/(en|nl)/, `?manifest=${GITHUB_RAW_JSON_BASE}`)}.json`;
     return baselink + manifest;
   }
-  // return `${RAW_BASE}content/${href}.md`;
+  return `${RAW_BASE}content/${href}.md`;
 };
 
 const IIIFLink = ({ href }) => (
