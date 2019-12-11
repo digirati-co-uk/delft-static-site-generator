@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import GithubLink from '../../components/GithubLink/GithubLink';
+import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 import Layout from '../../components/Layout/layout';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 
@@ -48,6 +49,8 @@ const CollectionPage = ({ pageContext, '*': path }) => {
               <div className="maintitle">
                 {title}
                 <GithubLink href={path} />
+                <IIIFLink href={path} />
+
               </div>
               <div className="boxtitle">{curator}</div>
             </div>
@@ -59,7 +62,7 @@ const CollectionPage = ({ pageContext, '*': path }) => {
               manifest => (
                 <div key={`collection__${objectLinks[manifest.id || manifest['@id']]}`} className="w-4 h-min-6 block--align-right">
                   <div className="block collection-item w-3 h-min-4">
-                    
+
                     <Link to={[pageLanguage, objectLinks[manifest.id || manifest['@id']]].join('/')}>
                       <div className="block aspectratio-square image cutcorners w-3 h-3">
                         <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />

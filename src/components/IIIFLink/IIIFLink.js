@@ -11,6 +11,8 @@ const getIIIFLink = (href) => {
     const manifest = `${href.replace(/(en|nl)/, `?manifest=${RAW_BASE}`)}.json`;
     return baselink + manifest;
   }
+  debugger;
+  console.log(href);
   return `${RAW_BASE}content/${href}.md`;
 };
 
