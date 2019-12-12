@@ -12,6 +12,7 @@ import {
   CanvasNavigation,
 } from '@canvas-panel/slideshow';
 import './slideshow.css';
+import '../ManifestCabinet/ManifestCabinet.scss';
 
 
 import { Grid } from 'react-virtualized';
