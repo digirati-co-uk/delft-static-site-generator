@@ -15,7 +15,7 @@
 }
 
 
-// blocks 
+// blocks
 $pico: "(max-width: 350px)";
 $mini-down: "(max-width: 600px)";
 $small: "(min-width: 601px) and (max-width: 980px)";
@@ -117,7 +117,7 @@ main {
     max-width: 55rem;
     margin-left:auto;
     margin-right:auto;
-   } 
+   }
   }
 }
 
@@ -142,7 +142,7 @@ h6 {
   }
 }
 
-.listing-size-1-1, 
+.listing-size-1-1,
 .listing-size-1-2,
 .listing-size-2-1,
 .listing-size-2-2 {
@@ -153,19 +153,19 @@ h6 {
   margin: 0;
 
   clip-path: polygon(
-    calc(0% + 1rem) 0%, 
-    calc(100% -  1rem) 0%, 
-    100% 1rem, 
-    100% calc(100% - 1rem), 
-    calc(100% - 1rem) 100%, 
-    1rem 100%, 
-    0% calc(100% - 1rem), 
-    0% 1rem); 
+    calc(0% + 1rem) 0%,
+    calc(100% -  1rem) 0%,
+    100% 1rem,
+    100% calc(100% - 1rem),
+    calc(100% - 1rem) 100%,
+    1rem 100%,
+    0% calc(100% - 1rem),
+    0% 1rem);
   background: black;
 }
 
 
-.listing-size-1-1, 
+.listing-size-1-1,
 .listing-size-1-2,
 .listing-size-2-1,
 .listing-size-2-2 {
@@ -179,7 +179,7 @@ h6 {
 }
 
 
-.listing-size-1-1>p, 
+.listing-size-1-1>p,
 .listing-size-1-2>p,
 .listing-size-2-1>p,
 .listing-size-2-2>p {
@@ -191,44 +191,44 @@ h6 {
     width: 33%;
     height: 33vw;
   }
-    
+
   .listing-size-1-2 {
     width: 33%;
     height: 66vw;
   }
-    
+
   .listing-size-2-1 {
     width: 66%;
     height: 33vw;
   }
-    
+
   .listing-size-2-2 {
     width: 66%;
     height: 66vw;
   }
 
-  .listing-size-1-1, 
+  .listing-size-1-1,
   .listing-size-1-2,
   .listing-size-2-1,
   .listing-size-2-2 {
     clip-path: polygon(
-    calc(0% + 1rem) 0%, 
-    calc(100% -  1rem) 0%, 
-    100% 1rem, 
-    100% calc(100% - 1rem), 
-    calc(100% - 1rem) 100%, 
-    1rem 100%, 
-    0% calc(100% - 1rem), 
+    calc(0% + 1rem) 0%,
+    calc(100% -  1rem) 0%,
+    100% 1rem,
+    100% calc(100% - 1rem),
+    calc(100% - 1rem) 100%,
+    1rem 100%,
+    0% calc(100% - 1rem),
     0% 1rem);
   }
 }
-  
+
 .bg-yellow {
   background-color: #e1c136;
 }
 
 
-.light, 
+.light,
 .light a,
 .light a span {
   color: white;
@@ -293,7 +293,7 @@ h6 {
   @media #{$small-down} {
     position: relative;
     grid-row: auto / span 4;
-    height: 400px; 
+    height: 400px;
   }
 }
 
@@ -483,7 +483,7 @@ $width: 1rem; // width of the chamfered edges
       width: #{$i*6.25}rem;
       min-height: #{$i*6.25}rem;
     }
- 
+
   }
   @media #{$small-down} {
     .aspectratio-square {
@@ -515,7 +515,7 @@ $width: 1rem; // width of the chamfered edges
     align-content: center;
     justify-content: center; /* adjusted */
   }
-  
+
   &--auto-height {
     grid-auto-rows: auto;
   }
@@ -540,11 +540,11 @@ $width: 1rem; // width of the chamfered edges
   }
   .block--align-right {
     @media #{$medium-up} {
-      display: inline-flex; 
+      display: inline-flex;
       align-items: flex-end;
       justify-content: flex-start;
       flex-direction: column;
-  
+
     }
   }
 
@@ -557,7 +557,7 @@ $width: 1rem; // width of the chamfered edges
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    
+
   }
   .title--fountain-blue {
     background-color: #50b8c1;
@@ -573,7 +573,7 @@ $width: 1rem; // width of the chamfered edges
     background-color: #000;
     color:#fff;
     overflow-y:auto;
-    
+
   }
 
   .image {
@@ -581,7 +581,7 @@ $width: 1rem; // width of the chamfered edges
       vertical-align: bottom;
       width: 100%;
       height: 100%;
-      object-fit:cover;    
+      object-fit:cover;
       position: absolute;
     }
     .caption {
@@ -594,6 +594,10 @@ $width: 1rem; // width of the chamfered edges
       width: 100%;
     }
   }
+  .article {
+    background-color: grey;
+    text-align: center;
+  }
 
   @media #{$medium-up} {
     .block {
@@ -604,7 +608,7 @@ $width: 1rem; // width of the chamfered edges
       // caption and image changes order on desktop
       // this way the order remains on mobile
       &.row.caption-left {
-        flex-direction: row-reverse;					
+        flex-direction: row-reverse;
       }
       &.column {
         display: flex;
@@ -616,7 +620,7 @@ $width: 1rem; // width of the chamfered edges
         margin-top:1rem;
 
       }
-    }			
+    }
   }
 
 }
@@ -624,10 +628,10 @@ $width: 1rem; // width of the chamfered edges
 // this only works in new browsers but should fallback gracefully
 .cutcorners {
   clip-path: polygon(
-    calc(0% + #{$width}) 0%, 
-    calc(100% -  #{$width}) 0%, 
+    calc(0% + #{$width}) 0%,
+    calc(100% -  #{$width}) 0%,
     100%  #{$width},
-    100% calc(100% - #{$width}), 
+    100% calc(100% - #{$width}),
     calc(100% - #{$width}) 100%,
     #{$width} 100%,
     0% calc(100% - #{$width}),
@@ -669,7 +673,7 @@ $width: 1rem; // width of the chamfered edges
 
 .canvas-preview {
   width: 100%;
-  
+
   overflow: hidden;
   position: relative;
   &__flex {
@@ -694,7 +698,7 @@ $width: 1rem; // width of the chamfered edges
 @media #{$medium-up} {
   .canvas-preview {
     position: absolute;
-    height: 100%; 
+    height: 100%;
   }
 }
 @media #{$small-down} {
@@ -750,7 +754,7 @@ $width: 1rem; // width of the chamfered edges
   margin-left: 0.5rem;
   font-size:0.85rem;
   display:inline-block;
-  
+
   border-bottom: 0.1em solid;
   svg {
     width: 1.6rem;
