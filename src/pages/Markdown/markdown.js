@@ -15,14 +15,14 @@ const articlePageTransform = html => (html.match(/<h2>Table of Contents<\/h2>/)
 
 const Markdown = ({ pageContext, data, '*': path }) => {
   const pageLanguage = getPageLanguage(path);
-  const content = data.markdownRemark
-    ? articlePageTransform(
-        substituteSpecialLinks(data.markdownRemark.html, pageContext),
-    )
-    : '';
   const { title, author } = data.markdownRemark
     ? data.markdownRemark.frontmatter
     : { author: '-', title: '-' };
+  const content = data.markdownRemark
+    ? articlePageTransform(
+        substituteSpecialLinks(data.markdownRemark.html, pageContext, title, author),
+    )
+    : '';
   return (
     <Layout language={pageLanguage} path={path}>
       { content.isPublication ? (
@@ -74,7 +74,9 @@ export const pageQuery = graphql`
         path
         title
         author
+
       }
     }
   }
+
 `;
