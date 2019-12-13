@@ -20,19 +20,13 @@ import ContainerDimensions from 'react-container-dimensions';
 import { thumbnailGetSize } from '../../utils';
 
 class SlideShow extends Component {
-  state = {
-    innerWidth: window.innerWidth,
-  };
-
   static propTypes = {
     jsonld: PropTypes.object.isRequired,
-    mobileBreakpoint: PropTypes.number,
     renderPanel: PropTypes.func,
     bem: PropTypes.object,
   };
 
   static defaultProps = {
-    mobileBreakpoint: 767,
     renderPanel: () => {},
     bem: {},
   };
@@ -40,18 +34,8 @@ class SlideShow extends Component {
   constructor(props) {
     super(props);
     this.thumbnailCache = {};
-    window.addEventListener('resize', this.setSize);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.setSize);
-  }
-
-  setSize = () => {
-    this.setState({
-      innerWidth: Math.floor(window.innerWidth),
-    });
-  };
 
   getThumbnails = (manifest) => {
     const manifestId = manifest.id || manifest['@id'];
