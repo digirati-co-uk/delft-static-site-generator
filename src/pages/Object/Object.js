@@ -76,13 +76,13 @@ class ObjectPage extends React.Component {
                 pageContext
                 && pageContext.metadata
                 && pageContext.metadata.map(
-                  (metadata) => {
+                  (metadata, index) => {
                     const label = translate(metadata.label, pageLanguage);
                     const value = translate(metadata.value, pageLanguage);
                     const isLabelHTML = isHtml(label);
                     const isValueHTML = isHtml(value);
                     return (
-                      <React.Fragment>
+                      <React.Fragment key={index}>
                         { isLabelHTML ? (
                           <dt
                             className="metadata-label"

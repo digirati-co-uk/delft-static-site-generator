@@ -36,6 +36,7 @@ class SlideShow extends Component {
     this.thumbnailCache = {};
   }
 
+  calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index + 116)
 
   getThumbnails = (manifest) => {
     const manifestId = manifest.id || manifest['@id'];
@@ -82,10 +83,7 @@ class SlideShow extends Component {
           key={`${canvasId}--thumb--${isSelected}`}
           style={style}
         >
-
-
           <button
-
             onClick={() => this.goToRange(columnIndex)}
             type="button"
             className={
@@ -99,13 +97,12 @@ class SlideShow extends Component {
             {thumbnail ? (
               <img
                 ref={(imageEl) => {
-                if (isSelected) {
-                  this.selectedThumbnail = imageEl;
-                }
-              }}
+                  if (isSelected) {
+                    this.selectedThumbnail = imageEl;
+                  }
+                }}
                 src={thumbnail.replace('/full/full/', '/full/!100,100/')}
                 className="manifest-cabinet__thumb-img"
-
                 alt=""
               />
           ) : (
@@ -113,7 +110,7 @@ class SlideShow extends Component {
           )}
           </button>
         </div>
-      );
+);
   };
 
   render() {
@@ -143,46 +140,40 @@ class SlideShow extends Component {
                     <React.Fragment>
                       <div className={bem.element('inner-frame')} ref={ref}>
                         <SimpleSlideTransition id={currentIndex}>
-                          <Slide
-                            fullscreenProps={fullscreenProps}
-                            behaviors={canvas.__jsonld.behavior || []}
-                            manifest={manifest}
-                            canvas={canvas}
-                            region={region}
-                            renderPanel={renderPanel}
-                          />
+                          <Slide fullscreenProps={fullscreenProps} behaviors={canvas.__jsonld.behavior || []} manifest={manifest} canvas={canvas} region={region} renderPanel={renderPanel} />
                         </SimpleSlideTransition>
-                        <CanvasNavigation
-                          previousRange={previousRange}
-                          nextRange={nextRange}
-                          canvasList={canvasList}
-                          currentIndex={currentIndex}
-                        />
+                        <CanvasNavigation previousRange={previousRange} nextRange={nextRange} canvasList={canvasList} currentIndex={currentIndex} />
                       </div>
-                      {
-                        canvasList.length > 1 && (
-                          <div className={bem.element('manifest-cabinet-holder')}>
-                            <ContainerDimensions>
-                              {({ width, height }) => (
-                                <Grid
-                                  cellRenderer={this.cellRenderer}
-                                  columnWidth={116}
-                                  columnCount={canvasList.length}
-                                  height={124}
-                                  overscanColumnCount={5}
-                                  overscanRowCount={1}
-                                  rowHeight={116}
-                                  rowCount={1}
-                                  width={width}
-                                  scrollLeft={currentIndex * 116}
-                                />
-                              )}
-                            </ContainerDimensions>
-                          </div>
-                        )
-                      }
+                      {canvasList.length > 1 && (
+                      <div className={bem.element('manifest-cabinet-holder')}>
+                        <ContainerDimensions>
+                          {({ width, height }) => (
+                            <Grid
+                              cellRenderer={
+                                  this.cellRenderer
+                                }
+                              columnWidth={116}
+                              columnCount={
+                                  canvasList.length
+                                }
+                              height={124}
+                              overscanColumnCount={5}
+                              overscanRowCount={1}
+                              rowHeight={116}
+                              rowCount={1}
+                              width={width}
+                              scrollLeft={this.calculateScrollLength(
+                                  width,
+                                  canvasList.length,
+                                  currentIndex,
+                                )}
+                            />
+                            )}
+                        </ContainerDimensions>
+                      </div>
+)}
                     </React.Fragment>
-                  );
+);
                 }}
               </RangeNavigationProvider>
             </Manifest>
