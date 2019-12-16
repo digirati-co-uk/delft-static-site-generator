@@ -20,7 +20,7 @@ const Markdown = ({ pageContext, data, '*': path }) => {
     : { author: '-', title: '-' };
   const content = data.markdownRemark
     ? articlePageTransform(
-        substituteSpecialLinks(data.markdownRemark.html, pageContext, title, author, data.allMarkdownRemark),
+        substituteSpecialLinks(data.markdownRemark.html, pageContext, data.allMarkdownRemark),
     )
     : '';
 

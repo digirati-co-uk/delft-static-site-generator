@@ -3,7 +3,7 @@
  * @param {String} html - html string to post process
  * @returns {String} the post processed html
  */
-const substituteSpecialLinks = (html, pageContext, title, author, allMDRemark) => html.replace(
+const substituteSpecialLinks = (html, pageContext, allMDRemark) => html.replace(
     /(<p><a href="(?:\/(en|nl))(\/(collection|exhibition|object|publication)s\/.*)">)([^<]+)<\/a><\/p>/g,
     (match, p1, p2, p3, p4, p5) => {
       const hasThumbnail = p3 && pageContext && pageContext.thumbnails
