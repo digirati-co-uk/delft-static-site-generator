@@ -49,7 +49,7 @@ query($path: String!) {
    edges {
      node {
        id,
-       
+
        frontmatter {
          title
          path

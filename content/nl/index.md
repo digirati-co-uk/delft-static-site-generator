@@ -29,5 +29,9 @@ Vrienden worden? Bezoek ook de website van <a href="http://beta.histechnica.nl">
 
 Since 2017, when TU Delft celebrated its 175th anniversary, the university has been investing in raising the profile of its academic heritage by improving the preservation of its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 </div>
+<div class="block cutcorners w-3 h-3 article">
+
+[Dies Delta](/nl/publications/dies)
+</div>
 </div>
 
