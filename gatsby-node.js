@@ -30,7 +30,7 @@ const convertToV3ifNecessary = (manifest) => {
 };
 
 const getManifestContext = (itemPath) => {
-  const pathname = itemPath.replace(/^src\//, '').replace(/\.json$/, '');
+  const pathname = itemPath.replace(/^content\//, '').replace(/\.json$/, '');
   return [pathname, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
 };
 
@@ -146,7 +146,7 @@ const getAllObjectLinks = (
 
 const createCollectionPages = (objectLinks) => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
-  const collectionsPath = './src/collections';
+  const collectionsPath = './content/collections';
   return getJSONFilesUnderPath(collectionsPath)
     .reduce(
       (meta, item) => {
@@ -185,11 +185,12 @@ const createCollectionPages = (objectLinks) => {
 
 const createObjectPages = () => {
   const manifestTemplate = path.resolve(`src/pages/Object/Object.js`);
-  const manifestsPath = './src/objects';
+  const manifestsPath = './content/objects';
   return getJSONFilesUnderPath(manifestsPath)
     .reduce(
       (meta, item) => {
         const [pathname, context] = getManifestContext(item);
+        console.log(pathname);
         meta.pages[pathname] = {
           path: pathname,
           component: manifestTemplate,
@@ -216,23 +217,18 @@ const createObjectPages = () => {
 
 const createExhibitionPages = () => {
   const exhibitionTemplate = path.resolve(`src/pages/Exhibition/Exhibition.js`);
-  const exhibitionsPath = './src/exhibitions';
+  const exhibitionsPath = 'content/exhibitions';
   return getJSONFilesUnderPath(exhibitionsPath)
     .reduce(
       (meta, item) => {
-        const [pathname, context] = getManifestContext(item);
-        meta.pages[pathname] = {
-          path: pathname,
-          component: exhibitionTemplate,
-          context,
-        };
-        meta.thumbnails[pathname] = getManifestThumbnail(context);
-        meta.links[(context.id || context['@id'])] = pathname;
-        meta.reverseLinks[pathname] = (context.id || context['@id']);
-
-        getAllAnnotationsFromManifest(context, pathname, meta.annotationsPartOfExhibition);
-        return meta;
-      }, {
+          const [pathname, context] = getManifestContext(item);
+          meta.pages[pathname] = { path: pathname, component: exhibitionTemplate, context };
+          meta.thumbnails[pathname] = getManifestThumbnail(context);
+          meta.links[context.id || context['@id']] = pathname;
+          meta.reverseLinks[pathname] = context.id || context['@id'];
+          getAllAnnotationsFromManifest(context, pathname, meta.annotationsPartOfExhibition);
+          return meta;
+        }, {
         thumbnails: {},
         links: {},
         reverseLinks: {},
