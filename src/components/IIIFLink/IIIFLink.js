@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import IIIFIcon from '../../../public/icons/logo-iiif-34x30.png';
+import IIIFIcon from '../../images/logo-iiif-34x30.png';
 import { GITHUB_RAW_JSON_BASE } from '../../utils';
 import './IIIFLink.scss';
 
