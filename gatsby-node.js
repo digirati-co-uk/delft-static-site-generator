@@ -190,7 +190,6 @@ const createObjectPages = () => {
     .reduce(
       (meta, item) => {
         const [pathname, context] = getManifestContext(item);
-        console.log(pathname);
         meta.pages[pathname] = {
           path: pathname,
           component: manifestTemplate,
