@@ -36,7 +36,7 @@ class SlideShow extends Component {
     this.thumbnailCache = {};
   }
 
-  calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index + 116)
+  calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index * 116)
 
   getThumbnails = (manifest) => {
     const manifestId = manifest.id || manifest['@id'];
