@@ -10,7 +10,8 @@ module.exports = {
         name: 'images',
         path: `${__dirname}/src/images`,
       },
-    }, {
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
@@ -27,7 +28,7 @@ module.exports = {
             options: {
               header: 'Table of Contents', // the custom header text
               include: [
-                `content/**/publications/**/*.md`, // an include glob to match against
+                `content/**/publications/*.md`, // an include glob to match against
               ],
             },
           },

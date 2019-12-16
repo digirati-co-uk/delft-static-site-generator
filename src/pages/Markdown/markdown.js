@@ -14,6 +14,7 @@ const articlePageTransform = html => (html.match(/<h2>Table of Contents<\/h2>/)
     : { html });
 
 const Markdown = ({ pageContext, data, '*': path }) => {
+  console.log(data);
   const pageLanguage = getPageLanguage(path);
   const { title, author } = data.markdownRemark
     ? data.markdownRemark.frontmatter
@@ -66,17 +67,24 @@ Markdown.propTypes = {
 export default Markdown;
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        path
-        title
-        author
-
-      }
-    }
-  }
-
-`;
+         query($path: String!) {
+           allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+             edges {
+               node {
+                 frontmatter {
+                   title
+                 }
+               }
+             }
+           }
+           markdownRemark(frontmatter: { path: { eq: $path } }) {
+             html
+             frontmatter {
+               date(formatString: "MMMM DD, YYYY")
+               path
+               title
+               author
+             }
+           }
+         }
+       `;
