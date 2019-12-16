@@ -6,7 +6,6 @@
 const substituteSpecialLinks = (html, pageContext, title, author, allMDRemark) => html.replace(
     /(<p><a href="(?:\/(en|nl))(\/(collection|exhibition|object|publication)s\/.*)">)([^<]+)<\/a><\/p>/g,
     (match, p1, p2, p3, p4, p5) => {
-      console.log(allMDRemark);
       const hasThumbnail = p3 && pageContext && pageContext.thumbnails
         && pageContext.thumbnails.hasOwnProperty(p3.substr(1));
       if (hasThumbnail) {
