@@ -56,8 +56,8 @@ export const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
     && service.sizes.length > 0
   ) {
     let closestSizeIndex = -1;
-    let minDistanceX = Number.MAX_SAFE_INTEGER;
-    let minDistanceY = Number.MAX_SAFE_INTEGER;
+    let minDistanceX;
+    let minDistanceY;
     service.sizes.forEach((size, index) => {
       if (pWidth) {
         const xDistance = Math.abs(size.width - pWidth);
