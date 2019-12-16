@@ -3,9 +3,10 @@
  * @param {String} html - html string to post process
  * @returns {String} the post processed html
  */
-const substituteSpecialLinks = (html, pageContext) => html.replace(
+const substituteSpecialLinks = (html, pageContext, title, author, allMDRemark) => html.replace(
     /(<p><a href="(?:\/(en|nl))(\/(collection|exhibition|object|publication)s\/.*)">)([^<]+)<\/a><\/p>/g,
     (match, p1, p2, p3, p4, p5) => {
+      console.log(allMDRemark);
       const hasThumbnail = p3 && pageContext && pageContext.thumbnails
         && pageContext.thumbnails.hasOwnProperty(p3.substr(1));
       if (hasThumbnail) {
@@ -23,15 +24,26 @@ const substituteSpecialLinks = (html, pageContext) => html.replace(
           );
         } if (p4 === 'publication') {
           // TO DO, work out how to get the author name to render here
-          return (`<a href="/${p2}${p3}">
+          return `<a href="/${p2}${p3}">
             <div class="boxtitle">ARTICLE
             </div>
             <div class="maintitle">${p5}</div>
-            <div></div>
-          </a>`);
+            <div>${getAuthor(`/${p2}${p3}`, allMDRemark)}</div>
+          </a>`;
       }
     },
   );
+
+const getAuthor = (path, allMDRemark) => {
+  let author; let date;
+  allMDRemark.edges.forEach((markdown) => {
+    if (markdown.node.frontmatter.path === path) {
+      author = markdown.node.frontmatter.author;
+      date = markdown.node.frontmatter.date;
+    }
+  });
+  return `${author} ${date}`;
+};
 
 export const getTranslation = (obj, lang, glue = ' ') => (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue);
 
