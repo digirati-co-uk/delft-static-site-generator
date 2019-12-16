@@ -5,13 +5,12 @@ const ALLOW = 1;
 const ERROR = 2;
 
 module.exports = {
-  "extends": "airbnb",
-  "parser": "babel-eslint",
+  extends: ['airbnb', "plugin:compat/recommended"],
+  parser: 'babel-eslint',
   rules: {
     'no-undef': OFF,
     'no-use-before-define': OFF,
-
-    //'prettier/prettier': ERROR,
+    // 'prettier/prettier': ERROR,
     'accessor-pairs': OFF,
     'brace-style': [ERROR, '1tbs'],
     'consistent-return': OFF,
@@ -36,7 +35,7 @@ module.exports = {
     'react/forbid-prop-types': OFF,
     'import/prefer-default-export': OFF,
     'jsx-a11y/media-has-caption': OFF,
-    'react/jsx-filename-extension': [ALLOW, { "extensions": [".js", ".jsx"] }],
+    'react/jsx-filename-extension': [ALLOW, { extensions: ['.js', '.jsx'] }],
     quotes: [
       ERROR,
       'single',
@@ -44,5 +43,8 @@ module.exports = {
     ],
     'space-before-blocks': ERROR,
     'space-before-function-paren': OFF,
+  },
+  "env": {
+    "browser": true
   },
 };
