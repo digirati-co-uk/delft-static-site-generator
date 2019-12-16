@@ -13,3 +13,4 @@ Generates static sites from IIIF Manifests and markdown for Technical University
 [Demo site](https://delft-static-site-generator.netlify.com/)
 
 [Changelog](https://github.com/digirati-co-uk/delft-static-site-generator/issues)
+
