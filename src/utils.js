@@ -22,7 +22,6 @@ const substituteSpecialLinks = (html, pageContext, allMDRemark) => html.replace(
           </a>`
           );
         } if (p4 === 'publication') {
-          // TO DO, work out how to get the author name to render here
           return `<a href="/${p2}${p3}">
             <div class="boxtitle">ARTICLE
             </div>
