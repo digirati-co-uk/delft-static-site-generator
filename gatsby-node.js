@@ -36,30 +36,36 @@ const getManifestContext = (itemPath) => {
   return [formatted, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
 };
 
-const getJSONFilesUnderPath = (rootPath) => {
-  const files = fs
-    .readdirSync(rootPath)
-    .filter(
-      item => fs.statSync(path.join(rootPath, item)).isFile()
-        && path.extname(item) === '.json',
-    )
-    .map(item => path.join(rootPath, item));
+const getSubfolders = filepath => fs
+    .readdirSync(filepath)
+    .filter(item => checkifSubfolder(path.join(filepath, item)));
 
-  const subdirects = fs
-    .readdirSync(rootPath)
-    .filter(item => fs.statSync(path.join(rootPath, item)).isDirectory());
+const checkifSubfolder = root => (fs.statSync(path.join(root)).isDirectory());
 
-  const subfiles = subdirects ? subdirects.map((subfolder) => {
-    const root = path.join(rootPath, subfolder);
-    return fs
-      .readdirSync(root)
-      .filter(
-        item => fs.statSync(path.join(root, item)).isFile()
-          && path.extname(item) === '.json',
-      )
-      .map(item => path.join(root, item));
-  }) : [];
-  return files.concat(files.concat(subfiles[0] ? subfiles[0] : []));
+const checkifJSON = filepath => (fs
+          .statSync(filepath)
+          .isFile() && path.extname(filepath) === '.json');
+
+
+const getJSON = filepath => fs.readdirSync(filepath).map(item => path.join(filepath, item));
+
+
+const getJSONFilesUnderPath = (filepath) => {
+  const files = [];
+  const allDirectory = getJSON(filepath);
+  allDirectory.forEach((item) => {
+    if (checkifJSON(item)) {
+      files.push(item);
+    } else if (checkifSubfolder(path.join(item))) {
+      const subfiles = getJSON(item);
+      subfiles.forEach((file) => {
+        checkifJSON(file) ? files.push(file) : getJSON(file).forEach((subfile) => {
+          if (checkifJSON(subfile)) files.push(subfile);
+          });
+        });
+    }
+   });
+  return files;
 };
 
 
