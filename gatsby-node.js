@@ -36,10 +36,6 @@ const getManifestContext = (itemPath) => {
   return [formatted, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
 };
 
-const getSubfolders = filepath => fs
-    .readdirSync(filepath)
-    .filter(item => checkifSubfolder(path.join(filepath, item)));
-
 const checkifSubfolder = root => (fs.statSync(path.join(root)).isDirectory());
 
 const checkifJSON = filepath => (fs
