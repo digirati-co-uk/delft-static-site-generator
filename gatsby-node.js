@@ -30,35 +30,10 @@ const convertToV3ifNecessary = (manifest) => {
 };
 
 const getManifestContext = (itemPath) => {
-  // console.log(itemPath);
-  const pathname = itemPath.replace(/^content\//, '').replace(/\.json$/, '');
-  const removing = itemPath.split('/');
-  // console.log(removing);
-  return [pathname, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
-};
-
-
-const getFilesUnderPath = (rootPath) => {
-  const files = fs.readdirSync(rootPath).filter(
-    item => fs.statSync(path.join(rootPath, item)).isFile()
-      && path.extname(item) === '.json',
-  ).map(
-    item => path.join(rootPath, item),
-  );
-
-  const subdirects = fs
-    .readdirSync(rootPath).filter(item => fs.statSync(path.join(rootPath, item)).isDirectory());
-
-  const subfiles = subdirects.map((subfolder) => {
-    const root = path.join(rootPath, subfolder);
-    return fs.readdirSync(root).filter(item => fs
-          .statSync(path.join(root, item))
-          .isFile() && path.extname(item) === '.json').map(
-        item => path.join(root, item),
-      );
-    });
-    console.log(files.concat(subfiles[0]));
-  return files.concat(subfiles[0]);
+  const split = itemPath.split('/');
+  let formatted = `${split[1]}/${split.pop()}`;
+  formatted = formatted.replace(/\.json$/, '');
+  return [formatted, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
 };
 
 const getJSONFilesUnderPath = (rootPath) => {
@@ -69,8 +44,24 @@ const getJSONFilesUnderPath = (rootPath) => {
         && path.extname(item) === '.json',
     )
     .map(item => path.join(rootPath, item));
-  return files;
+
+  const subdirects = fs
+    .readdirSync(rootPath)
+    .filter(item => fs.statSync(path.join(rootPath, item)).isDirectory());
+
+  const subfiles = subdirects ? subdirects.map((subfolder) => {
+    const root = path.join(rootPath, subfolder);
+    return fs
+      .readdirSync(root)
+      .filter(
+        item => fs.statSync(path.join(root, item)).isFile()
+          && path.extname(item) === '.json',
+      )
+      .map(item => path.join(root, item));
+  }) : [];
+  return files.concat(files.concat(subfiles[0] ? subfiles[0] : []));
 };
+
 
 const getAllAnnotationsFromManifest = (
   manifest,
@@ -176,7 +167,7 @@ const getAllObjectLinks = (
 const createCollectionPages = (objectLinks) => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
-  return getFilesUnderPath(collectionsPath)
+  return getJSONFilesUnderPath(collectionsPath)
     .reduce(
       (meta, item) => {
         const [pathname, context] = getManifestContext(item);
