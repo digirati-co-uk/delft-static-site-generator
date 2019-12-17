@@ -30,18 +30,40 @@ const convertToV3ifNecessary = (manifest) => {
 };
 
 const getManifestContext = (itemPath) => {
-  const pathname = itemPath.replace(/^src\//, '').replace(/\.json$/, '');
-  return [pathname, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
+  const split = itemPath.split('/');
+  let formatted = `${split[1]}/${split.pop()}`;
+  formatted = formatted.replace(/\.json$/, '');
+  return [formatted, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
 };
 
-const getJSONFilesUnderPath = rootPath => fs
-  .readdirSync(rootPath)
-  .filter(
-    item => fs.statSync(path.join(rootPath, item)).isFile()
-      && path.extname(item) === '.json',
-  ).map(
-    item => path.join(rootPath, item),
-  );
+const checkifSubfolder = root => (fs.statSync(path.join(root)).isDirectory());
+
+const checkifJSON = filepath => (fs
+          .statSync(filepath)
+          .isFile() && path.extname(filepath) === '.json');
+
+
+const getJSON = filepath => fs.readdirSync(filepath).map(item => path.join(filepath, item));
+
+
+const getJSONFilesUnderPath = (filepath) => {
+  const files = [];
+  const allDirectory = getJSON(filepath);
+  allDirectory.forEach((item) => {
+    if (checkifJSON(item)) {
+      files.push(item);
+    } else if (checkifSubfolder(path.join(item))) {
+      const subfiles = getJSON(item);
+      subfiles.forEach((file) => {
+        checkifJSON(file) ? files.push(file) : getJSON(file).forEach((subfile) => {
+          if (checkifJSON(subfile)) files.push(subfile);
+          });
+        });
+    }
+   });
+  return files;
+};
+
 
 const getAllAnnotationsFromManifest = (
   manifest,
@@ -146,7 +168,7 @@ const getAllObjectLinks = (
 
 const createCollectionPages = (objectLinks) => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
-  const collectionsPath = './src/collections';
+  const collectionsPath = './content/collections';
   return getJSONFilesUnderPath(collectionsPath)
     .reduce(
       (meta, item) => {
@@ -185,7 +207,7 @@ const createCollectionPages = (objectLinks) => {
 
 const createObjectPages = () => {
   const manifestTemplate = path.resolve(`src/pages/Object/Object.js`);
-  const manifestsPath = './src/objects';
+  const manifestsPath = './content/objects';
   return getJSONFilesUnderPath(manifestsPath)
     .reduce(
       (meta, item) => {
@@ -216,23 +238,18 @@ const createObjectPages = () => {
 
 const createExhibitionPages = () => {
   const exhibitionTemplate = path.resolve(`src/pages/Exhibition/Exhibition.js`);
-  const exhibitionsPath = './src/exhibitions';
+  const exhibitionsPath = 'content/exhibitions';
   return getJSONFilesUnderPath(exhibitionsPath)
     .reduce(
       (meta, item) => {
-        const [pathname, context] = getManifestContext(item);
-        meta.pages[pathname] = {
-          path: pathname,
-          component: exhibitionTemplate,
-          context,
-        };
-        meta.thumbnails[pathname] = getManifestThumbnail(context);
-        meta.links[(context.id || context['@id'])] = pathname;
-        meta.reverseLinks[pathname] = (context.id || context['@id']);
-
-        getAllAnnotationsFromManifest(context, pathname, meta.annotationsPartOfExhibition);
-        return meta;
-      }, {
+          const [pathname, context] = getManifestContext(item);
+          meta.pages[pathname] = { path: pathname, component: exhibitionTemplate, context };
+          meta.thumbnails[pathname] = getManifestThumbnail(context);
+          meta.links[context.id || context['@id']] = pathname;
+          meta.reverseLinks[pathname] = context.id || context['@id'];
+          getAllAnnotationsFromManifest(context, pathname, meta.annotationsPartOfExhibition);
+          return meta;
+        }, {
         thumbnails: {},
         links: {},
         reverseLinks: {},
