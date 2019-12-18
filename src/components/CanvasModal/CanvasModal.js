@@ -75,11 +75,6 @@ class CanvasModal extends React.Component {
     const detailsLink =
       imageAnnotations.length === 1 &&
       annotationDetails[getAnnotationId(imageAnnotations[0])];
-    console.log(detailsLink);
-    console.log(imageAnnotations);
-    console.log(annotationDetails);
-    console.log(getAnnotationId(imageAnnotations[0]));
-
     return selectedCanvas ? (
       <div className="canvas-modal">
         <ContainerDimensions>

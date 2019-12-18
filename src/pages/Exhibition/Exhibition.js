@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
-import DynamicCanvasModal from '../../components/CanvasModal/DynamicCanvasModel';
+import CanvasModal from '../../components/CanvasModal/CanvasModal';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 import { Arrow } from '../../components/Arrow/Arrow';
@@ -59,20 +59,17 @@ class ExhibitionPage extends React.Component {
   showCanvasDetails = (canvas, annotationDetails) => () => {
     const { pageContext: manifest, path } = this.props;
     const pageLanguage = getPageLanguage(path);
-    this.setState(
-      {
-        renderCanvasModal: (
-          <DynamicCanvasModal
-            selectedCanvas={canvas}
-            manifest={manifest}
-            hideCanvasDetails={this.hideCanvasDetails}
-            pageLanguage={pageLanguage}
-            annotationDetails={annotationDetails}
-          />
-        ),
-      },
-      () => console.log(this.state)
-    );
+    this.setState({
+      renderCanvasModal: (
+        <CanvasModal
+          selectedCanvas={canvas}
+          manifest={manifest}
+          hideCanvasDetails={this.hideCanvasDetails}
+          pageLanguage={pageLanguage}
+          annotationDetails={annotationDetails}
+        />
+      ),
+    });
   };
 
   hideCanvasDetails = () => {
