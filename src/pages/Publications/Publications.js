@@ -7,32 +7,42 @@ import { getPageLanguage } from '../../utils';
 
 const Publications = ({ data, '*': pagePath }) => {
   const pageLanguage = getPageLanguage(pagePath);
+  const socialData = data;
+  const { site: { siteMetadata: { url, twitterHandle } } } = socialData;
   return (
     <Layout language={pageLanguage} path={pagePath}>
       <main>
-        <div className="blocks">
-          {data.allMarkdownRemark && (data.allMarkdownRemark.edges || []).map((article) => {
-          const {
-            title, date, path, author,
-          } = article.node.frontmatter;
-          return (
-            <div className="block title cutcorners w-4 h-4 ">
-              <div className="boxtitle">{date || '[Date]'}</div>
-              <div className="maintitle">
-                {title || '[Title]'}
-                <p className="readmore">
-                  <a href={path}>Read More</a>
-                </p>
-              </div>
-              <div className="boxtitle">{author || '[Author]'}</div>
-            </div>
-          );
-        })}
+      <div className="blocks">
+          {data.allMarkdownRemark && (data.allMarkdownRemark.edges || []).map(
+              (article) => {
+                const {
+                  title,
+                  date,
+                  path,
+                  author,
+                } = article.node.frontmatter;
+                return (
+                  <div className="block title cutcorners w-4 h-4 ">
+                    <div className="boxtitle">{date || '[Date]'}</div>
+                    <div className="maintitle">
+                      {title || '[Title]'}
+                      <p className="readmore">
+                        <a href={path}>Read More</a>
+                      </p>
+                    </div>
+                    <div className="boxtitle">{author || '[Author]'}</div>
+                  </div>
+                );
+              },
+            )}
         </div>
-      </main>
-      <SocialMedia />
-    </Layout>
-  );
+    </main>
+      <SocialMedia
+      socialConfig={{ twitterHandle, config: { url: `${url}${pagePath}` } }}
+      tags={[]}
+    />
+</Layout>
+);
 };
 
 Publications.propTypes = {
@@ -62,4 +72,10 @@ query($path: String!) {
      }
    }
  }
+  site {
+    siteMetadata {
+      url
+      twitterHandle
+    }
+  }
 }`;

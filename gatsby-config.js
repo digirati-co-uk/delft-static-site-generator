@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'TU Delft Academic Heritage',
+    twitterHandle: '@tudelftlibrary',
+    url: 'https://erfgoed.tudelft.nl/nl',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
