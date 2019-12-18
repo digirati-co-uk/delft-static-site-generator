@@ -47,6 +47,10 @@ const Layout = ({ children, language, path }) => (
                 name: 'twitter:title',
                 content: 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
               },
+              {
+                name: 'twitter:card',
+                content: 'summary_large_image',
+              },
             ]}
           >
             <html lang={language} />
