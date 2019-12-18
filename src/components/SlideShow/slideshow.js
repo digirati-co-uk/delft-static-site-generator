@@ -118,6 +118,7 @@ class SlideShow extends React.Component {
                   no thumb{' '}
                 </div>}
             </button>
+
           </Link>
         </div>;
   };
