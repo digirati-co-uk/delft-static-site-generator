@@ -13,23 +13,41 @@ import translations from '../../translations';
 const Layout = ({ children, language, path }) => (
   <StaticQuery
     query={graphql`
-        query SiteTitleQuery {
-          site {
-            siteMetadata {
-              title
-            }
+      query SiteTitleQuery {
+        site {
+          siteMetadata {
+            title
           }
         }
-      `}
+      }
+    `}
     render={data => (
-      <TranslatorProvider translations={translations[language] || translations.en}>
+      <TranslatorProvider
+        translations={translations[language] || translations.en}
+      >
         <React.Fragment>
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-                { name: 'description', content: 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.' },
-                { name: 'keywords', content: 'academic heritage, heritage, special collections, library, history, technology, iiif, open source' },
-              ]}
+              {
+                name: 'description',
+                content:
+                  'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
+              },
+              {
+                name: 'keywords',
+                content:
+                  'academic heritage, heritage, special collections, library, history, technology, iiif, open source',
+              },
+              {
+                name: 'twitter:image',
+                content: `${data.site.siteMetadata.url}${path}twitter-card`,
+              },
+              {
+                name: 'twitter:title',
+                content: 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
+              },
+            ]}
           >
             <html lang={language} />
           </Helmet>
@@ -38,7 +56,7 @@ const Layout = ({ children, language, path }) => (
           <Footer />
         </React.Fragment>
       </TranslatorProvider>
-      )}
+    )}
   />
 );
 
