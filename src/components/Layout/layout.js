@@ -5,6 +5,8 @@ import { StaticQuery, graphql } from 'gatsby';
 import { TranslatorProvider } from 'react-translate';
 import Header from '../Header/header';
 import Footer from '../Footer/footer';
+import TwitterImage from '../../images/twitterCard.svg';
+
 import './layout.css';
 import '../delft-styles.scss';
 
@@ -41,7 +43,7 @@ const Layout = ({ children, language, path }) => (
               },
               {
                 name: 'twitter:image',
-                content: `${data.site.siteMetadata.url}${path}twitter-card`,
+                content: `${TwitterImage}`,
               },
               {
                 name: 'twitter:title',
