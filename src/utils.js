@@ -33,14 +33,13 @@ const substituteSpecialLinks = (html, pageContext, allMDRemark) => html.replace(
   );
 
 const getAuthor = (path, allMDRemark) => {
-  let author; let date;
+  let author;
   allMDRemark.edges.forEach((markdown) => {
     if (markdown.node.frontmatter.path === path) {
       author = markdown.node.frontmatter.author;
-      date = markdown.node.frontmatter.date;
     }
   });
-  return `${author} ${date}`;
+  return `${author}`;
 };
 
 export const getTranslation = (obj, lang, glue = ' ') => (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue);
