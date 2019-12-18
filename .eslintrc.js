@@ -5,7 +5,7 @@ const ALLOW = 1;
 const ERROR = 2;
 
 module.exports = {
-  extends: ['airbnb', "plugin:compat/recommended"],
+  extends: ['airbnb', "plugin:compat/recommended", "plugin:json/recommended"],
   parser: 'babel-eslint',
   rules: {
     'no-undef': OFF,
@@ -47,4 +47,10 @@ module.exports = {
   "env": {
     "browser": true
   },
+  "plugins": [
+      "json"
+  ],
+  "rules": {
+      "json/*": ["error"]
+  }
 };
