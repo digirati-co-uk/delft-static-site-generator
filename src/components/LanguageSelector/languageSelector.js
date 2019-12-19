@@ -12,23 +12,27 @@ const LanguageSelector = ({ data, path = '' }) => {
 
   data.allSitePage.edges.forEach((site) => {
     if (site.node.path === englishPath) {
-      console.log(site);
       allowEnglish = true;
     }
     if (site.node.path === dutchPath) {
-      console.log(site);
       allowDutch = true;
     }
   });
 
-
   return (
     <span className="language-selector">
-      <a href={allowEnglish ? englishPath : null} className="language-selector__translation" disabled={!allowEnglish}>
+      <a
+        href={allowEnglish ? englishPath : null}
+        className="language-selector__translation"
+        disabled={!allowEnglish}
+      >
         EN
       </a>
       /
-      <a href={allowDutch ? dutchPath : null} className="language-selector__translation">
+      <a
+        href={allowDutch ? dutchPath : null}
+        className="language-selector__translation"
+      >
         NL
       </a>
     </span>
@@ -55,6 +59,16 @@ export default props => (
 
 LanguageSelector.propTypes = {
   path: PropTypes.string.isRequired,
+  data: PropTypes.shape({
+    allSitePage: PropTypes.shape({
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            id: PropTypes.string,
+            path: PropTypes.string,
+          }).isRequired,
+        }),
+      ).isRequired,
+    }).isRequired,
+  }).isRequired,
 };
-
-// export default LanguageSelector;
