@@ -9,12 +9,16 @@ $brand-colors: (
 	whatsapp: #128c7e,
 );
 
-.social {
+.socialMedia {
+	display: flex;
+
   cursor: pointer;
-  border-radius: 2rem;
+	border-radius: 2rem;
+
 	.button {
 		margin: 0.5rem 0.25rem;
 		// transition: all 300ms ease-out;
+
 		@each $class, $color in $brand-colors {
 			&.#{$class} {
 				color: $color;

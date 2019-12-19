@@ -2,44 +2,33 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
-import { SocialMedia } from '../../components/SocialMedia/SocialMedia';
 import { getPageLanguage } from '../../utils';
 
 const Publications = ({ data, '*': pagePath }) => {
   const pageLanguage = getPageLanguage(pagePath);
-  const socialData = data;
-  const { site: { siteMetadata: { url, twitterHandle } } } = socialData;
+
   return (
     <Layout language={pageLanguage} path={pagePath}>
       <main>
-      <div className="blocks">
-          {data.allMarkdownRemark && (data.allMarkdownRemark.edges || []).map(
-              (article) => {
-                const {
-                  title,
-                  date,
-                  path,
-                  author,
-                } = article.node.frontmatter;
-                return (
-                  <div className="block title cutcorners w-4 h-4 ">
-                    <div className="boxtitle">{date || '[Date]'}</div>
-                    <div className="maintitle">
-                      {title || '[Title]'}
-                      <p className="readmore">
-                        <a href={path}>Read More</a>
-                      </p>
-                    </div>
-                    <div className="boxtitle">{author || '[Author]'}</div>
+        <div className="blocks">
+          {data.allMarkdownRemark &&
+            (data.allMarkdownRemark.edges || []).map(article => {
+              const { title, date, path, author } = article.node.frontmatter;
+              return (
+                <div className="block title cutcorners w-4 h-4 ">
+                  <div className="boxtitle">{date || '[Date]'}</div>
+                  <div className="maintitle">
+                    {title || '[Title]'}
+                    <p className="readmore">
+                      <a href={path}>Read More</a>
+                    </p>
                   </div>
-                );
-              },
-            )}
+                  <div className="boxtitle">{author || '[Author]'}</div>
+                </div>
+              );
+            })}
         </div>
     </main>
-      <SocialMedia
-      socialConfig={{ twitterHandle, config: { url: `${url}${pagePath}` } }}
-      tags={[]}
     />
 </Layout>
 );
@@ -53,29 +42,24 @@ Publications.propTypes = {
 export default Publications;
 
 export const pageQuery = graphql`
-query($path: String!) {
-  allMarkdownRemark(
-   filter: { frontmatter: { path: { regex: $path }}}
-   sort: { fields: [frontmatter___date], order: DESC}
- ){
-   edges {
-     node {
-       id,
+  query($path: String!) {
+    allMarkdownRemark(
+      filter: { frontmatter: { path: { regex: $path } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          id
 
-       frontmatter {
-         title
-         path
-         date
-         _PARENT
-         author
-       }
-     }
-   }
- }
-  site {
-    siteMetadata {
-      url
-      twitterHandle
+          frontmatter {
+            title
+            path
+            date
+            _PARENT
+            author
+          }
+        }
+      }
     }
   }
-}`;
+`;

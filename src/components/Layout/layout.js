@@ -19,6 +19,8 @@ const Layout = ({ children, language, path }) => (
         site {
           siteMetadata {
             title
+            url
+            twitterHandle
           }
         }
       }
@@ -47,7 +49,7 @@ const Layout = ({ children, language, path }) => (
               },
               {
                 name: 'twitter:title',
-                content: 'TU Delft Academic Heritage.',
+                content: data.site.siteMetadata.title,
               },
               {
                 name: 'twitter:description',
@@ -68,7 +70,7 @@ const Layout = ({ children, language, path }) => (
               },
               {
                 name: 'og:title',
-                content: 'TU Delft Academic Heritage.',
+                content: data.site.siteMetadata.title,
               },
               {
                 name: 'og:image',
@@ -85,7 +87,12 @@ const Layout = ({ children, language, path }) => (
           </Helmet>
           <Header language={language} path={path} />
           {children}
-          <Footer />
+          <Footer
+            path={path}
+            title={data.site.siteMetadata.title}
+            url={data.site.siteMetadata.url}
+            twitterHandle={data.site.siteMetadata.twitterHandle}
+          />
         </React.Fragment>
       </TranslatorProvider>
     )}
