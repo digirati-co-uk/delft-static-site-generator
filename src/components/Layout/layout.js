@@ -47,11 +47,37 @@ const Layout = ({ children, language, path }) => (
               },
               {
                 name: 'twitter:title',
-                content: 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
+                content: 'TU Delft Academic Heritage.',
+              },
+              {
+                name: 'twitter:description',
+                content:
+                  'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
               },
               {
                 name: 'twitter:card',
                 content: 'summary_large_image',
+              },
+              {
+                name: 'og:url',
+                content: 'https://erfgoed.tudelft.nl/en',
+              },
+              {
+                name: 'og:type',
+                content: 'website',
+              },
+              {
+                name: 'og:title',
+                content: 'TU Delft Academic Heritage.',
+              },
+              {
+                name: 'og:image',
+                content: `${TwitterImage}`,
+              },
+              {
+                name: 'og:description',
+                content:
+                  'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
               },
             ]}
           >
