@@ -36,7 +36,7 @@ class SlideShow extends Component {
     this.thumbnailCache = {};
   }
 
-  calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index * 116)
+  calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index * 116) - 116;
 
   getThumbnails = (manifest) => {
     const manifestId = manifest.id || manifest['@id'];
@@ -158,7 +158,7 @@ class SlideShow extends Component {
                                 }
                               height={124}
                               overscanColumnCount={5}
-                              overscanRowCount={1}
+                              overscanRowCount={0}
                               rowHeight={116}
                               rowCount={1}
                               width={width}

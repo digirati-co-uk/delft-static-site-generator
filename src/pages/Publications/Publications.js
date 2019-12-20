@@ -49,7 +49,6 @@ query($path: String!) {
    edges {
      node {
        id,
-
        frontmatter {
          title
          path
@@ -60,4 +59,12 @@ query($path: String!) {
      }
    }
  }
+  allSitePage {
+      edges {
+        node {
+          id
+          path
+        }
+      }
+    }
 }`;
