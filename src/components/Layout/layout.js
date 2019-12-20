@@ -12,11 +12,14 @@ import '../delft-styles.scss';
 import translations from '../../translations';
 
 const Layout = ({ children, language, path }) => {
-  [firstImage, setFirstImage] = useState("");
+  const [firstImage, setFirstImage] = useState('');
+
+  const getFirstImage = () => {
+    setFirstImage(document.images[0].src);
+  };
 
   useEffect(() => {
-    console.log('in here');
-    setFirstImage(document.images[0]);
+    getFirstImage();
   }, []);
 
   return (
