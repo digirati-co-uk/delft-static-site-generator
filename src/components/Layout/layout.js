@@ -20,7 +20,11 @@ class Layout extends React.Component {
   }
 
   componentDidMount() {
-    this.setState({ firstImage: document.images[0].src });
+    const pattern = /^((http|https):\/\/)/;
+    if (document.images && document.images.length > 1) {
+      const firstImage = pattern.test(document.images[0]) ? document.images[0] : document.images[1].src;
+      this.setState({ firstImage });
+    }
   }
 
   render () {
