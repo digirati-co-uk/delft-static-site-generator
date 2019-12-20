@@ -12,7 +12,7 @@ import '../delft-styles.scss';
 import translations from '../../translations';
 
 const Layout = ({ children, language, path }) => {
-  [firstImage, setFirstImage] = useState();
+  [firstImage, setFirstImage] = useState("");
 
   useEffect(() => {
     console.log('in here');
