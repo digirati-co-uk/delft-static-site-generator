@@ -29,7 +29,6 @@ const Publications = ({ data, '*': pagePath }) => {
             })}
         </div>
     </main>
-    />
 </Layout>
 );
 };
