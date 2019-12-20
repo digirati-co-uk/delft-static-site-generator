@@ -11,10 +11,10 @@ const LanguageSelector = ({ data, path = '' }) => {
   let allowDutch = false;
 
   data.allSitePage.edges.forEach((site) => {
-    if (site.node.path === englishPath) {
+    if (site.node.path === englishPath || site.node.path === `${englishPath}/`) {
       allowEnglish = true;
     }
-    if (site.node.path === dutchPath) {
+    if (site.node.path === dutchPath || site.node.path === `${dutchPath}/`) {
       allowDutch = true;
     }
   });
