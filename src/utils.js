@@ -3,7 +3,8 @@
  * @param {String} html - html string to post process
  * @returns {String} the post processed html
  */
-const substituteSpecialLinks = (html, pageContext, allMDRemark) => html.replace(
+const substituteSpecialLinks = (html, pageContext, allMDRemark) => {
+  return html.replace(
     /(<p><a href="(?:\/(en|nl))(\/(collection|exhibition|object|publication)s\/.*)">)([^<]+)<\/a><\/p>/g,
     (match, p1, p2, p3, p4, p5) => {
       const hasThumbnail = p3 && pageContext && pageContext.thumbnails
@@ -31,16 +32,16 @@ const substituteSpecialLinks = (html, pageContext, allMDRemark) => html.replace(
       }
     },
   );
+};
 
 const getAuthor = (path, allMDRemark) => {
-  let author; let date;
+  let author;
   allMDRemark.edges.forEach((markdown) => {
     if (markdown.node.frontmatter.path === path) {
       author = markdown.node.frontmatter.author;
-      date = markdown.node.frontmatter.date;
     }
   });
-  return `${author} ${date}`;
+  return `${author}`;
 };
 
 export const getTranslation = (obj, lang, glue = ' ') => (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue);

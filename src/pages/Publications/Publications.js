@@ -42,24 +42,30 @@ Publications.propTypes = {
 export default Publications;
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    allMarkdownRemark(
-      filter: { frontmatter: { path: { regex: $path } } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+query($path: String!) {
+  allMarkdownRemark(
+   filter: { frontmatter: { path: { regex: $path }}}
+   sort: { fields: [frontmatter___date], order: DESC}
+ ){
+   edges {
+     node {
+       id,
+       frontmatter {
+         title
+         path
+         date
+         _PARENT
+         author
+       }
+     }
+   }
+ }
+  allSitePage {
       edges {
         node {
           id
-
-          frontmatter {
-            title
-            path
-            date
-            _PARENT
-            author
-          }
+          path
         }
       }
     }
-  }
-`;
+}`;
