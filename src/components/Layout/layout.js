@@ -7,7 +7,7 @@ import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import './layout.css';
 import '../delft-styles.scss';
-import { defaultImage } from '../../images/defaultSocial.jpg';
+import defaultImage from '../../images/defaultSocial.jpg';
 
 import translations from '../../translations';
 
