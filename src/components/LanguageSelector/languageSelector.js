@@ -10,8 +10,11 @@ const LanguageSelector = ({ data, path = '' }) => {
   let allowEnglish = false;
   let allowDutch = false;
 
-  data.allSitePage.edges.forEach((site) => {
-    if (site.node.path === englishPath || site.node.path === `${englishPath}/`) {
+  data.allSitePage.edges.forEach(site => {
+    if (
+      site.node.path === englishPath ||
+      site.node.path === `${englishPath}/`
+    ) {
       allowEnglish = true;
     }
     if (site.node.path === dutchPath || site.node.path === `${dutchPath}/`) {
@@ -21,20 +24,23 @@ const LanguageSelector = ({ data, path = '' }) => {
 
   return (
     <span className="language-selector">
-      <a
-        href={allowEnglish ? englishPath : null}
-        className="language-selector__translation"
-        disabled={!allowEnglish}
-      >
-        EN
-      </a>
-      /
-      <a
-        href={allowDutch ? dutchPath : null}
-        className="language-selector__translation"
-      >
-        NL
-      </a>
+      {allowEnglish ? (
+        <a
+          href={allowEnglish ? englishPath : null}
+          className="language-selector__translation"
+        >
+          EN
+        </a>
+      ) : null}
+      {allowEnglish && allowDutch ? '/' : null}
+      {allowDutch ? (
+        <a
+          href={allowDutch ? dutchPath : null}
+          className="language-selector__translation"
+        >
+          NL
+        </a>
+      ) : null}
     </span>
   );
 };
@@ -67,7 +73,7 @@ LanguageSelector.propTypes = {
             id: PropTypes.string,
             path: PropTypes.string,
           }).isRequired,
-        }),
+        })
       ).isRequired,
     }).isRequired,
   }).isRequired,
