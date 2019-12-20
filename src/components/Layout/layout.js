@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
@@ -11,18 +11,20 @@ import '../delft-styles.scss';
 
 import translations from '../../translations';
 
-const Layout = ({ children, language, path }) => {
-  const [firstImage, setFirstImage] = useState('');
+class Layout extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      firstImage: '',
+    };
+  }
 
-  const getFirstImage = () => {
-    setFirstImage(document.images[0].src);
-  };
+  componentDidMount() {
+    this.setState({ firstImage: document.images[0].src });
+  }
 
-  useEffect(() => {
-    getFirstImage();
-  }, []);
-
-  return (
+  render () {
+      return (
     <StaticQuery
       query={graphql`
         query SiteTitleQuery {
@@ -37,7 +39,7 @@ const Layout = ({ children, language, path }) => {
       `}
       render={data => (
         <TranslatorProvider
-          translations={translations[language] || translations.en}
+          translations={translations[this.props.language] || translations.en}
         >
           <React.Fragment>
             <Helmet
@@ -53,7 +55,7 @@ const Layout = ({ children, language, path }) => {
                   content:
                     'academic heritage, heritage, special collections, library, history, technology, iiif, open source',
                 },
-                { name: 'twitter:image', content: `${firstImage}` },
+                { name: 'twitter:image', content: `${this.state.firstImage}` },
                 {
                   name: 'twitter:title',
                   content: data.site.siteMetadata.title,
@@ -67,7 +69,7 @@ const Layout = ({ children, language, path }) => {
                 { name: 'og:url', content: 'https://erfgoed.tudelft.nl/en' },
                 { name: 'og:type', content: 'website' },
                 { name: 'og:title', content: data.site.siteMetadata.title },
-                { name: 'og:image', content: `${firstImage}` },
+                { name: 'og:image', content: `${this.state.firstImage}` },
                 {
                   name: 'og:description',
                   content:
@@ -75,12 +77,12 @@ const Layout = ({ children, language, path }) => {
                 },
               ]}
             >
-              <html lang={language} />
+              <html lang={this.props.language} />
             </Helmet>
-            <Header language={language} path={path} />
-            {children}
+            <Header language={this.props.language} path={this.props.path} />
+            {this.props.children}
             <Footer
-              path={path}
+              path={this.props.path}
               title={data.site.siteMetadata.title}
               url={data.site.siteMetadata.url}
               twitterHandle={data.site.siteMetadata.twitterHandle}
@@ -90,6 +92,8 @@ const Layout = ({ children, language, path }) => {
       )}
     />
   );
+  }
+
 };
 
 Layout.propTypes = {
