@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby';
 import { TranslatorProvider } from 'react-translate';
 import Header from '../Header/header';
 import Footer from '../Footer/footer';
-
 import './layout.css';
 import '../delft-styles.scss';
 
@@ -26,6 +25,8 @@ class Layout extends React.Component {
         ? document.images[0]
         : document.images[1].src;
       this.setState({ firstImage });
+    } else {
+      this.setState({firstImage: "https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg"})
     }
   }
 
