@@ -7,6 +7,7 @@ import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import './layout.css';
 import '../delft-styles.scss';
+import { defaultImage } from '../../images/defaultSocial.jpg';
 
 import translations from '../../translations';
 
@@ -26,7 +27,7 @@ class Layout extends React.Component {
         : document.images[1].src;
       this.setState({ firstImage });
     } else {
-      this.setState({firstImage: "https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg"})
+      this.setState({ firstImage: defaultImage });
     }
   }
 
