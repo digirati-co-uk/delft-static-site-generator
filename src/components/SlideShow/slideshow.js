@@ -26,7 +26,7 @@ class SlideShow extends Component {
     renderPanel: PropTypes.func,
     bem: PropTypes.object,
     pathname: PropTypes.string,
-    id: PropTypes.string,
+    id: PropTypes.number,
   };
 
   static defaultProps = {
@@ -108,26 +108,24 @@ class SlideShow extends Component {
           {({ ref, ...fullscreenProps }) => <Manifest jsonLd={jsonld}>
               <RangeNavigationProvider>
                 {rangeProps => {
-                  const { manifest, canvas, canvasList, currentIndex, previousRange, nextRange, region, goToRange } = rangeProps;
+                  const { manifest, canvas, canvasList, previousRange, currentIndex, nextRange, region, goToRange } = rangeProps;
                   this.canvasList = canvasList;
                   this.allThumbnails = this.getThumbnails(manifest);
-                  this.currentIndex = currentIndex;
+                  this.currentIndex = this.props.id;
                   this.goToRange = goToRange;
-                  // this.nextRange = (e) => { nextRange(); navigate(`${this.props.pathname}?id=${currentIndex + 1}`) }
                   this.nextRange = () => {
                     nextRange();
-                    navigate(`${this.props.pathname}?id=${currentIndex + 1}`);
+                    if (!(currentIndex >= canvasList.length - 1)) navigate(`${this.props.pathname}?id=${parseInt(this.currentIndex) + 1}`);
                   };
                   this.previousRange = () => {
                     previousRange();
-                    navigate(`${this.props.pathname}?id=${currentIndex - 1}`);
+                    if (!(currentIndex === 0)) navigate(`${this.props.pathname}?id=${this.currentIndex - 1}`);
                   };
 
-                  console.log(rangeProps)
                   return <React.Fragment>
                       <div className={bem.element('inner-frame')} ref={ref}>
-                        <SimpleSlideTransition id={currentIndex}>
-                          <Slide startIndex={1} fullscreenProps={fullscreenProps} behaviors={canvas.__jsonld.behavior || []} manifest={manifest} canvas={canvas} region={region} renderPanel={renderPanel} />
+                        <SimpleSlideTransition id={this.props.id}>
+                          <Slide fullscreenProps={fullscreenProps} behaviors={canvas.__jsonld.behavior || []} manifest={manifest} canvas={canvas} region={region} renderPanel={renderPanel} />
                         </SimpleSlideTransition>
                         <CanvasNavigation previousRange={this.previousRange} nextRange={this.nextRange} canvasList={canvasList} currentIndex={currentIndex} />
                       </div>
@@ -147,7 +145,7 @@ class SlideShow extends Component {
                                 scrollLeft={this.calculateScrollLength(
                                   width,
                                   canvasList.length,
-                                  currentIndex
+                                  this.currentIndex
                                 )}
                               />
                             )}
