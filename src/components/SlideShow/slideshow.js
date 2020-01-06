@@ -115,11 +115,11 @@ class SlideShow extends Component {
                   this.goToRange = goToRange;
                   this.nextRange = () => {
                     nextRange();
-                    if (!(currentIndex >= canvasList.length - 1)) navigate(`${this.props.pathname}?id=${parseInt(this.currentIndex) + 1}`);
+                    if (!(currentIndex >= canvasList.length - 1)) navigate(`${this.props.pathname}?id=${parseInt(currentIndex) + 1}`);
                   };
                   this.previousRange = () => {
                     previousRange();
-                    if (!(currentIndex === 0)) navigate(`${this.props.pathname}?id=${this.currentIndex - 1}`);
+                    if (!(currentIndex === 0)) navigate(`${this.props.pathname}?id=${currentIndex - 1}`);
                   };
 
                   return <React.Fragment>
