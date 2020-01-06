@@ -6,6 +6,9 @@ import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 
+import IdQueryStringComponent from "../../components/withQuerySearch/IdQueryStringComponent"
+
+
 const isHtml = val => val.match(/<[^>]+>/) !== null;
 
 class ObjectPage extends React.Component {
@@ -19,9 +22,11 @@ class ObjectPage extends React.Component {
   componentDidMount() {
     const { pageContext } = this.props;
     // Client only hack
-    this.setState({
-      renderSlideShow: (<SlideShow jsonld={pageContext} />),
-    });
+    this.setState({ renderSlideShow: <React.Fragment>
+          <SlideShow jsonld={pageContext} />
+          <IdQueryStringComponent/>
+        </React.Fragment> });
+    // this.setState({ renderSlideShow: <IdQueryStringComponent><SlideShow jsonld={pageContext}/></IdQueryStringComponent> });
   }
 
   render() {
