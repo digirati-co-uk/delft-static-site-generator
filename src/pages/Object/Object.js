@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
-import SlideShow from '../../components/SlideShow/slideshow';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
@@ -21,11 +20,7 @@ class ObjectPage extends React.Component {
 
   componentDidMount() {
     const { pageContext } = this.props;
-    console.log(this.props.key)
-    // Client only hack
     this.setState({ renderSlideShow: <DynamicSlideShow context={pageContext} />});
-
-    // this.setState({ renderSlideShow: <IdQueryStringComponent><SlideShow jsonld={pageContext}/></IdQueryStringComponent> });
   }
 
   render() {

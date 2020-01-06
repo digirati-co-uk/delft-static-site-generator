@@ -6,7 +6,6 @@ const withLocation = ComponentToWrap => props => (
 
   <Location>
     {({ location, navigate }) =>  {
-      console.log(location)
 
       return (
       <ComponentToWrap

@@ -9,7 +9,7 @@ const DynamicSlideShow = ({ search, context, location }) => {
   return (
   <React.Fragment>
     <p> {`The id = ${id}`}</p>
-    <Slideshow jsonld={context} pathname={location.pathname}/>
+    <Slideshow jsonld={context} pathname={location.pathname} id={id} />
   </React.Fragment>
   )
 };

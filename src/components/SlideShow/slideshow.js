@@ -13,7 +13,7 @@ import {
 } from '@canvas-panel/slideshow';
 import './slideshow.css';
 import '../ManifestCabinet/ManifestCabinet.scss';
-import { Link } from 'gatsby';
+import { Link, navigate } from 'gatsby';
 
 
 import { Grid } from 'react-virtualized';
@@ -26,6 +26,7 @@ class SlideShow extends Component {
     renderPanel: PropTypes.func,
     bem: PropTypes.object,
     pathname: PropTypes.string,
+    id: PropTypes.string,
   };
 
   static defaultProps = {
@@ -35,7 +36,6 @@ class SlideShow extends Component {
 
   constructor(props) {
     super(props);
-    console.log(props);
     this.thumbnailCache = {};
   }
 
@@ -86,7 +86,6 @@ class SlideShow extends Component {
         return '';
       }
       return <div key={`${canvasId}--thumb--${isSelected}`} style={style}>
-          {console.log(canvasId)}
           <Link to={`${this.props.pathname}?id=${this.getID(canvasId)}`}>
           <button onClick={() => this.goToRange(columnIndex)} type="button" className={`manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`} style={{ width: height, height }}>
             {thumbnail ? <img ref={imageEl => {
@@ -104,72 +103,62 @@ class SlideShow extends Component {
 
   render() {
     const { jsonld, renderPanel, bem } = this.props;
-    return (
-      <div className={bem}>
+    return <div className={bem}>
         <Fullscreen>
-          {({ ref, ...fullscreenProps }) => (
-            <Manifest jsonLd={jsonld}>
+          {({ ref, ...fullscreenProps }) => <Manifest jsonLd={jsonld}>
               <RangeNavigationProvider>
-                {(rangeProps) => {
-                  const {
-                    manifest,
-                    canvas,
-                    canvasList,
-                    currentIndex,
-                    previousRange,
-                    nextRange,
-                    region,
-                    goToRange,
-                  } = rangeProps;
+                {rangeProps => {
+                  const { manifest, canvas, canvasList, currentIndex, previousRange, nextRange, region, goToRange } = rangeProps;
                   this.canvasList = canvasList;
                   this.allThumbnails = this.getThumbnails(manifest);
                   this.currentIndex = currentIndex;
                   this.goToRange = goToRange;
-                  return (
-                    <React.Fragment>
+                  // this.nextRange = (e) => { nextRange(); navigate(`${this.props.pathname}?id=${currentIndex + 1}`) }
+                  this.nextRange = () => {
+                    nextRange();
+                    navigate(`${this.props.pathname}?id=${currentIndex + 1}`);
+                  };
+                  this.previousRange = () => {
+                    previousRange();
+                    navigate(`${this.props.pathname}?id=${currentIndex - 1}`);
+                  };
+
+                  console.log(rangeProps)
+                  return <React.Fragment>
                       <div className={bem.element('inner-frame')} ref={ref}>
                         <SimpleSlideTransition id={currentIndex}>
-                          <Slide fullscreenProps={fullscreenProps} behaviors={canvas.__jsonld.behavior || []} manifest={manifest} canvas={canvas} region={region} renderPanel={renderPanel} />
+                          <Slide startIndex={1} fullscreenProps={fullscreenProps} behaviors={canvas.__jsonld.behavior || []} manifest={manifest} canvas={canvas} region={region} renderPanel={renderPanel} />
                         </SimpleSlideTransition>
-                        <CanvasNavigation previousRange={previousRange} nextRange={nextRange} canvasList={canvasList} currentIndex={currentIndex} />
+                        <CanvasNavigation previousRange={this.previousRange} nextRange={this.nextRange} canvasList={canvasList} currentIndex={currentIndex} />
                       </div>
-                      {canvasList.length > 1 && (
-                      <div className={bem.element('manifest-cabinet-holder')}>
-                        <ContainerDimensions>
-                          {({ width, height }) => (
-                            <Grid
-                              cellRenderer={
-                                  this.cellRenderer
-                                }
-                              columnWidth={116}
-                              columnCount={
-                                  canvasList.length
-                                }
-                              height={124}
-                              overscanColumnCount={5}
-                              overscanRowCount={0}
-                              rowHeight={116}
-                              rowCount={1}
-                              width={width}
-                              scrollLeft={this.calculateScrollLength(
+                      {canvasList.length > 1 && <div className={bem.element('manifest-cabinet-holder')}>
+                          <ContainerDimensions>
+                            {({ width, height }) => (
+                              <Grid
+                                cellRenderer={this.cellRenderer}
+                                columnWidth={116}
+                                columnCount={canvasList.length}
+                                height={124}
+                                overscanColumnCount={5}
+                                overscanRowCount={0}
+                                rowHeight={116}
+                                rowCount={1}
+                                width={width}
+                                scrollLeft={this.calculateScrollLength(
                                   width,
                                   canvasList.length,
-                                  currentIndex,
+                                  currentIndex
                                 )}
-                            />
+                              />
                             )}
-                        </ContainerDimensions>
-                      </div>
-)}
-                    </React.Fragment>
-);
+                          </ContainerDimensions>
+                        </div>}
+                    </React.Fragment>;
                 }}
               </RangeNavigationProvider>
-            </Manifest>
-          )}
+            </Manifest>}
         </Fullscreen>
-      </div>
-    );
+      </div>;
   }
 }
 
