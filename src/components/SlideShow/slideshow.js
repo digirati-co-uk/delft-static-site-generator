@@ -13,6 +13,7 @@ import {
 } from '@canvas-panel/slideshow';
 import './slideshow.css';
 import '../ManifestCabinet/ManifestCabinet.scss';
+import { Link } from 'gatsby';
 
 
 import { Grid } from 'react-virtualized';
@@ -24,6 +25,7 @@ class SlideShow extends Component {
     jsonld: PropTypes.object.isRequired,
     renderPanel: PropTypes.func,
     bem: PropTypes.object,
+    pathname: PropTypes.string,
   };
 
   static defaultProps = {
@@ -33,10 +35,15 @@ class SlideShow extends Component {
 
   constructor(props) {
     super(props);
+    console.log(props);
     this.thumbnailCache = {};
   }
 
   calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index * 116) - 116;
+
+  getID = (url) => {
+    return url.split("=").pop();
+  }
 
   getThumbnails = (manifest) => {
     const manifestId = manifest.id || manifest['@id'];
@@ -78,39 +85,21 @@ class SlideShow extends Component {
       if (!thumbnail) {
         return '';
       }
-      return (
-        <div
-          key={`${canvasId}--thumb--${isSelected}`}
-          style={style}
-        >
-          <button
-            onClick={() => this.goToRange(columnIndex)}
-            type="button"
-            className={
-            `manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`
-          }
-            style={{
-            width: height,
-            height,
-          }}
-          >
-            {thumbnail ? (
-              <img
-                ref={(imageEl) => {
+      return <div key={`${canvasId}--thumb--${isSelected}`} style={style}>
+          {console.log(canvasId)}
+          <Link to={`${this.props.pathname}?id=${this.getID(canvasId)}`}>
+          <button onClick={() => this.goToRange(columnIndex)} type="button" className={`manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`} style={{ width: height, height }}>
+            {thumbnail ? <img ref={imageEl => {
                   if (isSelected) {
                     this.selectedThumbnail = imageEl;
                   }
-                }}
-                src={thumbnail.replace('/full/full/', '/full/!100,100/')}
-                className="manifest-cabinet__thumb-img"
-                alt=""
-              />
-          ) : (
-            <div className="manifest-cabinet__thumb-missing"> no thumb </div>
-          )}
+                }} src={thumbnail.replace('/full/full/', '/full/!100,100/')} className="manifest-cabinet__thumb-img" alt="" /> : <div className="manifest-cabinet__thumb-missing">
+                {' '}
+                no thumb{' '}
+              </div>}
           </button>
-        </div>
-);
+          </Link>
+        </div>;
   };
 
   render() {
