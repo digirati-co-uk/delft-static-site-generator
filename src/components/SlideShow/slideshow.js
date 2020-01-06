@@ -26,7 +26,7 @@ class SlideShow extends Component {
     renderPanel: PropTypes.func,
     bem: PropTypes.object,
     pathname: PropTypes.string,
-    id: PropTypes.number,
+    id: PropTypes.string,
   };
 
   static defaultProps = {
@@ -37,6 +37,12 @@ class SlideShow extends Component {
   constructor(props) {
     super(props);
     this.thumbnailCache = {};
+  }
+
+  componentDidMount() {
+    if (this.props.id !== this.currentIndex) {
+      this.goToRange(parseInt(this.props.id))
+    }
   }
 
   calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index * 116) - 116;
@@ -111,7 +117,7 @@ class SlideShow extends Component {
                   const { manifest, canvas, canvasList, previousRange, currentIndex, nextRange, region, goToRange } = rangeProps;
                   this.canvasList = canvasList;
                   this.allThumbnails = this.getThumbnails(manifest);
-                  this.currentIndex = this.props.id;
+                  this.currentIndex = currentIndex;
                   this.goToRange = goToRange;
                   this.nextRange = () => {
                     nextRange();
@@ -127,7 +133,7 @@ class SlideShow extends Component {
                         <SimpleSlideTransition id={this.props.id}>
                           <Slide fullscreenProps={fullscreenProps} behaviors={canvas.__jsonld.behavior || []} manifest={manifest} canvas={canvas} region={region} renderPanel={renderPanel} />
                         </SimpleSlideTransition>
-                        <CanvasNavigation previousRange={this.previousRange} nextRange={this.nextRange} canvasList={canvasList} currentIndex={currentIndex} />
+                        <CanvasNavigation currentIndex={currentIndex} previousRange={this.previousRange} nextRange={this.nextRange} canvasList={canvasList} />
                       </div>
                       {canvasList.length > 1 && <div className={bem.element('manifest-cabinet-holder')}>
                           <ContainerDimensions>
