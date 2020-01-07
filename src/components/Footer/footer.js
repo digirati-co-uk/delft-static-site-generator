@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { SocialMedia } from '../SocialMedia/SocialMedia';
 
 import './footer.css';
-console.log(location);
 const Footer = ({ title, twitterHandle }) => (
   <footer className="footer">
     <SocialMedia
