@@ -19,7 +19,7 @@ export const SocialMedia = ({ socialConfig, tags }) => (
     <FacebookShareButton
       url={socialConfig.config.url}
       className="button is-outlined is-rounded facebook"
-      title={socialConfig.config.title}
+      quote={socialConfig.config.title}
     >
       <FacebookIcon size={32} round={true} />
     </FacebookShareButton>

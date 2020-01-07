@@ -1,10 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
-import SlideShow from '../../components/SlideShow/slideshow';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
+
+import DynamicSlideShow from "../../components/SlideShow/dynamic-slideshow"
+
 
 const isHtml = val => val.match(/<[^>]+>/) !== null;
 
@@ -18,10 +20,7 @@ class ObjectPage extends React.Component {
 
   componentDidMount() {
     const { pageContext } = this.props;
-    // Client only hack
-    this.setState({
-      renderSlideShow: (<SlideShow jsonld={pageContext} />),
-    });
+    this.setState({ renderSlideShow: <DynamicSlideShow context={pageContext} />});
   }
 
   render() {

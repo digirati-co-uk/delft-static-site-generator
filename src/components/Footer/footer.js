@@ -3,13 +3,12 @@ import PropTypes from 'prop-types';
 import { SocialMedia } from '../SocialMedia/SocialMedia';
 
 import './footer.css';
-
-const Footer = ({ path, title, twitterHandle, url }) => (
+const Footer = ({ title, twitterHandle }) => (
   <footer className="footer">
     <SocialMedia
       socialConfig={{
         twitterHandle,
-        config: { ...{ url: `${url}${path}` }, title },
+        config: { ...{ url: location }, title },
       }}
       tags={[]}
     />

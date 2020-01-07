@@ -6,6 +6,7 @@
   "dependencies": {
     "@canvas-panel/core": "^0.1.1",
     "@canvas-panel/slideshow": "^0.1.1",
+    "@reach/router": "^1.2.1",
     "classnames": "^2.2.6",
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
@@ -14,6 +15,7 @@
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.4",
     "gatsby-plugin-sharp": "^2.0.7",
+    "gatsby-react-router-scroll": "^2.1.19",
     "gatsby-source-filesystem": "^2.0.4",
     "gatsby-transformer-remark": "^2.1.12",
     "gatsby-transformer-sharp": "^2.1.4",
@@ -21,6 +23,7 @@
     "node-sass": "^4.10.0",
     "openseadragon": "^2.4.0",
     "prop-types": "^15.6.2",
+    "query-string": "^6.9.0",
     "react": "^16.6.3",
     "react-container-dimensions": "^1.4.1",
     "react-dom": "^16.6.3",
