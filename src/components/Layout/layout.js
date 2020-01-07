@@ -77,12 +77,12 @@ class Layout extends React.Component {
                       'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
                   },
                   { name: 'twitter:card', content: 'summary_large_image' },
-                  { name: 'og:url', content: 'https://erfgoed.tudelft.nl/en' },
-                  { name: 'og:type', content: 'website' },
-                  { name: 'og:title', content: data.site.siteMetadata.title },
-                  { name: 'og:image', content: `${this.state.firstImage}` },
+                  { property: 'og:url', content: 'https://erfgoed.tudelft.nl/en' },
+                  { property: 'og:type', content: 'website' },
+                  { property: 'og:title', content: data.site.siteMetadata.title },
+                  { property: 'og:image', content: `${this.state.firstImage}` },
                   {
-                    name: 'og:description',
+                    property: 'og:description',
                     content:
                       'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
                   },
