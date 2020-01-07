@@ -97,7 +97,7 @@ class SlideShow extends Component {
         return '';
       }
       return <div key={`${canvasId}--thumb--${isSelected}`} style={style}>
-          <Link to={`${this.props.pathname}?id=${this.getID(canvasId)}`}>
+          <Link style={{borderBottom: "none"}} to={`${this.props.pathname}?id=${this.getID(canvasId)}`}>
           <button onClick={() => this.goToRange(columnIndex)} type="button" className={`manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`} style={{ width: height, height }}>
             {thumbnail ? <img ref={imageEl => {
                   if (isSelected) {
