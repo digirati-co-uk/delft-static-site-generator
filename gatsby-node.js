@@ -29,11 +29,17 @@ const convertToV3ifNecessary = (manifest) => {
     return manifest;
 };
 
-const getManifestContext = (itemPath) => {
+const getManifestContext = itemPath => {
   const split = itemPath.split('/');
   let formatted = `${split[1]}/${split.pop()}`;
   formatted = formatted.replace(/\.json$/, '');
-  return [formatted, convertToV3ifNecessary(JSON.parse(fs.readFileSync(itemPath)))];
+  let json;
+  try {
+    json = JSON.parse(fs.readFileSync(itemPath));
+  } catch (e) {
+    console.log(`ERROR IN JSON at ${itemPath} error: ${e}`);
+  }
+  return [formatted, convertToV3ifNecessary(json)];
 };
 
 const checkifSubfolder = root => (fs.statSync(path.join(root)).isDirectory());
