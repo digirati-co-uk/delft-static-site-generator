@@ -10,11 +10,12 @@
   &__translation {
     text-decoration: none;
     border: none;
+    
     &--not-allowed {
       color:grey;
       margin: 0px;
+      cursor: initial
     }
-
   }
 }
 
