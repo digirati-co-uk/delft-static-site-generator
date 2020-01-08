@@ -27,7 +27,7 @@ const getMetatataIfExist = (allMetadata, key, lang, prependKey = false) => {
   return '';
 };
 
-const CollectionPage = ({ pageContext, '*': path }) => {
+const CollectionPage = ({ pageContext, path }) => {
   const { collection, objectLinks } = pageContext;
   if (!collection) {
     return 'Error: collection not defined, please check the source manifest.';
@@ -39,6 +39,7 @@ const CollectionPage = ({ pageContext, '*': path }) => {
   const items = (collection.items || []).filter(
     resource => resource.type === 'Manifest',
   );
+
   return (
     <Layout language={pageLanguage} path={path}>
       <main>
@@ -90,7 +91,7 @@ const CollectionPage = ({ pageContext, '*': path }) => {
 
 CollectionPage.propTypes = {
   pageContext: PropTypes.object.isRequired,
-  '*': PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 };
 
 export default CollectionPage;

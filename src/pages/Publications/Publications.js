@@ -4,7 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
 import { getPageLanguage } from '../../utils';
 
-const Publications = ({ data, '*': pagePath }) => {
+const Publications = ({ data, path: pagePath }) => {
   const pageLanguage = getPageLanguage(pagePath);
 
   return (
@@ -35,7 +35,7 @@ const Publications = ({ data, '*': pagePath }) => {
 
 Publications.propTypes = {
   data: PropTypes.object.isRequired,
-  '*': PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 };
 
 export default Publications;
@@ -53,7 +53,6 @@ query($path: String!) {
          title
          path
          date
-         _PARENT
          author
        }
      }

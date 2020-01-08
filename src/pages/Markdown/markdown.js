@@ -13,7 +13,7 @@ const articlePageTransform = html => (html.match(/<h2>Table of Contents<\/h2>/)
     }
     : { html });
 
-const Markdown = ({ pageContext, data, '*': path }) => {
+const Markdown = ({ pageContext, data, path }) => {
   const pageLanguage = getPageLanguage(path);
   const { title, author } = data.markdownRemark
     ? data.markdownRemark.frontmatter

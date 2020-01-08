@@ -24,7 +24,7 @@ class ObjectPage extends React.Component {
   }
 
   render() {
-    const { pageContext, '*': path } = this.props;
+    const { pageContext, path } = this.props;
     const { renderSlideShow } = this.state;
     const pageLanguage = getPageLanguage(path);
     return (
@@ -115,7 +115,7 @@ class ObjectPage extends React.Component {
 
 ObjectPage.propTypes = {
   pageContext: PropTypes.object.isRequired,
-  '*': PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 };
 
 export default ObjectPage;
