@@ -53,19 +53,10 @@ class SlideShow extends Component {
   calculateScrollLength = (width, count, index) => {
     const array = Array.apply(null, {length: count}).map(Number.call, Number)
     const indexToStopAt = array.find(i => (((count - i )* 116) < width));
-    console.log(indexToStopAt);
-    console.log("Width: ", width)
-    console.log("Index: ", index)
-    console.log("Count: ", count)
-    console.log("count * 116: ", count * 116)
-    console.log("index * 116: ", index * 166)
-    console.log("count - index * 116 < width", (((count - index )* 116) < width))
+    // need to change by very small number to trigger rerender of the grid component (so selected value shown)
     if (((count - index )* 116) < width) return ((indexToStopAt * 116) + (index * 0.01));
     if (count * 116 < width) return index;
     if (count * 116 > width) return index * 116;
-
-    // ((count * 116 < width) ? index : index * 116)
-
   };
 
   getID = (url) => {
