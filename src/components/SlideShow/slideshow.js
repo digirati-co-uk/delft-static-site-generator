@@ -54,7 +54,7 @@ class SlideShow extends Component {
     const array = Array.apply(null, {length: count}).map(Number.call, Number)
     const indexToStopAt = array.find(i => (((count - i )* 116) < width));
     // need to change by very small number to trigger rerender of the grid component (so selected value shown)
-    if (((count - index )* 116) < width) return ((indexToStopAt * 116) + (index * 0.01));
+    if (((count - index )* 116) < width) return ((indexToStopAt * 100) + (index * 0.01));
     if (count * 116 < width) return index;
     if (count * 116 > width) return index * 116;
   };
