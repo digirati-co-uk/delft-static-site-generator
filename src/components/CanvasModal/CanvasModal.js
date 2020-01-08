@@ -85,13 +85,14 @@ class CanvasModal extends React.Component {
                           )}
                           { annotation.summary && getTranslation(annotation.summary, pageLanguage, '\n')
                             .split('\n')
-                            .map(paragraph => <p key={`about__${paragraph}`}>{paragraph}</p>)
+                            .map(paragraph => <p key={`about__${paragraph}`} dangerouslySetInnerHTML={{__html: paragraph}}></p>)
                           }
                         </main>
+
                       ))}
                     </div>
                   ) : (
-                    
+
                     <div className="canvas-modal__inner-frame">
                       <div className="canvas-modal__content-slide">
                         <div className="canvas-modal__top-part">
