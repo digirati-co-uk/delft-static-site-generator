@@ -113,7 +113,6 @@ class SlideShow extends Component {
                 }}
                 src={thumbnail.replace('/full/full/', '/full/!100,100/')}
                 className="manifest-cabinet__thumb-img" alt=""
-                style={isSelected ? {border: "10px solid red"} : null}
                 /> : <div className="manifest-cabinet__thumb-missing">
                 {' '}
                 no thumb{' '}
