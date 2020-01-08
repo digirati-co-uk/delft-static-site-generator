@@ -37,9 +37,6 @@ class CollectionPage extends React.Component {
     };
   }
 
-  showSummary = () => {
-  };
-
   hideSummary = () => {
     this.setState({
       renderCanvasModal: false,
@@ -62,14 +59,14 @@ class CollectionPage extends React.Component {
     );
     const summary = translate(collection.summary, pageLanguage, '\n')
       .split('\n')
-      .map(paragraph => <p>{paragraph}</p>);
+      .map(paragraph => <p dangerouslySetInnerHTML={{__html: paragraph}}></p>);
     const items = (collection.items || []).filter(
       resource => resource.type === 'Manifest'
     );
     this.summary = summary;
     return <Layout language={pageLanguage} path={path}>
         <main>
-          {this.state.renderCanvasModal ? <Modal summary={this.summary} close={this.hideSummary} /> : null}
+          {this.state.renderCanvasModal ? <Modal modalContent={this.summary} close={this.hideSummary} /> : null}
           <div className="blocks blocks--auto-height">
             <aside className="w-min-4">
               <div className="block title cutcorners w-4 h-4 title--fountain-blue">
@@ -82,7 +79,7 @@ class CollectionPage extends React.Component {
                 <div className="boxtitle">{curator}</div>
               </div>
               <div className="block info cutcorners w-min-4">
-                {summary}
+                {summary[0]}
                 <p>
                   <button className="readmore" onClick={() => this.setState(
                         { renderCanvasModal: true }

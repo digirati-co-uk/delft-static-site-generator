@@ -4,10 +4,9 @@ import { Close } from '../Close/Close';
 
 import './Modal.scss';
 
-export const Modal = ({summary, close}) => {
-  console.log(summary)
+export const Modal = ({modalContent, close}) => {
   return <div className="modal">
-      <div className="modal__details">{summary}</div>
+      <div className="modal__details">{modalContent}</div>
       <button onClick={close} className="modal__close" type="button">
         <Close />
       </button>
@@ -15,5 +14,6 @@ export const Modal = ({summary, close}) => {
 }
 
 Modal.propTypes = {
-  summary: PropTypes.array
+  modalContent: PropTypes.array,
+  close: PropTypes.func
 }
