@@ -50,13 +50,15 @@ class SlideShow extends Component {
     }
   }
 
-  calculateScrollLength = (width, count, index) => {
+  calculateScrollLength = (width, count, index, columnWidth) => {
     const array = Array.apply(null, {length: count}).map(Number.call, Number)
-    const indexToStopAt = array.find(i => (((count - i )* 116) < width));
+    const indexToStopAt = array.find(i => (((count - i )* columnWidth) < width));
+    // needs to go left by very slightly under columnWidth
+    const pixels = columnWidth * 0.999;
     // need to change by very small number to trigger rerender of the grid component (so selected value shown)
-    if (((count - index )* 116) < width) return ((indexToStopAt * 100) + (index * 0.01));
-    if (count * 116 < width) return index;
-    if (count * 116 > width) return index * 116;
+    if (((count - index )* columnWidth) < width) return ((indexToStopAt * pixels) + (index * 0.01))
+    if (count * columnWidth < width) return index;
+    if (count * columnWidth > width) return index * columnWidth;
   };
 
   getID = (url) => {
@@ -113,6 +115,7 @@ class SlideShow extends Component {
                 }}
                 src={thumbnail.replace('/full/full/', '/full/!100,100/')}
                 className="manifest-cabinet__thumb-img" alt=""
+                style={isSelected ? {border: "10px solid red"}: null}
                 /> : <div className="manifest-cabinet__thumb-missing">
                 {' '}
                 no thumb{' '}
@@ -166,7 +169,8 @@ class SlideShow extends Component {
                                 scrollLeft={this.calculateScrollLength(
                                   width,
                                   canvasList.length,
-                                  this.currentIndex
+                                  this.currentIndex,
+                                  116
                                 )}
                               />
                             )}
