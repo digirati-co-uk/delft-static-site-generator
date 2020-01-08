@@ -50,7 +50,16 @@ class SlideShow extends Component {
     }
   }
 
-  calculateScrollLength = (width, count, index) => ((count * 116 < width) ? index : index * 116) - 116;
+  calculateScrollLength = (width, count, index, columnWidth) => {
+    const array = Array.apply(null, {length: count}).map(Number.call, Number)
+    const indexToStopAt = array.find(i => (((count - i )* columnWidth) < width));
+    // needs to go left by very slightly under columnWidth
+    const pixels = columnWidth * 0.999;
+    // need to change by very small number to trigger rerender of the grid component (so selected value shown)
+    if (((count - index )* columnWidth) < width) return ((indexToStopAt * pixels) + (index * 0.01))
+    if (count * columnWidth < width) return index;
+    if (count * columnWidth > width) return index * columnWidth;
+  };
 
   getID = (url) => {
     return url.split("=").pop();
@@ -103,7 +112,10 @@ class SlideShow extends Component {
                   if (isSelected) {
                     this.selectedThumbnail = imageEl;
                   }
-                }} src={thumbnail.replace('/full/full/', '/full/!100,100/')} className="manifest-cabinet__thumb-img" alt="" /> : <div className="manifest-cabinet__thumb-missing">
+                }}
+                src={thumbnail.replace('/full/full/', '/full/!100,100/')}
+                className="manifest-cabinet__thumb-img" alt=""
+                /> : <div className="manifest-cabinet__thumb-missing">
                 {' '}
                 no thumb{' '}
               </div>}
@@ -156,7 +168,8 @@ class SlideShow extends Component {
                                 scrollLeft={this.calculateScrollLength(
                                   width,
                                   canvasList.length,
-                                  this.currentIndex
+                                  this.currentIndex,
+                                  116
                                 )}
                               />
                             )}
