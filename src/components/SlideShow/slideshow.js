@@ -20,6 +20,8 @@ import { Grid } from 'react-virtualized';
 import ContainerDimensions from 'react-container-dimensions';
 import { thumbnailGetSize } from '../../utils';
 
+import './slideshow.css';
+
 class SlideShow extends Component {
   static propTypes = {
     jsonld: PropTypes.object.isRequired,
@@ -106,20 +108,17 @@ class SlideShow extends Component {
         return '';
       }
       return <div key={`${canvasId}--thumb--${isSelected}`} style={style}>
-          <Link style={{borderBottom: "none"}} to={`${this.props.pathname}?id=${this.getID(canvasId)}`}>
-          <button onClick={() => this.goToRange(columnIndex)} type="button" className={`manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`} style={{ width: height, height }}>
-            {thumbnail ? <img ref={imageEl => {
-                  if (isSelected) {
-                    this.selectedThumbnail = imageEl;
-                  }
-                }}
-                src={thumbnail.replace('/full/full/', '/full/!100,100/')}
-                className="manifest-cabinet__thumb-img" alt=""
-                /> : <div className="manifest-cabinet__thumb-missing">
-                {' '}
-                no thumb{' '}
-              </div>}
-          </button>
+          <Link style={{ borderBottom: 'none' }} to={`${this.props.pathname}?id=${this.getID(canvasId)}`}>
+            <button onClick={() => this.goToRange(columnIndex)} type="button" className={`manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`} style={isSelected ? { width: height, height, borderBottom: '5px solid #1d1c73' } : { width: height, height }}>
+              {thumbnail ? <img ref={imageEl => {
+                    if (isSelected) {
+                      this.selectedThumbnail = imageEl;
+                    }
+                  }} src={thumbnail.replace('/full/full/', '/full/!100,100/')} className="manifest-cabinet__thumb-img" alt="" /> : <div className="manifest-cabinet__thumb-missing">
+                  {' '}
+                  no thumb{' '}
+                </div>}
+            </button>
           </Link>
         </div>;
   };
@@ -156,15 +155,20 @@ class SlideShow extends Component {
                           <ContainerDimensions>
                             {({ width, height }) => (
                               <Grid
-                                cellRenderer={this.cellRenderer}
+                                cellRenderer={
+                                  this.cellRenderer
+                                }
                                 columnWidth={116}
-                                columnCount={canvasList.length}
+                                columnCount={
+                                  canvasList.length
+                                }
                                 height={124}
                                 overscanColumnCount={5}
                                 overscanRowCount={0}
                                 rowHeight={116}
                                 rowCount={1}
                                 width={width}
+                                scrollToAlignment={"center"}
                                 scrollLeft={this.calculateScrollLength(
                                   width,
                                   canvasList.length,
