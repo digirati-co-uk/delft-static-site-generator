@@ -6,7 +6,7 @@ import './footer.css';
 
 const Footer = ({ path, title, twitterHandle, url }) => {
   const currentPath =
-    typeof window !== `undefined` ? location : `${url}${path}`;
+    typeof window !== `undefined` ? location.pathname : `${url}${path}`;
   return (
     <footer className="footer">
       <SocialMedia
