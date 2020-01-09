@@ -168,6 +168,7 @@ class SlideShow extends Component {
                                 rowHeight={116}
                                 rowCount={1}
                                 width={width}
+                                // This prop isn't working - should align selected in centre.
                                 scrollToAlignment={"center"}
                                 scrollLeft={this.calculateScrollLength(
                                   width,
