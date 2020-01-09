@@ -119,6 +119,7 @@ class SlideShow extends Component {
                   no thumb{' '}
                 </div>}
             </button>
+
           </Link>
         </div>;
   };
