@@ -1,6 +1,5 @@
 .slideshow {
   width: 100%;
-  height: 100%;
   position: relative;
   background: black;
   overflow: hidden;
@@ -16,8 +15,9 @@
 
 .slideshow__inner-frame {
   width: 100%;
-  flex: 1;
   position: relative;
+  flex: 1;
+  height: auto;
 }
 
 .slideshow__manifest-cabinet-holder {
