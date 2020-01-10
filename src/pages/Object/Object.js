@@ -4,6 +4,7 @@ import Layout from '../../components/Layout/layout';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
+import { Link } from 'gatsby';
 
 import DynamicSlideShow from "../../components/SlideShow/dynamic-slideshow"
 
@@ -40,9 +41,9 @@ class ObjectPage extends React.Component {
                 <ol>
                   {(pageContext.collections || []).map(collection => (
                     <li key={`/${pageLanguage}/${collection[1]}`}>
-                      <a href={`/${pageLanguage}/${collection[1]}`}>
+                      <Link to={`/${pageLanguage}/${collection[1]}`}>
                         {translate(collection[2], pageLanguage)}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ol>
@@ -52,9 +53,9 @@ class ObjectPage extends React.Component {
                 <ol>
                   {(pageContext.exhibitions || []).map(exhibition => (
                     <li key={`/${pageLanguage}/${exhibition[1]}`}>
-                      <a href={`/${pageLanguage}/${exhibition[1]}`}>
+                      <Link to={`/${pageLanguage}/${exhibition[1]}`}>
                         {translate(exhibition[2], pageLanguage)}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ol>

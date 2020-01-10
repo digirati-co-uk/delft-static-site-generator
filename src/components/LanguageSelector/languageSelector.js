@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
+import { Link } from 'gatsby';
 import './languageSelector.scss';
 
 const LanguageSelector = ({ data, path = '' }) => {
@@ -25,12 +26,12 @@ const LanguageSelector = ({ data, path = '' }) => {
   return (
     <span className="language-selector">
       {allowEnglish ? (
-        <a
+        <Link
           href={allowEnglish ? englishPath : null}
           className="language-selector__translation"
         >
           EN
-        </a>
+        </Link>
       ) : (
         <p
           title="An English translation of this page is not available"
@@ -41,12 +42,12 @@ const LanguageSelector = ({ data, path = '' }) => {
       )}{' '}
       /{' '}
       {allowDutch ? (
-        <a
+        <Link
           href={allowDutch ? dutchPath : null}
           className="language-selector__translation"
         >
           NL
-        </a>
+        </Link>
       ) : (
         <p
           title="Een Nederlandse vertaling van deze pagina is niet beschikbaar"
