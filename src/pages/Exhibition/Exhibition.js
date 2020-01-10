@@ -59,7 +59,7 @@ class ExhibitionPage extends React.Component {
   }
 
   showCanvasDetails = (canvas, annotationDetails) => () => {
-    const { pageContext: manifest, '*': path } = this.props;
+    const { pageContext: manifest, path } = this.props;
     const pageLanguage = getPageLanguage(path);
     this.setState({
       renderCanvasModal: (
@@ -223,7 +223,7 @@ class ExhibitionPage extends React.Component {
   };
 
   render() {
-    const { pageContext: manifest, '*': path } = this.props;
+    const { pageContext: manifest, path } = this.props;
     const pageLanguage = getPageLanguage(path);
     const { renderCanvasModal } = this.state;
     return (
