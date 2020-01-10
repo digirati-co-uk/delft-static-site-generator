@@ -27,7 +27,7 @@ const LanguageSelector = ({ data, path = '' }) => {
     <span className="language-selector">
       {allowEnglish ? (
         <Link
-          href={allowEnglish ? englishPath : null}
+          to={allowEnglish ? englishPath : null}
           className="language-selector__translation"
         >
           EN
@@ -43,7 +43,7 @@ const LanguageSelector = ({ data, path = '' }) => {
       /{' '}
       {allowDutch ? (
         <Link
-          href={allowDutch ? dutchPath : null}
+          to={allowDutch ? dutchPath : null}
           className="language-selector__translation"
         >
           NL
