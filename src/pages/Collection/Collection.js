@@ -8,22 +8,28 @@ import Layout from '../../components/Layout/layout';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { Modal } from '../../components/Modal/Modal';
 
-const getThumbnailImageSource = (thumbnail) => {
+const getThumbnailImageSource = thumbnail => {
   if (typeof thumbnail === 'string') {
     return thumbnail;
   }
   return Array.isArray(thumbnail)
-      ? getThumbnailImageSource(thumbnail[0])
-      : (thumbnail.id || thumbnail['@id']);
+    ? getThumbnailImageSource(thumbnail[0])
+    : thumbnail.id || thumbnail['@id'];
 };
 
 const getMetatataIfExist = (allMetadata, key, lang, prependKey = false) => {
-  const matching = allMetadata.filter(metadata => Object.values(metadata.label)
-      .map(value => value.join('')).indexOf(key) !== -1);
+  const matching = allMetadata.filter(
+    metadata =>
+      Object.values(metadata.label)
+        .map(value => value.join(''))
+        .indexOf(key) !== -1
+  );
   if (matching.length > 0) {
     if (matching[0].value) {
-      return (prependKey ? `${translate(matching[0].label, lang)} ` : '')
-      + translate(matching[0].value, lang);
+      return (
+        (prependKey ? `${translate(matching[0].label, lang)} ` : '') +
+        translate(matching[0].value, lang)
+      );
     }
   }
   return '';
@@ -59,14 +65,19 @@ class CollectionPage extends React.Component {
     );
     const summary = translate(collection.summary, pageLanguage, '\n')
       .split('\n')
-      .map(paragraph => <p dangerouslySetInnerHTML={{__html: paragraph}}></p>);
+      .map(paragraph => (
+        <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
+      ));
     const items = (collection.items || []).filter(
       resource => resource.type === 'Manifest'
     );
     this.summary = summary;
-    return <Layout language={pageLanguage} path={path}>
+    return (
+      <Layout language={pageLanguage} path={path}>
         <main>
-          {this.state.renderCanvasModal ? <Modal modalContent={this.summary} close={this.hideSummary} /> : null}
+          {this.state.renderCanvasModal ? (
+            <Modal modalContent={this.summary} close={this.hideSummary} />
+          ) : null}
           <div className="blocks blocks--auto-height">
             <aside className="w-min-4">
               <div className="block title cutcorners w-4 h-4 title--fountain-blue">
@@ -81,9 +92,10 @@ class CollectionPage extends React.Component {
               <div className="block info cutcorners w-min-4">
                 {summary[0]}
                 <p>
-                  <button className="readmore" onClick={() => this.setState(
-                        { renderCanvasModal: true }
-                      )}>
+                  <button
+                    className="readmore"
+                    onClick={() => this.setState({ renderCanvasModal: true })}
+                  >
                     Read More
                   </button>
                 </p>
@@ -131,7 +143,8 @@ class CollectionPage extends React.Component {
           </div>
         </main>
         {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
-      </Layout>;
+      </Layout>
+    );
   }
 }
 
