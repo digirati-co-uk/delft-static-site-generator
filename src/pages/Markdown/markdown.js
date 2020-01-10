@@ -5,13 +5,19 @@ import Layout from '../../components/Layout/layout';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import substituteSpecialLinks, { getPageLanguage } from '../../utils';
 
-const articlePageTransform = html => (html.match(/<h2>Table of Contents<\/h2>/)
+const articlePageTransform = html =>
+  html.match(/<h2>Table of Contents<\/h2>/)
     ? {
-      toc: html.match(/<h2>Table of Contents<\/h2>\n<ul>((?:\s|\S)+?)<\/ul>/)[1],
-      html: html.replace(/<h2>Table of Contents<\/h2>\n<ul>((?:\s|\S)+?)<\/ul>/, ''),
-      isPublication: true,
-    }
-    : { html });
+        toc: html.match(
+          /<h2>Table of Contents<\/h2>\n<ul>((?:\s|\S)+?)<\/ul>/
+        )[1],
+        html: html.replace(
+          /<h2>Table of Contents<\/h2>\n<ul>((?:\s|\S)+?)<\/ul>/,
+          ''
+        ),
+        isPublication: true,
+      }
+    : { html };
 
 const Markdown = ({ pageContext, data, path }) => {
   const pageLanguage = getPageLanguage(path);
@@ -20,13 +26,17 @@ const Markdown = ({ pageContext, data, path }) => {
     : { author: '-', title: '-' };
   const content = data.markdownRemark
     ? articlePageTransform(
-        substituteSpecialLinks(data.markdownRemark.html, pageContext, data.allMarkdownRemark),
-    )
+        substituteSpecialLinks(
+          data.markdownRemark.html,
+          pageContext,
+          data.allMarkdownRemark
+        )
+      )
     : '';
 
   return (
     <Layout language={pageLanguage} path={path}>
-      { content.isPublication ? (
+      {content.isPublication ? (
         <main>
           <div className="blocks blocks--auto-height">
             <aside className="w-4">
@@ -67,26 +77,26 @@ Markdown.propTypes = {
 export default Markdown;
 
 export const pageQuery = graphql`
-         query($path: String!) {
-           allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-             edges {
-               node {
-                 frontmatter {
-                   author
-                   title
-                   path
-                 }
-               }
-             }
-           }
-           markdownRemark(frontmatter: { path: { eq: $path } }) {
-             html
-             frontmatter {
-               date(formatString: "MMMM DD, YYYY")
-               path
-               title
-               author
-             }
-           }
-         }
-       `;
+  query($path: String!) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          frontmatter {
+            author
+            title
+            path
+          }
+        }
+      }
+    }
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        path
+        title
+        author
+      }
+    }
+  }
+`;
