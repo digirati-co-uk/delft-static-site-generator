@@ -48,7 +48,7 @@ class CollectionPage extends React.Component {
     if (!collection) {
       return 'Error: collection not defined, please check the source manifest.';
     }
-    const path = this.props['*'];
+    const path = this.props.path;
     const pageLanguage = getPageLanguage(path);
     const title = translate(collection.label, pageLanguage);
     const curator = getMetatataIfExist(
@@ -137,7 +137,7 @@ class CollectionPage extends React.Component {
 
 CollectionPage.propTypes = {
   pageContext: PropTypes.object.isRequired,
-  '*': PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 };
 
 export default CollectionPage;

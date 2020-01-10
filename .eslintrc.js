@@ -5,12 +5,12 @@ const ALLOW = 1;
 const ERROR = 2;
 
 module.exports = {
-  extends: ['airbnb', "plugin:compat/recommended", "plugin:json/recommended"],
+  extends: ["plugin:compat/recommended", "plugin:json/recommended"],
   parser: 'babel-eslint',
   rules: {
     'no-undef': OFF,
     'no-use-before-define': OFF,
-    // 'prettier/prettier': ERROR,
+    'prettier/prettier': ERROR,
     'accessor-pairs': OFF,
     'brace-style': [ERROR, '1tbs'],
     'consistent-return': OFF,
@@ -43,14 +43,14 @@ module.exports = {
     ],
     'space-before-blocks': ERROR,
     'space-before-function-paren': OFF,
+    "json/*": ["error"]
   },
   "env": {
     "browser": true
   },
   "plugins": [
-      "json"
+    "json",
+    "prettier",
+    "react"
   ],
-  "rules": {
-      "json/*": ["error"]
-  }
 };
