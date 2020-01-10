@@ -42,7 +42,7 @@ class SlideShow extends Component {
   componentDidMount() {
     if (!this.props.id || this.canvasList.length <= this.props.id || this.props.id <= 0 || !parseInt(this.props.id)) {
       this.goToRange(0);
-      navigate(this.props.pathname)
+      navigate(this.props.pathname, {replace: true})
       return;
     };
     if (this.props.id !== this.currentIndex) {
