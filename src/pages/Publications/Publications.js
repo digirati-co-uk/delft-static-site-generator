@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
+import { Link } from 'gatsby';
+
 import { getPageLanguage } from '../../utils';
 
 const Publications = ({ data, '*': pagePath }) => {
@@ -20,7 +22,7 @@ const Publications = ({ data, '*': pagePath }) => {
                   <div className="maintitle">
                     {title || '[Title]'}
                     <p className="readmore">
-                      <a href={path}>Read More</a>
+                      <Link to={path}>Read More</Link>
                     </p>
                   </div>
                   <div className="boxtitle">{author || '[Author]'}</div>
