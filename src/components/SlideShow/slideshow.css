@@ -16,8 +16,8 @@
 .slideshow__inner-frame {
   width: 100%;
   position: relative;
-  flex: 1;
-  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .slideshow__manifest-cabinet-holder {

@@ -68,10 +68,6 @@ class SlideShow extends React.Component {
     if (count * columnWidth > width) return index * columnWidth;
   };
 
-  getID = url => {
-    return url.split('=').pop();
-  };
-
   getThumbnails = manifest => {
     const manifestId = manifest.id || manifest['@id'];
     if (this.thumbnailCache.hasOwnProperty(manifestId)) {
@@ -115,7 +111,7 @@ class SlideShow extends React.Component {
       <div key={`${canvasId}--thumb--${isSelected}`} style={style}>
         <Link
           style={{ borderBottom: 'none' }}
-          to={`${this.props.pathname}?id=${this.getID(canvasId)}`}
+          to={`${this.props.pathname}?id=${columnIndex}`}
         >
           <button
             onClick={() => this.goToRange(columnIndex)}
