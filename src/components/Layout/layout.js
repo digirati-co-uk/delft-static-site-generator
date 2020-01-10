@@ -44,10 +44,12 @@ class Layout extends React.Component {
               }
             }
           }
-        `}
+        }
+      }
+    `}
         render={data => (
           <TranslatorProvider
-            translations={translations[this.props.language] || translations.en}
+            translations={translations[language] || translations.en}
           >
             <React.Fragment>
               <Helmet
