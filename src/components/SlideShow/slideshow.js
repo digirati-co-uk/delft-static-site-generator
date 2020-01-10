@@ -42,8 +42,9 @@ class SlideShow extends React.Component {
   }
 
   componentDidMount() {
-    if (typeof this.props.id === "undefined" || this.canvasList.length <= this.props.id || this.props.id < 0 || (!parseInt(this.props.id) && !typeof this.props.id === "undefined")) {
-      navigate(this.props.pathname + "/?id=0")
+    if (!this.props.id || this.canvasList.length <= this.props.id || this.props.id <= 0 || !parseInt(this.props.id)) {
+      this.goToRange(0);
+      navigate(this.props.pathname, {replace: true})
       return;
     };
     if (this.props.id !== this.currentIndex) {
