@@ -1694,27 +1694,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@canvas-panel/core@0.3.0-next.adac0bed":
-  version "0.3.0-next.adac0bed"
-  resolved "https://registry.yarnpkg.com/@canvas-panel/core/-/core-0.3.0-next.adac0bed.tgz#cf16de49088bc9cc65a0934ba6651b1aca2af5c5"
-  integrity sha512-7TGNr+WORRJL7MjJ5iOc06EdhNuXBTNw8TTvxHgs0cLLL9kGOJHKN03IsjSpa0UatE4D2yiFi48fp0WCv0N1Jg==
-  dependencies:
-    "@fesk/bem-js" "^1.0.0"
-    "@iiif/manifold" "^1.2.19"
-    core-js "^2.5.3"
-    create-react-context "^0.3.0"
-    detect-it "^3.0.5"
-    manifesto.js "https://github.com/stephenwf/manifesto.git#feature/p3-alpha-3"
-    mobile-detect "^1.4.2"
-    openseadragon "^2.3.1"
-    react "^16.3.2"
-    react-dom "^16.3.2"
-    react-draggable "^3.0.5"
-    react-measure "^2.0.2"
-    screenfull "^3.3.2"
-    whatwg-fetch "^3.0.0"
-
-"@canvas-panel/core@^0.2.0":
+"@canvas-panel/core@0.2.0", "@canvas-panel/core@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@canvas-panel/core/-/core-0.2.0.tgz#4a05cf9f1ce5ddc0302f701d85d684bb850404aa"
   integrity sha512-Jo2WLfpKyLbHH2hShgVzJ67btZWQ1QY6Hig4PX5Vle+isL6BlZdJLR5N6QU7meX6d49xBhQMFeqZFaELLgneDg==
@@ -1734,16 +1714,16 @@
     screenfull "^3.3.2"
     whatwg-fetch "^3.0.0"
 
-"@canvas-panel/slideshow@0.3.0-next.adac0bed":
-  version "0.3.0-next.adac0bed"
-  resolved "https://registry.yarnpkg.com/@canvas-panel/slideshow/-/slideshow-0.3.0-next.adac0bed.tgz#cd64075aa97da131f2233978d2134ff160a23556"
-  integrity sha512-KrFF641qnA9a8CFJ53TCuVPauPn03u8G4IxFK33XTJdBicTOMyLmBxrR7buKE7TXIa1e8XRSw3ocCFpNZuQFaA==
+"@canvas-panel/slideshow@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@canvas-panel/slideshow/-/slideshow-0.2.0.tgz#81c2c1dd5030191fe614f065a42e14612c546b03"
+  integrity sha512-KhDmxZ2pvfM+fq81uS4ITJJf40bLmyj4ngHgvI24P/FvimUD3wbsmi5GPkCN/qH8eGc8TbqREMluUPV4JsSY1A==
   dependencies:
-    "@canvas-panel/core" "0.3.0-next.adac0bed"
+    "@canvas-panel/core" "0.2.0"
     react "16.8.6"
     react-dom "16.8.6"
     react-flip-move "^3.0.2"
-    react-transition-group "4.1.1"
+    react-transition-group "4.0.0"
 
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
@@ -5384,14 +5364,6 @@ create-react-context@^0.2.0, create-react-context@^0.2.1, create-react-context@^
   dependencies:
     fbjs "^0.8.0"
     gud "^1.0.0"
-
-create-react-context@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.3.0.tgz#546dede9dc422def0d3fc2fe03afe0bc0f4f7d8c"
-  integrity sha512-dNldIoSuNSvlTJ7slIKC/ZFGKexBMBrrcc+TTe1NdmROnaASuLPvqpwj9v4XS4uXZ8+YPu0sNmShX2rXI5LNsw==
-  dependencies:
-    gud "^1.0.0"
-    warning "^4.0.3"
 
 cross-fetch@2.2.2:
   version "2.2.2"
@@ -14694,12 +14666,11 @@ react-simple-code-editor@^0.9.0:
   resolved "https://registry.yarnpkg.com/react-simple-code-editor/-/react-simple-code-editor-0.9.15.tgz#59e3583832e9e98992d3674b2d7673b4cd1c5709"
   integrity sha512-M8iKgjBTBZK92tZYgOEfMuR7c3zZ0q0v3QYllSxIPx3SU+w003VofH50txXQSBTu92pSOm2tidON1HbQ1l8BDA==
 
-react-transition-group@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.1.1.tgz#16efe9ac8c68306f6bef59c7da5a96b4dfd9fb32"
-  integrity sha512-K/N1wqJ2GRP2yj3WBqEUYa0KV5fiaAWpUfU9SpHOHefeKvyrO+VrnMBML21M19QZoVbDZKmuQFHZYoMMi1xuJA==
+react-transition-group@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.0.0.tgz#1d82b20d78aa09eac6268ceef0349307146942c6"
+  integrity sha512-b+uvkr15Pb80mqcsz5WAB+d53zS8/pTp3wDEsOiqpea93G8BqfsMFcPv2XZR0owqU13BJWoJvd17VjOPEY/9aA==
   dependencies:
-    "@babel/runtime" "^7.4.5"
     dom-helpers "^3.4.0"
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
@@ -14822,9 +14793,10 @@ read@^1.0.7:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@1.0, readable-stream@~1.0.31:
+readable-stream@1.0, "readable-stream@>=1.0.33-1 <1.1.0-0", readable-stream@~1.0.31:
   version "1.0.34"
-  resolved "http://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.0.34.tgz#125820e34bc842d2f2aaafafe4c2916ee32c157c"
+  integrity sha1-Elgg40vIQtLyqq+v5MKRbuMsFXw=
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.1"
@@ -18157,13 +18129,6 @@ warning@^3.0.0:
   dependencies:
     loose-envify "^1.0.0"
 
-warning@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
-  integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
-  dependencies:
-    loose-envify "^1.0.0"
-
 watchpack@^1.5.0, watchpack@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.6.0.tgz#4bc12c2ebe8aa277a71f1d3f14d685c7b446cd00"
@@ -18837,6 +18802,11 @@ xstate@^4.7.2:
   version "4.7.6"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.7.6.tgz#52907b0232ff78406077ad095eb1ad6bbc6c77cb"
   integrity sha512-TjBk1/uOxu2yxSQW0eNNasOvKMtg+4KknlkM57Pw9D+jF124nLz+Qo4nEcC98rR6YMw4d9VxunIb5XzOjgLqlQ==
+
+"xtend@>=4.0.0 <4.1.0-0":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
+  integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 xtend@^4.0.0, xtend@^4.0.1, xtend@~4.0.1:
   version "4.0.1"
