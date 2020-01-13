@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
-import CanvasModal from '../../components/CanvasModal/CanvasModal';
+import DynamicCanvasModal from '../../components/CanvasModal/DynamicCanvasModal';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 import { Arrow } from '../../components/Arrow/Arrow';
@@ -61,7 +61,7 @@ class ExhibitionPage extends React.Component {
     const pageLanguage = getPageLanguage(path);
     this.setState({
       renderCanvasModal: (
-        <CanvasModal
+        <DynamicCanvasModal
           selectedCanvas={canvas}
           manifest={manifest}
           hideCanvasDetails={this.hideCanvasDetails}
