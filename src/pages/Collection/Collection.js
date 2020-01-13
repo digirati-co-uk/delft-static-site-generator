@@ -111,10 +111,12 @@ class CollectionPage extends React.Component {
                 >
                   <div className="block collection-item w-3 h-min-4">
                     <Link
-                      to={[
-                        pageLanguage,
-                        objectLinks[manifest.id || manifest['@id']],
-                      ].join('/')}
+                      to={
+                        pageLanguage +
+                        '/' +
+                        objectLinks[manifest.id || manifest['@id']] +
+                        '/'
+                      }
                     >
                       <div className="block aspectratio-square image cutcorners w-3 h-3">
                         <img

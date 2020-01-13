@@ -7,11 +7,13 @@ const substituteSpecialLinks = (html, pageContext, allMDRemark) => {
   return html.replace(
     /(<p><a href="(?:\/(en|nl))(\/(collection|exhibition|object|publication)s\/.*)">)([^<]+)<\/a><\/p>/g,
     (match, p1, p2, p3, p4, p5) => {
-      const hasThumbnail = p3 && pageContext && pageContext.thumbnails
-        && pageContext.thumbnails.hasOwnProperty(p3.substr(1));
+      const hasThumbnail =
+        p3 &&
+        pageContext &&
+        pageContext.thumbnails &&
+        pageContext.thumbnails.hasOwnProperty(p3.substr(1));
       if (hasThumbnail) {
-        return (
-          `<a href="/${p2}${p3}" class="cover-link">
+        return `<a href="/${p2}${p3}" class="cover-link">
             <div class="image">
               <img class="bg" src="${pageContext.thumbnails[p3.substr(1)]}">
             </div>
@@ -20,23 +22,23 @@ const substituteSpecialLinks = (html, pageContext, allMDRemark) => {
                 <div class="maintitle">${p5}</div>
                 <div></div>
               </div>
-          </a>`
-          );
-        } if (p4 === 'publication') {
-          return `<a href="/${p2}${p3}">
+          </a>`;
+      }
+      if (p4 === 'publication') {
+        return `<a href="/${p2}${p3}">
             <div class="boxtitle">ARTICLE
             </div>
             <div class="maintitle">${p5}</div>
             <div>${getAuthor(`/${p2}${p3}`, allMDRemark)}</div>
           </a>`;
       }
-    },
+    }
   );
 };
 
 const getAuthor = (path, allMDRemark) => {
   let author;
-  allMDRemark.edges.forEach((markdown) => {
+  allMDRemark.edges.forEach(markdown => {
     if (markdown.node.frontmatter.path === path) {
       author = markdown.node.frontmatter.author;
     }
@@ -44,9 +46,10 @@ const getAuthor = (path, allMDRemark) => {
   return `${author}`;
 };
 
-export const getTranslation = (obj, lang, glue = ' ') => (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue);
+export const getTranslation = (obj, lang, glue = ' ') =>
+  (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue);
 
-export const getPageLanguage = (pathname) => {
+export const getPageLanguage = pathname => {
   // ...
   const languageCandidate = pathname.split('/')[0];
   return languageCandidate === 'nl' ? languageCandidate : 'en';
@@ -55,16 +58,18 @@ export const getPageLanguage = (pathname) => {
 export const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
   const thumb = thumbnail.__jsonld;
   if (!thumb.hasOwnProperty('service') || !(pWidth || pHeight)) {
-    return (thumb.id || thumb['@id']);
+    return thumb.id || thumb['@id'];
   }
-  const service = Array.isArray(thumb.service) ? thumb.service[0] : thumb.service;
+  const service = Array.isArray(thumb.service)
+    ? thumb.service[0]
+    : thumb.service;
   if (!service) {
-    return (thumb.id || thumb['@id']);
+    return thumb.id || thumb['@id'];
   }
   if (
-    service.hasOwnProperty('sizes')
-    && Array.isArray(service.sizes)
-    && service.sizes.length > 0
+    service.hasOwnProperty('sizes') &&
+    Array.isArray(service.sizes) &&
+    service.sizes.length > 0
   ) {
     let closestSizeIndex = -1;
     let minDistanceX;
@@ -88,15 +93,18 @@ export const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
     const thumbUrlParts = (thumb.id || thumb['@id']).split('/');
     if (closestSizeIndex !== -1) {
       const size = service.sizes[closestSizeIndex];
-      thumbUrlParts[thumbUrlParts.length - 3] = [size.width, size.height].join(',');
+      thumbUrlParts[thumbUrlParts.length - 3] = [size.width, size.height].join(
+        ','
+      );
     }
-    return thumbUrlParts.join('/');
+    return thumbUrlParts.join('/') + '/';
   }
-  return (thumb.id || thumb['@id']);
+  return thumb.id || thumb['@id'];
 };
-
 
 export default substituteSpecialLinks;
 
-export const GITHUB_RAW_JSON_BASE = 'https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/src';
-export const GITHUB_BASE = 'https://github.com/digirati-co-uk/delft-static-site-generator/blob/master/';
+export const GITHUB_RAW_JSON_BASE =
+  'https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/src';
+export const GITHUB_BASE =
+  'https://github.com/digirati-co-uk/delft-static-site-generator/blob/master/';
