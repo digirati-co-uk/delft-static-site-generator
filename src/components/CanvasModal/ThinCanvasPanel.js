@@ -4,7 +4,7 @@ import OpenSeadragon from 'openseadragon';
 import ContainerDimensions from 'react-container-dimensions';
 import './ThinCanvasPanel.scss';
 
-const parseXYWH = (xywh) => {
+const parseXYWH = xywh => {
   if (!xywh) {
     return {};
   }
@@ -17,7 +17,7 @@ const parseXYWH = (xywh) => {
   };
 };
 
-const getHashParams = (uri) => {
+const getHashParams = uri => {
   const hashParams = uri.split('#')[1];
   if (hashParams) {
     return hashParams.split('&').reduce((result, item) => {
@@ -29,24 +29,23 @@ const getHashParams = (uri) => {
   return {};
 };
 
-const ensureInfoJson = url => (url.endsWith('/info.json')
-    ? url
-    : `${url}/info.json`);
+const ensureInfoJson = url =>
+  url.endsWith('/info.json') ? url : `${url}/info.json`;
 
-const getTileSourceUrl = (service) => {
+const getTileSourceUrl = service => {
   if (Array.isArray(service)) {
     if (typeof service[0] === 'string') {
       return ensureInfoJson(service[0]);
     }
     return ensureInfoJson(service[0].id);
   }
-    if (typeof service === 'string') {
-      return ensureInfoJson(service);
-    }
-    return ensureInfoJson(service.id);
+  if (typeof service === 'string') {
+    return ensureInfoJson(service);
+  }
+  return ensureInfoJson(service.id);
 };
 
-const parseVideo = (url) => {
+const parseVideo = url => {
   // - Supported YouTube URL formats:
   //   - http://www.youtube.com/watch?v=My2FRPA3Gf8
   //   - http://youtu.be/My2FRPA3Gf8
@@ -58,7 +57,7 @@ const parseVideo = (url) => {
   //   - //player.vimeo.com/video/25451551
 
   url.match(
-    /(http:|https:|)\/\/(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com)|dailymotion.com)\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/,
+    /(http:|https:|)\/\/(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com)|dailymotion.com)\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/
   );
 
   if (RegExp.$3.indexOf('youtu') > -1) {
@@ -68,18 +67,20 @@ const parseVideo = (url) => {
       src: `//www.youtube.com/embed/${RegExp.$6}`,
       thumbnail: `//img.youtube.com/vi/${RegExp.$6}/maxresdefault.jpg`,
     };
-  } if (RegExp.$3.indexOf('vimeo') > -1) {
+  }
+  if (RegExp.$3.indexOf('vimeo') > -1) {
     return {
       type: 'vimeo',
       id: RegExp.$6,
       src: `//player.vimeo.com/video/${RegExp.$6}`,
-      thumbnail: (cb) => {
+      thumbnail: cb => {
         fetch(`http://vimeo.com/api/v2/video/${RegExp.$6}.json`)
           .then(response => response.json())
           .then(data => cb(data[0].thumbnail_large));
       },
     };
-  } if (RegExp.$3.indexOf('dailymotion.com') > -1) {
+  }
+  if (RegExp.$3.indexOf('dailymotion.com') > -1) {
     return {
       type: 'dailymotion',
       id: RegExp.$6,
@@ -89,7 +90,7 @@ const parseVideo = (url) => {
   }
 };
 
-const createVideo = (url) => {
+const createVideo = url => {
   const element = document.createElement('div');
   const videoServiceResult = parseVideo(url);
   if (videoServiceResult && videoServiceResult.type) {
@@ -113,7 +114,6 @@ const createText = (text, active) => {
   return element;
 };
 
-
 class ThinCanvasPanel extends React.Component {
   constructor(props) {
     super(props);
@@ -130,7 +130,7 @@ class ThinCanvasPanel extends React.Component {
     }
   }
 
-  setViewerRef = (el) => {
+  setViewerRef = el => {
     this.viewerEl = el;
     this.createOsd();
     this.displayAnnotationsOnCanvas();
@@ -155,36 +155,41 @@ class ThinCanvasPanel extends React.Component {
   };
 
   convertCoordsToViewportRelative = (bounds, viewportSize) => ({
-      x: (bounds.x || 0) / viewportSize.width,
-      y: (bounds.y || 0) / viewportSize.height,
-      width: viewportSize.width ? (bounds.width || viewportSize.width) / viewportSize.width : 1,
-      height:
-        viewportSize.height
-          ? (bounds.height || viewportSize.height) / viewportSize.height
-          : 1,
-    });
+    x: (bounds.x || 0) / viewportSize.width,
+    y: (bounds.y || 0) / viewportSize.height,
+    width: viewportSize.width
+      ? (bounds.width || viewportSize.width) / viewportSize.width
+      : 1,
+    height: viewportSize.height
+      ? (bounds.height || viewportSize.height) / viewportSize.height
+      : 1,
+  });
 
   getAnnotations = () => {
     const { canvas } = this.props;
 
-    return (canvas.items || []).reduce((_annotations, annotationPage) => {
-      if (
-        annotationPage.hasOwnProperty('items')
-        && annotationPage.items.length > 0) {
-          _annotations = _annotations.concat(annotationPage.items);
-      }
-      return _annotations;
-    }, []).concat(
-      (canvas.annotations || []).reduce((_annotations, annotationPage) => {
+    return (canvas.items || [])
+      .reduce((_annotations, annotationPage) => {
         if (
-          annotationPage.hasOwnProperty('items')
-          && annotationPage.items.length > 0) {
-            _annotations = _annotations.concat(annotationPage.items);
+          annotationPage.hasOwnProperty('items') &&
+          annotationPage.items.length > 0
+        ) {
+          _annotations = _annotations.concat(annotationPage.items);
         }
         return _annotations;
-      }, []),
-    );
-  }
+      }, [])
+      .concat(
+        (canvas.annotations || []).reduce((_annotations, annotationPage) => {
+          if (
+            annotationPage.hasOwnProperty('items') &&
+            annotationPage.items.length > 0
+          ) {
+            _annotations = _annotations.concat(annotationPage.items);
+          }
+          return _annotations;
+        }, [])
+      );
+  };
 
   addCanvasBackground = () => {
     const { canvas } = this.props;
@@ -193,18 +198,19 @@ class ThinCanvasPanel extends React.Component {
         width: canvas.width,
         height: canvas.height,
         tileSize: 256,
-        getTileUrl: () => `data:image/svg+xml;base64,${btoa(
-                `<?xml version="1.0" encoding="utf-8"?>\
+        getTileUrl: () =>
+          `data:image/svg+xml;base64,${btoa(
+            `<?xml version="1.0" encoding="utf-8"?>\
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" \
           x="0px" y="0px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">\
           <g>\
             <rect x="0" y="0" style="fill:#353535;" width="256" height="256"/>\
             </g>\
-          </svg>`,
-        )}`,
+          </svg>`
+          )}`,
       },
     });
-  }
+  };
 
   getAnnotationCrop = (annotation, canvas) => {
     if (annotation && annotation.body && annotation.body.id) {
@@ -223,25 +229,22 @@ class ThinCanvasPanel extends React.Component {
         // };
       }
     }
-  }
+  };
 
   computeImageCords = (realCords, crop, annotation, canvas) => {
     if (!crop) {
-      return this.convertCoordsToViewportRelative(
-        realCords,
-        canvas,
-      );
+      return this.convertCoordsToViewportRelative(realCords, canvas);
     }
     const ratioX = crop.width / annotation.body.width;
     const ratioD = realCords.width / crop.width;
     return this.convertCoordsToViewportRelative(
       {
-        x: realCords.x - (crop.x * ratioD), // parseInt((realCords.x / ratioX), 10),
-        y: realCords.y - (crop.y * ratioD), // parseInt((realCords.y / ratioY), 10),
+        x: realCords.x - crop.x * ratioD, // parseInt((realCords.x / ratioX), 10),
+        y: realCords.y - crop.y * ratioD, // parseInt((realCords.y / ratioY), 10),
         width: parseInt(realCords.width / ratioX, 10),
         height: parseInt(realCords.height / ratioX, 10),
       },
-      canvas,
+      canvas
     );
   };
 
@@ -251,29 +254,38 @@ class ThinCanvasPanel extends React.Component {
 
     this.addCanvasBackground();
     this.annotations = this.getAnnotations();
-    this.annotations.forEach((annotation) => {
+    this.annotations.forEach(annotation => {
       const coords = this.convertCoordsToViewportRelative(
         parseXYWH(getHashParams(annotation.target || '').xywh),
-        canvas,
+        canvas
       );
       switch (annotation.body.type) {
         case 'Image':
-          const realCords = parseXYWH(getHashParams(annotation.target || '').xywh);
+          const realCords = parseXYWH(
+            getHashParams(annotation.target || '').xywh
+          );
           const crop = this.getAnnotationCrop(annotation, canvas);
-          const computedImageCords = this.computeImageCords(realCords, crop, annotation, canvas);
+          const computedImageCords = this.computeImageCords(
+            realCords,
+            crop,
+            annotation,
+            canvas
+          );
           delete computedImageCords.height;
 
           this.viewer.addTiledImage({
             tileSource: getTileSourceUrl(annotation.body.service),
             ...computedImageCords,
-            ...(crop ? {
+            ...(crop
+              ? {
                   clip: new OpenSeadragon.Rect(
                     crop.x,
                     crop.y,
                     crop.width,
-                    crop.height,
+                    crop.height
                   ),
-                } : {}),
+                }
+              : {}),
           });
           break;
         case 'Video':
@@ -284,42 +296,49 @@ class ThinCanvasPanel extends React.Component {
               coords.y,
               coords.width,
               coords.height,
-              0,
-            ),
+              0
+            )
           );
           break;
         case 'TextualBody':
         default:
           this.viewer.addOverlay(
-            createText(annotation.motivation === 'layout-viewport-focus' ? '' : annotation.body.value),
+            createText(
+              annotation.motivation === 'layout-viewport-focus'
+                ? ''
+                : annotation.body.value
+            ),
             new OpenSeadragon.Rect(
               coords.x,
               coords.y,
               coords.width,
               coords.height,
-              0,
-            ),
+              0
+            )
           );
           if (annotation.motivation === 'layout-viewport-focus') {
             this.navItems.push(annotation);
           }
-        }
+      }
     });
-    navItemsCallback(this.navItems, this.navItems.length >= 0 ? currentNavItem : -1);
-  }
+    navItemsCallback(
+      this.navItems,
+      this.navItems.length >= 0 ? currentNavItem : -1
+    );
+  };
 
   setCurrentNavitemFocus = () => {
     const { canvas, currentNavItem } = this.props;
     const coords = this.convertCoordsToViewportRelative(
       parseXYWH(getHashParams(this.navItems[currentNavItem].target || '').xywh),
-      canvas,
+      canvas
     );
     this.viewer.viewport.fitBounds(
-      new OpenSeadragon.Rect(coords.x, coords.y, coords.width, coords.height, 0),
+      new OpenSeadragon.Rect(coords.x, coords.y, coords.width, coords.height, 0)
     );
-  }
+  };
 
-  render () {
+  render() {
     return (
       <ContainerDimensions>
         {({ width, height }) => (

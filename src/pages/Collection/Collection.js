@@ -4,90 +4,149 @@ import { Link } from 'gatsby';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 import Layout from '../../components/Layout/layout';
-import { getTranslation as translate, getPageLanguage } from '../../utils';
 
-const getThumbnailImageSource = (thumbnail) => {
+import { getTranslation as translate, getPageLanguage } from '../../utils';
+import { Modal } from '../../components/Modal/Modal';
+
+const getThumbnailImageSource = thumbnail => {
   if (typeof thumbnail === 'string') {
     return thumbnail;
   }
   return Array.isArray(thumbnail)
-      ? getThumbnailImageSource(thumbnail[0])
-      : (thumbnail.id || thumbnail['@id']);
+    ? getThumbnailImageSource(thumbnail[0])
+    : thumbnail.id || thumbnail['@id'];
 };
 
 const getMetatataIfExist = (allMetadata, key, lang, prependKey = false) => {
-  const matching = allMetadata.filter(metadata => Object.values(metadata.label)
-      .map(value => value.join('')).indexOf(key) !== -1);
+  const matching = allMetadata.filter(
+    metadata =>
+      Object.values(metadata.label)
+        .map(value => value.join(''))
+        .indexOf(key) !== -1
+  );
   if (matching.length > 0) {
     if (matching[0].value) {
-      return (prependKey ? `${translate(matching[0].label, lang)} ` : '')
-      + translate(matching[0].value, lang);
+      return (
+        (prependKey ? `${translate(matching[0].label, lang)} ` : '') +
+        translate(matching[0].value, lang)
+      );
     }
   }
   return '';
 };
 
-const CollectionPage = ({ pageContext, path }) => {
-  const { collection, objectLinks } = pageContext;
-  if (!collection) {
-    return 'Error: collection not defined, please check the source manifest.';
+class CollectionPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      renderCanvasModal: false,
+    };
   }
-  const pageLanguage = getPageLanguage(path);
-  const title = translate(collection.label, pageLanguage);
-  const curator = getMetatataIfExist(collection.metadata || [], 'Curated By', 'none', true);
-  const summary = translate(collection.summary, pageLanguage, '\n').split('\n').map(paragraph => <p>{paragraph}</p>);
-  const items = (collection.items || []).filter(
-    resource => resource.type === 'Manifest',
-  );
 
-  return (
-    <Layout language={pageLanguage} path={path}>
-      <main>
-        <div className="blocks blocks--auto-height">
-          <aside className="w-min-4">
-            <div className="block title cutcorners w-4 h-4 title--fountain-blue">
-              <div className="boxtitle">Collection</div>
-              <div className="maintitle">
-                {title}
-                <GithubLink href={path} />
-                <IIIFLink href={path} />
+  hideSummary = () => {
+    this.setState({
+      renderCanvasModal: false,
+    });
+  };
 
+  render() {
+    const { collection, objectLinks } = this.props.pageContext;
+    if (!collection) {
+      return 'Error: collection not defined, please check the source manifest.';
+    }
+    const path = this.props.path;
+    const pageLanguage = getPageLanguage(path);
+    const title = translate(collection.label, pageLanguage);
+    const curator = getMetatataIfExist(
+      collection.metadata || [],
+      'Curated By',
+      'none',
+      true
+    );
+    const summary = translate(collection.summary, pageLanguage, '\n')
+      .split('\n')
+      .map(paragraph => (
+        <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
+      ));
+    const items = (collection.items || []).filter(
+      resource => resource.type === 'Manifest'
+    );
+    this.summary = summary;
+    return (
+      <Layout language={pageLanguage} path={path}>
+        <main>
+          {this.state.renderCanvasModal ? (
+            <Modal modalContent={this.summary} close={this.hideSummary} />
+          ) : null}
+          <div className="blocks blocks--auto-height">
+            <aside className="w-min-4">
+              <div className="block title cutcorners w-4 h-4 title--fountain-blue">
+                <div className="boxtitle">Collection</div>
+                <div className="maintitle">
+                  {title}
+                  <GithubLink href={path} />
+                  <IIIFLink href={path} />
+                </div>
+                <div className="boxtitle">{curator}</div>
               </div>
-              <div className="boxtitle">{curator}</div>
-            </div>
-            <div className="block info cutcorners w-min-4">{summary}</div>
-          </aside>
-          <article className="w-8">
-            {
-            items.map(
-              manifest => (
-                <div key={`collection__${objectLinks[manifest.id || manifest['@id']]}`} className="w-4 h-min-6 block--align-right">
+              <div className="block info cutcorners w-min-4">
+                {summary[0]}
+                <p>
+                  <button
+                    className="readmore"
+                    onClick={() => this.setState({ renderCanvasModal: true })}
+                  >
+                    Read More
+                  </button>
+                </p>
+              </div>
+            </aside>
+            <article className="w-8">
+              {items.map(manifest => (
+                <div
+                  key={`collection__${
+                    objectLinks[manifest.id || manifest['@id']]
+                  }`}
+                  className="w-4 h-min-6 block--align-right"
+                >
                   <div className="block collection-item w-3 h-min-4">
-
-                    <Link to={[pageLanguage, objectLinks[manifest.id || manifest['@id']]].join('/')}>
+                    <Link
+                      to={[
+                        pageLanguage,
+                        objectLinks[manifest.id || manifest['@id']],
+                      ].join('/')}
+                    >
                       <div className="block aspectratio-square image cutcorners w-3 h-3">
-                        <img src={getThumbnailImageSource(manifest.thumbnail)} className="object-link__image" alt="" />
+                        <img
+                          src={getThumbnailImageSource(manifest.thumbnail)}
+                          className="object-link__image"
+                          alt=""
+                        />
                       </div>
-                      <p className="collection-list__label">{translate(manifest.label, pageLanguage)}</p>
+                      <p className="collection-list__label">
+                        {translate(manifest.label, pageLanguage)}
+                      </p>
                       {manifest.summary
                         ? translate(manifest.summary, pageLanguage, '\n')
-                          .split('\n')
-                          .map(paragraph => <p className="collection-list__summary">{paragraph}</p>)
-                        : ''
-                      }
+                            .split('\n')
+                            .map(paragraph => (
+                              <p className="collection-list__summary">
+                                {paragraph}
+                              </p>
+                            ))
+                        : ''}
                     </Link>
                   </div>
                 </div>
-              ),
-            )
-          }
-          </article>
-        </div>
-      </main>
-      {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
-    </Layout>
-  );
-};
+              ))}
+            </article>
+          </div>
+        </main>
+        {/* debug: <pre>{JSON.stringify(props, null, 2)}</pre> */}
+      </Layout>
+    );
+  }
+}
 
 CollectionPage.propTypes = {
   pageContext: PropTypes.object.isRequired,

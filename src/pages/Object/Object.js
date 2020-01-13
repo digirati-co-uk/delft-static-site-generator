@@ -4,9 +4,9 @@ import Layout from '../../components/Layout/layout';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
+import { Link } from 'gatsby';
 
-import DynamicSlideShow from "../../components/SlideShow/dynamic-slideshow"
-
+import DynamicSlideShow from '../../components/SlideShow/dynamic-slideshow';
 
 const isHtml = val => val.match(/<[^>]+>/) !== null;
 
@@ -20,7 +20,9 @@ class ObjectPage extends React.Component {
 
   componentDidMount() {
     const { pageContext } = this.props;
-    this.setState({ renderSlideShow: <DynamicSlideShow context={pageContext} />});
+    this.setState({
+      renderSlideShow: <DynamicSlideShow context={pageContext} />,
+    });
   }
 
   render() {
@@ -30,7 +32,7 @@ class ObjectPage extends React.Component {
     return (
       <Layout language={pageLanguage} path={path}>
         <div id="slideshow" style={{ width: '100%', height: '80vh' }}>
-          { renderSlideShow }
+          {renderSlideShow}
         </div>
         <main>
           <div className="blocks blocks--auto-height">
@@ -40,9 +42,9 @@ class ObjectPage extends React.Component {
                 <ol>
                   {(pageContext.collections || []).map(collection => (
                     <li key={`/${pageLanguage}/${collection[1]}`}>
-                      <a href={`/${pageLanguage}/${collection[1]}`}>
+                      <Link to={`/${pageLanguage}/${collection[1]}`}>
                         {translate(collection[2], pageLanguage)}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ol>
@@ -52,9 +54,9 @@ class ObjectPage extends React.Component {
                 <ol>
                   {(pageContext.exhibitions || []).map(exhibition => (
                     <li key={`/${pageLanguage}/${exhibition[1]}`}>
-                      <a href={`/${pageLanguage}/${exhibition[1]}`}>
+                      <Link to={`/${pageLanguage}/${exhibition[1]}`}>
                         {translate(exhibition[2], pageLanguage)}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ol>
@@ -63,46 +65,40 @@ class ObjectPage extends React.Component {
             <article className="w-8 block--align-right">
               <div className="w-7">
                 <h1>
-                  {
-                    pageContext
-                    && pageContext.label
-                    && translate(pageContext.label, pageLanguage)
-                  }
+                  {pageContext &&
+                    pageContext.label &&
+                    translate(pageContext.label, pageLanguage)}
                   <GithubLink href={path} />
                   <IIIFLink href={path} />
                 </h1>
-                {
-                pageContext
-                && pageContext.metadata
-                && pageContext.metadata.map(
-                  (metadata, index) => {
+                {pageContext &&
+                  pageContext.metadata &&
+                  pageContext.metadata.map((metadata, index) => {
                     const label = translate(metadata.label, pageLanguage);
                     const value = translate(metadata.value, pageLanguage);
                     const isLabelHTML = isHtml(label);
                     const isValueHTML = isHtml(value);
                     return (
                       <React.Fragment key={index}>
-                        { isLabelHTML ? (
+                        {isLabelHTML ? (
                           <dt
                             className="metadata-label"
                             dangerouslySetInnerHTML={{ __html: label }}
                           />
                         ) : (
-                          <dt className="metadata-label">{ label }</dt>
+                          <dt className="metadata-label">{label}</dt>
                         )}
-                        { isValueHTML ? (
+                        {isValueHTML ? (
                           <dd
                             className="metadata-value"
                             dangerouslySetInnerHTML={{ __html: value }}
                           />
                         ) : (
-                          <dd className="metadata-value">{ value }</dd>
+                          <dd className="metadata-value">{value}</dd>
                         )}
                       </React.Fragment>
                     );
-                  },
-                )
-              }
+                  })}
               </div>
             </article>
           </div>

@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
+import { Link } from 'gatsby';
+
 import { getPageLanguage } from '../../utils';
 
 const Publications = ({ data, path: pagePath }) => {
@@ -20,7 +22,7 @@ const Publications = ({ data, path: pagePath }) => {
                   <div className="maintitle">
                     {title || '[Title]'}
                     <p className="readmore">
-                      <a href={path}>Read More</a>
+                      <Link to={path}>Read More</Link>
                     </p>
                   </div>
                   <div className="boxtitle">{author || '[Author]'}</div>
@@ -28,9 +30,9 @@ const Publications = ({ data, path: pagePath }) => {
               );
             })}
         </div>
-    </main>
-</Layout>
-);
+      </main>
+    </Layout>
+  );
 };
 
 Publications.propTypes = {
@@ -41,24 +43,24 @@ Publications.propTypes = {
 export default Publications;
 
 export const pageQuery = graphql`
-query($path: String!) {
-  allMarkdownRemark(
-   filter: { frontmatter: { path: { regex: $path }}}
-   sort: { fields: [frontmatter___date], order: DESC}
- ){
-   edges {
-     node {
-       id,
-       frontmatter {
-         title
-         path
-         date
-         author
-       }
-     }
-   }
- }
-  allSitePage {
+  query($path: String!) {
+    allMarkdownRemark(
+      filter: { frontmatter: { path: { regex: $path } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            path
+            date
+            author
+          }
+        }
+      }
+    }
+    allSitePage {
       edges {
         node {
           id
@@ -66,4 +68,5 @@ query($path: String!) {
         }
       }
     }
-}`;
+  }
+`;
