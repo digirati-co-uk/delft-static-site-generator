@@ -137,7 +137,7 @@ class CanvasModal extends React.Component {
                       </div>
                       {detailsLink && (
                         <div className="canvas-modal__nav">
-                          <Link to={[pageLanguage, detailsLink].join('/')}>
+                          <Link to={pageLanguage + '/' + detailsLink + '/'}>
                             View Details
                           </Link>
                         </div>
