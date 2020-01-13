@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
-import CanvasModal from '../../components/CanvasModal/CanvasModal';
+import Dynamic from '../../components/CanvasModal/Dynamic';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 import { Arrow } from '../../components/Arrow/Arrow';
@@ -10,9 +10,7 @@ import { AnnotationBodyRenderer } from '../../components/AnnotationBodyRenderer/
 
 const xywhResolver = (annotation, canvas) => {
   if (annotation.target) {
-    const xywhMatch = annotation.target.match(
-    /xywh=(\d+),(\d+),(\d+),(\d+)/,
-    );
+    const xywhMatch = annotation.target.match(/xywh=(\d+),(\d+),(\d+),(\d+)/);
     if (xywhMatch) {
       const _x = parseInt(xywhMatch[1], 10);
       const _y = parseInt(xywhMatch[2], 10);
@@ -20,10 +18,10 @@ const xywhResolver = (annotation, canvas) => {
       const _h = parseInt(xywhMatch[4], 10);
       return {
         position: 'absolute',
-        left: `${_x / canvas.width * 100}%`,
-        top: `${_y / canvas.height * 100}%`,
-        width: `${_w / canvas.width * 100}%`,
-        height: `${_h / canvas.height * 100}%`,
+        left: `${(_x / canvas.width) * 100}%`,
+        top: `${(_y / canvas.height) * 100}%`,
+        width: `${(_w / canvas.width) * 100}%`,
+        height: `${(_h / canvas.height) * 100}%`,
         margin: 0,
         padding: 0,
       };
@@ -63,7 +61,7 @@ class ExhibitionPage extends React.Component {
     const pageLanguage = getPageLanguage(path);
     this.setState({
       renderCanvasModal: (
-        <CanvasModal
+        <Dynamic
           selectedCanvas={canvas}
           manifest={manifest}
           hideCanvasDetails={this.hideCanvasDetails}
@@ -80,58 +78,54 @@ class ExhibitionPage extends React.Component {
     });
   };
 
-
-  renderAnnotation = (annotation, key, pageLanguage, canvas) => (annotation.motivation === 'painting'
-      ? (
-        <AnnotationBodyRenderer
-          key={key}
-          body={annotation.body}
-          annotation={annotation}
-          canvas={canvas}
-          position={xywhResolver(annotation, canvas)}
-          pageLanguage={pageLanguage}
-          canvasSize={this.getCanvasPhysicalSize(canvas)}
-        />
-      ) : (
-        <div
-          key={key}
-          style={
-            Object.assign(
-              xywhResolver(annotation, canvas),
-              { border: '2px dashed red' },
-            )}
-          title={translate(annotation.label, pageLanguage)}
-        />
-      ));
+  renderAnnotation = (annotation, key, pageLanguage, canvas) =>
+    annotation.motivation === 'painting' ? (
+      <AnnotationBodyRenderer
+        key={key}
+        body={annotation.body}
+        annotation={annotation}
+        canvas={canvas}
+        position={xywhResolver(annotation, canvas)}
+        pageLanguage={pageLanguage}
+        canvasSize={this.getCanvasPhysicalSize(canvas)}
+      />
+    ) : (
+      <div
+        key={key}
+        style={Object.assign(xywhResolver(annotation, canvas), {
+          border: '2px dashed red',
+        })}
+        title={translate(annotation.label, pageLanguage)}
+      />
+    );
 
   renderCanvasBody = (canvas, pageLanguage) => (
     <React.Fragment>
       {canvas.thumbnail && canvas.thumbnail.length > 0 ? (
-        <AnnotationBodyRenderer body={canvas.thumbnail[0]} pageLanguage={pageLanguage} />
+        <AnnotationBodyRenderer
+          body={canvas.thumbnail[0]}
+          pageLanguage={pageLanguage}
+        />
       ) : (
-        canvas.items
-          && (canvas.items[0].items || []).map(
-            (annotation, idx) => (
-              this.renderAnnotation(
-                annotation,
-                `canvas_items__${idx}`,
-                pageLanguage,
-                canvas,
-              )
-            ),
-        ))}
-      {canvas.annotations
-          && (canvas.annotations[0].items || []).map(
-            (annotation, idx) => (
-              this.renderAnnotation(
-                annotation,
-                `canvas_annotation__${idx}`,
-                pageLanguage,
-                canvas,
-              )
-            ),
-)
-        }
+        canvas.items &&
+        (canvas.items[0].items || []).map((annotation, idx) =>
+          this.renderAnnotation(
+            annotation,
+            `canvas_items__${idx}`,
+            pageLanguage,
+            canvas
+          )
+        )
+      )}
+      {canvas.annotations &&
+        (canvas.annotations[0].items || []).map((annotation, idx) =>
+          this.renderAnnotation(
+            annotation,
+            `canvas_annotation__${idx}`,
+            pageLanguage,
+            canvas
+          )
+        )}
     </React.Fragment>
   );
 
@@ -139,13 +133,16 @@ class ExhibitionPage extends React.Component {
     <div className="canvas-preview">
       <button
         className="canvas-preview__flex"
-        onClick={this.showCanvasDetails(canvas, this.props.pageContext.annotationDetails)}
+        onClick={this.showCanvasDetails(
+          canvas,
+          this.props.pageContext.annotationDetails
+        )}
         role="link"
         type="button"
       >
         <div
           style={{
-            paddingBottom: `${canvas.height / canvas.width * 100}%`,
+            paddingBottom: `${(canvas.height / canvas.width) * 100}%`,
           }}
           className="canvas-preview__center"
         >
@@ -153,73 +150,94 @@ class ExhibitionPage extends React.Component {
         </div>
       </button>
     </div>
-  )
+  );
 
-  getBlockClasses = canvas => (canvas.behavior
-    && canvas.behavior.length > 0
-      ? `block cutcorners ${canvas.behavior.join(' ')}${canvas.summary ? '' : ' image'}`
-      : `block cutcorners w-8 h-8 image${canvas.summary ? '' : ' image'}`)
+  getBlockClasses = canvas =>
+    canvas.behavior && canvas.behavior.length > 0
+      ? `block cutcorners ${canvas.behavior.join(' ')}${
+          canvas.summary ? '' : ' image'
+        }`
+      : `block cutcorners w-8 h-8 image${canvas.summary ? '' : ' image'}`;
 
-  getBlockImageClasses = (canvas) => {
+  getBlockImageClasses = canvas => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
-    return blockClasses.reduce((textClasses, cls) => {
-      if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
-        let newCls = cls;
-        if (blockClasses.indexOf('column') !== -1 && cls.indexOf('h-') === 0) {
-          newCls = `h-${parseInt(cls.substr(2), 10) - (Math.ceil(parseInt(cls.substr(2), 10) / 4))}`;
-        } if (blockClasses.indexOf('row') !== -1 && cls.indexOf('w-') === 0) {
-          newCls = `w-${parseInt(cls.substr(2), 10) - Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
-        }
-        textClasses.push(newCls);
-      }
-      return textClasses;
-    }, ['block', 'image', 'cutcorners']).join(' ');
-  }
-
-  getCanvasPhysicalSize = canvas => this.getBlockImageClasses(canvas).split(' ')
-    .reduce((_canvasSize, className) => {
-      if (className.startsWith('w-')) {
-        _canvasSize.width = parseInt(className.substr(2), 10) * 100;
-      } else if (className.startsWith('h-')) {
-        _canvasSize.height = parseInt(className.substr(2), 10) * 100;
-      }
-      return _canvasSize;
-    }, {
-      width: 1200,
-      height: 1200,
-    });
-
-  getBlockTextClasses = (canvas) => {
-    const blockClasses = this.getBlockClasses(canvas).split(' ');
-    return blockClasses.reduce((textClasses, cls) => {
-      if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
-        let newCls = cls;
-        if (
-          blockClasses.indexOf('column') !== -1
-          && cls.indexOf('h-') === 0
-        ) {
-          newCls = `h-${Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
-        }
-        if (
-          blockClasses.indexOf('row') !== -1
-          && cls.indexOf('w-') === 0
-        ) {
-          newCls = `w-${Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
-        }
-        textClasses.push(newCls);
-      }
-      return textClasses;
-    }, ['block', 'info', 'cutcorners']).join(' ');
+    return blockClasses
+      .reduce(
+        (textClasses, cls) => {
+          if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
+            let newCls = cls;
+            if (
+              blockClasses.indexOf('column') !== -1 &&
+              cls.indexOf('h-') === 0
+            ) {
+              newCls = `h-${parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
+            }
+            if (blockClasses.indexOf('row') !== -1 && cls.indexOf('w-') === 0) {
+              newCls = `w-${parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
+            }
+            textClasses.push(newCls);
+          }
+          return textClasses;
+        },
+        ['block', 'image', 'cutcorners']
+      )
+      .join(' ');
   };
 
-  getBlockArrowClasses = (canvas) => {
+  getCanvasPhysicalSize = canvas =>
+    this.getBlockImageClasses(canvas)
+      .split(' ')
+      .reduce(
+        (_canvasSize, className) => {
+          if (className.startsWith('w-')) {
+            _canvasSize.width = parseInt(className.substr(2), 10) * 100;
+          } else if (className.startsWith('h-')) {
+            _canvasSize.height = parseInt(className.substr(2), 10) * 100;
+          }
+          return _canvasSize;
+        },
+        {
+          width: 1200,
+          height: 1200,
+        }
+      );
+
+  getBlockTextClasses = canvas => {
+    const blockClasses = this.getBlockClasses(canvas).split(' ');
+    return blockClasses
+      .reduce(
+        (textClasses, cls) => {
+          if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
+            let newCls = cls;
+            if (
+              blockClasses.indexOf('column') !== -1 &&
+              cls.indexOf('h-') === 0
+            ) {
+              newCls = `h-${Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
+            }
+            if (blockClasses.indexOf('row') !== -1 && cls.indexOf('w-') === 0) {
+              newCls = `w-${Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
+            }
+            textClasses.push(newCls);
+          }
+          return textClasses;
+        },
+        ['block', 'info', 'cutcorners']
+      )
+      .join(' ');
+  };
+
+  getBlockArrowClasses = canvas => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
     if (blockClasses.indexOf('column') !== -1) {
       return 'arrow up';
-    } if (blockClasses.indexOf('caption-left') !== -1) {
+    }
+    if (blockClasses.indexOf('caption-left') !== -1) {
       return 'arrow right';
     }
-      return 'arrow left';
+    return 'arrow left';
   };
 
   render() {
@@ -240,61 +258,82 @@ class ExhibitionPage extends React.Component {
               <div />
             </div>
 
-            {manifest && manifest.items && manifest.items.map(
-              canvas => ((canvas.behavior || []).indexOf('info') !== -1 ? (
-                <div className={this.getBlockClasses(canvas)}>
-                  <div className="boxtitle">{translate(canvas.label || { en: ['About'], nl: ['Over'] }, pageLanguage, '\n').toUpperCase()}</div>
-                  <div className="text">
-                    { translate(canvas.summary, pageLanguage, '\n')
+            {manifest &&
+              manifest.items &&
+              manifest.items.map(canvas =>
+                (canvas.behavior || []).indexOf('info') !== -1 ? (
+                  <div className={this.getBlockClasses(canvas)}>
+                    <div className="boxtitle">
+                      {translate(
+                        canvas.label || { en: ['About'], nl: ['Over'] },
+                        pageLanguage,
+                        '\n'
+                      ).toUpperCase()}
+                    </div>
+                    <div className="text">
+                      {translate(canvas.summary, pageLanguage, '\n')
                         .split('\n')
-                        .map(paragraph => <p key={`about__${paragraph}`}>{paragraph}</p>)}
-                    <p>
-                      <button className="readmore" onClick={this.showCanvasDetails(canvas)}>Read More</button>
-                    </p>
+                        .map(paragraph => (
+                          <p key={`about__${paragraph}`}>{paragraph}</p>
+                        ))}
+                      <p>
+                        <button
+                          className="readmore"
+                          onClick={this.showCanvasDetails(canvas)}
+                        >
+                          Read More
+                        </button>
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ) : (
-                <div
-                  key={`manifest_item_${canvas.id}`}
-                  className={this.getBlockClasses(canvas)}
-                >
-                  {
-                  canvas.summary
-                  ? (
-                    <React.Fragment>
-                      <div className={this.getBlockImageClasses(canvas)}>
-                        {this.renderMediaHolder(
-                          canvas,
-                          this.renderCanvasBody(canvas, pageLanguage),
-                        )}
-                      </div>
-                      <div className={this.getBlockTextClasses(canvas)}>
-                        <div className={this.getBlockArrowClasses(canvas)}>
-                          <Arrow />
-                        </div>
-                        <div className="text">
-                          <p>{translate(canvas.label, pageLanguage)}</p>
-                          <p>{translate(canvas.summary, pageLanguage)}</p>
-                          {canvas.requiredStatement && (
-                            <p className="facts">{ translate(canvas.requiredStatement.value, pageLanguage)}</p>
+                ) : (
+                  <div
+                    key={`manifest_item_${canvas.id}`}
+                    className={this.getBlockClasses(canvas)}
+                  >
+                    {canvas.summary ? (
+                      <React.Fragment>
+                        <div className={this.getBlockImageClasses(canvas)}>
+                          {this.renderMediaHolder(
+                            canvas,
+                            this.renderCanvasBody(canvas, pageLanguage)
                           )}
                         </div>
-                      </div>
-                    </React.Fragment>
-                  )
-                  : (
-                    <React.Fragment>
-                      {this.renderMediaHolder(canvas, this.renderCanvasBody(canvas, pageLanguage))}
-                      <div className="caption">{translate(canvas.label, pageLanguage)}</div>
-                    </React.Fragment>
-                  )
-                }
-                </div>
-            )),
-            )}
+                        <div className={this.getBlockTextClasses(canvas)}>
+                          <div className={this.getBlockArrowClasses(canvas)}>
+                            <Arrow />
+                          </div>
+                          <div className="text">
+                            <p>{translate(canvas.label, pageLanguage)}</p>
+                            <p>{translate(canvas.summary, pageLanguage)}</p>
+                            {canvas.requiredStatement && (
+                              <p className="facts">
+                                {translate(
+                                  canvas.requiredStatement.value,
+                                  pageLanguage
+                                )}
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                      </React.Fragment>
+                    ) : (
+                      <React.Fragment>
+                        {this.renderMediaHolder(
+                          canvas,
+                          this.renderCanvasBody(canvas, pageLanguage)
+                        )}
+                        <div className="caption">
+                          {translate(canvas.label, pageLanguage)}
+                        </div>
+                      </React.Fragment>
+                    )}
+                  </div>
+                )
+              )}
           </div>
         </main>
-        { renderCanvasModal }
+        {renderCanvasModal}
         {/* <p>DEBUG pageContext:</p>
         <pre>{JSON.stringify(this.props, null, 2)}</pre> */}
       </Layout>
