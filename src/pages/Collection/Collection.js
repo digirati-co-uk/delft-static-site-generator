@@ -114,7 +114,8 @@ class CollectionPage extends React.Component {
                       to={
                         pageLanguage +
                         '/' +
-                        objectLinks[manifest.id || manifest['@id']]
+                        objectLinks[manifest.id || manifest['@id']] +
+                        '/'
                       }
                     >
                       <div className="block aspectratio-square image cutcorners w-3 h-3">
