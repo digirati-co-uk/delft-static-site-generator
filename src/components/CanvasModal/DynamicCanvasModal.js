@@ -10,7 +10,6 @@ const DynamicCanvasModal = props => {
 };
 
 DynamicCanvasModal.propTypes = {
-  search: PropTypes.string,
   location: PropTypes.any,
   selectedCanvas: PropTypes.any,
   hideCanvasDetails: PropTypes.func.isRequired,

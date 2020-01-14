@@ -2,50 +2,43 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import ContainerDimensions from 'react-container-dimensions';
-import { Arrow } from '../Arrow/Arrow';
 import { Close } from '../Close/Close';
 import { StaticQuery, graphql } from 'gatsby';
+import { CanvasNav } from './CanvasNav';
 
 import './CanvasModal.scss';
 import { getTranslation } from '../../utils';
 
 import ThinCanvasPanel from './ThinCanvasPanel';
 
-const getAnnotationId = annotation => {
-  let annotationId = annotation.id;
-  if (annotation.body && annotation.body.type === 'Image') {
-    if (annotation.body.service) {
-      const service = Array.isArray(annotation.body.service)
-        ? annotation.body.service[0]
-        : annotation.body.service;
-      if (typeof service === 'string') {
-        annotationId = service;
-      } else if (typeof service.id === 'string') {
-        annotationId = service.id;
-      }
+class CanvasModal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      navItems: [],
+      currentNavIndex: 0,
+      displayType: '',
+    };
+  }
+
+  componentDidMount() {
+    if (this.props.selectedCanvas.items[0].items.length > 1) {
+      this.setState({
+        navItems: this.props.selectedCanvas.items[0].items,
+        displayType: 'mixed-media-canvas',
+      });
     }
-    if (
-      annotationId === annotation.id &&
-      typeof annotation.body.id === 'string'
-    ) {
-      annotationId = annotation.body.id;
+    const navItems = getAnnotations(
+      this.props.selectedCanvas.items,
+      this.props.selectedCanvas.annotations
+    ).reduce(annotation => annotation.motivation === 'layout-viewport-focus');
+    if (navItems) {
+      this.setState({
+        navItems: [...this.state.navItems, navItems],
+        displayType: 'layout-viewport-focus',
+      });
     }
   }
-  return annotationId;
-};
-
-class CanvasModal extends React.Component {
-  state = {
-    navItems: [],
-    currentNavItem: 0,
-  };
-
-  navItemsCallback = (navItems, currentNavItem) => {
-    this.setState({
-      navItems,
-      currentNavItem,
-    });
-  };
 
   getModalObjectId = route => {
     let indexToFind = 0;
@@ -64,52 +57,95 @@ class CanvasModal extends React.Component {
     return indexToFind;
   };
 
+  renderSingleItemCanvas = () => {
+    return (
+      <ThinCanvasPanel
+        getAnnotations={() =>
+          getAnnotations(
+            this.props.selectedCanvas.items,
+            this.props.selectedCanvas.annotations
+          )
+        }
+        canvas={this.props.selectedCanvas}
+        height={this.props.selectedCanvas.height}
+        width={this.props.selectedCanvas.width}
+        {...this.state.navItems}
+        navItemsCallBack={this.navItemsCallback}
+        currentNavItem={this.state.currentNavIndex}
+      />
+    );
+  };
+
+  renderMultiCanvas = () => {
+    return (
+      <ThinCanvasPanel
+        getAnnotations={() => [
+          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex],
+        ]}
+        canvas={
+          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex]
+        }
+        height={
+          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex]
+            .body.height
+        }
+        width={
+          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex]
+            .body.width
+        }
+        navItemsCallBack={this.navItemsCallback}
+        currentNavItem={this.state.currentNavIndex}
+      />
+    );
+  };
+
   render() {
-    const {
-      selectedCanvas,
-      hideCanvasDetails,
-      pageLanguage,
-      annotationDetails,
-    } = this.props;
-    const { navItems, currentNavItem } = this.state;
     const annotations =
-      selectedCanvas &&
-      selectedCanvas.items &&
-      selectedCanvas.items[0] &&
-      selectedCanvas.items[0].items
-        ? selectedCanvas.items[0].items
+      this.props.selectedCanvas &&
+      this.props.selectedCanvas.items &&
+      this.props.selectedCanvas.items[0] &&
+      this.props.selectedCanvas.items[0].items
+        ? this.props.selectedCanvas.items[0].items
         : [];
     const activeAnnotationFallback =
       annotations && annotations.length && annotations[0] && annotations[0]
         ? annotations[0]
         : {};
     const currentLabelAndDescriptionSource =
-      navItems.length > 0 && currentNavItem !== -1
-        ? navItems[currentNavItem]
+      this.state.navItems.length > 0 && this.state.currentNavIndex !== -1
+        ? this.state.navItems[this.state.currentNavIndex]
         : activeAnnotationFallback;
     const imageAnnotations = annotations.filter(
       annotation => annotation.body.type === 'Image'
     );
     const detailsLink =
       imageAnnotations.length === 1 &&
-      annotationDetails[getAnnotationId(imageAnnotations[0])];
-    return selectedCanvas ? (
+      this.props.annotationDetails[getAnnotationId(imageAnnotations[0])];
+
+    return (
       <div className="canvas-modal">
         <ContainerDimensions>
           {({ width, height }) => (
-            // <div className="canvas-modal__content" style={{ width: width - 64, height: Math.floor(height - 64) }}>
             <div className="canvas-modal__content">
-              {(selectedCanvas.behavior || []).indexOf('info') !== -1 ? (
+              {(this.props.selectedCanvas.behavior || []).indexOf('info') !==
+              -1 ? (
                 <div className="canvas-modal__essay">
                   {annotations.map(annotation => (
                     <main>
                       {annotation.label && (
                         <h3>
-                          {getTranslation(annotation.label, pageLanguage)}
+                          {getTranslation(
+                            annotation.label,
+                            this.props.pageLanguage
+                          )}
                         </h3>
                       )}
                       {annotation.summary &&
-                        getTranslation(annotation.summary, pageLanguage, '\n')
+                        getTranslation(
+                          annotation.summary,
+                          this.props.pageLanguage,
+                          '\n'
+                        )
                           .split('\n')
                           .map(paragraph => (
                             <p
@@ -124,11 +160,9 @@ class CanvasModal extends React.Component {
                 <div className="canvas-modal__inner-frame">
                   <div className="canvas-modal__content-slide">
                     <div className="canvas-modal__top-part">
-                      <ThinCanvasPanel
-                        canvas={selectedCanvas}
-                        navItemsCallback={this.navItemsCallback}
-                        currentNavItem={currentNavItem}
-                      />
+                      {this.state.navItems.length > 1
+                        ? this.renderMultiCanvas()
+                        : this.renderSingleItemCanvas()}
                     </div>
                     <div className="canvas-modal__info-and-nav">
                       <div className="canvas-modal__info">
@@ -136,7 +170,7 @@ class CanvasModal extends React.Component {
                           <div className="canvas-modal__info-title">
                             {getTranslation(
                               currentLabelAndDescriptionSource.label,
-                              pageLanguage
+                              this.props.pageLanguage
                             )}
                           </div>
                         ) : (
@@ -146,7 +180,7 @@ class CanvasModal extends React.Component {
                           <p>
                             {getTranslation(
                               currentLabelAndDescriptionSource.summary,
-                              pageLanguage
+                              this.props.pageLanguage
                             )}
                           </p>
                         ) : (
@@ -157,69 +191,36 @@ class CanvasModal extends React.Component {
                         <div className="canvas-modal__nav">
                           <Link
                             to={
-                              pageLanguage +
+                              this.props.pageLanguage +
                               '/' +
                               detailsLink +
                               `/?id=${this.getModalObjectId(detailsLink)}`
                             }
                           >
-                            View Details
+                            View Detail
                           </Link>
                         </div>
                       )}
-                      {navItems.length > 1 ? (
-                        <div className="canvas-modal__nav">
-                          {currentNavItem + 1}
-                          {' / '}
-                          {navItems.length}
-                        </div>
-                      ) : (
-                        ''
-                      )}
-                      {navItems.length > 1 ? (
-                        <div className="canvas-modal__nav">
-                          <button
-                            className="arrow left"
-                            onClick={() =>
-                              this.setState({
-                                currentNavItem: currentNavItem - 1,
-                              })
-                            }
-                            type="button"
-                            style={{
-                              visibility:
-                                currentNavItem === 0 ? 'hidden' : 'visible',
-                            }}
-                          >
-                            <Arrow />
-                          </button>
-                          <button
-                            className="arrow right"
-                            onClick={() =>
-                              this.setState({
-                                currentNavItem: currentNavItem + 1,
-                              })
-                            }
-                            type="button"
-                            style={{
-                              visibility:
-                                currentNavItem + 1 === navItems.length
-                                  ? 'hidden'
-                                  : 'visible',
-                            }}
-                          >
-                            <Arrow />
-                          </button>
-                        </div>
-                      ) : (
-                        ''
-                      )}
+                      <CanvasNav
+                        totalItems={this.state.navItems.length}
+                        currentIndex={this.state.currentNavIndex + 1}
+                        backwardClick={() =>
+                          this.setState({
+                            currentNavIndex: this.state.currentNavIndex - 1,
+                          })
+                        }
+                        forwardClick={() =>
+                          this.setState({
+                            currentNavIndex: this.state.currentNavIndex + 1,
+                          })
+                        }
+                      />
                     </div>
                   </div>
                 </div>
               )}
               <button
-                onClick={hideCanvasDetails}
+                onClick={this.props.hideCanvasDetails}
                 className="canvas-modal__close"
                 type="button"
               >
@@ -229,8 +230,6 @@ class CanvasModal extends React.Component {
           )}
         </ContainerDimensions>
       </div>
-    ) : (
-      ''
     );
   }
 }
@@ -272,3 +271,50 @@ export default props => (
     render={data => <CanvasModal data={data.allSitePage.nodes} {...props} />}
   />
 );
+
+const getAnnotationId = annotation => {
+  let annotationId = annotation.id;
+  if (annotation.body && annotation.body.type === 'Image') {
+    if (annotation.body.service) {
+      const service = Array.isArray(annotation.body.service)
+        ? annotation.body.service[0]
+        : annotation.body.service;
+      if (typeof service === 'string') {
+        annotationId = service;
+      } else if (typeof service.id === 'string') {
+        annotationId = service.id;
+      }
+    }
+    if (
+      annotationId === annotation.id &&
+      typeof annotation.body.id === 'string'
+    ) {
+      annotationId = annotation.body.id;
+    }
+  }
+  return annotationId;
+};
+
+const getAnnotations = (items, annotations) => {
+  return (items || [])
+    .reduce((_annotations, annotationPage) => {
+      if (
+        annotationPage.hasOwnProperty('items') &&
+        annotationPage.items.length > 0
+      ) {
+        _annotations = _annotations.concat(annotationPage.items);
+      }
+      return _annotations;
+    }, [])
+    .concat(
+      (annotations || []).reduce((_annotations, annotationPage) => {
+        if (
+          annotationPage.hasOwnProperty('items') &&
+          annotationPage.items.length > 0
+        ) {
+          _annotations = _annotations.concat(annotationPage.items);
+        }
+        return _annotations;
+      }, [])
+    );
+};

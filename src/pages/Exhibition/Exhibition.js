@@ -260,7 +260,7 @@ class ExhibitionPage extends React.Component {
 
             {manifest &&
               manifest.items &&
-              manifest.items.map(canvas =>
+              manifest.items.map((canvas, idx) =>
                 (canvas.behavior || []).indexOf('info') !== -1 ? (
                   <div className={this.getBlockClasses(canvas)}>
                     <div className="boxtitle">
@@ -274,7 +274,7 @@ class ExhibitionPage extends React.Component {
                       {translate(canvas.summary, pageLanguage, '\n')
                         .split('\n')
                         .map(paragraph => (
-                          <p key={`about__${paragraph}`}>{paragraph}</p>
+                          <p key={`about__${idx}`}>{paragraph}</p>
                         ))}
                       <p>
                         <button
@@ -288,7 +288,7 @@ class ExhibitionPage extends React.Component {
                   </div>
                 ) : (
                   <div
-                    key={`manifest_item_${canvas.id}`}
+                    key={`manifest_item_${idx}`}
                     className={this.getBlockClasses(canvas)}
                   >
                     {canvas.summary ? (
@@ -343,7 +343,7 @@ class ExhibitionPage extends React.Component {
 
 ExhibitionPage.propTypes = {
   pageContext: PropTypes.object.isRequired,
-  '*': PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 };
 
 export default ExhibitionPage;

@@ -118,16 +118,22 @@ class ThinCanvasPanel extends React.Component {
   constructor(props) {
     super(props);
     this.id = `canvas_panel__${new Date().getTime()}`;
+    console.log(this.props);
+    this.state = {
+      ref: () => this.setViewerRef(),
+    };
   }
 
   componentDidUpdate(prevProps) {
     const { currentNavItem, canvas } = this.props;
     if (prevProps.canvas.id !== canvas.id) {
+      console.log(this.viewer);
+      // this.viewer.close();
       this.displayAnnotationsOnCanvas();
     }
-    if (currentNavItem !== prevProps.currentNavItem) {
-      this.setCurrentNavitemFocus();
-    }
+    // if (currentNavItem !== prevProps.currentNavItem) {
+    //   this.setCurrentNavitemFocus();
+    // }
   }
 
   setViewerRef = el => {
@@ -149,9 +155,6 @@ class ThinCanvasPanel extends React.Component {
       showFlipControl: false,
       showSequenceControl: false,
     });
-    // this.viewer.removeControl();
-    // this.viewer.setControlsEnabled(false);
-    // this.viewer.clearControls();
   };
 
   convertCoordsToViewportRelative = (bounds, viewportSize) => ({
@@ -165,38 +168,11 @@ class ThinCanvasPanel extends React.Component {
       : 1,
   });
 
-  getAnnotations = () => {
-    const { canvas } = this.props;
-
-    return (canvas.items || [])
-      .reduce((_annotations, annotationPage) => {
-        if (
-          annotationPage.hasOwnProperty('items') &&
-          annotationPage.items.length > 0
-        ) {
-          _annotations = _annotations.concat(annotationPage.items);
-        }
-        return _annotations;
-      }, [])
-      .concat(
-        (canvas.annotations || []).reduce((_annotations, annotationPage) => {
-          if (
-            annotationPage.hasOwnProperty('items') &&
-            annotationPage.items.length > 0
-          ) {
-            _annotations = _annotations.concat(annotationPage.items);
-          }
-          return _annotations;
-        }, [])
-      );
-  };
-
   addCanvasBackground = () => {
-    const { canvas } = this.props;
     this.viewer.addTiledImage({
       tileSource: {
-        width: canvas.width,
-        height: canvas.height,
+        width: this.props.width,
+        height: this.props.height,
         tileSize: 256,
         getTileUrl: () =>
           `data:image/svg+xml;base64,${btoa(
@@ -212,21 +188,12 @@ class ThinCanvasPanel extends React.Component {
     });
   };
 
-  getAnnotationCrop = (annotation, canvas) => {
+  getAnnotationCrop = annotation => {
     if (annotation && annotation.body && annotation.body.id) {
       const iiifPathParts = annotation.body.id.split('/');
       const xywh = iiifPathParts[iiifPathParts.length - 4];
       if (xywh !== 'full' && xywh !== 'max') {
         return parseXYWH(xywh);
-        // const coords = parseXYWH(xywh);
-        // return {
-        //   clip: new OpenSeadragon.Rect(
-        //     coords.x,
-        //     coords.y,
-        //     coords.width,
-        //     coords.height,
-        //   ),
-        // };
       }
     }
   };
@@ -249,11 +216,12 @@ class ThinCanvasPanel extends React.Component {
   };
 
   displayAnnotationsOnCanvas = () => {
-    const { canvas, navItemsCallback, currentNavItem } = this.props;
-    this.navItems = [];
+    const { canvas } = this.props;
 
     this.addCanvasBackground();
-    this.annotations = this.getAnnotations();
+    console.log(this.viewer);
+    this.annotations = this.props.getAnnotations();
+
     this.annotations.forEach(annotation => {
       const coords = this.convertCoordsToViewportRelative(
         parseXYWH(getHashParams(annotation.target || '').xywh),
@@ -316,21 +284,16 @@ class ThinCanvasPanel extends React.Component {
               0
             )
           );
-          if (annotation.motivation === 'layout-viewport-focus') {
-            this.navItems.push(annotation);
-          }
       }
     });
-    navItemsCallback(
-      this.navItems,
-      this.navItems.length >= 0 ? currentNavItem : -1
-    );
   };
 
   setCurrentNavitemFocus = () => {
     const { canvas, currentNavItem } = this.props;
     const coords = this.convertCoordsToViewportRelative(
-      parseXYWH(getHashParams(this.navItems[currentNavItem].target || '').xywh),
+      parseXYWH(
+        getHashParams(this.props.navItems[currentNavItem].target || '').xywh
+      ),
       canvas
     );
     this.viewer.viewport.fitBounds(
@@ -358,12 +321,10 @@ class ThinCanvasPanel extends React.Component {
 
 ThinCanvasPanel.propTypes = {
   canvas: PropTypes.any.isRequired,
-  navItemsCallback: PropTypes.func,
   currentNavItem: PropTypes.number,
 };
 
 ThinCanvasPanel.defaultProps = {
-  navItemsCallback: () => {},
   currentNavItem: -1,
 };
 
