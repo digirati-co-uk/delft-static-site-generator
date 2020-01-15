@@ -10,6 +10,6 @@ Generates static sites from IIIF Manifests and markdown for Technical University
 
 [UX Wireframe](https://www.figma.com/file/emiQTuM5feCweZT4soUY4MJg/Wires?node-id=0:1)
 
-[Demo site](https://delft-static-site-generator.netlify.com/)
+[Website](https://heritage.tudelft.nl)
 
 [Changelog](https://github.com/digirati-co-uk/delft-static-site-generator/issues)
