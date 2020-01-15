@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import ContainerDimensions from 'react-container-dimensions';
 import { Arrow } from '../Arrow/Arrow';
 import { Close } from '../Close/Close';
+import { StaticQuery, graphql } from 'gatsby';
 
 import './CanvasModal.scss';
 import { getTranslation } from '../../utils';
@@ -44,6 +45,23 @@ class CanvasModal extends React.Component {
       navItems,
       currentNavItem,
     });
+  };
+
+  getModalObjectId = route => {
+    let indexToFind = 0;
+    const foundNode = this.props.data.find(node => {
+      return node.path === `/en/${route}` || node.path === `/nl/${route}`;
+    });
+    if (foundNode) {
+      foundNode.context.items.map((item, index) => {
+        if (
+          item.items[0].items[0].id.split('/')[6] ===
+          this.props.selectedCanvas.items[0].items[0].body.id.split('/')[6]
+        )
+          indexToFind = index;
+      });
+    }
+    return indexToFind;
   };
 
   render() {
@@ -137,7 +155,14 @@ class CanvasModal extends React.Component {
                       </div>
                       {detailsLink && (
                         <div className="canvas-modal__nav">
-                          <Link to={pageLanguage + '/' + detailsLink + '/'}>
+                          <Link
+                            to={
+                              pageLanguage +
+                              '/' +
+                              detailsLink +
+                              `/?id=${this.getModalObjectId(detailsLink)}` + `/`
+                            }
+                          >
                             View Details
                           </Link>
                         </div>
@@ -222,4 +247,28 @@ CanvasModal.defaultProps = {
   annotationDetails: {},
 };
 
-export default CanvasModal;
+export default props => (
+  <StaticQuery
+    query={graphql`
+      query {
+        allSitePage {
+          nodes {
+            id
+            path
+            context {
+              items {
+                items {
+                  items {
+                    id
+                    target
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={data => <CanvasModal data={data.allSitePage.nodes} {...props} />}
+  />
+);
