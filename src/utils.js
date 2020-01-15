@@ -48,7 +48,7 @@ export const getTranslation = (obj, lang, glue = ' ') => (obj ? obj[lang] || obj
 
 export const getPageLanguage = (pathname) => {
   // ...
-  const languageCandidate = pathname.split('/')[0];
+  const languageCandidate = pathname.split('/')[1];
   return languageCandidate === 'nl' ? languageCandidate : 'en';
 };
 
