@@ -160,7 +160,7 @@ class CanvasModal extends React.Component {
                               pageLanguage +
                               '/' +
                               detailsLink +
-                              `/?id=${this.getModalObjectId(detailsLink)}`
+                              `/?id=${this.getModalObjectId(detailsLink)}` + `/`
                             }
                           >
                             View Details
