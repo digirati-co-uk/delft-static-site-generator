@@ -49,7 +49,9 @@ class CanvasModal extends React.Component {
       foundNode.context.items.map((item, index) => {
         if (
           item.items[0].items[0].id.split('/')[6] ===
-          this.props.selectedCanvas.items[0].items[0].body.id.split('/')[6]
+          this.props.selectedCanvas.items[0].items[
+            this.state.currentNavIndex
+          ].body.id.split('/')[6]
         )
           indexToFind = index;
       });
@@ -119,9 +121,12 @@ class CanvasModal extends React.Component {
     const imageAnnotations = annotations.filter(
       annotation => annotation.body.type === 'Image'
     );
+
     const detailsLink =
-      imageAnnotations.length === 1 &&
-      this.props.annotationDetails[getAnnotationId(imageAnnotations[0])];
+      imageAnnotations.length >= 1 &&
+      this.props.annotationDetails[
+        getAnnotationId(imageAnnotations[this.state.currentNavIndex])
+      ];
 
     return (
       <div className="canvas-modal">
