@@ -6,7 +6,6 @@ import { Close } from '../Close/Close';
 import { StaticQuery, graphql } from 'gatsby';
 import { CanvasNav } from './CanvasNav';
 
-
 import './CanvasModal.scss';
 import { getTranslation } from '../../utils';
 
@@ -112,7 +111,9 @@ class CanvasModal extends React.Component {
       foundNode.context.items.map((item, index) => {
         if (
           item.items[0].items[0].id.split('/')[6] ===
-          this.props.selectedCanvas.items[0].items[0].body.id.split('/')[6]
+          this.props.selectedCanvas.items[0].items[
+            this.state.currentNavIndex
+          ].body.id.split('/')[6]
         )
           indexToFind = index;
       });
@@ -296,7 +297,6 @@ export default props => (
     render={data => <CanvasModal data={data.allSitePage.nodes} {...props} />}
   />
 );
-
 
 const getAnnotationId = annotation => {
   if (!annotation) {
