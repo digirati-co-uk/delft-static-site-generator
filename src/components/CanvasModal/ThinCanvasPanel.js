@@ -125,15 +125,20 @@ class ThinCanvasPanel extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    const { currentNavItem, canvas } = this.props;
-    if (prevProps.canvas.id !== canvas.id) {
+    const { currentNavItem, canvas, displayType } = this.props;
+    if (
+      prevProps.canvas.id !== canvas.id &&
+      displayType === 'mixed-media-canvas'
+    ) {
       console.log(this.viewer);
-      // this.viewer.close();
       this.displayAnnotationsOnCanvas();
     }
-    // if (currentNavItem !== prevProps.currentNavItem) {
-    //   this.setCurrentNavitemFocus();
-    // }
+    if (
+      currentNavItem !== prevProps.currentNavItem &&
+      displayType === 'layout-viewport-focus'
+    ) {
+      this.setCurrentNavitemFocus();
+    }
   }
 
   setViewerRef = el => {

@@ -16,7 +16,7 @@ class CanvasModal extends React.Component {
     super(props);
     this.state = {
       navItems: [],
-      currentNavIndex: 0,
+      currentNavIndex: 1,
       displayType: '',
     };
   }
@@ -31,10 +31,11 @@ class CanvasModal extends React.Component {
     const navItems = getAnnotations(
       this.props.selectedCanvas.items,
       this.props.selectedCanvas.annotations
-    ).reduce(annotation => annotation.motivation === 'layout-viewport-focus');
-    if (navItems) {
+    ).filter(annotation => annotation.motivation === 'layout-viewport-focus');
+    // console.log(navItems);
+    if (navItems.length > 0) {
       this.setState({
-        navItems: [...this.state.navItems, navItems],
+        navItems: navItems,
         displayType: 'layout-viewport-focus',
       });
     }
@@ -72,6 +73,8 @@ class CanvasModal extends React.Component {
         {...this.state.navItems}
         navItemsCallBack={this.navItemsCallback}
         currentNavItem={this.state.currentNavIndex}
+        displayType={this.state.displayType}
+        navItems={this.state.navItems}
       />
     );
   };
@@ -95,6 +98,7 @@ class CanvasModal extends React.Component {
         }
         navItemsCallBack={this.navItemsCallback}
         currentNavItem={this.state.currentNavIndex}
+        displayType={this.state.displayType}
       />
     );
   };
@@ -160,7 +164,8 @@ class CanvasModal extends React.Component {
                 <div className="canvas-modal__inner-frame">
                   <div className="canvas-modal__content-slide">
                     <div className="canvas-modal__top-part">
-                      {this.state.navItems.length > 1
+                      {this.state.navItems.length > 1 &&
+                      this.state.displayType === 'mixed-media-canvas'
                         ? this.renderMultiCanvas()
                         : this.renderSingleItemCanvas()}
                     </div>
