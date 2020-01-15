@@ -280,6 +280,9 @@ export default props => (
 );
 
 const getAnnotationId = annotation => {
+  if (!annotation) {
+    return false;
+  }
   let annotationId = annotation.id;
   if (annotation.body && annotation.body.type === 'Image') {
     if (annotation.body.service) {
