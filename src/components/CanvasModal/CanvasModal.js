@@ -16,7 +16,7 @@ class CanvasModal extends React.Component {
     super(props);
     this.state = {
       navItems: [],
-      currentNavIndex: 1,
+      currentNavIndex: 0,
       displayType: '',
     };
   }
