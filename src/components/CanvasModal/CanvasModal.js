@@ -32,7 +32,6 @@ class CanvasModal extends React.Component {
       this.props.selectedCanvas.items,
       this.props.selectedCanvas.annotations
     ).filter(annotation => annotation.motivation === 'layout-viewport-focus');
-    // console.log(navItems);
     if (navItems.length > 0) {
       this.setState({
         navItems: navItems,
@@ -70,8 +69,6 @@ class CanvasModal extends React.Component {
         canvas={this.props.selectedCanvas}
         height={this.props.selectedCanvas.height}
         width={this.props.selectedCanvas.width}
-        {...this.state.navItems}
-        navItemsCallBack={this.navItemsCallback}
         currentNavItem={this.state.currentNavIndex}
         displayType={this.state.displayType}
         navItems={this.state.navItems}
@@ -96,7 +93,6 @@ class CanvasModal extends React.Component {
           this.props.selectedCanvas.items[0].items[this.state.currentNavIndex]
             .body.width
         }
-        navItemsCallBack={this.navItemsCallback}
         currentNavItem={this.state.currentNavIndex}
         displayType={this.state.displayType}
         navItems={this.state.navItems}

@@ -323,8 +323,13 @@ class ThinCanvasPanel extends React.Component {
 }
 
 ThinCanvasPanel.propTypes = {
-  canvas: PropTypes.any.isRequired,
+  canvas: PropTypes.object.isRequired,
   currentNavItem: PropTypes.number,
+  getAnnotations: PropTypes.func,
+  height: PropTypes.number,
+  width: PropTypes.number,
+  displayType: PropTypes.string,
+  navItems: PropTypes.arrayOf(PropTypes.object),
 };
 
 ThinCanvasPanel.defaultProps = {
