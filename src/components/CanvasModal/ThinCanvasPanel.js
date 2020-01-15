@@ -117,11 +117,8 @@ const createText = (text, active) => {
 class ThinCanvasPanel extends React.Component {
   constructor(props) {
     super(props);
-    this.id = `canvas_panel__${new Date().getTime()}`;
-    console.log(this.props);
-    this.state = {
-      ref: () => this.setViewerRef(),
-    };
+    // this.id = `canvas_panel__${new Date().getTime()}`;
+    this.id = this.props.currentNavItem;
   }
 
   componentDidUpdate(prevProps) {
@@ -130,8 +127,9 @@ class ThinCanvasPanel extends React.Component {
       prevProps.canvas.id !== canvas.id &&
       displayType === 'mixed-media-canvas'
     ) {
-      console.log(this.viewer);
-      this.displayAnnotationsOnCanvas();
+      this.viewer.destroy();
+      this.setViewerRef();
+      this.setState({ id: this.props.id });
     }
     if (
       currentNavItem !== prevProps.currentNavItem &&
@@ -159,6 +157,7 @@ class ThinCanvasPanel extends React.Component {
       showRotationControl: false,
       showFlipControl: false,
       showSequenceControl: false,
+      tileSouce: this.props.navItems,
     });
   };
 
@@ -224,7 +223,6 @@ class ThinCanvasPanel extends React.Component {
     const { canvas } = this.props;
 
     this.addCanvasBackground();
-    console.log(this.viewer);
     this.annotations = this.props.getAnnotations();
 
     this.annotations.forEach(annotation => {

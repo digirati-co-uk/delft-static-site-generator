@@ -99,6 +99,7 @@ class CanvasModal extends React.Component {
         navItemsCallBack={this.navItemsCallback}
         currentNavItem={this.state.currentNavIndex}
         displayType={this.state.displayType}
+        navItems={this.state.navItems}
       />
     );
   };
