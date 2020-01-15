@@ -9,13 +9,13 @@ const Footer = ({ path, title, twitterHandle, url }) => {
     typeof window !== `undefined` ? location : `${url}${path}`;
   return (
     <footer className="footer">
-      {/* <SocialMedia
+      <SocialMedia
         socialConfig={{
           twitterHandle,
           config: { ...{ url: currentPath }, title },
         }}
         tags={[]}
-      /> */}
+      />
     </footer>
   );
 };
