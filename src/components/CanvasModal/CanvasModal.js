@@ -35,7 +35,7 @@ class CanvasModal extends React.Component {
     if (navItems.length > 0) {
       this.setState({
         navItems: navItems,
-        displayType: 'mixed-media-canvas',
+        displayType: 'layout-viewport-focus',
       });
     }
   }

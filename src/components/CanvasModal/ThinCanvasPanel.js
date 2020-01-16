@@ -117,7 +117,6 @@ const createText = (text, active) => {
 class ThinCanvasPanel extends React.Component {
   constructor(props) {
     super(props);
-    // this.id = `canvas_panel__${new Date().getTime()}`;
     this.id = this.props.currentNavItem;
   }
 
