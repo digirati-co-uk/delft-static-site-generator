@@ -20,7 +20,7 @@ export const CanvasNav = ({
           onClick={backwardClick}
           type="button"
           style={{
-            visibility: currentIndex === 1 ? 'hidden' : 'visible',
+            visibility: currentIndex === 0 ? 'hidden' : 'visible',
           }}
         >
           <Arrow />

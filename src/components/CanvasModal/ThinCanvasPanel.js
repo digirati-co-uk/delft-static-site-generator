@@ -117,25 +117,20 @@ const createText = (text, active) => {
 class ThinCanvasPanel extends React.Component {
   constructor(props) {
     super(props);
-    // this.id = `canvas_panel__${new Date().getTime()}`;
     this.id = this.props.currentNavItem;
   }
 
   componentDidUpdate(prevProps) {
     const { currentNavItem, canvas, displayType } = this.props;
-    if (
-      prevProps.canvas.id !== canvas.id &&
-      displayType === 'mixed-media-canvas'
-    ) {
-      this.viewer.destroy();
-      this.setViewerRef();
-      this.setState({ id: this.props.id });
+    if (currentNavItem === -1) {
+      this.setCurrentNavitemFocus(canvas.id);
     }
     if (
       currentNavItem !== prevProps.currentNavItem &&
-      displayType === 'layout-viewport-focus'
+      displayType === 'layout-viewport-focus' &&
+      currentNavItem !== -1
     ) {
-      this.setCurrentNavitemFocus();
+      this.setCurrentNavitemFocus(this.props.navItems[currentNavItem].target);
     }
   }
 
@@ -291,12 +286,10 @@ class ThinCanvasPanel extends React.Component {
     });
   };
 
-  setCurrentNavitemFocus = () => {
+  setCurrentNavitemFocus = canvasItem => {
     const { canvas, currentNavItem } = this.props;
     const coords = this.convertCoordsToViewportRelative(
-      parseXYWH(
-        getHashParams(this.props.navItems[currentNavItem].target || '').xywh
-      ),
+      parseXYWH(getHashParams(canvasItem || '').xywh),
       canvas
     );
     this.viewer.viewport.fitBounds(
