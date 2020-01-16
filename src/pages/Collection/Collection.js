@@ -92,12 +92,16 @@ class CollectionPage extends React.Component {
               <div className="block info cutcorners w-min-4">
                 {summary[0]}
                 <p>
-                  <button
-                    className="readmore"
-                    onClick={() => this.setState({ renderCanvasModal: true })}
-                  >
-                    Read More
-                  </button>
+                  {summary.length > 1 ? (
+                    <button
+                      className="readmore"
+                      onClick={() => this.setState({ renderCanvasModal: true })}
+                    >
+                      Read More
+                    </button>
+                  ) : (
+                    ''
+                  )}
                 </p>
               </div>
             </aside>
