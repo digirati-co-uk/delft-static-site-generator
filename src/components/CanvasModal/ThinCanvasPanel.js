@@ -123,9 +123,7 @@ class ThinCanvasPanel extends React.Component {
 
   componentDidUpdate(prevProps) {
     const { currentNavItem, canvas, displayType } = this.props;
-    // console.log(this.props);
     if (currentNavItem === -1) {
-      console.log(canvas);
       this.setCurrentNavitemFocus(canvas.id);
     }
     if (
@@ -133,7 +131,6 @@ class ThinCanvasPanel extends React.Component {
       displayType === 'layout-viewport-focus' &&
       currentNavItem !== -1
     ) {
-      console.log(this.props.navItems[currentNavItem].target);
       this.setCurrentNavitemFocus(this.props.navItems[currentNavItem].target);
     }
   }

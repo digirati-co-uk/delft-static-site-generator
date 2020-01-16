@@ -60,8 +60,6 @@ class CanvasModal extends React.Component {
   };
 
   renderSingleItemCanvas = (items, annotations) => {
-    console.log('in single');
-
     const getAnno =
       this.state.displayType === 'mixed-media-canvas'
         ? () => [items]
@@ -79,23 +77,10 @@ class CanvasModal extends React.Component {
     );
   };
 
-  renderMultiCanvas = items => {
-    console.log('in multi');
-    return (
-      <ThinCanvasPanel
-        getAnnotations={() => [items]}
-        canvas={items}
-        height={items.body.height}
-        width={items.body.width}
-        currentNavItem={this.state.currentNavIndex}
-        displayType={this.state.displayType}
-        navItems={this.state.navItems}
-      />
-    );
-  };
-
   getModalObjectId = route => {
     let indexToFind = 0;
+    const lookingForIndex =
+      this.state.currentNavIndex === -1 ? 0 : this.state.currentNavIndex;
     const foundNode = this.props.data.find(node => {
       return node.path === `/en/${route}` || node.path === `/nl/${route}`;
     });
@@ -104,13 +89,36 @@ class CanvasModal extends React.Component {
         if (
           item.items[0].items[0].id.split('/')[6] ===
           this.props.selectedCanvas.items[0].items[
-            this.state.currentNavIndex
+            lookingForIndex
           ].body.id.split('/')[6]
         )
           indexToFind = index;
       });
     }
     return indexToFind;
+  };
+
+  getCurrentLabelAndDescription(fallback) {
+    if (this.state.currentNavIndex !== -1) {
+      return this.state.navItems[this.state.currentNavIndex];
+    } else if (
+      this.state.currentNavIndex === -1 &&
+      this.state.navItems.length > 0
+    ) {
+      return this.props.selectedCanvas.summary
+        ? this.props.selectedCanvas
+        : fallback;
+    } else return fallback;
+  }
+
+  getDetailsLink = imageAnnotations => {
+    if (imageAnnotations.length < 1) return false;
+    if (this.state.currentNavIndex === -1 && this.state.navItems.length > 0)
+      return false;
+    let index = this.state.navItems.length > 1 ? this.state.currentNavIndex : 0;
+    return this.props.annotationDetails[
+      getAnnotationId(imageAnnotations[index])
+    ];
   };
 
   render() {
@@ -125,19 +133,15 @@ class CanvasModal extends React.Component {
       annotations && annotations.length && annotations[0] && annotations[0]
         ? annotations[0]
         : {};
-    const currentLabelAndDescriptionSource =
-      this.state.navItems.length > 0 && this.state.currentNavIndex !== -1
-        ? this.state.navItems[this.state.currentNavIndex]
-        : activeAnnotationFallback;
+    const currentLabelAndDescriptionSource = this.getCurrentLabelAndDescription(
+      activeAnnotationFallback
+    );
+
     const imageAnnotations = annotations.filter(
       annotation => annotation.body.type === 'Image'
     );
 
-    const detailsLink =
-      imageAnnotations.length >= 1 &&
-      this.props.annotationDetails[
-        getAnnotationId(imageAnnotations[this.state.currentNavIndex])
-      ];
+    const detailsLink = this.getDetailsLink(imageAnnotations);
 
     return (
       <div className="canvas-modal">
