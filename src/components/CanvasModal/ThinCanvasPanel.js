@@ -123,19 +123,18 @@ class ThinCanvasPanel extends React.Component {
 
   componentDidUpdate(prevProps) {
     const { currentNavItem, canvas, displayType } = this.props;
-    if (
-      prevProps.canvas.id !== canvas.id &&
-      displayType === 'mixed-media-canvas'
-    ) {
-      this.viewer.destroy();
-      this.setViewerRef();
-      this.setState({ id: this.props.id });
+    // console.log(this.props);
+    if (currentNavItem === -1) {
+      console.log(canvas);
+      this.setCurrentNavitemFocus(canvas.id);
     }
     if (
       currentNavItem !== prevProps.currentNavItem &&
-      displayType === 'layout-viewport-focus'
+      displayType === 'layout-viewport-focus' &&
+      currentNavItem !== -1
     ) {
-      this.setCurrentNavitemFocus();
+      console.log(this.props.navItems[currentNavItem].target);
+      this.setCurrentNavitemFocus(this.props.navItems[currentNavItem].target);
     }
   }
 
@@ -291,12 +290,10 @@ class ThinCanvasPanel extends React.Component {
     });
   };
 
-  setCurrentNavitemFocus = () => {
+  setCurrentNavitemFocus = canvasItem => {
     const { canvas, currentNavItem } = this.props;
     const coords = this.convertCoordsToViewportRelative(
-      parseXYWH(
-        getHashParams(this.props.navItems[currentNavItem].target || '').xywh
-      ),
+      parseXYWH(getHashParams(canvasItem || '').xywh),
       canvas
     );
     this.viewer.viewport.fitBounds(

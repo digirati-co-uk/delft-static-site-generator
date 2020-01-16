@@ -16,7 +16,7 @@ class CanvasModal extends React.Component {
     super(props);
     this.state = {
       navItems: [],
-      currentNavIndex: 0,
+      currentNavIndex: -1,
       displayType: '',
     };
   }
@@ -25,7 +25,7 @@ class CanvasModal extends React.Component {
     if (this.props.selectedCanvas.items[0].items.length > 1) {
       this.setState({
         navItems: this.props.selectedCanvas.items[0].items,
-        displayType: 'mixed-media-canvas',
+        displayType: 'layout-viewport-focus',
       });
     }
     const navItems = getAnnotations(
@@ -35,7 +35,7 @@ class CanvasModal extends React.Component {
     if (navItems.length > 0) {
       this.setState({
         navItems: navItems,
-        displayType: 'layout-viewport-focus',
+        displayType: 'mixed-media-canvas',
       });
     }
   }
@@ -59,15 +59,16 @@ class CanvasModal extends React.Component {
     return indexToFind;
   };
 
-  renderSingleItemCanvas = () => {
+  renderSingleItemCanvas = (items, annotations) => {
+    console.log('in single');
+
+    const getAnno =
+      this.state.displayType === 'mixed-media-canvas'
+        ? () => [items]
+        : () => getAnnotations(items, annotations);
     return (
       <ThinCanvasPanel
-        getAnnotations={() =>
-          getAnnotations(
-            this.props.selectedCanvas.items,
-            this.props.selectedCanvas.annotations
-          )
-        }
+        getAnnotations={getAnno}
         canvas={this.props.selectedCanvas}
         height={this.props.selectedCanvas.height}
         width={this.props.selectedCanvas.width}
@@ -78,23 +79,14 @@ class CanvasModal extends React.Component {
     );
   };
 
-  renderMultiCanvas = () => {
+  renderMultiCanvas = items => {
+    console.log('in multi');
     return (
       <ThinCanvasPanel
-        getAnnotations={() => [
-          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex],
-        ]}
-        canvas={
-          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex]
-        }
-        height={
-          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex]
-            .body.height
-        }
-        width={
-          this.props.selectedCanvas.items[0].items[this.state.currentNavIndex]
-            .body.width
-        }
+        getAnnotations={() => [items]}
+        canvas={items}
+        height={items.body.height}
+        width={items.body.width}
         currentNavItem={this.state.currentNavIndex}
         displayType={this.state.displayType}
         navItems={this.state.navItems}
@@ -187,8 +179,15 @@ class CanvasModal extends React.Component {
                     <div className="canvas-modal__top-part">
                       {this.state.navItems.length > 1 &&
                       this.state.displayType === 'mixed-media-canvas'
-                        ? this.renderMultiCanvas()
-                        : this.renderSingleItemCanvas()}
+                        ? this.renderSingleItemCanvas(
+                            this.props.selectedCanvas.items[0].items[
+                              this.state.currentNavIndex
+                            ]
+                          )
+                        : this.renderSingleItemCanvas(
+                            this.props.selectedCanvas.items,
+                            this.props.selectedCanvas.annotations
+                          )}
                     </div>
                     <div className="canvas-modal__info-and-nav">
                       <div className="canvas-modal__info">
@@ -220,7 +219,8 @@ class CanvasModal extends React.Component {
                               this.props.pageLanguage +
                               '/' +
                               detailsLink +
-                              `/?id=${this.getModalObjectId(detailsLink)}` + `/`
+                              `/?id=${this.getModalObjectId(detailsLink)}` +
+                              `/`
                             }
                           >
                             View Detail
