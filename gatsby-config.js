@@ -23,12 +23,19 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
+        tableOfContents: {
+          heading: null,
+          maxDepth: 2,
+        },
         plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: { icon: false },
+          },
           'gatsby-remark-numbered-footnotes',
           {
             resolve: 'gatsby-remark-toc',
             options: {
-              header: 'Table of Contents', // the custom header text
               include: [
                 `content/**/publications/*.md`, // an include glob to match against
               ],

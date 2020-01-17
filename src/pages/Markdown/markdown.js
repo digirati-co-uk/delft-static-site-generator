@@ -50,7 +50,11 @@ const Markdown = ({ pageContext, data, path }) => {
               </div>
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="boxtitle">Table of Contents</div>
-                <ol dangerouslySetInnerHTML={{ __html: content.toc }} />
+                <ol
+                  dangerouslySetInnerHTML={{
+                    __html: data.markdownRemark.tableOfContents,
+                  }}
+                />
               </div>
             </aside>
             <article className="markdown-article w-8">
@@ -91,6 +95,11 @@ export const pageQuery = graphql`
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      tableOfContents(
+        pathToSlugField: "frontmatter.path"
+        maxDepth: 2
+        heading: "Table of Contents"
+      )
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
