@@ -167,22 +167,37 @@ class ThinCanvasPanel extends React.Component {
       : 1,
   });
 
-  addCanvasBackground = () => {
-    this.viewer.addTiledImage({
+  addCanvasBackground = async () => {
+    await this.viewer.addTiledImage({
       tileSource: {
         width: this.props.width,
         height: this.props.height,
         tileSize: 256,
-        getTileUrl: () =>
-          `data:image/svg+xml;base64,${btoa(
-            `<?xml version="1.0" encoding="utf-8"?>\
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" \
-          x="0px" y="0px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">\
-          <g>\
-            <rect x="0" y="0" style="fill:#353535;" width="256" height="256"/>\
-            </g>\
-          </svg>`
-          )}`,
+        getTileUrl: () => (
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 256 256"
+            style="enable-background:new 0 0 256 256;"
+            space="preserve"
+          >
+            <g>
+              \
+              <rect
+                x="0"
+                y="0"
+                style="fill:#353535;"
+                width="256"
+                height="256"
+              />
+              \
+            </g>
+            \
+          </svg>
+        ),
       },
     });
   };
