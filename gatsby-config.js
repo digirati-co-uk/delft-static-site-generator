@@ -28,7 +28,10 @@ module.exports = {
           maxDepth: 2,
         },
         plugins: [
-          { resolve: `gatsby-remark-autolink-headers`, options: {icon: false} },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: { icon: false },
+          },
           'gatsby-remark-numbered-footnotes',
           {
             resolve: 'gatsby-remark-toc',
