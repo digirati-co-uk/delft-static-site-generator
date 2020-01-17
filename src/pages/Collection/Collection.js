@@ -40,6 +40,7 @@ class CollectionPage extends React.Component {
     super(props);
     this.state = {
       renderCanvasModal: false,
+      objectsToShow: 50,
     };
   }
 
@@ -106,7 +107,7 @@ class CollectionPage extends React.Component {
               </div>
             </aside>
             <article className="w-8">
-              {items.map(manifest => (
+              {items.slice(0, this.state.objectsToShow).map(manifest => (
                 <div
                   key={`collection__${
                     objectLinks[manifest.id || manifest['@id']]
@@ -145,6 +146,30 @@ class CollectionPage extends React.Component {
                   </div>
                 </div>
               ))}
+              {items.length > this.state.objectsToShow ? (
+                <button
+                  class="block w-4 h-min-6 block--align-right"
+                  style={{
+                    border: 'none',
+                    backgroundColor: 'transparent',
+                    cursor: 'pointer',
+                    padding: '1rem',
+                  }}
+                  onClick={() =>
+                    this.setState({
+                      objectsToShow: this.state.objectsToShow + 50,
+                    })
+                  }
+                >
+                  {`Show more... ${
+                    items.length - this.state.objectsToShow < 50
+                      ? '(' + (items.length - this.state.objectsToShow) + ')'
+                      : '(50)'
+                  }`}
+                </button>
+              ) : (
+                ''
+              )}
             </article>
           </div>
         </main>
