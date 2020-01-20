@@ -17,7 +17,7 @@ class Layout extends React.Component {
     this.state = {
       firstImage: '',
     };
-    console.log(this.props);
+    // console.log(this.props);
   }
 
   componentDidMount() {

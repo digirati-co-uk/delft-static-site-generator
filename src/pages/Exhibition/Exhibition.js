@@ -243,9 +243,19 @@ class ExhibitionPage extends React.Component {
   getPageMetaData = () => {
     const summary = this.props.pageContext.label;
     const language = this.props.path.split('/')[1];
+
+    const image =
+      this.props.pageContext &&
+      this.props.pageContext.items &&
+      this.props.pageContext.items[0] &&
+      this.props.pageContext.items[0].thumbnail &&
+      this.props.pageContext.items[0].thumbnail[0]
+        ? this.props.pageContext.items[0].thumbnail[0].id
+        : null;
+    console.log(summary);
     const meta = {
-      image: this.props.pageContext.items[0].thumbnail[0].id,
-      description: summary[language][0],
+      image: image,
+      description: summary && summary[language] ? summary[language][0] : null,
     };
     return meta;
   };

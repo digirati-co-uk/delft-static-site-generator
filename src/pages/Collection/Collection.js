@@ -55,7 +55,7 @@ class CollectionPage extends React.Component {
     // console.log(language);
     const meta = {
       image: this.props.pageContext.collection.items[0].thumbnail[0].id,
-      description: summary[language][0],
+      description: summary[language] ? summary[language][0] : null,
     };
     return meta;
   };

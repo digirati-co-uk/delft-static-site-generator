@@ -31,14 +31,26 @@ class ObjectPage extends React.Component {
       this.props.location && this.props.location.href
         ? this.props.location.href.split('?id=')[1]
         : null;
-    const href = this.props.pageContext.items[id ? id : 0].thumbnail[0].id;
-    const summary = this.props.pageContext.metadata[0].value;
+    const href =
+      this.props.pageContext &&
+      this.props.pageContext.items &&
+      this.props.pageContext.items[id ? id : 0] &&
+      this.props.pageContext.items[id ? id : 0].thumbnail &&
+      this.props.pageContext.items[id ? id : 0].thumbnail[0]
+        ? this.props.pageContext.items[id ? id : 0].thumbnail[0].id
+        : null;
+    const summary =
+      this.props.pageContext &&
+      this.props.pageContext.metadata &&
+      this.props.pageContext.metadata[0]
+        ? this.props.pageContext.metadata[0].value
+        : null;
     const language = this.props.location.pathname
       ? this.props.location.pathname.split('/')[1]
       : 'nl';
     const meta = {
       image: href,
-      description: summary[language],
+      description: summary ? summary[language] : null,
     };
     return meta;
   };

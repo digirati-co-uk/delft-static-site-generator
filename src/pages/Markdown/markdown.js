@@ -35,11 +35,20 @@ const Markdown = ({ pageContext, data, path }) => {
     : '';
 
   const getPageMetaData = () => {
-    const imgHtml = data.markdownRemark.html.split('img src="')[1];
-    const href = imgHtml ? imgHtml.split('"')[0] : null;
+    const stringToSearch =
+      data.markdownRemark && data.markdownRemark.html
+        ? data.markdownRemark.html
+        : '';
+    const [_, href] = stringToSearch.match(/src="(.*?)"/) || [];
+    const description =
+      data.markdownRemark &&
+      data.markdownRemark.frontmatter &&
+      data.markdownRemark.description
+        ? data.markdownRemark.description
+        : null;
     const meta = {
       image: href,
-      description: data.markdownRemark.frontmatter.description,
+      description: description,
     };
     return meta;
   };
