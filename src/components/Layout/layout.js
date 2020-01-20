@@ -44,7 +44,7 @@ class Layout extends React.Component {
                     content:
                       this.props.meta && this.props.meta.image
                         ? this.props.meta.image
-                        : defaultImage,
+                        : 'https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg',
                   },
                   {
                     name: 'twitter:title',
@@ -58,7 +58,12 @@ class Layout extends React.Component {
                         : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
                   },
                   { name: 'twitter:card', content: 'summary' },
-                  { name: 'og:url', content: this.props.location.href },
+                  {
+                    name: 'og:url',
+                    content: this.props.location.href
+                      ? this.props.location.href
+                      : 'https://https://erfgoed.tudelft.nl/nl',
+                  },
                   { name: 'og:type', content: 'website' },
                   { name: 'og:title', content: data.site.siteMetadata.title },
                   {
@@ -66,7 +71,7 @@ class Layout extends React.Component {
                     content:
                       this.props.meta && this.props.meta.image
                         ? this.props.meta.image
-                        : defaultImage,
+                        : 'https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg',
                   },
                   {
                     name: 'og:description',
