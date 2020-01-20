@@ -19,7 +19,6 @@ class Layout extends React.Component {
       this.props.meta && this.props.meta.image
         ? this.props.meta.image
         : 'https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg';
-            console.log(image);
     const description =
       this.props.meta && this.props.meta.description
           ? this.props.meta.description
