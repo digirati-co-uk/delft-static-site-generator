@@ -8,11 +8,21 @@ import Footer from '../Footer/footer';
 import './layout.css';
 import '../delft-styles.scss';
 import withLocation from '../withLocation/withLocation';
-import defaultImage from '../../images/defaultSocial.jpg';
 import translations from '../../translations';
 
 class Layout extends React.Component {
   render() {
+    const location = this.props.location.href
+      ? this.props.location.href
+      : 'https://https://erfgoed.tudelft.nl/nl';
+    const image =
+      this.props.meta && this.props.meta.image
+        ? this.props.meta.image
+        : 'https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg';
+    const description =
+      this.props.meta && this.props.meta.description
+          ? this.props.meta.description
+          : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.';
     return (
       <StaticQuery
         query={graphql`
@@ -41,10 +51,7 @@ class Layout extends React.Component {
                   },
                   {
                     name: 'twitter:image',
-                    content:
-                      this.props.meta && this.props.meta.image
-                        ? this.props.meta.image
-                        : 'https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg',
+                    content: image,
                   },
                   {
                     name: 'twitter:title',
@@ -52,33 +59,22 @@ class Layout extends React.Component {
                   },
                   {
                     name: 'twitter:description',
-                    content:
-                      this.props.meta && this.props.meta.description
-                        ? this.props.meta.description
-                        : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
+                    content: description,
                   },
                   { name: 'twitter:card', content: 'summary' },
                   {
                     name: 'og:url',
-                    content: this.props.location.href
-                      ? this.props.location.href
-                      : 'https://https://erfgoed.tudelft.nl/nl',
+                    content: location,
                   },
                   { name: 'og:type', content: 'website' },
                   { name: 'og:title', content: data.site.siteMetadata.title },
                   {
                     name: 'og:image',
-                    content:
-                      this.props.meta && this.props.meta.image
-                        ? this.props.meta.image
-                        : 'https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg',
+                    content: image,
                   },
                   {
                     name: 'og:description',
-                    content:
-                      this.props.meta && this.props.meta.description
-                        ? this.props.meta.description
-                        : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
+                    content: description,
                   },
                 ]}
               >
@@ -90,11 +86,7 @@ class Layout extends React.Component {
                 path={this.props.location.href}
                 title={data.site.siteMetadata.title}
                 twitterHandle={data.site.siteMetadata.twitterHandle}
-                description={
-                  this.props.meta && this.props.meta.description
-                    ? this.props.meta.description
-                    : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.'
-                }
+                description={description}
               />
             </React.Fragment>
           </TranslatorProvider>
