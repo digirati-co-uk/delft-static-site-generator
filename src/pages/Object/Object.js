@@ -26,7 +26,7 @@ class ObjectPage extends React.Component {
   }
 
   getPageMetaData = () => {
-    console.log(this.props);
+    // console.log(this.props);
     const id =
       this.props.location && this.props.location.href
         ? this.props.location.href.split('?id=')[1]
