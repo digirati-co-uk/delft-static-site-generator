@@ -26,10 +26,16 @@ class ObjectPage extends React.Component {
   }
 
   getPageMetaData = () => {
-    const id = this.props.location.href.split('?id=')[1];
-    const href = this.props.pageContext.items[id ? id : 0].thumbnail[0].id
+    console.log(this.props);
+    const id =
+      this.props.location && this.props.location.href
+        ? this.props.location.href.split('?id=')[1]
+        : null;
+    const href = this.props.pageContext.items[id ? id : 0].thumbnail[0].id;
     const summary = this.props.pageContext.metadata[0].value;
-    const language = this.props.location.pathname.split('/')[1];
+    const language = this.props.location.pathname
+      ? this.props.location.pathname.split('/')[1]
+      : 'nl';
     const meta = {
       image: href,
       description: summary[language],
