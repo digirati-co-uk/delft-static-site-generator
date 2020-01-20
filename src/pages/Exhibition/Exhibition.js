@@ -240,12 +240,22 @@ class ExhibitionPage extends React.Component {
     return 'arrow left';
   };
 
+  getPageMetaData = () => {
+    const summary = this.props.pageContext.label;
+    const language = this.props.path.split('/')[1];
+    const meta = {
+      image: this.props.pageContext.items[0].thumbnail[0].id,
+      description: summary[language][0],
+    };
+    return meta;
+  };
+
   render() {
     const { pageContext: manifest, path } = this.props;
     const pageLanguage = getPageLanguage(path);
     const { renderCanvasModal } = this.state;
     return (
-      <Layout language={pageLanguage} path={path}>
+      <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
           <div className="blocks">
             <div className="block title cutcorners w-4 h-4 ">

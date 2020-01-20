@@ -34,8 +34,18 @@ const Markdown = ({ pageContext, data, path }) => {
       )
     : '';
 
+  const getPageMetaData = () => {
+    const imgHtml = data.markdownRemark.html.split('img src="')[1];
+    const href = imgHtml ? imgHtml.split('"')[0] : null;
+    const meta = {
+      image: href,
+      description: data.markdownRemark.frontmatter.description,
+    };
+    return meta;
+  };
+
   return (
-    <Layout language={pageLanguage} path={path}>
+    <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
       {content.isPublication ? (
         <main>
           <div className="blocks blocks--auto-height">
@@ -105,6 +115,7 @@ export const pageQuery = graphql`
         path
         title
         author
+        description
       }
     }
   }

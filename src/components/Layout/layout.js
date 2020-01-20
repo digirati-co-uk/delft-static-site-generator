@@ -7,8 +7,8 @@ import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import './layout.css';
 import '../delft-styles.scss';
+import withLocation from '../withLocation/withLocation';
 import defaultImage from '../../images/defaultSocial.jpg';
-
 import translations from '../../translations';
 
 class Layout extends React.Component {
@@ -17,6 +17,7 @@ class Layout extends React.Component {
     this.state = {
       firstImage: '',
     };
+    console.log(this.props);
   }
 
   componentDidMount() {
@@ -30,6 +31,11 @@ class Layout extends React.Component {
       this.setState({ firstImage: defaultImage });
     }
   }
+
+  // getImage = data => {
+  //   console.log(this.props);
+  //   console.log(data, this.props.pageContext);
+  // };
 
   render() {
     return (
@@ -65,7 +71,10 @@ class Layout extends React.Component {
                   },
                   {
                     name: 'twitter:image',
-                    content: `${this.state.firstImage}`,
+                    content:
+                      this.props.meta && this.props.meta.image
+                        ? this.props.meta.image
+                        : defaultImage,
                   },
                   {
                     name: 'twitter:title',
@@ -74,17 +83,27 @@ class Layout extends React.Component {
                   {
                     name: 'twitter:description',
                     content:
-                      'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
+                      this.props.meta && this.props.meta.description
+                        ? this.props.meta.description
+                        : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
                   },
                   { name: 'twitter:card', content: 'summary_large_image' },
-                  { name: 'og:url', content: 'https://erfgoed.tudelft.nl/en' },
+                  { name: 'og:url', content: this.props.location.href },
                   { name: 'og:type', content: 'website' },
                   { name: 'og:title', content: data.site.siteMetadata.title },
-                  { name: 'og:image', content: `${this.state.firstImage}` },
+                  {
+                    name: 'og:image',
+                    content:
+                      this.props.meta && this.props.meta.image
+                        ? this.props.meta.image
+                        : defaultImage,
+                  },
                   {
                     name: 'og:description',
                     content:
-                      'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
+                      this.props.meta && this.props.meta.description
+                        ? this.props.meta.description
+                        : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.',
                   },
                 ]}
               >
@@ -93,9 +112,8 @@ class Layout extends React.Component {
               <Header language={this.props.language} path={this.props.path} />
               {this.props.children}
               <Footer
-                path={this.props.path}
+                path={this.props.location.href}
                 title={data.site.siteMetadata.title}
-                url={data.site.siteMetadata.url}
                 twitterHandle={data.site.siteMetadata.twitterHandle}
               />
             </React.Fragment>
@@ -112,4 +130,4 @@ Layout.propTypes = {
   path: PropTypes.string.isRequired,
 };
 
-export default Layout;
+export default withLocation(Layout);

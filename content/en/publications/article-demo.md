@@ -3,6 +3,7 @@ path: "/en/publications/article-demo"
 date: "2018-11-11"
 title: "Demo article"
 author: "Adam von Digirati"
+description: "A short description for social media"
 ---
 
 ## Article page
@@ -73,7 +74,7 @@ This is an ordered list:
 4. list item 4
 
 
-Image example: 
+Image example:
 
     <img src="//lorempixel.com/400/200/" />
 

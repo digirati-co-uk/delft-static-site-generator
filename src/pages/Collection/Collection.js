@@ -49,6 +49,16 @@ class CollectionPage extends React.Component {
     });
   };
 
+  getPageMetaData = () => {
+    const summary = this.props.pageContext.collection.summary;
+    const language = this.props.path.split('/')[1];
+    const meta = {
+      image: this.props.pageContext.collection.items[0].thumbnail[0].id,
+      description: summary[language][0],
+    };
+    return meta;
+  };
+
   render() {
     const { collection, objectLinks } = this.props.pageContext;
     if (!collection) {
@@ -73,7 +83,7 @@ class CollectionPage extends React.Component {
     );
     this.summary = summary;
     return (
-      <Layout language={pageLanguage} path={path}>
+      <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
           {this.state.renderCanvasModal ? (
             <Modal modalContent={this.summary} close={this.hideSummary} />
