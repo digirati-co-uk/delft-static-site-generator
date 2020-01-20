@@ -15,7 +15,6 @@ import {
 import './SocialMedia.scss';
 
 export const SocialMedia = ({ socialConfig, tags }) => {
-  console.log(socialConfig)
   return (
     <div className="socialMedia">
       <FacebookShareButton
