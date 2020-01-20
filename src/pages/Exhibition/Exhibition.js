@@ -252,7 +252,6 @@ class ExhibitionPage extends React.Component {
       this.props.pageContext.items[0].thumbnail[0]
         ? this.props.pageContext.items[0].thumbnail[0].id
         : null;
-    console.log(summary);
     const meta = {
       image: image,
       description: summary && summary[language] ? summary[language][0] : null,

@@ -15,7 +15,7 @@ import {
 import './SocialMedia.scss';
 
 export const SocialMedia = ({ socialConfig, tags }) => {
-  // console.log(socialConfig);
+  console.log(socialConfig)
   return (
     <div className="socialMedia">
       <FacebookShareButton
@@ -65,6 +65,7 @@ SocialMedia.propTypes = {
     config: PropTypes.shape({
       url: PropTypes.string.isRequired,
       title: PropTypes.string.isRequired,
+      description: PropTypes.string,
     }),
   }).isRequired,
   tags: PropTypes.arrayOf(PropTypes.string),

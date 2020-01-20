@@ -26,18 +26,17 @@ class ObjectPage extends React.Component {
   }
 
   getPageMetaData = () => {
-    // console.log(this.props);
     const id =
-      this.props.location && this.props.location.href
-        ? this.props.location.href.split('?id=')[1]
-        : null;
+      this.props.location && this.props.location.search
+        ? this.props.location.search.split('?id=')[1]
+        : 0;
     const href =
       this.props.pageContext &&
       this.props.pageContext.items &&
-      this.props.pageContext.items[id ? id : 0] &&
-      this.props.pageContext.items[id ? id : 0].thumbnail &&
-      this.props.pageContext.items[id ? id : 0].thumbnail[0]
-        ? this.props.pageContext.items[id ? id : 0].thumbnail[0].id
+      this.props.pageContext.items[id] &&
+      this.props.pageContext.items[id].thumbnail &&
+      this.props.pageContext.items[id].thumbnail[0]
+        ? this.props.pageContext.items[id].thumbnail[0].id
         : null;
     const summary =
       this.props.pageContext &&
