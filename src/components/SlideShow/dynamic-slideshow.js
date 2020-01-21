@@ -5,10 +5,14 @@ import Slideshow from './slideshow';
 
 const DynamicSlideShow = ({ search, context, location }) => {
   const { id } = search;
-
   return (
-    <Slideshow jsonld={context} pathname={location.pathname} id={id} />
-  )
+    <Slideshow
+      jsonld={context}
+      pathname={location.pathname}
+      id={id}
+      location={location.href}
+    />
+  );
 };
 
 DynamicSlideShow.propTypes = {
