@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import './grid.scss';
 import '../ManifestCabinet/ManifestCabinet.scss';
 
-import { Link, navigate } from 'gatsby';
+import { Link } from 'gatsby';
 
 const useMountEffect = fun => useEffect(fun);
 
