@@ -4,43 +4,22 @@ import '../ManifestCabinet/ManifestCabinet.scss';
 
 import { Link, navigate } from 'gatsby';
 
-const useMountEffect = fun => useEffect(fun, []);
-const scrollToRef = (div, ref) => console.log(div, ref);
+const useMountEffect = fun => useEffect(fun);
 
-// const calculateScrollLength = (width, count, index, columnWidth) => {
-//   const array = Array.apply(null, { length: count }).map(Number.call, Number);
-//   const indexToStopAt = array.find(i => (count - i) * columnWidth < width);
-//   // needs to go left by very slightly under columnWidth
-//   const pixels = columnWidth * 0.999;
-//   // need to change by very small number to trigger rerender of the grid component (so selected value shown)
-//   if ((count - index) * columnWidth < width)
-//     return indexToStopAt * pixels + index * 0.01;
-//   if (count * columnWidth < width) return index;
-//   if (count * columnWidth > width) return index * columnWidth;
-// };
-
-export const Grid = ({
-  thumbnails,
-  onClick,
-  selected,
-  pathname,
-  height,
-  width,
-}) => {
+export const Grid = ({ thumbnails, onClick, selected, pathname, width }) => {
   const divRef = useRef(null);
-  console.log(selected);
+
   useMountEffect(() => {
-    scrollToRef(divRef, selected);
+    const ref = document.getElementById(selected ? selected : 0);
+    ref.scrollIntoView(false, { behavior: 'smooth', inline: 'center' });
   });
 
-  // anyRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
   return (
-    <div className="grid" ref={divRef}>
+    <div className="grid" id="grid" ref={divRef}>
       {thumbnails.map((thumbnail, index) => {
-        console.log(index, selected);
         return (
           <div
+            id={index}
             key={`${index}--thumb--${index === selected}`}
             style={{ height: 124, width: 116 }}
           >
@@ -57,12 +36,11 @@ export const Grid = ({
                 style={
                   index == selected || (selected === 0 && index === 0)
                     ? {
-                        width: 116,
-                        height: 116,
+                        width: 100,
+                        height: 100,
                         borderBottom: '5px solid #1d1c73',
                       }
-                    : console.log('in here')
-                  // : { width: 116, height: 116 }
+                    : { width: 100, height: 100 }
                 }
               >
                 {thumbnail ? (
@@ -73,8 +51,7 @@ export const Grid = ({
                   />
                 ) : (
                   <div className="manifest-cabinet__thumb-missing">
-                    {' '}
-                    no thumb{' '}
+                    no thumb
                   </div>
                 )}
               </button>

@@ -165,12 +165,7 @@ class SlideShow extends React.Component {
                                 pathname={this.props.pathname}
                                 height={height}
                                 width={width}
-                                // scrollLeft={this.calculateScrollLength(
-                                //   width,
-                                //   canvasList.length,
-                                //   this.currentIndex,
-                                //   116
-                                // )}
+                                count={canvasList.count}
                               />
                             )}
                           </ContainerDimensions>
