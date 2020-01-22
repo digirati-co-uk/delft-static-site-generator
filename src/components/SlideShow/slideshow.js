@@ -96,7 +96,6 @@ class SlideShow extends React.Component {
       navigate(`${this.props.pathname}?id=${newIndex}`);
   };
   render() {
-    console.log(this.props);
     const { jsonld, renderPanel, bem } = this.props;
 
     return (
