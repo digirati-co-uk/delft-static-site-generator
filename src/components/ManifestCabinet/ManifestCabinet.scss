@@ -4,16 +4,19 @@
   left: 0;
   right: 0;
   z-index: 10000;
+
   &__scroll {
     width: 100%;
     height: 100%;
     overflow-x: auto;
     overflow-y: hidden;
   }
+
   &__thumb-list {
     display: flex;
     align-items: flex-start;
   }
+
   &__thumb {
     margin: 0px 8px;
     box-sizing: border-box;
@@ -27,12 +30,13 @@
     transition: transform 0.15s ease-out;
 
     &--selected {
-      //border: 8px solid white;
-      //margin: 0;
-      transform: scale(1.1);
+      transform: scale(1.0);
       transition: transform 0.15s ease-out;
+      margin: 0px 16px;
+
     }
   }
+
   &__thumb-img {
     object-fit: cover;
     height: 100%;
@@ -44,6 +48,7 @@
     top: 0;
     left: 0;
   }
+
   &__thumb-missing {
     display: flex;
     align-items: center;

@@ -4,15 +4,13 @@ import { SocialMedia } from '../SocialMedia/SocialMedia';
 
 import './footer.css';
 
-const Footer = ({ path, title, twitterHandle, url }) => {
-  const currentPath =
-    typeof window !== `undefined` ? location : `${url}${path}`;
+const Footer = ({ path, title, twitterHandle, description }) => {
   return (
     <footer className="footer">
       <SocialMedia
         socialConfig={{
           twitterHandle,
-          config: { ...{ url: currentPath }, title },
+          config: { ...{ url: path }, title, description },
         }}
         tags={[]}
       />
@@ -22,9 +20,9 @@ const Footer = ({ path, title, twitterHandle, url }) => {
 
 Footer.propTypes = {
   path: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   twitterHandle: PropTypes.string.isRequired,
+  description: PropTypes.string,
 };
 
 export default Footer;

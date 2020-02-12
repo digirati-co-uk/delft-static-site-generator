@@ -25,12 +25,41 @@ class ObjectPage extends React.Component {
     });
   }
 
+  getPageMetaData = () => {
+    const id =
+      this.props.location && this.props.location.search
+        ? this.props.location.search.split('?id=')[1]
+        : 0;
+    const href =
+      this.props.pageContext &&
+      this.props.pageContext.items &&
+      this.props.pageContext.items[id] &&
+      this.props.pageContext.items[id].thumbnail &&
+      this.props.pageContext.items[id].thumbnail[0]
+        ? this.props.pageContext.items[id].thumbnail[0].id
+        : null;
+    const summary =
+      this.props.pageContext &&
+      this.props.pageContext.metadata &&
+      this.props.pageContext.metadata[0]
+        ? this.props.pageContext.metadata[0].value
+        : null;
+    const language = this.props.location.pathname
+      ? this.props.location.pathname.split('/')[1]
+      : 'nl';
+    const meta = {
+      image: href,
+      description: summary ? summary[language] : null,
+    };
+    return meta;
+  };
+
   render() {
     const { pageContext, path } = this.props;
     const { renderSlideShow } = this.state;
     const pageLanguage = getPageLanguage(path);
     return (
-      <Layout language={pageLanguage} path={path}>
+      <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <div id="slideshow" style={{ width: '100%', height: '80vh' }}>
           {renderSlideShow}
         </div>
