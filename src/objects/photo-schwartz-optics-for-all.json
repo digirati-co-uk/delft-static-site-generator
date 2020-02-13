@@ -1,0 +1,1984 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dlc.services/iiif-resource/7/string1/2019-sc-optics-for-all",
+  "@type": "sc:Manifest",
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photos of the 'Optics for All' exhibition at TU Delft Science Centre"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ]
+      },
+      "value": {
+        "en": [
+          "2019"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Photographer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johannes Schwartz"
+        ]
+      }
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://dlc.services/iiif-query/7/?sequence=n1&manifest=s1&canvas=n2&s1=2019-sc-optics-for-all&n1=",
+      "@type": "sc:Sequence",
+      "label": "Sequence 0",
+      "canvases": [
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=0",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/2566eb57-9be5-46df-8226-be0a6bf2409a/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/2566eb57-9be5-46df-8226-be0a6bf2409a",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/2566eb57-9be5-46df-8226-be0a6bf2409a/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/2566eb57-9be5-46df-8226-be0a6bf2409a/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/2566eb57-9be5-46df-8226-be0a6bf2409a",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=0"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=1",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/56c9c861-99fd-40cd-b9fb-7c82be129ab6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/56c9c861-99fd-40cd-b9fb-7c82be129ab6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/56c9c861-99fd-40cd-b9fb-7c82be129ab6/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/56c9c861-99fd-40cd-b9fb-7c82be129ab6/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/56c9c861-99fd-40cd-b9fb-7c82be129ab6",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=1"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=2",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/9936fe74-9b3a-443f-bf07-6018e60d4f15/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/9936fe74-9b3a-443f-bf07-6018e60d4f15",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/9936fe74-9b3a-443f-bf07-6018e60d4f15/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/9936fe74-9b3a-443f-bf07-6018e60d4f15/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/9936fe74-9b3a-443f-bf07-6018e60d4f15",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=2"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=3",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/ed746c09-3de1-4639-b6d2-aad9fcc43083/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/ed746c09-3de1-4639-b6d2-aad9fcc43083",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 706,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 706,
+                  "height": 1024
+                },
+                {
+                  "width": 276,
+                  "height": 400
+                },
+                {
+                  "width": 138,
+                  "height": 200
+                },
+                {
+                  "width": 69,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3101,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/ed746c09-3de1-4639-b6d2-aad9fcc43083/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/ed746c09-3de1-4639-b6d2-aad9fcc43083/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3101,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/ed746c09-3de1-4639-b6d2-aad9fcc43083",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3101,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=3"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=4",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/e03538a3-275b-44f8-85e0-db5735cede43/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/e03538a3-275b-44f8-85e0-db5735cede43",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/e03538a3-275b-44f8-85e0-db5735cede43/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/e03538a3-275b-44f8-85e0-db5735cede43/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/e03538a3-275b-44f8-85e0-db5735cede43",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=4"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=5",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/7d626159-91fe-4803-8d84-9d63fda957e3/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/7d626159-91fe-4803-8d84-9d63fda957e3",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/7d626159-91fe-4803-8d84-9d63fda957e3/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/7d626159-91fe-4803-8d84-9d63fda957e3/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/7d626159-91fe-4803-8d84-9d63fda957e3",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=5"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=6",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/a9510b09-0bef-48fd-a84f-0de95485bc14/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/a9510b09-0bef-48fd-a84f-0de95485bc14",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/a9510b09-0bef-48fd-a84f-0de95485bc14/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/a9510b09-0bef-48fd-a84f-0de95485bc14/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/a9510b09-0bef-48fd-a84f-0de95485bc14",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=6"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=7",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/bd723e5a-99f3-40da-a5a2-8511bec5f1bb/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/bd723e5a-99f3-40da-a5a2-8511bec5f1bb",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/bd723e5a-99f3-40da-a5a2-8511bec5f1bb/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/bd723e5a-99f3-40da-a5a2-8511bec5f1bb/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/bd723e5a-99f3-40da-a5a2-8511bec5f1bb",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=7"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=8",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/b7fb20b7-021a-4f9c-8926-dc445cd60930/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/b7fb20b7-021a-4f9c-8926-dc445cd60930",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/b7fb20b7-021a-4f9c-8926-dc445cd60930/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/b7fb20b7-021a-4f9c-8926-dc445cd60930/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/b7fb20b7-021a-4f9c-8926-dc445cd60930",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=8"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=9",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/466772f8-065a-40c8-95ef-8372917cf795/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/466772f8-065a-40c8-95ef-8372917cf795",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/466772f8-065a-40c8-95ef-8372917cf795/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/466772f8-065a-40c8-95ef-8372917cf795/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/466772f8-065a-40c8-95ef-8372917cf795",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=9"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=10",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/fe182eac-2707-4de4-b56b-447d281a4219/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/fe182eac-2707-4de4-b56b-447d281a4219",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/fe182eac-2707-4de4-b56b-447d281a4219/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/fe182eac-2707-4de4-b56b-447d281a4219/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/fe182eac-2707-4de4-b56b-447d281a4219",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=10"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=11",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/63cda2fe-8c54-4e59-bd28-df3b9d728297/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/63cda2fe-8c54-4e59-bd28-df3b9d728297",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/63cda2fe-8c54-4e59-bd28-df3b9d728297/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/63cda2fe-8c54-4e59-bd28-df3b9d728297/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/63cda2fe-8c54-4e59-bd28-df3b9d728297",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=11"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=12",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/0f039071-bc58-4306-b1f6-365eeea99f79/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/0f039071-bc58-4306-b1f6-365eeea99f79",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/0f039071-bc58-4306-b1f6-365eeea99f79/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/0f039071-bc58-4306-b1f6-365eeea99f79/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/0f039071-bc58-4306-b1f6-365eeea99f79",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=12"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=13",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/3e789dc8-6dc5-4dad-8217-5af5cc7963de/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/3e789dc8-6dc5-4dad-8217-5af5cc7963de",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/3e789dc8-6dc5-4dad-8217-5af5cc7963de/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/3e789dc8-6dc5-4dad-8217-5af5cc7963de/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/3e789dc8-6dc5-4dad-8217-5af5cc7963de",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=13"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=14",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/adcd1b8e-2ebd-4ec5-aedc-7aaddc384baf/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/adcd1b8e-2ebd-4ec5-aedc-7aaddc384baf",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/adcd1b8e-2ebd-4ec5-aedc-7aaddc384baf/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/adcd1b8e-2ebd-4ec5-aedc-7aaddc384baf/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/adcd1b8e-2ebd-4ec5-aedc-7aaddc384baf",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=14"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=15",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/ae349fcd-f7dd-4e69-946d-842905362274/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/ae349fcd-f7dd-4e69-946d-842905362274",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/ae349fcd-f7dd-4e69-946d-842905362274/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/ae349fcd-f7dd-4e69-946d-842905362274/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/ae349fcd-f7dd-4e69-946d-842905362274",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=15"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=16",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/04b9658e-4406-4a06-a2be-f0e032853688/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/04b9658e-4406-4a06-a2be-f0e032853688",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/04b9658e-4406-4a06-a2be-f0e032853688/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/04b9658e-4406-4a06-a2be-f0e032853688/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/04b9658e-4406-4a06-a2be-f0e032853688",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=16"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=17",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/eede8da2-213e-46f5-ab5f-32f20e67ff9f/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/eede8da2-213e-46f5-ab5f-32f20e67ff9f",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/eede8da2-213e-46f5-ab5f-32f20e67ff9f/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/eede8da2-213e-46f5-ab5f-32f20e67ff9f/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/eede8da2-213e-46f5-ab5f-32f20e67ff9f",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=17"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=18",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/e78d7c99-2b37-494b-98dd-bbe7e8d7c4eb/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/e78d7c99-2b37-494b-98dd-bbe7e8d7c4eb",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 768,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 768,
+                  "height": 1024
+                },
+                {
+                  "width": 300,
+                  "height": 400
+                },
+                {
+                  "width": 150,
+                  "height": 200
+                },
+                {
+                  "width": 75,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3375,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/e78d7c99-2b37-494b-98dd-bbe7e8d7c4eb/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/e78d7c99-2b37-494b-98dd-bbe7e8d7c4eb/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3375,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/e78d7c99-2b37-494b-98dd-bbe7e8d7c4eb",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3375,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=18"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=19",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/1dea12e0-7a66-4512-9dd1-98640ada3790/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/1dea12e0-7a66-4512-9dd1-98640ada3790",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 683,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 683
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 200,
+                  "height": 133
+                },
+                {
+                  "width": 100,
+                  "height": 67
+                }
+              ]
+            }
+          },
+          "height": 3000,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/1dea12e0-7a66-4512-9dd1-98640ada3790/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/1dea12e0-7a66-4512-9dd1-98640ada3790/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3000,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/1dea12e0-7a66-4512-9dd1-98640ada3790",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3000,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=19"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=20",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/3d718a2b-cc15-4575-a90d-48c4f9661e76/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/3d718a2b-cc15-4575-a90d-48c4f9661e76",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 819,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 819
+                },
+                {
+                  "width": 400,
+                  "height": 320
+                },
+                {
+                  "width": 200,
+                  "height": 160
+                },
+                {
+                  "width": 100,
+                  "height": 80
+                }
+              ]
+            }
+          },
+          "height": 3600,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/3d718a2b-cc15-4575-a90d-48c4f9661e76/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/3d718a2b-cc15-4575-a90d-48c4f9661e76/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3600,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/3d718a2b-cc15-4575-a90d-48c4f9661e76",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3600,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=20"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=21",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/c8e69969-be41-4289-9a4d-cee797c95a26/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/c8e69969-be41-4289-9a4d-cee797c95a26",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 683,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 683
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 200,
+                  "height": 133
+                },
+                {
+                  "width": 100,
+                  "height": 67
+                }
+              ]
+            }
+          },
+          "height": 3000,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/c8e69969-be41-4289-9a4d-cee797c95a26/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/c8e69969-be41-4289-9a4d-cee797c95a26/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3000,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/c8e69969-be41-4289-9a4d-cee797c95a26",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3000,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=21"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=22",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/b303d61e-30a7-4ac5-8532-338a2a1a20d9/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/b303d61e-30a7-4ac5-8532-338a2a1a20d9",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 683,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 683,
+                  "height": 1024
+                },
+                {
+                  "width": 267,
+                  "height": 400
+                },
+                {
+                  "width": 133,
+                  "height": 200
+                },
+                {
+                  "width": 67,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3000,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/b303d61e-30a7-4ac5-8532-338a2a1a20d9/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/b303d61e-30a7-4ac5-8532-338a2a1a20d9/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3000,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/b303d61e-30a7-4ac5-8532-338a2a1a20d9",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3000,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=22"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=23",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/7f3e53e7-d795-4406-b028-5d67a05c59a0/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/7f3e53e7-d795-4406-b028-5d67a05c59a0",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/7f3e53e7-d795-4406-b028-5d67a05c59a0/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/7f3e53e7-d795-4406-b028-5d67a05c59a0/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/7f3e53e7-d795-4406-b028-5d67a05c59a0",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=23"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=24",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/5aea44ba-5305-43de-a625-eb3966c0a6ab/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/5aea44ba-5305-43de-a625-eb3966c0a6ab",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 683,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 683
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 200,
+                  "height": 133
+                },
+                {
+                  "width": 100,
+                  "height": 67
+                }
+              ]
+            }
+          },
+          "height": 3000,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/5aea44ba-5305-43de-a625-eb3966c0a6ab/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/5aea44ba-5305-43de-a625-eb3966c0a6ab/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3000,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/5aea44ba-5305-43de-a625-eb3966c0a6ab",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3000,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=24"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=25",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/a9d3ae87-ca78-400e-96f0-bc1dc8d17186/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/a9d3ae87-ca78-400e-96f0-bc1dc8d17186",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 683,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 683
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 200,
+                  "height": 133
+                },
+                {
+                  "width": 100,
+                  "height": 67
+                }
+              ]
+            }
+          },
+          "height": 3000,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/a9d3ae87-ca78-400e-96f0-bc1dc8d17186/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/a9d3ae87-ca78-400e-96f0-bc1dc8d17186/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3000,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/a9d3ae87-ca78-400e-96f0-bc1dc8d17186",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3000,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=25"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=26",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/2f250470-4ba0-42d0-b395-ffd00a39bba1/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/2f250470-4ba0-42d0-b395-ffd00a39bba1",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 683,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 683,
+                  "height": 1024
+                },
+                {
+                  "width": 267,
+                  "height": 400
+                },
+                {
+                  "width": 133,
+                  "height": 200
+                },
+                {
+                  "width": 67,
+                  "height": 100
+                }
+              ]
+            }
+          },
+          "height": 4500,
+          "width": 3000,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/2f250470-4ba0-42d0-b395-ffd00a39bba1/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/2f250470-4ba0-42d0-b395-ffd00a39bba1/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 4500,
+                "width": 3000,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/2f250470-4ba0-42d0-b395-ffd00a39bba1",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4500,
+                  "width": 3000,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=26"
+            }
+          ]
+        },
+        {
+          "@id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=27",
+          "@type": "sc:Canvas",
+          "thumbnail": {
+            "@id": "https://dlc.services/thumbs/7/13/0c25f207-7bcd-48ac-a895-938691999a41/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/0c25f207-7bcd-48ac-a895-938691999a41",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          },
+          "height": 3375,
+          "width": 4500,
+          "images": [
+            {
+              "@id": "https://dlc.services/iiif-img/7/13/0c25f207-7bcd-48ac-a895-938691999a41/anno",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dlc.services/iiif-img/7/13/0c25f207-7bcd-48ac-a895-938691999a41/full/!2000,2000/0/default.jpg",
+                "@type": "dctypes:Image",
+                "height": 3375,
+                "width": 4500,
+                "service": {
+                  "@id": "https://dlc.services/iiif-img/7/13/0c25f207-7bcd-48ac-a895-938691999a41",
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3375,
+                  "width": 4500,
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2019-sc-optics-for-all&n1=&n2=27"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
