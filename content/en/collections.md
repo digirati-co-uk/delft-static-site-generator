@@ -6,8 +6,7 @@ title: "Digital Collections"
 
 # Digital collections
 
-*Please note: you are currently viewing a beta version of this website.*
-*For more information, please consult the [about page](/en/about/).*
+*Please note: you are currently viewing a beta version of this website. For more information, please consult the [about page](/en/about/).*
 
 ## TU Delft Library
 

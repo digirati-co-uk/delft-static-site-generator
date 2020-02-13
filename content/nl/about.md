@@ -7,6 +7,6 @@ title: "Over"
 <article>
 <h1>Over het Team Academisch Erfgoed van de TU Delft Library</h1>
 
-Deze informatie is momenteel alleen beschikbaar in het [engels](/en/about).
+Deze informatie is momenteel alleen beschikbaar in het [Engels](/en/about).
 
 </article>
