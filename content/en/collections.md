@@ -29,8 +29,7 @@ title: "Digital Collections"
 
 </div>
 
-# Campus
-## A short explanation of this particular subdivision
+## Campus
 
 <div class="blocks">
 

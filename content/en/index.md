@@ -4,7 +4,9 @@ date: "2018-11-15"
 title: "Academic Heritage"
 ---
 
-###### Welcome! This is the portal to TU Delft's Academic Heritage and the Special Collections of TU Delft Library. Visit [online exhibitions](/en/exhibitions/), browse the [digital collections](/en/collections/), learn more about the [history of the university](/en/publications/) or [get in touch](/en/about/) with the Academic Heritage Team of TU Delft Library.
+###### Welcome! This is the portal to TU Delft's academic heritage and the digital special collections of TU Delft Library. Visit [online exhibitions](/en/exhibitions/), browse the [digital special collections](/en/collections/), learn more about the [history of the university](/en/publications/) or [get in touch](/en/about/) with the Academic Heritage Team of TU Delft Library.
+
+**Please note: you are currently viewing a beta version of this website. For more information, please consult the [about page]](/en/about/).**
 
 <div class="blocks">
 <div class="block tint yellow cutcorners w-5 h-8 image">
@@ -18,7 +20,7 @@ title: "Academic Heritage"
 
 <div class="block cutcorners w-3 h-3 info">
 
-Would you like to become a friend? Please visit the website of <a href="http://beta.histechnica.nl">Histechnica</a>, the Friends Association of TU Delft's Academic Heritage.
+Would you like to become a friend? Please visit the website of <a href="http://histechnica.nl">Histechnica</a>, the Friends Association of TU Delft's Academic Heritage.
 
 </div>
 <div class="block tint copper cutcorners w-4 h-7 image">
