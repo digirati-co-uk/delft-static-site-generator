@@ -6,7 +6,7 @@ title: "Academisch Erfgoed"
 
 ###### Welkom! Dit is het digitale portaal voor het academisch erfgoed van de TU Delft en de digitale bijzondere collecties van de TU Delft Library. Bezoek [online tentoonstellingen](/nl/exhibitions/), verken de [digitale bijzondere collecties](/nl/collections/), lees meer over de [geschiedenis van de universiteit](/nl/publications/) of neem [contact](/nl/about/) op met het Team Academisch Erfgoed van de TU Delft Library.
 
-*Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de [Engelstalige about pagina]((/en/about/)).*
+*Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de [Engelstalige about pagina](/en/about/).*
 
 <div class="blocks">
 <div class="block tint yellow cutcorners w-5 h-8 image">
