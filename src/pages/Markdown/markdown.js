@@ -23,7 +23,6 @@ const articlePageTransform = html =>
     : { html };
 
 const Markdown = ({ pageContext, data, path }) => {
-  console.log(data);
   const pageLanguage = getPageLanguage(path);
   const { title, author } = data.markdownRemark
     ? data.markdownRemark.frontmatter
@@ -65,8 +64,6 @@ const Markdown = ({ pageContext, data, path }) => {
       ? data.allMdx.nodes[0].body
       : null;
 
-  console.log(mdx);
-
   return (
     <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
       {content.isPublication ? (
@@ -95,7 +92,7 @@ const Markdown = ({ pageContext, data, path }) => {
                   />
                 </div>
               </aside>
-              <article class="markdown-article w-8">
+              <article className="markdown-article w-8">
                 <div className="w-7">
                   <MDXRenderer>{mdx}</MDXRenderer>
                 </div>
