@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { PropTypes } from 'prop-types';
 
+import CanvasModal from '../CanvasModal/CanvasModal';
+
 const fetchDataFromFile = source => {
   const json = require(`../../../content/illustrations/${source}`);
   return json;
@@ -21,12 +23,15 @@ const getThumbnail = manifest => {
     manifest.items[0].items[0].items[0].thumbnail[0].id
       ? manifest.items[0].items[0].items[0].thumbnail[0].id
       : null;
+
+  console.log(manifest.items[0].items[0].items[0].thumbnail[0]);
   return thumbnail_src;
 };
 
 export const Illustration = ({ source, children }) => {
   const [iiifmanifest, setIiifManifest] = useState({});
   const [thumbnailSrc, setThumbnailSrc] = useState('');
+  const [showCanvasModal, setCanvasModal] = useState(false);
 
   useEffect(() => {
     setIiifManifest(fetchDataFromFile(source));
@@ -36,9 +41,18 @@ export const Illustration = ({ source, children }) => {
     setThumbnailSrc(getThumbnail(iiifmanifest));
   }, [iiifmanifest]);
 
+  const renderModal = () => {
+    setCanvasModal(!showCanvasModal);
+  };
+
   return (
     <>
-      <img src={thumbnailSrc}></img>
+      <img
+        src={thumbnailSrc}
+        style={{ cursor: 'pointer' }}
+        onClick={() => renderModal()}
+      ></img>
+      {showCanvasModal ? <CanvasModal></CanvasModal> : null}
       {children}
     </>
   );
