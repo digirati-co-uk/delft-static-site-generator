@@ -90,6 +90,6 @@ Studio Mellegers van Dam ([Adriaan Mellegers](https://www.adriaanmellegers.com) 
 
 *Acknowledgements*
 
-Kindly supported by [Histechnica](https://histechnica.nl), the friends association for TU Delft's Academic Heritage. With thanks to Alastair Dunning.
+Kindly supported by [Histechnica](https://histechnica.nl), the friends association for TU Delft's Academic Heritage. With thanks to Alastair Dunning and Glen Robson.
 
 </article>
