@@ -6,6 +6,8 @@ title: "Tentoonstellingen"
 
 # Tentoonstellingen
 
+*Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de [Engelstalige about pagina](/en/about/).*
+
 ## TU Delft Aula
 
 <div class="blocks">

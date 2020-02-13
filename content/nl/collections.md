@@ -6,6 +6,8 @@ title: "Digitale Collecties"
 
 # Digitale collecties
 
+*Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de [Engelstalige about pagina](/en/about/).*
+
 ## TU Delft Library
 
 <div class="blocks">
