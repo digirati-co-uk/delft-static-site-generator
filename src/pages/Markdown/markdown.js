@@ -4,6 +4,9 @@ import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import substituteSpecialLinks, { getPageLanguage } from '../../utils';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+import { MDXProvider } from '@mdx-js/react';
+import { Illustration } from '../../components/Illustration/Illustration';
 
 const articlePageTransform = html =>
   html.match(/<h2>Table of Contents<\/h2>/)
@@ -20,6 +23,7 @@ const articlePageTransform = html =>
     : { html };
 
 const Markdown = ({ pageContext, data, path }) => {
+  console.log(data);
   const pageLanguage = getPageLanguage(path);
   const { title, author } = data.markdownRemark
     ? data.markdownRemark.frontmatter
@@ -52,38 +56,53 @@ const Markdown = ({ pageContext, data, path }) => {
     };
     return meta;
   };
+  const mdx =
+    data &&
+    data.allMdx &&
+    data.allMdx.nodes &&
+    data.allMdx.nodes[0] &&
+    data.allMdx.nodes[0].body
+      ? data.allMdx.nodes[0].body
+      : null;
+
+  console.log(mdx);
 
   return (
     <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
       {content.isPublication ? (
-        <main>
-          <div className="blocks blocks--auto-height">
-            <aside className="w-4">
-              <div className="block title cutcorners w-4 h-4 title--pomegranate">
-                <div className="boxtitle">Article</div>
-                <div className="maintitle">
-                  {title}
-                  <GithubLink href={path} />
+        <MDXProvider
+          components={{
+            Illustration: Illustration,
+          }}
+        >
+          <main>
+            <div className="blocks blocks--auto-height">
+              <aside className="w-4">
+                <div className="block title cutcorners w-4 h-4 title--pomegranate">
+                  <div className="boxtitle">Article</div>
+                  <div className="maintitle">
+                    {title}
+                    <GithubLink href={path} />
+                  </div>
+                  <div className="boxtitle">{author}</div>
                 </div>
-                <div className="boxtitle">{author}</div>
-              </div>
-              <div className="block info cutcorners w-4 h-4 ">
-                <div className="boxtitle">Table of Contents</div>
-                <ol
-                  dangerouslySetInnerHTML={{
-                    __html: data.markdownRemark.tableOfContents,
-                  }}
-                />
-              </div>
-            </aside>
-            <article className="markdown-article w-8">
-              <div
-                className="w-7"
-                dangerouslySetInnerHTML={{ __html: content.html }}
-              />
-            </article>
-          </div>
-        </main>
+                <div className="block info cutcorners w-4 h-4 ">
+                  <div className="boxtitle">Table of Contents</div>
+                  <ol
+                    dangerouslySetInnerHTML={{
+                      __html: data.markdownRemark.tableOfContents,
+                    }}
+                  />
+                </div>
+              </aside>
+              <article class="markdown-article w-8">
+                <div className="w-7">
+                  <MDXRenderer>{mdx}</MDXRenderer>
+                </div>
+              </article>
+            </div>
+          </main>
+        </MDXProvider>
       ) : (
         <main dangerouslySetInnerHTML={{ __html: content.html }} />
       )}
@@ -124,7 +143,17 @@ export const pageQuery = graphql`
         path
         title
         author
-        description
+      }
+    }
+    allMdx(filter: { frontmatter: { path: { eq: $path } } }) {
+      nodes {
+        body
+        frontmatter {
+          author
+          date
+          path
+          title
+        }
       }
     }
   }

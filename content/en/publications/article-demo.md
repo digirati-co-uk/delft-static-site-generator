@@ -3,8 +3,10 @@ path: "/en/publications/article-demo"
 date: "2018-11-11"
 title: "Demo article"
 author: "Adam von Digirati"
-description: "A short description for social media"
 ---
+
+## An Illustration
+<Illustration source="A-single-canvas-Manifest.json">The illustration component</Illustration>
 
 ## Article page
 
@@ -23,30 +25,6 @@ This is normal body copy.[^also] It includes a couple footnotes.[^thing]
 
 Custom styles:
 
-<style type="text/css">
-  .i-am-a-custom-style {
-    display: block;
-    max-width: 320px;
-    width: 100%;
-    margin: 20px auto;
-    font-size: 30px;
-    font-weight bold;
-  }
-</style>
-
-
-```css
-<style type="text/css">
-  .i-am-a-custom-style {
-    display: block;
-    max-width: 420px;
-    width: 100%;
-    margin: 20px auto;
-    font-size: 30px;
-    font-weight bold;
-    background: red;
-  }
-</style>
 ```
 ```html
 <div class="i-am-a-custom-style">
@@ -83,12 +61,12 @@ Image example:
 Image in block:
 
     <div class="block image cutcorners w-7 h-4 row">
-        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt=""/>
     </div>
 
 
 <div class="block image cutcorners w-7 h-4 row">
-    <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+    <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt=""/>
 </div>
 
 
