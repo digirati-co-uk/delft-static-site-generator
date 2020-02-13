@@ -89,6 +89,7 @@ Studio Mellegers van Dam ([Adriaan Mellegers](https://www.adriaanmellegers.com) 
 [github.com/digirati-co-uk/delft-static-site-generator](github.com/digirati-co-uk/delft-static-site-generator)
 
 *Acknowledgements*
+
 Kindly supported by [Histechnica](https://histechnica.nl), the friends association for TU Delft's Academic Heritage. With thanks to Alastair Dunning.
 
 </article>

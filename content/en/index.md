@@ -6,7 +6,8 @@ title: "Academic Heritage"
 
 ###### Welcome! This is the portal to TU Delft's academic heritage and the digital special collections of TU Delft Library. Visit [online exhibitions](/en/exhibitions/), browse the [digital special collections](/en/collections/), learn more about the [history of the university](/en/publications/) or [get in touch](/en/about/) with the Academic Heritage Team of TU Delft Library.
 
-###### *Please note: you are currently viewing a beta version of this website. For more information, please consult the [about page](/en/about/).*
+###### *Please note: you are currently viewing a beta version of this website.*
+###### *For more information, please consult the [about page](/en/about/).*
 
 <div class="blocks">
 <div class="block tint yellow cutcorners w-5 h-8 image">
