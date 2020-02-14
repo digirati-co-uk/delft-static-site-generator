@@ -22,6 +22,7 @@ class CanvasModal extends React.Component {
   }
 
   componentDidMount() {
+    // debugger;
     if (this.props.selectedCanvas.items[0].items.length > 1) {
       this.setState({
         navItems: this.props.selectedCanvas.items[0].items,

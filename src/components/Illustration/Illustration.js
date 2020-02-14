@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { PropTypes } from 'prop-types';
 
-import CanvasModal from '../CanvasModal/CanvasModal';
+import DynamicCanvasModal from '../CanvasModal/DynamicCanvasModal';
 
 const fetchDataFromFile = source => {
   const json = require(`../../../content/illustrations/${source}`);
@@ -26,7 +26,7 @@ const getThumbnail = manifest => {
   return thumbnail_src;
 };
 
-export const Illustration = ({ source, children }) => {
+export const Illustration = ({ source, pageLanguage, children }) => {
   const [iiifmanifest, setIiifManifest] = useState({});
   const [thumbnailSrc, setThumbnailSrc] = useState('');
   const [showCanvasModal, setCanvasModal] = useState(false);
@@ -51,11 +51,12 @@ export const Illustration = ({ source, children }) => {
         onClick={() => renderModal()}
       ></img>
       {showCanvasModal ? (
-        <CanvasModal
+        <DynamicCanvasModal
           selectedCanvas={iiifmanifest.items[0]}
           annotations={[]}
           hideCanvasDetails={() => setCanvasModal(false)}
-        ></CanvasModal>
+          pageLanguage={pageLanguage}
+        ></DynamicCanvasModal>
       ) : null}
       {children}
     </>

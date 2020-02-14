@@ -64,14 +64,16 @@ const Markdown = ({ pageContext, data, path }) => {
       ? data.allMdx.nodes[0].body
       : null;
 
+  const shortcodes = {
+    Illustration: props => (
+      <Illustration {...props} pageLanguage={pageLanguage} />
+    ),
+  };
+
   return (
     <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
       {content.isPublication ? (
-        <MDXProvider
-          components={{
-            Illustration: Illustration,
-          }}
-        >
+        <MDXProvider components={shortcodes}>
           <main>
             <div className="blocks blocks--auto-height">
               <aside className="w-4">

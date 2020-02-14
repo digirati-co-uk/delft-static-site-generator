@@ -353,8 +353,6 @@ class ExhibitionPage extends React.Component {
           </div>
         </main>
         {renderCanvasModal}
-        {/* <p>DEBUG pageContext:</p>
-        <pre>{JSON.stringify(this.props, null, 2)}</pre> */}
       </Layout>
     );
   }
