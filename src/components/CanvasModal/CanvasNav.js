@@ -9,7 +9,7 @@ export const CanvasNav = ({
   totalItems,
   currentIndex,
 }) => {
-  if (totalItems === 1) return null;
+  if (totalItems < 2) return null;
   return currentIndex === 0 ? (
     <div className="canvas-modal__nav">
       <button onClick={forwardClick} type="button" style={{ color: 'white' }}>
