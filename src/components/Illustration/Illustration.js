@@ -43,6 +43,11 @@ export const Illustration = ({ source, pageLanguage, children }) => {
     setCanvasModal(!showCanvasModal);
   };
 
+  const canvas =
+    iiifmanifest && iiifmanifest.items && iiifmanifest.items[0]
+      ? iiifmanifest.items[0]
+      : {};
+  console.log(canvas);
   return (
     <>
       <img
@@ -52,8 +57,9 @@ export const Illustration = ({ source, pageLanguage, children }) => {
       ></img>
       {showCanvasModal ? (
         <DynamicCanvasModal
-          selectedCanvas={iiifmanifest.items[0]}
-          annotations={[]}
+          manifest={iiifmanifest}
+          selectedCanvas={canvas}
+          annotations={canvas.items}
           hideCanvasDetails={() => setCanvasModal(false)}
           pageLanguage={pageLanguage}
         ></DynamicCanvasModal>
@@ -66,8 +72,3 @@ export const Illustration = ({ source, pageLanguage, children }) => {
 Illustration.propTypes = {
   source: PropTypes.string,
 };
-
-// I need it to render a thumbnail image,
-// this image will have an onClick event which renders the Modal.
-// Check for a required statement
-// Check for a label
