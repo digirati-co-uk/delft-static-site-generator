@@ -52,7 +52,13 @@ export const Illustration = ({ source, children }) => {
         style={{ cursor: 'pointer' }}
         onClick={() => renderModal()}
       ></img>
-      {showCanvasModal ? <CanvasModal></CanvasModal> : null}
+      {showCanvasModal ? (
+        <CanvasModal
+          selectedCanvas={iiifmanifest.items[0]}
+          annotations={[]}
+          hideCanvasDetails={() => setCanvasModal(false)}
+        ></CanvasModal>
+      ) : null}
       {children}
     </>
   );
