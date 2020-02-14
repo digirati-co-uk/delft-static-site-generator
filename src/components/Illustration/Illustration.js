@@ -9,8 +9,8 @@ const fetchDataFromFile = source => {
 };
 
 const getThumbnail = manifest => {
-  if (!manifest.items) return '';
-  const thumbnail_src =
+  if (!manifest.items) return {};
+  const thumbnail =
     manifest &&
     manifest.items &&
     manifest.items[0] &&
@@ -20,23 +20,34 @@ const getThumbnail = manifest => {
     manifest.items[0].items[0].items &&
     manifest.items[0].items[0].items[0].thumbnail &&
     manifest.items[0].items[0].items[0].thumbnail[0] &&
-    manifest.items[0].items[0].items[0].thumbnail[0].id
-      ? manifest.items[0].items[0].items[0].thumbnail[0].id
+    manifest.items[0].items[0].items[0].thumbnail[0]
+      ? manifest.items[0].items[0].items[0].thumbnail[0]
       : null;
-  return thumbnail_src;
+  return thumbnail;
 };
 
-export const Illustration = ({ source, pageLanguage, children }) => {
+const fixUrl = url => {
+  return url
+    .replace('thumbs', 'iiif-img')
+    .replace('/full/full/0/default.jpg', '');
+};
+
+export const Illustration = ({ source, pageLanguage, object, children }) => {
   const [iiifmanifest, setIiifManifest] = useState({});
   const [thumbnailSrc, setThumbnailSrc] = useState('');
   const [showCanvasModal, setCanvasModal] = useState(false);
-
+  const [annos, setAnnos] = useState([]);
   useEffect(() => {
     setIiifManifest(fetchDataFromFile(source));
   }, []);
 
+  const link = object ? `objects/${object}` : '';
+
   useEffect(() => {
-    setThumbnailSrc(getThumbnail(iiifmanifest));
+    const thumbnail = getThumbnail(iiifmanifest);
+    const key = thumbnail.id ? fixUrl(thumbnail.id) : '';
+    if (thumbnail.id) setThumbnailSrc(thumbnail.id);
+    if (thumbnail.id) setAnnos({ [key]: link });
   }, [iiifmanifest]);
 
   const renderModal = () => {
@@ -47,7 +58,6 @@ export const Illustration = ({ source, pageLanguage, children }) => {
     iiifmanifest && iiifmanifest.items && iiifmanifest.items[0]
       ? iiifmanifest.items[0]
       : {};
-  console.log(canvas);
   return (
     <>
       <img
@@ -59,7 +69,7 @@ export const Illustration = ({ source, pageLanguage, children }) => {
         <DynamicCanvasModal
           manifest={iiifmanifest}
           selectedCanvas={canvas}
-          annotations={canvas.items}
+          annotationDetails={annos}
           hideCanvasDetails={() => setCanvasModal(false)}
           pageLanguage={pageLanguage}
         ></DynamicCanvasModal>
