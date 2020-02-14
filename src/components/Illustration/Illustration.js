@@ -23,8 +23,6 @@ const getThumbnail = manifest => {
     manifest.items[0].items[0].items[0].thumbnail[0].id
       ? manifest.items[0].items[0].items[0].thumbnail[0].id
       : null;
-
-  console.log(manifest.items[0].items[0].items[0].thumbnail[0]);
   return thumbnail_src;
 };
 

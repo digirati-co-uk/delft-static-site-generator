@@ -11,7 +11,8 @@ export const Grid = ({ thumbnails, onClick, selected, pathname, width }) => {
 
   useMountEffect(() => {
     const ref = document.getElementById(selected ? selected : 0);
-    ref.scrollIntoView(false, { behavior: 'smooth', inline: 'center' });
+    if (ref)
+      ref.scrollIntoView(false, { behavior: 'smooth', inline: 'center' });
   });
 
   return (
