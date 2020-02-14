@@ -10,6 +10,7 @@ author: "Adam von Digirati"
     You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
     The source should be the direct filename within the illustrations folder.
     Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"
+    If you would like the pop-up modal to link to one of the objects on the site, put the name of the object in as before.
 </Illustration>
 
 ## Article page
