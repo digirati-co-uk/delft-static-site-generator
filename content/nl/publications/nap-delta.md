@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##NAP als rotsvast referentievlak
+## NAP als rotsvast referentievlak
 
 **Het NAP bestaat tweehonderd jaar. Om dat te vieren is er een boek gemaakt en was bij Rijkswaterstaat een symposium over de geschiedenis van deze Nederlandse standaard.**
 

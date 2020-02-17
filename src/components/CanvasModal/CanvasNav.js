@@ -12,7 +12,11 @@ export const CanvasNav = ({
   if (totalItems < 2) return null;
   return currentIndex === 0 ? (
     <div className="canvas-modal__nav">
-      <button onClick={forwardClick} type="button" style={{ color: 'white' }}>
+      <button
+        onClick={forwardClick}
+        type="button"
+        style={{ color: 'white', width: 'unset' }}
+      >
         Start Tour
       </button>
     </div>
