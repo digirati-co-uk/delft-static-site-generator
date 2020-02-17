@@ -101,7 +101,6 @@ const Markdown = ({ pageContext, data, path }) => {
       />
     ),
   };
-  console.log(toc);
 
   return (
     <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
@@ -123,21 +122,21 @@ const Markdown = ({ pageContext, data, path }) => {
                   <ul>
                     {toc.items.map(item => {
                       return (
-                        <li style={{ padding: '3px' }}>
-                          <a href={item.url} key={item.url}>
-                            {item.title}
-                            {item.items ? (
-                              <ul style={{ paddingLeft: '10px' }}>
-                                {item.items.map(subitem => (
-                                  <li style={{ padding: '3px' }}>
-                                    <a href={subitem.url} key={item.url}>
-                                      {subitem.title}
-                                    </a>
-                                  </li>
-                                ))}
-                              </ul>
-                            ) : null}
-                          </a>
+                        <li style={{ padding: '3px' }} key={item.url}>
+                          <a href={item.url}>{item.title}</a>
+
+                          {item.items ? (
+                            <ul style={{ paddingLeft: '10px' }}>
+                              {item.items.map(subitem => (
+                                <li
+                                  style={{ padding: '3px' }}
+                                  key={subitem.url}
+                                >
+                                  <a href={subitem.url}>{subitem.title}</a>
+                                </li>
+                              ))}
+                            </ul>
+                          ) : null}
                           <br />
                         </li>
                       );
