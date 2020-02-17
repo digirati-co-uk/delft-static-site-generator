@@ -120,27 +120,29 @@ const Markdown = ({ pageContext, data, path }) => {
                 <div className="block info cutcorners w-4 h-4 ">
                   <div className="boxtitle">Table of Contents</div>
                   <ul>
-                    {toc.items.map(item => {
-                      return (
-                        <li style={{ padding: '3px' }} key={item.url}>
-                          <a href={item.url}>{item.title}</a>
+                    {toc.items
+                      ? toc.items.map(item => {
+                          return (
+                            <li style={{ padding: '3px' }} key={item.url}>
+                              <a href={item.url}>{item.title}</a>
 
-                          {item.items ? (
-                            <ul style={{ paddingLeft: '10px' }}>
-                              {item.items.map(subitem => (
-                                <li
-                                  style={{ padding: '3px' }}
-                                  key={subitem.url}
-                                >
-                                  <a href={subitem.url}>{subitem.title}</a>
-                                </li>
-                              ))}
-                            </ul>
-                          ) : null}
-                          <br />
-                        </li>
-                      );
-                    })}
+                              {item.items ? (
+                                <ul style={{ paddingLeft: '10px' }}>
+                                  {item.items.map(subitem => (
+                                    <li
+                                      style={{ padding: '3px' }}
+                                      key={subitem.url}
+                                    >
+                                      <a href={subitem.url}>{subitem.title}</a>
+                                    </li>
+                                  ))}
+                                </ul>
+                              ) : null}
+                              <br />
+                            </li>
+                          );
+                        })
+                      : null}
                   </ul>
                 </div>
               </aside>
