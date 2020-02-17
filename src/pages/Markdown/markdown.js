@@ -77,6 +77,7 @@ const Markdown = ({ pageContext, data, path }) => {
     Illustration: props => (
       <Illustration {...props} pageLanguage={pageLanguage} />
     ),
+
     h1: (props, children) => {
       return (
         <h1
@@ -101,7 +102,6 @@ const Markdown = ({ pageContext, data, path }) => {
       />
     ),
   };
-  console.log(toc);
 
   return (
     <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
