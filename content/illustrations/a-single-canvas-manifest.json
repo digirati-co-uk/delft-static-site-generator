@@ -5,19 +5,13 @@
   ],
   "type": "Manifest",
   "label": {
-    "en": [
-      "A single canvas Manifest"
-    ],
-    "my": [
-      "Single Canvas Manifest"
-    ]
+    "en": ["A single canvas Manifest"],
+    "my": ["Single Canvas Manifest"]
   },
   "items": [
     {
       "label": {
-        "en": [
-          "Jan Ebbinge"
-        ]
+        "en": ["Jan Ebbinge"]
       },
       "height": 6840,
       "width": 6960,
@@ -36,9 +30,7 @@
                 "height": 6840,
                 "width": 6960,
                 "label": {
-                  "en": [
-                    "-"
-                  ]
+                  "en": ["-"]
                 },
                 "service": {
                   "type": "ImageService2",
@@ -50,14 +42,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32
-                      ]
+                      "scaleFactors": [1, 2, 4, 8, 16, 32]
                     }
                   ],
                   "sizes": [
@@ -81,14 +66,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -112,15 +91,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -154,9 +127,7 @@
                 ]
               },
               "label": {
-                "en": [
-                  "Jan Ebbinge"
-                ]
+                "en": ["Jan Ebbinge"]
               }
             }
           ],
@@ -176,16 +147,11 @@
   ],
   "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/manifest",
   "summary": {
-    "en": [
-      "Test summary ",
-      ""
-    ]
+    "en": ["Test summary ", ""]
   },
   "requiredStatement": {
     "value": {
-      "en": [
-        "Stadsarchief Delft / TU Delft Library, Special Collections"
-      ]
+      "en": ["Stadsarchief Delft / TU Delft Library, Special Collections"]
     }
   }
 }
