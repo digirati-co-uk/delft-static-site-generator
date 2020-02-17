@@ -64,11 +64,44 @@ const Markdown = ({ pageContext, data, path }) => {
       ? data.allMdx.nodes[0].body
       : null;
 
+  const toc =
+    data &&
+    data.allMdx &&
+    data.allMdx.nodes &&
+    data.allMdx.nodes[0] &&
+    data.allMdx.nodes[0].tableOfContents
+      ? data.allMdx.nodes[0].tableOfContents
+      : null;
+
   const shortcodes = {
     Illustration: props => (
       <Illustration {...props} pageLanguage={pageLanguage} />
     ),
+    h1: (props, children) => {
+      return (
+        <h1
+          id={props.children.toLowerCase().replace(/ /g, '-')}
+          {...children}
+          {...props}
+        />
+      );
+    },
+    h2: (props, children) => (
+      <h2
+        id={props.children.toLowerCase().replace(/ /g, '-')}
+        {...children}
+        {...props}
+      />
+    ),
+    h3: (props, children) => (
+      <h3
+        id={props.children.toLowerCase().replace(/ /g, '-')}
+        {...children}
+        {...props}
+      />
+    ),
   };
+  console.log(toc);
 
   return (
     <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
@@ -87,11 +120,29 @@ const Markdown = ({ pageContext, data, path }) => {
                 </div>
                 <div className="block info cutcorners w-4 h-4 ">
                   <div className="boxtitle">Table of Contents</div>
-                  <ol
-                    dangerouslySetInnerHTML={{
-                      __html: data.markdownRemark.tableOfContents,
-                    }}
-                  />
+                  <ul>
+                    {toc.items.map(item => {
+                      return (
+                        <li style={{ padding: '3px' }}>
+                          <a href={item.url} key={item.url}>
+                            {item.title}
+                            {item.items ? (
+                              <ul style={{ paddingLeft: '10px' }}>
+                                {item.items.map(subitem => (
+                                  <li style={{ padding: '3px' }}>
+                                    <a href={subitem.url} key={item.url}>
+                                      {subitem.title}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            ) : null}
+                          </a>
+                          <br />
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               </aside>
               <article className="markdown-article w-8">
@@ -147,6 +198,7 @@ export const pageQuery = graphql`
     allMdx(filter: { frontmatter: { path: { eq: $path } } }) {
       nodes {
         body
+        tableOfContents(maxDepth: 2)
         frontmatter {
           author
           date
