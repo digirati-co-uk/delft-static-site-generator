@@ -6,9 +6,8 @@ import { Link } from 'gatsby';
 
 import { getPageLanguage } from '../../utils';
 
-const Publications = ({ data, path: pagePath }) => {
+const Publications = ({ data, path: pagePath, annos }) => {
   const pageLanguage = getPageLanguage(pagePath);
-
   return (
     <Layout language={pageLanguage} path={pagePath}>
       <main>

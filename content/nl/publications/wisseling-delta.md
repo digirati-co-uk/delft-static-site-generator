@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##Wisseling van de wacht
+## Wisseling van de wacht
 
 **Volgende maand gaat rector magnificus Karel Luyben met pensioen. Zijn opvolger is al bekend: collegevoorzitter Tim van der Hagen. Daarmee verandert de hele bestuursstructuur van de TU Delft, want Van der Hagen wordt zowel rector als voorzitter. Hoe zat dat vroeger?**
 

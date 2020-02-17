@@ -8,8 +8,15 @@ export const CanvasNav = ({
   backwardClick,
   totalItems,
   currentIndex,
-}) =>
-  totalItems > 1 ? (
+}) => {
+  if (totalItems < 2) return null;
+  return currentIndex === 0 ? (
+    <div className="canvas-modal__nav">
+      <button onClick={forwardClick} type="button" style={{ color: 'white' }}>
+        Start Tour
+      </button>
+    </div>
+  ) : (
     <React.Fragment>
       <div className="canvas-modal__nav">
         {currentIndex} {' / '} {totalItems}
@@ -37,7 +44,8 @@ export const CanvasNav = ({
         </button>
       </div>
     </React.Fragment>
-  ) : null;
+  );
+};
 
 CanvasNav.propTypes = {
   forwardClick: PropTypes.func,

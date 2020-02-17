@@ -20,7 +20,6 @@ class CanvasModal extends React.Component {
       displayType: '',
     };
   }
-
   componentDidMount() {
     if (this.props.selectedCanvas.items[0].items.length > 1) {
       this.setState({
@@ -140,9 +139,7 @@ class CanvasModal extends React.Component {
     const imageAnnotations = annotations.filter(
       annotation => annotation.body.type === 'Image'
     );
-
     const detailsLink = this.getDetailsLink(imageAnnotations);
-
     return (
       <div className="canvas-modal">
         <ContainerDimensions>

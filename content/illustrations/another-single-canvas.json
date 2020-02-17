@@ -1,0 +1,291 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Untitled Manifest"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6775,
+                "width": 10878,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 10878,
+                  "height": 6775,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 638
+                    },
+                    {
+                      "width": 400,
+                      "height": 249
+                    },
+                    {
+                      "width": 200,
+                      "height": 125
+                    },
+                    {
+                      "width": 100,
+                      "height": 62
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 638,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 638
+                      },
+                      {
+                        "width": 400,
+                        "height": 249
+                      },
+                      {
+                        "width": 200,
+                        "height": 125
+                      },
+                      {
+                        "width": 100,
+                        "height": 62
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/3308ef44-ef99-7778-097e-55ab78bd1dda",
+              "target": "http://digirati.com/iiif/v3/ff8ecb70-7da5-a337-8424-3ccb0f058d31/canvas/c49c7ae0-4e21-27e8-2072-aad406d2c8ee#xywh=78,148,575,357"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4746,
+                "width": 3592,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3592,
+                  "height": 4746,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 775,
+                      "height": 1024
+                    },
+                    {
+                      "width": 303,
+                      "height": 400
+                    },
+                    {
+                      "width": 151,
+                      "height": 200
+                    },
+                    {
+                      "width": 76,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 775,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 775,
+                        "height": 1024
+                      },
+                      {
+                        "width": 303,
+                        "height": 400
+                      },
+                      {
+                        "width": 151,
+                        "height": 200
+                      },
+                      {
+                        "width": 76,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/5a7e7c62-50c2-77e8-5c91-6b0578008eee",
+              "target": "http://digirati.com/iiif/v3/ff8ecb70-7da5-a337-8424-3ccb0f058d31/canvas/c49c7ae0-4e21-27e8-2072-aad406d2c8ee#xywh=364,303,481,475",
+              "summary": {
+                "en": [
+                  "Municipal extension plan for the city of Delft from 1921 to which H.P. Berlage contributed. It contains a design for a monumental ‘polytechnic city’ in the Wippolder in response to the chaotic growth of the university. In the plan, the Rijn-Schie canal was projected in a wide curve around the new neighbourhood in order to facilitate easy road traffic between the centre and the southern extensions. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Municipal extension plan"
+                ]
+              }
+            }
+          ],
+          "id": "http://digirati.com/iiif/v3/ff8ecb70-7da5-a337-8424-3ccb0f058d31/list/4327bb7a-0344-fa80-0559-919d37a367a9"
+        }
+      ],
+      "id": "http://digirati.com/iiif/v3/ff8ecb70-7da5-a337-8424-3ccb0f058d31/canvas/c49c7ae0-4e21-27e8-2072-aad406d2c8ee"
+    }
+  ],
+  "id": "http://digirati.com/iiif/v3/ff8ecb70-7da5-a337-8424-3ccb0f058d31/manifest"
+}

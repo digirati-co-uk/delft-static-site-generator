@@ -11,7 +11,8 @@ export const Grid = ({ thumbnails, onClick, selected, pathname, width }) => {
 
   useMountEffect(() => {
     const ref = document.getElementById(selected ? selected : 0);
-    ref.scrollIntoView(false, { behavior: 'smooth', inline: 'center' });
+    if (ref)
+      ref.scrollIntoView(false, { behavior: 'smooth', inline: 'center' });
   });
 
   return (
@@ -34,7 +35,8 @@ export const Grid = ({ thumbnails, onClick, selected, pathname, width }) => {
                   index === selected ? ` manifest-cabinet__thumb--selected` : ''
                 } cutcorners`}
                 style={
-                  index == selected || (selected === 0 && index === 0)
+                  index === parseInt(selected) ||
+                  (selected === 0 && index === 0)
                     ? {
                         width: 100,
                         height: 100,

@@ -3,8 +3,22 @@ path: "/en/publications/article-demo"
 date: "2018-11-11"
 title: "Demo article"
 author: "Adam von Digirati"
-description: "A short description for social media"
 ---
+
+## An Illustration
+<Illustration source="a-single-canvas-manifest.json" object="bk-otb-fotoarchief-77-5">
+    You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
+    The source should be the direct filename within the illustrations folder.
+    Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"
+    If you would like the pop-up modal to link to one of the objects on the site, put the name of the object in as before.
+</Illustration>
+
+<Illustration source="another-single-canvas.json">
+    You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
+    The source should be the direct filename within the illustrations folder.
+    Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"
+    If you would like the pop-up modal to link to one of the objects on the site, put the name of the object in as before.
+</Illustration>
 
 ## Article page
 
@@ -23,30 +37,6 @@ This is normal body copy.[^also] It includes a couple footnotes.[^thing]
 
 Custom styles:
 
-<style type="text/css">
-  .i-am-a-custom-style {
-    display: block;
-    max-width: 320px;
-    width: 100%;
-    margin: 20px auto;
-    font-size: 30px;
-    font-weight bold;
-  }
-</style>
-
-
-```css
-<style type="text/css">
-  .i-am-a-custom-style {
-    display: block;
-    max-width: 420px;
-    width: 100%;
-    margin: 20px auto;
-    font-size: 30px;
-    font-weight bold;
-    background: red;
-  }
-</style>
 ```
 ```html
 <div class="i-am-a-custom-style">
@@ -83,12 +73,12 @@ Image example:
 Image in block:
 
     <div class="block image cutcorners w-7 h-4 row">
-        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt=""/>
     </div>
 
 
 <div class="block image cutcorners w-7 h-4 row">
-    <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+    <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt=""/>
 </div>
 
 

@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const filterToPreferredChoices = (choices, pageLanguage = 'en') => choices.filter(
-    choice => !choice.hasOwnProperty('language')
-      || (choice.hasOwnProperty('language') && choice.language === pageLanguage),
+const filterToPreferredChoices = (choices, pageLanguage = 'en') =>
+  choices.filter(
+    choice =>
+      !choice.hasOwnProperty('language') ||
+      (choice.hasOwnProperty('language') && choice.language === pageLanguage)
   );
 
 const AnnotationBodyType = PropTypes.shape({
@@ -37,10 +39,14 @@ const imageCanvasRealiveSize = (bodyId, canvas) => {
 };
 
 const IIIFImageAnnotationCover = ({
- body, position, annotation, canvas, canvasSize: canvasPhysicalSize = { width: 1200, height: 1200 },
+  body,
+  position,
+  annotation,
+  canvas,
+  canvasSize: canvasPhysicalSize = { width: 1200, height: 1200 },
 }) => {
   if (!body) {
-    return ('error');
+    return 'error';
   }
   // console.log('IIIFImageAnnotationCover', body, position, annotation, canvas);
   // const canvasPhysicalSize = convertBehaviourToPhysicalSize(canvas);
@@ -50,22 +56,28 @@ const IIIFImageAnnotationCover = ({
     canvasPhysicalSize.height /= imageRelativeSize.height;
     return (
       <img
-        src={
-          body.id.replace('/full/0/default.jpg', `/!${parseInt(canvasPhysicalSize.width, 10)},${parseInt(canvasPhysicalSize.height, 10)}/0/default.jpg`)
-        }
+        src={body.id.replace(
+          '/full/0/default.jpg',
+          `/!${parseInt(canvasPhysicalSize.width, 10)},${parseInt(
+            canvasPhysicalSize.height,
+            10
+          )}/0/default.jpg`
+        )}
         style={position}
         alt={body.id}
       />
     );
   }
   if (body.service) {
-    const service = (Array.isArray(body.service) ? body.service[0] : body.service);
+    const service = Array.isArray(body.service)
+      ? body.service[0]
+      : body.service;
     const id = service['@id'] || service.id;
     return (
       <img
-        src={
-          `${id.replace('info.json', '')}/full/!${canvasPhysicalSize.width},${canvasPhysicalSize.height}/0/default.jpg`
-        }
+        src={`${id.replace('info.json', '')}/full/!${
+          canvasPhysicalSize.width
+        },${canvasPhysicalSize.height}/0/default.jpg`}
         style={position}
         alt={id}
       />
@@ -102,7 +114,7 @@ const IIIFVideoAnnotationCover = ({ body, position }) => (
         width: '100%',
         height: '100%',
         // objectFit: 'cover'
-    }}
+      }}
     />
   </div>
 );
@@ -118,9 +130,7 @@ IIIFVideoAnnotationCover.defaultProps = {
 };
 
 const IIIFTextAnnotationCover = ({ body, position }) => (
-  <div style={position}>
-    {body.value}
-  </div>
+  <div style={position}>{body.value}</div>
 );
 
 IIIFTextAnnotationCover.propTypes = {
@@ -133,19 +143,37 @@ IIIFTextAnnotationCover.defaultProps = {
   position: {},
 };
 
-
 export const AnnotationBodyRenderer = ({
- body, position, pageLanguage, annotation, canvas, canvasSize,
+  body,
+  position,
+  pageLanguage,
+  annotation,
+  canvas,
+  canvasSize,
 }) => {
   switch (body.type) {
     case 'Choice':
-      return filterToPreferredChoices(body.items, pageLanguage).map(
-        choice => <AnnotationBodyRenderer body={choice} position={position} annotation={annotation} canvas={canvas} canvasSize={canvasSize} />,
-      );
+      return filterToPreferredChoices(body.items, pageLanguage).map(choice => (
+        <AnnotationBodyRenderer
+          body={choice}
+          position={position}
+          annotation={annotation}
+          canvas={canvas}
+          canvasSize={canvasSize}
+        />
+      ));
     case 'Video':
       return <IIIFVideoAnnotationCover body={body} position={position} />;
     case 'Image':
-      return <IIIFImageAnnotationCover body={body} position={position} annotation={annotation} canvas={canvas} canvasSize={canvasSize} />;
+      return (
+        <IIIFImageAnnotationCover
+          body={body}
+          position={position}
+          annotation={annotation}
+          canvas={canvas}
+          canvasSize={canvasSize}
+        />
+      );
     case 'Text':
       return <IIIFTextAnnotationCover style={position} body={body} />;
     default:

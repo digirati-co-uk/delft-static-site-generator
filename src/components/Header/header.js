@@ -9,18 +9,17 @@ import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import LanguageSelector from '../LanguageSelector/languageSelector';
 import './header.css';
 
-
 class Header extends React.Component {
   state = {
     isMobileMenuOpen: false,
-  }
+  };
 
   toggleMobileMenu = () => {
     const { isMobileMenuOpen } = this.state;
     this.setState({
       isMobileMenuOpen: !isMobileMenuOpen,
     });
-  }
+  };
 
   render() {
     const { language, path, t } = this.props;
@@ -29,14 +28,17 @@ class Header extends React.Component {
     return (
       <header className="header">
         <div className="header__content">
-          <BurgerMenu className="header__burger-menu" onClick={this.toggleMobileMenu} />
+          <BurgerMenu
+            className="header__burger-menu"
+            onClick={this.toggleMobileMenu}
+          />
           <Link to={`/${language}/`} className="header__site-title">
             {t('SITE_TITLE')}
           </Link>
           <div
-            className={
-              classnames('header__mobile', { 'header__mobile--open': isMobileMenuOpen })
-            }
+            className={classnames('header__mobile', {
+              'header__mobile--open': isMobileMenuOpen,
+            })}
           >
             <Menu language={language} />
             <LanguageSelector language={language} path={path} />

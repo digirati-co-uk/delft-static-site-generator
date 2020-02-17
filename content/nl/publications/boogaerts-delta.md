@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##In Memoriam: prof.dr.ir. Theo Bogaerts (1934-2017)
+## In Memoriam: prof.dr.ir. Theo Bogaerts (1934-2017)
 
 **Universiteitshistoricus Abel Streefland reflecteert op het verleden. Deze maand schreef hij een In Memoriam over hoogleraar geodesie Theo Bogaerts, die vorige maand overleed.**
 
@@ -19,7 +19,7 @@ In 1956 kwam hij naar Delft voor de opleiding tot geodetisch ingenieur. Hij heri
 
 Het duurde tot 1975, dus 27 jaar later, voordat de onderafdeling voor Geodesie werd gepromoveerd tot afdeling. In 1976 werd Bogaerts hoogleraar in de vastgoedinformatie en in 1978 decaan van de afdeling Geodesie. Als hoogleraar heeft Bogaerts de basis gelegd voor een aantal belangrijke basisregistraties van de digitale overheid, zoals die van het Kadaster en die van adressen en gebouwen. Deze registraties zijn gebaseerd op digitale kaarten.
 
-###Update tot faculteit
+### Update tot faculteit
 
 Toen de Technische Hogeschool werd opgewaardeerd tot Technische Universiteit, werden alle afdelingen omgevormd tot faculteiten. Dit betekende dat ook Geodesie een upgrade kreeg tot faculteit, hoewel bij lange na niet aan de eis werd voldaan dat een faculteit minstens 250 studenten moest hebben. Zelfs de helft werd vaak niet gehaald. Twaalf jaar later werd het aantal van dertien faculteiten teruggebracht tot zes. Geodesie werd weer een afdeling en ging samen met de afdelingen Civiele Techniek en Technische Aardwetenschappen de nieuwe faculteit Civiele Techniek en Geowetenschappen (CiTG) vormen. De loopbaan van Bogaerts eindigde in 2002 als voorzitter van de afdeling Geodesie en vicedecaan van CiTG. Hij was net weg toen de afdeling in 2003 werd opgeheven en gesplitst.
 

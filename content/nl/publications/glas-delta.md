@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##Historische glas-in-loodramen terug op hun plek
+## Historische glas-in-loodramen terug op hun plek
 
 **Vijf glas-in-loodramen zijn terug op hun originele locatie aan de Kanaalweg. Jarenlang hingen ze relatief onzichtbaar voor de glasgevel in de entree van EWI.**
 

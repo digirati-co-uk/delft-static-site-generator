@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##Uit Delftse bronnen: eredoctors
+## Uit Delftse bronnen: eredoctors
 
 **Omdat de TU Delft in 2017 175 jaar bestond, reflecteerde universiteitshistoricus Abel Streefland op het verleden. Deze maand: de eerste eredoctors van de TU Delft.**
 
