@@ -168,8 +168,10 @@ const getManifestThumbnail = manifest => {
   return thumbnail;
 };
 
-const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
-  (collection.items || []).reduce((objectLinks, manifest) => {
+const getAllObjectLinks = (collection, collectionPath, _objectLinks) => {
+  // console.log(collection.items);
+  return (collection.items || []).reduce((objectLinks, manifest) => {
+    // console.log(objectLinks);
     if (!objectLinks[manifest.id]) {
       objectLinks[manifest.id] = [];
     }
@@ -178,15 +180,20 @@ const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
       collectionPath,
       collection.label,
     ]);
+    // console.log(objectLinks);
     return objectLinks;
   }, _objectLinks || []);
+};
 
 const createCollectionPages = objectLinks => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
+  // need to make sure that collections pages are only made if they exist...
+  // currently a link is being created for the sub-directory file.
+
   return getJSONFilesUnderPath(collectionsPath).reduce(
     (meta, item) => {
-      const [pathname, context] = getManifestContext(item);
+      let [pathname, context] = getManifestContext(item);
       const collectionGroup = getCollectionGroup(item);
       meta.pages[pathname] = {
         path: pathname,
@@ -200,7 +207,7 @@ const createCollectionPages = objectLinks => {
       meta.thumbnails[pathname] = getManifestThumbnail(context);
       meta.links[context.id] = pathname;
       meta.reverseLinks[pathname] = context.id;
-      getAllObjectLinks(context, pathname, meta.objectInCollections);
+      // getAllObjectLinks(context, pathname, meta.objectInCollections);
       return meta;
     },
     {

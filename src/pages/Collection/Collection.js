@@ -129,7 +129,10 @@ class CollectionPage extends React.Component {
                       to={
                         pageLanguage +
                         '/' +
-                        objectLinks[manifest.id || manifest['@id']] +
+                        objectLinks[manifest.id || manifest['@id']].replace(
+                          'collections/',
+                          'objects/'
+                        ) +
                         '/'
                       }
                     >
