@@ -55,24 +55,40 @@ const checkifSubfolder = root => fs.statSync(path.join(root)).isDirectory();
 const checkifJSON = filepath =>
   fs.statSync(filepath).isFile() && path.extname(filepath) === '.json';
 
-const getJSON = filepath =>
+const getFiles = filepath =>
   fs.readdirSync(filepath).map(item => path.join(filepath, item));
 
 const getJSONFilesUnderPath = filepath => {
   const files = [];
-  const allDirectory = getJSON(filepath);
+  const allDirectory = getFiles(filepath);
   allDirectory.forEach(item => {
     if (checkifJSON(item)) {
       files.push(item);
     } else if (checkifSubfolder(path.join(item))) {
-      const subfiles = getJSON(item);
+      const subfiles = getFiles(item);
       subfiles.forEach(file => {
         // eslint-disable-next-line no-unused-expressions
         checkifJSON(file)
           ? files.push(file)
-          : getJSON(file).forEach(subfile => {
+          : getFiles(file).forEach(subfile => {
               if (checkifJSON(subfile)) files.push(subfile);
             });
+      });
+    }
+  });
+  return files;
+};
+
+const getCollections = filepath => {
+  const files = [];
+  const allDirectory = getFiles(filepath);
+  allDirectory.forEach(item => {
+    if (checkifJSON(item)) {
+      files.push(item);
+    } else if (checkifSubfolder(path.join(item))) {
+      const subfiles = getFiles(item);
+      subfiles.forEach(file => {
+        if (checkifJSON(file)) files.push(file);
       });
     }
   });
@@ -188,10 +204,8 @@ const getAllObjectLinks = (collection, collectionPath, _objectLinks) => {
 const createCollectionPages = objectLinks => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
-  // need to make sure that collections pages are only made if they exist...
   // currently a link is being created for the sub-directory file.
-
-  return getJSONFilesUnderPath(collectionsPath).reduce(
+  return getCollections(collectionsPath).reduce(
     (meta, item) => {
       let [pathname, context] = getManifestContext(item);
       const collectionGroup = getCollectionGroup(item);
@@ -207,7 +221,7 @@ const createCollectionPages = objectLinks => {
       meta.thumbnails[pathname] = getManifestThumbnail(context);
       meta.links[context.id] = pathname;
       meta.reverseLinks[pathname] = context.id;
-      // getAllObjectLinks(context, pathname, meta.objectInCollections);
+      getAllObjectLinks(context, pathname, meta.objectInCollections);
       return meta;
     },
     {
