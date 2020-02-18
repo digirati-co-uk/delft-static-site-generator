@@ -45,6 +45,11 @@ const getManifestContext = itemPath => {
   return [formatted, convertToV3ifNecessary(json)];
 };
 
+const getCollection = itemPath => {
+  // Get the collection by filename
+  return itemPath.split('/')[2];
+};
+
 const checkifSubfolder = root => fs.statSync(path.join(root)).isDirectory();
 
 const checkifJSON = filepath =>
@@ -176,29 +181,24 @@ const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
   }, _objectLinks || []);
 
 const createCollectionPages = objectLinks => {
+  // console.log(objectLinks);
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
   return getJSONFilesUnderPath(collectionsPath).reduce(
     (meta, item) => {
       const [pathname, context] = getManifestContext(item);
-      // createTranslatedPage({
-      //   path: pathname,
-      //   component: collectionTemplate,
-      //   context: {
-      //     objectLinks,
-      //     collection: context,
-      //   },
-      // }, createPage);
+      const collection = getCollection(item);
+      console.log(collection);
       meta.pages[pathname] = {
         path: pathname,
         component: collectionTemplate,
         context: {
           objectLinks,
           collection: context,
+          partOf: collection,
         },
       };
       meta.thumbnails[pathname] = getManifestThumbnail(context);
-      // context.items[0].thumbnail[0].id;
       meta.links[context.id] = pathname;
       meta.reverseLinks[pathname] = context.id;
       getAllObjectLinks(context, pathname, meta.objectInCollections);
@@ -288,10 +288,6 @@ exports.createPages = ({ actions, graphql }) => {
   const publicationsTemplate = path.resolve(
     `src/pages/Publications/Publications.js`
   );
-
-  // console.log(JSON.stringify(exhibitionMeta.annotationsPartOfExhibition, null, 2));
-  // console.log(JSON.stringify(objectMeta.annotationsPartOfObjects, null, 2));
-  // console.log(JSON.stringify(collectionMeta.objectInCollections, null, 2));
 
   return graphql(`
     {
