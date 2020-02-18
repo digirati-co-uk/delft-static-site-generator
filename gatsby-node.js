@@ -45,7 +45,7 @@ const getManifestContext = itemPath => {
   return [formatted, convertToV3ifNecessary(json)];
 };
 
-const getCollection = itemPath => {
+const getCollectionGroup = itemPath => {
   // Get the collection by filename
   return itemPath.split('/')[2];
 };
@@ -67,6 +67,7 @@ const getJSONFilesUnderPath = filepath => {
     } else if (checkifSubfolder(path.join(item))) {
       const subfiles = getJSON(item);
       subfiles.forEach(file => {
+        // eslint-disable-next-line no-unused-expressions
         checkifJSON(file)
           ? files.push(file)
           : getJSON(file).forEach(subfile => {
@@ -181,21 +182,19 @@ const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
   }, _objectLinks || []);
 
 const createCollectionPages = objectLinks => {
-  // console.log(objectLinks);
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
   return getJSONFilesUnderPath(collectionsPath).reduce(
     (meta, item) => {
       const [pathname, context] = getManifestContext(item);
-      const collection = getCollection(item);
-      console.log(collection);
+      const collectionGroup = getCollectionGroup(item);
       meta.pages[pathname] = {
         path: pathname,
         component: collectionTemplate,
         context: {
           objectLinks,
           collection: context,
-          partOf: collection,
+          collectionGroup: collectionGroup,
         },
       };
       meta.thumbnails[pathname] = getManifestThumbnail(context);
@@ -216,16 +215,22 @@ const createCollectionPages = objectLinks => {
 
 const createObjectPages = () => {
   const manifestTemplate = path.resolve(`src/pages/Object/Object.js`);
+  const collectionsPath = './content/collections';
   const manifestsPath = './content/objects';
-  return getJSONFilesUnderPath(manifestsPath).reduce(
+
+  const joined = [
+    ...getJSONFilesUnderPath(collectionsPath),
+    ...getJSONFilesUnderPath(manifestsPath),
+  ];
+
+  return joined.reduce(
     (meta, item) => {
       const [pathname, context] = getManifestContext(item);
       meta.pages[pathname] = {
-        path: pathname,
+        path: pathname.replace('collections/', 'objects/'),
         component: manifestTemplate,
         context,
       };
-
       // TODO: cover image if defined, first canvas thumbnail as fall-back,
       // than first canvas image fallback...
       meta.thumbnails[pathname] = getManifestThumbnail(context);
