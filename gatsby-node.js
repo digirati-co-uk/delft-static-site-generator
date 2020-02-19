@@ -266,7 +266,6 @@ const createCollectionPages = objectLinks => {
           objectLinks,
           collection: context,
           collectionGroup: collectionGroup,
-          items: items,
         },
       };
       meta.thumbnails[pathname] = getManifestThumbnail(context);
