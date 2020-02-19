@@ -99,10 +99,8 @@ const getCollections = filepath => {
 
 const getObjectsInCollection = items => {
   const formatted = [];
-  items.map((item, index) => {
-    const [collectionItemPath, collectionItemContext] = getManifestContext(
-      item
-    );
+  items.map(item => {
+    const [path, collectionItemContext] = getManifestContext(item);
 
     const labels = { en: [''], nl: [''] };
 
@@ -236,7 +234,9 @@ const createCollectionPages = objectLinks => {
       let items = checkifFolder(filepath)
         ? getJSONFilesUnderPath(filepath)
         : [];
-
+      // if there is a subfolder of the same name as the json file, populate
+      // the page context, collection items with the details from this manifest.
+      // otherwise, just use the context specified within the folder.
       if (items.length > 0) {
         items = getObjectsInCollection(items);
         context.items = items;
@@ -271,7 +271,8 @@ const createObjectPages = () => {
   const manifestTemplate = path.resolve(`src/pages/Object/Object.js`);
   const collectionsPath = './content/collections';
   const manifestsPath = './content/objects';
-
+  // We want to create objects for the manifests which are detailed within the objects directory,
+  // but also those which are within the collections directory.
   const joined = [
     ...getJSONFilesUnderPath(collectionsPath),
     ...getJSONFilesUnderPath(manifestsPath),
@@ -280,6 +281,12 @@ const createObjectPages = () => {
   return joined.reduce(
     (meta, item) => {
       let [pathname, context] = getManifestContext(item);
+      // There are some collection specifications in the collection files, we want to make
+      // sure that a page won't be generated for these, but we do want the objects within
+      // the collections files.
+      if (context.type !== 'Manifest') {
+        return meta;
+      }
       meta.pages[pathname] = {
         path: pathname.replace('collections/', 'objects/'),
         component: manifestTemplate,
