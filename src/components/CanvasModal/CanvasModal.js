@@ -219,8 +219,10 @@ class CanvasModal extends React.Component {
                             to={
                               this.props.pageLanguage +
                               '/' +
-                              detailsLink +
-                              `/?id=${this.getModalObjectId(detailsLink)}` +
+                              detailsLink.replace('collections/', 'objects/') +
+                              `/?id=${this.getModalObjectId(
+                                detailsLink.replace('collections/', 'objects/')
+                              )}` +
                               `/`
                             }
                           >

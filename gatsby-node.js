@@ -49,6 +49,8 @@ const getCollectionGroup = itemPath => {
   // Get the collection by filename
   return itemPath.split('/')[2];
 };
+const checkifFolder = filepath =>
+  fs.existsSync(filepath) && fs.lstatSync(filepath).isDirectory();
 
 const checkifSubfolder = root => fs.statSync(path.join(root)).isDirectory();
 
@@ -93,6 +95,40 @@ const getCollections = filepath => {
     }
   });
   return files;
+};
+
+const getObjectsInCollection = items => {
+  const formatted = [];
+  items.map((item, index) => {
+    const [collectionItemPath, collectionItemContext] = getManifestContext(
+      item
+    );
+
+    const labels = { en: [''], nl: [''] };
+
+    collectionItemContext.metadata.map(data => {
+      if (data.label && data.label.en && data.label.en[0] === 'Title') {
+        labels.en =
+          data.value && data.value.en && data.value.en[0]
+            ? [data.value.en[0]]
+            : [''];
+      }
+      if (data.label && data.label.nl && data.label.nl[0] === 'Titel') {
+        labels.nl =
+          data.value && data.value.nl && data.value.nl[0]
+            ? [data.value.nl[0]]
+            : [''];
+      }
+    });
+
+    formatted.push({
+      id: collectionItemContext.id,
+      type: collectionItemContext.type,
+      thumbnail: collectionItemContext.items[0].thumbnail,
+      label: labels,
+    });
+  });
+  return formatted;
 };
 
 const getAllAnnotationsFromManifest = (manifest, manifestPath, _annotations) =>
@@ -184,31 +220,45 @@ const getManifestThumbnail = manifest => {
   return thumbnail;
 };
 
-const getAllObjectLinks = (collection, collectionPath, _objectLinks) => {
-  // console.log(collection.items);
-  return (collection.items || []).reduce((objectLinks, manifest) => {
-    // console.log(objectLinks);
-    if (!objectLinks[manifest.id]) {
-      objectLinks[manifest.id] = [];
-    }
-    objectLinks[manifest.id].push([
-      collection.id,
-      collectionPath,
-      collection.label,
-    ]);
-    // console.log(objectLinks);
-    return objectLinks;
-  }, _objectLinks || []);
+// const getAllObjectLinks = (collection, collectionPath, _objectLinks) => {
+//   // console.log(collection.items);
+//   return (collection.items || []).reduce((objectLinks, manifest) => {
+//     // console.log(objectLinks);
+//     if (!objectLinks[manifest.id]) {
+//       objectLinks[manifest.id] = [];
+//     }
+//     objectLinks[manifest.id].push([
+//       collection.id,
+//       collectionPath,
+//       collection.label,
+//     ]);
+//     // console.log(objectLinks);
+//     return objectLinks;
+//   }, _objectLinks || []);
+// };
+
+getCollectionFilePath = (pathname, collectionsGroup) => {
+  const split = pathname.split('/');
+  return './content/' + split[0] + '/' + collectionsGroup + '/' + split[1];
 };
 
 const createCollectionPages = objectLinks => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
-  // currently a link is being created for the sub-directory file.
   return getCollections(collectionsPath).reduce(
     (meta, item) => {
-      let [pathname, context] = getManifestContext(item);
+      const [pathname, context] = getManifestContext(item);
       const collectionGroup = getCollectionGroup(item);
+      const filepath = getCollectionFilePath(pathname, collectionGroup);
+      let items = checkifFolder(filepath)
+        ? getJSONFilesUnderPath(filepath)
+        : [];
+
+      if (items.length > 0) {
+        items = getObjectsInCollection(items);
+        context.items = items;
+      }
+
       meta.pages[pathname] = {
         path: pathname,
         component: collectionTemplate,
@@ -216,12 +266,13 @@ const createCollectionPages = objectLinks => {
           objectLinks,
           collection: context,
           collectionGroup: collectionGroup,
+          items: items,
         },
       };
       meta.thumbnails[pathname] = getManifestThumbnail(context);
       meta.links[context.id] = pathname;
       meta.reverseLinks[pathname] = context.id;
-      getAllObjectLinks(context, pathname, meta.objectInCollections);
+      // getAllObjectLinks(context, pathname, meta.objectInCollections);
       return meta;
     },
     {
@@ -230,6 +281,7 @@ const createCollectionPages = objectLinks => {
       reverseLinks: {},
       objectInCollections: {},
       pages: {},
+      items: [],
     }
   );
 };
@@ -246,7 +298,7 @@ const createObjectPages = () => {
 
   return joined.reduce(
     (meta, item) => {
-      const [pathname, context] = getManifestContext(item);
+      let [pathname, context] = getManifestContext(item);
       meta.pages[pathname] = {
         path: pathname.replace('collections/', 'objects/'),
         component: manifestTemplate,
