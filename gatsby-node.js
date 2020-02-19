@@ -220,23 +220,6 @@ const getManifestThumbnail = manifest => {
   return thumbnail;
 };
 
-// const getAllObjectLinks = (collection, collectionPath, _objectLinks) => {
-//   // console.log(collection.items);
-//   return (collection.items || []).reduce((objectLinks, manifest) => {
-//     // console.log(objectLinks);
-//     if (!objectLinks[manifest.id]) {
-//       objectLinks[manifest.id] = [];
-//     }
-//     objectLinks[manifest.id].push([
-//       collection.id,
-//       collectionPath,
-//       collection.label,
-//     ]);
-//     // console.log(objectLinks);
-//     return objectLinks;
-//   }, _objectLinks || []);
-// };
-
 getCollectionFilePath = (pathname, collectionsGroup) => {
   const split = pathname.split('/');
   return './content/' + split[0] + '/' + collectionsGroup + '/' + split[1];
