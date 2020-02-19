@@ -2,38 +2,28 @@
   "metadata": [
     {
       "label": {
-        "en": [
-          "Title"
-        ]
+        "en": ["Title"],
+        "nl": ["Titel"]
       },
       "value": {
-        "en": [
-          "Drawings of Oude Delft 118"
-        ]
+        "en": ["Drawings of Oude Delft 118"],
+        "nl": ["Oude Delft 118"]
       }
     },
     {
       "label": {
-        "en": [
-          "Inventory number"
-        ]
+        "en": ["Inventory number"]
       },
       "value": {
-        "en": [
-          "AA270978"
-        ]
+        "en": ["AA270978"]
       }
     },
     {
       "label": {
-        "en": [
-          "Archive"
-        ]
+        "en": ["Archive"]
       },
       "value": {
-        "en": [
-          "Campus Real Estate - Afdeling Beheer en Onderhoud"
-        ]
+        "en": ["Campus Real Estate - Afdeling Beheer en Onderhoud"]
       }
     }
   ],
@@ -47,15 +37,9 @@
             "profile": [
               "http://iiif.io/api/image/2/level0.json",
               {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
+                "formats": ["jpg"],
+                "qualities": ["color"],
+                "supports": ["sizeByWhListed"]
               }
             ],
             "width": 1024,
@@ -125,15 +109,9 @@
             "profile": [
               "http://iiif.io/api/image/2/level0.json",
               {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
+                "formats": ["jpg"],
+                "qualities": ["color"],
+                "supports": ["sizeByWhListed"]
               }
             ],
             "width": 1020,
@@ -203,15 +181,9 @@
             "profile": [
               "http://iiif.io/api/image/2/level0.json",
               {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
+                "formats": ["jpg"],
+                "qualities": ["color"],
+                "supports": ["sizeByWhListed"]
               }
             ],
             "width": 1024,
