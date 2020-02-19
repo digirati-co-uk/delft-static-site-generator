@@ -234,10 +234,10 @@ const createCollectionPages = objectLinks => {
       let items = checkifFolder(filepath)
         ? getJSONFilesUnderPath(filepath)
         : [];
-      // if there is a subfolder of the same name as the json file, populate
+      // if there is a subfolder of the same name as the json file and no items within collection json, populate
       // the page context, collection items with the details from this manifest.
       // otherwise, just use the context specified within the folder.
-      if (items.length > 0) {
+      if (items.length > 0 && (!context.items || context.items.length === 0)) {
         items = getObjectsInCollection(items);
         context.items = items;
       }
