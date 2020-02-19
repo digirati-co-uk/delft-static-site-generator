@@ -254,7 +254,6 @@ const createCollectionPages = objectLinks => {
       meta.thumbnails[pathname] = getManifestThumbnail(context);
       meta.links[context.id] = pathname;
       meta.reverseLinks[pathname] = context.id;
-      // getAllObjectLinks(context, pathname, meta.objectInCollections);
       return meta;
     },
     {
