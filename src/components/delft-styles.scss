@@ -68,7 +68,7 @@ h2 {
   font-size: 2rem;
 }
 h3 {
-  font-size:1.7rem;
+  font-size:1.5rem;
 }
 
 main {
@@ -89,7 +89,8 @@ main {
     padding: 0 2rem;
   }
 
-
+  ul,
+  ol,
   p {
     font-size: 1.5rem;
     @media #{$small-down} {
@@ -118,7 +119,25 @@ main {
     margin-left:auto;
     margin-right:auto;
    } 
+   
   }
+}
+
+article.long {
+  a {
+    font-family: 'f-regular', 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    border:none;
+    color:#1d1c73;
+  }
+}
+
+ul,
+ol {
+  li {
+    margin-left:2rem;
+  }
+  margin-bottom: 3rem;
 }
 
 
