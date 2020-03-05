@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/dode-stad"
+path: "/nl/publications/delf-dode-stad"
 date: "2018-06-01"
 title: "De TU-wijk, een dode stad?"
 author: "Abel Streefland"

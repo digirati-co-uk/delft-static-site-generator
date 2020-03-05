@@ -604,6 +604,71 @@
       ],
       "type": "Manifest",
       "id": "https://dlc.services/iiif-resource/7/string1/2019-extern-vanaf-het-hoogste-punt"
+	},
+	{
+
+      "label": {
+        "en": [
+          "Optics for All"
+        ],
+        "nl": [
+          "Optica voor Allen"
+        ]
+      },
+      "summary": {
+        "en": [
+          ""
+        ],
+        "nl": [
+          ""
+        ]
+      },
+      "thumbnail": [
+      {
+            "@id": "https://dlc.services/thumbs/7/13/56c9c861-99fd-40cd-b9fb-7c82be129ab6/full/full/0/default.jpg",
+            "@type": "dctypes:Image",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlc.services/thumbs/7/13/56c9c861-99fd-40cd-b9fb-7c82be129ab6",
+              "profile": [
+                "http://iiif.io/api/image/2/level0.json",
+                {
+                  "formats": [
+                    "jpg"
+                  ],
+                  "qualities": [
+                    "color"
+                  ],
+                  "supports": [
+                    "sizeByWhListed"
+                  ]
+                }
+              ],
+              "width": 1024,
+              "height": 768,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 768
+                },
+                {
+                  "width": 400,
+                  "height": 300
+                },
+                {
+                  "width": 200,
+                  "height": 150
+                },
+                {
+                  "width": 100,
+                  "height": 75
+                }
+              ]
+            }
+          }
+      ],
+      "type": "Manifest",
+      "id": "https://dlc.services/iiif-resource/7/string1/2019-sc-optics-for-all"
 	}
   ],
   "@context": [

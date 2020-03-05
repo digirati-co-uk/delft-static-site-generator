@@ -4,17 +4,92 @@ date: "2018-11-15"
 title: "About"
 ---
 
-<article>
-<h1> About the Academic Heritage Team of TU Delft Library </h1>
+<article class="long">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus urna, congue in nisi sagittis, egestas pellentesque tellus. Nullam eu consectetur nulla. Maecenas vitae sem at mi tempor auctor vitae nec libero. Sed at augue cursus, sagittis nisi vitae, porta leo. Maecenas tempor quam magna, eu congue quam faucibus sed. Etiam a pharetra ex, sed porta metus. Nulla blandit tortor sagittis, viverra sapien ut, pretium purus. Duis vitae elit id dui tincidunt volutpat. Nam quam elit, mollis nec venenatis ut, lacinia vitae ligula.
+# About TU Delft Library's Academic Heritage Team
 
-Integer nec pretium dui, id mollis turpis. Nam orci urna, congue ac vehicula et, rhoncus eget quam. Praesent dignissim vestibulum ex ac condimentum. Fusce lacinia tortor ut tempus lobortis. Aenean eros libero, iaculis non urna ut, tristique aliquet ex. Nullam nec sem eu risus imperdiet fermentum. Nunc eu metus sed mauris congue consectetur eu vel dui. Praesent eu venenatis urna, sed condimentum augue. Praesent sollicitudin sagittis tempus. Proin vitae elit ut lacus bibendum sollicitudin vitae sed sem. Donec a nulla sagittis, venenatis elit ac, ultricies mi. Curabitur dignissim consectetur luctus. Mauris hendrerit velit et mollis facilisis. Nullam eget tortor eu elit convallis tempor.
+*Please note: you are currently viewing the beta version of TU Delft Library's academic heritage portal. This website contains demo material for testing purposes and does not yet provide access to the full digital special collections. Should you encounter any bugs or other issues, please don't hesitate to [contact TU Delft Library](https://www.tudelft.nl/library/over-the-library/contact-en-bereikbaarheid/). The first official release is scheduled for November 2020.*
 
-Ut mollis condimentum neque sit amet efficitur. Mauris tristique pretium sagittis. Quisque sodales tincidunt est, nec vulputate nisi. Phasellus congue tempus velit sed porta. Maecenas id ultricies risus, a feugiat dui. Vestibulum eget ante eu diam pulvinar molestie maximus at justo. Donec vitae blandit neque, et bibendum diam. Nulla at mattis felis. Ut aliquam ullamcorper risus. Pellentesque imperdiet lorem at lorem vulputate viverra. Ut ac elementum ipsum, at congue ante. Vivamus auctor tristique posuere.
+Since 2017, when TU Delft celebrated its 175th anniversary, the university has been raising the profile of its academic heritage by systematically curating  its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 
-Praesent auctor, felis eget ornare tincidunt, odio elit mattis libero, vitae facilisis enim turpis eget neque. Proin accumsan turpis quis nunc bibendum dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent elementum iaculis iaculis. Suspendisse sit amet mi nisl. Phasellus quis felis commodo, luctus urna sit amet, semper risus. Curabitur iaculis efficitur faucibus. Fusce pretium, augue in tempus viverra, sapien risus tincidunt diam, ac sagittis odio mauris non purus. Praesent finibus faucibus elementum. Vestibulum in consectetur lorem, id semper magna. Quisque id velit a purus sagittis congue. Nulla pharetra lectus eu dignissim varius. Fusce diam urna, finibus in ornare sit amet, pretium nec tellus. Sed lobortis lectus eu quam convallis mattis. Ut semper elit ut bibendum sollicitudin.
+This website provides access to the different facets of the academic heritage team of TU Delft Library: digital editions of exhibitions, (digitised) items from the special collections and research output. The special collections consist of the Museum Collection and Trésor:
 
-Vestibulum facilisis sed urna et elementum. Sed eget massa convallis, aliquet tortor a, finibus nulla. Aliquam feugiat venenatis quam, ac iaculis neque rutrum in. Aliquam luctus odio sed mauris semper, eu dictum mauris fringilla. Quisque congue risus risus, vitae convallis libero posuere vel. Ut eget purus varius neque fermentum mollis. Pellentesque lacinia euismod efficitur.
+- The Museum Collection includes objects that draw on TU Delft's institutional history, academic education and research. The items range from measuring instruments, course material, demonstration devices and research collections, to art, such as professorial portraits. The collection contains around 6,500 objects. The objects can be loaned under museum conditions for public exhibitions hosted on or off the campus.
+
+- The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, such as speeches, dissertations and lecture notes. 
+
+### Roadmap
+
+Built according to the specifications of the International Image Interoperability Framework (IIIF), the website aims to promote creative reuse of the digital collections. For example, a special tool developed to curate digital exhibitions will become publicly available. More information about the project and its use of IIIF can be found in this Medium article by Digirati's Technology Director Tom Crane: [Reaching into collections to tell stories](https://medium.com/digirati-ch/reaching-into-collections-to-tell-stories-3dc32a1772af).
+
+*Winter/spring 2020*
+
+- Management of IIIF-collections
+- Relationships between items and publications
+- Further development of the IIIF manifest editor
+- Various smaller improvements
+
+*Fall 2020*
+
+- Publication of selected digital special collections
+- Search implementation
+- Persistent links
+- Official release
+
+*2021*
+
+- Publication of additional digital special collections
+- Improved shareability of collections, items and exhibitions
+- Improved mobile experience
+- Workflow to accept exhibitions made by visitors
+- Download options (PDFs and high resolution images)
+- Licenses for images and metadata reuse
+
+*2022 and later*
+
+- Display and searchability of OCR data
+- WorldCat integration
+- Table of contents for items
+
+### Links
+
+- [TU Delft Library](https://www.tudelft.nl/library/)
+- [Trésor](https://tresor.tudelft.nl)
+- [Map room](https://www.tudelft.nl/en/library/collections/map-room/)
+
+### Credits
+
+*Concept*
+
+Academic Heritage Team, TU Delft Library
+
+*Graphic design*
+
+Studio Mellegers van Dam ([Adriaan Mellegers](https://www.adriaanmellegers.com) and [Vanessa van Dam](http://www.vanessavandam.nl))
+
+*Wireframes and style sheets*
+
+[Joel Galvez](https://www.joelgalvez.com)
+
+*Development*
+
+[Digirati](https://digirati.com)
+
+*Powered by*
+
+- [IIIF.io](https://iiif.io)
+- [Gatsby](https://www.gatsbyjs.org)
+- [ReactJS](https://reactjs.org)
+- [CanvasPanel](https://canvas-panel.digirati.com)
+- [Digital Library Cloud Services](https://dlcs.info)
+- [Netlify](https://www.netlify.com)
+
+*Source code*
+
+[github.com/digirati-co-uk/delft-static-site-generator](github.com/digirati-co-uk/delft-static-site-generator)
+
+*Acknowledgements*
+
+Kindly supported by [Histechnica](https://histechnica.nl), the friends association for TU Delft's Academic Heritage. With thanks to Alastair Dunning and Glen Robson.
 
 </article>

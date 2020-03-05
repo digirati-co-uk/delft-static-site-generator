@@ -6,13 +6,15 @@ title: "Digitale Collecties"
 
 # Digitale collecties
 
+*Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de Engelstalige [about pagina](/en/about/).*
+
 ## TU Delft Library
 
 <div class="blocks">
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[TrésorZ](/nl/collections/lib-tresor)
+[Trésor](/nl/collections/lib-tresor)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
