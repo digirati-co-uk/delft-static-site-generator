@@ -12,7 +12,7 @@ title: "About"
 
 Since 2017, when TU Delft celebrated its 175th anniversary, the university has been investing in raising the profile of its academic heritage by improving the preservation of its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 
-This website provides access to the different pillars of the academic heritage team of TU Delft Library: digital editions of exhibitions, digitised items from the special collections and research output. The special collections consist of the Museum Collection and Trésor:
+This website provides access to the different pillars of the academic heritage team of TU Delft Library: digital editions of exhibitions, (digitised) items from the special collections and research output. The special collections consist of the Museum Collection and Trésor:
 
 - The Museum Collection includes objects that are retrieved from TU Delft's institutional history, academic education and research. The items range from measuring instruments, course material, demonstration devices and research collections, to art, such as professor portraits. The collection contains around 6,500 objects and reveals the history of the TU Delft. The objects can be taken on loan under museum conditions for public exhibitions hosted on or off the campus.
 
@@ -31,14 +31,14 @@ Built according to the specifications of the International Image Interoperabilit
 
 *Fall 2020*
 
-- Publication of selected digitised special collections
+- Publication of selected digital special collections
 - Search implementation
 - Persistent links
 - Official release
 
 *2021*
 
-- Publication of additional digitised special collections
+- Publication of additional digital special collections
 - Improved shareability of collections, items and exhibitions
 - Improved mobile experience
 - Workflow to accept exhibitions made by visitors
@@ -67,11 +67,11 @@ Academic Heritage Team, TU Delft Library
 
 Studio Mellegers van Dam ([Adriaan Mellegers](https://www.adriaanmellegers.com) and [Vanessa van Dam](http://www.vanessavandam.nl))
 
-*Wireframes / UX / CSS*
+*Wireframes and style sheets*
 
 [Joel Galvez](https://www.joelgalvez.com)
 
-*Coding*
+*Development*
 
 [Digirati](https://digirati.com)
 
