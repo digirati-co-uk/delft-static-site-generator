@@ -71,6 +71,22 @@ h3 {
   font-size:1.5rem;
 }
 
+article.long {
+  ul,
+  ol {
+    font-size: 1.5rem;
+    @media #{$small-down} {
+      font-size:1.2rem;
+    }
+    line-height: 1.21;
+    &+p {
+      margin-top:1em;
+    }
+    // letter-spacing: 0.3px;
+  }
+
+}
+
 main {
 
   max-width: calc(1200px + 2rem);
@@ -89,8 +105,6 @@ main {
     padding: 0 2rem;
   }
 
-  ul,
-  ol,
   p {
     font-size: 1.5rem;
     @media #{$small-down} {
@@ -130,14 +144,14 @@ article.long {
     border:none;
     color:#1d1c73;
   }
-}
-
-ul,
-ol {
-  li {
-    margin-left:2rem;
+  ul,
+  ol {
+    li {
+      margin-left:2rem;
+    }
+    margin-bottom: 3rem;
   }
-  margin-bottom: 3rem;
+
 }
 
 
