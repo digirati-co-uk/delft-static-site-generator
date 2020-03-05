@@ -10,13 +10,13 @@ title: "About"
 
 *Please note: you are currently viewing the beta version of TU Delft Library's academic heritage portal. This website contains demo material for testing purposes and does not yet provide access to the full digital special collections. Should you encounter any bugs or other issues, please don't hesitate to [contact TU Delft Library](https://www.tudelft.nl/library/over-the-library/contact-en-bereikbaarheid/). The first official release is scheduled for November 2020.*
 
-Since 2017, when TU Delft celebrated its 175th anniversary, the university has been investing in raising the profile of its academic heritage by improving the preservation of its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
+Since 2017, when TU Delft celebrated its 175th anniversary, the university has been raising the profile of its academic heritage by systematically curating  its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 
-This website provides access to the different pillars of the academic heritage team of TU Delft Library: digital editions of exhibitions, (digitised) items from the special collections and research output. The special collections consist of the Museum Collection and Trésor:
+This website provides access to the different facets of the academic heritage team of TU Delft Library: digital editions of exhibitions, (digitised) items from the special collections and research output. The special collections consist of the Museum Collection and Trésor:
 
-- The Museum Collection includes objects that are retrieved from TU Delft's institutional history, academic education and research. The items range from measuring instruments, course material, demonstration devices and research collections, to art, such as professor portraits. The collection contains around 6,500 objects and reveals the history of the TU Delft. The objects can be taken on loan under museum conditions for public exhibitions hosted on or off the campus.
+- The Museum Collection includes objects that draw on TU Delft's institutional history, academic education and research. The items range from measuring instruments, course material, demonstration devices and research collections, to art, such as professorial portraits. The collection contains around 6,500 objects. The objects can be loaned under museum conditions for public exhibitions hosted on or off the campus.
 
-- The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, like speeches, dissertations and lecture notes. 
+- The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, such as speeches, dissertations and lecture notes. 
 
 ### Roadmap
 
