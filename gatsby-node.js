@@ -34,7 +34,11 @@ const convertToV3ifNecessary = manifest => {
 
 const getManifestContext = itemPath => {
   const split = itemPath.split('/');
-  let formatted = `${split[1]}/${split.pop()}`;
+  let object = split.pop().split('-');
+  if (!isNaN(object[0])) object.shift();
+  object = object.join('-');
+
+  let formatted = `${split[1]}/${object}`;
   formatted = formatted.replace(/\.json$/, '');
   let json;
   try {
