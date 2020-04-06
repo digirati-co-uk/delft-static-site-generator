@@ -60,11 +60,19 @@ export const Illustration = ({ source, pageLanguage, object, children }) => {
       : {};
   return (
     <>
-      <img
-        src={thumbnailSrc}
-        style={{ cursor: 'pointer' }}
-        onClick={() => renderModal()}
-      ></img>
+      <div className="cutcorners w-7 h-4">
+        <img
+          style={{
+            objectFit: 'cover',
+            cursor: 'pointer',
+            width: '100%',
+            height: '100%',
+          }}
+          src={thumbnailSrc}
+          onClick={() => renderModal()}
+        ></img>
+      </div>
+      {children ? <div className="info cutcorners">{children}</div> : <></>}
       {showCanvasModal ? (
         <DynamicCanvasModal
           manifest={iiifmanifest}
@@ -74,7 +82,6 @@ export const Illustration = ({ source, pageLanguage, object, children }) => {
           pageLanguage={pageLanguage}
         ></DynamicCanvasModal>
       ) : null}
-      {children}
     </>
   );
 };
