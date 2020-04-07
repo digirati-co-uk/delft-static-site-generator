@@ -43,7 +43,7 @@ const fixUrl = url => {
     .replace('/full/full/0/default.jpg', '');
 };
 
-export const Illustration = ({ source, pageLanguage, children }) => {
+const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
   const [iiifmanifest, setIiifManifest] = useState({});
   const [thumbnailSrc, setThumbnailSrc] = useState('');
   const [showCanvasModal, setCanvasModal] = useState(false);
@@ -61,7 +61,7 @@ export const Illustration = ({ source, pageLanguage, children }) => {
     if (thumbnail.id) setAnnos({ [key]: link });
   }, [iiifmanifest, link]);
 
-  const renderModal = data => {
+  useEffect(() => {
     const obj = data.allSitePage.nodes.filter(node => {
       const thumbnails = getGraphThumbnail(node.context);
       return thumbnails.includes(thumbnailSrc);
@@ -76,8 +76,7 @@ export const Illustration = ({ source, pageLanguage, children }) => {
     _link = _link.replace('/en/', '');
     _link = _link.replace('/nl/', '');
     setLink(_link);
-    setCanvasModal(!showCanvasModal);
-  };
+  }, [data]);
 
   const canvas =
     iiifmanifest && iiifmanifest.items && iiifmanifest.items[0]
@@ -85,53 +84,55 @@ export const Illustration = ({ source, pageLanguage, children }) => {
       : {};
 
   return (
-    <StaticQuery
-      query={graphql`
-        query MyQuery {
-          allSitePage {
-            nodes {
-              path
-              context {
-                items {
-                  thumbnail {
-                    id
-                  }
+    <>
+      <div className="cutcorners w-7 h-4">
+        <img
+          style={{
+            objectFit: 'cover',
+            cursor: 'pointer',
+            width: '100%',
+            height: '100%',
+          }}
+          src={thumbnailSrc}
+          onClick={() => setCanvasModal(true)}
+        ></img>
+      </div>
+      {children ? <div className="info cutcorners">{children}</div> : <></>}
+      {showCanvasModal ? (
+        <DynamicCanvasModal
+          manifest={iiifmanifest}
+          selectedCanvas={canvas}
+          annotationDetails={annos}
+          hideCanvasDetails={() => setCanvasModal(false)}
+          pageLanguage={pageLanguage}
+        ></DynamicCanvasModal>
+      ) : null}
+    </>
+  );
+};
+
+IllustrationComponent.propTypes = {
+  source: PropTypes.string,
+};
+
+export const Illustration = props => (
+  <StaticQuery
+    query={graphql`
+      query MyQuery {
+        allSitePage {
+          nodes {
+            path
+            context {
+              items {
+                thumbnail {
+                  id
                 }
               }
             }
           }
         }
-      `}
-      render={data => (
-        <>
-          <div className="cutcorners w-7 h-4">
-            <img
-              style={{
-                objectFit: 'cover',
-                cursor: 'pointer',
-                width: '100%',
-                height: '100%',
-              }}
-              src={thumbnailSrc}
-              onClick={() => renderModal(data)}
-            ></img>
-          </div>
-          {children ? <div className="info cutcorners">{children}</div> : <></>}
-          {showCanvasModal ? (
-            <DynamicCanvasModal
-              manifest={iiifmanifest}
-              selectedCanvas={canvas}
-              annotationDetails={annos}
-              hideCanvasDetails={() => setCanvasModal(false)}
-              pageLanguage={pageLanguage}
-            ></DynamicCanvasModal>
-          ) : null}
-        </>
-      )}
-    />
-  );
-};
-
-Illustration.propTypes = {
-  source: PropTypes.string,
-};
+      }
+    `}
+    render={data => <IllustrationComponent data={data} {...props} />}
+  />
+);
