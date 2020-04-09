@@ -75,6 +75,8 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
 
   useEffect(() => {
     const manifest = fetchDataFromFile(source);
+
+    console.log(manifest);
     //thumbnails from the manifest
     setIiifManifest(manifest);
 
