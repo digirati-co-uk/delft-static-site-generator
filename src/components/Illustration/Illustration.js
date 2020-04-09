@@ -9,22 +9,32 @@ const fetchDataFromFile = source => {
   return json;
 };
 
-const getThumbnail = manifest => {
-  if (!manifest.items) return {};
-  const thumbnail =
+const convertArrayToObject = (array, key) =>
+  array.reduce(
+    (obj, item) => ({
+      ...obj,
+      [item[key]]: item,
+    }),
+    {}
+  );
+
+const getThumbnails = manifest => {
+  if (!manifest.items) return [];
+  const items =
     manifest &&
     manifest.items &&
     manifest.items[0] &&
     manifest.items[0] &&
     manifest.items[0].items[0] &&
     manifest.items[0].items[0] &&
-    manifest.items[0].items[0].items &&
-    manifest.items[0].items[0].items[0].thumbnail &&
-    manifest.items[0].items[0].items[0].thumbnail[0] &&
-    manifest.items[0].items[0].items[0].thumbnail[0]
-      ? manifest.items[0].items[0].items[0].thumbnail[0]
-      : null;
-  return thumbnail;
+    manifest.items[0].items[0].items
+      ? manifest.items[0].items[0].items
+      : [];
+  const thumbnails = items.map(item => {
+    if (item && item.thumbnail[0] && item.thumbnail[0].id)
+      return item.thumbnail[0].id;
+  });
+  return thumbnails;
 };
 
 const getGraphThumbnail = node => {
@@ -34,7 +44,22 @@ const getGraphThumbnail = node => {
     if (item && item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id)
       return item.thumbnail[0].id;
   });
+  // console.log(thumbnails);
   return thumbnails;
+};
+
+const getPath = (objects, path) => {
+  let link = '';
+  const objectPath = objects.find(object => {
+    return getGraphThumbnail(object.context).includes(path);
+  });
+  if (objectPath && objectPath.path) {
+    link = objectPath.path;
+  }
+
+  link = link.replace('/en/', '');
+  link = link.replace('/nl/', '');
+  return link;
 };
 
 const fixUrl = url => {
@@ -45,38 +70,43 @@ const fixUrl = url => {
 
 const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
   const [iiifmanifest, setIiifManifest] = useState({});
-  const [thumbnailSrc, setThumbnailSrc] = useState('');
+  const [thumbnailSrc, setThumbnailSrc] = useState([]);
   const [showCanvasModal, setCanvasModal] = useState(false);
-  const [annos, setAnnos] = useState([]);
-  const [paths, setPaths] = useState([]);
-  const [link, setLink] = useState('');
-  useEffect(() => {
-    setIiifManifest(fetchDataFromFile(source));
-  }, []);
+  const [annos, setAnnos] = useState({});
 
   useEffect(() => {
-    const thumbnail = getThumbnail(iiifmanifest);
-    const key = thumbnail.id ? fixUrl(thumbnail.id) : '';
-    if (thumbnail.id) setThumbnailSrc(thumbnail.id);
-    if (thumbnail.id) setAnnos({ [key]: link });
-  }, [iiifmanifest, link]);
+    const manifest = fetchDataFromFile(source);
+    //thumbnails from the manifest
+    setIiifManifest(manifest);
 
-  useEffect(() => {
-    const obj = data.allSitePage.nodes.filter(node => {
-      const thumbnails = getGraphThumbnail(node.context);
-      return thumbnails.includes(thumbnailSrc);
+    const thumbnails = getThumbnails(manifest);
+
+    // objects which have the same thumbnails
+    const linkedObjects = data.allSitePage.nodes.filter(node => {
+      //thumbnails from the linked objects
+      const thumbs = getGraphThumbnail(node.context);
+      const intersection = thumbnails.filter(el => thumbs.includes(el));
+      return intersection.length >= 1;
     });
-    setPaths(obj);
-    let _link = '';
-    if (paths.length > 1) {
-      _link = paths.find(route =>
+
+    let languaged = [];
+    if (linkedObjects.length >= 1) {
+      languaged = linkedObjects.filter(route =>
         route.path.split('/')[1].includes(pageLanguage)
-      ).path;
+      );
     }
-    _link = _link.replace('/en/', '');
-    _link = _link.replace('/nl/', '');
-    setLink(_link);
-  }, [data]);
+    let annotations = {};
+    if (thumbnails.length >= 1) {
+      //use the first thumbnail for the annotation.
+      setThumbnailSrc(thumbnails[0]);
+      thumbnails.map(thumb => {
+        const key = thumb ? fixUrl(thumb) : '';
+        const path = getPath(languaged, thumb);
+        annotations = { ...annotations, [key]: path };
+      });
+    }
+    setAnnos(annotations);
+  }, []);
 
   const canvas =
     iiifmanifest && iiifmanifest.items && iiifmanifest.items[0]

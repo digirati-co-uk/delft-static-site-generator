@@ -111,10 +111,12 @@ class CanvasModal extends React.Component {
   }
 
   getDetailsLink = imageAnnotations => {
+    console.log(imageAnnotations);
     if (imageAnnotations.length < 1) return false;
     if (this.state.currentNavIndex === -1 && this.state.navItems.length > 0)
       return false;
     let index = this.state.navItems.length > 1 ? this.state.currentNavIndex : 0;
+    console.log(this.props.annotationDetails);
     return this.props.annotationDetails[
       getAnnotationId(imageAnnotations[index])
     ];
@@ -140,6 +142,7 @@ class CanvasModal extends React.Component {
       annotation => annotation.body.type === 'Image'
     );
     const detailsLink = this.getDetailsLink(imageAnnotations);
+    console.log(detailsLink);
     return (
       <div className="canvas-modal">
         <ContainerDimensions>
