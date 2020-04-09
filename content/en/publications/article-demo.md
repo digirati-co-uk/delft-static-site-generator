@@ -6,7 +6,7 @@ author: "Adam von Digirati"
 ---
 
 ## An Illustration
-<Illustration source="a-single-canvas-manifest.json" object="bk-otb-fotoarchief-77-5">
+<Illustration source="a-single-canvas-manifest.json">
     You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
     The source should be the direct filename within the illustrations folder.
     Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"

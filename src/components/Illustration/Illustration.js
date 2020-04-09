@@ -44,7 +44,6 @@ const getGraphThumbnail = node => {
     if (item && item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id)
       return item.thumbnail[0].id;
   });
-  // console.log(thumbnails);
   return thumbnails;
 };
 
