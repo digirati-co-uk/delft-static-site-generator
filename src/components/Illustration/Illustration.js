@@ -72,11 +72,11 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
   const [thumbnailSrc, setThumbnailSrc] = useState([]);
   const [showCanvasModal, setCanvasModal] = useState(false);
   const [annos, setAnnos] = useState({});
+  const [label, setLabel] = useState('');
 
   useEffect(() => {
     const manifest = fetchDataFromFile(source);
-
-    console.log(manifest);
+    setLabel(manifest.label[pageLanguage]);
     //thumbnails from the manifest
     setIiifManifest(manifest);
 
@@ -128,7 +128,7 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
           onClick={() => setCanvasModal(true)}
         ></img>
       </div>
-      {children ? <div className="info cutcorners">{children}</div> : <></>}
+      {label ? <div className="info cutcorners">{label}</div> : <></>}
       {showCanvasModal ? (
         <DynamicCanvasModal
           manifest={iiifmanifest}
