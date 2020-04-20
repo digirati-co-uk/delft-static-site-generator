@@ -48,8 +48,6 @@ const IIIFImageAnnotationCover = ({
   if (!body) {
     return 'error';
   }
-  // console.log('IIIFImageAnnotationCover', body, position, annotation, canvas);
-  // const canvasPhysicalSize = convertBehaviourToPhysicalSize(canvas);
   if (body.id) {
     const imageRelativeSize = imageCanvasRealiveSize(body.id, canvas);
     canvasPhysicalSize.width /= imageRelativeSize.width;
