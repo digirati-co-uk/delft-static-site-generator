@@ -93,12 +93,22 @@ const parseVideo = url => {
 const createVideo = url => {
   const element = document.createElement('div');
   const videoServiceResult = parseVideo(url);
+  console.log(videoServiceResult);
+  console.log(videoServiceResult.type);
+
   if (videoServiceResult && videoServiceResult.type) {
-    element.innerHTML = `<iframe
-      src="${videoServiceResult.src}"
-      title="${`external-video: ${annotation.id}`}"
-      class="canvas-panel__video-styles"
-    />`;
+    element.innerHTML = (
+      <iframe
+        src={videoServiceResult.src}
+        class="canvas-panel__video-styles"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        crossorigin="anonymous"
+        width="100%"
+        height="100%"
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+      />
+    );
   } else {
     element.innerHTML = `<video autoplay controls><source src="${url}" class="canvas-panel__video-styles"style="" /></video>`;
   }
