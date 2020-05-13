@@ -93,8 +93,6 @@ const parseVideo = url => {
 const createVideo = url => {
   const element = document.createElement('div');
   const videoServiceResult = parseVideo(url);
-  console.log(videoServiceResult);
-  console.log(videoServiceResult.type);
 
   if (videoServiceResult && videoServiceResult.type) {
     element.innerHTML = (

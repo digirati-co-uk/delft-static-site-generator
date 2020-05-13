@@ -19,7 +19,13 @@ title: "Exhibitions"
 </div>
 <div class="block tint copper cutcorners w-4 h-4 image">
 
-[Video](/en/exhibitions/329a2a7d-84b5-0e13-19c4-488a734addd3)
+[Youtube](/en/exhibitions/329a2a7d-84b5-0e13-19c4-488a734addd3)
 </div>
+<div class="block tint copper cutcorners w-4 h-4 image">
+
+[Vimeo](/en/exhibitions/d9712902-08dc-c2e5-83b1-99898c7643fa)
+</div>
+
+
 </div>
 
