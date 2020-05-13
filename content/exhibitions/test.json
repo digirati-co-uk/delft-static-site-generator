@@ -884,7 +884,12 @@
                   "type": "Video",
                   "width": 1280,
                   "height": 720,
-                  "duration": 1
+                  "duration": 1,
+                  "selector": {
+                    "type": "FragmentSelector",
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "value": "t=0,2"
+                  }
                 },
                 "target": "http://digirati.com/iiif/v3/temporary/canvas/c5"
               }
