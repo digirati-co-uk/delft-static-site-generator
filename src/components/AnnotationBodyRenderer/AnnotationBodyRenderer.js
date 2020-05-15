@@ -106,7 +106,11 @@ const IIIFVideoAnnotationCover = ({ body, position }) => {
   if (body.id.includes('youtu.be')) {
     url = body.id.replace('youtu.be', 'youtube.com/embed');
     if (body.selector && body.selector.value.includes('t=')) {
-      url = url + `?start=${body.selector.value.split('t=')[1].split(',')[0]}`;
+      url =
+        url +
+        `?start=${body.selector.value.split('t=')[1].split(',')[0]}?end=${
+          body.selector.value.split('t=')[1].split(',')[1]
+        }`;
     }
   }
   if (body.id.includes('vimeo')) {
