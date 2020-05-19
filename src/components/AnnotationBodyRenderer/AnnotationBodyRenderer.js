@@ -104,12 +104,12 @@ IIIFImageAnnotationCover.defaultProps = {
 const IIIFVideoAnnotationCover = ({ body, position }) => {
   let url = body.id;
   if (body.id.includes('youtu.be')) {
-      url =
-        url +
-        `?start=${body.selector.value.split('t=')[1].split(',')[0]}?end=${
-          body.selector.value.split('t=')[1].split(',')[1]
-        }`;
-    }
+    url.replace('watch', 'embed');
+    url =
+      url +
+      `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
+        body.selector.value.split('t=')[1].split(',')[1]
+      }`;
   }
   if (body.id.includes('vimeo')) {
     url = url.replace('vimeo.com', 'player.vimeo.com/video');
