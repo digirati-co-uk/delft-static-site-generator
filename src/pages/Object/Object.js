@@ -20,7 +20,6 @@ class ObjectPage extends React.Component {
 
   componentDidMount() {
     const { pageContext } = this.props;
-    console.log(pageContext);
     this.setState({
       renderSlideShow: <DynamicSlideShow context={pageContext} />,
     });
