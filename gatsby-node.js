@@ -305,8 +305,9 @@ const createObjectPages = () => {
       if (context.type !== 'Manifest') {
         return meta;
       }
+      pathname = pathname.replace('collections/', 'objects/');
       meta.pages[pathname] = {
-        path: pathname.replace('collections/', 'objects/'),
+        path: pathname,
         component: manifestTemplate,
         context,
       };
