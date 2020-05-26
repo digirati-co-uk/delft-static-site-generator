@@ -227,6 +227,19 @@ getCollectionFilePath = (pathname, collectionsGroup) => {
   return './content/' + split[0] + '/' + collectionsGroup + '/' + split[1];
 };
 
+const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
+  (collection.items || []).reduce((objectLinks, manifest) => {
+    if (!objectLinks[manifest.id]) {
+      objectLinks[manifest.id] = [];
+    }
+    objectLinks[manifest.id].push([
+      collection.id,
+      collectionPath,
+      collection.label,
+    ]);
+    return objectLinks;
+  }, _objectLinks || []);
+
 const createCollectionPages = objectLinks => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
@@ -258,6 +271,7 @@ const createCollectionPages = objectLinks => {
       meta.thumbnails[pathname] = getManifestThumbnail(context);
       meta.links[context.id] = pathname;
       meta.reverseLinks[pathname] = context.id;
+      getAllObjectLinks(context, pathname, meta.objectInCollections);
       return meta;
     },
     {
