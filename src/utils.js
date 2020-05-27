@@ -47,20 +47,22 @@ const getAuthor = (path, allMDRemark) => {
 };
 
 export const getTranslation = (obj, lang, glue = ' ') => {
-  if (
-    (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue) ===
-      '' &&
-    lang === 'en' &&
-    obj.nl
-  ) {
-    return obj.nl.join(glue);
-  } else if (
-    (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue) ===
-      '' &&
-    lang === 'nl' &&
-    obj.en
-  ) {
-    return obj.en.join(glue);
+  if (obj) {
+    if (
+      (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue) ===
+        '' &&
+      lang === 'en' &&
+      obj.nl
+    ) {
+      return obj.nl.join(glue);
+    } else if (
+      (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue) ===
+        '' &&
+      lang === 'nl' &&
+      obj.en
+    ) {
+      return obj.en.join(glue);
+    }
   }
   return (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue);
 };
