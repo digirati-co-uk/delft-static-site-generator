@@ -66,22 +66,27 @@ const getFiles = filepath =>
 
 const getJSONFilesUnderPath = filepath => {
   const files = [];
-  const allDirectory = getFiles(filepath);
-  allDirectory.forEach(item => {
-    if (checkifJSON(item)) {
-      files.push(item);
-    } else if (checkifSubfolder(path.join(item))) {
-      const subfiles = getFiles(item);
-      subfiles.forEach(file => {
-        // eslint-disable-next-line no-unused-expressions
-        checkifJSON(file)
-          ? files.push(file)
-          : getFiles(file).forEach(subfile => {
-              if (checkifJSON(subfile)) files.push(subfile);
-            });
-      });
-    }
-  });
+  try {
+    const allDirectory = getFiles(filepath);
+
+    allDirectory.forEach(item => {
+      if (checkifJSON(item)) {
+        files.push(item);
+      } else if (checkifSubfolder(path.join(item))) {
+        const subfiles = getFiles(item);
+        subfiles.forEach(file => {
+          // eslint-disable-next-line no-unused-expressions
+          checkifJSON(file)
+            ? files.push(file)
+            : getFiles(file).forEach(subfile => {
+                if (checkifJSON(subfile)) files.push(subfile);
+              });
+        });
+      }
+    });
+  } catch (e) {
+    console.log(`You do not have any json files under content/objects`);
+  }
   return files;
 };
 
