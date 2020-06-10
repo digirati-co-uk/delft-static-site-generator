@@ -44,6 +44,8 @@ const EXHIBITION_BEHAVIOURS = [
   'block',
   'cutcorners',
   'caption-left',
+  'left',
+  'bottom',
   'row',
   'column',
 ];
@@ -212,7 +214,7 @@ class ExhibitionPage extends React.Component {
           if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
             let newCls = cls;
             if (
-              blockClasses.indexOf('column') !== -1 &&
+              blockClasses.indexOf('column' || 'bottom') !== -1 &&
               cls.indexOf('h-') === 0
             ) {
               newCls = `h-${Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
@@ -231,10 +233,13 @@ class ExhibitionPage extends React.Component {
 
   getBlockArrowClasses = canvas => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
-    if (blockClasses.indexOf('column') !== -1) {
+    if (blockClasses.includes('bottom') || blockClasses.includes('column')) {
       return 'arrow up';
     }
-    if (blockClasses.indexOf('caption-left') !== -1) {
+    if (
+      blockClasses.includes('caption-left') ||
+      blockClasses.includes('left')
+    ) {
       return 'arrow right';
     }
     return 'arrow left';
