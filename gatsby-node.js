@@ -34,7 +34,11 @@ const convertToV3ifNecessary = manifest => {
 
 const getManifestContext = itemPath => {
   const split = itemPath.split('/');
-  let formatted = `${split[1]}/${split.pop()}`;
+  let object = split.pop().split('-');
+  if (!isNaN(object[0])) object.shift();
+  object = object.join('-');
+
+  let formatted = `${split[1]}/${object}`;
   formatted = formatted.replace(/\.json$/, '');
   let json;
   try {
@@ -45,32 +49,93 @@ const getManifestContext = itemPath => {
   return [formatted, convertToV3ifNecessary(json)];
 };
 
+const getCollectionGroup = itemPath => {
+  // Get the collection by filename
+  return itemPath.split('/')[2];
+};
+const checkifFolder = filepath =>
+  fs.existsSync(filepath) && fs.lstatSync(filepath).isDirectory();
+
 const checkifSubfolder = root => fs.statSync(path.join(root)).isDirectory();
 
 const checkifJSON = filepath =>
   fs.statSync(filepath).isFile() && path.extname(filepath) === '.json';
 
-const getJSON = filepath =>
+const getFiles = filepath =>
   fs.readdirSync(filepath).map(item => path.join(filepath, item));
 
 const getJSONFilesUnderPath = filepath => {
   const files = [];
-  const allDirectory = getJSON(filepath);
+  try {
+    const allDirectory = getFiles(filepath);
+
+    allDirectory.forEach(item => {
+      if (checkifJSON(item)) {
+        files.push(item);
+      } else if (checkifSubfolder(path.join(item))) {
+        const subfiles = getFiles(item);
+        subfiles.forEach(file => {
+          // eslint-disable-next-line no-unused-expressions
+          checkifJSON(file)
+            ? files.push(file)
+            : getFiles(file).forEach(subfile => {
+                if (checkifJSON(subfile)) files.push(subfile);
+              });
+        });
+      }
+    });
+  } catch (e) {
+    console.log(`You do not have any json files under content/objects`);
+  }
+  return files;
+};
+
+const getCollections = filepath => {
+  const files = [];
+  const allDirectory = getFiles(filepath);
   allDirectory.forEach(item => {
     if (checkifJSON(item)) {
       files.push(item);
     } else if (checkifSubfolder(path.join(item))) {
-      const subfiles = getJSON(item);
+      const subfiles = getFiles(item);
       subfiles.forEach(file => {
-        checkifJSON(file)
-          ? files.push(file)
-          : getJSON(file).forEach(subfile => {
-              if (checkifJSON(subfile)) files.push(subfile);
-            });
+        if (checkifJSON(file)) files.push(file);
       });
     }
   });
   return files;
+};
+
+const getObjectsInCollection = items => {
+  const formatted = [];
+  items.map(item => {
+    const [path, collectionItemContext] = getManifestContext(item);
+
+    const labels = { en: [''], nl: [''] };
+
+    collectionItemContext.metadata.map(data => {
+      if (data.label && data.label.en && data.label.en[0] === 'Title') {
+        labels.en =
+          data.value && data.value.en && data.value.en[0]
+            ? [data.value.en[0]]
+            : [''];
+      }
+      if (data.label && data.label.nl && data.label.nl[0] === 'Titel') {
+        labels.nl =
+          data.value && data.value.nl && data.value.nl[0]
+            ? [data.value.nl[0]]
+            : [''];
+      }
+    });
+
+    formatted.push({
+      id: collectionItemContext.id,
+      type: collectionItemContext.type,
+      thumbnail: collectionItemContext.items[0].thumbnail,
+      label: labels,
+    });
+  });
+  return formatted;
 };
 
 const getAllAnnotationsFromManifest = (manifest, manifestPath, _annotations) =>
@@ -162,6 +227,11 @@ const getManifestThumbnail = manifest => {
   return thumbnail;
 };
 
+getCollectionFilePath = (pathname, collectionsGroup) => {
+  const split = pathname.split('/');
+  return './content/' + split[0] + '/' + collectionsGroup + '/' + split[1];
+};
+
 const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
   (collection.items || []).reduce((objectLinks, manifest) => {
     if (!objectLinks[manifest.id]) {
@@ -178,27 +248,32 @@ const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
 const createCollectionPages = objectLinks => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
-  return getJSONFilesUnderPath(collectionsPath).reduce(
+  return getCollections(collectionsPath).reduce(
     (meta, item) => {
       const [pathname, context] = getManifestContext(item);
-      // createTranslatedPage({
-      //   path: pathname,
-      //   component: collectionTemplate,
-      //   context: {
-      //     objectLinks,
-      //     collection: context,
-      //   },
-      // }, createPage);
+      const collectionGroup = getCollectionGroup(item);
+      const filepath = getCollectionFilePath(pathname, collectionGroup);
+      let items = checkifFolder(filepath)
+        ? getJSONFilesUnderPath(filepath)
+        : [];
+      // if there is a subfolder of the same name as the json file and no items within collection json, populate
+      // the page context, collection items with the details from this manifest.
+      // otherwise, just use the context specified within the folder.
+      if (items.length > 0 && (!context.items || context.items.length === 0)) {
+        items = getObjectsInCollection(items);
+        context.items = items;
+      }
+
       meta.pages[pathname] = {
         path: pathname,
         component: collectionTemplate,
         context: {
           objectLinks,
           collection: context,
+          collectionGroup: collectionGroup,
         },
       };
       meta.thumbnails[pathname] = getManifestThumbnail(context);
-      // context.items[0].thumbnail[0].id;
       meta.links[context.id] = pathname;
       meta.reverseLinks[pathname] = context.id;
       getAllObjectLinks(context, pathname, meta.objectInCollections);
@@ -210,22 +285,37 @@ const createCollectionPages = objectLinks => {
       reverseLinks: {},
       objectInCollections: {},
       pages: {},
+      items: [],
     }
   );
 };
 
 const createObjectPages = () => {
   const manifestTemplate = path.resolve(`src/pages/Object/Object.js`);
+  const collectionsPath = './content/collections';
   const manifestsPath = './content/objects';
-  return getJSONFilesUnderPath(manifestsPath).reduce(
+  // We want to create objects for the manifests which are detailed within the objects directory,
+  // but also those which are within the collections directory.
+  const joined = [
+    ...getJSONFilesUnderPath(collectionsPath),
+    ...getJSONFilesUnderPath(manifestsPath),
+  ];
+
+  return joined.reduce(
     (meta, item) => {
-      const [pathname, context] = getManifestContext(item);
+      let [pathname, context] = getManifestContext(item);
+      // There are some collection specifications in the collection files, we want to make
+      // sure that a page won't be generated for these, but we do want the objects within
+      // the collections files.
+      if (context.type !== 'Manifest') {
+        return meta;
+      }
+      pathname = pathname.replace('collections/', 'objects/');
       meta.pages[pathname] = {
         path: pathname,
         component: manifestTemplate,
         context,
       };
-
       // TODO: cover image if defined, first canvas thumbnail as fall-back,
       // than first canvas image fallback...
       meta.thumbnails[pathname] = getManifestThumbnail(context);
@@ -288,10 +378,6 @@ exports.createPages = ({ actions, graphql }) => {
   const publicationsTemplate = path.resolve(
     `src/pages/Publications/Publications.js`
   );
-
-  // console.log(JSON.stringify(exhibitionMeta.annotationsPartOfExhibition, null, 2));
-  // console.log(JSON.stringify(objectMeta.annotationsPartOfObjects, null, 2));
-  // console.log(JSON.stringify(collectionMeta.objectInCollections, null, 2));
 
   return graphql(`
     {
