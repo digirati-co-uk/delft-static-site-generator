@@ -273,7 +273,7 @@ class ThinCanvasPanel extends React.Component {
           this.viewer.addTiledImage({
             tileSource: getTileSourceUrl(annotation.body.service),
             degrees: this.getRotation(annotation.body.id),
-            tileQuality: `${this.getQuality(annotation.body.id)}.`,
+            tileQuality: this.getQuality(annotation.body.id),
             ...computedImageCords,
             ...(crop
               ? {
