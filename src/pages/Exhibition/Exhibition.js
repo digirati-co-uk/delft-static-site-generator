@@ -214,12 +214,18 @@ class ExhibitionPage extends React.Component {
           if (EXHIBITION_BEHAVIOURS.indexOf(cls) === -1) {
             let newCls = cls;
             if (
-              (blockClasses.indexOf('bottom') !== -1 || blockClasses.indexOf('column') !== -1) &&
+              (blockClasses.indexOf('bottom') !== -1 ||
+                blockClasses.indexOf('column') !== -1) &&
               cls.indexOf('h-') === 0
             ) {
               newCls = `h-${Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
             }
-            if (blockClasses.indexOf('row') !== -1 && cls.indexOf('w-') === 0) {
+            if (
+              (blockClasses.indexOf('left') !== -1 ||
+                blockClasses.indexOf('row') !== -1 ||
+                blockClasses.indexOf('right') !== -1) &&
+              cls.indexOf('w-') === 0
+            ) {
               newCls = `w-${Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
             }
             textClasses.push(newCls);
