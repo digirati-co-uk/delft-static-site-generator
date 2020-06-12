@@ -306,14 +306,19 @@ class ExhibitionPage extends React.Component {
                         .map(paragraph => (
                           <p key={`about__${idx}`}>{paragraph}</p>
                         ))}
-                      <p>
-                        <button
-                          className="readmore"
-                          onClick={this.showCanvasDetails(canvas)}
-                        >
-                          Read More
-                        </button>
-                      </p>
+                      {translate(canvas.summary, pageLanguage, '\n').split('\n')
+                        .length > 1 ? (
+                        <p>
+                          <button
+                            className="readmore"
+                            onClick={this.showCanvasDetails(canvas)}
+                          >
+                            Read More
+                          </button>
+                        </p>
+                      ) : (
+                        ''
+                      )}
                     </div>
                   </div>
                 ) : (
