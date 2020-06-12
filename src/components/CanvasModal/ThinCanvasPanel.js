@@ -166,12 +166,12 @@ class ThinCanvasPanel extends React.Component {
 
   convertCoordsToViewportRelative = (bounds, viewportSize) => ({
     x: (bounds.x || 0) / viewportSize.width,
-    y: (bounds.y || 0) / viewportSize.height,
+    y: (bounds.y || 0) / viewportSize.width,
     width: viewportSize.width
       ? (bounds.width || viewportSize.width) / viewportSize.width
       : 1,
     height: viewportSize.height
-      ? (bounds.height || viewportSize.height) / viewportSize.height
+      ? (bounds.height || viewportSize.height) / viewportSize.width
       : 1,
   });
 
