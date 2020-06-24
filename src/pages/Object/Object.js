@@ -4,7 +4,7 @@ import Layout from '../../components/Layout/layout';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
-import { Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
 import DynamicSlideShow from '../../components/SlideShow/dynamic-slideshow';
 
@@ -20,10 +20,31 @@ class ObjectPage extends React.Component {
 
   componentDidMount() {
     const { pageContext } = this.props;
+    const allPublications = this.props.data.allMarkdownRemark.edges;
+    const allIllustrations = this.props.data.allSitePage.nodes;
     this.setState({
       renderSlideShow: <DynamicSlideShow context={pageContext} />,
     });
+
+    const publications = this.getRelatedPublications(
+      allPublications,
+      allIllustrations
+    );
+    console.log(publications);
   }
+
+  getRelatedPublications = (allPub, allIll) => {
+    //first get the ids of the illustions from the illustrations
+    const illustationIds = allIll.map(illustration => {
+      console.log(illustration);
+      return {
+        path: illustration.path,
+      };
+    });
+    console.log(this.props);
+    console.log(allIll);
+    return [];
+  };
 
   getPageMetaData = () => {
     const id =
@@ -90,6 +111,18 @@ class ObjectPage extends React.Component {
                   ))}
                 </ol>
               </div>
+              <div className="block info cutcorners w-4 h-4 ">
+                <div className="boxtitle">Part of Publications</div>
+                <ol>
+                  {(pageContext.exhibitions || []).map(exhibition => (
+                    <li key={`/${pageLanguage}/${exhibition[1]}`}>
+                      <Link to={`/${pageLanguage}/${exhibition[1]}`}>
+                        {translate(exhibition[2], pageLanguage)}
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+              </div>
             </aside>
             <article className="w-8 block--align-right">
               <div className="w-7">
@@ -137,6 +170,33 @@ class ObjectPage extends React.Component {
     );
   }
 }
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/publications/" } }
+    ) {
+      edges {
+        node {
+          id
+          fileAbsolutePath
+          rawMarkdownBody
+        }
+      }
+    }
+    allSitePage(filter: { context: {}, path: { regex: "/illustrations/" } }) {
+      nodes {
+        path
+        context {
+          items {
+            id
+          }
+          id
+        }
+      }
+    }
+  }
+`;
 
 ObjectPage.propTypes = {
   pageContext: PropTypes.object.isRequired,

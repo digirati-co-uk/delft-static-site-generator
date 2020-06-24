@@ -294,11 +294,14 @@ const createObjectPages = () => {
   const manifestTemplate = path.resolve(`src/pages/Object/Object.js`);
   const collectionsPath = './content/collections';
   const manifestsPath = './content/objects';
+  const illustrationsPath = './content/illustrations';
+
   // We want to create objects for the manifests which are detailed within the objects directory,
   // but also those which are within the collections directory.
   const joined = [
     ...getJSONFilesUnderPath(collectionsPath),
     ...getJSONFilesUnderPath(manifestsPath),
+    ...getJSONFilesUnderPath(illustrationsPath),
   ];
 
   return joined.reduce(
