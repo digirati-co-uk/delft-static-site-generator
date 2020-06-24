@@ -45,72 +45,43 @@ const getTileSourceUrl = service => {
   return ensureInfoJson(service.id);
 };
 
-const parseVideo = url => {
-  // - Supported YouTube URL formats:
-  //   - http://www.youtube.com/watch?v=My2FRPA3Gf8
-  //   - http://youtu.be/My2FRPA3Gf8
-  //   - https://youtube.googleapis.com/v/My2FRPA3Gf8
-  // - Supported Vimeo URL formats:
-  //   - http://vimeo.com/25451551
-  //   - http://player.vimeo.com/video/25451551
-  // - Also supports relative URLs:
-  //   - //player.vimeo.com/video/25451551
-
-  url.match(
-    /(http:|https:|)\/\/(player.|www.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com)|dailymotion.com)\/(video\/|embed\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(&\S+)?/
-  );
-
-  if (RegExp.$3.indexOf('youtu') > -1) {
-    return {
-      type: 'youtube',
-      id: RegExp.$6,
-      src: `//www.youtube.com/embed/${RegExp.$6}`,
-      thumbnail: `//img.youtube.com/vi/${RegExp.$6}/maxresdefault.jpg`,
-    };
+const createVideo = body => {
+  let url = body.id;
+  if (body.id.includes('youtu.be') || body.id.includes('youtube')) {
+    url = url.replace('watch', 'embed');
+    url = url.replace('youtube', 'youtube.com/embed');
+    url = url.replace('youtu.be', 'youtube.com/embed');
+    url =
+      url +
+      `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
+        body.selector.value.split('t=')[1].split(',')[1]
+      }`;
+    url = url + '&modestbranding=1?rel=0';
   }
-  if (RegExp.$3.indexOf('vimeo') > -1) {
-    return {
-      type: 'vimeo',
-      id: RegExp.$6,
-      src: `//player.vimeo.com/video/${RegExp.$6}`,
-      thumbnail: cb => {
-        fetch(`http://vimeo.com/api/v2/video/${RegExp.$6}.json`)
-          .then(response => response.json())
-          .then(data => cb(data[0].thumbnail_large));
-      },
-    };
+  if (body.id.includes('vimeo')) {
+    url = url.replace('vimeo.com', 'player.vimeo.com/video');
+    if (body.selector && body.selector.value.includes('t=')) {
+      url = url + `#${body.selector.value.split(',')[0]}`;
+    }
   }
-  if (RegExp.$3.indexOf('dailymotion.com') > -1) {
-    return {
-      type: 'dailymotion',
-      id: RegExp.$6,
-      src: `//www.dailymotion.com/embed/video/${RegExp.$6}`,
-      thumbnail: `//www.dailymotion.com/thumbnail/video/${RegExp.$6}`,
-    };
-  }
-};
 
-const createVideo = url => {
-  const element = document.createElement('div');
-  const videoServiceResult = parseVideo(url);
-
-  if (videoServiceResult && videoServiceResult.type) {
-    element.innerHTML = (
+  return (
+    <div>
       <iframe
-        src={videoServiceResult.src}
-        class="canvas-panel__video-styles"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        crossorigin="anonymous"
+        src={url}
         width="100%"
-        height="100%"
-        webkitallowfullscreen="true"
-        mozallowfullscreen="true"
+        height="80%"
+        crossOrigin="anonymous"
+        type="text/html"
+        style={{
+          width: '100%',
+          height: '100%',
+          position: 'absolute',
+          paddingTop: '5%',
+        }}
       />
-    );
-  } else {
-    element.innerHTML = `<video autoplay controls><source src="${url}" class="canvas-panel__video-styles"style="" /></video>`;
-  }
-  return element;
+    </div>
+  );
 };
 
 const createText = (text, active) => {
@@ -126,6 +97,7 @@ class ThinCanvasPanel extends React.Component {
   constructor(props) {
     super(props);
     this.id = this.props.currentNavItem;
+    this.state = { video: false };
   }
 
   componentDidUpdate(prevProps) {
@@ -288,16 +260,7 @@ class ThinCanvasPanel extends React.Component {
           });
           break;
         case 'Video':
-          this.viewer.addOverlay(
-            createVideo(annotation.body.id),
-            new OpenSeadragon.Rect(
-              coords.x,
-              coords.y,
-              coords.width,
-              coords.height,
-              0
-            )
-          );
+          this.setState({ video: true });
           break;
         case 'TextualBody':
         default:
@@ -333,16 +296,20 @@ class ThinCanvasPanel extends React.Component {
   render() {
     return (
       <ContainerDimensions>
-        {({ width, height }) => (
-          <div
-            id={this.id}
-            ref={this.setViewerRef}
-            style={{
-              width,
-              height,
-            }}
-          />
-        )}
+        {({ width, height }) =>
+          this.state.video ? (
+            createVideo(this.annotations[0].body)
+          ) : (
+            <div
+              id={this.id}
+              ref={this.setViewerRef}
+              style={{
+                width,
+                height,
+              }}
+            />
+          )
+        }
       </ContainerDimensions>
     );
   }

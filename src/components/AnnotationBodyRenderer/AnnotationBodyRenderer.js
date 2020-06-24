@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 const filterToPreferredChoices = (choices, pageLanguage = 'en') =>
@@ -102,6 +102,7 @@ IIIFImageAnnotationCover.defaultProps = {
 };
 
 const IIIFVideoAnnotationCover = ({ body, position }) => {
+  const [imageUrl, setImageUrl] = useState(body.id);
   let url = body.id;
   if (body.id.includes('youtu.be') || body.id.includes('youtube')) {
     url = url.replace('watch', 'embed');
@@ -112,28 +113,27 @@ const IIIFVideoAnnotationCover = ({ body, position }) => {
       `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
         body.selector.value.split('t=')[1].split(',')[1]
       }`;
+    setImageUrl(
+      `https://img.youtube.com/vi/${url.split('/')[4].split('?')[0]}/0.jpg`
+    );
   }
   if (body.id.includes('vimeo')) {
     url = url.replace('vimeo.com', 'player.vimeo.com/video');
     if (body.selector && body.selector.value.includes('t=')) {
       url = url + `#${body.selector.value.split(',')[0]}`;
     }
+    fetch(
+      `https://vimeo.com/api/oembed.json?url=https%3A//vimeo.com/${
+        url.split('/')[4].split('#')[0]
+      }&width=480&height=360`
+    )
+      .then(response => response.json())
+      .then(data => setImageUrl(data.thumbnail_url));
   }
 
   return (
     <div style={position}>
-      <iframe
-        src={url}
-        width="100%"
-        height="100%"
-        crossOrigin="anonymous"
-        type="text/html"
-        style={{
-          width: '100%',
-          height: '100%',
-          // objectFit: 'cover'
-        }}
-      />
+      <img src={imageUrl}></img>
     </div>
   );
 };
