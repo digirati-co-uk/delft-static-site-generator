@@ -56,10 +56,7 @@ const IIIFImageAnnotationCover = ({
       <img
         src={body.id.replace(
           '/full/0/default.jpg',
-          `/!${parseInt(canvasPhysicalSize.width, 10)},${parseInt(
-            canvasPhysicalSize.height,
-            10
-          )}/0/default.jpg`
+          `/!1000,1000/0/default.jpg`
         )}
         style={position}
         alt={body.id}
