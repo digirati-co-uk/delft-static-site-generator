@@ -31,8 +31,9 @@ const getThumbnails = manifest => {
       ? manifest.items[0].items[0].items
       : [];
   const thumbnails = items.map(item => {
-    if (item && item.thumbnail[0] && item.thumbnail[0].id)
+    if (item && item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id) {
       return item.thumbnail[0].id;
+    }
   });
   return thumbnails;
 };
@@ -76,7 +77,9 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
 
   useEffect(() => {
     const manifest = fetchDataFromFile(source);
-    setLabel(manifest.label[pageLanguage]);
+    if (manifest.label) {
+      setLabel(manifest.label[pageLanguage]);
+    }
     //thumbnails from the manifest
     setIiifManifest(manifest);
 

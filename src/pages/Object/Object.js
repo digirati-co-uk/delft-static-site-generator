@@ -4,7 +4,7 @@ import Layout from '../../components/Layout/layout';
 import GithubLink from '../../components/GithubLink/GithubLink';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
-import { Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
 import DynamicSlideShow from '../../components/SlideShow/dynamic-slideshow';
 
@@ -15,15 +15,47 @@ class ObjectPage extends React.Component {
     super(props);
     this.state = {
       renderSlideShow: 'Loading...',
+      publications: [],
+      id: this.props.pageContext.id,
     };
   }
 
   componentDidMount() {
     const { pageContext } = this.props;
+    const allPublications = this.props.data.allMarkdownRemark.edges;
+    const allIllustrations = this.props.data.allSitePage.nodes;
     this.setState({
       renderSlideShow: <DynamicSlideShow context={pageContext} />,
     });
+
+    const publications = this.getRelatedPublications(
+      allPublications,
+      allIllustrations
+    );
+    this.setState({ publications: publications });
   }
+
+  getRelatedPublications = (allPub, allIll) => {
+    //first get the ids of the illustion id from the illustrations
+    const illustationIds = allIll
+      .filter(illustration => {
+        if (illustration.context.id === this.state.id) {
+          return illustration;
+        }
+      })
+      .map(illus => illus.path.split('/').pop());
+
+    const publications = allPub
+      .filter(publication => {
+        if (publication.node && publication.node.rawMarkdownBody) {
+          return illustationIds.some(path =>
+            publication.node.rawMarkdownBody.includes(path)
+          );
+        }
+      })
+      .map(publication => publication.node.frontmatter.path);
+    return publications;
+  };
 
   getPageMetaData = () => {
     const id =
@@ -90,6 +122,24 @@ class ObjectPage extends React.Component {
                   ))}
                 </ol>
               </div>
+              <div className="block info cutcorners w-4 h-4 ">
+                <div className="boxtitle">Part of Publications</div>
+                <ol>
+                  {(this.state.publications || []).map(publication => (
+                    <li key={publication}>
+                      <Link
+                        to={publication}
+                        style={{ textTransform: 'capitalize' }}
+                      >
+                        {publication
+                          .split('/')
+                          .pop()
+                          .replace('-', ' ')}
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+              </div>
             </aside>
             <article className="w-8 block--align-right">
               <div className="w-7">
@@ -137,6 +187,34 @@ class ObjectPage extends React.Component {
     );
   }
 }
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/publications/" } }
+    ) {
+      edges {
+        node {
+          rawMarkdownBody
+          frontmatter {
+            path
+          }
+        }
+      }
+    }
+    allSitePage(filter: { context: {}, path: { regex: "/illustrations/" } }) {
+      nodes {
+        path
+        context {
+          items {
+            id
+          }
+          id
+        }
+      }
+    }
+  }
+`;
 
 ObjectPage.propTypes = {
   pageContext: PropTypes.object.isRequired,
