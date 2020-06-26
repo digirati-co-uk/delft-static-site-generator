@@ -472,7 +472,6 @@ h6 {
 .caption,
 .boxtitle {
   font-family: 'f-mono';
-  text-align: center;
 }
 
 a,
@@ -547,6 +546,24 @@ $width: 1rem; // width of the chamfered edges
 .blocks {
   margin: 1rem auto;
 
+  .left {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .info {
+      display: block;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: row;
+
+    .info {
+      display: block;
+    }
+  }
+
   @media #{$medium-up} {
     display: grid;
     grid-template-columns: repeat(12, #{$gw});
@@ -571,18 +588,9 @@ $width: 1rem; // width of the chamfered edges
       max-width: 30rem;
       margin: 0 auto;
     }
-  }
-
-  .left {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .right {
-    display: flex;
-    flex-direction: row;
-    .info {
-      display: block;
+    .left {
+      display: flex;
+      flex-direction: column-reverse;
     }
   }
 
@@ -681,11 +689,11 @@ $width: 1rem; // width of the chamfered edges
 
       // caption and image changes order on desktop
       // this way the order remains on mobile
-      &.row.caption-left {
+      &.caption-left {
         flex-direction: row-reverse;
       }
 
-      &.row.left {
+      &.left {
         flex-direction: row-reverse;
       }
 
