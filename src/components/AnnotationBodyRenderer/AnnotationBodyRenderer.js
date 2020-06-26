@@ -104,9 +104,12 @@ const IIIFVideoAnnotationCover = ({ body, position }) => {
 
   useEffect(() => {
     if (body.id.includes('youtu.be') || body.id.includes('youtube')) {
-      url = url.replace('watch', 'embed');
-      url = url.replace('youtube', 'youtube.com/embed');
-      url = url.replace('youtu.be', 'youtube.com/embed');
+      if (url.includes('watch')) {
+        url = url.replace('watch?v=', 'embed/');
+      } else {
+        url = url.replace('youtube', 'youtube.com/embed');
+        url = url.replace('youtu.be', 'youtube.com/embed');
+      }
       if (body.selector && body.selector.value.includes('t=')) {
         url =
           url +
