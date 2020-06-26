@@ -188,7 +188,6 @@ class ExhibitionPage extends React.Component {
             }
             textClasses.push(newCls);
           }
-          console.log(textClasses);
           return textClasses;
         },
         ['block', 'image', 'cutcorners']
