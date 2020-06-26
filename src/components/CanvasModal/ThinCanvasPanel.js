@@ -48,15 +48,19 @@ const getTileSourceUrl = service => {
 const createVideo = body => {
   let url = body.id;
   if (body.id.includes('youtu.be') || body.id.includes('youtube')) {
-    url = url.replace('watch', 'embed');
-    url = url.replace('youtube', 'youtube.com/embed');
-    url = url.replace('youtu.be', 'youtube.com/embed');
-    url =
-      url +
-      `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
-        body.selector.value.split('t=')[1].split(',')[1]
-      }`;
-    url = url + '&modestbranding=1?rel=0';
+    if (url.includes('watch')) {
+      url = url.replace('watch?v=', 'embed/');
+    } else {
+      url = url.replace('youtube', 'youtube.com/embed');
+      url = url.replace('youtu.be', 'youtube.com/embed');
+    }
+    if (body.selector && body.selector.value.includes('t=')) {
+      url =
+        url +
+        `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
+          body.selector.value.split('t=')[1].split(',')[1]
+        }`;
+    }
   }
   if (body.id.includes('vimeo')) {
     url = url.replace('vimeo.com', 'player.vimeo.com/video');
@@ -64,7 +68,6 @@ const createVideo = body => {
       url = url + `#${body.selector.value.split(',')[0]}`;
     }
   }
-
   return (
     <div>
       <iframe
@@ -78,6 +81,7 @@ const createVideo = body => {
           height: '100%',
           position: 'absolute',
           paddingTop: '5%',
+          border: 'none',
         }}
       />
     </div>
