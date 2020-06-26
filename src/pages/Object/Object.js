@@ -15,6 +15,8 @@ class ObjectPage extends React.Component {
     super(props);
     this.state = {
       renderSlideShow: 'Loading...',
+      publications: [],
+      id: this.props.pageContext.id,
     };
   }
 
@@ -30,20 +32,29 @@ class ObjectPage extends React.Component {
       allPublications,
       allIllustrations
     );
-    console.log(publications);
+    this.setState({ publications: publications });
   }
 
   getRelatedPublications = (allPub, allIll) => {
-    //first get the ids of the illustions from the illustrations
-    const illustationIds = allIll.map(illustration => {
-      console.log(illustration);
-      return {
-        path: illustration.path,
-      };
-    });
-    console.log(this.props);
-    console.log(allIll);
-    return [];
+    //first get the ids of the illustion id from the illustrations
+    const illustationIds = allIll
+      .filter(illustration => {
+        if (illustration.context.id === this.state.id) {
+          return illustration;
+        }
+      })
+      .map(illus => illus.path.split('/').pop());
+
+    const publications = allPub
+      .filter(publication => {
+        if (publication.node && publication.node.rawMarkdownBody) {
+          return illustationIds.some(path =>
+            publication.node.rawMarkdownBody.includes(path)
+          );
+        }
+      })
+      .map(publication => publication.node.frontmatter.path);
+    return publications;
   };
 
   getPageMetaData = () => {
@@ -114,10 +125,16 @@ class ObjectPage extends React.Component {
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="boxtitle">Part of Publications</div>
                 <ol>
-                  {(pageContext.exhibitions || []).map(exhibition => (
-                    <li key={`/${pageLanguage}/${exhibition[1]}`}>
-                      <Link to={`/${pageLanguage}/${exhibition[1]}`}>
-                        {translate(exhibition[2], pageLanguage)}
+                  {(this.state.publications || []).map(publication => (
+                    <li key={publication}>
+                      <Link
+                        to={publication}
+                        style={{ textTransform: 'capitalize' }}
+                      >
+                        {publication
+                          .split('/')
+                          .pop()
+                          .replace('-', ' ')}
                       </Link>
                     </li>
                   ))}
@@ -178,9 +195,10 @@ export const query = graphql`
     ) {
       edges {
         node {
-          id
-          fileAbsolutePath
           rawMarkdownBody
+          frontmatter {
+            path
+          }
         }
       }
     }
