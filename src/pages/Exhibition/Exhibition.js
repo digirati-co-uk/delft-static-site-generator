@@ -179,8 +179,16 @@ class ExhibitionPage extends React.Component {
               newCls = `w-${parseInt(cls.substr(2), 10) -
                 Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
             }
+            if (
+              blockClasses.indexOf('left') !== -1 &&
+              cls.indexOf('w-') === 0
+            ) {
+              newCls = `w-${parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
+            }
             textClasses.push(newCls);
           }
+          console.log(textClasses);
           return textClasses;
         },
         ['block', 'image', 'cutcorners']
