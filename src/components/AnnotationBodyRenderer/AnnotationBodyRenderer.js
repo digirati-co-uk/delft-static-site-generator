@@ -107,11 +107,13 @@ const IIIFVideoAnnotationCover = ({ body, position }) => {
       url = url.replace('watch', 'embed');
       url = url.replace('youtube', 'youtube.com/embed');
       url = url.replace('youtu.be', 'youtube.com/embed');
-      url =
-        url +
-        `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
-          body.selector.value.split('t=')[1].split(',')[1]
-        }`;
+      if (body.selector && body.selector.value.includes('t=')) {
+        url =
+          url +
+          `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
+            body.selector.value.split('t=')[1].split(',')[1]
+          }`;
+      }
       setImageUrl(
         `https://img.youtube.com/vi/${
           url.split('/')[4].split('?')[0]

@@ -51,12 +51,13 @@ const createVideo = body => {
     url = url.replace('watch', 'embed');
     url = url.replace('youtube', 'youtube.com/embed');
     url = url.replace('youtu.be', 'youtube.com/embed');
-    url =
-      url +
-      `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
-        body.selector.value.split('t=')[1].split(',')[1]
-      }`;
-    url = url + '&modestbranding=1?rel=0';
+    if (body.selector && body.selector.value.includes('t=')) {
+      url =
+        url +
+        `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
+          body.selector.value.split('t=')[1].split(',')[1]
+        }`;
+    }
   }
   if (body.id.includes('vimeo')) {
     url = url.replace('vimeo.com', 'player.vimeo.com/video');
