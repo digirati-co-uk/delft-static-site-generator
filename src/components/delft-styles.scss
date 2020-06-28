@@ -550,6 +550,7 @@ $width: 1rem; // width of the chamfered edges
   .left {
     display: flex;
     flex-direction: row-reverse;
+
     .caption {
       text-align: left;
     }
@@ -595,7 +596,11 @@ $width: 1rem; // width of the chamfered edges
 
     .left {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
     }
   }
 
@@ -702,7 +707,6 @@ $width: 1rem; // width of the chamfered edges
       &.left {
         flex-direction: row-reverse;
         text-align: left;
-
       }
 
       &.column {
@@ -773,7 +777,7 @@ $width: 1rem; // width of the chamfered edges
     transform: rotate(180deg);
 
     @media #{$small-down} {
-      transform: rotate(270deg);
+      transform: rotate(90deg);
     }
   }
 }
