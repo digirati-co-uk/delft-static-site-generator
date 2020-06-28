@@ -39,9 +39,9 @@ const getThumbnails = manifest => {
 };
 
 const getGraphThumbnail = node => {
-  if (!node.items) return [];
+  if (!node || !node.items) return [];
   let thumbnails = node && node.items ? node.items : [];
-  thumbnails = thumbnails.map(item => {
+  thumbnails = (thumbnails || []).map(item => {
     if (item && item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id)
       return item.thumbnail[0].id;
   });
