@@ -186,6 +186,20 @@ class ExhibitionPage extends React.Component {
               newCls = `w-${parseInt(cls.substr(2), 10) -
                 Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
             }
+            if (
+              blockClasses.indexOf('right') !== -1 &&
+              cls.indexOf('w-') === 0
+            ) {
+              newCls = `w-${parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
+            }
+            if (
+              blockClasses.indexOf('bottom') !== -1 &&
+              cls.indexOf('h-') === 0
+            ) {
+              newCls = `h-${parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
+            }
             textClasses.push(newCls);
           }
           return textClasses;

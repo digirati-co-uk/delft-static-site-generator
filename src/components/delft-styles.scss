@@ -472,6 +472,7 @@ h6 {
 .caption,
 .boxtitle {
   font-family: 'f-mono';
+  text-align: center;
 }
 
 a,
@@ -549,6 +550,9 @@ $width: 1rem; // width of the chamfered edges
   .left {
     display: flex;
     flex-direction: row-reverse;
+    .caption {
+      text-align: left;
+    }
 
     .info {
       display: block;
@@ -588,6 +592,7 @@ $width: 1rem; // width of the chamfered edges
       max-width: 30rem;
       margin: 0 auto;
     }
+
     .left {
       display: flex;
       flex-direction: column-reverse;
@@ -691,10 +696,13 @@ $width: 1rem; // width of the chamfered edges
       // this way the order remains on mobile
       &.caption-left {
         flex-direction: row-reverse;
+        text-align: left;
       }
 
       &.left {
         flex-direction: row-reverse;
+        text-align: left;
+
       }
 
       &.column {
