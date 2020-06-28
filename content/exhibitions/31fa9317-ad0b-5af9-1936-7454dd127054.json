@@ -3597,7 +3597,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/textualbody/39b9e705-4647-9d3e-e246-9b136140e86f"
               },
               "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/cf9e7918-2c15-5bbe-c82b-f2f27fdff064#xywh=157,138,149,262",
               "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/3e30f171-f73a-304d-fb57-b06ecaff3886",
@@ -3609,7 +3610,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/textualbody/2b7fc87d-9386-bdd7-a050-b468ccc39a0f"
               },
               "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/cf9e7918-2c15-5bbe-c82b-f2f27fdff064#xywh=440,140,152,257",
               "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/439f66af-5e42-aa78-774f-30f4477bef0b",
@@ -3621,7 +3623,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/textualbody/8c265f7e-1ed5-83d2-33c3-83e7f7fbf8ad"
               },
               "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/cf9e7918-2c15-5bbe-c82b-f2f27fdff064#xywh=151,495,152,261",
               "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/4f4e760b-beea-3fd5-4fa7-d9470de1e4bc",
@@ -3633,7 +3636,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/textualbody/a10a1e30-b7df-af5c-84a1-9c7352738fe8"
               },
               "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/cf9e7918-2c15-5bbe-c82b-f2f27fdff064#xywh=440,497,149,265",
               "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/8b3e7f29-32fc-c494-ab73-95bb4c2790d9",
@@ -3652,9 +3656,557 @@
       ],
       "summary": {
         "en": [
-          "This caption is too wide."
+          "Left caption"
         ]
       }
+    },
+    {
+      "label": {
+        "en": [
+          "Right caption"
+        ]
+      },
+      "height": 1000,
+      "width": 840,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3851,
+                "width": 3235,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3235,
+                  "height": 3851,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 860,
+                      "height": 1024
+                    },
+                    {
+                      "width": 336,
+                      "height": 400
+                    },
+                    {
+                      "width": 168,
+                      "height": 200
+                    },
+                    {
+                      "width": 84,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 860,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 860,
+                        "height": 1024
+                      },
+                      {
+                        "width": 336,
+                        "height": 400
+                      },
+                      {
+                        "width": 168,
+                        "height": 200
+                      },
+                      {
+                        "width": 84,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/1376d93e-2350-2111-1fda-0ccdc092f6c0",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/cbaab084-506c-bd16-a092-43f443153f50#xywh=0,0,840,1000"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/0556abfc-8223-2fc3-1f58-498e2541b115"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/cbaab084-506c-bd16-a092-43f443153f50",
+      "summary": {
+        "en": [
+          "Summary text"
+        ]
+      },
+      "behavior": [
+        "right",
+        "w-12",
+        "h-12"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Bottom caption"
+        ]
+      },
+      "height": 1000,
+      "width": 840,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3851,
+                "width": 3235,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3235,
+                  "height": 3851,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 860,
+                      "height": 1024
+                    },
+                    {
+                      "width": 336,
+                      "height": 400
+                    },
+                    {
+                      "width": 168,
+                      "height": 200
+                    },
+                    {
+                      "width": 84,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/6/0a80dbdb-7c6e-4ba0-ae1b-3f26c12ec4dc",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 860,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 860,
+                        "height": 1024
+                      },
+                      {
+                        "width": 336,
+                        "height": 400
+                      },
+                      {
+                        "width": 168,
+                        "height": 200
+                      },
+                      {
+                        "width": 84,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/708ecb49-408f-810c-3311-4a612b37aef8",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/83de1791-7a6c-05d6-b022-d008d844e048#xywh=0,0,840,1000"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/9e17ac8d-5602-22ec-6c06-9a6a2eeb6ea5"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/83de1791-7a6c-05d6-b022-d008d844e048",
+      "behavior": [
+        "bottom",
+        "w-12",
+        "h-12"
+      ],
+      "summary": {
+        "en": [
+          "Summary text"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Added mp4 vid to canvas"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://www.w3schools.com/html/mov_bbb.mp4",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/26e868f2-e1d3-1183-b5a3-b5ed94346e7c#xywh=0,0,320,176",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/f056f097-6335-a911-65de-1995fbca9b81",
+              "motivation": "painting"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/9b22881f-c075-50b1-ed0c-6e9ea4cd8093"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/26e868f2-e1d3-1183-b5a3-b5ed94346e7c",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Added YouTube to canvas"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://youtu.be/F7zjI9Oe79c",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/5980bebc-e40f-2bf3-b47e-06e829849c92#xywh=0,0,320,176",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/0bb560b3-09f4-9228-72a7-6364ece3de08",
+              "motivation": "painting"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/95679285-e173-06fd-ff10-1af41b6f6bd9"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/5980bebc-e40f-2bf3-b47e-06e829849c92",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Added Vimeo to canvas"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://vimeo.com/428857084",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/51f78219-34d5-d2be-14da-7cd240433481#xywh=0,0,320,176",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/e807cbe6-c438-c6c0-0f0b-407a82559652",
+              "motivation": "painting"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/60a09b8c-27eb-bdc6-f2b6-a22558194f9d"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/51f78219-34d5-d2be-14da-7cd240433481",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Fit canvas to content"
+        ]
+      },
+      "height": 176,
+      "width": 320,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://www.w3schools.com/html/mov_bbb.mp4",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/8582f314-dc99-4006-054d-41d34ccf77a0#xywh=0,0,320,176",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/3c6ad16c-eee1-6975-fc95-c237af0bdc9d",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Title"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Summary"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/bee81ea4-8399-1b73-926f-0185fe234f32"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/8582f314-dc99-4006-054d-41d34ccf77a0",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Fit canvas to content"
+        ]
+      },
+      "height": 176,
+      "width": 320,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://youtu.be/F7zjI9Oe79c",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/65c9fd52-aa89-7e65-c4be-ff689954b376#xywh=0,0,320,176",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/be75bb2f-63a3-3b40-7575-6e14922375af",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Title"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Summary"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/9e6d8f85-6860-98d2-3e9c-5e57806c8ee9"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/65c9fd52-aa89-7e65-c4be-ff689954b376",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Fit canvas to content"
+        ]
+      },
+      "height": 176,
+      "width": 320,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://vimeo.com/428857084",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/f892fdba-c382-bd3e-c6db-fc52e4da522c#xywh=0,0,320,176",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/annotation/b27c4d75-9f34-bb07-ae16-330f3d35ee5a",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Title"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Summary"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/list/8602bce8-acea-70dd-1f21-ef6814a8ee27"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/canvas/f892fdba-c382-bd3e-c6db-fc52e4da522c",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
     }
   ],
   "id": "https://delft-static-site-generator.netlify.com/iiif/31fa9317-ad0b-5af9-1936-7454dd127054/manifest"
