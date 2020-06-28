@@ -327,8 +327,7 @@ class ExhibitionPage extends React.Component {
                         .map(paragraph => (
                           <p key={`about__${idx}`}>{paragraph}</p>
                         ))}
-                      {translate(canvas.summary, pageLanguage, '\n').split('\n')
-                        .length > 1 ? (
+                      {
                         <p>
                           <button
                             className="readmore"
@@ -337,9 +336,7 @@ class ExhibitionPage extends React.Component {
                             Read More
                           </button>
                         </p>
-                      ) : (
-                        ''
-                      )}
+                      }
                     </div>
                   </div>
                 ) : (
