@@ -11,6 +11,10 @@ title: "Exhibitions"
 <div class="blocks">
 <div class="block tint yellow cutcorners w-4 h-4 image">
 
+[Corona Chronicles](/en/exhibitions/e2f2489c-abe1-3470-9f6e-eae22c250904)
+</div>
+<div class="block tint yellow cutcorners w-4 h-4 image">
+
 [Aspect ratio](/en/exhibitions/31fa9317-ad0b-5af9-1936-7454dd127054)
 </div>
 <div class="block tint yellow cutcorners w-4 h-4 image">
