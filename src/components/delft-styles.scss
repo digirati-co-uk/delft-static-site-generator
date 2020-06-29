@@ -472,6 +472,7 @@ h6 {
 .caption,
 .boxtitle {
   font-family: 'f-mono';
+  text-align: center;
 }
 
 a,
@@ -550,6 +551,10 @@ $width: 1rem; // width of the chamfered edges
     display: flex;
     flex-direction: row-reverse;
 
+    .caption {
+      text-align: left;
+    }
+
     .info {
       display: block;
     }
@@ -588,9 +593,15 @@ $width: 1rem; // width of the chamfered edges
       max-width: 30rem;
       margin: 0 auto;
     }
+
     .left {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
     }
   }
 
@@ -653,7 +664,7 @@ $width: 1rem; // width of the chamfered edges
       vertical-align: bottom;
       width: 100%;
       height: 100%;
-      object-fit: fill;
+      object-fit: cover;
       position: absolute;
     }
 
@@ -691,10 +702,22 @@ $width: 1rem; // width of the chamfered edges
       // this way the order remains on mobile
       &.caption-left {
         flex-direction: row-reverse;
+        text-align: left;
       }
 
       &.left {
         flex-direction: row-reverse;
+        text-align: left;
+
+        img {
+          object-fit: unset;
+        }
+      }
+
+      &.right {
+        img {
+          object-fit: unset;
+        }
       }
 
       &.column {
@@ -765,7 +788,7 @@ $width: 1rem; // width of the chamfered edges
     transform: rotate(180deg);
 
     @media #{$small-down} {
-      transform: rotate(270deg);
+      transform: rotate(90deg);
     }
   }
 }
