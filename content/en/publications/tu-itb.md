@@ -34,7 +34,7 @@ Since 1908, Van Iterson had advocated for a laboratory for technical botany at D
 
 As we have seen, growing attention was being given to colonial engineering at Delft technical college in the first decades of the 20th century. At the same time, the call for new engineers in the East Indies persisted. From an unexpected quarter, plans started to emerge to found a technical college in the East Indies.
 
-## A technical college in the East Indies?
+## A technical college in the East Indies
 Since 1910, plans had existed to found a university or technical college in the Dutch East Indies. The ‘Indische Universiteits­vereniging’ lobbied for the founding (and funding) of an institute of higher education. The Dutch minister of education torpedoed these plans in 1915, mainly because he expected too few students to enroll.[^10]
 
 But already in 1917 the plans resurfaced, instigated by a visit to the Netherlands by a delegation of the Indonesian popular movement ‘Indië Weerbaar’. Indië Weerbaar advocated an Indonesian armed force – with or without conscription – to defend the Indonesian Archipelago against possible invasion. It advocated a kind of local armed force, in addition to – or possibly within – the official Koninklijk Nederlandsch-Indisch Leger (KNIL). The delegation that visited the Netherlands was a very diverse group of people, with different backgrounds, visions and agendas. Not all of them advocated a purely military agenda; some supported education, hygiene and economic development, especially for Indonesians. The chairman of the Chamber of Commerce in Batavia led the delegation. Despite their internal differences, they got serious attention from the government in the Netherlands. The delegation presented a wish to found a technical college in the colony. The reasoning was that engineers trained in the Dutch East Indies were in high demand to develop a well-functioning infrastructure. This, of course, would also be of great importance to future military purposes.[^11]
@@ -97,7 +97,7 @@ On 2 March 1959, the government of Indonesia changed the technical faculty into 
 
 ## Further reading
 
-## Primary sources:
+Primary sources:
 - *De Technische Hogeschool te Bandung*, Landsdrukkerij, Weltevreden, 1920.
 - *Jaarboek der Technische Hogeschool te Bandoeng, 14e cursusjaar*, Bandung, Faculteit van Technische Wetenschap, August 1934.
 - *Jaarboek der Technische Hogeschool te Bandoeng, Lustrum-Uitgave 1935*, Bandung, Faculteit van Technische Wetenschap, August 1935.
@@ -114,7 +114,7 @@ On 2 March 1959, the government of Indonesia changed the technical faculty into 
 - National Archive, Den Haag, archive 2.21.305: *Archief van prof.dr. E.H.P. (Han) Baudet \[levensjaren 1919-1998], 1948-1998.*
 - National Archive, Den Haag, archive 4.KIVI: *Verzameling atlassen, kaarten, tekeningen, prenten en foto’s van het Koninklijk Instituut van Ingenieurs (KIVI) (1878-), over de periode 1606-1976.*
 
-## Secondary sources:
+Secondary sources:
 - Piet Baas, ‘Jan Klopper (1878-1966): ambitieuze tuinderzoon’, in: *West-Friesland’s “oud en nieuw”, 77e Jaarboek van Westfries Genootschap*, 2010, pp. 28-40.
 - Jan-Jacob Blussé van Oud-Alblas, *Missionaries of modernity: technocratic ideals of colonial engineers in the Netherlands Indies and the Philippines, 1900-1920*, Rutgers University, thesis, 2012.
 - Humphrey de la Croix, ‘Oorlog en Bersiap / Nederlands-Indië en de Eerste Wereldoorlog. Deel 2 De beweging “Indië Weerbaar”, het Comité “Indië Weerbaar” en de rol van Indo-officier W.V. Rhemrev’ on www.indischhistorisch.nl, visited 25 Feb. 2020.
@@ -142,28 +142,9 @@ On 2 March 1959, the government of Indonesia changed the technical faculty into 
 - Trudy van der Wees, *Het Groene Laboratorium*, Delft, Eburon Academic Publishers, 2017.
 
 ## Credits
-Published in 2020 by the Academic Heritage Team of Delft University of Technology Library on the occasion of the centenary of Institut Teknologi Bandung in Bandung, Indonesia.
+Translations and copy editing: Renuka Wikramasinha, Afterwords
 
-## Essay
-Abel Streefland, university historian, TU Delft Library
-
-## Translations and copy editing
-Renuka Wikramasinha, Afterwords
-
-## Thanks to
-Prasetyo Adhitama 
-Jan van Dullemen 
-Maurits Ertsen 
-Frida de Jong 
-Wouter Keller
-Jan Klopper (jr.)
-Krista Knopper
-Rikrik Kusmara
-Tita Larasati
-Wim Ravesteijn 
-Pauline van Roosmalen 
-Mo Smit
-Peter Wieringa
+Thanks to: Prasetyo Adhitama, Jan van Dullemen, Maurits Ertsen, Frida de Jong, Wouter Keller, Jan Klopper (jr.), Krista Knopper, Rikrik Kusmara, Tita Larasati, Wim Ravesteijn, Pauline van Roosmalen, Mo Smit, Peter Wieringa
 
 [^1]:	Jan Klopper, ‘Rede bij de opening der Hogeschool uitgesproken door den Rector-Magnificus’ in *De Technische Hogeschool te Bandung*, Landsdrukkerij, Weltevreden, 1920, on page 28. In Dutch: “Moge de Bandoengsche Hogeschool er in slagen, zich in de harten harer leerlingen dezelfde plaats te veroveren als de Delftsche dit deed en doet. Dames en Heeren studenten. De werkelijke bloei dezer Hogeschool ligt voor een groot deel in Uwe handen. […] Gij hebt U een studie gekozen, overal schoon, in dit land schooner dan ergens anders, Indië roept om werkers, die in zijn stoffelijke noorden kunnen voorzien; aan U de taak, mede te werken aan de economisch-onbegrensde ontwikkeling van dit heerlijk land; aan de Hogeschool, U daartoe voor te bereiden.”
 
