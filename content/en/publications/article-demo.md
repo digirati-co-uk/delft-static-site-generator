@@ -24,6 +24,11 @@ author: "Adam von Digirati"
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta pellentesque sem. Curabitur posuere nisl dui, in porta urna laoreet at. Duis in cursus orci. Suspendisse maximus dui at sollicitudin consequat. Vestibulum vitae lacus leo. Sed ac dui euismod, congue diam id, suscipit neque. Duis eu volutpat purus. Mauris vitae lobortis leo. Maecenas gravida iaculis tempus. Sed volutpat mollis consectetur. Maecenas velit felis, semper vel mollis rhoncus, iaculis vel urna. Morbi dui velit, dapibus ac sagittis ut, vehicula tincidunt turpis.
 
+<Illustration source="annotation.json"></Illustration>
+
+<Illustration source="cropped.json"></Illustration>
+
+<Illustration source="mixed-media.json"></Illustration>
 
 ## Supported Markdown Features
 
