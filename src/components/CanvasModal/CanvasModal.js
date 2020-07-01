@@ -217,6 +217,7 @@ class CanvasModal extends React.Component {
                         <div className="canvas-modal__nav">
                           <Link
                             to={
+                              '/' +
                               this.props.pageLanguage +
                               '/' +
                               detailsLink.replace('collections/', 'objects/') +
