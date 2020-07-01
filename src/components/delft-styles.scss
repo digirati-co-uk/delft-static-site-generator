@@ -80,23 +80,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
-}
-
-article.long {
-  ul,
-  ol {
-    font-size: 1.5rem;
-    @media #{$small-down} {
-      font-size:1.2rem;
-    }
-    line-height: 1.21;
-    &+p {
-      margin-top:1em;
-    }
-    // letter-spacing: 0.3px;
-  }
-
+  font-size: 1.7rem;
 }
 
 main {
@@ -116,6 +100,7 @@ main {
   .footnotes {
     padding: 0 2rem;
   }
+
 
   p {
     font-size: 1.5rem;
@@ -143,33 +128,15 @@ main {
     h6,
     &>p,
     .footnotes,
-   &>pre,
-   &>ol,
-   &>ul {
-    padding: 0;
-    max-width: 55rem;
-    margin-left:auto;
-    margin-right:auto;
-   }
-
-  }
-}
-
-article.long {
-  a {
-    font-family: 'f-regular', 'Courier New', Courier, monospace;
-    text-decoration: underline;
-    border:none;
-    color:#1d1c73;
-  }
-  ul,
-  ol {
-    li {
-      margin-left:2rem;
+    &>pre,
+    &>ol,
+    &>ul {
+      padding: 0;
+      max-width: 55rem;
+      margin-left: auto;
+      margin-right: auto;
     }
-    margin-bottom: 3rem;
   }
-
 }
 
 
