@@ -16,7 +16,7 @@ class ObjectPage extends React.Component {
     this.state = {
       renderSlideShow: 'Loading...',
       publications: [],
-      ids: this.props.pageContext.items.map(
+      ids: (this.props.pageContext.items || []).map(
         item => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
       ),
     };
