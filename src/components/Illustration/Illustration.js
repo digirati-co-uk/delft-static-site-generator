@@ -119,8 +119,9 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
 
   return (
     <>
-      <div className="cutcorners w-7 h-4">
+      <div>
         <img
+          className="cutcorners"
           style={{
             objectFit: 'cover',
             cursor: 'pointer',
@@ -131,7 +132,13 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
           onClick={() => setCanvasModal(true)}
         ></img>
       </div>
-      {label ? <div className="info cutcorners">{label}</div> : <></>}
+      {label ? (
+        <div className="info cutcorners" style={{ marginBottom: '24px' }}>
+          {label}
+        </div>
+      ) : (
+        <></>
+      )}
       {showCanvasModal ? (
         <DynamicCanvasModal
           manifest={iiifmanifest}
