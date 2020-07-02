@@ -130,7 +130,7 @@ class ThinCanvasPanel extends React.Component {
       visibilityRatio: 1,
       sequenceMode: false,
       toolbar: null,
-      showHomeControl: true,
+      showHomeControl: false,
       showZoomControl: false,
       showFullPageControl: false,
       showRotationControl: false,
