@@ -53,7 +53,12 @@ class ObjectPage extends React.Component {
           );
         }
       })
-      .map(publication => publication.node.frontmatter.path);
+      .map(publication => {
+        return {
+          title: publication.node.frontmatter.title,
+          path: publication.node.frontmatter.path,
+        };
+      });
     return publications;
   };
 
@@ -126,12 +131,12 @@ class ObjectPage extends React.Component {
                 <div className="boxtitle">Part of Publications</div>
                 <ol>
                   {(this.state.publications || []).map(publication => (
-                    <li key={publication}>
+                    <li key={publication.path}>
                       <Link
-                        to={publication}
+                        to={publication.path}
                         style={{ textTransform: 'capitalize' }}
                       >
-                        {publication
+                        {publication.title
                           .split('/')
                           .pop()
                           .replace('-', ' ')}
@@ -198,6 +203,7 @@ export const query = graphql`
           rawMarkdownBody
           frontmatter {
             path
+            title
           }
         }
       }
