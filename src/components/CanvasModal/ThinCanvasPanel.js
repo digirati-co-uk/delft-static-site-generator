@@ -107,7 +107,7 @@ class ThinCanvasPanel extends React.Component {
   componentDidUpdate(prevProps) {
     const { currentNavItem, canvas, displayType } = this.props;
     if (currentNavItem === -1) {
-      this.setCurrentNavitemFocus(canvas.id);
+      this.viewer.viewport.goHome(true);
     }
     if (
       currentNavItem !== prevProps.currentNavItem &&
@@ -130,7 +130,7 @@ class ThinCanvasPanel extends React.Component {
       visibilityRatio: 1,
       sequenceMode: false,
       toolbar: null,
-      showHomeControl: false,
+      showHomeControl: true,
       showZoomControl: false,
       showFullPageControl: false,
       showRotationControl: false,
@@ -152,24 +152,37 @@ class ThinCanvasPanel extends React.Component {
   });
 
   addCanvasBackground = async () => {
-    console.log(this.props.width);
-    console.log(this.props.height);
     await this.viewer.addTiledImage({
       tileSource: {
         width: this.props.width,
-        height: this.props.width,
+        height: this.props.height,
         tileSize: 256,
-        getTileUrl: () => {
-          return (
-            'data:image/svg+xml;base64,' +
-            btoa(`<?xml version="1.0" encoding="utf-8"?>\
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">\
-          <g>\
-            <rect x="0" y="0" style="fill:#FFFFFF;" width="256" height="256"/>\
-          </g>\
-        </svg>`)
-          );
-        },
+        //not converted to a string here as firefox can't handle it and it crashes the site
+        getTileUrl: () => (
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 256 256"
+            style="enable-background:new 0 0 256 256;"
+            space="preserve"
+          >
+            <g>
+              \
+              <rect
+                x="0"
+                y="0"
+                style="fill:#353535;"
+                width="256"
+                height="256"
+              />
+              \
+            </g>
+            \
+          </svg>
+        ),
       },
     });
   };
@@ -212,7 +225,8 @@ class ThinCanvasPanel extends React.Component {
   displayAnnotationsOnCanvas = () => {
     const { canvas } = this.props;
 
-    this.addCanvasBackground();
+    // svg layer is required if multiple annotations, but if one not necessary/messes up cropped annotations
+    if (this.props.navItems.length > 1) this.addCanvasBackground();
     this.annotations = this.props.getAnnotations();
 
     this.annotations.forEach(annotation => {
@@ -233,22 +247,7 @@ class ThinCanvasPanel extends React.Component {
             canvas
           );
           delete computedImageCords.height;
-          console.log({
-            tileSource: getTileSourceUrl(annotation.body.service),
-            // degrees: this.getRotation(annotation.body.id),
-            tileQuality: this.getQuality(annotation.body.id),
-            ...computedImageCords,
-            ...(crop
-              ? {
-                  clip: new OpenSeadragon.Rect(
-                    crop.x,
-                    crop.y,
-                    crop.width,
-                    crop.height
-                  ),
-                }
-              : {}),
-          });
+
           this.viewer.addTiledImage({
             tileSource: getTileSourceUrl(annotation.body.service),
             degrees: this.getRotation(annotation.body.id),
