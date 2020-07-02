@@ -158,31 +158,7 @@ class ThinCanvasPanel extends React.Component {
         height: this.props.height,
         tileSize: 256,
         //not converted to a string here as firefox can't handle it and it crashes the site
-        getTileUrl: () => (
-          <svg
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 256 256"
-            style="enable-background:new 0 0 256 256;"
-            space="preserve"
-          >
-            <g>
-              \
-              <rect
-                x="0"
-                y="0"
-                style="fill:#353535;"
-                width="256"
-                height="256"
-              />
-              \
-            </g>
-            \
-          </svg>
-        ),
+        getTileUrl: () => '',
       },
     });
   };
