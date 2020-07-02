@@ -10,7 +10,7 @@ const filterToPreferredChoices = (choices, pageLanguage = 'en') =>
 
 const AnnotationBodyType = PropTypes.shape({
   id: PropTypes.string,
-  service: PropTypes.object,
+  service: PropTypes.array,
   type: PropTypes.string,
   value: PropTypes.any,
 });
@@ -33,8 +33,8 @@ const imageCanvasRealiveSize = (bodyId, canvas) => {
     };
   }
   return {
-    width: parseInt(canvas.width, 10),
-    height: parseInt(canvas.height, 10),
+    width: 1,
+    height: 1,
   };
 };
 
