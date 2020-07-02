@@ -129,7 +129,7 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
         }}
         src={thumbnailSrc}
         onClick={() => setCanvasModal(true)}
-      ></img>
+      />
       {label ? (
         <div className="info cutcorners" style={{ marginBottom: '24px' }}>
           {label}
