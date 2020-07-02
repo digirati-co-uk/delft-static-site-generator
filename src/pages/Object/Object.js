@@ -16,7 +16,9 @@ class ObjectPage extends React.Component {
     this.state = {
       renderSlideShow: 'Loading...',
       publications: [],
-      id: this.props.pageContext.id,
+      ids: this.props.pageContext.items.map(
+        item => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
+      ),
     };
   }
 
@@ -35,11 +37,28 @@ class ObjectPage extends React.Component {
     this.setState({ publications: publications });
   }
 
+  getThumbnailsFromIllustration = illustration => {
+    if (
+      illustration &&
+      illustration.context &&
+      illustration.context.items &&
+      illustration.context.items[0] &&
+      illustration.context.items[0].items &&
+      illustration.context.items[0].items[0] &&
+      illustration.context.items[0].items[0].items
+    ) {
+      return illustration.context.items[0].items[0].items.map(
+        item => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
+      );
+    }
+  };
+
   getRelatedPublications = (allPub, allIll) => {
     //first get the ids of the illustion id from the illustrations
     const illustationIds = allIll
       .filter(illustration => {
-        if (illustration.context.id === this.state.id) {
+        let thumbnailId = this.getThumbnailsFromIllustration(illustration);
+        if (this.state.ids.filter(id => thumbnailId.includes(id)).length > 0) {
           return illustration;
         }
       })
@@ -53,7 +72,12 @@ class ObjectPage extends React.Component {
           );
         }
       })
-      .map(publication => publication.node.frontmatter.path);
+      .map(publication => {
+        return {
+          title: publication.node.frontmatter.title,
+          path: publication.node.frontmatter.path,
+        };
+      });
     return publications;
   };
 
@@ -126,12 +150,12 @@ class ObjectPage extends React.Component {
                 <div className="boxtitle">Part of Publications</div>
                 <ol>
                   {(this.state.publications || []).map(publication => (
-                    <li key={publication}>
+                    <li key={publication.path}>
                       <Link
-                        to={publication}
+                        to={publication.path}
                         style={{ textTransform: 'capitalize' }}
                       >
-                        {publication
+                        {publication.title
                           .split('/')
                           .pop()
                           .replace('-', ' ')}
@@ -198,6 +222,7 @@ export const query = graphql`
           rawMarkdownBody
           frontmatter {
             path
+            title
           }
         }
       }
@@ -205,11 +230,18 @@ export const query = graphql`
     allSitePage(filter: { context: {}, path: { regex: "/illustrations/" } }) {
       nodes {
         path
+        id
         context {
-          items {
-            id
-          }
           id
+          items {
+            items {
+              items {
+                thumbnail {
+                  id
+                }
+              }
+            }
+          }
         }
       }
     }

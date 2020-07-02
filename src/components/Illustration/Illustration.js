@@ -118,20 +118,18 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
       : {};
 
   return (
-    <>
-      <div>
-        <img
-          className="cutcorners"
-          style={{
-            objectFit: 'cover',
-            cursor: 'pointer',
-            width: '100%',
-            height: '100%',
-          }}
-          src={thumbnailSrc}
-          onClick={() => setCanvasModal(true)}
-        ></img>
-      </div>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
+      <img
+        className="cutcorners"
+        style={{
+          objectFit: 'cover',
+          cursor: 'pointer',
+          width: '100%',
+          height: '100%',
+        }}
+        src={thumbnailSrc}
+        onClick={() => setCanvasModal(true)}
+      />
       {label ? (
         <div className="info cutcorners" style={{ marginBottom: '24px' }}>
           {label}
@@ -148,7 +146,7 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
           pageLanguage={pageLanguage}
         ></DynamicCanvasModal>
       ) : null}
-    </>
+    </div>
   );
 };
 
