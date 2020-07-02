@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/nap"
+path: "/nl/publications/delta-nap"
 date: "2018-03-02"
 title: "NAP als rotsvast referentievlak"
 author: "Abel Streefland"

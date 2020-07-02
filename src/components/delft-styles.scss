@@ -172,6 +172,23 @@ article.long {
 
 }
 
+article.long {
+  a {
+    font-family: 'f-regular', 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    border:none;
+    color:#1d1c73;
+  }
+  ul,
+  ol {
+    li {
+      margin-left:2rem;
+    }
+    margin-bottom: 3rem;
+  }
+
+}
+
 
 h6 {
   font-family: 'f-regular';

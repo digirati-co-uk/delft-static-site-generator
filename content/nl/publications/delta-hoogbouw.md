@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/hoogbouw-delta"
+path: "/nl/publications/delta-hoogbouw"
 date: "2017-04-05"
 title: "De hoogbouw"
 author: "Abel Streefland"

@@ -1,5 +1,5 @@
 ---
-path: "/en/publications/dies"
+path: "/en/publications/delta-dies"
 date: "2018-01-12"
 title: "Dies, the university’s annual birthday party"
 author: "Abel Streefland"

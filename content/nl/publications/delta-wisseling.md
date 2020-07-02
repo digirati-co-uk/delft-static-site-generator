@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/wisseling"
+path: "/nl/publications/delta-wisseling"
 date: "2017-11-08"
 title: "Wisseling van de wacht"
 author: "Abel Streefland"

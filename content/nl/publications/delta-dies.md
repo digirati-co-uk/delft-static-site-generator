@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/dies"
+path: "/nl/publications/delta-dies"
 date: "2018-01-11"
 title: "De geboortedag van de universiteit"
 author: "Abel Streefland"

@@ -6,6 +6,8 @@ title: "Exhibitions"
 
 # Exhibitions
 
+*Please note: you are currently viewing a beta version of this website. For more information, please consult the [about page](/en/about/).*
+
 ## TU Delft Aula
 
 <div class="blocks">

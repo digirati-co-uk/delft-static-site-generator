@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/donderjolen"
+path: "/nl/publications/delta-donderjolen"
 date: "2017-09-19"
 title: "Donderjolen en kaalscheren"
 author: "Abel Streefland"

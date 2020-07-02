@@ -1,5 +1,5 @@
 ---
-path: "/nl/publications/eredoctors-delta"
+path: "/nl/publications/delta-eredoctors-delta"
 date: "2017-02-08"
 title: "Eredoctors"
 author: "Abel Streefland"
