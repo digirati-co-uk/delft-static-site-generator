@@ -139,6 +139,9 @@ class ExhibitionPage extends React.Component {
           canvas,
           this.props.pageContext.annotationDetails
         )}
+        style={{
+          display: 'block',
+        }}
         role="link"
         type="button"
       >
