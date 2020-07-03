@@ -693,10 +693,10 @@ $width: 1rem; // width of the chamfered edges
 
   .image {
     img {
-      vertical-align: bottom;
+      vertical-align: top;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       position: absolute;
     }
 
