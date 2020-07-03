@@ -64,6 +64,10 @@ title: "Digital Collections"
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
+[Leiden University Libraries](/en/collections/ex-ubl)
+</div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
 [Histechnica](/en/collections/ex-histechnica)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">

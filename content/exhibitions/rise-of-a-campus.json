@@ -1,0 +1,2809 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Rise of a Campus"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Jan Ebbinge"
+        ]
+      },
+      "height": 6840,
+      "width": 6960,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6840,
+                "width": 6960,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 6960,
+                  "height": 6840,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 1006
+                    },
+                    {
+                      "width": 400,
+                      "height": 393
+                    },
+                    {
+                      "width": 200,
+                      "height": 197
+                    },
+                    {
+                      "width": 100,
+                      "height": 98
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 1006,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 1006
+                      },
+                      {
+                        "width": 400,
+                        "height": 393
+                      },
+                      {
+                        "width": 200,
+                        "height": 197
+                      },
+                      {
+                        "width": 100,
+                        "height": 98
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/600bcbf0-2616-b7bd-01ef-30c2284973d3",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1#xywh=0,0,6960,6840",
+              "summary": {
+                "en": [
+                  "Geodesy instructor Jan Ebbinge operating a spirit level on campus in preparation for an open day of the Faculty of Geodesy around 1980."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Jan Ebbinge"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/10e72255-60a5-2e47-91c4-c9537bf70cd8"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1",
+      "behavior": [
+        "w-8",
+        "h-8"
+      ],
+      "rights": "",
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Faculty of Architecture and the Built Environment / OTB Photo Archive / Photo: Axel Smits"
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "About"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "null",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/textualbody/c6040fd8-c968-0acb-58a6-316ff6aaadb5"
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/fdb5d955-6903-ad1e-7532-01744ac08747#xywh=0,0,300,200",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/e68b05cd-0062-1279-0f7f-1666473439b5",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere. ",
+                  "",
+                  "The campus of Delft University of Technology (TU Delft) is special. It is the oldest Dutch university campus. The first steps towards establishing the campus were taken around 1900 when the university was in need of modern buildings for research and education. The groundwork for the campus as we know it today was laid after the Second World War. But that was not the end of the story. Beginning in the 1980s, the campus underwent a series of transformations, which challenged the original concept. ",
+                  "",
+                  "In this exhibition, a brief and selective history of the Delft campus and its changes over time are presented. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Rise of a Campus"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/f6f2c839-3a60-9549-40fb-cfb35beca600"
+        }
+      ],
+      "behavior": [
+        "info",
+        "h-4",
+        "w-4"
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/fdb5d955-6903-ad1e-7532-01744ac08747",
+      "summary": {
+        "en": [
+          "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Around 1900"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/9/2e519ba0-c6c5-4892-9f36-d96873514630/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5381,
+                "width": 6774,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/9/2e519ba0-c6c5-4892-9f36-d96873514630",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 6774,
+                  "height": 5381,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 813
+                    },
+                    {
+                      "width": 400,
+                      "height": 318
+                    },
+                    {
+                      "width": 200,
+                      "height": 159
+                    },
+                    {
+                      "width": 100,
+                      "height": 79
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/9/2e519ba0-c6c5-4892-9f36-d96873514630/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/9/2e519ba0-c6c5-4892-9f36-d96873514630",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 813,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 813
+                      },
+                      {
+                        "width": 400,
+                        "height": 318
+                      },
+                      {
+                        "width": 200,
+                        "height": 159
+                      },
+                      {
+                        "width": 100,
+                        "height": 79
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/d77b5b7a-2bb8-8bb3-cb31-bdf395332b33",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=58,76,512,406",
+              "label": {
+                "en": [
+                  "Around 1900"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Series of maps depicting the university’s growth after 1900. The southern extensions to the Polytechnic School were built along the re-routed Rijn-Schie canal after 1894. The State-commissioned buildings were designed by the government architects J. van Lokhorst and J.A.W. Vrijman. The extensions were not based on an integrated urban development plan."
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/6/1715f43d-b997-45d2-a5a5-d8a080d4c604/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2593,
+                "width": 1997,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/6/1715f43d-b997-45d2-a5a5-d8a080d4c604",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1997,
+                  "height": 2593,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 789,
+                      "height": 1024
+                    },
+                    {
+                      "width": 308,
+                      "height": 400
+                    },
+                    {
+                      "width": 154,
+                      "height": 200
+                    },
+                    {
+                      "width": 77,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/6/1715f43d-b997-45d2-a5a5-d8a080d4c604/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/6/1715f43d-b997-45d2-a5a5-d8a080d4c604",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 789,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 789,
+                        "height": 1024
+                      },
+                      {
+                        "width": 308,
+                        "height": 400
+                      },
+                      {
+                        "width": 154,
+                        "height": 200
+                      },
+                      {
+                        "width": 77,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0c8513be-6934-bfa1-a701-19b1cf3532ae",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=652,60,188,241",
+              "summary": {
+                "en": [
+                  ""
+                ]
+              },
+              "requiredStatement": {
+                "value": {
+                  "en": [
+                    ""
+                  ]
+                }
+              },
+              "label": {
+                "en": [
+                  ""
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6775,
+                "width": 10878,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 10878,
+                  "height": 6775,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 638
+                    },
+                    {
+                      "width": 400,
+                      "height": 249
+                    },
+                    {
+                      "width": 200,
+                      "height": 125
+                    },
+                    {
+                      "width": 100,
+                      "height": 62
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/9/989806db-4e6c-4b08-a47c-79a36c1c1acf",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 638,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 638
+                      },
+                      {
+                        "width": 400,
+                        "height": 249
+                      },
+                      {
+                        "width": 200,
+                        "height": 125
+                      },
+                      {
+                        "width": 100,
+                        "height": 62
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/6591f473-1cd3-7bcb-1f2b-67c309824839",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=397,364,575,357"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/14626063-c90e-e27c-7336-97033051522d"
+        }
+      ],
+      "behavior": [
+        "row",
+        "info-position-left",
+        "w-12",
+        "h-6"
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635",
+      "summary": {
+        "en": [
+          "Series of maps depicting the university’s growth after 1900."
+        ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Stadsarchief Delft / TU Delft Library, Special Collections"
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Municipal extension plan"
+        ]
+      },
+      "height": 4746,
+      "width": 3592,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4746,
+                "width": 3592,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3592,
+                  "height": 4746,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 775,
+                      "height": 1024
+                    },
+                    {
+                      "width": 303,
+                      "height": 400
+                    },
+                    {
+                      "width": 151,
+                      "height": 200
+                    },
+                    {
+                      "width": 76,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 775,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 775,
+                        "height": 1024
+                      },
+                      {
+                        "width": 303,
+                        "height": 400
+                      },
+                      {
+                        "width": 151,
+                        "height": 200
+                      },
+                      {
+                        "width": 76,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/f1778e82-eb1b-b09c-01ea-de17878ddc76",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f#",
+              "summary": {
+                "en": [
+                  "Municipal extension plan for the city of Delft from 1921 to which H.P. Berlage contributed. It contains a design for a monumental ‘polytechnic city’ in the Wippolder in response to the chaotic growth of the university. In the plan, the Rijn-Schie canal was projected in a wide curve around the new neighbourhood in order to facilitate easy road traffic between the centre and the southern extensions. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Municipal extension plan"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/8b9f04e6-5d2c-a812-c9b3-7e0fee4d76ee"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f",
+      "behavior": [
+        "column",
+        "w-8",
+        "h-10"
+      ],
+      "summary": {
+        "en": [
+          "Municipal extension plan for the city of Delft from 1921 to which H.P. Berlage contributed. It contains a design for a monumental ‘polytechnic city’ in the Wippolder in response to the chaotic growth of the university."
+        ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Stadsarchief Delft"
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Across the Canal"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "null",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/textualbody/47087a53-1404-ef37-c522-25a266c2bbef"
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/eb7a4b91-e7c4-a664-555e-73aa6e0683cd#xywh=0,0,300,200",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/28de0312-11b2-edf4-f6a1-a78c54b4b89b",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "The history of the city of Delft is closely intertwined with the history of the Delft University of Technology. The university was founded in 1842 as a Royal Academy, a small-scale school for engineers. In 1864 it was developed into a Polytechnic School. The school was converted to a Technical College (Technische Hogeschool) in 1905, giving it the same academic status as a university. At that time, all the buildings were located in the city centre.",
+                  "",
+                  "Around the turn of the century, the demand for new buildings grew. Plans were made to turn the fields on the south side of the city, the Wippolder, into a city of science. Majestic laboratories were built on both sides of the new Rijn-Schie canal. The famous Beyerinck Laboratory for microbiology was located on the city side of the canal, while brand-new buildings for geodesy, mining, physics and electrical engineering were built on the south side. Later, massive buildings were added further south in the polder to house the Faculty of Chemistry. ",
+                  "",
+                  "In the 1920s, city planners like H.P. Berlage drew up municipal extension plans for this area. Their plans bear witness to the grandeur they thought the university should express. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Across the Canal: Pre-war Extensions, 1894-1939"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/4c004e85-d2a9-94ab-9e36-b32c68d8eed9"
+        }
+      ],
+      "behavior": [
+        "layout-split",
+        "info-position-left",
+        "info",
+        "w-4",
+        "h-4"
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/eb7a4b91-e7c4-a664-555e-73aa6e0683cd",
+      "summary": {
+        "en": [
+          "The history of the city of Delft is closely intertwined with the history of the Delft University of Technology. The university was founded in 1842 as a Royal Academy, a small-scale school for engineers. In 1864 it was developed into a Polytechnic School. The school was converted to a Technical College (Technische Hogeschool) in 1905, giving it the same academic status as a university. At that time, all the buildings were located in the city centre."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "1929 aerial photograph of Delft"
+        ]
+      },
+      "height": 15389,
+      "width": 22071,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94/684,6380,10404,7253/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 15389,
+                "width": 22071,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 22071,
+                  "height": 15389,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64,
+                        128
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 714
+                    },
+                    {
+                      "width": 400,
+                      "height": 279
+                    },
+                    {
+                      "width": 200,
+                      "height": 139
+                    },
+                    {
+                      "width": 100,
+                      "height": 70
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 714,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 714
+                      },
+                      {
+                        "width": 400,
+                        "height": 279
+                      },
+                      {
+                        "width": 200,
+                        "height": 139
+                      },
+                      {
+                        "width": 100,
+                        "height": 70
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/113bb242-0964-6be0-8cd8-f617618b2c3f",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2#xywh=0,0,22071,15389",
+              "summary": {
+                "en": [
+                  "On the left, the brand-new building for chemistry (today the Faculty of Architecture and the Built Environment). Due to economic recession the building was left unfinished at the time. After the Second World War, it was refurbished to house the university’s central administration."
+                ]
+              },
+              "label": {
+                "en": [
+                  "1929 aerial photograph of Delft"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/b3e71a48-9d0b-4cbd-4890-a8f5bd40673b"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2",
+      "behavior": [
+        "w-4",
+        "h-6"
+      ],
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Photo AVIODROME, Lelystad "
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Students"
+        ]
+      },
+      "height": 2704,
+      "width": 2002,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2704,
+                "width": 2002,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2002,
+                  "height": 2704,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 758,
+                      "height": 1024
+                    },
+                    {
+                      "width": 296,
+                      "height": 400
+                    },
+                    {
+                      "width": 148,
+                      "height": 200
+                    },
+                    {
+                      "width": 74,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 758,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 758,
+                        "height": 1024
+                      },
+                      {
+                        "width": 296,
+                        "height": 400
+                      },
+                      {
+                        "width": 148,
+                        "height": 200
+                      },
+                      {
+                        "width": 74,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/9ff753e7-3dd7-d305-4c00-fcd6a3e75827",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe#xywh=0,0,2002,2704",
+              "summary": {
+                "en": [
+                  "The number of students that enrolled at the university skyrocketed after the end of the Second World War. This propelled the construction of a new campus. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Students"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/1821fe6d-9620-480e-52c7-33f568f6bdbc"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe",
+      "behavior": [
+        "w-8",
+        "h-10"
+      ],
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "TU Delft Library, Special Collections"
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Wind tunnel"
+        ]
+      },
+      "height": 3484,
+      "width": 2291,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3484,
+                "width": 2291,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2291,
+                  "height": 3484,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 673,
+                      "height": 1024
+                    },
+                    {
+                      "width": 263,
+                      "height": 400
+                    },
+                    {
+                      "width": 132,
+                      "height": 200
+                    },
+                    {
+                      "width": 66,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 673,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 673,
+                        "height": 1024
+                      },
+                      {
+                        "width": 263,
+                        "height": 400
+                      },
+                      {
+                        "width": 132,
+                        "height": 200
+                      },
+                      {
+                        "width": 66,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/01e856b3-5d09-b37a-a6d3-69e447426055",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64#xywh=0,0,2291,3484",
+              "summary": {
+                "en": [
+                  "Groundbreaking ceremony in 1951 for the wind tunnel building designed by the architect A. van der Steur."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Wind tunnel"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/6ba43b53-e5be-93fb-05fa-1088896e0057"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64",
+      "behavior": [
+        "w-4",
+        "h-6"
+      ],
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "TU Delft Library, Special Collections"
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Pioneering in the Wippolder"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "null",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/textualbody/40ff8745-2fe6-245f-7a72-0034c9016481"
+              },
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/d288a797-5dbb-9b11-02ec-6740c0f2bde8#xywh=0,0,300,200",
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/f0b73be8-3db8-e926-7c61-f79d785a8bea",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "After the Second World War large numbers of students signed up for the Technical University. Most of the faculties had trouble providing sufficient room for lectures and practicals. As the technical sciences had changed drastically in the thirties and forties, the teaching of these subjects had to be modernised. Faculty leaders started to plead for more up to date lecture rooms, laboratories and workshops. ",
+                  "",
+                  "In 1947, the first plans for a large-scale modernisation of the university were presented. Over two decades, most of the faculty buildings were moved from the city centre to the Wippolder. The auditorium, library and university restaurant stayed in the centre – at least for a while. The university in collaboration with the state and the Delft municipality decided to build a modern university campus, which could provide education for the continuously growing numbers of students. ",
+                  "",
+                  "A central axis (the Hoofdweg, later called the Mekelweg) formed the backbone of the campus. On the west side arose a huge complex for mechanical, maritime and aerospace engineering in yellow brick. On the other side, the more sober concrete building for technical physics was constructed. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Pioneering in the Wippolder: Post-war Construction, 1945-1960"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/63b1b632-4b79-0dd4-6203-ccee1f648d34"
+        }
+      ],
+      "behavior": [
+        "info",
+        "w-4",
+        "h-4"
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/d288a797-5dbb-9b11-02ec-6740c0f2bde8",
+      "summary": {
+        "en": [
+          "After the Second World War large numbers of students signed up for the Technical University. Most of the faculties had trouble providing sufficient room for lectures and practicals. As the technical sciences had changed drastically in the thirties and forties, the teaching of these subjects had to be modernised."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "3ME"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/10/4b119e44-3cb0-4569-a888-5095b5570233/0,0,3008,4512/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4512,
+                "width": 3008,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/10/4b119e44-3cb0-4569-a888-5095b5570233",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3008,
+                  "height": 4512,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 683,
+                      "height": 1024
+                    },
+                    {
+                      "width": 267,
+                      "height": 400
+                    },
+                    {
+                      "width": 133,
+                      "height": 200
+                    },
+                    {
+                      "width": 67,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/10/4b119e44-3cb0-4569-a888-5095b5570233/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/10/4b119e44-3cb0-4569-a888-5095b5570233",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 683,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 683,
+                        "height": 1024
+                      },
+                      {
+                        "width": 267,
+                        "height": 400
+                      },
+                      {
+                        "width": 133,
+                        "height": 200
+                      },
+                      {
+                        "width": 67,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/a2583569-9454-e82e-c36e-62605fdf91b8",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e#xywh=29,475,302,453"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/8/08c6f84b-d4a3-493a-b8f6-9594a99d1f62/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7129,
+                "width": 11311,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/8/08c6f84b-d4a3-493a-b8f6-9594a99d1f62",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 11311,
+                  "height": 7129,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 645
+                    },
+                    {
+                      "width": 400,
+                      "height": 252
+                    },
+                    {
+                      "width": 200,
+                      "height": 126
+                    },
+                    {
+                      "width": 100,
+                      "height": 63
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/8/08c6f84b-d4a3-493a-b8f6-9594a99d1f62/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/8/08c6f84b-d4a3-493a-b8f6-9594a99d1f62",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 645,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 645
+                      },
+                      {
+                        "width": 400,
+                        "height": 252
+                      },
+                      {
+                        "width": 200,
+                        "height": 126
+                      },
+                      {
+                        "width": 100,
+                        "height": 63
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/2a1723ea-c938-afad-ceed-2b67c92b506e",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e#xywh=198,566,647,408"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/8/b106b022-8c3e-4f3e-a5ac-2f96980d81f8/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5782,
+                "width": 6186,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/8/b106b022-8c3e-4f3e-a5ac-2f96980d81f8",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 6186,
+                  "height": 5782,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 957
+                    },
+                    {
+                      "width": 400,
+                      "height": 374
+                    },
+                    {
+                      "width": 200,
+                      "height": 187
+                    },
+                    {
+                      "width": 100,
+                      "height": 93
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/8/b106b022-8c3e-4f3e-a5ac-2f96980d81f8/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/8/b106b022-8c3e-4f3e-a5ac-2f96980d81f8",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 957,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 957
+                      },
+                      {
+                        "width": 400,
+                        "height": 374
+                      },
+                      {
+                        "width": 200,
+                        "height": 187
+                      },
+                      {
+                        "width": 100,
+                        "height": 93
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/82e90592-7ca3-30f7-50c2-e9127b42613a",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e#xywh=408,13,487,454"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/8/15e54002-f9fe-452c-bfc6-1b1745269201/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6049,
+                "width": 4357,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/8/15e54002-f9fe-452c-bfc6-1b1745269201",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4357,
+                  "height": 6049,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 738,
+                      "height": 1024
+                    },
+                    {
+                      "width": 288,
+                      "height": 400
+                    },
+                    {
+                      "width": 144,
+                      "height": 200
+                    },
+                    {
+                      "width": 72,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/8/15e54002-f9fe-452c-bfc6-1b1745269201/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/8/15e54002-f9fe-452c-bfc6-1b1745269201",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 738,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 738,
+                        "height": 1024
+                      },
+                      {
+                        "width": 288,
+                        "height": 400
+                      },
+                      {
+                        "width": 144,
+                        "height": 200
+                      },
+                      {
+                        "width": 72,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/d1affc63-b691-066f-ec07-c37ce0b3af12",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e#xywh=671,495,213,295"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/15/b0625e46-a143-4a5e-b067-c9cfe28b22cc/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 721,
+                "width": 1024,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/15/b0625e46-a143-4a5e-b067-c9cfe28b22cc",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1024,
+                  "height": 721,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 721
+                    },
+                    {
+                      "width": 400,
+                      "height": 282
+                    },
+                    {
+                      "width": 200,
+                      "height": 141
+                    },
+                    {
+                      "width": 100,
+                      "height": 70
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/15/b0625e46-a143-4a5e-b067-c9cfe28b22cc/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/15/b0625e46-a143-4a5e-b067-c9cfe28b22cc",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 721,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 721
+                      },
+                      {
+                        "width": 400,
+                        "height": 282
+                      },
+                      {
+                        "width": 200,
+                        "height": 141
+                      },
+                      {
+                        "width": 100,
+                        "height": 70
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/20bd77ec-eabc-676e-3929-e2f3fac93906",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e#xywh=80,21,246,172"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/15/51216e76-d10a-44a0-8fc6-f8ed8c64d553/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 768,
+                "width": 992,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/15/51216e76-d10a-44a0-8fc6-f8ed8c64d553",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 992,
+                  "height": 768,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 992,
+                      "height": 768
+                    },
+                    {
+                      "width": 400,
+                      "height": 310
+                    },
+                    {
+                      "width": 200,
+                      "height": 155
+                    },
+                    {
+                      "width": 100,
+                      "height": 77
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/15/51216e76-d10a-44a0-8fc6-f8ed8c64d553/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/15/51216e76-d10a-44a0-8fc6-f8ed8c64d553",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 992,
+                    "height": 768,
+                    "sizes": [
+                      {
+                        "width": 992,
+                        "height": 768
+                      },
+                      {
+                        "width": 400,
+                        "height": 310
+                      },
+                      {
+                        "width": 200,
+                        "height": 155
+                      },
+                      {
+                        "width": 100,
+                        "height": 77
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0b8255b0-9624-29fe-4e3c-9683b4f8f63b",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e#xywh=83,204,246,246"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/2270c9d7-663b-ef9e-5f0e-7369d5d970f3"
+        }
+      ],
+      "behavior": [
+        "row",
+        "info-position-left",
+        "w-12",
+        "h-8"
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e",
+      "summary": {
+        "en": [
+          "Different stages in the development of the building that housed mechanical, maritime and aerospace engineering (now 3ME). It was designed by the architect A. van der Steur. The circular basin for testing ship models at the end of the central wing was not built. The building is now considered a prime example of post-war architecture due to its sculptural decorations and the combination of concrete and yellow brickwork."
+        ]
+      },
+      "rights": "Het Nieuwe Instituut / Van Eesteren Archive Nationaal Archief / TH tot 1956 TU Delft Library / Special Collections ",
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Het Nieuwe Instituut / TU Delft Library, Special Collections "
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extension plan"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/8/46535bd3-df64-4d47-a87f-6c82b077649e/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7318,
+                "width": 12042,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/8/46535bd3-df64-4d47-a87f-6c82b077649e",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 12042,
+                  "height": 7318,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 622
+                    },
+                    {
+                      "width": 400,
+                      "height": 243
+                    },
+                    {
+                      "width": 200,
+                      "height": 122
+                    },
+                    {
+                      "width": 100,
+                      "height": 61
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/8/46535bd3-df64-4d47-a87f-6c82b077649e/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/8/46535bd3-df64-4d47-a87f-6c82b077649e",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 622,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 622
+                      },
+                      {
+                        "width": 400,
+                        "height": 243
+                      },
+                      {
+                        "width": 200,
+                        "height": 122
+                      },
+                      {
+                        "width": 100,
+                        "height": 61
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/dc4c50a1-35fd-85af-81a7-fce8c0c1bb94",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87#xywh=151,542,740,449",
+              "summary": {
+                "en": [
+                  "Plans for the extension of the Technical University (1948). Rather than proposing an isolated ‘satellite town’, the plans envisaged the university as an integral part of Delft by keeping the common university functions in the city centre. In the southern extension, each sub-department of the university obtained its own ‘pavilion’ and surrounding space for growth. A central avenue tied the different parts together and ensured that vibrations from the factories in the west did not disturb the laboratories in the east. At the end of the avenue, a large recreational forest was planned. Het Nieuwe Instituut / Hendrik Postel Archive "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Extension plan"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/8/9ae3d01b-f4cd-4192-91da-7650909c8a69/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6735,
+                "width": 9746,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/8/9ae3d01b-f4cd-4192-91da-7650909c8a69",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 9746,
+                  "height": 6735,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 708
+                    },
+                    {
+                      "width": 400,
+                      "height": 276
+                    },
+                    {
+                      "width": 200,
+                      "height": 138
+                    },
+                    {
+                      "width": 100,
+                      "height": 69
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/8/9ae3d01b-f4cd-4192-91da-7650909c8a69/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/8/9ae3d01b-f4cd-4192-91da-7650909c8a69",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 708,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 708
+                      },
+                      {
+                        "width": 400,
+                        "height": 276
+                      },
+                      {
+                        "width": 200,
+                        "height": 138
+                      },
+                      {
+                        "width": 100,
+                        "height": 69
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0cc0fdb2-8c41-07fa-64f8-ee81cd7bf62c",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87#xywh=54,22,740,511"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/10/7d058278-14b1-4422-b7ed-12d7401b1673/1010,503,839,1258/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4512,
+                "width": 3008,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/10/7d058278-14b1-4422-b7ed-12d7401b1673",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3008,
+                  "height": 4512,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 683,
+                      "height": 1024
+                    },
+                    {
+                      "width": 267,
+                      "height": 400
+                    },
+                    {
+                      "width": 133,
+                      "height": 200
+                    },
+                    {
+                      "width": 67,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/10/7d058278-14b1-4422-b7ed-12d7401b1673/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/10/7d058278-14b1-4422-b7ed-12d7401b1673",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 683,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 683,
+                        "height": 1024
+                      },
+                      {
+                        "width": 267,
+                        "height": 400
+                      },
+                      {
+                        "width": 133,
+                        "height": 200
+                      },
+                      {
+                        "width": 67,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/683703e0-5eed-d4aa-55ae-4fc30b24c4e8",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87#xywh=673,300,225,336"
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/01b755fe-62fa-7493-4373-8dd40f808b93"
+        }
+      ],
+      "behavior": [
+        "layout-split",
+        "info-position-left",
+        "w-6",
+        "h-8"
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87",
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Het Nieuwe Instituut / Nationaal Archief"
+          ]
+        }
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Faculty of Technical Physics"
+        ]
+      },
+      "height": 4512,
+      "width": 3008,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf/822,712,822,1231/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4512,
+                "width": 3008,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3008,
+                  "height": 4512,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 683,
+                      "height": 1024
+                    },
+                    {
+                      "width": 267,
+                      "height": 400
+                    },
+                    {
+                      "width": 133,
+                      "height": 200
+                    },
+                    {
+                      "width": 67,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 683,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 683,
+                        "height": 1024
+                      },
+                      {
+                        "width": 267,
+                        "height": 400
+                      },
+                      {
+                        "width": 133,
+                        "height": 200
+                      },
+                      {
+                        "width": 67,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/683db162-5d1b-0d92-eb6d-82e49506c52e",
+              "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc#xywh=0,0,3008,4512",
+              "summary": {
+                "en": [
+                  "Diagram showing the building plans for the Faculty of Technical Physics, 1952. In the end the separate building with lecture rooms was not built. The lecture halls for the faculty were combined with the building programme for the Aula annex Congress Centre. "
+                ]
+              },
+              "label": {
+                "en": [
+                  "Faculty of Technical Physics"
+                ]
+              }
+            }
+          ],
+          "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/list/e41c1683-08cd-5053-b156-e0d45a40f507"
+        }
+      ],
+      "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc",
+      "summary": {
+        "en": [
+          "Diagram showing the building plans for the Faculty of Technical Physics, 1952."
+        ]
+      },
+      "behavior": [
+        "column",
+        "w-6",
+        "h-8"
+      ],
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Nationaal Archief"
+          ]
+        }
+      }
+    }
+  ],
+  "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/manifest",
+  "summary": {
+    "en": [
+      "A campus is a living thing. It expands and shrinks. It follows the changing needs of the university. It can be perceived as lively yet it can be boring. In an ideal situation, knowledge garnered from the most exotic branches of research wafts through the air. Some see the campus as the epitome of the grandeur of a university, others see it as an industrial area. Just like any other neighbourhood, it has a distinct style and atmosphere. ",
+      "",
+      "The campus of Delft University of Technology (TU Delft) is special. It is the oldest Dutch university campus. The first steps towards establishing the campus were taken around 1900 when the university was in need of modern buildings for research and education. The groundwork for the campus as we know it today was laid after the Second World War. But that was not the end of the story. Beginning in the 1980s, the campus underwent a series of transformations, which challenged the original concept. ",
+      "",
+      "In this exhibition, a brief and selective history of the Delft campus and its changes over time are presented. "
+    ]
+  },
+  "requiredStatement": {
+    "value": {
+      "en": [
+        "Stadsarchief Delft / TU Delft Library, Special Collections"
+      ]
+    }
+  }
+}

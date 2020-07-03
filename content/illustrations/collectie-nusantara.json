@@ -1,0 +1,162 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Objects from the collection of Museum Nusantara, presently kept in the Academic Heritage collection of TU Delft"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 666,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/6858c340-a64c-a60c-0e0b-680ab40ba818/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 4500,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/6858c340-a64c-a60c-0e0b-680ab40ba818",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4500,
+                  "height": 3000,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 683
+                    },
+                    {
+                      "width": 400,
+                      "height": 267
+                    },
+                    {
+                      "width": 200,
+                      "height": 133
+                    },
+                    {
+                      "width": 100,
+                      "height": 67
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/6858c340-a64c-a60c-0e0b-680ab40ba818/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/6858c340-a64c-a60c-0e0b-680ab40ba818",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 683,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 683
+                      },
+                      {
+                        "width": 400,
+                        "height": 267
+                      },
+                      {
+                        "width": 200,
+                        "height": 133
+                      },
+                      {
+                        "width": 100,
+                        "height": 67
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/0da6b481-67be-2fbc-1f4a-17a0e6406957/annotation/c5ba9984-7046-84fa-2b1d-723f8c654213",
+              "target": "https://heritage.tudelft.nl/iiif/0da6b481-67be-2fbc-1f4a-17a0e6406957/canvas/ad1fccd1-6f9c-9318-4f6b-a3814605b5f5#xywh=0,0,1000,666",
+              "label": {
+                "en": [
+                  "Objects from the collection of Museum Nusantara, presently kept in the Academic Heritage collection of TU Delft"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/0da6b481-67be-2fbc-1f4a-17a0e6406957/list/40f3060d-1aba-a3d8-089f-d9439bee6ac7"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/0da6b481-67be-2fbc-1f4a-17a0e6406957/canvas/ad1fccd1-6f9c-9318-4f6b-a3814605b5f5"
+    }
+  ],
+  "id": "https://heritage.tudelft.nl/iiif/0da6b481-67be-2fbc-1f4a-17a0e6406957/manifest"
+}

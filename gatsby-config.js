@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'TU Delft Academic Heritage',
+    twitterHandle: '@tudelftlibrary',
+    url: 'https://erfgoed.tudelft.nl/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -10,7 +12,8 @@ module.exports = {
         name: 'images',
         path: `${__dirname}/src/images`,
       },
-    }, {
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
@@ -20,17 +23,28 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
+        tableOfContents: {
+          heading: null,
+          maxDepth: 2,
+        },
         plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: { icon: false },
+          },
           'gatsby-remark-numbered-footnotes',
           {
             resolve: 'gatsby-remark-toc',
             options: {
-              header: 'Table of Contents', // the custom header text
               include: [
-                `content/**/publications/**/*.md`, // an include glob to match against
+                `content/**/publications/*.md`, // an include glob to match against
               ],
             },
           },
+          {
+            resolve: `gatsby-remark-images`,
+          },
+          `gatsby-remark-lazy-load`,
         ],
       },
     },
@@ -52,5 +66,11 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
   ],
 };

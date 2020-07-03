@@ -9,6 +9,14 @@ title: "Academic Heritage"
 ###### *Please note: you are currently viewing a beta version of this website. For more information, please consult the [about page](/en/about/).*
 
 <div class="blocks">
+<div class="block tint purple cutcorners w-8 h-4 image">
+
+[Corona Chronicles](/en/exhibitions/corona-chronicles)
+</div>
+<div class="block cutcorners w-4 h-4 article">
+
+[The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb)
+</div>
 <div class="block tint yellow cutcorners w-5 h-8 image">
 
 [Rise of a Campus](/en/exhibitions/rise-of-a-campus)
@@ -17,11 +25,9 @@ title: "Academic Heritage"
 
 [Floor plans](/en/collections/tu-cre-tib)
 </div>
-
 <div class="block cutcorners w-3 h-3 info">
 
 Would you like to become a friend? Please visit the website of <a href="http://histechnica.nl">Histechnica</a>, the Friends Association of TU Delft's Academic Heritage.
-
 </div>
 <div class="block tint copper cutcorners w-4 h-7 image">
 

@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##Uit Delftse bronnen: de hoogbouw
+## Uit Delftse bronnen: de hoogbouw
 
 **Omdat de TU Delft in 2017 175 jaar bestond, reflecteerde universiteitshistoricus Abel Streefland op het verleden. Deze maand: de eerste eredoctors van de TU Delft.**
 
@@ -19,7 +19,7 @@ Op 19 juni 1962 sloeg rector magnificus Ralph Kronig de eerste paal voor het nie
 
 Drexhage ging wat betreft de inrichting niet over één nacht ijs. In een klein kubusvormig gebouwtje testte hij een aantal proefkamers. Hij deed dit vooral om vast te stellen wat de ideale afmetingen van een ‘standaardvertrek’ moest worden – identieke kamers waarvan er in de hoogbouw 450 geplaatst zouden worden. Anderzijds was het een goede manier om uit te vinden hoe de glazen gevel het beste kon worden gebouwd.
 
-###Gigantische uitbreiding TU
+### Gigantische uitbreiding TU
 
 Het gebouw is typerend voor de gigantische uitbreiding die de TU Delft na de Tweede Wereldoorlog heeft gekend. Al het onderzoek en onderwijs verhuisde vanuit de binnenstad naar de Wippolder. De Mekelweg – toen trouwens geen park maar goeddeels parkeerplaats – was de as waarlangs een gloednieuwe wijk verrees. Tegelijkertijd werden ook ontwikkelingsplannen gemaakt voor andere delen van Delft, zoals de Voorhof. Ook dat zou een wijk worden met veel hoogbouw. Op 25 november 1967 werd het gebouw geopend door minister Veringa van Onderwijs en Wetenschappen.
 

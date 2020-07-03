@@ -8,16 +8,15 @@ title: "Tentoonstellingen"
 
 *Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de Engelstalige [about pagina](/en/about/).*
 
-## TU Delft Aula
-
 <div class="blocks">
-<div class="block cutcorners tint yellow w-4 h-4 image">
+<div class="block tint copper cutcorners w-4 h-4 image">
 
-[Rise of a campus](/nl/exhibitions/rise-of-a-campus)
+[Corona Chronicles](/en/exhibitions/corona-chronicles)
 </div>
-<div class="block cutcorners tint copper w-4 h-4 image">
+<div class="block tint yellow cutcorners w-4 h-4 image">
 
-[Test](/nl/exhibitions/test)
+[Rise of a campus](/en/exhibitions/rise-of-a-campus)
 </div>
+
 </div>
 

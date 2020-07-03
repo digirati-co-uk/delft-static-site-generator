@@ -1,0 +1,167 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Sketch of the site of the future technical college complex by Henri Maclaine Pont"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 1000,
+      "width": 774,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7563,
+                "width": 5859,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5859,
+                  "height": 7563,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 793,
+                      "height": 1024
+                    },
+                    {
+                      "width": 310,
+                      "height": 400
+                    },
+                    {
+                      "width": 155,
+                      "height": 200
+                    },
+                    {
+                      "width": 77,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 793,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 793,
+                        "height": 1024
+                      },
+                      {
+                        "width": 310,
+                        "height": 400
+                      },
+                      {
+                        "width": 155,
+                        "height": 200
+                      },
+                      {
+                        "width": 77,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/annotation/ddbc8783-8d06-bd90-e086-a5785940831e",
+              "target": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/canvas/c357b590-4126-e725-7a2f-51e8d47ea8bb#xywh=0,0,774,1000",
+              "label": {
+                "en": [
+                  "Sketch of the site of the future technical college complex by Henri Maclaine Pont"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "National Archives, archive 4.KIVI, no. 864"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/list/ff776c52-3d07-8514-5821-4437de79ded7"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/canvas/c357b590-4126-e725-7a2f-51e8d47ea8bb"
+    }
+  ],
+  "id": "https://heritage.tudelft.nl/iiif/08405cd5-4f20-4eb6-b9bb-17bc80f46c9f"
+}

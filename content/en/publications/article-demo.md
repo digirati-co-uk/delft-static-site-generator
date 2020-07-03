@@ -5,10 +5,30 @@ title: "Demo article"
 author: "Adam von Digirati"
 ---
 
+## An Illustration
+<Illustration source="a-single-canvas-manifest.json">
+    You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
+    The source should be the direct filename within the illustrations folder.
+    Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"
+    If you would like the pop-up modal to link to one of the objects on the site, put the name of the object in as before.
+</Illustration>
+
+<Illustration source="another-single-canvas.json">
+    You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
+    The source should be the direct filename within the illustrations folder.
+    Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"
+    If you would like the pop-up modal to link to one of the objects on the site, put the name of the object in as before.
+</Illustration>
+
 ## Article page
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta pellentesque sem. Curabitur posuere nisl dui, in porta urna laoreet at. Duis in cursus orci. Suspendisse maximus dui at sollicitudin consequat. Vestibulum vitae lacus leo. Sed ac dui euismod, congue diam id, suscipit neque. Duis eu volutpat purus. Mauris vitae lobortis leo. Maecenas gravida iaculis tempus. Sed volutpat mollis consectetur. Maecenas velit felis, semper vel mollis rhoncus, iaculis vel urna. Morbi dui velit, dapibus ac sagittis ut, vehicula tincidunt turpis.
 
+<Illustration source="annotation.json"></Illustration>
+
+<Illustration source="cropped.json"></Illustration>
+
+<Illustration source="mixed-media.json"></Illustration>
 
 ## Supported Markdown Features
 
@@ -22,30 +42,6 @@ This is normal body copy.[^also] It includes a couple footnotes.[^thing]
 
 Custom styles:
 
-<style type="text/css">
-  .i-am-a-custom-style {
-    display: block;
-    max-width: 320px;
-    width: 100%;
-    margin: 20px auto;
-    font-size: 30px;
-    font-weight bold;
-  }
-</style>
-
-
-```css
-<style type="text/css">
-  .i-am-a-custom-style {
-    display: block;
-    max-width: 420px;
-    width: 100%;
-    margin: 20px auto;
-    font-size: 30px;
-    font-weight bold;
-    background: red;
-  }
-</style>
 ```
 ```html
 <div class="i-am-a-custom-style">
@@ -73,7 +69,7 @@ This is an ordered list:
 4. list item 4
 
 
-Image example: 
+Image example:
 
     <img src="//lorempixel.com/400/200/" />
 
@@ -82,12 +78,12 @@ Image example:
 Image in block:
 
     <div class="block image cutcorners w-7 h-4 row">
-        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt=""/>
     </div>
 
 
 <div class="block image cutcorners w-7 h-4 row">
-    <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="">
+    <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt=""/>
 </div>
 
 

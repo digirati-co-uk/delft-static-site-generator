@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##Dies, the university’s annual birthday party
+## Dies, the university’s annual birthday party
 
 On 8 January 1842, the forerunner of the university was founded: the ‘Royal Academy for the education of civilian engineers, for serving both the nation and industry, and of apprentices for trade’. The establishment of this school has a long history.
 

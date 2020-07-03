@@ -1,8 +1,21 @@
 import React from 'react';
 
 const Logo = props => (
-  <a href="https://www.tudelft.nl/en/" style={{ borderBottom: 0, textAlign: 'center' }} {...props}>
-    <svg version="1.1" x="0px" y="0px" width="81" height="32" viewBox="0 0 510 200" style={{ enableBackground: 'new 0 0 510 200' }} xmlSpace="preserve">
+  <a
+    href="https://www.tudelft.nl/en/"
+    style={{ borderBottom: 0, textAlign: 'center' }}
+    {...props}
+  >
+    <svg
+      version="1.1"
+      x="0px"
+      y="0px"
+      width="81"
+      height="32"
+      viewBox="0 0 510 200"
+      style={{ enableBackground: 'new 0 0 510 200' }}
+      xmlSpace="preserve"
+    >
       <path
         transform="matrix(1.25,0,0,-1.25,-22.0475,1058.5434)"
         style={{ fill: '#fff' }}

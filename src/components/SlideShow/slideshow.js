@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+
 import {
   Manifest,
   Fullscreen,
@@ -11,141 +12,105 @@ import {
   Slide,
   CanvasNavigation,
 } from '@canvas-panel/slideshow';
+import { Link, navigate } from 'gatsby';
+
+import { Grid } from './Grid';
 import './slideshow.css';
-
-
-import { Grid } from 'react-virtualized';
+import '../ManifestCabinet/ManifestCabinet.scss';
 import ContainerDimensions from 'react-container-dimensions';
-import { thumbnailGetSize } from '../../utils';
 
-class SlideShow extends Component {
-  state = {
-    innerWidth: window.innerWidth,
-  };
-
+class SlideShow extends React.Component {
   static propTypes = {
     jsonld: PropTypes.object.isRequired,
-    mobileBreakpoint: PropTypes.number,
     renderPanel: PropTypes.func,
     bem: PropTypes.object,
+    pathname: PropTypes.string,
+    id: PropTypes.string,
+    location: PropTypes.string,
   };
 
   static defaultProps = {
-    mobileBreakpoint: 767,
     renderPanel: () => {},
     bem: {},
   };
-
   constructor(props) {
     super(props);
     this.thumbnailCache = {};
-    window.addEventListener('resize', this.setSize);
   }
 
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.setSize);
+  componentDidMount() {
+    if (
+      !this.props.id ||
+      this.canvasList.length <= this.props.id ||
+      this.props.id <= 0 ||
+      !parseInt(this.props.id)
+    ) {
+      this.goToRange(0);
+      navigate(`${this.props.pathname}?id=0`, { replace: true });
+      return;
+    }
+    if (this.props.id !== this.currentIndex) {
+      this.goToRange(parseInt(this.props.id));
+    }
   }
 
-  setSize = () => {
-    this.setState({
-      innerWidth: Math.floor(window.innerWidth),
-    });
-  };
-
-  getThumbnails = (manifest) => {
+  getThumbnails = manifest => {
     const manifestId = manifest.id || manifest['@id'];
     if (this.thumbnailCache.hasOwnProperty(manifestId)) {
       return this.thumbnailCache[manifestId];
     }
 
     const thumbnails = manifest.getSequences().reduce(
-      (sequenceThumbnails, sequence) => Object.assign(
+      (sequenceThumbnails, sequence) =>
+        Object.assign(
           sequenceThumbnails,
           sequence.getCanvases().reduce((canvasThumbnails, canvas) => {
-             let thumbnail = canvas.getThumbnail();
-             if (!thumbnail) {
-              canvas.getImages().forEach((image) => {
+            let thumbnail = canvas.getThumbnail();
+            if (!thumbnail) {
+              canvas.getImages().forEach(image => {
                 thumbnail = image.getThumbnail();
                 if (thumbnail) {
                   return true;
                 }
               });
-             }
-             canvasThumbnails[canvas.id || canvas['@id']] = thumbnail;
+            }
+            canvasThumbnails[canvas.id || canvas['@id']] = thumbnail;
             return canvasThumbnails;
-          }, {}),
+          }, {})
         ),
-       {},
+      {}
     );
     this.thumbnailCache[manifestId] = thumbnails;
     return thumbnails;
   };
 
-  cellRenderer = ({
-    columnIndex, key, rowIndex, style, width, height,
-  }) => {
-      const canvasId = this.canvasList[columnIndex];
-      const thumbnail = this.allThumbnails[canvasId]
-        ? thumbnailGetSize(this.allThumbnails[canvasId], null, height)
-        : null;
-      const isSelected = this.currentIndex === columnIndex;
-      if (!thumbnail) {
-        return '';
-      }
-      return (
-        <div
-          key={`${canvasId}--thumb--${isSelected}`}
-          style={style}
-        >
-
-
-          <button
-
-            onClick={() => this.goToRange(columnIndex)}
-            type="button"
-            className={
-            `manifest-cabinet__thumb ${isSelected ? ` manifest-cabinet__thumb--selected` : ''} cutcorners`
-          }
-            style={{
-            width: height,
-            height,
-          }}
-          >
-            {thumbnail ? (
-              <img
-                ref={(imageEl) => {
-                if (isSelected) {
-                  this.selectedThumbnail = imageEl;
-                }
-              }}
-                src={thumbnail.replace('/full/full/', '/full/!100,100/')}
-                className="manifest-cabinet__thumb-img"
-
-                alt=""
-              />
-          ) : (
-            <div className="manifest-cabinet__thumb-missing"> no thumb </div>
-          )}
-          </button>
-        </div>
-      );
+  getThumbnailsArray = () => {
+    const thumbnails = this.props.jsonld.items.map(
+      item => item.thumbnail[0].id
+    );
+    return thumbnails;
   };
 
+  goToRange = newIndex => {
+    if (newIndex !== this.currentIndex)
+      navigate(`${this.props.pathname}?id=${newIndex}`);
+  };
   render() {
     const { jsonld, renderPanel, bem } = this.props;
+
     return (
-      <div className={bem}>
+      <div className={this.props.bem}>
         <Fullscreen>
           {({ ref, ...fullscreenProps }) => (
-            <Manifest jsonLd={jsonld}>
+            <Manifest jsonLd={this.props.jsonld}>
               <RangeNavigationProvider>
-                {(rangeProps) => {
+                {rangeProps => {
                   const {
                     manifest,
                     canvas,
                     canvasList,
-                    currentIndex,
                     previousRange,
+                    currentIndex,
                     nextRange,
                     region,
                     goToRange,
@@ -154,10 +119,24 @@ class SlideShow extends Component {
                   this.allThumbnails = this.getThumbnails(manifest);
                   this.currentIndex = currentIndex;
                   this.goToRange = goToRange;
+                  this.nextRange = () => {
+                    nextRange();
+                    if (!(currentIndex >= canvasList.length - 1))
+                      navigate(
+                        `${this.props.pathname}?id=${parseInt(currentIndex) +
+                          1}`
+                      );
+                  };
+                  this.previousRange = () => {
+                    previousRange();
+                    if (!(currentIndex === 0))
+                      navigate(`${this.props.pathname}?id=${currentIndex - 1}`);
+                  };
+
                   return (
                     <React.Fragment>
                       <div className={bem.element('inner-frame')} ref={ref}>
-                        <SimpleSlideTransition id={currentIndex}>
+                        <SimpleSlideTransition id={this.props.id}>
                           <Slide
                             fullscreenProps={fullscreenProps}
                             behaviors={canvas.__jsonld.behavior || []}
@@ -168,34 +147,29 @@ class SlideShow extends Component {
                           />
                         </SimpleSlideTransition>
                         <CanvasNavigation
-                          previousRange={previousRange}
-                          nextRange={nextRange}
-                          canvasList={canvasList}
                           currentIndex={currentIndex}
+                          previousRange={this.previousRange}
+                          nextRange={this.nextRange}
+                          canvasList={canvasList}
                         />
                       </div>
-                      {
-                        canvasList.length > 1 && (
-                          <div className={bem.element('manifest-cabinet-holder')}>
-                            <ContainerDimensions>
-                              {({ width, height }) => (
-                                <Grid
-                                  cellRenderer={this.cellRenderer}
-                                  columnWidth={116}
-                                  columnCount={canvasList.length}
-                                  height={124}
-                                  overscanColumnCount={5}
-                                  overscanRowCount={1}
-                                  rowHeight={116}
-                                  rowCount={1}
-                                  width={width}
-                                  scrollLeft={currentIndex * 116}
-                                />
-                              )}
-                            </ContainerDimensions>
-                          </div>
-                        )
-                      }
+                      {canvasList.length > 1 && (
+                        <div className={bem.element('manifest-cabinet-holder')}>
+                          <ContainerDimensions>
+                            {({ width, height }) => (
+                              <Grid
+                                onClick={index => goToRange(index)}
+                                thumbnails={this.getThumbnailsArray(manifest)}
+                                selected={this.props.id}
+                                pathname={this.props.pathname}
+                                height={height}
+                                width={width}
+                                count={canvasList.count}
+                              />
+                            )}
+                          </ContainerDimensions>
+                        </div>
+                      )}
                     </React.Fragment>
                   );
                 }}
@@ -208,5 +182,6 @@ class SlideShow extends Component {
   }
 }
 
-// NOTE: this is because Gatsby.js client only hack...
-export default typeof withBemClass === 'function' ? withBemClass('slideshow')(SlideShow) : SlideShow;
+export default typeof withBemClass === 'function'
+  ? withBemClass('slideshow')(SlideShow)
+  : SlideShow;

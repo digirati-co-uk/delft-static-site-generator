@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##De geboortedag van de universiteit
+## De geboortedag van de universiteit
 
 Op 8 januari 1842 werd de voorloper van de universiteit opgericht, de ‘Koninklijke Akademie ter opleiding van burgerlijke ingenieurs zoo voor 's lands dienst als voor de nijverheid en van kweekelingen voor den handel’. De oprichting van deze school kent een lange voorgeschiedenis.
 

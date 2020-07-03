@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const filterToPreferredChoices = (choices, pageLanguage = 'en') => choices.filter(
-    choice => !choice.hasOwnProperty('language')
-      || (choice.hasOwnProperty('language') && choice.language === pageLanguage),
+const filterToPreferredChoices = (choices, pageLanguage = 'en') =>
+  choices.filter(
+    choice =>
+      !choice.hasOwnProperty('language') ||
+      (choice.hasOwnProperty('language') && choice.language === pageLanguage)
   );
 
 const AnnotationBodyType = PropTypes.shape({
@@ -37,35 +39,56 @@ const imageCanvasRealiveSize = (bodyId, canvas) => {
 };
 
 const IIIFImageAnnotationCover = ({
- body, position, annotation, canvas, canvasSize: canvasPhysicalSize = { width: 1200, height: 1200 },
+  body,
+  position,
+  annotation,
+  canvas,
+  canvasSize: canvasPhysicalSize = { width: 1200, height: 1200 },
 }) => {
   if (!body) {
-    return ('error');
+    return 'error';
   }
-  // console.log('IIIFImageAnnotationCover', body, position, annotation, canvas);
-  // const canvasPhysicalSize = convertBehaviourToPhysicalSize(canvas);
   if (body.id) {
     const imageRelativeSize = imageCanvasRealiveSize(body.id, canvas);
     canvasPhysicalSize.width /= imageRelativeSize.width;
     canvasPhysicalSize.height /= imageRelativeSize.height;
     return (
-      <img
-        src={
-          body.id.replace('/full/0/default.jpg', `/!${parseInt(canvasPhysicalSize.width, 10)},${parseInt(canvasPhysicalSize.height, 10)}/0/default.jpg`)
-        }
-        style={position}
-        alt={body.id}
-      />
+      <picture>
+        <source media={'max-width: 980px'} srcset={body.id} />
+        <source
+          media={'max-width: 700px'}
+          srcset={body.id.replace('/full/full/', `/full/!700,700/`)}
+        />
+        <source
+          media={'max-width: 600px'}
+          srcset={body.id.replace('/full/full/', `/full/!500,500/`)}
+        />
+        <source
+          media={'max-width: 480px'}
+          srcset={body.id.replace('/full/full/', `/full/!300,300/`)}
+        />
+        <source
+          media={'max-width: 320px'}
+          srcset={body.id.replace('/full/full/', `/full/!150,150/`)}
+        />
+        <img
+          src={body.id.replace('/full/full/', `/full/!500,500/`)}
+          style={position}
+          alt={body.id}
+        />
+      </picture>
     );
   }
   if (body.service) {
-    const service = (Array.isArray(body.service) ? body.service[0] : body.service);
+    const service = Array.isArray(body.service)
+      ? body.service[0]
+      : body.service;
     const id = service['@id'] || service.id;
     return (
       <img
-        src={
-          `${id.replace('info.json', '')}/full/!${canvasPhysicalSize.width},${canvasPhysicalSize.height}/0/default.jpg`
-        }
+        src={`${id.replace('info.json', '')}/full/!${
+          canvasPhysicalSize.width
+        },${canvasPhysicalSize.height}/0/default.jpg`}
         style={position}
         alt={id}
       />
@@ -91,21 +114,52 @@ IIIFImageAnnotationCover.defaultProps = {
   },
 };
 
-const IIIFVideoAnnotationCover = ({ body, position }) => (
-  <div style={position}>
-    <video
-      src={body.id}
-      width="100%"
-      height="100%"
-      controls
-      style={{
-        width: '100%',
-        height: '100%',
-        // objectFit: 'cover'
-    }}
-    />
-  </div>
-);
+const IIIFVideoAnnotationCover = ({ body, position }) => {
+  const [imageUrl, setImageUrl] = useState('');
+  let url = body.id;
+
+  useEffect(() => {
+    if (body.id.includes('youtu.be') || body.id.includes('youtube')) {
+      if (url.includes('watch')) {
+        url = url.replace('watch?v=', 'embed/');
+      } else {
+        url = url.replace('youtube', 'youtube.com/embed');
+        url = url.replace('youtu.be', 'youtube.com/embed');
+      }
+      if (body.selector && body.selector.value.includes('t=')) {
+        url =
+          url +
+          `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
+            body.selector.value.split('t=')[1].split(',')[1]
+          }`;
+      }
+      setImageUrl(
+        `https://img.youtube.com/vi/${
+          url.split('/')[4].split('?')[0]
+        }/maxresdefault.jpg`
+      );
+    }
+    if (body.id.includes('vimeo')) {
+      url = url.replace('vimeo.com', 'player.vimeo.com/video');
+      if (body.selector && body.selector.value.includes('t=')) {
+        url = url + `#${body.selector.value.split(',')[0]}`;
+      }
+      fetch(
+        `https://vimeo.com/api/oembed.json?url=https%3A//vimeo.com/${
+          url.split('/')[4].split('#')[0]
+        }&width=480&height=360`
+      )
+        .then(response => response.json())
+        .then(data => setImageUrl(data.thumbnail_url));
+    }
+  }, []);
+
+  return (
+    <div style={position}>
+      <img src={imageUrl}></img>
+    </div>
+  );
+};
 
 IIIFVideoAnnotationCover.propTypes = {
   body: AnnotationBodyType,
@@ -118,9 +172,7 @@ IIIFVideoAnnotationCover.defaultProps = {
 };
 
 const IIIFTextAnnotationCover = ({ body, position }) => (
-  <div style={position}>
-    {body.value}
-  </div>
+  <div style={position}>{body.value}</div>
 );
 
 IIIFTextAnnotationCover.propTypes = {
@@ -133,19 +185,37 @@ IIIFTextAnnotationCover.defaultProps = {
   position: {},
 };
 
-
 export const AnnotationBodyRenderer = ({
- body, position, pageLanguage, annotation, canvas, canvasSize,
+  body,
+  position,
+  pageLanguage,
+  annotation,
+  canvas,
+  canvasSize,
 }) => {
   switch (body.type) {
     case 'Choice':
-      return filterToPreferredChoices(body.items, pageLanguage).map(
-        choice => <AnnotationBodyRenderer body={choice} position={position} annotation={annotation} canvas={canvas} canvasSize={canvasSize} />,
-      );
+      return filterToPreferredChoices(body.items, pageLanguage).map(choice => (
+        <AnnotationBodyRenderer
+          body={choice}
+          position={position}
+          annotation={annotation}
+          canvas={canvas}
+          canvasSize={canvasSize}
+        />
+      ));
     case 'Video':
       return <IIIFVideoAnnotationCover body={body} position={position} />;
     case 'Image':
-      return <IIIFImageAnnotationCover body={body} position={position} annotation={annotation} canvas={canvas} canvasSize={canvasSize} />;
+      return (
+        <IIIFImageAnnotationCover
+          body={body}
+          position={position}
+          annotation={annotation}
+          canvas={canvas}
+          canvasSize={canvasSize}
+        />
+      );
     case 'Text':
       return <IIIFTextAnnotationCover style={position} body={body} />;
     default:

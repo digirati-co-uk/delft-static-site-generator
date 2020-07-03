@@ -7,10 +7,26 @@ import './menu.css';
 const Menu = ({ t, style, language }) => (
   <nav style={style} className="main-menu">
     <ul className="main-menu__list">
-      <li className="main-menu__list-item"><Link to={`/${language}/exhibitions/`} className="main-menu__link">{t('EXHIBITIONS')}</Link></li>
-      <li className="main-menu__list-item"><Link to={`/${language}/collections/`} className="main-menu__link">{t('COLLECTIONS')}</Link></li>
-      <li className="main-menu__list-item"><Link to={`/${language}/publications/`} className="main-menu__link">{t('PUBLICATIONS')}</Link></li>
-      <li className="main-menu__list-item"><Link to={`/${language}/about/`} className="main-menu__link">{t('ABOUT')}</Link></li>
+      <li className="main-menu__list-item">
+        <Link to={`/${language}/exhibitions/`} className="main-menu__link">
+          {t('EXHIBITIONS')}
+        </Link>
+      </li>
+      <li className="main-menu__list-item">
+        <Link to={`/${language}/collections/`} className="main-menu__link">
+          {t('COLLECTIONS')}
+        </Link>
+      </li>
+      <li className="main-menu__list-item">
+        <Link to={`/${language}/publications/`} className="main-menu__link">
+          {t('PUBLICATIONS')}
+        </Link>
+      </li>
+      <li className="main-menu__list-item">
+        <Link to={`/${language}/about/`} className="main-menu__link">
+          {t('ABOUT')}
+        </Link>
+      </li>
     </ul>
   </nav>
 );

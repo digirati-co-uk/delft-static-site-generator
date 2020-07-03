@@ -9,6 +9,14 @@ title: "Academisch Erfgoed"
 ###### *Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de Engelstalige [about pagina](/en/about/).*
 
 <div class="blocks">
+<div class="block tint purple cutcorners w-8 h-4 image">
+
+[Corona Chronicles](/en/exhibitions/corona-chronicles)
+</div>
+<div class="block cutcorners w-4 h-4 article">
+
+[The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb)
+</div>
 <div class="block tint yellow cutcorners w-5 h-8 image">
 
 [Rise of a Campus](/nl/exhibitions/rise-of-a-campus)

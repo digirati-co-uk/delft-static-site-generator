@@ -1,0 +1,167 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Drawing of the main hall of the building for mathematics, mechanics and technical drawing by Henri Maclaine Pont"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 620,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/670bba05-0a8c-0b3c-90ac-27af46e33bf6/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4380,
+                "width": 7063,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/670bba05-0a8c-0b3c-90ac-27af46e33bf6",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 7063,
+                  "height": 4380,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 635
+                    },
+                    {
+                      "width": 400,
+                      "height": 248
+                    },
+                    {
+                      "width": 200,
+                      "height": 124
+                    },
+                    {
+                      "width": 100,
+                      "height": 62
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/670bba05-0a8c-0b3c-90ac-27af46e33bf6/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/670bba05-0a8c-0b3c-90ac-27af46e33bf6",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 635,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 635
+                      },
+                      {
+                        "width": 400,
+                        "height": 248
+                      },
+                      {
+                        "width": 200,
+                        "height": 124
+                      },
+                      {
+                        "width": 100,
+                        "height": 62
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/8aa9f396-c6a7-62d9-6215-b89059d565e3/annotation/fa165e07-7fec-f588-2086-eb7a97a9d120",
+              "target": "https://heritage.tudelft.nl/iiif/8aa9f396-c6a7-62d9-6215-b89059d565e3/canvas/89d96ff8-f043-cad4-9ded-1f8f96280534#xywh=0,0,1000,620",
+              "summary": {
+                "en": [
+                  "From: Memorie van toelichting bij de voorprojecten der gebouwen voor wiskunde, mechanica en technisch teekenen barakgebouw A en voor kennis van bouwstoffen barakgebouw B, no. 2, probably 1919"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Drawing of the main hall of the building for mathematics, mechanics and technical drawing by Henri Maclaine Pont"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/8aa9f396-c6a7-62d9-6215-b89059d565e3/list/3ca32a6c-6074-4222-651b-c8814b8dd3d8"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/8aa9f396-c6a7-62d9-6215-b89059d565e3/canvas/89d96ff8-f043-cad4-9ded-1f8f96280534"
+    }
+  ],
+  "id": "https://heritage.tudelft.nl/iiif/8aa9f396-c6a7-62d9-6215-b89059d565e3/manifest"
+}

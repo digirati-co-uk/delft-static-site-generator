@@ -2,31 +2,32 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
+import { Link } from 'gatsby';
+
 import { getPageLanguage } from '../../utils';
 
-const Publications = ({ data, '*': pagePath }) => {
+const Publications = ({ data, path: pagePath, annos }) => {
   const pageLanguage = getPageLanguage(pagePath);
   return (
     <Layout language={pageLanguage} path={pagePath}>
       <main>
         <div className="blocks">
-          {data.allMarkdownRemark && (data.allMarkdownRemark.edges || []).map((article) => {
-          const {
-            title, date, path, author,
-          } = article.node.frontmatter;
-          return (
-            <div className="block title cutcorners w-4 h-4 ">
-              <div className="boxtitle">{date || '[Date]'}</div>
-              <div className="maintitle">
-                {title || '[Title]'}
-                <p className="readmore">
-                  <a href={path}>Read More</a>
-                </p>
-              </div>
-              <div className="boxtitle">{author || '[Author]'}</div>
-            </div>
-          );
-        })}
+          {data.allMarkdownRemark &&
+            (data.allMarkdownRemark.edges || []).map(article => {
+              const { title, date, path, author } = article.node.frontmatter;
+              return (
+                <div className="block title cutcorners w-4 h-4 ">
+                  <div className="boxtitle">{date || '[Date]'}</div>
+                  <div className="maintitle">
+                    {title || '[Title]'}
+                    <p className="readmore">
+                      <Link to={path}>Read More</Link>
+                    </p>
+                  </div>
+                  <div className="boxtitle">{author || '[Author]'}</div>
+                </div>
+              );
+            })}
         </div>
       </main>
     </Layout>
@@ -35,29 +36,36 @@ const Publications = ({ data, '*': pagePath }) => {
 
 Publications.propTypes = {
   data: PropTypes.object.isRequired,
-  '*': PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 };
 
 export default Publications;
 
 export const pageQuery = graphql`
-query($path: String!) {
-  allMarkdownRemark(
-   filter: { frontmatter: { path: { regex: $path }}}
-   sort: { fields: [frontmatter___date], order: DESC}
- ){
-   edges {
-     node {
-       id,
-       
-       frontmatter {
-         title
-         path
-         date
-         _PARENT
-         author
-       }
-     }
-   }
- }
-}`;
+  query($path: String!) {
+    allMarkdownRemark(
+      filter: { frontmatter: { path: { regex: $path } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            path
+            date
+            author
+          }
+        }
+      }
+    }
+    allSitePage {
+      edges {
+        node {
+          id
+          path
+        }
+      }
+    }
+  }
+`;

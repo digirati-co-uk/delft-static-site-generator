@@ -9,7 +9,7 @@ author: "Abel Streefland"
 
 ---
 
-##Donderjolen en kaalscheren
+## Donderjolen en kaalscheren
 
 **Discussies over het nut van ontgroeningen bij studentenverenigingen zijn van alle tijden. Ook een eeuw geleden waren er incidenten rond de groentijd – zoals de kennismakingstijd toen heette.**
 
