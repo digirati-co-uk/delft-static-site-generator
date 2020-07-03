@@ -83,22 +83,6 @@ h3 {
   font-size:1.5rem;
 }
 
-article.long {
-  ul,
-  ol {
-    font-size: 1.5rem;
-    @media #{$small-down} {
-      font-size:1.2rem;
-    }
-    line-height: 1.21;
-    &+p {
-      margin-top:1em;
-    }
-    // letter-spacing: 0.3px;
-  }
-
-}
-
 main {
 
   max-width: calc(1200px + 2rem);
@@ -135,7 +119,7 @@ main {
 
   article {
 
-    h1,
+	h1,
     h2,
     h3,
     h4,
@@ -150,45 +134,32 @@ main {
     max-width: 55rem;
     margin-left:auto;
     margin-right:auto;
-   }
-
-  }
-}
-
-article.long {
-  a {
+	}
+	a {
     font-family: 'f-regular', 'Courier New', Courier, monospace;
     text-decoration: underline;
     border:none;
     color:#1d1c73;
-  }
-  ul,
-  ol {
-    li {
-      margin-left:2rem;
-    }
+	}
+	ul,
+	ol {
+	li {
+    margin-left:2rem;
+	}
     margin-bottom: 3rem;
+	font-size: 1.5rem;
+    @media #{$small-down} {
+      font-size:1.2rem;
+    }
+    line-height: 1.21;
+    &+p {
+    margin-top:1em;
+    }
+    // letter-spacing: 0.3px;
   }
-
 }
 
-article.long {
-  a {
-    font-family: 'f-regular', 'Courier New', Courier, monospace;
-    text-decoration: underline;
-    border:none;
-    color:#1d1c73;
-  }
-  ul,
-  ol {
-    li {
-      margin-left:2rem;
-    }
-    margin-bottom: 3rem;
-  }
-
 }
-
 
 h6 {
   font-family: 'f-regular';
@@ -730,7 +701,7 @@ $width: 1rem; // width of the chamfered edges
   }
 
   .article {
-    background-color: grey;
+    background-color: #e1c136;
     padding: 1.5rem;
 
     a {
@@ -739,6 +710,7 @@ $width: 1rem; // width of the chamfered edges
       flex-direction: column;
       height: 100%;
       align-items: center;
+      border-bottom: none;
     }
   }
 
