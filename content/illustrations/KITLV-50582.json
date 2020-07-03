@@ -6,7 +6,7 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Sketch of the site of the future technical college complex by Henri Maclaine Pont"
+      "Students of the technical college in Bandung, around 1920"
     ]
   },
   "items": [
@@ -16,8 +16,8 @@
           "Untitled Canvas"
         ]
       },
-      "height": 1000,
-      "width": 774,
+      "height": 693,
+      "width": 999,
       "type": "Canvas",
       "items": [
         {
@@ -27,11 +27,11 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/20/f34ff6b7-f333-4131-916f-2550326d5494/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 7563,
-                "width": 5859,
+                "height": 1286,
+                "width": 1855,
                 "label": {
                   "en": [
                     "-"
@@ -39,10 +39,10 @@
                 },
                 "service": {
                   "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80",
+                  "id": "https://dlc.services/iiif-img/7/20/f34ff6b7-f333-4131-916f-2550326d5494",
                   "protocol": "http://iiif.io/api/image",
-                  "width": 5859,
-                  "height": 7563,
+                  "width": 1855,
+                  "height": 1286,
                   "tiles": [
                     {
                       "width": 256,
@@ -51,28 +51,26 @@
                         1,
                         2,
                         4,
-                        8,
-                        16,
-                        32
+                        8
                       ]
                     }
                   ],
                   "sizes": [
                     {
-                      "width": 793,
-                      "height": 1024
+                      "width": 1024,
+                      "height": 710
                     },
                     {
-                      "width": 310,
-                      "height": 400
+                      "width": 400,
+                      "height": 277
                     },
                     {
-                      "width": 155,
-                      "height": 200
+                      "width": 200,
+                      "height": 139
                     },
                     {
-                      "width": 77,
-                      "height": 100
+                      "width": 100,
+                      "height": 69
                     }
                   ],
                   "profile": [
@@ -101,11 +99,11 @@
               },
               "thumbnail": [
                 {
-                  "id": "https://dlc.services/thumbs/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80/full/full/0/default.jpg",
+                  "id": "https://dlc.services/thumbs/7/20/f34ff6b7-f333-4131-916f-2550326d5494/full/full/0/default.jpg",
                   "type": "Image",
                   "service": {
                     "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/10/5ebb5a90-3359-4382-902d-b53c77f51f80",
+                    "id": "https://dlc.services/thumbs/7/20/f34ff6b7-f333-4131-916f-2550326d5494",
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
@@ -120,48 +118,48 @@
                         ]
                       }
                     ],
-                    "width": 793,
-                    "height": 1024,
+                    "width": 1024,
+                    "height": 710,
                     "sizes": [
                       {
-                        "width": 793,
-                        "height": 1024
+                        "width": 1024,
+                        "height": 710
                       },
                       {
-                        "width": 310,
-                        "height": 400
+                        "width": 400,
+                        "height": 277
                       },
                       {
-                        "width": 155,
-                        "height": 200
+                        "width": 200,
+                        "height": 139
                       },
                       {
-                        "width": 77,
-                        "height": 100
+                        "width": 100,
+                        "height": 69
                       }
                     ]
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/annotation/ddbc8783-8d06-bd90-e086-a5785940831e",
-              "target": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/canvas/c357b590-4126-e725-7a2f-51e8d47ea8bb#xywh=0,0,774,1000",
+              "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/annotation/c3db86f6-6ef5-9959-7c61-6df2733b4c27",
+              "target": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/canvas/fe3fe6ff-c679-84dd-87e4-d6b991fdd313#xywh=0,0,999,693",
               "label": {
                 "en": [
-                  "Sketch of the site of the future technical college complex by Henri Maclaine Pont"
+                  "Students of the technical college in Bandung, around 1920"
                 ]
               },
               "summary": {
                 "en": [
-                  "National Archives, archive 4.KIVI, no. 864"
+                  "Leiden University Library, KITLV collection, no. KITLV 50582"
                 ]
               }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/list/ff776c52-3d07-8514-5821-4437de79ded7"
+          "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/list/82f5a5b9-a3d7-85ad-0cd5-b95a1b5e7c9b"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/fce78956-27fc-8423-c689-01f357bd1e2a/canvas/c357b590-4126-e725-7a2f-51e8d47ea8bb"
+      "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/canvas/fe3fe6ff-c679-84dd-87e4-d6b991fdd313"
     }
   ],
-  "id": "https://dlc.services/iiif-resource/7/string1/864-899"
+  "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/manifest"
 }
