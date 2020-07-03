@@ -33,20 +33,15 @@
       transform: scale(1.0);
       transition: transform 0.15s ease-out;
       margin: 0px 16px;
-
     }
   }
 
   &__thumb-img {
-    object-fit: cover;
     height: 100%;
     width: 100%;
     outline: 0;
     margin: 0;
     padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
   }
 
   &__thumb-missing {
