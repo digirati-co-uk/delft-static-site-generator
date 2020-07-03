@@ -4,7 +4,7 @@ date: "2018-11-15"
 title: "About"
 ---
 
-<article class="long">
+<article>
 
 # About TU Delft Library's Academic Heritage Team
 

@@ -7,6 +7,8 @@ author: "Abel Streefland"
 
 **In 2020, the Institut Teknologi Bandung (ITB), Indonesia, is celebrating its centenary. This essay offers deeper insight into the founding of ITB and the historical relationship between Delft University of Technology and its Indonesian counterpart. It breaks down several myths concerning the establishment of the school in Bandung and also provides an overview of the main actors involved.**
 
+[A PDF version of this publication is available here](http://resolver.tudelft.nl/uuid:669f84da-b06d-42fc-a956-74ae9ddfe875)
+
 On 3 July 1920, a technical college was opened in Bandung, on the island of Java, in the Dutch East Indies. It was a special day full of pump and circumstance. The Javanese elite came to Bandung in large numbers to attend the ceremony in one of the recently finished buildings of the college. The mayor of Bandung gave a proud speech, as did the regent of the district of Serang. The governor-general of the Dutch East Indies, Johan Paul graaf van Limburg Stirum, came from Batavia to formally open the school. Some sources even say that the whole city of Bandung had the day off to celebrate the opening. After all, it was the first institute of higher technical learning in the Dutch colony, and the second technical college in the Dutch empire, after Delft technical college.
 
 The first rector of the college in Bandung, Jan Klopper, was one of its initiators. As a professor of applied mathematics in Delft, he knew engineering education inside out. The Dutch East Indies appealed to him and after a first visit in 1919 he decided that he did not want to return to Delft. In his speech at the opening ceremony of the college, he addressed the future students:
