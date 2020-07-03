@@ -14,3 +14,5 @@ export const onInitialClientRender = () => {
    */
   globalHistory._onTransitionComplete();
 };
+
+import 'lazysizes';

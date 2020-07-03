@@ -47,7 +47,7 @@ export const Grid = ({ thumbnails, onClick, selected, pathname, width }) => {
               >
                 {thumbnail ? (
                   <img
-                    src={thumbnail}
+                    src={thumbnail.replace('/full/full/', '/full/!100,100/')}
                     className="manifest-cabinet__thumb-img"
                     alt=""
                   />
