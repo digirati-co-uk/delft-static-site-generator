@@ -64,6 +64,10 @@ title: "Digitale Collecties"
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
+[Universitaire Bibliotheken Leiden](/nl/collections/ex-ubl)
+</div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
 [Histechnica](/nl/collections/ex-histechnica)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
