@@ -41,6 +41,10 @@ module.exports = {
               ],
             },
           },
+          {
+            resolve: `gatsby-remark-images`,
+          },
+          `gatsby-remark-lazy-load`,
         ],
       },
     },
