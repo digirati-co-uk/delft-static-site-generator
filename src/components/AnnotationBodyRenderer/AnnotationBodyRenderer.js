@@ -56,12 +56,20 @@ const IIIFImageAnnotationCover = ({
       <picture>
         <source media={'max-width: 980px'} srcset={body.id} />
         <source
-          media={'max-width: 600px'}
+          media={'max-width: 700px'}
           srcset={body.id.replace('/full/full/', `/full/!700,700/`)}
         />
         <source
-          media={'max-width: 480px'}
+          media={'max-width: 600px'}
           srcset={body.id.replace('/full/full/', `/full/!500,500/`)}
+        />
+        <source
+          media={'max-width: 480px'}
+          srcset={body.id.replace('/full/full/', `/full/!300,300/`)}
+        />
+        <source
+          media={'max-width: 320px'}
+          srcset={body.id.replace('/full/full/', `/full/!150,150/`)}
         />
         <img
           src={body.id.replace('/full/full/', `/full/!500,500/`)}
