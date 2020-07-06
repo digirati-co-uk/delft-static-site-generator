@@ -20,7 +20,9 @@ class Layout extends React.Component {
         ? this.props.meta.image
         : 'https://dlc.services/iiif-img/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/!800,800/0/default.jpg';
     const description =
-      this.props.meta && this.props.meta.description
+      this.props.meta &&
+      this.props.meta.description &&
+      this.props.meta.description
         ? this.props.meta.description
         : 'Explore the history of Delft University of Technology and the Special Collections of TU Delft Library.';
     return (
@@ -61,7 +63,7 @@ class Layout extends React.Component {
                     name: 'twitter:description',
                     content: description,
                   },
-                  { name: 'twitter:card', content: 'summary' },
+                  { name: 'twitter:card', content: 'summary_large_image' },
                   {
                     name: 'og:url',
                     content: location,
@@ -69,7 +71,7 @@ class Layout extends React.Component {
                   { name: 'og:type', content: 'website' },
                   { name: 'og:title', content: data.site.siteMetadata.title },
                   {
-                    name: 'og:image',
+                    property: 'og:image',
                     content: image,
                   },
                   {
