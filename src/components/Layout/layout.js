@@ -13,7 +13,7 @@ import translations from '../../translations';
 class Layout extends React.Component {
   render() {
     const location = this.props.location.href
-      ? this.props.location.href.replace('?id=', '')
+      ? this.props.location.href.replace('?id=', '/') + '/'
       : 'https://erfgoed.tudelft.nl/nl';
     const image =
       this.props.meta && this.props.meta.image
