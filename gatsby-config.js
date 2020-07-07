@@ -63,6 +63,12 @@ module.exports = {
         icon: 'src/images/tu-delft-logo-svg-vector.svg', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://heritage.tudelft.nl`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
