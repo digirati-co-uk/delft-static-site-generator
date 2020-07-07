@@ -8,13 +8,23 @@ class CanvasPage extends React.Component {
     let description = '';
     if (this.props.location.pathname.includes('/en/')) {
       this.props.pageContext.metadata.map(property => {
-        if (property.label.en[0] === 'Title') {
+        if (
+          property &&
+          property.label &&
+          property.label.en &&
+          property.label.en[0] === 'Title'
+        ) {
           description = property.value.en[0];
         }
       });
     } else if (this.props.location.pathname.includes('/nl/')) {
       this.props.pageContext.metadata.map(property => {
-        if (property.label.nl[0] === 'Titel') {
+        if (
+          property &&
+          property.label &&
+          property.label.nl &&
+          property.label.nl[0] === 'Titel'
+        ) {
           description = property.value.nl[0];
         }
       });
