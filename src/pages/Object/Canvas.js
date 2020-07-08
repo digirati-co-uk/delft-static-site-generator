@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Layout from '../../components/Layout/layout';
 import { getPageLanguage } from '../../utils';
+import { navigate } from 'gatsby';
 
-class CanvasPage extends React.Component {
-  getPageMetaData = () => {
+const CanvasPage = ({ location, pageContext, path }) => {
+  useEffect(() => {
+    navigate(getRedirectRoute());
+  }, []);
+
+  const getRedirectRoute = () => {
+    let pathSplit = path.split('/');
+    pathSplit.splice(4, 0, '?id=');
+    return pathSplit.join('/').replace('/?id=/', '/?id=');
+  };
+
+  const getPageMetaData = () => {
     let description = '';
-    if (this.props.location.pathname.includes('/en/')) {
-      this.props.pageContext.metadata.map(property => {
+    if (location.pathname.includes('/en/')) {
+      pageContext.metadata.map(property => {
         if (
           property &&
           property.label &&
@@ -17,8 +28,8 @@ class CanvasPage extends React.Component {
           description = property.value.en[0];
         }
       });
-    } else if (this.props.location.pathname.includes('/nl/')) {
-      this.props.pageContext.metadata.map(property => {
+    } else if (location.pathname.includes('/nl/')) {
+      pageContext.metadata.map(property => {
         if (
           property &&
           property.label &&
@@ -31,25 +42,22 @@ class CanvasPage extends React.Component {
     }
 
     const meta = {
-      image: this.props.pageContext.image,
+      image: pageContext.image,
       description: description,
     };
     return meta;
   };
 
-  render() {
-    const { path } = this.props;
-    const pageLanguage = getPageLanguage(path);
+  const pageLanguage = getPageLanguage(path);
 
-    return (
-      <Layout
-        language={pageLanguage}
-        path={path}
-        meta={this.getPageMetaData()}
-      ></Layout>
-    );
-  }
-}
+  return (
+    <Layout
+      language={pageLanguage}
+      path={path}
+      meta={getPageMetaData()}
+    ></Layout>
+  );
+};
 
 CanvasPage.propTypes = {
   pageContext: PropTypes.object.isRequired,
