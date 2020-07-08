@@ -278,15 +278,35 @@ class ExhibitionPage extends React.Component {
   getPageMetaData = () => {
     const summary = this.props.pageContext.label;
     const language = this.props.path.split('/')[1];
+    const items = this.props.pageContext.items;
 
-    const image =
-      this.props.pageContext &&
-      this.props.pageContext.items &&
-      this.props.pageContext.items[0] &&
-      this.props.pageContext.items[0].thumbnail &&
-      this.props.pageContext.items[0].thumbnail[0]
-        ? this.props.pageContext.items[0].thumbnail[0].id
+    let image =
+      items &&
+      items[0] &&
+      items[0].items &&
+      items[0].items[0] &&
+      items[0].items[0].items &&
+      items[0].items[0].items[0] &&
+      items[0].items[0].items[0].thumbnail &&
+      items[0].items[0].items[0].thumbnail[0] &&
+      items[0].items[0].items[0].thumbnail[0].id
+        ? items[0].items[0].items[0].thumbnail[0].id
         : null;
+    // if no image, eg. first block sometimes an about block
+    image =
+      !image &&
+      items &&
+      items[1] &&
+      items[1].items &&
+      items[1].items[0] &&
+      items[1].items[0].items &&
+      items[1].items[0].items[0] &&
+      items[1].items[0].items[0].thumbnail &&
+      items[1].items[0].items[0].thumbnail[0] &&
+      items[1].items[0].items[0].thumbnail[0].id
+        ? items[1].items[0].items[0].thumbnail[0].id
+        : null;
+
     const meta = {
       image: image,
       description: summary && summary[language] ? summary[language][0] : null,
