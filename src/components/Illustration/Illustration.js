@@ -74,6 +74,7 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
   const [showCanvasModal, setCanvasModal] = useState(false);
   const [annos, setAnnos] = useState({});
   const [label, setLabel] = useState('');
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
     const manifest = fetchDataFromFile(source);
@@ -119,6 +120,12 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
+      {!isImageLoaded && (
+        <div
+          className="cutcorners"
+          style={{ width: '100%', height: ' 700px', backgroundColor: 'black' }}
+        ></div>
+      )}
       <img
         className="cutcorners"
         style={{
@@ -128,6 +135,7 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
           height: '100%',
         }}
         src={thumbnailSrc}
+        onLoad={() => setIsImageLoaded(true)}
         onClick={() => setCanvasModal(true)}
       />
       {label ? (
