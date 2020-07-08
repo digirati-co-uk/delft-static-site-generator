@@ -54,25 +54,28 @@ const IIIFImageAnnotationCover = ({
     canvasPhysicalSize.height /= imageRelativeSize.height;
     return (
       <picture>
-        <source media={'max-width: 980px'} srcset={body.id} />
+        <source
+          media={'max-width: 980px'}
+          rcset={body.id.replace('/full/full/', `/full/!1000,1000/`)}
+        />
         <source
           media={'max-width: 700px'}
-          srcset={body.id.replace('/full/full/', `/full/!700,700/`)}
+          srcset={body.id.replace('/full/full/', `/full/!800,800/`)}
         />
         <source
           media={'max-width: 600px'}
-          srcset={body.id.replace('/full/full/', `/full/!500,500/`)}
+          srcset={body.id.replace('/full/full/', `/full/!600,600/`)}
         />
         <source
           media={'max-width: 480px'}
-          srcset={body.id.replace('/full/full/', `/full/!300,300/`)}
+          srcset={body.id.replace('/full/full/', `/full/!500,500/`)}
         />
         <source
           media={'max-width: 320px'}
-          srcset={body.id.replace('/full/full/', `/full/!150,150/`)}
+          srcset={body.id.replace('/full/full/', `/full/!250,250/`)}
         />
         <img
-          src={body.id.replace('/full/full/', `/full/!500,500/`)}
+          src={body.id.replace('/full/full/', `/full/!1000,1000/`)}
           style={position}
           alt={body.id}
         />
