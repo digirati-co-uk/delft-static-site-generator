@@ -878,6 +878,7 @@ $width: 1rem; // width of the chamfered edges
     img {
       // transition: transform 1s ease;
       transform: scale(1.1);
+      object-fit: cover;
     }
 
     margin-bottom: 1rem;
