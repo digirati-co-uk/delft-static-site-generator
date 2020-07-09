@@ -821,7 +821,7 @@ $width: 1rem; // width of the chamfered edges
     transform: rotate(180deg);
 
     @media #{$small-down} {
-      transform: rotate(90deg);
+      transform: rotate(270deg);
     }
   }
 }
