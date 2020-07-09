@@ -53,10 +53,12 @@ class CollectionPage extends React.Component {
   getPageMetaData = () => {
     const summary = this.props.pageContext.collection.summary;
     const language = this.props.path.split('/')[1];
+
     const meta = {
       image: this.props.pageContext.collection.items[0].thumbnail[0].id,
       description: summary[language] ? summary[language][0] : null,
     };
+
     return meta;
   };
 

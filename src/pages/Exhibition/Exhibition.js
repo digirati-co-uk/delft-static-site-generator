@@ -279,7 +279,6 @@ class ExhibitionPage extends React.Component {
     const summary = this.props.pageContext.label;
     const language = this.props.path.split('/')[1];
     const items = this.props.pageContext.items;
-
     let image =
       items &&
       items[0] &&
@@ -292,25 +291,27 @@ class ExhibitionPage extends React.Component {
       items[0].items[0].items[0].thumbnail[0].id
         ? items[0].items[0].items[0].thumbnail[0].id
         : null;
-    // if no image, eg. first block sometimes an about block
-    image =
-      !image &&
-      items &&
-      items[1] &&
-      items[1].items &&
-      items[1].items[0] &&
-      items[1].items[0].items &&
-      items[1].items[0].items[0] &&
-      items[1].items[0].items[0].thumbnail &&
-      items[1].items[0].items[0].thumbnail[0] &&
-      items[1].items[0].items[0].thumbnail[0].id
-        ? items[1].items[0].items[0].thumbnail[0].id
-        : null;
 
+    // if no image, eg. first block sometimes an about block
+    if (!image) {
+      image =
+        items &&
+        items[1] &&
+        items[1].items &&
+        items[1].items[0] &&
+        items[1].items[0].items &&
+        items[1].items[0].items[0] &&
+        items[1].items[0].items[0].thumbnail &&
+        items[1].items[0].items[0].thumbnail[0] &&
+        items[1].items[0].items[0].thumbnail[0].id
+          ? items[1].items[0].items[0].thumbnail[0].id
+          : null;
+    }
     const meta = {
       image: image,
       description: summary && summary[language] ? summary[language][0] : null,
     };
+
     return meta;
   };
 

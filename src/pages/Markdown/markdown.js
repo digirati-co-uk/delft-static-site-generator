@@ -38,6 +38,12 @@ const Markdown = ({ pageContext, data, path }) => {
     : '';
 
   const getPageMetaData = () => {
+    const image =
+      data.markdownRemark &&
+      data.markdownRemark.frontmatter &&
+      data.markdownRemark.frontmatter.image
+        ? data.markdownRemark.frontmatter.image
+        : null;
     const stringToSearch =
       data.markdownRemark && data.markdownRemark.html
         ? data.markdownRemark.html
@@ -46,11 +52,11 @@ const Markdown = ({ pageContext, data, path }) => {
     const description =
       data.markdownRemark &&
       data.markdownRemark.frontmatter &&
-      data.markdownRemark.description
-        ? data.markdownRemark.description
+      data.markdownRemark.frontmatter.title
+        ? data.markdownRemark.frontmatter.title
         : null;
     const meta = {
-      image: href,
+      image: image ? image : href,
       description: description,
     };
     return meta;
@@ -189,6 +195,7 @@ export const pageQuery = graphql`
         path
         title
         author
+        image
       }
     }
     allMdx(filter: { frontmatter: { path: { eq: $path } } }) {

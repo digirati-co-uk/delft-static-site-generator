@@ -9,7 +9,11 @@ import { getPageLanguage } from '../../utils';
 const Publications = ({ data, path: pagePath, annos }) => {
   const pageLanguage = getPageLanguage(pagePath);
   return (
-    <Layout language={pageLanguage} path={pagePath}>
+    <Layout
+      language={pageLanguage}
+      path={pagePath}
+      meta={{ desciption: 'Publications' }}
+    >
       <main>
         <div className="blocks">
           {data.allMarkdownRemark &&
