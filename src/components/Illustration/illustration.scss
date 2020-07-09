@@ -1,0 +1,22 @@
+$small-down: "(max-width: 980px)";
+
+.illustration {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 24px;
+
+  img {
+    transform: scale(1.1);
+    width: 100%;
+    height: 100%;
+  }
+
+  @media($small-down) {
+    flex-direction: column;
+  }
+
+  .w-4 {
+    height: 25rem;
+  }
+}

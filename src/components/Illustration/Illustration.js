@@ -4,6 +4,8 @@ import { PropTypes } from 'prop-types';
 import DynamicCanvasModal from '../CanvasModal/DynamicCanvasModal';
 import { StaticQuery, graphql } from 'gatsby';
 
+import './illustration.scss';
+
 const fetchDataFromFile = source => {
   const json = require(`../../../content/illustrations/${source}`);
   return json;
@@ -119,32 +121,25 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
       : {};
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div className="illustration">
       {!isImageLoaded && (
         <div
-          className="cutcorners"
-          style={{ width: '100%', height: ' 700px', backgroundColor: 'black' }}
+          className="block cutcorners w-4 h-4"
+          style={{ backgroundColor: 'black' }}
         ></div>
       )}
-      <img
-        className="cutcorners"
-        style={{
-          objectFit: 'cover',
-          cursor: 'pointer',
-          width: '100%',
-          height: '100%',
-        }}
-        src={thumbnailSrc}
-        onLoad={() => setIsImageLoaded(true)}
-        onClick={() => setCanvasModal(true)}
-      />
-      {label ? (
-        <div className="info cutcorners" style={{ marginBottom: '24px' }}>
-          {label}
-        </div>
-      ) : (
-        <></>
-      )}
+      <div className="block cutcorners w-4 h-4">
+        <img
+          style={{
+            objectFit: 'cover',
+            cursor: 'pointer',
+          }}
+          src={thumbnailSrc}
+          onLoad={() => setIsImageLoaded(true)}
+          onClick={() => setCanvasModal(true)}
+        />
+      </div>
+      {label ? <div className="info cutcorners w-3">{label}</div> : <></>}
       {showCanvasModal ? (
         <DynamicCanvasModal
           manifest={iiifmanifest}
