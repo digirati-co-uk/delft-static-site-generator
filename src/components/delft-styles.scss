@@ -589,6 +589,12 @@ $width: 1rem; // width of the chamfered edges
 
     .info {
       display: block;
+
+      @media ($small-down) {
+        .right{
+          transform: rotate(90deg);
+        }
+      }
     }
   }
 
