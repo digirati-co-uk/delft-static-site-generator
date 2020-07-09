@@ -279,7 +279,6 @@ class ExhibitionPage extends React.Component {
     const summary = this.props.pageContext.label;
     const language = this.props.path.split('/')[1];
     const items = this.props.pageContext.items;
-
     let image =
       items &&
       items[0] &&
@@ -312,6 +311,7 @@ class ExhibitionPage extends React.Component {
       image: image,
       description: summary && summary[language] ? summary[language][0] : null,
     };
+
     return meta;
   };
 
