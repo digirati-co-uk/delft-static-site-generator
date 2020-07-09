@@ -155,6 +155,12 @@ main {
   }
 }
 
+a.footnote-backref, a.footnote-ref {
+	padding-left: 0.2rem;
+	border-bottom: none;
+	color:#1d1c73;
+}
+
 article.long {
   a {
     font-family: 'f-regular', 'Courier New', Courier, monospace;
