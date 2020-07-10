@@ -459,22 +459,23 @@ exports.createPages = ({ actions, graphql }) => {
           return _exhibitions;
         }, {})
       );
+      // Remove this comment if you would like to include single urls pages for each of the canvases
       // Here we create a dummy page with the url each of the images, we don't want to generate a whole context page, just get the image and description for the social media cards
-      object.context.items.map((canvas, id) => {
-        const manifestTemplate = path.resolve(`src/pages/Object/Canvas.js`);
-        if (canvas.thumbnail && canvas.thumbnail[0] && canvas.thumbnail[0].id) {
-          TRANSLATIONS.forEach(language =>
-            createPage({
-              path: `${language}/${object.path}/${id}`,
-              context: {
-                image: canvas.thumbnail[0].id,
-                metadata: object.context.metadata,
-              },
-              component: manifestTemplate,
-            })
-          );
-        }
-      });
+      // object.context.items.map((canvas, id) => {
+      //   const manifestTemplate = path.resolve(`src/pages/Object/Canvas.js`);
+      //   if (canvas.thumbnail && canvas.thumbnail[0] && canvas.thumbnail[0].id) {
+      //     TRANSLATIONS.forEach(language =>
+      //       createPage({
+      //         path: `${language}/${object.path}/${id}`,
+      //         context: {
+      //           image: canvas.thumbnail[0].id,
+      //           metadata: object.context.metadata,
+      //         },
+      //         component: manifestTemplate,
+      //       })
+      //     );
+      //   }
+      // });
       createTranslatedPage(object, createPage);
     });
     Object.values(exhibitionMeta.pages).forEach(exhibition => {
