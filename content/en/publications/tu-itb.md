@@ -10,7 +10,7 @@ image: "https://dlc.services/thumbs/7/20/76ac865a-099b-43ca-9040-74872c687fff/fu
 
 [View PDF version](http://resolver.tudelft.nl/uuid:669f84da-b06d-42fc-a956-74ae9ddfe875)
 
-On 3 July 1920, a technical college was opened in Bandung, on the island of Java, in the Dutch East Indies. It was a special day full of pump and circumstance. The Javanese elite came to Bandung in large numbers to attend the ceremony in one of the recently finished buildings of the college. The mayor of Bandung gave a proud speech, as did the regent of the district of Serang. The governor-general of the Dutch East Indies, Johan Paul graaf van Limburg Stirum, came from Batavia to formally open the school. Some sources even say that the whole city of Bandung had the day off to celebrate the opening. After all, it was the first institute of higher technical learning in the Dutch colony, and the second technical college in the Dutch empire, after Delft technical college.
+On 3 July 1920, a technical college was opened in Bandung, on the island of Java, in the Dutch East Indies. It was a special day full of pomp and circumstance. The Javanese elite came to Bandung in large numbers to attend the ceremony in one of the recently finished buildings of the college. The mayor of Bandung gave a proud speech, as did the regent of the district of Serang. The governor-general of the Dutch East Indies, Johan Paul graaf van Limburg Stirum, came from Batavia to formally open the school. Some sources even say that the whole city of Bandung had the day off to celebrate the opening. After all, it was the first institute of higher technical learning in the Dutch colony, and the second technical college in the Dutch empire, after Delft technical college.
 
 The first rector of the college in Bandung, Jan Klopper, was one of its initiators. As a professor of applied mathematics in Delft, he knew engineering education inside out. The Dutch East Indies appealed to him and after a first visit in 1919 he decided that he did not want to return to Delft. In his speech at the opening ceremony of the college, he addressed the future students:
 
@@ -150,7 +150,7 @@ Secondary sources:
 - Jef Notermans, ‘Het onderwijs in Nederlands-Indië in de XXste eeuw’, *Revue Belge de Philologie et d’Histoire*, 1966, tome 4, fasc. 4, pp. 1199-1216.
 - Lewis Pyenson, *Empire of Reason: Exact Sciences in Indonesia, 1840-1940*, Leiden, Brill, 1989.
 - Wim Ravesteijn, *De Zegenrijke Heeren der Wateren: Irrigatie en Staat op Java, 1832-1942*, Delft, Delft University Press, 1997.
-- Wim Ravesteijn, *Bouwen in de Archipel: Burgerlijke Openbare Werken in Nederlands-Indië En Indonesië 1800-2000*, Zutphen, Walburg Pers, 2004.
+- Wim Ravesteijn and Jan Kop, *Bouwen in de Archipel: Burgerlijke Openbare Werken in Nederlands-Indië En Indonesië 1800-2000*, Zutphen, Walburg Pers, 2004.
 - Wim Ravesteijn and Jan Kop, *For Profit and Prosperity: the Contribution made by Dutch Engineers to Public Works in Indonesia: 1800-2000*, Zaltbommel and Leiden, Aprilis KITLV Press, 2008.
 - Pauline van Roosmalen, *Ontwerpen aan de Stad: Stedenbouw in Nederlands-Indië en Indonesië (1905-1950)*, TU Delft, dissertation, 2008.
 - Trudy van der Wees, *Het Groene Laboratorium*, Delft, Eburon Academic Publishers, 2017.
