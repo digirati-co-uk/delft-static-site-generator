@@ -56,7 +56,7 @@ const IIIFImageAnnotationCover = ({
       <picture>
         <source
           media={'max-width: 980px'}
-          rcset={body.id.replace('/full/full/', `/full/!1000,1000/`)}
+          srcset={body.id.replace('/full/full/', `/full/!1000,1000/`)}
         />
         <source
           media={'max-width: 700px'}
@@ -117,7 +117,7 @@ IIIFImageAnnotationCover.defaultProps = {
   },
 };
 
-const IIIFVideoAnnotationCover = ({ body, position }) => {
+const IIIFVideoAnnotationCover = ({ body, position, annotation }) => {
   const [imageUrl, setImageUrl] = useState('');
   let url = body.id;
 
@@ -150,23 +150,31 @@ const IIIFVideoAnnotationCover = ({ body, position }) => {
       fetch(
         `https://vimeo.com/api/oembed.json?url=https%3A//vimeo.com/${
           url.split('/')[4].split('#')[0]
-        }&width=480&height=360`
+        }&width=1024&height=768`
       )
         .then(response => response.json())
         .then(data => setImageUrl(data.thumbnail_url));
     }
+    if (annotation.thumbnail) {
+    setImageUrl(annotation.thumbnail[0].id);
+    }
   }, []);
 
   return (
-    <div style={position}>
-      <img src={imageUrl}></img>
-    </div>
+      <picture>
+      <img
+      src={imageUrl}
+      style={position}
+      alt={imageUrl}
+      />
+      </picture>
   );
 };
 
 IIIFVideoAnnotationCover.propTypes = {
   body: AnnotationBodyType,
   position: AnnotationPositionType,
+  annotation: PropTypes.any,
 };
 
 IIIFVideoAnnotationCover.defaultProps = {
@@ -208,7 +216,7 @@ export const AnnotationBodyRenderer = ({
         />
       ));
     case 'Video':
-      return <IIIFVideoAnnotationCover body={body} position={position} />;
+      return <IIIFVideoAnnotationCover body={body} position={position} annotation={annotation}/>;
     case 'Image':
       return (
         <IIIFImageAnnotationCover

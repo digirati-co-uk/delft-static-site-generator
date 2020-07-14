@@ -29,7 +29,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/e42e7cf3-b0ed-987f-3318-d60944ca2bd8"
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/43a448b2-27c9-c008-6ea9-b837ad4bf939",
@@ -371,7 +372,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/399bc69f-8c18-f225-41ca-c781ca0f1916"
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2#xywh=804,283,561,332",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/b6e8b884-b3db-7ade-c90e-149bd9b7cfb2",
@@ -419,7 +421,8 @@
                 "type": "TextualBody",
                 "value": "new annotation",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/7c4ca69b-12bb-e973-ad73-60a77e824d7d"
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/49ddd806-0e6f-220e-98a8-ffc6cb90ec00",
@@ -1053,7 +1056,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/3b9d39ee-8799-0d75-9672-6f02ab4adf2b"
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/08e0d725-4b55-d453-df09-74f1790b0c86",
@@ -1102,7 +1106,8 @@
                 "type": "TextualBody",
                 "value": "new annotation",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/0dedf57b-a236-5d61-39a0-3020c63193a2"
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/c2c124d3-c2e2-1577-0a76-6167e98a6ef4",
@@ -1757,7 +1762,8 @@
                 "type": "TextualBody",
                 "value": "new annotation",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/4be8df3c-49a3-535f-9ef0-8d53ce801fd2"
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/20b29783-32bf-b7f5-16c3-2176ce947f5e",
@@ -1788,6 +1794,108 @@
         "en": [
           "Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. "
         ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Take a tour of a reconstruction of Beijerinck's office"
+        ]
+      },
+      "height": 562,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://tourmake.nl/en/tour/6649a35fe52e12aca13c5b08b3f1fe1a",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "thumbnail": [
+                {
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff",
+                    "type": "ImageService2",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 576,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 576
+                      },
+                      {
+                        "width": 400,
+                        "height": 225
+                      },
+                      {
+                        "width": 200,
+                        "height": 112
+                      },
+                      {
+                        "width": 100,
+                        "height": 56
+                      }
+                    ]
+                  },
+                  "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff/full/full/0/default.jpg"
+                }
+              ],
+              "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b#xywh=0,0,1000,562",
+              "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/134aacc1-6660-eff1-9e2c-025a813aabb3",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Beijerinck's Office"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Reconstruction of Beijerinck's office at Science Centre Delft"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/c620dfbf-f3dc-ed4a-a646-9458afa113f7"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b",
+      "behavior": [
+        "bottom",
+        "w-12",
+        "h-9"
+      ],
+      "summary": {
+        "en": [
+          "The foundation stones for what later became known as microbiology and applied botany, and only much later biotechnology, were laid in a room looking just like this one. The furniture was made for Beijerinck in the late 19th-century and later used by Albert Jan Kluyver. The room also holds equipment from Gerrit van Iterson. The office of a professor teaching at the end of the 19th and beginning of the 20th centuries would have served many different purposes. Usually it held not only a reference library, teaching and writing equipment, but it also sometimes functioned as a meeting room and simple lab. It was perfectly normal for scientists to carry out experiments in their offices. For that reason, in addition to the books and papers, you can see microscopes, weighing scales and chemicals in some of the cupboards. In the beginning of Beijerincks tenure, there was no electricity in the buildings and the professors used gas light. Therefore much of the equipment has been adjusted to work in low light circumstances. Enjoy your visit!"
+        ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Science Centre Delft"
+          ]
+        }
       }
     }
   ],
