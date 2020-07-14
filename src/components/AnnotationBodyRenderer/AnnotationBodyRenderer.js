@@ -56,7 +56,7 @@ const IIIFImageAnnotationCover = ({
       <picture>
         <source
           media={'max-width: 980px'}
-          rcset={body.id.replace('/full/full/', `/full/!1000,1000/`)}
+          srcset={body.id.replace('/full/full/', `/full/!1000,1000/`)}
         />
         <source
           media={'max-width: 700px'}
@@ -161,9 +161,13 @@ const IIIFVideoAnnotationCover = ({ body, position, annotation }) => {
   }, []);
 
   return (
-    <div style={position}>
-      <img src={imageUrl}></img>
-    </div>
+      <picture>
+      <img
+      src={imageUrl}
+      style={position}
+      alt={imageUrl}
+      />
+      </picture>
   );
 };
 
