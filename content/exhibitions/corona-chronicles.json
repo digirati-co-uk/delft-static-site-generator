@@ -1799,7 +1799,7 @@
     {
       "label": {
         "en": [
-          "Take a tour of a reconstruction of Beijerinck's room"
+          "Take a tour of a reconstruction of Beijerinck's office"
         ]
       },
       "height": 562,
@@ -1866,12 +1866,12 @@
               "motivation": "painting",
               "label": {
                 "en": [
-                  "Beijerinck's Room"
+                  "Beijerinck's Office"
                 ]
               },
               "summary": {
                 "en": [
-                  "Reconstruction of Beijerinck's room at Science Centre Delft"
+                  "Reconstruction of Beijerinck's office at Science Centre Delft"
                 ]
               }
             }
@@ -1881,9 +1881,22 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b",
       "behavior": [
+        "bottom",
         "w-12",
-        "h-6"
-      ]
+        "h-9"
+      ],
+      "summary": {
+        "en": [
+          "The foundation stones for what later became known as microbiology and applied botany, and only much later biotechnology, were laid in a room looking just like this one. The furniture was made for Beijerinck in the late 19th-century and later used by Albert Jan Kluyver. The room also holds equipment from Gerrit van Iterson. The office of a professor teaching at the end of the 19th and beginning of the 20th centuries would have served many different purposes. Usually it held not only a reference library, teaching and writing equipment, but it also sometimes functioned as a meeting room and simple lab. It was perfectly normal for scientists to carry out experiments in their offices. For that reason, in addition to the books and papers, you can see microscopes, weighing scales and chemicals in some of the cupboards. In the beginning of Beijerincks tenure, there was no electricity in the buildings and the professors used gas light. Therefore much of the equipment has been adjusted to work in low light circumstances. Enjoy your visit!"
+        ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Science Centre Delft"
+          ]
+        }
+      }
     }
   ],
   "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/manifest"
