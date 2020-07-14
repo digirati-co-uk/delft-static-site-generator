@@ -72,5 +72,28 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
+    {
+      resolve: 'gatsby-plugin-lunr',
+      options: {
+        languages: [{ name: 'en' }],
+        fields: [
+          { name: 'title', store: true, attributes: { boost: 20 } },
+          { name: 'content', store: true },
+          { name: 'url', store: true },
+          { name: 'date', store: true },
+          { name: 'author', store: true },
+        ],
+        resolvers: {
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            content: node => node.rawMarkdownBody,
+            url: node => node.frontmatter.path,
+            date: node => node.frontmatter.date,
+            author: node => node.frontmatter.author,
+          },
+        },
+        filename: 'search_index.json',
+      },
+    },
   ],
 };
