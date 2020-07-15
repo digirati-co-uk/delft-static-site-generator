@@ -37,7 +37,7 @@ export const CanvasNav = ({
           <Arrow />
         </button>
         <button
-          className="arrow right"
+          className="arrow modal-right"
           onClick={forwardClick}
           type="button"
           style={{
