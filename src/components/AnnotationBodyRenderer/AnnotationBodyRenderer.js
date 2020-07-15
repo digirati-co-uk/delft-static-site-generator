@@ -156,18 +156,14 @@ const IIIFVideoAnnotationCover = ({ body, position, annotation }) => {
         .then(data => setImageUrl(data.thumbnail_url));
     }
     if (annotation.thumbnail) {
-    setImageUrl(annotation.thumbnail[0].id);
+      setImageUrl(annotation.thumbnail[0].id);
     }
   }, []);
 
   return (
-      <picture>
-      <img
-      src={imageUrl}
-      style={position}
-      alt={imageUrl}
-      />
-      </picture>
+    <picture>
+      <img src={imageUrl} style={position} alt={imageUrl} />
+    </picture>
   );
 };
 
@@ -216,7 +212,13 @@ export const AnnotationBodyRenderer = ({
         />
       ));
     case 'Video':
-      return <IIIFVideoAnnotationCover body={body} position={position} annotation={annotation}/>;
+      return (
+        <IIIFVideoAnnotationCover
+          body={body}
+          position={position}
+          annotation={annotation}
+        />
+      );
     case 'Image':
       return (
         <IIIFImageAnnotationCover

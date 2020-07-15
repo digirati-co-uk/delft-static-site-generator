@@ -58,10 +58,11 @@ const createVideo = body => {
       url =
         url +
         `?start=${body.selector.value.split('t=')[1].split(',')[0]}&end=${
-          body.selector.value.split('t=')[1].split(',')[1]}
+          body.selector.value.split('t=')[1].split(',')[1]
+        }
           &autoplay=1&modestbranding=1&rel=0`;
     } else {
-    url = url + '?autoplay=1&modestbranding=1&rel=0';
+      url = url + '?autoplay=1&modestbranding=1&rel=0';
     }
   }
   if (body.id.includes('vimeo')) {
@@ -69,7 +70,7 @@ const createVideo = body => {
     if (body.selector && body.selector.value.includes('t=')) {
       url = url + `?autoplay=1#${body.selector.value.split(',')[0]}`;
     } else {
-    url = url + '?autoplay=1';
+      url = url + '?autoplay=1';
     }
   }
   if (body.id.includes('archive.org')) {
