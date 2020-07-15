@@ -58,9 +58,12 @@
     overflow-y: auto;
     overflow-x: hidden;
     background: #fff;
-    &+.canvas-modal__close svg polygon {
+    &+.canvas-modal__close {
+      background: transparent;
+      svg polygon {
       fill: #000 !important;
     }
+  }
     main {
       margin-top:4rem;
       max-width:55rem;
