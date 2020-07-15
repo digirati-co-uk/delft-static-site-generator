@@ -23,14 +23,14 @@
   &__close {
     display: flex;
     position: absolute;
-    top: 16px;
-    right: 16px;
-    width: 48px;
-    height: 48px;
+    top: 0px;
+    right: 0px;
+    width: 64px;
+    height: 64px;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    background: transparent;
+    background: black;
     border: none;
     outline: none;
     cursor: pointer;
