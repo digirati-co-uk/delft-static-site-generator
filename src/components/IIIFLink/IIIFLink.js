@@ -10,11 +10,7 @@ const getIIIFLink = href => {
       /(en|nl)/,
       `${GITHUB_RAW_JSON_BASE}`
     )}.json`;
-    const manifest = `${href.replace(
-      /(en|nl)/,
-      `?manifest=${GITHUB_RAW_JSON_BASE}`
-    )}.json`;
-    return baselink + manifest;
+    return baselink.replace('/src/', '/content/');
   }
   return `${GITHUB_RAW_JSON_BASE}/content/${href}.md`;
 };

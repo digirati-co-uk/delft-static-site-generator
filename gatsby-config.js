@@ -72,28 +72,38 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
-    {
-      resolve: 'gatsby-plugin-lunr',
-      options: {
-        languages: [{ name: 'en' }],
-        fields: [
-          { name: 'title', store: true, attributes: { boost: 20 } },
-          { name: 'content', store: true },
-          { name: 'url', store: true },
-          { name: 'date', store: true },
-          { name: 'author', store: true },
-        ],
-        resolvers: {
-          MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            content: node => node.rawMarkdownBody,
-            url: node => node.frontmatter.path,
-            date: node => node.frontmatter.date,
-            author: node => node.frontmatter.author,
-          },
-        },
-        filename: 'search_index.json',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-lunr',
+    //   options: {
+    //     languages: [{ name: 'en' }],
+    //     fields: [
+    //       { name: 'title', store: true, attributes: { boost: 20 } },
+    //       { name: 'content', store: true },
+    //       { name: 'url', store: true },
+    //       { name: 'date', store: true },
+    //       { name: 'author', store: true },
+    //       { name: 'fileUrl', store: true },
+    //     ],
+    //     filter: (node, getNode) => {
+    //       const categoryIds = node.category___NODE;
+    //       const categoryNames = categoryIds.map(id => getNode(id).name);
+
+    //       return !categoryNames.includes('no-search');
+    //     },
+    //     resolvers: {
+    //       MarkdownRemark: {
+    //         title: node => node.frontmatter.title,
+    //         content: node => node.rawMarkdownBody,
+    //         url: node => node.frontmatter.path,
+    //         date: node => node.frontmatter.date,
+    //         author: node => node.frontmatter.author,
+    //       },
+    //     },
+    //     filename: 'search_index.json',
+    //     fetchOptions: {
+    //       credentials: 'same-origin',
+    //     },
+    //   },
+    // },
   ],
 };

@@ -28,8 +28,10 @@
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-remark": "^2.6.45",
     "gatsby-transformer-sharp": "^2.3.9",
+    "graphql-type-json": "^0.3.2",
     "iiif-prezi2to3": "^1.0.8",
     "lazysizes": "^5.2.2",
+    "lunr": "^2.3.8",
     "node-sass": "^4.13.0",
     "openseadragon": "^2.4.1",
     "prop-types": "^15.7.2",
@@ -40,7 +42,8 @@
     "react-helmet": "^6.1.0",
     "react-share": "^3.0.1",
     "react-translate": "^6.1.0",
-    "react-virtualized": "^9.21.2"
+    "react-virtualized": "^9.21.2",
+    "striptags": "^3.1.1"
   },
   "keywords": [
     "gatsby"

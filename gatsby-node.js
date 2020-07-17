@@ -2,6 +2,9 @@
 const path = require('path');
 const fs = require('fs');
 const Upgrader = require('iiif-prezi2to3');
+const { GraphQLJSONObject } = require(`graphql-type-json`);
+const striptags = require(`striptags`);
+const lunr = require(`lunr`);
 
 const upgrader = new Upgrader({ 'deref_links ': false });
 const TRANSLATIONS = ['en', 'nl'];
@@ -511,6 +514,134 @@ exports.createPages = ({ actions, graphql }) => {
       createTranslatedPage(collection, createPage)
     );
   });
+};
+
+exports.createResolvers = ({ cache, createResolvers }) => {
+  createResolvers({
+    Query: {
+      LunrIndex: {
+        type: GraphQLJSONObject,
+        resolve: (source, args, context, info) => {
+          const articles = context.nodeModel.getAllNodes({
+            type: `File`,
+          });
+          const type = info.schema.getType(`File`);
+          return createJSONIndex(articles, type, cache);
+        },
+      },
+    },
+    // Query: {
+    //   LunrIndex: {
+    //     type: GraphQLJSONObject,
+    //     resolve: (source, args, context, info) => {
+    //       const articles = context.nodeModel.getAllNodes({
+    //         type: `MarkdownRemark`,
+    //       });
+
+    //       const type = info.schema.getType(`MarkdownRemark`);
+    //       return createMDIndex(articles, type, cache);
+    //     },
+    //   },
+    // },
+  });
+};
+
+const createMDIndex = async (articles, type, cache) => {
+  const cacheKey = `IndexLunr`;
+  const cached = await cache.get(cacheKey);
+  const documents = [];
+  if (cached) {
+    return cached;
+  }
+  const store = {};
+  for (const node of articles) {
+    const { slug } = node.frontmatter.path;
+    const [html, excerpt] = await Promise.all([
+      type.getFields().html.resolve(node),
+      type.getFields().excerpt.resolve(node, {
+        pruneLength: 40,
+      }),
+    ]);
+    documents.push({
+      path: node.frontmatter.path,
+      title: node.frontmatter.title,
+      author: node.frontmatter.author,
+      content: striptags(html),
+    });
+    store[slug] = {
+      path: node.frontmatter.path,
+      title: node.frontmatter.title,
+      author: node.frontmatter.author,
+      content: striptags(html),
+    };
+  }
+  const index = lunr(function() {
+    this.ref(`path`);
+    this.field(`path`);
+    this.field(`author`);
+    this.field(`title`);
+    this.field(`content`);
+    for (const doc of documents) {
+      this.add(doc);
+    }
+  });
+  const json = { index: index.toJSON(), store };
+  await cache.set(cacheKey, json);
+  return json;
+};
+
+const createJSONIndex = async (articles, type, cache) => {
+  console.log('---------------------------------------------------');
+  console.log('reaching this point');
+
+  const cacheKey = `IndexLunr`;
+  const cached = await cache.get(cacheKey);
+  const documents = [];
+  if (cached) {
+    return cached;
+  }
+  const store = {};
+  for (const node of articles) {
+    if (node.internal.mediaType !== 'application/json') {
+      continue;
+    }
+    // console.log(node);
+    console.log(type.getFields());
+    // const { slug } = node.frontmatter.path;
+    // const title = node.frontmatter.title;
+    // const [html, excerpt] = await Promise.all([
+    //   type.getFields().html.resolve(node),
+    //   type.getFields().excerpt.resolve(node, {
+    //     pruneLength: 40,
+    //   }),
+    // ]);
+    // console.log(node);
+    // documents.push({
+    //   path: node.frontmatter.path,
+    //   title: node.frontmatter.title,
+    //   author: node.frontmatter.author,
+    //   content: striptags(html),
+    // });
+    // store[slug] = {
+    //   path: node.frontmatter.path,
+    //   title: node.frontmatter.title,
+    //   author: node.frontmatter.author,
+    //   content: striptags(html),
+    // };
+  }
+  const index = lunr(function() {
+    this.ref(`path`);
+    this.field(`path`);
+    this.field(`author`);
+    this.field(`title`);
+    this.field(`content`);
+    for (const doc of documents) {
+      this.add(doc);
+    }
+  });
+  const json = { index: index.toJSON(), store };
+  await cache.set(cacheKey, json);
+  return json;
 };
 
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
