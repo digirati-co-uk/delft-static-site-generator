@@ -522,27 +522,24 @@ exports.createResolvers = ({ cache, createResolvers }) => {
       LunrIndex: {
         type: GraphQLJSONObject,
         resolve: (source, args, context, info) => {
+          console.log(context.nodeModel.getAllNodes());
+          const manifests = context.nodeModel
+            .getAllNodes({
+              type: `File`,
+            })
+            .filter(node => node.internal.mediaType !== 'application/json');
+
           const articles = context.nodeModel.getAllNodes({
-            type: `File`,
+            type: `MarkdownRemark`,
           });
           const type = info.schema.getType(`File`);
-          return createJSONIndex(articles, type, cache);
+          const mdIndex = createMDIndex(articles, type, cache);
+          const jsonIndex = createJSONIndex(manifests, type, cache);
+          const joined = { ...mdIndex, jsonIndex };
+          return mdIndex;
         },
       },
     },
-    // Query: {
-    //   LunrIndex: {
-    //     type: GraphQLJSONObject,
-    //     resolve: (source, args, context, info) => {
-    //       const articles = context.nodeModel.getAllNodes({
-    //         type: `MarkdownRemark`,
-    //       });
-
-    //       const type = info.schema.getType(`MarkdownRemark`);
-    //       return createMDIndex(articles, type, cache);
-    //     },
-    //   },
-    // },
   });
 };
 
@@ -647,6 +644,7 @@ const createJSONIndex = async (articles, type, cache) => {
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === 'build-html') {
     actions.setWebpackConfig({
+      devtool: 'eval-source-map',
       module: {
         rules: [
           {
