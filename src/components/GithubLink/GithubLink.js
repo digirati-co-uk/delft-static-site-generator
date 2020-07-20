@@ -4,7 +4,7 @@ import { GITHUB_BASE } from '../../utils';
 
 const getGitLink = href => {
   if (/\/(collections|objects|exhibitions)\//.test(href)) {
-    return `${href.replace(/(en|nl)/, `${GITHUB_BASE}src`)}.json`;
+    return `${href.replace(/(en|nl)/, `${GITHUB_BASE}content`)}.json`;
   }
   return `${GITHUB_BASE}content/${href}.md`;
 };
