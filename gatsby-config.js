@@ -150,7 +150,7 @@ module.exports = {
 
         // Set the search engine to create the index. This is required.
         // The following engines are supported: flexsearch, lunr
-        engine: 'flexsearch',
+        engine: 'lunr',
 
         // Provide options to the engine. This is optional and only recommended
         // for advanced users.
@@ -178,12 +178,12 @@ module.exports = {
         // List of keys to index. The values of the keys are taken from the
         // normalizer function below.
         // Default: all fields
-        index: ['path'],
+        index: ['path', 'title'],
 
         // List of keys to store and make available in your UI. The values of
         // the keys are taken from the normalizer function below.
         // Default: all fields
-        store: ['id', 'path'],
+        store: ['id', 'path', 'title'],
 
         // Function used to map the result from the GraphQL query. This should
         // return an array of items to index in the form of flat objects
@@ -192,7 +192,8 @@ module.exports = {
         normalizer: ({ data }) =>
           data.allSitePage.nodes.map(node => ({
             id: node.id,
-            path: node.frontmatter.path,
+            path: node.path,
+            title: node.path.split('/').join(' '),
           })),
       },
     },

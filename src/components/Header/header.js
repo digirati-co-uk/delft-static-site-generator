@@ -49,7 +49,11 @@ class Header extends React.Component {
           >
             <Menu language={language} />
             <LanguageSelector language={language} path={path} />
-            <SearchForm pageLanguage={language} query={searchQuery} />
+            <SearchForm
+              pageLanguage={language}
+              query={searchQuery}
+              showTitle={false}
+            />
             <Logo />
           </div>
         </div>

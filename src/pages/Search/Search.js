@@ -3,43 +3,28 @@ import Layout from '../../components/Layout/layout';
 import SearchForm from '../../components/Search/SearchForm';
 import SearchResults from '../../components/Search/SearchResults';
 import { useLunr } from 'react-lunr';
-import lunr, { Index } from 'lunr';
-import { Link, navigate } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 const Search = ({ data, location, pageContext, path }) => {
-  // const [results, setResults] = useState([]);
-
+  const [results, setResults] = useState([]);
+  console.log(data);
   const searchQuery =
     new URLSearchParams(location.search).get('keywords') || '';
-  console.log(data);
-  const results = useLunr(
+
+  const mdResults = useLunr(
     searchQuery,
     data.localSearchMarkdown.index,
     data.localSearchMarkdown.store
   );
+  const jsonResults = useLunr(
+    searchQuery,
+    data.localSearchPages.index,
+    data.localSearchPages.store
+  );
 
-  console.log(results);
-
-  // useEffect(() => {
-  //   const { store } = data.localSearchMarkdown;
-  //   // Lunr in action here
-  //   const index = Index.load(data.LunrIndex.index);
-  //   console.log(index);
-  //   let found = [];
-  //   try {
-  //     // Search is a lunr method
-  //     found = index.search(searchQuery).map(({ ref }) => {
-  //       // Map search results to an array of {slug, title, excerpt} objects
-  //       return {
-  //         path: ref,
-  //         ...store[ref],
-  //       };
-  //     });
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  //   setResults(found);
-  // }, [location.search]);
+  useEffect(() => {
+    setResults([...mdResults, ...jsonResults]);
+  }, [location.search]);
 
   return (
     <Layout
@@ -51,6 +36,7 @@ const Search = ({ data, location, pageContext, path }) => {
         <SearchForm
           pageLanguage={pageContext.pageLanguage}
           query={searchQuery}
+          showTitle={true}
         />
         <SearchResults query={searchQuery} results={results} />
       </main>

@@ -15,12 +15,14 @@ const SearchResults = ({ results }) => {
       )}
       {!!results.length && (
         <ul className="search-results-list">
-          {results.map(({ title, path, date, content, author }) => (
+          {results.map(({ title, path, date, content, author, type }) => (
             <li key={title}>
               <h3 className="search-results-list__heading">
                 <a href={path} className="search-results-list__link">
                   {title}
                 </a>
+                <p>{path.split('/')[2]}</p>
+
                 <p>{author}</p>
                 {/* we might want to summerise the content here but too much for now */}
                 <p dangerouslySetInnerHTML={{ __html: content }}></p>

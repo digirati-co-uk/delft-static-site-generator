@@ -1,9 +1,11 @@
 import React from 'react';
 import { navigate } from 'gatsby';
 
-const SearchForm = ({ pageLanguage, query }) => (
+const SearchForm = ({ pageLanguage, query, showTitle }) => (
   <form role="search" method="GET">
-    <label htmlFor="search-input">{query ? <h1>Search posts</h1> : ''}</label>
+    <label htmlFor="search-input">
+      {showTitle ? <h1>Search posts</h1> : ''}
+    </label>
     <input
       type="search"
       id="search-input"
