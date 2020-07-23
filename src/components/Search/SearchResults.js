@@ -15,21 +15,34 @@ const SearchResults = ({ results }) => {
       )}
       {!!results.length && (
         <ul className="search-results-list">
-          {results.map(({ title, path, date, content, author, type }) => (
-            <li key={title}>
-              <h3 className="search-results-list__heading">
-                <a href={path} className="search-results-list__link">
-                  {title}
-                </a>
-                <p>{path.split('/')[2]}</p>
+          {results.map(
+            ({ title, path, date, content, author, type, image }) => (
+              <li key={title} key={path}>
+                <h3 className="search-results-list__heading">
+                  {image ? (
+                    <div classname="blocks">
+                      <img
+                        classname="block cutcorners"
+                        src={image}
+                        style={{ height: '50px' }}
+                      />
+                    </div>
+                  ) : (
+                    <></>
+                  )}
+                  <a href={path} className="search-results-list__link">
+                    {title ? title : path}
+                  </a>
+                  <p>{path ? path.split('/')[2] : <></>}</p>
 
-                <p>{author}</p>
-                {/* we might want to summerise the content here but too much for now */}
-                <p dangerouslySetInnerHTML={{ __html: content }}></p>
-              </h3>
-              <p>{date}</p>
-            </li>
-          ))}{' '}
+                  <p>{author}</p>
+                  {/* we might want to summerise the content here but too much for now */}
+                  <p dangerouslySetInnerHTML={{ __html: content }}></p>
+                </h3>
+                <p>{date}</p>
+              </li>
+            )
+          )}{' '}
         </ul>
       )}
     </section>
