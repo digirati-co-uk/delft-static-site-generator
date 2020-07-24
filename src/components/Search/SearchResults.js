@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SearchResults = ({ results }) => {
-  console.log(results);
   return (
     <section aria-label="Search results for all posts">
       {!!results.length && (
@@ -14,22 +13,35 @@ const SearchResults = ({ results }) => {
         </h2>
       )}
       {!!results.length && (
-        <ul className="search-results-list">
-          {results.map(
-            ({ title, path, date, content, author, type, image }) => (
-              <li key={title} key={path}>
+        <ul className="search-results-list" style={{ marginLeft: '0' }}>
+          {results.map(({ title, path, date, content, author, image }) => (
+            <li
+              key={title}
+              key={path}
+              style={{
+                listStyle: 'none',
+                display: 'flex',
+                justifyContent: 'left',
+              }}
+            >
+              {image ? (
+                <div>
+                  <img
+                    className="block cutcorners"
+                    src={image}
+                    style={{
+                      height: '10rem',
+                      width: '10rem',
+                      objectFit: 'cover',
+                      marginRight: ' 0.75rem',
+                    }}
+                  />
+                </div>
+              ) : (
+                <></>
+              )}
+              <div>
                 <h3 className="search-results-list__heading">
-                  {image ? (
-                    <div classname="blocks">
-                      <img
-                        classname="block cutcorners"
-                        src={image}
-                        style={{ height: '50px' }}
-                      />
-                    </div>
-                  ) : (
-                    <></>
-                  )}
                   <a href={path} className="search-results-list__link">
                     {title ? title : path}
                   </a>
@@ -40,9 +52,9 @@ const SearchResults = ({ results }) => {
                   <p dangerouslySetInnerHTML={{ __html: content }}></p>
                 </h3>
                 <p>{date}</p>
-              </li>
-            )
-          )}{' '}
+              </div>
+            </li>
+          ))}{' '}
         </ul>
       )}
     </section>

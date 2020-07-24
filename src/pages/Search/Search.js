@@ -6,14 +6,18 @@ import { useLunr } from 'react-lunr';
 import { graphql } from 'gatsby';
 import lunr from 'lunr';
 
-const searchGraphQL = (results, searchQuery) => {
+const searchGraphQL = results => {
   return results.filter(node => {
     const nodeType = node.path.split('/')[2];
     return (
       nodeType !== 'publications' &&
+      nodeType !== 'Publications' &&
       nodeType !== 'about' &&
       nodeType !== 'search' &&
-      nodeType !== 'illustrations'
+      nodeType !== 'illustrations' &&
+      nodeType !== 'markdown' &&
+      nodeType !== 'Object' &&
+      nodeType !== 'Canvas'
     );
   });
 };
@@ -52,13 +56,64 @@ const resolveMetaDataDutch = node => {
   }
 };
 
+const mapToFE = (lunrResults, nonPublications) => {
+  const sortedOut = lunrResults.map(result =>
+    nonPublications.filter(item => item.path === result.ref)
+  );
+
+  const results = sortedOut.map(node => {
+    const type = node[0].path && node[0].path.split('/')[2];
+    const lang = node[0].path && node[0].path.split('/')[1];
+    return {
+      path: node[0].path,
+      id: node[0].context && node[0].context.id,
+      image: resolveThumbnail(node[0]),
+      metadata: node[0].context.metadata,
+      title: resolveTitle(node[0], lang, type),
+      type: type,
+    };
+  });
+
+  return results;
+};
+
+const resolveTitle = node => {
+  let otherLang = lang === 'en' ? 'nl' : 'en';
+  const lang = node.path && node.path.split('/')[1];
+  const type = node.path && node.path.split('/')[2];
+
+  if (type === 'objects') {
+    const title = node.context.metadata[0].value[lang];
+    if (!title) return node.context.metadata[0].value[otherLang];
+    return title;
+  }
+  if (type === 'collections') {
+    const title =
+      node.context &&
+      node.context.collection &&
+      node.context.collection.label[lang];
+    return title
+      ? title
+      : node.context &&
+          node.context.collection &&
+          node.context.collection.label[otherLang];
+  }
+  if (type === 'exhibitions') {
+    const title =
+      node.context && node.context.label && node.context.label[lang];
+    return title
+      ? title
+      : node.context && node.context.label && node.context.label[otherLang];
+  }
+};
+
 const Search = ({ data, location, pageContext, path }) => {
   const [results, setResults] = useState([]);
   const searchQuery =
     new URLSearchParams(location.search).get('keywords') || '';
 
   const mdResults = useLunr(
-    searchQuery,
+    `*${searchQuery}*`,
     data.localSearchMarkdown.index,
     data.localSearchMarkdown.store
   );
@@ -69,24 +124,28 @@ const Search = ({ data, location, pageContext, path }) => {
     this.ref('path');
     this.field('path');
     this.field('id');
-    this.field('thumbnail');
+    this.field('title');
+    this.field('image');
     this.field('type');
-    this.field('metadataEnglish');
-    this.field('metadataDutch');
 
     nonPublications.forEach(function(doc) {
       this.add({
         path: doc.path,
-        id: doc.context.id,
-        thumbnail: resolveThumbnail(doc),
-        metadataEnglish: resolveMetaDataEnglish(doc),
-        metadataDutch: resolveMetaDataDutch(doc),
-        type: doc.path.split('/')[2],
+        id: doc.context && doc.context.id,
+        image: resolveThumbnail(doc),
+        title: resolveTitle(doc),
+        type: doc.path && doc.path.split('/')[2],
       });
     }, this);
   });
-
-  const jsonResults = searchQuery !== '' ? idx.search(`*${searchQuery}*`) : [];
+  const jsonResults =
+    searchQuery !== ''
+      ? mapToFE(
+          idx.search(`*${searchQuery}*`),
+          nonPublications,
+          pageContext.pageLanguage
+        )
+      : [];
 
   useEffect(() => {
     const res = removeDuplicates([...mdResults, ...jsonResults]);
@@ -138,6 +197,15 @@ export const pageQuery = graphql`
               en
               nl
             }
+          }
+          collection {
+            label {
+              en
+              nl
+            }
+          }
+          label {
+            en
           }
           items {
             items {
