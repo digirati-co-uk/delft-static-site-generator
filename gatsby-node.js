@@ -313,6 +313,7 @@ const createObjectPages = () => {
       if (context.type !== 'Manifest') {
         return meta;
       }
+      context.fileRoute = item;
       pathname = pathname.replace('collections/', 'objects/');
       meta.pages[pathname] = {
         path: pathname,
