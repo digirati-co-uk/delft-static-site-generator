@@ -145,7 +145,7 @@ const mapToFE = (lunrResults, nonPublications) => {
       id: node[0].context && node[0].context.id,
       image: resolveThumbnail(node[0]),
       metadata: node[0].context.metadata,
-      title: resolveTitle(node[0], lang, type),
+      title: resolveTitle(node[0]),
       type: type,
     };
   });
@@ -154,9 +154,10 @@ const mapToFE = (lunrResults, nonPublications) => {
 };
 
 const resolveTitle = node => {
-  let otherLang = lang === 'en' ? 'nl' : 'en';
   const lang = node.path && node.path.split('/')[1];
   const type = node.path && node.path.split('/')[2];
+
+  let otherLang = lang === 'en' ? 'nl' : 'en';
 
   if (type === 'objects') {
     const title = node.context.metadata[0].value[lang];
