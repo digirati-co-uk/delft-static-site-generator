@@ -85,6 +85,13 @@ class CollectionPage extends React.Component {
       resource => resource.type === 'Manifest'
     );
     this.summary = summary;
+
+    const externalResource = () => {
+      let route = path.split('/');
+      route.splice(3, 0, this.props.pageContext.collectionGroup);
+      return route.join('/');
+    };
+
     return (
       <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
@@ -97,8 +104,8 @@ class CollectionPage extends React.Component {
                 <div className="boxtitle">Collection</div>
                 <div className="maintitle">
                   {title}
-                  <GithubLink href={path} />
-                  <IIIFLink href={path} />
+                  <GithubLink href={externalResource()} />
+                  <IIIFLink href={externalResource()} />
                 </div>
                 <div className="boxtitle">{curator}</div>
               </div>
