@@ -22,39 +22,115 @@ const searchGraphQL = results => {
   });
 };
 
-const removeDuplicates = results => {
-  // take out the language duplicates
-  return results;
+const removeDuplicates = (results, lang) => {
+  let otherLang = lang === 'en' ? 'nl' : 'en';
+  let results2 = [...results];
+
+  const removedDuplicates = [];
+  results2.forEach(result => {
+    let paths = removedDuplicates.map(node => node.path);
+    let otherLangPath = result.path.split('/');
+    otherLangPath[2] = otherLang;
+    otherLangPath.join('/');
+    if (
+      result.path.split('/')[1] === otherLang &&
+      !paths.includes(otherLangPath) &&
+      !paths.includes(result)
+    ) {
+      removedDuplicates.push(result);
+      return result;
+    }
+  });
+  return removedDuplicates;
 };
 
 const resolveThumbnail = node => {
-  if (
-    node.context &&
-    node.context.items &&
-    node.context.items[0] &&
-    node.context.items[0].items &&
-    node.context.items[0].items[0] &&
-    node.context.items[0].items[0].items &&
-    node.context.items[0].items[0].items[0] &&
-    node.context.items[0].items[0].items[0].thumbnail &&
-    node.context.items[0].items[0].items[0].thumbnail[0] &&
-    node.context.items[0].items[0].items[0].thumbnail[0].id
-  ) {
-    return node.context.items[0].items[0].items[0].thumbnail[0].id;
-  } else return '';
-};
-
-const resolveMetaDataEnglish = node => {
-  if (node.context && node.context.metadata) {
-    return node.context.metadata.map(value => value.en).join(' | ');
+  const nodeType = node.path.split('/')[2];
+  if (nodeType === 'exhibitions') {
+    return getExhbitionImage(node);
+  }
+  if (nodeType === 'objects') {
+    return getObjectImage(node);
+  }
+  if (nodeType === 'collections') {
+    return getCollectionsImage(node);
   }
 };
 
-const resolveMetaDataDutch = node => {
-  if (node.context && node.context.metadata) {
-    return node.context.metadata.map(value => value.nl).join(' | ');
-  }
+const getCollectionsImage = node => {
+  const collection = node.context.collection;
+  let image =
+    collection &&
+    collection.items &&
+    collection.items[0] &&
+    collection.items[0].thumbnail &&
+    collection.items[0].thumbnail[0] &&
+    collection.items[0].thumbnail[0].id
+      ? collection.items[0].thumbnail[0].id
+      : null;
+  return image;
 };
+
+const getObjectImage = node => {
+  const items = node.context.items;
+  let image =
+    items &&
+    items[0] &&
+    items[0].items &&
+    items[0].items[0] &&
+    items[0].items[0].items &&
+    items[0].items[0].items[0] &&
+    items[0].items[0].items[0].body &&
+    items[0].items[0].items[0].body.id
+      ? items[0].items[0].items[0].body.id
+      : null;
+  return image;
+};
+
+const getExhbitionImage = node => {
+  const items = node.context.items;
+  let image =
+    items &&
+    items[0] &&
+    items[0].items &&
+    items[0].items[0] &&
+    items[0].items[0].items &&
+    items[0].items[0].items[0] &&
+    items[0].items[0].items[0].thumbnail &&
+    items[0].items[0].items[0].thumbnail[0] &&
+    items[0].items[0].items[0].thumbnail[0].id
+      ? items[0].items[0].items[0].thumbnail[0].id
+      : null;
+
+  // if no image, eg. first block sometimes an about block
+  if (!image) {
+    image =
+      items &&
+      items[1] &&
+      items[1].items &&
+      items[1].items[0] &&
+      items[1].items[0].items &&
+      items[1].items[0].items[0] &&
+      items[1].items[0].items[0].thumbnail &&
+      items[1].items[0].items[0].thumbnail[0] &&
+      items[1].items[0].items[0].thumbnail[0].id
+        ? items[1].items[0].items[0].thumbnail[0].id
+        : null;
+  }
+  return image;
+};
+
+// const resolveMetaDataEnglish = node => {
+//   if (node.context && node.context.metadata) {
+//     return node.context.metadata.map(value => value.en).join(' | ');
+//   }
+// };
+
+// const resolveMetaDataDutch = node => {
+//   if (node.context && node.context.metadata) {
+//     return node.context.metadata.map(value => value.nl).join(' | ');
+//   }
+// };
 
 const mapToFE = (lunrResults, nonPublications) => {
   const sortedOut = lunrResults.map(result =>
@@ -88,6 +164,12 @@ const resolveTitle = node => {
     return title;
   }
   if (type === 'collections') {
+    if (node.path === '/en/collections') {
+      return 'Collections';
+    }
+    if (node.path === '/nl/collections') {
+      return 'Collecties';
+    }
     const title =
       node.context &&
       node.context.collection &&
@@ -109,14 +191,12 @@ const resolveTitle = node => {
 
 const Search = ({ data, location, pageContext, path }) => {
   const [results, setResults] = useState([]);
-  const searchQuery =
-    new URLSearchParams(location.search).get('keywords') || '';
+  const [searchQuery, setSearchQuery] = useState('');
+  const [jsonResults, setJsonResults] = useState([]);
 
-  const mdResults = useLunr(
-    `*${searchQuery}*`,
-    data.localSearchMarkdown.index,
-    data.localSearchMarkdown.store
-  );
+  useEffect(() => {
+    setSearchQuery(new URLSearchParams(location.search).get('keywords') || '');
+  }, [location.search]);
 
   const nonPublications = searchGraphQL(data.allSitePage.nodes, searchQuery);
 
@@ -138,19 +218,36 @@ const Search = ({ data, location, pageContext, path }) => {
       });
     }, this);
   });
-  const jsonResults =
-    searchQuery !== ''
-      ? mapToFE(
-          idx.search(`*${searchQuery}*`),
-          nonPublications,
-          pageContext.pageLanguage
-        )
-      : [];
+
+  const mdResults = useLunr(
+    `*${searchQuery}*`,
+    data.localSearchMarkdown.index,
+    data.localSearchMarkdown.store
+  );
 
   useEffect(() => {
-    const res = removeDuplicates([...mdResults, ...jsonResults]);
-    setResults(res);
-  }, [location.search]);
+    setJsonResults(
+      searchQuery !== ''
+        ? mapToFE(
+            idx.search(`*${searchQuery}*`),
+            nonPublications,
+            pageContext.pageLanguage
+          )
+        : []
+    );
+  }, [searchQuery]);
+
+  useEffect(() => {
+    if (searchQuery === '') {
+      setResults([]);
+    } else {
+      const res = removeDuplicates(
+        [...jsonResults, ...mdResults],
+        location.pathname.split('/')[2]
+      );
+      setResults(res);
+    }
+  }, [jsonResults]);
 
   return (
     <Layout
@@ -199,6 +296,11 @@ export const pageQuery = graphql`
             }
           }
           collection {
+            items {
+              thumbnail {
+                id
+              }
+            }
             label {
               en
               nl
@@ -211,6 +313,9 @@ export const pageQuery = graphql`
             items {
               items {
                 thumbnail {
+                  id
+                }
+                body {
                   id
                 }
               }

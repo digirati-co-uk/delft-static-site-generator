@@ -15,7 +15,7 @@ const SearchResults = ({ results }) => {
       {!!results.length && (
         <ul className="search-results-list" style={{ marginLeft: '0' }}>
           {results.map(({ title, path, date, content, author, image }) => (
-            <li
+            <div
               key={title}
               key={path}
               style={{
@@ -24,8 +24,8 @@ const SearchResults = ({ results }) => {
                 justifyContent: 'left',
               }}
             >
-              {image ? (
-                <div>
+              <div style={{ width: '10rem', marginRight: ' 0.75rem' }}>
+                {image ? (
                   <img
                     className="block cutcorners"
                     src={image}
@@ -36,16 +36,19 @@ const SearchResults = ({ results }) => {
                       marginRight: ' 0.75rem',
                     }}
                   />
-                </div>
-              ) : (
-                <></>
-              )}
-              <div>
+                ) : (
+                  <></>
+                )}
+              </div>
+
+              <div style={{ maxWidth: '70%' }}>
                 <h3 className="search-results-list__heading">
                   <a href={path} className="search-results-list__link">
                     {title ? title : path}
                   </a>
-                  <p>{path ? path.split('/')[2] : <></>}</p>
+                  <p style={{ textTransform: 'capitalize' }}>
+                    {path ? path.split('/')[2] : <></>}
+                  </p>
 
                   <p>{author}</p>
                   {/* we might want to summerise the content here but too much for now */}
@@ -53,8 +56,8 @@ const SearchResults = ({ results }) => {
                 </h3>
                 <p>{date}</p>
               </div>
-            </li>
-          ))}{' '}
+            </div>
+          ))}
         </ul>
       )}
     </section>
