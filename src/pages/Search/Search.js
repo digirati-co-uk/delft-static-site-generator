@@ -144,7 +144,7 @@ const mapToFE = (lunrResults, nonPublications) => {
       path: node[0].path,
       id: node[0].context && node[0].context.id,
       image: resolveThumbnail(node[0]),
-      metadata: node[0].context.metadata,
+      metadata: node[0].context && node[0].context.metadata,
       title: resolveTitle(node[0]),
       type: type,
     };
