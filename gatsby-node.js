@@ -517,7 +517,6 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === 'build-html') {
     actions.setWebpackConfig({
-      devtool: 'eval-source-map',
       module: {
         rules: [
           {
