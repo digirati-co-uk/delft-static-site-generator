@@ -14,7 +14,7 @@ On 3 July 1920, a technical college was opened in Bandung, on the island of Java
 
 The first rector of the college in Bandung, Jan Klopper, was one of its initiators. As a professor of applied mathematics in Delft, he knew engineering education inside out. The Dutch East Indies appealed to him and after a first visit in 1919 he decided that he did not want to return to Delft. In his speech at the opening ceremony of the college, he addressed the future students:
 
-> “May the College in Bandung succeed in finding a place in the heart of its students just like the school in Delft did and still does. Ladies and gentlemen students. The prosperity of this school depends for a large part on you. […] You have chosen a study that is beautiful everywhere, but especially beautiful in this country. The East Indies is calling for workers who can provide its material needs; it is your task to work on the economically limitless development of this wonderful country; it is the task of the college to prepare you for this.”[^1]
+> May the College in Bandung succeed in finding a place in the heart of its students just like the school in Delft did and still does. Ladies and gentlemen students. The prosperity of this school depends for a large part on you. \[…] You have chosen a study that is beautiful everywhere, but especially beautiful in this country. The East Indies is calling for workers who can provide its material needs; it is your task to work on the economically limitless development of this wonderful country; it is the task of the college to prepare you for this.[^1]
 
 As he pointed out in his speech, Klopper wished to model the Bandung technical college on Delft. This essay explores the events that led up to the founding of this special school in Bandung. The historical ties that the college in Delft had with the Dutch East Indies form part of the backdrop to the story. But what was the actual relationship between Delft and Bandung? And how much of Klopper’s ambition to model the school on Delft was realised?
 
@@ -47,7 +47,7 @@ But already in 1917 the plans resurfaced, instigated by a visit to the Netherlan
 
 The idea of a technical college was received surprisingly well. Partly because of the influence of K.A.R. Bosscha, a rich Dutch tea magnate, philanthropist and son of one of the rectors of Delft Polytechnic, a number of colonial industrialists became interested. Composed of people from trade, farming and private (and public) industrial enterprises, this group raised – allegedly on a single night – the staggering sum of 3.5 million Dutch guilders to establish the school. Among the benefactors were the Bataafse Petroleum Maatschappij, Koninklijke Hollandsche Lloyd, Stoomvaart Maatschappij Nederland, mining companies, and Bosscha himself. Their intentions were voiced during a meeting of the benefactors at the office of the Bataafse Petroleum Maatschappij in April, 1920. Cornelis van Aalst, the director of the Nederlandse Handelsmaatschappij, chaired the meeting. Their plan was described as follows:
 
-> On the return of the Delegation of the Indië Weerbaar Committee to the East Indies, [Van Aalst] and several other gentlemen deemed it desirable to furnish proof of the interest of Dutch industry in the intellectual and economic development of the indigenous population. […] [In order to] demonstrate this genuine interest in fostering the intellectual development of the indigenous people in a direction that would also specifically benefit their economic resilience, a plan was drawn up to raise a sum of money in order to thereby add impetus to the establishment of an education institution in the East Indies.[^12]
+> On the return of the Delegation of the Indië Weerbaar Committee to the East Indies, \[Van Aalst] and several other gentlemen deemed it desirable to furnish proof of the interest of Dutch industry in the intellectual and economic development of the indigenous population. \[…] \[In order to] demonstrate this genuine interest in fostering the intellectual development of the indigenous people in a direction that would also specifically benefit their economic resilience, a plan was drawn up to raise a sum of money in order to thereby add impetus to the establishment of an education institution in the East Indies.[^12]
 
 The willingness of these private individuals and enterprises
 to join in funding the college might be less surprising than it seems. During the First World War, the Dutch East Indies experienced a big shortage of well-trained engineers. As communication and travel between the Netherlands and its colony had almost completely stalled, entrepreneurs realised that their situation was very sensitive to disruptions. A (hopefully) constant stream of engineers trained within the colony, sounded promising to the industrialists and philanthropists, and they
@@ -99,7 +99,7 @@ In October 1924, the school in Bandung was officially handed over to the colonia
 
 The student who is now regarded as the most famous alumnus of the technical college in Bandung was among the second cohort of students. Sukarno started his training as a civil engineer and architect in 1921. He was a very promising student, who became interested in politics during his studies. Later in his life, Jan Klopper had a special memory of him. One day, the chief of police came to warn Klopper that Sukarno “was going into the dessas to give politically inflammatory speeches.” Klopper called Sukarno to his room and told him:
 
-> […]that high-quality education was incompatible with political activities, and that he had to choose: either become a politician or an engineer. After thinking it over for several days, Sukarno returned and stated that he wanted to become an engineer and would not participate in politics. He kept his promise until shortly before the end of his studies. At that time he came back again and informed me that given the distress of his people, his conscience dictated that he could no longer stay out of politics – and that he was asking to be released from his promise. This made a deep impression on me. Young people had often made promises to me, and these promises were definitely not always kept, but no one except Sukarno had ever asked to be released from their promise.[^24]
+> \[…] that high-quality education was incompatible with political activities, and that he had to choose: either become a politician or an engineer. After thinking it over for several days, Sukarno returned and stated that he wanted to become an engineer and would not participate in politics. He kept his promise until shortly before the end of his studies. At that time he came back again and informed me that given the distress of his people, his conscience dictated that he could no longer stay out of politics – and that he was asking to be released from his promise. This made a deep impression on me. Young people had often made promises to me, and these promises were definitely not always kept, but no one except Sukarno had ever asked to be released from their promise.[^24]
 
 Jan Klopper stayed in the Dutch East Indies until the summer of 1925, when he went back to the Netherlands and started working on the board of the Thomassen machine factory in the Delft region. He remained deeply involved in university life. After World War II, for example, he took part on the reconstruction board (‘College van Herstel’) that organized the reconstruction of Delft Technical College.
 
@@ -116,43 +116,43 @@ Primary sources:
 - *Jaarboek der Technische Hogeschool te Bandoeng, 14e cursusjaar*, Bandung, Faculteit van Technische Wetenschap, August 1934.
 - *Jaarboek der Technische Hogeschool te Bandoeng, Lustrum-Uitgave 1935*, Bandung, Faculteit van Technische Wetenschap, August 1935.
 - *Jaarboek der Technische Hogeschool te Bandoeng, 21e cursusjaar*, Bandung, Faculteit van Technische Wetenschap, October 1941.
-- S. Hoogewerff, C.W. Weys, R.A. Van Sandick, *Het Leerplan voor de op te richten Nederlands- Indische Technische Hogeschool*, Den Haag, Belinfante, 1918.
+- S. Hoogewerff, C.W. Weys, R.A. Van Sandick, *Het Leerplan voor de op te richten Nederlands-Indische Technische Hogeschool*, Den Haag, Belinfante, 1918.
 ---
 - J. Klopper, *Het leerplan der op te richten Nederlandsch-Indische Technische Hoogeschool: opmerkingen naar aanleiding van het ontwerp der sub-commissie*, Den Haag, Belinfante, 1918.
-- J. Klopper, ‘De Technische Hogeschool te Bandung in de eerste jaren van haar bestaan’, in *De ingenieur in Indonesië*, vol. 7, no. 4, 1955, pp. 22-29.
+- J. Klopper, ‘De Technische Hogeschool te Bandung in de eerste jaren van haar bestaan’, in *De ingenieur in Indonesië*, vol. 7, no. 4, 1955, pp. 22-29.
 - R.A. van Sandick, ‘De Technische Hogeschool te Bandoeng’, *De Ingenieur*, 1924, no. 42, pp. 844-845.
 ---
-- National Archive, Den Haag, archive 2.10.42: *Archief van de Commissie tot Ontwikkeling van de Fabrieksnijverheid in Nederlands-Indië, (1904) 1915-1926 (1940); Ir. J. van der Waerden \[levensjaren 1877-1948](#), 1907-1924.*
+- National Archive, Den Haag, archive 2.10.42: *Archief van de Commissie tot Ontwikkeling van de Fabrieksnijverheid in Nederlands-Indië, (1904) 1915-1926 (1940); Ir. J. van der Waerden \[levensjaren 1877-1948](#), 1907-1924.*
 - National Archive, Den Haag, archive 2.19.047.01: *Archief van het Koninklijk Instituut van Ingenieurs (KIVI), (1843) 1847-1973.*
-- National Archive, Den Haag, archive 2.20.37.01: *Archieven van het Koninklijk Instituut voor Technisch Hoger Onderwijs in Nederlands-Indië; Stichting Bandoengse Technische Hogeschool Fonds, (1917) 1920-1981.*
+- National Archive, Den Haag, archive 2.20.37.01: *Archieven van het Koninklijk Instituut voor Technisch Hoger Onderwijs in Nederlands-Indië; Stichting Bandoengse Technische Hogeschool Fonds, (1917) 1920-1981.*
 - National Archive, Den Haag, archive 2.21.305: *Archief van prof.dr. E.H.P. (Han) Baudet \[levensjaren 1919-1998], 1948-1998.*
 - National Archive, Den Haag, archive 4.KIVI: *Verzameling atlassen, kaarten, tekeningen, prenten en foto’s van het Koninklijk Instituut van Ingenieurs (KIVI) (1878-), over de periode 1606-1976.*
 
 Secondary sources:
 - Piet Baas, ‘Jan Klopper (1878-1966): ambitieuze tuinderzoon’, in: *West-Friesland’s “oud en nieuw”, 77e Jaarboek van Westfries Genootschap*, 2010, pp. 28-40.
-- Jan-Jacob Blussé van Oud-Alblas, *Missionaries of modernity: technocratic ideals of colonial engineers in the Netherlands Indies and the Philippines, 1900-1920*, Rutgers University, thesis, 2012.
-- Humphrey de la Croix, ‘Oorlog en Bersiap / Nederlands-Indië en de Eerste Wereldoorlog. Deel 2 De beweging “Indië Weerbaar”, het Comité “Indië Weerbaar” en de rol van Indo-officier W.V. Rhemrev’ on www.indischhistorisch.nl, visited 25 Feb. 2020.
+- Jan-Jacob Blussé van Oud-Alblas, *Missionaries of modernity: technocratic ideals of colonial engineers in the Netherlands Indies and the Philippines, 1900-1920*, Rutgers University, thesis, 2012.
+- Humphrey de la Croix, ‘Oorlog en Bersiap / Nederlands-Indië en de Eerste Wereldoorlog. Deel 2 De beweging “Indië Weerbaar”, het Comité “Indië Weerbaar” en de rol van Indo-officier W.V. Rhemrev’ on www.indischhistorisch.nl, visited 25 Feb. 2020.
 - Kees van Dijk, *The Netherlands Indies and the Great War 1914-1918*, Leiden, Brill, 2014.
 - Jan van Dullemen, *Tropical Modernity: life and work of C.P. Wolff Schoemaker*, Amsterdam, SUN, 2010.
-- J.A.A. van Doorn, *De laatste eeuw van Indië: ontwikkeling en ondergang van een koloniaal project*, Amsterdam, Bakker, 1994.
-- Huib Ekkelenkamp, *Indonesië op de kaart: de rol van de Nederlandse aanwezigheid in Indonesië bij de ontwikkeling van de geodesie in Nederland*, TU Delft, dissertation, 2019.
-- M. Ertsen, ‘Dutch Irrigation Engineers and Their (Post-) Colonial Irrigation Networks’, in D. Pretel and L. Camprubí, *Technology and Globalisation*, Cham, Palgrave Macmillan, 2018, pp. 283-312.
+- J.A.A. van Doorn, *De laatste eeuw van Indië: ontwikkeling en ondergang van een koloniaal project*, Amsterdam, Bakker, 1994.
+- Huib Ekkelenkamp, *Indonesië op de kaart: de rol van de Nederlandse aanwezigheid in Indonesië bij de ontwikkeling van de geodesie in Nederland*, TU Delft, dissertation, 2019.
+- M. Ertsen, ‘Dutch Irrigation Engineers and Their (Post-) Colonial Irrigation Networks’, in D. Pretel and L. Camprubí, *Technology and Globalisation*, Cham, Palgrave Macmillan, 2018, pp. 283-312.
 - Cees Fasseur, ‘Hemelse godin of melkgevende koe: de Leidse universiteit en de Indische ambtenaren- opleiding 1825-1925’, *BMGN – Low Countries Historical Review*, 1988, no. 103, pp. 2019-224.
 - Cees Fasseur, *De Indologen: ambtenaren voor de Oost 1825-1950*, Amsterdam, Bakker, 1993.
 - Ben van Leerdam, *Henri Maclaine Pont, architect tussen twee werelden: over de perikelen rond het ontstaan van de gebouwen van een hogeschool*, Delft, Delftse Universitaire Pers, 1988.
 - Ben van Leerdam, *Architect Henri Maclaine Pont: een speurtocht naar het wezenlijke van de Javaanse architectuur*, Delft, Eburon, 1995.
-- J.L.W. van Leur et al. *De Indische Instelling te Delft: Méér dan een opleiding tot bestuursambtenaar*, Delft, Museum Nusantara, 1989.
+- J.L.W. van Leur et al. *De Indische Instelling te Delft: Méér dan een opleiding tot bestuursambtenaar*, Delft, Museum Nusantara, 1989.
 - Harry Lintsen (ed.), *Tachtig jaar TNO*, Eindhoven, Stichting Historie der Techniek, 2012.
 - Ad Maas, ‘Kroniek van een onvolkomen ontdekking’, *De Gids*, 2009, vol. 172, no. 1, p. 46-62.
 - Henk Makkink, ‘Het ontstaan van de Technische Hogeschool Bandoeng’, *Zicht op Delft*, 2002, nr. 4, pp. 11-13.
 - Henk Makkink, ‘Toen studeren exerceren was: de Koninklijke Akademie (1842-1864)’, *Delft Integraal*, 2006, no. 4, pp. 34-37.
-- Rudolf Mrázek, *Engineers of happy land: Technology and nationalism in a colony*, Princeton, NJ, Princeton University Press, 2018.
-- Jef Notermans, ‘Het onderwijs in Nederlands-Indië in de XXste eeuw’, *Revue Belge de Philologie et d’Histoire*, 1966, tome 4, fasc. 4, pp. 1199-1216.
+- Rudolf Mrázek, *Engineers of happy land: Technology and nationalism in a colony*, Princeton, NJ, Princeton University Press, 2018.
+- Jef Notermans, ‘Het onderwijs in Nederlands-Indië in de XXste eeuw’, *Revue Belge de Philologie et d’Histoire*, 1966, tome 4, fasc. 4, pp. 1199-1216.
 - Lewis Pyenson, *Empire of Reason: Exact Sciences in Indonesia, 1840-1940*, Leiden, Brill, 1989.
 - Wim Ravesteijn, *De Zegenrijke Heeren der Wateren: Irrigatie en Staat op Java, 1832-1942*, Delft, Delft University Press, 1997.
-- Wim Ravesteijn and Jan Kop, *Bouwen in de Archipel: Burgerlijke Openbare Werken in Nederlands-Indië En Indonesië 1800-2000*, Zutphen, Walburg Pers, 2004.
+- Wim Ravesteijn and Jan Kop, *Bouwen in de Archipel: Burgerlijke Openbare Werken in Nederlands-Indië En Indonesië 1800-2000*, Zutphen, Walburg Pers, 2004.
 - Wim Ravesteijn and Jan Kop, *For Profit and Prosperity: the Contribution made by Dutch Engineers to Public Works in Indonesia: 1800-2000*, Zaltbommel and Leiden, Aprilis KITLV Press, 2008.
-- Pauline van Roosmalen, *Ontwerpen aan de Stad: Stedenbouw in Nederlands-Indië en Indonesië (1905-1950)*, TU Delft, dissertation, 2008.
+- Pauline van Roosmalen, *Ontwerpen aan de Stad: Stedenbouw in Nederlands-Indië en Indonesië (1905-1950)*, TU Delft, dissertation, 2008.
 - Trudy van der Wees, *Het Groene Laboratorium*, Delft, Eburon Academic Publishers, 2017.
 
 ## Credits
@@ -160,37 +160,37 @@ Translations and copy editing: Renuka Wikramasinha, Afterwords
 
 Thanks to: Prasetyo Adhitama, Jan van Dullemen, Maurits Ertsen, Frida de Jong, Wouter Keller, Jan Klopper (jr.), Krista Knopper, Rikrik Kusmara, Tita Larasati, Wim Ravesteijn, Pauline van Roosmalen, Mo Smit, Peter Wieringa
 
-[^1]:	Jan Klopper, ‘Rede bij de opening der Hogeschool uitgesproken door den Rector-Magnificus’ in *De Technische Hogeschool te Bandung*, Landsdrukkerij, Weltevreden, 1920, on page 28. In Dutch: “Moge de Bandoengsche Hogeschool er in slagen, zich in de harten harer leerlingen dezelfde plaats te veroveren als de Delftsche dit deed en doet. Dames en Heeren studenten. De werkelijke bloei dezer Hogeschool ligt voor een groot deel in Uwe handen. […] Gij hebt U een studie gekozen, overal schoon, in dit land schooner dan ergens anders, Indië roept om werkers, die in zijn stoffelijke noorden kunnen voorzien; aan U de taak, mede te werken aan de economisch-onbegrensde ontwikkeling van dit heerlijk land; aan de Hogeschool, U daartoe voor te bereiden.”
+[^1]:	Jan Klopper, ‘Rede bij de opening der Hogeschool uitgesproken door den Rector-Magnificus’ in *De Technische Hogeschool te Bandung*, Landsdrukkerij, Weltevreden, 1920, on page 28. In Dutch: “Moge de Bandoengsche Hogeschool er in slagen, zich in de harten harer leerlingen dezelfde plaats te veroveren als de Delftsche dit deed en doet. Dames en Heeren studenten. De werkelijke bloei dezer Hogeschool ligt voor een groot deel in Uwe handen. […] Gij hebt U een studie gekozen, overal schoon, in dit land schooner dan ergens anders, Indië roept om werkers, die in zijn stoffelijke noorden kunnen voorzien; aan U de taak, mede te werken aan de economisch-onbegrensde ontwikkeling van dit heerlijk land; aan de Hogeschool, U daartoe voor te bereiden.”
 
 [^2]:	Henk Makkink, ‘Toen studeren exerceren was: De Koninklijke Akademie (1842-1864)’, *Delft Integraal*, 2006, no. 4, pp. 34-37.
 
-[^3]:	The official name was ‘Instelling van Onderwijs in de Taal-, Land- en Volkenkunde van Nederlandsch-Indië’. For a more complete history of this institute and its collection, see: J.L.W. van Leur et al. *De Indische Instelling te Delft: Méér dan een opleiding tot bestuursambtenaar*, Delft, Museum Nusantara, 1989. See also: C. Fasseur, ‘Hemelse godin of melkgevende koe: de Leidse universiteit en de Indische ambtenarenopleiding 1825-1925’, *BMGN – Low Countries Historical Review*, 1988, no. 103, pp. 209-224; C. Fasseur, *De Indologen: ambtenaren voor de Oost 1825-1950*, Amsterdam, Bakker, 1993.
+[^3]:	The official name was ‘Instelling van Onderwijs in de Taal-, Land- en Volkenkunde van Nederlandsch-Indië’. For a more complete history of this institute and its collection, see: J.L.W. van Leur et al. *De Indische Instelling te Delft: Méér dan een opleiding tot bestuursambtenaar*, Delft, Museum Nusantara, 1989. See also: C. Fasseur, ‘Hemelse godin of melkgevende koe: de Leidse universiteit en de Indische ambtenarenopleiding 1825-1925’, *BMGN – Low Countries Historical Review*, 1988, no. 103, pp. 209-224; C. Fasseur, *De Indologen: ambtenaren voor de Oost 1825-1950*, Amsterdam, Bakker, 1993.
 
-[^4]:	J.A.A. van Doorn, *De laatste eeuw van Indië: ontwikkeling en ondergang van een koloniaal project*, Amsterdam, Bakker, 1994.
+[^4]:	J.A.A. van Doorn, *De laatste eeuw van Indië: ontwikkeling en ondergang van een koloniaal project*, Amsterdam, Bakker, 1994.
 
-[^5]:	Van Doorn, *De laatste eeuw*, p. 119. See also W. Ravesteijn, *De Zegenrijke Heeren der Wateren: irrigatie en staat op java, 1832-1942*, Delft, Delft University Press, 1997; M. Ertsen, ‘Dutch Irrigation Engineers and Their (Post-) Colonial Irrigation Networks’, in D. Pretel and L. Camprubí, *Technology and Globalisation*, Cham, Palgrave Macmillan, 2018, pp. 283-312.
+[^5]:	Van Doorn, *De laatste eeuw*, p. 119. See also W. Ravesteijn, *De Zegenrijke Heeren der Wateren: irrigatie en staat op java, 1832-1942*, Delft, Delft University Press, 1997; M. Ertsen, ‘Dutch Irrigation Engineers and Their (Post-) Colonial Irrigation Networks’, in D. Pretel and L. Camprubí, *Technology and Globalisation*, Cham, Palgrave Macmillan, 2018, pp. 283-312.
 
 [^6]:	Van Doorn, *De laatste eeuw*, p. 119.
 
-[^7]:	J.L.W. van Leur et al., *De Indische Instelling te Delft: Méér dan een opleiding tot bestuursambtenaar*, Delft, Museum Nusantara, 1989.
+[^7]:	J.L.W. van Leur et al., *De Indische Instelling te Delft: Méér dan een opleiding tot bestuursambtenaar*, Delft, Museum Nusantara, 1989.
 
 [^8]:	Harry Lintsen (ed.), *Tachtig jaar TNO*, Eindhoven, Stichting Historie der Techniek, 2012.
 
 [^9]:	Trudy van der Wees, *Het Groene Laboratorium*, Delft, Eburon Academic Publishers, 2017.
 
-[^10]:	Jef Notermans, ‘Het onderwijs in Nederlands-Indië in de XXste eeuw’, *Revue Belge de Philologie et d’Histoire*, 1966, tome 4, fasc. 4, pp. 1199-1216; Ben van Leerdam, *Henri Maclaine Pont, architect tussen twee werelden*, Delft, Eburon, 1995.
+[^10]:	Jef Notermans, ‘Het onderwijs in Nederlands-Indië in de XXste eeuw’, *Revue Belge de Philologie et d’Histoire*, 1966, tome 4, fasc. 4, pp. 1199-1216; Ben van Leerdam, *Henri Maclaine Pont, architect tussen twee werelden*, Delft, Eburon, 1995.
 
-[^11]:	For more information on ‘Indië Weerbaar’, see: Humphrey de la Croix, ‘Oorlog en Bersiap | Nederlands-Indië en de Eerste Wereldoorlog. Deel 2 De beweging “Indië Weerbaar”, het Comité “Indië Weerbaar” en de rol van Indo-officier W.V. Rhemrev’ on: www.indischhistorisch.nl, visited 25 Feb. 2020. See also: Kees van Dijk, *The Netherlands Indies and the Great War 1914-1918*, Leiden, Brill, 2014.
+[^11]:	For more information on ‘Indië Weerbaar’, see: Humphrey de la Croix, ‘Oorlog en Bersiap | Nederlands-Indië en de Eerste Wereldoorlog. Deel 2 De beweging “Indië Weerbaar”, het Comité “Indië Weerbaar” en de rol van Indo-officier W.V. Rhemrev’ on: www.indischhistorisch.nl, visited 25 Feb. 2020. See also: Kees van Dijk, *The Netherlands Indies and the Great War 1914-1918*, Leiden, Brill, 2014.
 
-[^12]:	Anonymous, *Bijeenkomst ten kantore van de Bataafsche Petroleum Maatschappij, op vrijdag 20 april 1917*, Nationaal Archief, archive 2.20.37.01, inventory 24. In Dutch: “Het is [Van Aalst] en een paar andere heren wenselijk voorgekomen, aan de Deputatie van het Comité “Indië Weerbaar” bij hun terugkeer naar Indië een bewijs mee te geven van de belangstelling van het Nederlandsch kapitaal in de intellectueele en economische ontwikkeling der inlandsche bevolking. […] [Teneinde] van daadwerkelijke belangstelling te doen blijken in de bevorde- ring van de intellectuele ontwikkeling der inlanders, in een richting, die mede in het bijzonder ook hun economische weerbaarheid ten goede komt, is het plan ontstaan een geldsom bijeen te brengen, teneinde daarmede den stoot te kunnen geven tot de oprichting van een instelling van onderwijs in Indië.”
+[^12]:	Anonymous, *Bijeenkomst ten kantore van de Bataafsche Petroleum Maatschappij, op vrijdag 20 april 1917*, Nationaal Archief, archive 2.20.37.01, inventory 24. In Dutch: “Het is [Van Aalst] en een paar andere heren wenselijk voorgekomen, aan de Deputatie van het Comité “Indië Weerbaar” bij hun terugkeer naar Indië een bewijs mee te geven van de belangstelling van het Nederlandsch kapitaal in de intellectueele en economische ontwikkeling der inlandsche bevolking. \[…] \[Teneinde] van daadwerkelijke belangstelling te doen blijken in de bevorde- ring van de intellectuele ontwikkeling der inlanders, in een richting, die mede in het bijzonder ook hun economische weerbaarheid ten goede komt, is het plan ontstaan een geldsom bijeen te brengen, teneinde daarmede den stoot te kunnen geven tot de oprichting van een instelling van onderwijs in Indië.”
 
 [^13]:	J.W. IJzerman, *Voorlopig advies betreffende doel en inrichting der School voor Hooger Technisch Onderwijs in N.I. en regelingen haar betreffende*, National Archive, Den Haag, archive 2.19.047.01, inventory 28.
 
 [^14]:	S. Hoogewerff, C.W. Weys, R.A. Van Sandick, *Het Leerplan voor de op te richten Nederlands-Indische Technische Hogeschool*, Den Haag, Belinfante, 1918.
 
-[^15]:	J. Klopper, *Het leerplan der op te richten Nederlandsch- Indische Technische Hoogeschool: opmerkingen naar aanleiding van het ontwerp der sub-commissie*, Den Haag, Belinfante, 1918.
+[^15]:	J. Klopper, *Het leerplan der op te richten Nederlandsch-Indische Technische Hoogeschool: opmerkingen naar aanleiding van het ontwerp der sub-commissie*, Den Haag, Belinfante, 1918.
 
-[^16]:	J. Klopper, ‘De Technische Hogeschool te Bandung in de eerste jaren van haar bestaan’, in *De ingenieur in Indonesië*, vol. 7, no. 4, 1955, pp. 22-29.
+[^16]:	J. Klopper, ‘De Technische Hogeschool te Bandung in de eerste jaren van haar bestaan’, in *De ingenieur in Indonesië*, vol. 7, no. 4, 1955, pp. 22-29.
 
 [^17]:	Ibid.
 
@@ -206,4 +206,4 @@ Thanks to: Prasetyo Adhitama, Jan van Dullemen, Maurits Ertsen, Frida de Jong, W
 
 [^23]:	Ad Maas, ‘Kroniek van een onvolkomen ontdekking’, *De Gids*, 2009, vol. 172, no. 1, p. 46-62.
 
-[^24]:	These two quotes come from Klopper’s memoirs, cited above. In Dutch they read: “naar de Dessa’s ging en daar opruiende redevoeringen hield.” and “dat een goede studie onverenigbaar was met politieke activiteit, en dat hij dus moest kiezen: óf politicus, óf ingenieur. Na enige dagen bedenktijd kwam Sukarno terug en verklaarde dat hij ingenieur wilde worden en niet aan politiek zou doen. Hij heeft die belofte tot kort voor het einde van zijn studie gehouden – toen kwam hij weer, en deelde me mede, dat zijn geweten, gezien de nood van zijn volk, hem noopte niet langer buiten de politiek te blijven – en dat hij zijn belofte terug vroeg. Dit heeft een diepen indruk op me gevraagd. Mij is vaak iets door jongeren beloofd, en lang niet altijd zijn die beloften gehouden, maar nooit heeft iemand, behalve Sukarno, zijn belofte terug gevraagd.”
+[^24]:	These two quotes come from Klopper’s memoirs, cited above. In Dutch they read: “naar de Dessa’s ging en daar opruiende redevoeringen hield.” and “dat een goede studie onverenigbaar was met politieke activiteit, en dat hij dus moest kiezen: óf politicus, óf ingenieur. Na enige dagen bedenktijd kwam Sukarno terug en verklaarde dat hij ingenieur wilde worden en niet aan politiek zou doen. Hij heeft die belofte tot kort voor het einde van zijn studie gehouden – toen kwam hij weer, en deelde me mede, dat zijn geweten, gezien de nood van zijn volk, hem noopte niet langer buiten de politiek te blijven – en dat hij zijn belofte terug vroeg. Dit heeft een diepen indruk op me gevraagd. Mij is vaak iets door jongeren beloofd, en lang niet altijd zijn die beloften gehouden, maar nooit heeft iemand, behalve Sukarno, zijn belofte terug gevraagd.”

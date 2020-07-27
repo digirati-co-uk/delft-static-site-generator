@@ -1,21 +1,44 @@
 @font-face {
   font-family: 'f-medium';
   font-weight: normal;
-  src: url('../static/fonts/FoundersGrotesk.Medium.otf');
+  src: url('../static/fonts/founders-grotesk-web-medium.woff2') format('woff2'),
+       url('../static/fonts/founders-grotesk-web-medium.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'f-medium-italic';
+  font-weight: normal;
+  src: url('../static/fonts/founders-grotesk-web-medium-italic.woff2') format('woff2'),
+       url('../static/fonts/founders-grotesk-web-medium-italic.woff') format('woff')
 }
 
 @font-face {
   font-family: 'f-regular';
   font-weight: normal;
-  src: url('../static/fonts/FoundersGrotesk.Regular.otf');
+  src: url('../static/fonts/founders-grotesk-web-regular.woff2') format('woff2'),
+       url('../static/fonts/founders-grotesk-web-regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'f-regular-italic';
+  font-weight: normal;
+  src: url('../static/fonts/founders-grotesk-web-regular-italic.woff2') format('woff2'),
+       url('../static/fonts/founders-grotesk-web-regular-italic.woff') format('woff')
 }
 
 @font-face {
   font-family: 'f-mono';
   font-weight: normal;
-  src: url('../static/fonts/FoundersGroteskMonoRegular.otf');
+  src: url('../static/fonts/founders-grotesk-mono-web-regular.woff2') format('woff2'),
+       url('../static/fonts/founders-grotesk-mono-web-regular.woff') format('woff')
 }
 
+@font-face {
+  font-family: 'f-mono-medium';
+  font-weight: normal;
+  src: url('../static/fonts/founders-grotesk-mono-web-medium.woff2') format('woff2'),
+       url('../static/fonts/founders-grotesk-mono-web-medium.woff') format('woff')
+}
 
 // blocks
 $pico: "(max-width: 350px)";
@@ -131,6 +154,22 @@ main {
     }
 
     // letter-spacing: 0.3px;
+  }
+
+  em {
+    font-family: 'f-regular-italic';
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  strong {
+    font-family: 'f-medium';
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  blockquote {
+      font-family: 'f-regular-italic';
   }
 
   article {
@@ -920,7 +959,8 @@ $width: 1rem; // width of the chamfered edges
 }
 
 .metadata-label {
-  font-family: 'f-mono';
+  font-family: 'f-mono-medium';
+  font-weight: normal;
   font-size: 1rem;
   line-height: 2rem;
 }
