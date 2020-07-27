@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { navigate } from 'gatsby';
 
 import './SearchForm.scss';
@@ -19,8 +19,37 @@ const SearchIcon = ({ color }) => {
   );
 };
 
+const useDebounce = (val, delay) => {
+  const [debouncedValue, setDebouncedValue] = useState(val);
+
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(val);
+    }, delay);
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [val, delay]);
+
+  return debouncedValue;
+};
+
 const SearchForm = ({ pageLanguage, query, showTitle }) => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState(query);
+  const debouncedSearchTerm = useDebounce(value, 500);
+
+  useEffect(
+    () => {
+      navigate(
+        `/${pageLanguage}/search/?keywords=${encodeURIComponent(
+          debouncedSearchTerm
+        )}`
+      );
+    },
+
+    [debouncedSearchTerm] // Only call effect if debounced search term changes
+  );
 
   return showTitle ? (
     <>
@@ -53,14 +82,8 @@ const SearchForm = ({ pageLanguage, query, showTitle }) => {
           id="search-input"
           name="keywords"
           style={{ width: '90%', border: 'none', height: '100%' }}
-          value={query ? query : ''}
-          onChange={e =>
-            navigate(
-              `/${pageLanguage}/search/?keywords=${encodeURIComponent(
-                e.target.value
-              )}`
-            )
-          }
+          value={value}
+          onChange={e => setValue(e.target.value)}
         />
       </form>
     </>
