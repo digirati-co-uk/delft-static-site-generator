@@ -31,7 +31,7 @@ const SearchForm = ({ pageLanguage, query, showTitle }) => {
 
   return showTitle ? (
     <>
-      {showTitle ? <h1>Search posts</h1> : ''}
+      <h1>Search posts</h1>
       <form
         role="search"
         method="GET"
