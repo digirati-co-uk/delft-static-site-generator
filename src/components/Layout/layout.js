@@ -80,7 +80,11 @@ class Layout extends React.Component {
               >
                 <html lang={this.props.language} />
               </Helmet>
-              <Header language={this.props.language} path={this.props.path} />
+              <Header
+                language={this.props.language}
+                path={this.props.path}
+                location={this.props.location}
+              />
               {this.props.children}
               <Footer
                 path={location}

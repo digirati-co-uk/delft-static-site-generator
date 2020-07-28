@@ -1,0 +1,26 @@
+.search-form {
+  border: 100px;
+
+  &__input {
+    font-size: 1.5rem;
+    line-height: unset;
+    &:focus {
+      outline: none;
+    }
+  }
+
+
+  &__button {
+    border: none;
+    background: none;
+    align-self: flex-end;
+
+    @media (max-width: 960px) {
+      align-self: center;
+    }
+
+    &--icon {
+      display: block;
+    }
+  }
+}

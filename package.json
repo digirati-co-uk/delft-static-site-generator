@@ -14,6 +14,7 @@
     "gatsby-image": "^2.2.37",
     "gatsby-link": "^2.4.8",
     "gatsby-plugin-canonical-urls": "^2.3.9",
+    "gatsby-plugin-local-search": "^1.1.1",
     "gatsby-plugin-manifest": "^2.2.34",
     "gatsby-plugin-mdx": "^1.0.71",
     "gatsby-plugin-offline": "^2.2.10",
@@ -27,6 +28,7 @@
     "gatsby-source-filesystem": "^2.1.43",
     "gatsby-transformer-remark": "^2.6.45",
     "gatsby-transformer-sharp": "^2.3.9",
+    "graphql-type-json": "^0.3.2",
     "iiif-prezi2to3": "^1.0.8",
     "lazysizes": "^5.2.2",
     "node-sass": "^4.13.0",
@@ -37,9 +39,12 @@
     "react-container-dimensions": "^1.4.1",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-lunr": "^1.0.0",
     "react-share": "^3.0.1",
     "react-translate": "^6.1.0",
-    "react-virtualized": "^9.21.2"
+    "react-use-flexsearch": "^0.1.1",
+    "react-virtualized": "^9.21.2",
+    "striptags": "^3.1.1"
   },
   "keywords": [
     "gatsby"

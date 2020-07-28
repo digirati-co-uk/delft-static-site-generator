@@ -105,6 +105,7 @@ class ObjectPage extends React.Component {
 
   render() {
     const { pageContext, path } = this.props;
+
     const { renderSlideShow } = this.state;
     const pageLanguage = getPageLanguage(path);
 
@@ -165,8 +166,24 @@ class ObjectPage extends React.Component {
                   {pageContext &&
                     pageContext.label &&
                     translate(pageContext.label, pageLanguage)}
-                  <GithubLink href={path} />
-                  <IIIFLink href={path} />
+                  <GithubLink
+                    href={
+                      pageContext.fileRoute
+                        ? pageContext.fileRoute
+                            .replace('.json', '')
+                            .replace('content', '/' + pageLanguage)
+                        : ''
+                    }
+                  />
+                  <IIIFLink
+                    href={
+                      pageContext.fileRoute
+                        ? pageContext.fileRoute
+                            .replace('.json', '')
+                            .replace('content', '/' + pageLanguage)
+                        : ''
+                    }
+                  />
                 </h1>
                 {pageContext &&
                   pageContext.metadata &&

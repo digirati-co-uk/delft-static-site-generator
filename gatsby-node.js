@@ -313,6 +313,7 @@ const createObjectPages = () => {
       if (context.type !== 'Manifest') {
         return meta;
       }
+      context.fileRoute = item;
       pathname = pathname.replace('collections/', 'objects/');
       meta.pages[pathname] = {
         path: pathname,
@@ -402,6 +403,18 @@ exports.createPages = ({ actions, graphql }) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
+
+    const searchTemplate = path.resolve(`src/pages/Search/Search.js`);
+
+    TRANSLATIONS.forEach(language =>
+      createPage({
+        path: `${language}/search/`,
+        component: searchTemplate,
+        context: {
+          pageLanguage: language,
+        },
+      })
+    );
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       const manifestLinks = node.html.match(

@@ -7,12 +7,17 @@ import Menu from '../Menu/menu';
 import Logo from '../Logo/logo';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import LanguageSelector from '../LanguageSelector/languageSelector';
+import SearchForm from '../Search/SearchForm';
+
 import './header.css';
 
 class Header extends React.Component {
-  state = {
-    isMobileMenuOpen: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobileMenuOpen: false,
+    };
+  }
 
   toggleMobileMenu = () => {
     const { isMobileMenuOpen } = this.state;
@@ -24,6 +29,8 @@ class Header extends React.Component {
   render() {
     const { language, path, t } = this.props;
     const { isMobileMenuOpen } = this.state;
+    const searchQuery =
+      new URLSearchParams(this.props.location.search).get('keywords') || '';
 
     return (
       <header className="header">
@@ -42,6 +49,11 @@ class Header extends React.Component {
           >
             <Menu language={language} />
             <LanguageSelector language={language} path={path} />
+            <SearchForm
+              pageLanguage={language}
+              query={searchQuery}
+              showTitle={false}
+            />
             <Logo />
           </div>
         </div>
