@@ -36,16 +36,22 @@ const useDebounce = (val, delay) => {
 };
 
 const SearchForm = ({ pageLanguage, query, showTitle }) => {
-  const [value, setValue] = useState(query);
+  const [value, setValue] = useState('');
   const debouncedSearchTerm = useDebounce(value, 500);
+
+  useEffect(() => {
+    setValue(query);
+  }, []);
 
   useEffect(
     () => {
-      navigate(
-        `/${pageLanguage}/search/?keywords=${encodeURIComponent(
-          debouncedSearchTerm
-        )}`
-      );
+      if (showTitle) {
+        navigate(
+          `/${pageLanguage}/search/?keywords=${encodeURIComponent(
+            debouncedSearchTerm
+          )}`
+        );
+      }
     },
 
     [debouncedSearchTerm] // Only call effect if debounced search term changes
@@ -58,6 +64,7 @@ const SearchForm = ({ pageLanguage, query, showTitle }) => {
         className="search-form"
         role="search"
         method="GET"
+        onSubmit={e => e.preventDefault()}
         style={{
           backgroundColor: 'white',
           padding: '0.25rem',
