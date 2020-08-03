@@ -5,21 +5,6 @@ title: "Demo article"
 author: "Adam von Digirati"
 ---
 
-## An Illustration
-<Illustration source="a-single-canvas-manifest.json">
-    You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
-    The source should be the direct filename within the illustrations folder.
-    Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"
-    If you would like the pop-up modal to link to one of the objects on the site, put the name of the object in as before.
-</Illustration>
-
-<Illustration source="another-single-canvas.json">
-    You can add an Illustration to your article, by putting a Manifest with a single canvas within the illustrations folder.
-    The source should be the direct filename within the illustrations folder.
-    Folders can be achieved if required: if you want a folder the source should read: "yourfolder/yourfile.json"
-    If you would like the pop-up modal to link to one of the objects on the site, put the name of the object in as before.
-</Illustration>
-
 ## Article page
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta pellentesque sem. Curabitur posuere nisl dui, in porta urna laoreet at. Duis in cursus orci. Suspendisse maximus dui at sollicitudin consequat. Vestibulum vitae lacus leo. Sed ac dui euismod, congue diam id, suscipit neque. Duis eu volutpat purus. Mauris vitae lobortis leo. Maecenas gravida iaculis tempus. Sed volutpat mollis consectetur. Maecenas velit felis, semper vel mollis rhoncus, iaculis vel urna. Morbi dui velit, dapibus ac sagittis ut, vehicula tincidunt turpis.

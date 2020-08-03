@@ -1,0 +1,174 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Untitled Canvas"
+        ]
+      },
+      "height": 1000,
+      "width": 664,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/b65dbfcc-4daf-0b7d-86fc-74a126248b03/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1626,
+                "width": 1080,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/b65dbfcc-4daf-0b7d-86fc-74a126248b03",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1080,
+                  "height": 1626,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 680,
+                      "height": 1024
+                    },
+                    {
+                      "width": 266,
+                      "height": 400
+                    },
+                    {
+                      "width": 133,
+                      "height": 200
+                    },
+                    {
+                      "width": 66,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/b65dbfcc-4daf-0b7d-86fc-74a126248b03/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/b65dbfcc-4daf-0b7d-86fc-74a126248b03",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 680,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 680,
+                        "height": 1024
+                      },
+                      {
+                        "width": 266,
+                        "height": 400
+                      },
+                      {
+                        "width": 133,
+                        "height": 200
+                      },
+                      {
+                        "width": 66,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/6071d882-4b32-e1d1-cdd7-36b01dacc77e/annotation/e26262ec-a642-721e-422f-1707bf62e953",
+              "target": "https://heritage.tudelft.nl/iiif/6071d882-4b32-e1d1-cdd7-36b01dacc77e/canvas/13a110fd-a49e-619c-02b1-d1cfc2bf8824#xywh=0,0,664,1000",
+              "summary": {
+                "en": [
+                  "Source: Trésor, TU Delft Library"
+                ],
+                "nl": [
+                  "Bron: Trésor, TU Delft Library"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Page from the 1919 Delft student almanac in which the postponement of the initiation rites is mentioned"
+                ],
+                "nl": [
+                  "Pagina uit de Delftsche Studenten Almanak van 1919, waarin het opschorten van de ontgroening wordt genoemd"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/6071d882-4b32-e1d1-cdd7-36b01dacc77e/list/70411f5b-c9b7-1d9f-a391-1091e14060b2"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/6071d882-4b32-e1d1-cdd7-36b01dacc77e/canvas/13a110fd-a49e-619c-02b1-d1cfc2bf8824"
+    }
+  ],
+  "id": "https://heritage.tudelft.nl/iiif/6071d882-4b32-e1d1-cdd7-36b01dacc77e/manifest",
+  "label": {
+    "nl": [
+      "Pagina uit de Delftsche Studenten Almanak van 1919, waarin het opschorten van de ontgroening wordt genoemd"
+    ],
+    "en": [
+      "Page from the 1919 Delft student almanac in which the postponement of the initiation rites is mentioned"
+    ]
+  }
+}

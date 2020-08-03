@@ -1,0 +1,465 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Various newspaper articles about the temporary closure of Delft technical college due to the Spanish flu in 1918"
+    ],
+    "nl": [
+      "Diverse krantenartikelen over de tijdelijke sluiting van de Technische Hogeschool ten gevolge van de Spaanse griep in 1918"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Various newspaper articles about the temporary closure of Delft technical college due to the Spanish flu in 1918"
+        ],
+        "nl": [
+          "Diverse krantenartikelen over de tijdelijke sluiting van de Technische Hogeschool ten gevolge van de Spaanse griep in 1918"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/35ae030e-6311-092c-767c-803a710a29c1/1645,1181,372,264/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3074,
+                "width": 2048,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/35ae030e-6311-092c-767c-803a710a29c1",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2048,
+                  "height": 3074,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 682,
+                      "height": 1024
+                    },
+                    {
+                      "width": 266,
+                      "height": 400
+                    },
+                    {
+                      "width": 133,
+                      "height": 200
+                    },
+                    {
+                      "width": 67,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/35ae030e-6311-092c-767c-803a710a29c1/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/35ae030e-6311-092c-767c-803a710a29c1",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 682,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 682,
+                        "height": 1024
+                      },
+                      {
+                        "width": 266,
+                        "height": 400
+                      },
+                      {
+                        "width": 133,
+                        "height": 200
+                      },
+                      {
+                        "width": 67,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/annotation/aa0c1441-9362-bcda-e6a1-b4910402987c",
+              "target": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/canvas/25f8ecbb-00ad-0d9f-2db5-39e3c2a2d341#xywh=55,154,372,264",
+              "label": {
+                "en": [
+                  "Item in the Delftsche Courant"
+                ],
+                "nl": [
+                  "Bericht in de Delftsche Courant"
+                ]
+              },
+              "body.id": "https://dlc.services/iiif-img/7/21/35ae030e-6311-092c-767c-803a710a29c1/1645,1181,372,264/full/0/default.jpg",
+              "summary": {
+                "en": [
+                  "Source: Delftsche Courant, 11 november 1918, via Delpher.nl"
+                ],
+                "nl": [
+                  "Bron: Delftsche Courant, 11 november 1918, via Delpher.nl"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/88f8656e-d7b6-a7bf-4ac6-f7accfa50eac/1604,2460,408,252/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3073,
+                "width": 2048,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/88f8656e-d7b6-a7bf-4ac6-f7accfa50eac",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2048,
+                  "height": 3073,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 682,
+                      "height": 1024
+                    },
+                    {
+                      "width": 267,
+                      "height": 400
+                    },
+                    {
+                      "width": 133,
+                      "height": 200
+                    },
+                    {
+                      "width": 67,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/88f8656e-d7b6-a7bf-4ac6-f7accfa50eac/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/88f8656e-d7b6-a7bf-4ac6-f7accfa50eac",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 682,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 682,
+                        "height": 1024
+                      },
+                      {
+                        "width": 267,
+                        "height": 400
+                      },
+                      {
+                        "width": 133,
+                        "height": 200
+                      },
+                      {
+                        "width": 67,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/annotation/f725a49c-0d3a-cea6-3ecd-9061ee97771c",
+              "target": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/canvas/25f8ecbb-00ad-0d9f-2db5-39e3c2a2d341#xywh=183,497,408,252",
+              "label": {
+                "en": [
+                  "Item in De Tijd"
+                ],
+                "nl": [
+                  "Bericht in De Tijd"
+                ]
+              },
+              "body.id": "https://dlc.services/iiif-img/7/21/88f8656e-d7b6-a7bf-4ac6-f7accfa50eac/1604,2460,408,252/full/0/default.jpg",
+              "summary": {
+                "en": [
+                  "Source: De Tijd, 12 november 1918 via Delpher.nl"
+                ],
+                "nl": [
+                  "Bron: De Tijd, 12 november 1918 via Delpher.nl"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/adda103b-bdb7-630f-3bfe-f3d471a47140/393,1114,316,909/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2634,
+                "width": 2048,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/adda103b-bdb7-630f-3bfe-f3d471a47140",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2048,
+                  "height": 2634,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 796,
+                      "height": 1024
+                    },
+                    {
+                      "width": 311,
+                      "height": 400
+                    },
+                    {
+                      "width": 156,
+                      "height": 200
+                    },
+                    {
+                      "width": 78,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/adda103b-bdb7-630f-3bfe-f3d471a47140/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/adda103b-bdb7-630f-3bfe-f3d471a47140",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 796,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 796,
+                        "height": 1024
+                      },
+                      {
+                        "width": 311,
+                        "height": 400
+                      },
+                      {
+                        "width": 156,
+                        "height": 200
+                      },
+                      {
+                        "width": 78,
+                        "height": 100
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/annotation/189c7ff9-72a0-59ca-6461-9f12f303cd7a",
+              "target": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/canvas/25f8ecbb-00ad-0d9f-2db5-39e3c2a2d341#xywh=618,50,316,909",
+              "label": {
+                "en": [
+                  "Item in De Courant"
+                ],
+                "nl": [
+                  "Bericht in De Courant"
+                ]
+              },
+              "body.id": "https://dlc.services/iiif-img/7/21/adda103b-bdb7-630f-3bfe-f3d471a47140/393,1114,316,909/full/0/default.jpg",
+              "summary": {
+                "en": [
+                  "Source: De Courant, 12 november 1918, via Delpher.nl"
+                ],
+                "nl": [
+                  "Bron: De Courant, 12 november 1918, via Delpher.nl"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/list/e78ad254-f569-80f4-f6b5-8ee74b0b00c8"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/canvas/25f8ecbb-00ad-0d9f-2db5-39e3c2a2d341",
+      "summary": {
+        "en": [
+          "Source: Delpher"
+        ],
+        "nl": [
+          "Bron: Delpher"
+        ]
+      }
+    }
+  ],
+  "id": "https://heritage.tudelft.nl/iiif/852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5/manifest"
+}
