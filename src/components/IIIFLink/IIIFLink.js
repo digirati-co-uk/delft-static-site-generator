@@ -7,7 +7,7 @@ import './IIIFLink.scss';
 const getIIIFLink = href => {
   if (/\/(collections|objects|exhibitions)\//.test(href)) {
     const baselink = `${href.replace(
-      /(en|nl)/,
+      /\/(en|nl)/,
       `${GITHUB_RAW_JSON_BASE}`
     )}.json`;
     return baselink.replace('/src/', '/content/');

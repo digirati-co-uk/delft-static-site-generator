@@ -4,9 +4,9 @@ import { GITHUB_BASE } from '../../utils';
 
 const getGitLink = href => {
   if (/\/(collections|objects|exhibitions)\//.test(href)) {
-    return `${href.replace(/(en|nl)/, `${GITHUB_BASE}content`)}.json`;
+    return `${href.replace(/\/(en|nl)/, `${GITHUB_BASE}content`)}.json`;
   }
-  return `${GITHUB_BASE}content/${href}.md`;
+  return `${GITHUB_BASE}content${href}.md`;
 };
 
 const GithubLink = ({ href }) => (
@@ -15,6 +15,8 @@ const GithubLink = ({ href }) => (
       href={getGitLink(href)}
       className="github-link"
       title="View source on Github"
+      target="_blank"
+      rel="noopener noreferrer"
     >
       View source on GitHub
     </a>

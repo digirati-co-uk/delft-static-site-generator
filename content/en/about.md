@@ -86,7 +86,7 @@ Studio Mellegers van Dam ([Adriaan Mellegers](https://www.adriaanmellegers.com) 
 
 *Source code*
 
-[github.com/digirati-co-uk/delft-static-site-generator](github.com/digirati-co-uk/delft-static-site-generator)
+[github.com/digirati-co-uk/delft-static-site-generator](https://github.com/digirati-co-uk/delft-static-site-generator)
 
 *Acknowledgements*
 
