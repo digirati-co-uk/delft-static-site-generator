@@ -9,7 +9,6 @@ const getGitLink = href => {
     href.includes('objects') ||
     href.includes('collections')
   ) {
-    alert('in here');
     console.log(`${href.replace(/\/(en|nl)/, `${GITHUB_BASE}content`)}.json`);
     return `${href.replace(/\/(en|nl)/, `${GITHUB_BASE}content`)}.json`;
   } else {
