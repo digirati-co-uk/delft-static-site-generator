@@ -1,34 +1,42 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { GITHUB_BASE } from '../../utils';
 
 const getGitLink = href => {
-  console.log(href);
   if (
-    href.includes('collections') ||
+    href.includes('exhibitions') ||
     href.includes('objects') ||
     href.includes('collections')
   ) {
-    console.log(`${href.replace(/\/(en|nl)/, `${GITHUB_BASE}content`)}.json`);
     return `${href.replace(/\/(en|nl)/, `${GITHUB_BASE}content`)}.json`;
   } else {
     return `${GITHUB_BASE}content${href}.md`;
   }
 };
 
-const GithubLink = ({ href }) => (
-  <div className="github-link-wrapper">
-    <a
-      href={getGitLink(href)}
-      className="github-link"
-      title="View source on Github"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      View source on GitHub
-    </a>
-  </div>
-);
+const GithubLink = ({ href }) => {
+  const [link, setLink] = useState('');
+
+  useEffect(() => {
+    const resolved = getGitLink(href);
+    console.log(resolved);
+    setLink(resolved);
+  }, []);
+
+  return (
+    <div className="github-link-wrapper">
+      <a
+        href={link}
+        className="github-link"
+        title="View source on Github"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View source on GitHub
+      </a>
+    </div>
+  );
+};
 
 GithubLink.propTypes = {
   href: PropTypes.string.isRequired,
