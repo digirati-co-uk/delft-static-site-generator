@@ -19,7 +19,6 @@ const GithubLink = ({ href }) => {
 
   useEffect(() => {
     const resolved = getGitLink(href);
-    console.log(resolved);
     setLink(resolved);
   }, []);
 
