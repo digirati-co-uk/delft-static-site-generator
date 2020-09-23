@@ -3,7 +3,12 @@ import PropTypes from 'prop-types';
 import { GITHUB_BASE } from '../../utils';
 
 const getGitLink = href => {
-  if (/(collections|objects|exhibitions)/.test(href)) {
+  console.log(href);
+  if (
+    href.includes('collections') ||
+    href.includes('objects') ||
+    href.includes('collections')
+  ) {
     return `${href.replace(/\/(en|nl)/, `${GITHUB_BASE}content`)}.json`;
   }
   return `${GITHUB_BASE}content${href}.md`;
