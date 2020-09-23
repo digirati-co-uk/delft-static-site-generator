@@ -23,25 +23,29 @@ const searchGraphQL = results => {
 };
 
 const removeDuplicates = (results, lang) => {
-  let otherLang = lang === 'en' ? 'nl' : 'en';
   let results2 = [...results];
 
-  const removedDuplicates = [];
-  results2.forEach(result => {
-    let paths = removedDuplicates.map(node => node.path);
+  let resultsInCurrentLang = results2.filter(
+    result => result.path.split('/')[1] === lang
+  );
+
+  const allOtherLang = results2.filter(
+    result => result.path.split('/')[1] !== lang
+  );
+
+  const relevantOtherLang = [];
+
+  allOtherLang.forEach(result => {
+    let paths = resultsInCurrentLang.map(node => node.path);
     let otherLangPath = result.path.split('/');
-    otherLangPath[2] = otherLang;
-    otherLangPath.join('/');
-    if (
-      result.path.split('/')[1] === otherLang &&
-      !paths.includes(otherLangPath) &&
-      !paths.includes(result)
-    ) {
-      removedDuplicates.push(result);
-      return result;
+    let otherLang = otherLangPath[1] === 'en' ? 'nl' : 'en';
+    otherLangPath[1] = otherLang;
+    otherLangPath = otherLangPath.join('/');
+    if (!paths.includes(otherLangPath)) {
+      relevantOtherLang.push(result);
     }
   });
-  return removedDuplicates;
+  return [...resultsInCurrentLang, ...relevantOtherLang];
 };
 
 const resolveThumbnail = node => {
@@ -174,12 +178,12 @@ const resolveTitle = node => {
     const title =
       node.context &&
       node.context.collection &&
-      node.context.collection.label[lang];
+      node.context.collection.label[lang][0];
     return title
       ? title
       : node.context &&
           node.context.collection &&
-          node.context.collection.label[otherLang];
+          node.context.collection.label[otherLang][0];
   }
   if (type === 'exhibitions') {
     const title =
@@ -221,21 +225,28 @@ const Search = ({ data, location, pageContext, path }) => {
   });
 
   const mdResults = useLunr(
-    `*${searchQuery}*`,
+    `${searchQuery}`,
     data.localSearchMarkdown.index,
     data.localSearchMarkdown.store
   );
 
   useEffect(() => {
-    setJsonResults(
+    const found =
       searchQuery !== ''
         ? mapToFE(
-            idx.search(`*${searchQuery}*`),
+            idx.search(`${searchQuery}*`),
             nonPublications,
             pageContext.pageLanguage
           )
-        : []
-    );
+        : [];
+
+    const cleaned = found.filter(res => {
+      return (
+        res.path !== '/Exhibition/Exhibition/' &&
+        !((res.path === '/en/exhibitions' || '/nl/exhibitions') && !res.title)
+      );
+    });
+    setJsonResults(cleaned);
   }, [searchQuery]);
 
   useEffect(() => {
@@ -244,11 +255,11 @@ const Search = ({ data, location, pageContext, path }) => {
     } else {
       const res = removeDuplicates(
         [...jsonResults, ...mdResults],
-        location.pathname.split('/')[2]
+        location.pathname.split('/')[1]
       );
       setResults(res);
     }
-  }, [jsonResults]);
+  }, [jsonResults, mdResults]);
 
   return (
     <Layout
