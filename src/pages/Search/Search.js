@@ -178,12 +178,12 @@ const resolveTitle = node => {
     const title =
       node.context &&
       node.context.collection &&
-      node.context.collection.label[lang];
+      node.context.collection.label[lang][0];
     return title
       ? title
       : node.context &&
           node.context.collection &&
-          node.context.collection.label[otherLang];
+          node.context.collection.label[otherLang][0];
   }
   if (type === 'exhibitions') {
     const title =
@@ -234,7 +234,7 @@ const Search = ({ data, location, pageContext, path }) => {
     setJsonResults(
       searchQuery !== ''
         ? mapToFE(
-            idx.search(`*${searchQuery}*`),
+            idx.search(`${searchQuery}*`),
             nonPublications,
             pageContext.pageLanguage
           )
