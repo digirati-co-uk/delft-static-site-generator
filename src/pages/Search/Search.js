@@ -231,15 +231,22 @@ const Search = ({ data, location, pageContext, path }) => {
   );
 
   useEffect(() => {
-    setJsonResults(
+    const found =
       searchQuery !== ''
         ? mapToFE(
             idx.search(`${searchQuery}*`),
             nonPublications,
             pageContext.pageLanguage
           )
-        : []
-    );
+        : [];
+
+    const cleaned = found.filter(res => {
+      return (
+        res.path !== '/Exhibition/Exhibition/' &&
+        !((res.path === '/en/exhibitions' || '/nl/exhibitions') && !res.title)
+      );
+    });
+    setJsonResults(cleaned);
   }, [searchQuery]);
 
   useEffect(() => {
