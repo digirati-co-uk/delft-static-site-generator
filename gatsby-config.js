@@ -81,6 +81,7 @@ module.exports = {
         // A unique name for the search index. This should be descriptive of
         // what the index contains. This is required.
         name: 'markdown',
+        languages: ['nl', 'en'],
 
         // Set the search engine to create the index. This is required.
         // The following engines are supported: flexsearch, lunr
