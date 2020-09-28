@@ -51,13 +51,13 @@
       },
       "value": {
         "en": [
-          "<p><a href=\"https://tudelft.on.worldcat.org/oclc/841918558\" target=\"_blank\">841918558</a></p>"
+          "<a href=\"https://tudelft.on.worldcat.org/oclc/841918558\" target=\"_blank\">841918558</a>"
         ]
       }
     }
   ],
   "type": "Manifest",
-  "id": "https://dlc.services/iiif-resource/7/string1/841918558",
+  "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/collections/library/lib-tresor/txf-lustrumuitgave-prometheus.json",
   "items": [
     {
       "thumbnail": [
@@ -5055,5 +5055,10 @@
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
-  ]
+  ],
+  "label": {
+    "en": [
+      "Lustrumuitgave Prometheus"
+    ]
+  }
 }

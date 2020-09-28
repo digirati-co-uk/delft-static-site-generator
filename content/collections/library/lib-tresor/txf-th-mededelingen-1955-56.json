@@ -44,13 +44,13 @@
       },
       "value": {
         "en": [
-          "<p><a href=\"\\&quot;https://tudelft.on.worldcat.org/oclc/72820760\\&quot;\" target=\"_blank\">72820760</a></p>"
+          "<a href=\"https://tudelft.on.worldcat.org/oclc/72820760\" target=\"_blank\">72820760</a>"
         ]
       }
     }
   ],
   "type": "Manifest",
-  "id": "https://dlc.services/iiif-resource/7/string1/72820760-03",
+  "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/collections/library/lib-tresor/txf-th-mededelingen-1955-56.json",
   "items": [
     {
       "thumbnail": [
@@ -12692,5 +12692,10 @@
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
-  ]
+  ],
+  "label": {
+    "en": [
+      "T.H. Mededelingen"
+    ]
+  }
 }

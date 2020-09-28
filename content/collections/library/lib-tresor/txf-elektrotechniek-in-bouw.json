@@ -56,13 +56,13 @@
       },
       "value": {
         "en": [
-          "<p><a href=\"https://tudelft.on.worldcat.org/oclc/838925847\" target=\"_blank\">838925847</a></p>"
+          "<a href=\"https://tudelft.on.worldcat.org/oclc/838925847\" target=\"_blank\">838925847</a>"
         ]
       }
     }
   ],
   "type": "Manifest",
-  "id": "https://dlc.services/iiif-resource/7/string1/838925847",
+  "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/collections/library/lib-tresor/txf-elektrotechniek-in-bouw.json",
   "items": [
     {
       "thumbnail": [
@@ -4124,5 +4124,10 @@
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
-  ]
+  ],
+  "label": {
+    "en": [
+      "Elektrotechniek in bouw"
+    ]
+  }
 }

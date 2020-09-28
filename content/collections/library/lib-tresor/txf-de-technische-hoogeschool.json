@@ -44,7 +44,7 @@
       },
       "value": {
         "en": [
-          "<p>Delft: Waltman</p>"
+          "Delft: Waltman"
         ]
       }
     },
@@ -56,13 +56,13 @@
       },
       "value": {
         "en": [
-          "<p><a href=\"https://tudelft.on.worldcat.org/oclc/64319573\" target=\"_blank\">64319573</a></p>"
+          "<a href=\"https://tudelft.on.worldcat.org/oclc/64319573\" target=\"_blank\">64319573</a>"
         ]
       }
     }
   ],
   "type": "Manifest",
-  "id": "https://dlc.services/iiif-resource/7/string1/64319573",
+  "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/collections/library/lib-tresor/txf-de-technische-hoogeschool.json",
   "items": [
     {
       "thumbnail": [
@@ -10991,24 +10991,7 @@
   ],
   "label": {
     "en": [
-      ""
+      "De Technische Hoogeschool te Delft"
     ]
-  },
-  "summary": {
-    "en": [
-      ""
-    ]
-  },
-  "requiredStatement": {
-    "label": {
-      "en": [
-        ""
-      ]
-    },
-    "value": {
-      "en": [
-        ""
-      ]
-    }
   }
 }

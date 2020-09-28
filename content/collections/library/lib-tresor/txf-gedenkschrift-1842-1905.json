@@ -83,10 +83,10 @@
       },
       "value": {
         "en": [
-          "<a href=\\\"https://tudelft.on.worldcat.org/oclc/64182517\\\" target=\\\"_blank\\\">64182517</a>"
+          "<a href=\"https://tudelft.on.worldcat.org/oclc/64182517\" target=\"_blank\">64182517</a>"
         ],
         "nl": [
-          "<a href=\\\"https://tudelft.on.worldcat.org/oclc/64182517\\\" target=\\\"_blank\\\">64182517</a>"
+          "<a href=\"https://tudelft.on.worldcat.org/oclc/64182517\" target=\"_blank\">64182517</a>"
         ]
       }
     },
@@ -110,7 +110,7 @@
     }
   ],
   "type": "Manifest",
-  "id": "https://delft-static-site-generator.netlify.com/objects/txf18197",
+  "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/collections/library/lib-tresor/txf-gedenkschrift-1842-1905.json",
   "items": [
     {
       "thumbnail": [
@@ -48476,5 +48476,10 @@
   "@context": [
     "http://www.w3.org/ns/anno.jsonld",
     "http://iiif.io/api/presentation/3/context.json"
-  ]
+  ],
+  "label": {
+    "en": [
+      "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School"
+    ]
+  }
 }
