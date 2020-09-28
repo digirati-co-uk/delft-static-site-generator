@@ -1,7 +1,13 @@
 .iiif-link-wrapper {
-  border-bottom: none;
-  img {
-    height: 20px;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  a {
+    background-image: url(../../images/logo-iiif-20x23.png);
+    background-repeat: no-repeat;
     cursor: pointer;
+    height: 20px;
+    width: 23px;
+    display: block;
+    border: 0;
   };
 }
