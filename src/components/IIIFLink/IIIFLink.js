@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import IIIFIcon from '../../images/logo-iiif-34x30.png';
 import { GITHUB_RAW_JSON_BASE } from '../../utils';
 import './IIIFLink.scss';
 
