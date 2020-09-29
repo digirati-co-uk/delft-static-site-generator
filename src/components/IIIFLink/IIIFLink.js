@@ -10,8 +10,8 @@ const getIIIFLink = href => {
     href.includes('collections')
   ) {
     const baselink = `${href.replace(
-      /(en|nl)/,
-      `?manifest=${GITHUB_RAW_JSON_BASE}`
+      /\/(en|nl)/,
+      `${GITHUB_RAW_JSON_BASE}`
     )}.json`;
     return baselink.replace('/src/', '/content/');
   }
@@ -28,7 +28,11 @@ const IIIFLink = ({ href }) => {
 
   return (
     <div className="iiif-link-wrapper">
-      <a href={link} target="_blank" title="Drag and Drop IIIF Resource"></a>
+      <a
+        href={link + '?manifest=' + link}
+        target="_blank"
+        title="Drag and Drop IIIF Resource"
+      ></a>
     </div>
   );
 };
