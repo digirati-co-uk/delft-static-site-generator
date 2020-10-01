@@ -1,0 +1,108 @@
+{
+    "metadata": [
+        {
+            "label": "type",
+            "value": "kruis"
+        },
+        {
+            "label": "format",
+            "value": "375,0 cm (h) x 210,0 cm (b) x 5,0 cm (d)"
+        },
+        {
+            "label": "identifier",
+            "value": "2020.0010.BKD"
+        },
+        {
+            "label": "language",
+            "value": "nl"
+        },
+        {
+            "label": "coverage",
+            "value": "8949"
+        },
+        {
+            "label": "coverage",
+            "value": "6c30dfce-5fa8-437b-b57d-d88bd809557b"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/17056/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/17056/range/range-0-0.json",
+        "label": "0"
+    }],
+    "label": "Smeedijzeren kerk torenkruis",
+    "@id": "https://github.com/libis/delft-static-site-generator/blob/test/content/objects/6c30dfce-5fa8-437b-b57d-d88bd809557b",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 676,
+                            "height": 1024
+                        },
+                        {
+                            "width": 264,
+                            "height": 400
+                        },
+                        {
+                            "width": 132,
+                            "height": 200
+                        },
+                        {
+                            "width": 66,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 676,
+                    "@id": "https://dlc.services/thumbs/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63/full/66,100/0/default.jpg"
+            },
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2802,
+                        "@id": "https://dlc.services/iiif-img/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63",
+                        "height": 4244
+                    },
+                    "width": 2802,
+                    "@id": "https://dlc.services/iiif-img/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63/full/676,1024/0/default.jpg",
+                    "height": 4244
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63/canvas/c0"
+            }],
+            "@type": "sc:Canvas",
+            "width": 2802,
+            "@id": "https://dlc.services/iiif-img/7/18/a660ffee-aa57-4828-ac8b-d14a7e23ab63/canvas/c0",
+            "label": "Image",
+            "height": 4244
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/17056/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
