@@ -11,10 +11,10 @@
       },
       "value": {
         "en": [
-          "Depot Museumcollection, TU Delft Library"
+          "Impressions of the three depots for the Special Collections of TU Delft Library"
         ],
         "nl": [
-          "Depot Museumcollectie, TU Delft Library"
+          "Een indruk van de drie depots voor de Bijzondere Collecties van de TU Delft Library"
         ]
       }
     },
@@ -174,17 +174,17 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/53f8105e-02c0-4b2e-9a1b-a07df43cf8d1",
+            "id": "https://dlc.services/thumbs/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/53f8105e-02c0-4b2e-9a1b-a07df43cf8d1/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29/full/full/0/default.jpg"
         }
       ],
       "height": 4160,
       "width": 6240,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=1",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=28",
       "items": [
         {
           "type": "AnnotationPage",
@@ -192,8 +192,8 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/53f8105e-02c0-4b2e-9a1b-a07df43cf8d1/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=1#",
+              "id": "https://dlc.services/iiif-img/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=28#",
               "body": {
                 "height": 4160,
                 "width": 6240,
@@ -202,327 +202,15 @@
                   "height": 4160,
                   "width": 6240,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/53f8105e-02c0-4b2e-9a1b-a07df43cf8d1",
+                  "id": "https://dlc.services/iiif-img/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/53f8105e-02c0-4b2e-9a1b-a07df43cf8d1/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/50845756-8e58-4884-a7cc-50a06fa23da5"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/7f37d7cd-584e-4914-a338-bc094f59b90c",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/7f37d7cd-584e-4914-a338-bc094f59b90c/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6190,
-      "width": 4127,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=2",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/7f37d7cd-584e-4914-a338-bc094f59b90c/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=2#",
-              "body": {
-                "height": 6190,
-                "width": 4127,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6190,
-                  "width": 4127,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/7f37d7cd-584e-4914-a338-bc094f59b90c",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/7f37d7cd-584e-4914-a338-bc094f59b90c/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/2b006387-2f56-4f88-8e9e-34238d28f1e2"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/c6f62828-eb20-4b95-ba87-5f73a8fc5b9d",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/c6f62828-eb20-4b95-ba87-5f73a8fc5b9d/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6056,
-      "width": 4037,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=3",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/c6f62828-eb20-4b95-ba87-5f73a8fc5b9d/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=3#",
-              "body": {
-                "height": 6056,
-                "width": 4037,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6056,
-                  "width": 4037,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/c6f62828-eb20-4b95-ba87-5f73a8fc5b9d",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/c6f62828-eb20-4b95-ba87-5f73a8fc5b9d/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/1bd6f336-4360-4280-b8ab-a25e3702a564"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/5c6c3f0b-c39f-4097-ada0-ebd0d620f313",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/5c6c3f0b-c39f-4097-ada0-ebd0d620f313/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6178,
-      "width": 4119,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=4",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/5c6c3f0b-c39f-4097-ada0-ebd0d620f313/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=4#",
-              "body": {
-                "height": 6178,
-                "width": 4119,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6178,
-                  "width": 4119,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/5c6c3f0b-c39f-4097-ada0-ebd0d620f313",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/5c6c3f0b-c39f-4097-ada0-ebd0d620f313/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/fbe6b408-bbb7-493f-96fd-02dcbdc694ce"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/561766cb-780b-4238-a1ab-7ff4b04e1003",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/561766cb-780b-4238-a1ab-7ff4b04e1003/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6240,
-      "width": 4160,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=5",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/561766cb-780b-4238-a1ab-7ff4b04e1003/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=5#",
-              "body": {
-                "height": 6240,
-                "width": 4160,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6240,
-                  "width": 4160,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/561766cb-780b-4238-a1ab-7ff4b04e1003",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/561766cb-780b-4238-a1ab-7ff4b04e1003/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/609cbd6f-57df-4bf8-9c1f-87ee0b9720b1"
+          "id": "https://example.org/uuid/519c2b45-16a0-4614-a8d7-01d9245791ba"
         }
       ]
     },
@@ -564,17 +252,17 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5",
+            "id": "https://dlc.services/thumbs/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6/full/full/0/default.jpg"
         }
       ],
       "height": 4160,
       "width": 6240,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=6",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=30",
       "items": [
         {
           "type": "AnnotationPage",
@@ -582,8 +270,8 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=6#",
+              "id": "https://dlc.services/iiif-img/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=30#",
               "body": {
                 "height": 4160,
                 "width": 6240,
@@ -592,15 +280,15 @@
                   "height": 4160,
                   "width": 6240,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5",
+                  "id": "https://dlc.services/iiif-img/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/d1220397-7992-40fa-a579-2f441e850a21"
+          "id": "https://example.org/uuid/7aa7ddd3-d5e3-4fc6-ba01-cb4f6e8422ba"
         }
       ]
     },
@@ -642,17 +330,17 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/3e6c3071-6222-45ec-bbb6-5832e4253824",
+            "id": "https://dlc.services/thumbs/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/3e6c3071-6222-45ec-bbb6-5832e4253824/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f/full/full/0/default.jpg"
         }
       ],
-      "height": 4114,
-      "width": 6171,
+      "height": 4033,
+      "width": 6050,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=7",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=32",
       "items": [
         {
           "type": "AnnotationPage",
@@ -660,25 +348,25 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/3e6c3071-6222-45ec-bbb6-5832e4253824/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=7#",
+              "id": "https://dlc.services/iiif-img/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=32#",
               "body": {
-                "height": 4114,
-                "width": 6171,
+                "height": 4033,
+                "width": 6050,
                 "service": {
                   "protocol": "http://iiif.io/api/image",
-                  "height": 4114,
-                  "width": 6171,
+                  "height": 4033,
+                  "width": 6050,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/3e6c3071-6222-45ec-bbb6-5832e4253824",
+                  "id": "https://dlc.services/iiif-img/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/3e6c3071-6222-45ec-bbb6-5832e4253824/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/44c4ac30-4be9-453b-865c-effe4f5b603b"
+          "id": "https://example.org/uuid/8939bc00-2076-4c8e-961f-a85a9b602d53"
         }
       ]
     },
@@ -701,36 +389,36 @@
               }
             ],
             "width": 1024,
-            "height": 683,
+            "height": 687,
             "sizes": [
               {
                 "width": 1024,
-                "height": 683
+                "height": 687
               },
               {
                 "width": 400,
-                "height": 267
+                "height": 268
               },
               {
                 "width": 200,
-                "height": 133
+                "height": 134
               },
               {
                 "width": 100,
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/573936c0-8d82-486f-9a90-5dd17a9acb5c",
+            "id": "https://dlc.services/thumbs/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/573936c0-8d82-486f-9a90-5dd17a9acb5c/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6/full/full/0/default.jpg"
         }
       ],
-      "height": 4137,
-      "width": 6205,
+      "height": 3868,
+      "width": 5769,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=8",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=31",
       "items": [
         {
           "type": "AnnotationPage",
@@ -738,25 +426,25 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/573936c0-8d82-486f-9a90-5dd17a9acb5c/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=8#",
+              "id": "https://dlc.services/iiif-img/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=31#",
               "body": {
-                "height": 4137,
-                "width": 6205,
+                "height": 3868,
+                "width": 5769,
                 "service": {
                   "protocol": "http://iiif.io/api/image",
-                  "height": 4137,
-                  "width": 6205,
+                  "height": 3868,
+                  "width": 5769,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/573936c0-8d82-486f-9a90-5dd17a9acb5c",
+                  "id": "https://dlc.services/iiif-img/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/573936c0-8d82-486f-9a90-5dd17a9acb5c/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/812fd0f9-3c10-4d8e-ad4b-8ba05ba57fd4"
+          "id": "https://example.org/uuid/de682e3f-fe0e-4dd2-8613-426306a100cd"
         }
       ]
     },
@@ -876,162 +564,6 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035/full/full/0/default.jpg"
-        }
-      ],
-      "height": 3982,
-      "width": 5973,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=10",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=10#",
-              "body": {
-                "height": 3982,
-                "width": 5973,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 3982,
-                  "width": 5973,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/f6bc99ab-1a63-4fb5-b22e-03b59f42a2ed"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/ef3aacda-8baa-4248-b560-1301ea0727bd",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/ef3aacda-8baa-4248-b560-1301ea0727bd/full/full/0/default.jpg"
-        }
-      ],
-      "height": 3709,
-      "width": 5563,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=11",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/ef3aacda-8baa-4248-b560-1301ea0727bd/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=11#",
-              "body": {
-                "height": 3709,
-                "width": 5563,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 3709,
-                  "width": 5563,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/ef3aacda-8baa-4248-b560-1301ea0727bd",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/ef3aacda-8baa-4248-b560-1301ea0727bd/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/a7aaeab0-81c6-4f85-bf6a-ea71569173d1"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
             "id": "https://dlc.services/thumbs/7/13/4b195abd-7d88-4c20-9fc6-d03869d8d7a6",
             "type": "ImageService2"
           },
@@ -1110,17 +642,17 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/b7acd9c4-ad4b-459f-84bc-b249831a8f98",
+            "id": "https://dlc.services/thumbs/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/b7acd9c4-ad4b-459f-84bc-b249831a8f98/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035/full/full/0/default.jpg"
         }
       ],
-      "height": 3971,
-      "width": 5956,
+      "height": 3982,
+      "width": 5973,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=13",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=10",
       "items": [
         {
           "type": "AnnotationPage",
@@ -1128,25 +660,25 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/b7acd9c4-ad4b-459f-84bc-b249831a8f98/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=13#",
+              "id": "https://dlc.services/iiif-img/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=10#",
               "body": {
-                "height": 3971,
-                "width": 5956,
+                "height": 3982,
+                "width": 5973,
                 "service": {
                   "protocol": "http://iiif.io/api/image",
-                  "height": 3971,
-                  "width": 5956,
+                  "height": 3982,
+                  "width": 5973,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/b7acd9c4-ad4b-459f-84bc-b249831a8f98",
+                  "id": "https://dlc.services/iiif-img/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/b7acd9c4-ad4b-459f-84bc-b249831a8f98/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/e2a99fb6-bcb4-42f8-aaf7-3b438fc88035/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/4e217f30-fef5-4d9d-a123-5a623bea8679"
+          "id": "https://example.org/uuid/f6bc99ab-1a63-4fb5-b22e-03b59f42a2ed"
         }
       ]
     },
@@ -1188,17 +720,17 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/f14374eb-f873-4680-9b15-f7bcc4846c33",
+            "id": "https://dlc.services/thumbs/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/f14374eb-f873-4680-9b15-f7bcc4846c33/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5/full/full/0/default.jpg"
         }
       ],
-      "height": 4123,
-      "width": 6184,
+      "height": 4160,
+      "width": 6240,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=14",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=6",
       "items": [
         {
           "type": "AnnotationPage",
@@ -1206,181 +738,25 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/f14374eb-f873-4680-9b15-f7bcc4846c33/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=14#",
+              "id": "https://dlc.services/iiif-img/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=6#",
               "body": {
-                "height": 4123,
-                "width": 6184,
+                "height": 4160,
+                "width": 6240,
                 "service": {
                   "protocol": "http://iiif.io/api/image",
-                  "height": 4123,
-                  "width": 6184,
+                  "height": 4160,
+                  "width": 6240,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/f14374eb-f873-4680-9b15-f7bcc4846c33",
+                  "id": "https://dlc.services/iiif-img/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/f14374eb-f873-4680-9b15-f7bcc4846c33/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/4bdfd735-661c-4ae9-a037-ae41b885a4b5/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/4a7e21da-bc1e-4fb9-829a-fd4ddd36b11d"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/19808230-4813-47e9-9ab9-ae8db4b8c3f9",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/19808230-4813-47e9-9ab9-ae8db4b8c3f9/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4116,
-      "width": 6174,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=15",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/19808230-4813-47e9-9ab9-ae8db4b8c3f9/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=15#",
-              "body": {
-                "height": 4116,
-                "width": 6174,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4116,
-                  "width": 6174,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/19808230-4813-47e9-9ab9-ae8db4b8c3f9",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/19808230-4813-47e9-9ab9-ae8db4b8c3f9/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/e73d36de-1eaa-4322-a077-3eab48196e03"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/55bb631c-07d3-42f8-9864-57c9ad996ac6",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/55bb631c-07d3-42f8-9864-57c9ad996ac6/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6240,
-      "width": 4160,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=16",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/55bb631c-07d3-42f8-9864-57c9ad996ac6/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=16#",
-              "body": {
-                "height": 6240,
-                "width": 4160,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6240,
-                  "width": 4160,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/55bb631c-07d3-42f8-9864-57c9ad996ac6",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/55bb631c-07d3-42f8-9864-57c9ad996ac6/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/08010bf7-0275-4870-a25f-6b7436ff4825"
+          "id": "https://example.org/uuid/d1220397-7992-40fa-a579-2f441e850a21"
         }
       ]
     },
@@ -1459,162 +835,6 @@
             }
           ],
           "id": "https://example.org/uuid/3e70bb17-a604-4954-a9c0-39518b6846f5"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/150c0490-f36f-4733-98c3-6619099d7026",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/150c0490-f36f-4733-98c3-6619099d7026/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4089,
-      "width": 6133,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=18",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/150c0490-f36f-4733-98c3-6619099d7026/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=18#",
-              "body": {
-                "height": 4089,
-                "width": 6133,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4089,
-                  "width": 6133,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/150c0490-f36f-4733-98c3-6619099d7026",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/150c0490-f36f-4733-98c3-6619099d7026/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/477198b6-8db7-4027-9bbb-03ad7423e0ef"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/7baf4c3e-faa1-4ec7-afb1-c9c5c7bd275c",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/7baf4c3e-faa1-4ec7-afb1-c9c5c7bd275c/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6240,
-      "width": 4160,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=19",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/7baf4c3e-faa1-4ec7-afb1-c9c5c7bd275c/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=19#",
-              "body": {
-                "height": 6240,
-                "width": 4160,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6240,
-                  "width": 4160,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/7baf4c3e-faa1-4ec7-afb1-c9c5c7bd275c",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/7baf4c3e-faa1-4ec7-afb1-c9c5c7bd275c/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/08803365-a670-4b5d-8dc5-c090e22d0014"
         }
       ]
     },
@@ -1792,864 +1012,6 @@
                 ]
               }
             ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/8767ddfb-01b7-4a17-8463-145b66f4131a",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/8767ddfb-01b7-4a17-8463-145b66f4131a/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6169,
-      "width": 4113,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=22",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/8767ddfb-01b7-4a17-8463-145b66f4131a/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=22#",
-              "body": {
-                "height": 6169,
-                "width": 4113,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6169,
-                  "width": 4113,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/8767ddfb-01b7-4a17-8463-145b66f4131a",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/8767ddfb-01b7-4a17-8463-145b66f4131a/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/3c4a5feb-52f5-4d44-8f8b-29138a78e5f3"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/033c8262-9286-44db-9e49-f4e755743a8f",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/033c8262-9286-44db-9e49-f4e755743a8f/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6038,
-      "width": 4025,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=23",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/033c8262-9286-44db-9e49-f4e755743a8f/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=23#",
-              "body": {
-                "height": 6038,
-                "width": 4025,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6038,
-                  "width": 4025,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/033c8262-9286-44db-9e49-f4e755743a8f",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/033c8262-9286-44db-9e49-f4e755743a8f/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/a389ac79-9b92-43aa-9f6c-22fe2bb71f98"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/2e1b60a3-9f4b-48b9-b21b-6b39067063e5",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/2e1b60a3-9f4b-48b9-b21b-6b39067063e5/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6174,
-      "width": 4116,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=24",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/2e1b60a3-9f4b-48b9-b21b-6b39067063e5/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=24#",
-              "body": {
-                "height": 6174,
-                "width": 4116,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6174,
-                  "width": 4116,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/2e1b60a3-9f4b-48b9-b21b-6b39067063e5",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/2e1b60a3-9f4b-48b9-b21b-6b39067063e5/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/a4ea025e-c61d-44a4-9fc8-c090f023c01a"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/015664a1-e589-41a6-9a9d-fbd4f39f78ed",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/015664a1-e589-41a6-9a9d-fbd4f39f78ed/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6240,
-      "width": 4160,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=25",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/015664a1-e589-41a6-9a9d-fbd4f39f78ed/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=25#",
-              "body": {
-                "height": 6240,
-                "width": 4160,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6240,
-                  "width": 4160,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/015664a1-e589-41a6-9a9d-fbd4f39f78ed",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/015664a1-e589-41a6-9a9d-fbd4f39f78ed/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/d2a0d6e5-81f0-4474-9a8a-d91f3348977d"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/9028448b-d60e-4338-b226-8d1eee739807",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/9028448b-d60e-4338-b226-8d1eee739807/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4111,
-      "width": 6166,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=26",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/9028448b-d60e-4338-b226-8d1eee739807/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=26#",
-              "body": {
-                "height": 4111,
-                "width": 6166,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4111,
-                  "width": 6166,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/9028448b-d60e-4338-b226-8d1eee739807",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/9028448b-d60e-4338-b226-8d1eee739807/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/9858f882-5413-4ae7-8703-7cf60c782176"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/dc5b602a-f8ae-488a-bf68-5ed686d7297a",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/dc5b602a-f8ae-488a-bf68-5ed686d7297a/full/full/0/default.jpg"
-        }
-      ],
-      "height": 3903,
-      "width": 5854,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=27",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/dc5b602a-f8ae-488a-bf68-5ed686d7297a/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=27#",
-              "body": {
-                "height": 3903,
-                "width": 5854,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 3903,
-                  "width": 5854,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/dc5b602a-f8ae-488a-bf68-5ed686d7297a",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/dc5b602a-f8ae-488a-bf68-5ed686d7297a/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/7efe366a-763d-45ec-b27f-7a7d734a08be"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4160,
-      "width": 6240,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=28",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=28#",
-              "body": {
-                "height": 4160,
-                "width": 6240,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4160,
-                  "width": 6240,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/1a78fa99-0aec-4c53-8d5a-6d9ba94bbb29/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/519c2b45-16a0-4614-a8d7-01d9245791ba"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/a0b6ff2f-07b1-426f-b480-dc74906397eb",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/a0b6ff2f-07b1-426f-b480-dc74906397eb/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4151,
-      "width": 6226,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=29",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/a0b6ff2f-07b1-426f-b480-dc74906397eb/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=29#",
-              "body": {
-                "height": 4151,
-                "width": 6226,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4151,
-                  "width": 6226,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/a0b6ff2f-07b1-426f-b480-dc74906397eb",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/a0b6ff2f-07b1-426f-b480-dc74906397eb/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/692c3b28-3723-4f22-8304-7cfc216ecefa"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4160,
-      "width": 6240,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=30",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=30#",
-              "body": {
-                "height": 4160,
-                "width": 6240,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4160,
-                  "width": 6240,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/e19b8df2-2de3-4cba-b69b-53a20c4bb9d6/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/7aa7ddd3-d5e3-4fc6-ba01-cb4f6e8422ba"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 687,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 687
-              },
-              {
-                "width": 400,
-                "height": 268
-              },
-              {
-                "width": 200,
-                "height": 134
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6/full/full/0/default.jpg"
-        }
-      ],
-      "height": 3868,
-      "width": 5769,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=31",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=31#",
-              "body": {
-                "height": 3868,
-                "width": 5769,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 3868,
-                  "width": 5769,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/ae80f593-c79f-4b4d-8928-a3daab29feb6/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/de682e3f-fe0e-4dd2-8613-426306a100cd"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4033,
-      "width": 6050,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=32",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=32#",
-              "body": {
-                "height": 4033,
-                "width": 6050,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4033,
-                  "width": 6050,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/be99e867-4830-4d2f-97ae-f7ec781f0c6f/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/8939bc00-2076-4c8e-961f-a85a9b602d53"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
             "width": 1024,
             "height": 683,
             "sizes": [
@@ -2748,17 +1110,17 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/257b6315-dc5c-464a-9073-9f1c437c78c4",
+            "id": "https://dlc.services/thumbs/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/257b6315-dc5c-464a-9073-9f1c437c78c4/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f/full/full/0/default.jpg"
         }
       ],
-      "height": 4160,
-      "width": 6240,
+      "height": 4135,
+      "width": 6202,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=34",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=39",
       "items": [
         {
           "type": "AnnotationPage",
@@ -2766,25 +1128,25 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/257b6315-dc5c-464a-9073-9f1c437c78c4/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=34#",
+              "id": "https://dlc.services/iiif-img/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=39#",
               "body": {
-                "height": 4160,
-                "width": 6240,
+                "height": 4135,
+                "width": 6202,
                 "service": {
                   "protocol": "http://iiif.io/api/image",
-                  "height": 4160,
-                  "width": 6240,
+                  "height": 4135,
+                  "width": 6202,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/257b6315-dc5c-464a-9073-9f1c437c78c4",
+                  "id": "https://dlc.services/iiif-img/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/257b6315-dc5c-464a-9073-9f1c437c78c4/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/97a41084-b5d9-4674-b900-b62a5bb04b46"
+          "id": "https://example.org/uuid/3c23180c-331f-4fc5-a8ae-18d42b511142"
         }
       ]
     },
@@ -2863,318 +1225,6 @@
             }
           ],
           "id": "https://example.org/uuid/e7c2b8ad-3ecf-488e-9486-b5fca5492d82"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/cbd11b7b-c930-4479-88be-fc4ad3c959be",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/cbd11b7b-c930-4479-88be-fc4ad3c959be/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4127,
-      "width": 6190,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=36",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/cbd11b7b-c930-4479-88be-fc4ad3c959be/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=36#",
-              "body": {
-                "height": 4127,
-                "width": 6190,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4127,
-                  "width": 6190,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/cbd11b7b-c930-4479-88be-fc4ad3c959be",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/cbd11b7b-c930-4479-88be-fc4ad3c959be/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/d4d0b876-279c-4e2b-ae1c-d3c8b49f5552"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/f6406664-cb89-427e-aeed-a795139c5701",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/f6406664-cb89-427e-aeed-a795139c5701/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4101,
-      "width": 6151,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=37",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/f6406664-cb89-427e-aeed-a795139c5701/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=37#",
-              "body": {
-                "height": 4101,
-                "width": 6151,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4101,
-                  "width": 6151,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/f6406664-cb89-427e-aeed-a795139c5701",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/f6406664-cb89-427e-aeed-a795139c5701/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/fc2a0cc1-85ef-4255-a475-092511f4eabd"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/cea79043-6f07-4e90-8a16-78edc897147d",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/cea79043-6f07-4e90-8a16-78edc897147d/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4113,
-      "width": 6169,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=38",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/cea79043-6f07-4e90-8a16-78edc897147d/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=38#",
-              "body": {
-                "height": 4113,
-                "width": 6169,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4113,
-                  "width": 6169,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/cea79043-6f07-4e90-8a16-78edc897147d",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/cea79043-6f07-4e90-8a16-78edc897147d/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/cc9c7ad3-11ed-4366-b36d-417163be276d"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4135,
-      "width": 6202,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=39",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=39#",
-              "body": {
-                "height": 4135,
-                "width": 6202,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4135,
-                  "width": 6202,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/70f8dad8-a9f8-4ebb-9f70-dab087d91d9f/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/3c23180c-331f-4fc5-a8ae-18d42b511142"
         }
       ]
     },
@@ -3372,552 +1422,6 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/fd2fb7b5-1fde-4f41-b4fb-28fed480c3a6",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/fd2fb7b5-1fde-4f41-b4fb-28fed480c3a6/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4135,
-      "width": 6203,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=42",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/fd2fb7b5-1fde-4f41-b4fb-28fed480c3a6/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=42#",
-              "body": {
-                "height": 4135,
-                "width": 6203,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4135,
-                  "width": 6203,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/fd2fb7b5-1fde-4f41-b4fb-28fed480c3a6",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/fd2fb7b5-1fde-4f41-b4fb-28fed480c3a6/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/6952440e-5ec2-4a56-9605-369f644c8598"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4135,
-      "width": 6202,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=43",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=43#",
-              "body": {
-                "height": 4135,
-                "width": 6202,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4135,
-                  "width": 6202,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/2a8fdc7a-f636-4122-92ee-785993abe9f2"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/1be3822b-486d-4b25-9b4a-54121eb153bd",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/1be3822b-486d-4b25-9b4a-54121eb153bd/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4160,
-      "width": 6240,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=44",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/1be3822b-486d-4b25-9b4a-54121eb153bd/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=44#",
-              "body": {
-                "height": 4160,
-                "width": 6240,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4160,
-                  "width": 6240,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/1be3822b-486d-4b25-9b4a-54121eb153bd",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/1be3822b-486d-4b25-9b4a-54121eb153bd/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/b18360da-5ebd-40cb-975c-78cc1766286f"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4160,
-      "width": 6240,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=45",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=45#",
-              "body": {
-                "height": 4160,
-                "width": 6240,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4160,
-                  "width": 6240,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/626f4cf0-a074-4f62-bd82-74ff7b1abc38"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/1162e8cf-52fd-4ff2-8033-1e03679f89db",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/1162e8cf-52fd-4ff2-8033-1e03679f89db/full/full/0/default.jpg"
-        }
-      ],
-      "height": 4160,
-      "width": 6240,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=46",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/1162e8cf-52fd-4ff2-8033-1e03679f89db/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=46#",
-              "body": {
-                "height": 4160,
-                "width": 6240,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 4160,
-                  "width": 6240,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/1162e8cf-52fd-4ff2-8033-1e03679f89db",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/1162e8cf-52fd-4ff2-8033-1e03679f89db/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/62c8c17b-25bf-4cf1-95e0-87b9510dc057"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/d2ab7c59-eba9-4922-be2c-347370f147b5",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/d2ab7c59-eba9-4922-be2c-347370f147b5/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6240,
-      "width": 4160,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=47",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/d2ab7c59-eba9-4922-be2c-347370f147b5/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=47#",
-              "body": {
-                "height": 6240,
-                "width": 4160,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6240,
-                  "width": 4160,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/d2ab7c59-eba9-4922-be2c-347370f147b5",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/d2ab7c59-eba9-4922-be2c-347370f147b5/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/648ce134-b76d-4d14-841f-ad7fcbb6116f"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/45f5a45a-4398-4a65-ad2d-25b529da29ba",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/45f5a45a-4398-4a65-ad2d-25b529da29ba/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6094,
-      "width": 4063,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=48",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/45f5a45a-4398-4a65-ad2d-25b529da29ba/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=48#",
-              "body": {
-                "height": 6094,
-                "width": 4063,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6094,
-                  "width": 4063,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/45f5a45a-4398-4a65-ad2d-25b529da29ba",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/45f5a45a-4398-4a65-ad2d-25b529da29ba/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/e32d5065-62e0-4b1a-97bc-1085eabb7fa8"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 1024,
-            "height": 683,
-            "sizes": [
-              {
-                "width": 1024,
-                "height": 683
-              },
-              {
-                "width": 400,
-                "height": 267
-              },
-              {
-                "width": 200,
-                "height": 133
-              },
-              {
-                "width": 100,
-                "height": 67
-              }
-            ],
             "id": "https://dlc.services/thumbs/7/13/845f8a3b-8ebb-4bc3-aa17-6dfb969cb48e",
             "type": "ImageService2"
           },
@@ -3976,37 +1480,37 @@
                 ]
               }
             ],
-            "width": 683,
-            "height": 1024,
+            "width": 1024,
+            "height": 683,
             "sizes": [
               {
-                "width": 683,
-                "height": 1024
+                "width": 1024,
+                "height": 683
               },
               {
-                "width": 267,
-                "height": 400
+                "width": 400,
+                "height": 267
               },
               {
-                "width": 133,
-                "height": 200
+                "width": 200,
+                "height": 133
               },
               {
-                "width": 67,
-                "height": 100
+                "width": 100,
+                "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/0c901c66-a427-4f51-9fb5-b4fcd7751f19",
+            "id": "https://dlc.services/thumbs/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/0c901c66-a427-4f51-9fb5-b4fcd7751f19/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae/full/full/0/default.jpg"
         }
       ],
-      "height": 6123,
-      "width": 4082,
+      "height": 4160,
+      "width": 6240,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=50",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=54",
       "items": [
         {
           "type": "AnnotationPage",
@@ -4014,181 +1518,25 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/0c901c66-a427-4f51-9fb5-b4fcd7751f19/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=50#",
+              "id": "https://dlc.services/iiif-img/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=54#",
               "body": {
-                "height": 6123,
-                "width": 4082,
+                "height": 4160,
+                "width": 6240,
                 "service": {
                   "protocol": "http://iiif.io/api/image",
-                  "height": 6123,
-                  "width": 4082,
+                  "height": 4160,
+                  "width": 6240,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/0c901c66-a427-4f51-9fb5-b4fcd7751f19",
+                  "id": "https://dlc.services/iiif-img/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/0c901c66-a427-4f51-9fb5-b4fcd7751f19/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/4fcd3a02-f60d-4d69-83be-9d2bbd867f2b"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/91f21027-2489-4884-821d-3668f5e80d87",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/91f21027-2489-4884-821d-3668f5e80d87/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6203,
-      "width": 4135,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=51",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/91f21027-2489-4884-821d-3668f5e80d87/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=51#",
-              "body": {
-                "height": 6203,
-                "width": 4135,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6203,
-                  "width": 4135,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/91f21027-2489-4884-821d-3668f5e80d87",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/91f21027-2489-4884-821d-3668f5e80d87/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/a5399ff4-a612-4c06-97bd-b5e4e71b59ae"
-        }
-      ]
-    },
-    {
-      "thumbnail": [
-        {
-          "service": {
-            "profile": [
-              "http://iiif.io/api/image/2/level0.json",
-              {
-                "formats": [
-                  "jpg"
-                ],
-                "qualities": [
-                  "color"
-                ],
-                "supports": [
-                  "sizeByWhListed"
-                ]
-              }
-            ],
-            "width": 683,
-            "height": 1024,
-            "sizes": [
-              {
-                "width": 683,
-                "height": 1024
-              },
-              {
-                "width": 267,
-                "height": 400
-              },
-              {
-                "width": 133,
-                "height": 200
-              },
-              {
-                "width": 67,
-                "height": 100
-              }
-            ],
-            "id": "https://dlc.services/thumbs/7/13/41ccd0cc-c9cd-4b21-bb4c-80666a0eaabe",
-            "type": "ImageService2"
-          },
-          "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/41ccd0cc-c9cd-4b21-bb4c-80666a0eaabe/full/full/0/default.jpg"
-        }
-      ],
-      "height": 6217,
-      "width": 4145,
-      "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=52",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/41ccd0cc-c9cd-4b21-bb4c-80666a0eaabe/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=52#",
-              "body": {
-                "height": 6217,
-                "width": 4145,
-                "service": {
-                  "protocol": "http://iiif.io/api/image",
-                  "height": 6217,
-                  "width": 4145,
-                  "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/41ccd0cc-c9cd-4b21-bb4c-80666a0eaabe",
-                  "type": "Service"
-                },
-                "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/41ccd0cc-c9cd-4b21-bb4c-80666a0eaabe/full/!2000,2000/0/default.jpg"
-              }
-            }
-          ],
-          "id": "https://example.org/uuid/009a3d94-1c73-44bb-96da-ac8757d9f9a4"
+          "id": "https://example.org/uuid/072d46c3-49f2-4943-b4f0-19c7fe80f38a"
         }
       ]
     },
@@ -4308,17 +1656,17 @@
                 "height": 67
               }
             ],
-            "id": "https://dlc.services/thumbs/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae",
+            "id": "https://dlc.services/thumbs/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829",
             "type": "ImageService2"
           },
           "type": "Image",
-          "id": "https://dlc.services/thumbs/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae/full/full/0/default.jpg"
+          "id": "https://dlc.services/thumbs/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829/full/full/0/default.jpg"
         }
       ],
-      "height": 4160,
-      "width": 6240,
+      "height": 4135,
+      "width": 6202,
       "type": "Canvas",
-      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=54",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=43",
       "items": [
         {
           "type": "AnnotationPage",
@@ -4326,8 +1674,86 @@
             {
               "motivation": "painting",
               "type": "Annotation",
-              "id": "https://dlc.services/iiif-img/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae/anno",
-              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=54#",
+              "id": "https://dlc.services/iiif-img/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=43#",
+              "body": {
+                "height": 4135,
+                "width": 6202,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4135,
+                  "width": 6202,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/13/fb4c95e4-d5f2-46fa-934c-896cd067c829/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/2a8fdc7a-f636-4122-92ee-785993abe9f2"
+        }
+      ]
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 683,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 683
+              },
+              {
+                "width": 400,
+                "height": 267
+              },
+              {
+                "width": 200,
+                "height": 133
+              },
+              {
+                "width": 100,
+                "height": 67
+              }
+            ],
+            "id": "https://dlc.services/thumbs/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4160,
+      "width": 6240,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=45",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=2020-depots-museumcollectie&n1=&n2=45#",
               "body": {
                 "height": 4160,
                 "width": 6240,
@@ -4336,15 +1762,15 @@
                   "height": 4160,
                   "width": 6240,
                   "profile": "http://iiif.io/api/image/2/level1.json",
-                  "id": "https://dlc.services/iiif-img/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae",
+                  "id": "https://dlc.services/iiif-img/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb",
                   "type": "Service"
                 },
                 "type": "Image",
-                "id": "https://dlc.services/iiif-img/7/13/53e2c1da-c8bc-4e71-b960-ae8618ce89ae/full/!2000,2000/0/default.jpg"
+                "id": "https://dlc.services/iiif-img/7/13/d049c0c8-7400-4d89-a999-fc4edab2c3eb/full/!2000,2000/0/default.jpg"
               }
             }
           ],
-          "id": "https://example.org/uuid/072d46c3-49f2-4943-b4f0-19c7fe80f38a"
+          "id": "https://example.org/uuid/626f4cf0-a074-4f62-bd82-74ff7b1abc38"
         }
       ]
     }
@@ -4355,10 +1781,10 @@
   ],
   "label": {
     "en": [
-      "Depot Museumcollection"
+      "Special Collections Depots"
     ],
     "nl": [
-      "Depot Museumcollectie"
+      "Depots voor de Bijzondere Collecties"
     ]
   }
 }
