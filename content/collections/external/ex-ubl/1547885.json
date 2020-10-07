@@ -1,0 +1,228 @@
+{
+  "label": {
+    "en": [
+      "The entrance of the Begijnhof in Delft PK-T-AW-2916"
+    ]
+  },
+  "logo": [
+    {
+      "id": "https://iiifviewer.universiteitleiden.nl/logo/",
+      "type": "Image"
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "The entrance of the Begijnhof in Delft PK-T-AW-2916"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Author/creator"
+        ]
+      },
+      "value": {
+        "en": [
+          "Lexmond, Johannes van (1769-1838)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Country"
+        ]
+      },
+      "value": {
+        "en": [
+          "No place, unknown, or undetermined"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date issued"
+        ]
+      },
+      "value": {
+        "en": [
+          "20uu"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ]
+      },
+      "value": {
+        "en": [
+          "No linguistic content"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ]
+      },
+      "value": {
+        "en": [
+          "elektronische bron"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Note"
+        ]
+      },
+      "value": {
+        "en": [
+          "Leiden, UB ne",
+          "Not signed. NL-LeU"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Ownership"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sale Dordrecht (Mak), 18 February 1936; sold for f.22 to Dr. A. Welcker, Amsterdam; purchased from him by the Print Room in 1957. NL-LeU"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Part of"
+        ]
+      },
+      "value": {
+        "en": [
+          "Welcker, A. (1884-1957)"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Published"
+        ]
+      },
+      "value": {
+        "en": [
+          "19e eeuw"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Shelfmark"
+        ]
+      },
+      "value": {
+        "en": [
+          "PK-T-AW-2916"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Persistent URL"
+        ]
+      },
+      "value": {
+        "en": [
+          "<a href=\"http://hdl.handle.net/1887.1/item:1547885\">hdl.handle.net/1887.1/item:1547885</a>"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:1547885/manifest",
+  "rights": "Download provided. <a href=\"https://creativecommons.org/licenses/by/4.0/\">Use of this resource is governed by the terms and conditions of the Creative Commons CC BY License</a>",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Leiden University Libraries"
+      ]
+    }
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "The entrance of the Begijnhof in Delft PK-T-AW-2916"
+        ]
+      },
+      "height": 2835,
+      "width": 2402,
+      "thumbnail": [
+        {
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A1547885",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A1547885/full/1024,/0/default.jpg"
+        }
+      ],
+      "type": "Canvas",
+      "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:1547885/canvas/default",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A1547885",
+              "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:1547885/canvas/default#",
+              "body": {
+                "height": 2835,
+                "width": 2402,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A1547885",
+                  "type": "ImageService2"
+                },
+                "type": "Image",
+                "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A1547885/full/pct:50/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8e2608e9-c302-4a0e-8603-83927d8e5f27"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}
