@@ -1,0 +1,251 @@
+{
+    "label": {
+      "en": [
+        "KITLV A536 - Studenten van de Technische Hogeschool te Bandoeng"
+      ]
+    },
+    "logo": [
+      {
+        "id": "https://iiifviewer.universiteitleiden.nl/logo/",
+        "type": "Image"
+      }
+    ],
+    "metadata": [
+      {
+        "label": {
+          "en": [
+            "Title"
+          ]
+        },
+        "value": {
+          "en": [
+            "Studenten van de Technische Hogeschool te Bandoeng"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Country"
+          ]
+        },
+        "value": {
+          "en": [
+            "No place, unknown, or undetermined"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Date issued"
+          ]
+        },
+        "value": {
+          "en": [
+            "2006"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Language"
+          ]
+        },
+        "value": {
+          "en": [
+            "No linguistic content"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Extent"
+          ]
+        },
+        "value": {
+          "en": [
+            "Digital image"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Note"
+          ]
+        },
+        "value": {
+          "en": [
+            "SMGI 1104-1105."
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Subject (geographic)"
+          ]
+        },
+        "value": {
+          "en": [
+            "Bandung"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Subject (topical)"
+          ]
+        },
+        "value": {
+          "en": [
+            "Higher Education"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Subject (geographic)"
+          ]
+        },
+        "value": {
+          "en": [
+            "Indonesia"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Subject (geographic)"
+          ]
+        },
+        "value": {
+          "en": [
+            "Jawa Barat"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Subject (topical)"
+          ]
+        },
+        "value": {
+          "en": [
+            "Students"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Published"
+          ]
+        },
+        "value": {
+          "en": [
+            "[Circa 1920]"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Shelfmark"
+          ]
+        },
+        "value": {
+          "en": [
+            "KITLV 50582"
+          ]
+        }
+      },
+      {
+        "label": {
+          "en": [
+            "Persistent URL"
+          ]
+        },
+        "value": {
+          "en": [
+            "<a href=\"http://hdl.handle.net/1887.1/item:763321\">hdl.handle.net/1887.1/item:763321</a>"
+          ]
+        }
+      }
+    ],
+    "type": "Manifest",
+    "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:763321/manifest",
+    "rights": "Download provided. <a href=\"https://creativecommons.org/licenses/by/4.0/\">Use of this resource is governed by the terms and conditions of the Creative Commons CC BY License</a>",
+    "requiredStatement": {
+      "label": {
+        "en": [
+          "Attribution"
+        ]
+      },
+      "value": {
+        "en": [
+          "Leiden University Libraries"
+        ]
+      }
+    },
+    "items": [
+      {
+        "label": {
+          "en": [
+            "KITLV A536 - Studenten van de Technische Hogeschool te Bandoeng"
+          ]
+        },
+        "height": 1286,
+        "width": 1855,
+        "thumbnail": [
+          {
+            "service": {
+              "profile": "http://iiif.io/api/image/2/level2.json",
+              "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321",
+              "type": "ImageService2"
+            },
+            "type": "Image",
+            "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321/full/1024,/0/default.jpg"
+          }
+        ],
+        "type": "Canvas",
+        "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:763321/canvas/default",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321",
+                "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:763321/canvas/default#",
+                "body": {
+                  "height": 1286,
+                  "width": 1855,
+                  "service": {
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321",
+                    "type": "ImageService2"
+                  },
+                  "type": "Image",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321/full/pct:50/0/default.jpg"
+                }
+              }
+            ],
+            "id": "https://example.org/uuid/a70cfd08-4a46-40e6-bd36-9fb57335924d"
+          }
+        ]
+      }
+    ],
+    "@context": [
+      "http://www.w3.org/ns/anno.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+    ]
+  }
