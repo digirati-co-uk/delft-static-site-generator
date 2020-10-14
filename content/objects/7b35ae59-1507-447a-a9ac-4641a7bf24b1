@@ -1,0 +1,15 @@
+{
+    "metadata": [],
+    "@type": "sc:Manifest",
+    "structures": [],
+    "@id": "https://dlc.services/iiif-manifest/7/18/7b35ae59-1507-447a-a9ac-4641a7bf24b1",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/7b35ae59-1507-447a-a9ac-4641a7bf24b1/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
