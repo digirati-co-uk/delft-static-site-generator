@@ -1,0 +1,23 @@
+{
+    "summary": "",
+    "metadata": [{
+        "conservator": "Sylvia Nijhuis",
+        "managing institution": "TU Delft Library"
+    }],
+    "@type": "sc:Collection",
+    "manifests": [
+        {
+            "@type": "sc:Manifest",
+            "@id": "https://dlc.services/iiif-manifest/7/18/7f8c5b45-0a1d-40d1-89b5-eb3c4be0c35d",
+            "label": "maquette"
+        },
+        {
+            "@type": "sc:Manifest",
+            "@id": "https://dlc.services/iiif-manifest/7/18/a8cf9459-b45b-4cfc-b73c-1045637cc03d",
+            "label": "Maquette"
+        }
+    ],
+    "@id": "https://dlc.services/iiif-manifest/7/18/16beba4f-6d4a-4560-8996-c358fa96bcfb",
+    "label": "Collectie Library",
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
