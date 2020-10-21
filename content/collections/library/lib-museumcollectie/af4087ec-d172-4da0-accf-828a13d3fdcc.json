@@ -2,23 +2,23 @@
     "metadata": [
         {
             "label": "Creator",
-            "value": "TU Delft (maker)"
+            "value": "Onbekend (ontwerper)"
         },
         {
             "label": "type",
-            "value": "miniatuur"
+            "value": "gedenkplaat"
         },
         {
             "label": "date",
-            "value": "1950 â\u20ac\u201c 1975"
+            "value": "1979"
         },
         {
             "label": "format",
-            "value": "40,0 mm (h) x 85,0 mm (b) x 35,0 mm (d)"
+            "value": "1,0 mm (h) x 158,0 mm (b) x 60,0 mm (d)"
         },
         {
             "label": "identifier",
-            "value": "1995.0045.TMD"
+            "value": "1995.0036.TMD"
         },
         {
             "label": "language",
@@ -26,28 +26,28 @@
         },
         {
             "label": "medium",
-            "value": "gietijzer"
+            "value": "metaal"
         },
         {
             "label": "coverage",
-            "value": "4718"
+            "value": "4710"
         },
         {
             "label": "json filename",
-            "value": "f1fb8e57-22ac-42c3-a659-f5f346f2aa07.json"
+            "value": "af4087ec-d172-4da0-accf-828a13d3fdcc.json"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc/range/range-0-0.json",
         "label": "0"
     }],
-    "description": "Gegoten model van een aambeeld, waarschijnlijk bedoeld als pressepapier.",
-    "@id": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07",
-    "label": "Gegoten model van een aambeeld door TU Delft",
+    "description": "Plaat met de inscriptie: '1929-1979 Technische Natuurkunde' en de afbeeldingen van het gebouw Mijnbouwplein 11 en het gebouw Lorentzweg 1.",
+    "@id": "https://dlc.services/iiif-manifest/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc",
+    "label": "Gedenkplaat Technische Natuurkunde",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -58,19 +58,19 @@
                     "sizes": [
                         {
                             "width": 1024,
-                            "height": 768
+                            "height": 579
                         },
                         {
                             "width": 400,
-                            "height": 300
+                            "height": 226
                         },
                         {
                             "width": 200,
-                            "height": 150
+                            "height": 113
                         },
                         {
                             "width": 100,
-                            "height": 75
+                            "height": 57
                         }
                     ],
                     "profile": [
@@ -82,11 +82,11 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6",
+                    "@id": "https://dlc.services/thumbs/7/18/440f03bb-15de-4913-9fe0-e3dafb145678",
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 768
+                    "height": 579
                 },
-                "@id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/full/100,75/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/full/full/0/default.jpg"
             },
             "images": [{
                 "resource": {
@@ -94,27 +94,27 @@
                     "service": {
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
-                        "width": 2048,
-                        "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6",
-                        "height": 1536
+                        "width": 4277,
+                        "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678",
+                        "height": 2417
                     },
-                    "width": 2048,
-                    "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/full/1024,768/0/default.jpg",
-                    "height": 1536
+                    "width": 4277,
+                    "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/full/1024,579/0/default.jpg",
+                    "height": 2417
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/canvas/c0"
             }],
             "@type": "sc:Canvas",
-            "width": 2048,
-            "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0",
+            "width": 4277,
+            "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/canvas/c0",
             "label": "Image",
-            "height": 1536
+            "height": 2417
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/sequences/normal",
+        "@id": "https://dlc.services/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"

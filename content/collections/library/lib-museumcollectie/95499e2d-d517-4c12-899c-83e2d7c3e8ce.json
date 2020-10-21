@@ -6,19 +6,19 @@
         },
         {
             "label": "type",
-            "value": "boek"
+            "value": "aktentas"
         },
         {
             "label": "date",
-            "value": "1958"
+            "value": "1905 �\u20ac\u201c 1980"
         },
         {
             "label": "format",
-            "value": "50,0 mm (h) x 310,0 mm (b) x 270,0 mm (d)"
+            "value": "130,0 mm (h) x 420,0 mm (b) x 400,0 mm (d)"
         },
         {
             "label": "identifier",
-            "value": "2000.0331.TMD"
+            "value": "1992.0257.TMD"
         },
         {
             "label": "language",
@@ -26,28 +26,28 @@
         },
         {
             "label": "medium",
-            "value": "papier,leer"
+            "value": "leer"
         },
         {
             "label": "coverage",
-            "value": "4161"
+            "value": "6535"
         },
         {
             "label": "json filename",
-            "value": "fca7cd95-3071-4f38-9cdf-c65144c28923.json"
+            "value": "95499e2d-d517-4c12-899c-83e2d7c3e8ce.json"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/fca7cd95-3071-4f38-9cdf-c65144c28923/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/fca7cd95-3071-4f38-9cdf-c65144c28923/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce/range/range-0-0.json",
         "label": "0"
     }],
-    "description": "Twee in leer gebonden boeken met de handtekeningen van studenten die bij C.B. Biezeno (hoogleraar toegepaste mechanica 1914 - 1958) tussen 1941 en 1956 zijn afgestudeerd. Deel 1: 1917 - 1940, deel 2: 1941 - 1956 en een aanvulling op de periode voor 1941. De boeken werden hem aangeboden ter gelegenheid van zijn afscheid op 27 juni 1958. Achter in het tweede deel bevindt zich een index.",
-    "@id": "https://dlc.services/iiif-manifest/7/18/fca7cd95-3071-4f38-9cdf-c65144c28923",
-    "label": "Twee boeken met handtekeningen van studenten van Prof. C.B. Biezeno",
+    "description": "Leren aktentas gebruikt door het college van curatoren.",
+    "@id": "https://dlc.services/iiif-manifest/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce",
+    "label": "Leren aktentas",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -82,11 +82,11 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8",
+                    "@id": "https://dlc.services/thumbs/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa",
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 768
                 },
-                "@id": "https://dlc.services/thumbs/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8/full/100,75/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/full/full/0/default.jpg"
             },
             "images": [{
                 "resource": {
@@ -94,27 +94,27 @@
                     "service": {
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
-                        "width": 1600,
-                        "@id": "https://dlc.services/iiif-img/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8",
-                        "height": 1200
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa",
+                        "height": 1536
                     },
-                    "width": 1600,
-                    "@id": "https://dlc.services/iiif-img/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8/full/1024,768/0/default.jpg",
-                    "height": 1200
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/full/1024,768/0/default.jpg",
+                    "height": 1536
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/canvas/c0"
             }],
             "@type": "sc:Canvas",
-            "width": 1600,
-            "@id": "https://dlc.services/iiif-img/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8/canvas/c0",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/canvas/c0",
             "label": "Image",
-            "height": 1200
+            "height": 1536
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/fca7cd95-3071-4f38-9cdf-c65144c28923/sequences/normal",
+        "@id": "https://dlc.services/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"

@@ -1,20 +1,24 @@
 {
     "metadata": [
         {
+            "label": "Creator",
+            "value": "TU Delft (maker)"
+        },
+        {
             "label": "type",
-            "value": "Bul"
+            "value": "miniatuur"
         },
         {
             "label": "date",
-            "value": "1930"
+            "value": "1950 �\u20ac\u201c 1975"
         },
         {
             "label": "format",
-            "value": "410,0 mm (h) x 550,0 mm (b) x 1,0 mm (d)"
+            "value": "40,0 mm (h) x 85,0 mm (b) x 35,0 mm (d)"
         },
         {
             "label": "identifier",
-            "value": "2016.0290.LIB"
+            "value": "1995.0045.TMD"
         },
         {
             "label": "language",
@@ -22,32 +26,28 @@
         },
         {
             "label": "medium",
-            "value": "papier,karton,metaal,textiel"
-        },
-        {
-            "label": "provenance",
-            "value": "Korvezee, A.E."
+            "value": "gietijzer"
         },
         {
             "label": "coverage",
-            "value": "3769"
+            "value": "4718"
         },
         {
             "label": "json filename",
-            "value": "dc434947-cd67-4361-8780-93cae5aa5688.json"
+            "value": "f1fb8e57-22ac-42c3-a659-f5f346f2aa07.json"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/dc434947-cd67-4361-8780-93cae5aa5688/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/dc434947-cd67-4361-8780-93cae5aa5688/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/range/range-0-0.json",
         "label": "0"
     }],
-    "description": "Koker met bul van Antonia Elisabeth Korvezee",
-    "@id": "https://dlc.services/iiif-manifest/7/18/dc434947-cd67-4361-8780-93cae5aa5688",
-    "label": "Koker met Promotiebul van A.E. Korvezee",
+    "description": "Gegoten model van een aambeeld, waarschijnlijk bedoeld als pressepapier.",
+    "@id": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07",
+    "label": "Gegoten model van een aambeeld door TU Delft",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -58,19 +58,19 @@
                     "sizes": [
                         {
                             "width": 1024,
-                            "height": 928
+                            "height": 768
                         },
                         {
                             "width": 400,
-                            "height": 363
+                            "height": 300
                         },
                         {
                             "width": 200,
-                            "height": 181
+                            "height": 150
                         },
                         {
                             "width": 100,
-                            "height": 91
+                            "height": 75
                         }
                     ],
                     "profile": [
@@ -82,11 +82,11 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51",
+                    "@id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6",
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 928
+                    "height": 768
                 },
-                "@id": "https://dlc.services/thumbs/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/full/100,91/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/full/full/0/default.jpg"
             },
             "images": [{
                 "resource": {
@@ -94,27 +94,27 @@
                     "service": {
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
-                        "width": 2173,
-                        "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51",
-                        "height": 1970
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6",
+                        "height": 1536
                     },
-                    "width": 2173,
-                    "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/full/1024,928/0/default.jpg",
-                    "height": 1970
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/full/1024,768/0/default.jpg",
+                    "height": 1536
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0"
             }],
             "@type": "sc:Canvas",
-            "width": 2173,
-            "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/canvas/c0",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0",
             "label": "Image",
-            "height": 1970
+            "height": 1536
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/dc434947-cd67-4361-8780-93cae5aa5688/sequences/normal",
+        "@id": "https://dlc.services/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"

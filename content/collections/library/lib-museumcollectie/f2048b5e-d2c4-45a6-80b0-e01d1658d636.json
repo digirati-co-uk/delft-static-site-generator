@@ -2,11 +2,11 @@
     "metadata": [
         {
             "label": "Creator",
-            "value": "Schmidt, Willem Hendrik (ontwerper)"
+            "value": "van der Hulst, Jean-Baptiste (ontwerper)"
         },
         {
             "label": "subject",
-            "value": "Lipkens, Antoine"
+            "value": "van Oranje Nassau, Willem Frederik George Lodewijk"
         },
         {
             "label": "type",
@@ -14,15 +14,15 @@
         },
         {
             "label": "date",
-            "value": "1845"
+            "value": "1844"
         },
         {
             "label": "format",
-            "value": "30,0 mm (h) x 1.360,0 mm (b) x 1.140,0 mm (d)"
+            "value": "30,0 mm (h) x 1.140,0 mm (b) x 1.130,0 mm (d)"
         },
         {
             "label": "identifier",
-            "value": "2006.0031.CVB"
+            "value": "2006.0032.CVB"
         },
         {
             "label": "language",
@@ -34,24 +34,24 @@
         },
         {
             "label": "coverage",
-            "value": "1722"
+            "value": "1821"
         },
         {
             "label": "json filename",
-            "value": "1b76db94-71a1-4fc3-bc51-7fa9246326d1.json"
+            "value": "f2048b5e-d2c4-45a6-80b0-e01d1658d636.json"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/1b76db94-71a1-4fc3-bc51-7fa9246326d1/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/ae70da54-2759-4f8c-a20c-01412f540c58/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/f2048b5e-d2c4-45a6-80b0-e01d1658d636/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/1b76db94-71a1-4fc3-bc51-7fa9246326d1/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/f2048b5e-d2c4-45a6-80b0-e01d1658d636/range/range-0-0.json",
         "label": "0"
     }],
-    "description": "Geschilderd portret van A. Lipkens, eerste directeur van de Koninklijke Akademie voor Civiel Ingenieurs (1842 - 1846).",
-    "@id": "https://dlc.services/iiif-manifest/7/18/1b76db94-71a1-4fc3-bc51-7fa9246326d1",
-    "label": "Portret van A. Lipkens door W.H. Schmidt",
+    "description": "Geschilderd portret van Koning Willem II. Willem II besloot in 1842 tot de oprichting van een Koninklijke Academie voor Civiel Ingenieurs te Delft, waaruit de huidige Technische Universiteit Delft is voortgekomen.",
+    "@id": "https://dlc.services/iiif-manifest/7/18/f2048b5e-d2c4-45a6-80b0-e01d1658d636",
+    "label": "Portret van Koning Willem II door J-B. van der Hulst",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -61,19 +61,19 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 858,
+                            "width": 833,
                             "height": 1024
                         },
                         {
-                            "width": 335,
+                            "width": 325,
                             "height": 400
                         },
                         {
-                            "width": 168,
+                            "width": 163,
                             "height": 200
                         },
                         {
-                            "width": 84,
+                            "width": 81,
                             "height": 100
                         }
                     ],
@@ -85,12 +85,12 @@
                             "supports": ["sizeByWhListed"]
                         }
                     ],
-                    "width": 858,
-                    "@id": "https://dlc.services/thumbs/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f",
+                    "width": 833,
+                    "@id": "https://dlc.services/thumbs/7/18/ae70da54-2759-4f8c-a20c-01412f540c58",
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 1024
                 },
-                "@id": "https://dlc.services/thumbs/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/full/84,100/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/ae70da54-2759-4f8c-a20c-01412f540c58/full/full/0/default.jpg"
             },
             "images": [{
                 "resource": {
@@ -98,27 +98,27 @@
                     "service": {
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
-                        "width": 1800,
-                        "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f",
-                        "height": 2148
+                        "width": 1832,
+                        "@id": "https://dlc.services/iiif-img/7/18/ae70da54-2759-4f8c-a20c-01412f540c58",
+                        "height": 2252
                     },
-                    "width": 1800,
-                    "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/full/858,1024/0/default.jpg",
-                    "height": 2148
+                    "width": 1832,
+                    "@id": "https://dlc.services/iiif-img/7/18/ae70da54-2759-4f8c-a20c-01412f540c58/full/833,1024/0/default.jpg",
+                    "height": 2252
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/ae70da54-2759-4f8c-a20c-01412f540c58/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ae70da54-2759-4f8c-a20c-01412f540c58/canvas/c0"
             }],
             "@type": "sc:Canvas",
-            "width": 1800,
-            "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/canvas/c0",
+            "width": 1832,
+            "@id": "https://dlc.services/iiif-img/7/18/ae70da54-2759-4f8c-a20c-01412f540c58/canvas/c0",
             "label": "Image",
-            "height": 2148
+            "height": 2252
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/1b76db94-71a1-4fc3-bc51-7fa9246326d1/sequences/normal",
+        "@id": "https://dlc.services/7/18/f2048b5e-d2c4-45a6-80b0-e01d1658d636/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"
