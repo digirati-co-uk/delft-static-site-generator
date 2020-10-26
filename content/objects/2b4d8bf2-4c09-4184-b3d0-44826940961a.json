@@ -1,0 +1,116 @@
+{
+    "metadata": [
+        {
+            "label": "Objectnaam",
+            "value": "pui"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2020.0007.BKD"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "18,5 cm (h) x 28,0 cm (b) x 8,5 cm (d)"
+        },
+        {
+            "label": "Materiaal",
+            "value": "steen"
+        },
+        {
+            "label": "Plaats vervaardiging",
+            "value": "8942"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": " ()"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2020.0007.BKD"
+        },
+        {
+            "label": "Taal",
+            "value": "nl"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "Titel": "Deel van pui",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/2b4d8bf2-4c09-4184-b3d0-44826940961a/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/2b4d8bf2-4c09-4184-b3d0-44826940961a/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://dlc.services/iiif-manifest/7/18/2b4d8bf2-4c09-4184-b3d0-44826940961a",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 5184,
+                        "@id": "https://dlc.services/iiif-img/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084",
+                        "height": 3456
+                    },
+                    "width": 5184,
+                    "@id": "https://dlc.services/iiif-img/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084/full/1024,683/0/default.jpg",
+                    "height": 3456
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 5184,
+            "@id": "https://dlc.services/iiif-img/7/18/64634583-fb5a-4c79-8bad-8a5b4d416084/canvas/c0",
+            "label": "Image",
+            "height": 3456
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/2b4d8bf2-4c09-4184-b3d0-44826940961a/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
