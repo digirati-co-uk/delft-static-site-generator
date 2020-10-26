@@ -1,43 +1,52 @@
 {
     "metadata": [
         {
-            "label": "Creator",
-            "value": "Fidelity Electronics (producent)"
-        },
-        {
-            "label": "type",
+            "label": "Objectnaam",
             "value": "schaakcomputer"
         },
         {
-            "label": "date",
-            "value": "1975 â\u20ac\u201c 2000"
-        },
-        {
-            "label": "format",
-            "value": "60,0 mm (h) x 410,0 mm (b) x 270,0 mm (d)"
-        },
-        {
-            "label": "identifier",
+            "label": "Inventarisnummer",
             "value": "1998.0011.TMD"
         },
         {
-            "label": "language",
-            "value": "nl"
+            "label": "Datering",
+            "value": "1975 - 2000"
         },
         {
-            "label": "medium",
-            "value": "kunststof,metaal,hout"
+            "label": "Maker",
+            "value": "Fidelity Electronics (producent)"
         },
         {
-            "label": "coverage",
+            "label": "Afmetingen",
+            "value": "60,0 mm (h) x 410,0 mm (b) x 270,0 mm (d)"
+        },
+        {
+            "label": "Materiaal",
+            "value": "kunststof, metaal, hout"
+        },
+        {
+            "label": "Plaats vervaardiging",
             "value": "5167"
         },
         {
-            "label": "json filename",
-            "value": "9b913b20-63f7-4b59-b5dd-18c54e5b533e.json"
+            "label": "Beschrijving",
+            "value": "Elektronische schaakcomputer in een met de hand vervaardigd houten koffertje. Op het deksel is een metalen plaatje bevestigd met de tekst: 'Ter nagedachtenis aan Albert de Haan (overleden) 29 oktober 1979'."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": " ()"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "1998.0011.TMD"
+        },
+        {
+            "label": "Taal",
+            "value": "nl"
         }
     ],
     "@type": "sc:Manifest",
+    "Titel": "Fidelity Electronics schaakcomputer Chess Challenger",
     "structures": [
         {
             "canvases": ["https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0"],
@@ -54,14 +63,31 @@
             "label": "1"
         }
     ],
-    "description": "Elektronische schaakcomputer in een met de hand vervaardigd houten koffertje. Op het deksel is een metalen plaatje bevestigd met de tekst: 'Ter nagedachtenis aan Albert de Haan (overleden) 29 oktober 1979'.",
     "@id": "https://dlc.services/iiif-manifest/7/18/9b913b20-63f7-4b59-b5dd-18c54e5b533e",
-    "label": "Fidelity Electronics schaakcomputer Chess Challenger",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
         "canvases": [
             {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 1818,
+                            "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4",
+                            "height": 1228
+                        },
+                        "width": 1818,
+                        "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/full/1024,692/0/default.jpg",
+                        "height": 1228
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0"
+                }],
                 "thumbnail": {
                     "@type": "dctypes:Image",
                     "service": {
@@ -96,27 +122,8 @@
                         "@context": "http://iiif.io/api/image/2/context.json",
                         "height": 692
                     },
-                    "@id": "https://dlc.services/thumbs/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/full/100,68/0/default.jpg"
+                    "@id": "https://dlc.services/thumbs/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/full/full/0/default.jpg"
                 },
-                "images": [{
-                    "resource": {
-                        "@type": "dctypes:Image",
-                        "service": {
-                            "protocol": "http://iiif.io/api/image",
-                            "profile": "http://iiif.io/api/image/2/level1.json",
-                            "width": 1818,
-                            "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4",
-                            "height": 1228
-                        },
-                        "width": 1818,
-                        "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/full/1024,692/0/default.jpg",
-                        "height": 1228
-                    },
-                    "@type": "oa:Annotation",
-                    "motivation": "sc:painting",
-                    "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/imageanno/0",
-                    "on": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0"
-                }],
                 "@type": "sc:Canvas",
                 "width": 1818,
                 "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0",
@@ -124,6 +131,25 @@
                 "height": 1228
             },
             {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 3072,
+                            "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85",
+                            "height": 2048
+                        },
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/full/1024,683/0/default.jpg",
+                        "height": 2048
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/canvas/c0"
+                }],
                 "thumbnail": {
                     "@type": "dctypes:Image",
                     "service": {
@@ -158,27 +184,8 @@
                         "@context": "http://iiif.io/api/image/2/context.json",
                         "height": 683
                     },
-                    "@id": "https://dlc.services/thumbs/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/full/100,67/0/default.jpg"
+                    "@id": "https://dlc.services/thumbs/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/full/full/0/default.jpg"
                 },
-                "images": [{
-                    "resource": {
-                        "@type": "dctypes:Image",
-                        "service": {
-                            "protocol": "http://iiif.io/api/image",
-                            "profile": "http://iiif.io/api/image/2/level1.json",
-                            "width": 3072,
-                            "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85",
-                            "height": 2048
-                        },
-                        "width": 3072,
-                        "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/full/1024,683/0/default.jpg",
-                        "height": 2048
-                    },
-                    "@type": "oa:Annotation",
-                    "motivation": "sc:painting",
-                    "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/imageanno/0",
-                    "on": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/canvas/c0"
-                }],
                 "@type": "sc:Canvas",
                 "width": 3072,
                 "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/canvas/c0",
