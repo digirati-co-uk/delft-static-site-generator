@@ -1,47 +1,56 @@
 {
     "metadata": [
         {
-            "label": "Creator",
-            "value": "Witkamp, B.H.A. (ontwerper)"
-        },
-        {
-            "label": "subject",
-            "value": "Simons, Gerrit"
-        },
-        {
-            "label": "type",
+            "label": "Objectnaam",
             "value": "schilderij"
         },
         {
-            "label": "date",
-            "value": "1856"
-        },
-        {
-            "label": "format",
-            "value": "40,0 mm (h) x 2.100,0 mm (b) x 1.690,0 mm (d)"
-        },
-        {
-            "label": "identifier",
+            "label": "Inventarisnummer",
             "value": "2006.0033.CVB"
         },
         {
-            "label": "language",
-            "value": "nl"
+            "label": "Datering",
+            "value": "1856"
         },
         {
-            "label": "medium",
-            "value": "olieverf,linnen,hout"
+            "label": "Maker",
+            "value": "Witkamp, B.H.A. (ontwerper)"
         },
         {
-            "label": "coverage",
+            "label": "Afmetingen",
+            "value": "40,0 mm (h) x 2.100,0 mm (b) x 1.690,0 mm (d)"
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Plaats vervaardiging",
             "value": "1822"
         },
         {
-            "label": "json filename",
-            "value": "2df0f0cf-c1f7-4077-b979-a29c33213c43.json"
+            "label": "Beschrijving",
+            "value": "Geschilderd portret van G. Simons, hoogleraar werktuigbouwkunde (1845-1856), directeur van de Koninklijke Akademie ter opleiding van Burgerlijke Ingenieurs (1842-1856)."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Simons, Gerrit"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": " ()"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2006.0033.CVB"
+        },
+        {
+            "label": "Taal",
+            "value": "nl"
         }
     ],
     "@type": "sc:Manifest",
+    "Titel": "Portret van Prof. G. Simons door B.H.A. Witkamp",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/2df0f0cf-c1f7-4077-b979-a29c33213c43/range/range-0.json",
@@ -49,13 +58,30 @@
         "@id": "https://dlc.services/iiif-manifest/7/18/2df0f0cf-c1f7-4077-b979-a29c33213c43/range/range-0-0.json",
         "label": "0"
     }],
-    "description": "Geschilderd portret van G. Simons, hoogleraar werktuigbouwkunde (1845-1856), directeur van de Koninklijke Akademie ter opleiding van Burgerlijke Ingenieurs (1842-1856).",
     "@id": "https://dlc.services/iiif-manifest/7/18/2df0f0cf-c1f7-4077-b979-a29c33213c43",
-    "label": "Portret van Prof. G. Simons door B.H.A. Witkamp",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
         "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1948,
+                        "@id": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1",
+                        "height": 2508
+                    },
+                    "width": 1948,
+                    "@id": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/full/795,1024/0/default.jpg",
+                    "height": 2508
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/canvas/c0"
+            }],
             "thumbnail": {
                 "@type": "dctypes:Image",
                 "service": {
@@ -90,27 +116,8 @@
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 1024
                 },
-                "@id": "https://dlc.services/thumbs/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/full/78,100/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/full/full/0/default.jpg"
             },
-            "images": [{
-                "resource": {
-                    "@type": "dctypes:Image",
-                    "service": {
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": "http://iiif.io/api/image/2/level1.json",
-                        "width": 1948,
-                        "@id": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1",
-                        "height": 2508
-                    },
-                    "width": 1948,
-                    "@id": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/full/795,1024/0/default.jpg",
-                    "height": 2508
-                },
-                "@type": "oa:Annotation",
-                "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/canvas/c0"
-            }],
             "@type": "sc:Canvas",
             "width": 1948,
             "@id": "https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/canvas/c0",
