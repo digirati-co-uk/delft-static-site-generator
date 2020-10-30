@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Fidelity Electronics schaakcomputer Chess Challenger"
+        },
+        {
             "label": "Objectnaam",
             "value": "schaakcomputer"
         },
@@ -29,10 +33,6 @@
             "value": "Elektronische schaakcomputer in een met de hand vervaardigd houten koffertje. Op het deksel is een metalen plaatje bevestigd met de tekst: 'Ter nagedachtenis aan Albert de Haan (overleden) 29 oktober 1979'."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "1998.0011.TMD"
         },
@@ -42,7 +42,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Fidelity Electronics schaakcomputer Chess Challenger",
     "structures": [
         {
             "canvases": ["https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0"],
@@ -60,6 +59,7 @@
         }
     ],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/9b913b20-63f7-4b59-b5dd-18c54e5b533e.json",
+    "label": "Fidelity Electronics schaakcomputer Chess Challenger",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
