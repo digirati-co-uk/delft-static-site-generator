@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Gegoten model van een aambeeld door TU Delft"
+        },
+        {
             "label": "Objectnaam",
             "value": "miniatuur"
         },
@@ -29,10 +33,6 @@
             "value": "Gegoten model van een aambeeld, waarschijnlijk bedoeld als pressepapier."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "1995.0045.TMD"
         },
@@ -42,7 +42,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Gegoten model van een aambeeld door TU Delft",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/range/range-0.json",
@@ -51,6 +50,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/f1fb8e57-22ac-42c3-a659-f5f346f2aa07.json",
+    "label": "Gegoten model van een aambeeld door TU Delft",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
