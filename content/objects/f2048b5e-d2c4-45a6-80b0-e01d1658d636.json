@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Portret van Koning Willem II door J-B. van der Hulst"
+        },
+        {
             "label": "Objectnaam",
             "value": "schilderij"
         },
@@ -33,10 +37,6 @@
             "value": "van Oranje Nassau, Willem Frederik George Lodewijk"
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "2006.0032.CVB"
         },
@@ -46,7 +46,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Portret van Koning Willem II door J-B. van der Hulst",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/ae70da54-2759-4f8c-a20c-01412f540c58/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/f2048b5e-d2c4-45a6-80b0-e01d1658d636/range/range-0.json",
@@ -55,6 +54,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/f2048b5e-d2c4-45a6-80b0-e01d1658d636.json",
+    "label": "Portret van Koning Willem II door J-B. van der Hulst",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
