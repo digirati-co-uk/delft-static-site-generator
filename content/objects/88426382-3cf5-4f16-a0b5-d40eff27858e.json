@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Briefopener"
+        },
+        {
             "label": "Objectnaam",
             "value": "briefopener"
         },
@@ -25,10 +29,6 @@
             "value": "Briefopener met een vroege telegraafkabel als handvat."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "1992.0258.TMD"
         },
@@ -38,7 +38,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Briefopener",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/ea95ade3-818f-41c6-a620-938a651f5854/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/88426382-3cf5-4f16-a0b5-d40eff27858e/range/range-0.json",
@@ -47,6 +46,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/88426382-3cf5-4f16-a0b5-d40eff27858e.json",
+    "label": "Briefopener",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
