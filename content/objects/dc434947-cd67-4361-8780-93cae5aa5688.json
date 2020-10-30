@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Koker met Promotiebul van A.E. Korvezee"
+        },
+        {
             "label": "Objectnaam",
             "value": "Bul"
         },
@@ -29,10 +33,6 @@
             "value": "Korvezee, A.E."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "2016.0290.LIB"
         },
@@ -42,7 +42,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Koker met Promotiebul van A.E. Korvezee",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/dc434947-cd67-4361-8780-93cae5aa5688/range/range-0.json",
@@ -51,6 +50,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/dc434947-cd67-4361-8780-93cae5aa5688.json",
+    "label": "Koker met Promotiebul van A.E. Korvezee",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
