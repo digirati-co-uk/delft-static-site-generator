@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Leren aktentas"
+        },
+        {
             "label": "Objectnaam",
             "value": "aktentas"
         },
@@ -29,10 +33,6 @@
             "value": "Leren aktentas gebruikt door het college van curatoren."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "1992.0257.TMD"
         },
@@ -42,7 +42,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Leren aktentas",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce/range/range-0.json",
@@ -51,6 +50,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/95499e2d-d517-4c12-899c-83e2d7c3e8ce.json",
+    "label": "Leren aktentas",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
