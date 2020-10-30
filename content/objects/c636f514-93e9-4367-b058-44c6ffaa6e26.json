@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Rekencilinder door Laboratorium van Geodesie"
+        },
+        {
             "label": "Objectnaam",
             "value": "rekencilinder"
         },
@@ -29,10 +33,6 @@
             "value": "Rekenhulpmiddel vergelijkbaar met een rekenliniaal voor vermenigvuldigen, delen. Een prototype voor een rekenliniaal voor technisch-wetenschappelijk rekenwerk. Het object is gevonden in de nalatenschap van de Delftse hoogleraar J.M. Tienstra. Verdere toelichting ontbreekt."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "2000.0149.GEO"
         },
@@ -42,7 +42,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Rekencilinder door Laboratorium van Geodesie",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/c636f514-93e9-4367-b058-44c6ffaa6e26/range/range-0.json",
@@ -51,6 +50,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/c636f514-93e9-4367-b058-44c6ffaa6e26.json",
+    "label": "Rekencilinder door Laboratorium van Geodesie",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
