@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Portret van Prof. M. Grandpré Molière door J. Michiels van Kessenich"
+        },
+        {
             "label": "Objectnaam",
             "value": "schilderij"
         },
@@ -37,10 +41,6 @@
             "value": "Granpré Molière, M.J."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "2005.0001.CVB"
         },
@@ -50,7 +50,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Portret van Prof. M. Grandpré Molière door J. Michiels van Kessenich",
     "structures": [
         {
             "canvases": ["https://dlc.services/iiif-img/7/18/d7421943-1def-40bc-a966-cc2235a25e2d/canvas/c0"],
@@ -68,6 +67,7 @@
         }
     ],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/cc30b82e-5632-4b12-b9c8-ecbe2429f0ee.json",
+    "label": "Portret van Prof. M. Grandpré Molière door J. Michiels van Kessenich",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
