@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Gedenkplaat Technische Natuurkunde"
+        },
+        {
             "label": "Objectnaam",
             "value": "gedenkplaat"
         },
@@ -29,10 +33,6 @@
             "value": "Plaat met de inscriptie: '1929-1979 Technische Natuurkunde' en de afbeeldingen van het gebouw Mijnbouwplein 11 en het gebouw Lorentzweg 1."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "1995.0036.TMD"
         },
@@ -42,7 +42,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Gedenkplaat Technische Natuurkunde",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc/range/range-0.json",
@@ -51,6 +50,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/af4087ec-d172-4da0-accf-828a13d3fdcc.json",
+    "label": "Gedenkplaat Technische Natuurkunde",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
