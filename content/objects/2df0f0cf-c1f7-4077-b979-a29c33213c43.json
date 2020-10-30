@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Portret van Prof. G. Simons door B.H.A. Witkamp"
+        },
+        {
             "label": "Objectnaam",
             "value": "schilderij"
         },
@@ -33,10 +37,6 @@
             "value": "Simons, Gerrit"
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "2006.0033.CVB"
         },
@@ -46,7 +46,6 @@
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Portret van Prof. G. Simons door B.H.A. Witkamp",
     "structures": [{
         "canvases": ["https://dlc.services/iiif-img/7/18/ec3c772b-833a-4461-918f-6ff1cb8350f1/canvas/c0"],
         "within": "https://dlc.services/iiif-manifest/7/18/2df0f0cf-c1f7-4077-b979-a29c33213c43/range/range-0.json",
@@ -55,6 +54,7 @@
         "label": "0"
     }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/2df0f0cf-c1f7-4077-b979-a29c33213c43.json",
+    "label": "Portret van Prof. G. Simons door B.H.A. Witkamp",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
