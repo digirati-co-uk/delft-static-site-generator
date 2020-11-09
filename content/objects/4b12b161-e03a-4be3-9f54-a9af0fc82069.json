@@ -1,6 +1,10 @@
 {
     "metadata": [
         {
+            "label": "Titel",
+            "value": "Portret van J.E.N. baron Schimmelpenninck van der Oye van Hoevelaken door J. Linge"
+        },
+        {
             "label": "Objectnaam",
             "value": "schilderij"
         },
@@ -33,20 +37,11 @@
             "value": "Schimmelpenninck van der Oye van Hoevelaken, J.E.N."
         },
         {
-            "label": "Gerelateerd erfgoedobject",
-            "value": " ()"
-        },
-        {
             "label": "Inventarisnummer",
             "value": "2002.0001.CVB"
-        },
-        {
-            "label": "Taal",
-            "value": "nl"
         }
     ],
     "@type": "sc:Manifest",
-    "Titel": "Portret van J.E.N. baron Schimmelpenninck van der Oye van Hoevelaken door J. Linge",
     "structures": [
         {
             "canvases": ["https://dlc.services/iiif-img/7/18/072822e7-37bd-43cb-9d3a-b34c6c191082/canvas/c0"],
@@ -78,6 +73,7 @@
         }
     ],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/4b12b161-e03a-4be3-9f54-a9af0fc82069.json",
+    "label": "Portret van J.E.N. baron Schimmelpenninck van der Oye van Hoevelaken door J. Linge",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
