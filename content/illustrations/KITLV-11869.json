@@ -1,166 +1,72 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "One of the buildings of the technical college under construction, 1920"
-    ]
-  },
-  "items": [
-    {
-      "label": {
-        "en": [
-          "Untitled Canvas"
-        ]
-      },
-      "height": 746,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/20/2f07733f-8016-467a-ab0b-75d7725bdfc9/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2000,
-                "width": 2679,
-                "label": {
+    "label": {
+      "en": [
+        "One of the buildings of the technical college under construction, 1920"
+      ]
+    },
+    "type": "Manifest",
+    "id": "https://heritage.tudelft.nl/iiif/dfb39156-9a65-428a-8b11-092beb33308a/manifest",
+    "items": [
+      {
+        "label": {
+          "en": [
+            "KITLV A34 - Het in aanbouw zijnde gebouw van de Technische Hoogeschool te Bandoeng"
+          ]
+        },
+        "height": 2000,
+        "width": 2679,
+        "type": "Canvas",
+        "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:912661/canvas/default",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "summary": {
                   "en": [
-                    "-"
+                    "Leiden University Library, KITLV collection, no. KITLV 11869"
                   ]
                 },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/20/2f07733f-8016-467a-ab0b-75d7725bdfc9",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 2679,
-                  "height": 2000,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 764
-                    },
-                    {
-                      "width": 400,
-                      "height": 299
-                    },
-                    {
-                      "width": 200,
-                      "height": 149
-                    },
-                    {
-                      "width": 100,
-                      "height": 75
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
+                "label": {
+                  "en": [
+                    "One of the buildings of the technical college under construction, 1920"
                   ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/20/2f07733f-8016-467a-ab0b-75d7725bdfc9/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/20/2f07733f-8016-467a-ab0b-75d7725bdfc9",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 764,
-                    "sizes": [
-                      {
-                        "width": 1024,
-                        "height": 764
-                      },
-                      {
-                        "width": 400,
-                        "height": 299
-                      },
-                      {
-                        "width": 200,
-                        "height": 149
-                      },
-                      {
-                        "width": 100,
-                        "height": 75
-                      }
-                    ]
+                },
+                "thumbnail": [
+                  {
+                    "service": {
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A912661",
+                      "type": "ImageService2"
+                    },
+                    "type": "Image",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A912661/full/1024,/0/default.jpg"
                   }
+                ],
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A912661",
+                "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:912661/canvas/default#",
+                "body": {
+                  "height": 2000,
+                  "width": 2679,
+                  "service": {
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A912661",
+                    "type": "ImageService2"
+                  },
+                  "type": "Image",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A912661/full/pct:50/0/default.jpg"
                 }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/eecfc286-7ea2-145d-b572-cf0bc203e4fd/annotation/bccc9d08-b77b-9cf6-bc9b-cfb61e276d8c",
-              "target": "https://heritage.tudelft.nl/iiif/eecfc286-7ea2-145d-b572-cf0bc203e4fd/canvas/a0b0df0d-eccb-34ed-fd9b-66b4558c9923#xywh=0,0,1000,746",
-              "summary": {
-                "en": [
-                  "Leiden University Library, KITLV collection, no. KITLV 11869"
-                ]
-              },
-              "label": {
-                "en": [
-                  "One of the buildings of the technical college under construction, 1920"
-                ]
               }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/eecfc286-7ea2-145d-b572-cf0bc203e4fd/list/f160d6c4-37b6-d661-7e9d-8c3cc59ca685"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/eecfc286-7ea2-145d-b572-cf0bc203e4fd/canvas/a0b0df0d-eccb-34ed-fd9b-66b4558c9923"
-    }
-  ],
-  "id": "https://heritage.tudelft.nl/iiif/eecfc286-7ea2-145d-b572-cf0bc203e4fd/manifest"
-}
+            ],
+            "id": "https://example.org/uuid/e5f84c1c-e265-42f5-9f99-11b6a7f031e7"
+          }
+        ]
+      }
+    ],
+    "@context": [
+      "http://www.w3.org/ns/anno.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+    ]
+  }
