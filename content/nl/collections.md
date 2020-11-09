@@ -72,6 +72,10 @@ title: "Digitale Collecties"
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
+[Atria](/nl/collections/ex-atria)
+</div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
 [Aviodrome](/nl/collections/ex-aviodrome)
 </div>
 
