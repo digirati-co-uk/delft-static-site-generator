@@ -317,47 +317,6 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 692,
-                            "height": 1024
-                        },
-                        {
-                            "width": 270,
-                            "height": 400
-                        },
-                        {
-                            "width": 135,
-                            "height": 200
-                        },
-                        {
-                            "width": 68,
-                            "height": 100
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 692,
-                    "id": "https://dlc.services/thumbs/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2",
-                    "type": "ImageService2",
-                    "height": 1024
-                },
-                "id": "https://dlc.services/thumbs/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/0a7f086c-6b0a-4058-89b6-b5db687c786d.json",
-            "label": {"nl": ["Gebrandschilderd raam van glas-in-lood door J.L. Schouten."]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
                             "width": 1024,
                             "height": 683
                         },
