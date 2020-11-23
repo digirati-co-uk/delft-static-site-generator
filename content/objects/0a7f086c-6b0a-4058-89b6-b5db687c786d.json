@@ -1,0 +1,120 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Gebrandschilderd raam van glas-in-lood door J.L. Schouten."
+        },
+        {
+            "label": "Objectnaam",
+            "value": "venster"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2002.0051.CVB"
+        },
+        {
+            "label": "Datering",
+            "value": "1922"
+        },
+        {
+            "label": "Maker",
+            "value": "Sluyterman, Theodorus Karel Lodewijk  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "Schouten, Jan  (maker)"
+        },
+        {
+            "label": "Materiaal",
+            "value": "glas, lood"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Gebrandschilderd raam van glas-in-lood, ontworpen door Prof. T.K.L. Sluyterman, vervaardigd door het atelier van gebranschilderd glas 't Prinsenhof van J.L. Schouten, gedateerd 1922. Het venster bestaat uit drie even hoge ramen, waarbij het middelste raam ongeveer twee maal breder is dan de beide zijramen. Het middenveld van het raam toont binnen een omlijsting twee figuren: Clio, de muze van de geschiedenis, laat een jongeman de feiten boekstaven die op de Technische Hogeschool betrekking hebben. Op de achtergrond het silhouet van Delft, herkenbaar aan de scheve toren van de Oude Kerk. Boven deze afbeelding het familiewapen van Cluysenaer, eronder het opschrift: \"AAN; DOCTOR; JACOBUS LEONARDUS CLUYSENAER; CIVIEL INGENIEUR; VAN 1905 TOT 1921; CURATOR DER; TECHNISCHE; HOOGE-SCHOOL\"."
+        },
+        {
+            "label": "Worldcat referentie",
+            "value": "Gedetailleerde beschrijving en toelichting van het raam in:<\/br>Ingenieur, nr. 24, 37e jaargang, 1922 pp. 466-468."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/0a7f086c-6b0a-4058-89b6-b5db687c786d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/0a7f086c-6b0a-4058-89b6-b5db687c786d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/0a7f086c-6b0a-4058-89b6-b5db687c786d.json",
+    "label": "Gebrandschilderd raam van glas-in-lood door J.L. Schouten.",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1228,
+                        "@id": "https://dlc.services/iiif-img/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2",
+                        "height": 1818
+                    },
+                    "width": 1228,
+                    "@id": "https://dlc.services/iiif-img/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2/full/692,1024/0/default.jpg",
+                    "height": 1818
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 692,
+                            "height": 1024
+                        },
+                        {
+                            "width": 270,
+                            "height": 400
+                        },
+                        {
+                            "width": 135,
+                            "height": 200
+                        },
+                        {
+                            "width": 68,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 692,
+                    "@id": "https://dlc.services/thumbs/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1228,
+            "@id": "https://dlc.services/iiif-img/7/18/ae7695c1-dc63-4042-aeab-585abc2235d2/canvas/c0",
+            "label": "Image",
+            "height": 1818
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/0a7f086c-6b0a-4058-89b6-b5db687c786d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
