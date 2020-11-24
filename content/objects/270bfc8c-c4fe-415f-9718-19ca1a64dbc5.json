@@ -57,13 +57,13 @@
                     "service": {
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
-                        "width": 0,
+                        "width": 414,
                         "@id": "https://dlc.services/iiif-img/7/18/31bf905c-3723-466e-a8e4-c2904b1405d4",
-                        "height": 0
+                        "height": 414
                     },
-                    "width": 0,
-                    "@id": "https://dlc.services/iiif-img/7/18/31bf905c-3723-466e-a8e4-c2904b1405d4/full/0,0/0/default.jpg",
-                    "height": 0
+                    "width": 414,
+                    "@id": "https://dlc.services/iiif-img/7/18/31bf905c-3723-466e-a8e4-c2904b1405d4/full/414,414/0/default.jpg",
+                    "height": 414
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
@@ -75,20 +75,20 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 0,
-                            "height": 0
+                            "width": 414,
+                            "height": 414
                         },
                         {
-                            "width": 0,
-                            "height": 0
+                            "width": 400,
+                            "height": 400
                         },
                         {
-                            "width": 0,
-                            "height": 0
+                            "width": 200,
+                            "height": 200
                         },
                         {
-                            "width": 0,
-                            "height": 0
+                            "width": 100,
+                            "height": 100
                         }
                     ],
                     "profile": [
@@ -99,18 +99,18 @@
                             "supports": ["sizeByWhListed"]
                         }
                     ],
-                    "width": 0,
+                    "width": 414,
                     "@id": "https://dlc.services/thumbs/7/18/31bf905c-3723-466e-a8e4-c2904b1405d4",
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 0
+                    "height": 414
                 },
                 "@id": "https://dlc.services/thumbs/7/18/31bf905c-3723-466e-a8e4-c2904b1405d4/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
-            "width": 0,
+            "width": 414,
             "@id": "https://dlc.services/iiif-img/7/18/31bf905c-3723-466e-a8e4-c2904b1405d4/canvas/c0",
             "label": "Image",
-            "height": 0
+            "height": 414
         }],
         "@type": "sc:Sequence",
         "@id": "https://dlc.services/7/18/270bfc8c-c4fe-415f-9718-19ca1a64dbc5/sequences/normal",
