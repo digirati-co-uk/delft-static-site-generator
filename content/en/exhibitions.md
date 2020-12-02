@@ -12,7 +12,7 @@ title: "Exhibitions"
 
 [Novieten](/en/exhibitions/62d39710-83ec-5064-a890-2bb3845cb67d)
 </div>
-<div class="block tint copper cutcorners w-4 h-4 image">
+<div class="block tint yellow cutcorners w-4 h-4 image">
 
 [Corona Chronicles](/en/exhibitions/corona-chronicles)
 </div>
