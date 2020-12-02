@@ -1814,7 +1814,12 @@
                 "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
                 "width": 320,
                 "height": 176,
-                "duration": 10.026667
+                "duration": 10.026667,
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "t=89,0"
+                }
               },
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2a2810e5-ad56-fac9-029a-d0c9fc038c1c#xywh=0,0,1903,1440",
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6179e7da-69e0-00bb-f87d-14d8c9790be1",
