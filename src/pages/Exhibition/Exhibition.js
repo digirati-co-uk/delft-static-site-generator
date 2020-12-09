@@ -382,7 +382,13 @@ class ExhibitionPage extends React.Component {
                           </div>
                           <div className="text">
                             <p>{translate(canvas.label, pageLanguage)}</p>
-                            <p>{translate(canvas.summary, pageLanguage)}</p>
+                            <p>
+                              {translate(canvas.summary, pageLanguage, '\n')
+                                .split('\n')
+                                .map(paragraph => (
+                                  <p key={`about__${idx}`}>{paragraph}</p>
+                                ))}
+                            </p>
                             {canvas.requiredStatement && (
                               <p className="facts">
                                 {translate(
