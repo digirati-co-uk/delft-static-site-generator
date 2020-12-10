@@ -380,8 +380,10 @@ class ExhibitionPage extends React.Component {
                           <div className={this.getBlockArrowClasses(canvas)}>
                             <Arrow />
                           </div>
-                          <div className="text">
+                          <div className="heading">
                             <p>{translate(canvas.label, pageLanguage)}</p>
+                          </div>
+                          <div className="text">
                             <p>
                               {translate(canvas.summary, pageLanguage, '\n')
                                 .split('\n')

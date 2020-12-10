@@ -552,14 +552,10 @@ h6 {
   text-align: center;
 }
 
-a,
-.facts {
+a {
   font-family: 'f-mono';
   // font-size: 0.8em;
   line-height: 1.2;
-}
-
-a {
   color: inherit;
   text-decoration: none;
   border-bottom: 0.1em solid;
@@ -623,6 +619,15 @@ $width: 1rem; // width of the chamfered edges
 
 .blocks {
   margin: 1rem auto;
+
+  .heading {
+    text-transform: uppercase;
+    font-family: 'f-mono';
+  }
+
+  .facts {
+    font-family: 'f-regular-italic';
+  }
 
   .left {
     display: flex;
