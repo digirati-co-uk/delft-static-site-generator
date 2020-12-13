@@ -338,10 +338,6 @@ h6 {
   height: 100%;
   position: absolute;
 
-  .boxtitle {
-    text-transform: uppercase;
-  }
-
   // color: black;
   text-decoration: none;
   // font-family: georgia, serif;
@@ -550,6 +546,7 @@ h6 {
 .boxtitle {
   font-family: 'f-mono';
   text-align: center;
+  text-transform: uppercase;
 }
 
 a {

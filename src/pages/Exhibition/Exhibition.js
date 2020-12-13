@@ -324,7 +324,15 @@ class ExhibitionPage extends React.Component {
         <main>
           <div className="blocks">
             <div className="block title cutcorners w-4 h-4 ">
-              <div className="boxtitle">EXHIBITION</div>
+              <div className="boxtitle">
+                {translate(
+                  {
+                    en: ['Exhibition'],
+                    nl: ['Tentoonstelling'],
+                  },
+                  pageLanguage
+                )}
+              </div>
               <div className="maintitle">
                 {translate(manifest.label, pageLanguage)}
                 <GithubLink href={path} />
@@ -357,7 +365,13 @@ class ExhibitionPage extends React.Component {
                             className="readmore"
                             onClick={this.showCanvasDetails(canvas)}
                           >
-                            Read More
+                            {translate(
+                              {
+                                en: ['Read more'],
+                                nl: ['Lees meer'],
+                              },
+                              pageLanguage
+                            )}
                           </button>
                         </p>
                       }

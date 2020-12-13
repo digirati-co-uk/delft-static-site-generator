@@ -233,7 +233,13 @@ class CanvasModal extends React.Component {
                               `/`
                             }
                           >
-                            View Detail
+                            {getTranslation(
+                              {
+                                en: ['View object'],
+                                nl: ['Bekijk object'],
+                              },
+                              this.props.pageLanguage
+                            )}
                           </Link>
                         </div>
                       )}
