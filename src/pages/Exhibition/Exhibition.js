@@ -406,12 +406,12 @@ class ExhibitionPage extends React.Component {
                                 ))}
                             </p>
                             {canvas.requiredStatement && (
-                              <p className="facts">
+                              <div className="facts">
                                 {translate(
                                   canvas.requiredStatement.value,
                                   pageLanguage
                                 )}
-                              </p>
+                              </div>
                             )}
                           </div>
                         </div>
