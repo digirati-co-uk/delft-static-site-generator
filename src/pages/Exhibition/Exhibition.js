@@ -368,7 +368,7 @@ class ExhibitionPage extends React.Component {
                             {translate(
                               {
                                 en: ['Read more'],
-                                nl: ['Lees meer'],
+                                nl: ['Verder lezen'],
                               },
                               pageLanguage
                             )}
