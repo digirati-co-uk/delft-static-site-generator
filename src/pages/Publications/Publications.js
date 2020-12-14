@@ -20,15 +20,12 @@ const Publications = ({ data, path: pagePath, annos }) => {
             (data.allMarkdownRemark.edges || []).map(article => {
               const { title, date, path, author } = article.node.frontmatter;
               return (
-                <div className="block title cutcorners w-4 h-4 ">
-                  <div className="boxtitle">{date || '[Date]'}</div>
-                  <div className="maintitle">
-                    {title || '[Title]'}
-                    <p className="readmore">
-                      <Link to={path}>Read More</Link>
-                    </p>
-                  </div>
-                  <div className="boxtitle">{author || '[Author]'}</div>
+                <div className="block cutcorners w-4 h-4 article">
+                  <Link to={path}>
+                    <div className="boxtitle">{date || '[Date]'}</div>
+                    <div className="maintitle">{title || '[Title]'}</div>
+                    <div className="caption">{author || '[Author]'}</div>
+                  </Link>
                 </div>
               );
             })}

@@ -13,7 +13,240 @@
     {
       "label": {
         "en": [
-          "First-year students of Delft technical college and TU Delft, 1905-2018"
+          "De enige vrouw in de collegezaal"
+        ]
+      },
+      "height": 2749,
+      "width": 2666,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/559,0,2666,2749/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2749,
+                "width": 3637,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3637,
+                  "height": 2749,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 774
+                    },
+                    {
+                      "width": 400,
+                      "height": 302
+                    },
+                    {
+                      "width": 200,
+                      "height": 151
+                    },
+                    {
+                      "width": 100,
+                      "height": 76
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 774,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 76
+                      },
+                      {
+                        "width": 200,
+                        "height": 151
+                      },
+                      {
+                        "width": 400,
+                        "height": 302
+                      },
+                      {
+                        "width": 1024,
+                        "height": 774
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/1a5e682f-f7fc-f089-a448-91cd572b7a77",
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d#xywh=0,0,2666,2749",
+              "label": {
+                "en": [
+                  "De enige vrouw in de collegezaal (Introductieweek 1965)"
+                ]
+              },
+              "body.id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/559,0,2666,2749/full/0/default.jpg",
+              "summary": {
+                "en": [
+                  "TU Delft Library, Bijzondere Collecties"
+                ]
+              }
+            },
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/ecc8ceac-c8e0-2a23-3068-b0a7e7d6d8a8"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d#xywh=2194,860,400,400",
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/79fec593-1bc9-3275-8b53-7fce7790ee8b",
+              "motivation": "describing",
+              "label": {
+                "en": [
+                  "De enige vrouw in de collegezaal (Introductieweek 1965)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "TU Delft Library, Bijzondere Collecties"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/705cb49b-41f4-492b-8a4c-0347efc4ba0d"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d",
+      "behavior": [
+        "w-8",
+        "h-8"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Introductie"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/ab31e034-8bb1-12bf-1c7b-2f9272ddddc2"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/d5040e5c-1e59-1da8-058d-aad3bb7e0e49#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/497d8d8c-f07e-dd1c-8655-d3fe783c2b31",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "<p>Nieuwe leden van de Delftste Vrouwelijke Studentenvereniging (DVSV) werden in het verleden ‘novieten’ genoemd, tegenover de gebruikelijke term ‘feuten’ voor mannen. Maar anders dan hun mannelijke medestudenten, die na het eerste jaar werden opgenomen in een robuuste mannengemeenschap, werden de vrouwen ‘beleefd genegeerd’ en geacht zich eerst maar eens te bewijzen.</p><p>Ondanks dat in 2018 – het laatste jaar waarover de TU Delft statistische data heeft gepubliceerd – de studentenpopulaties van de studies Bouwkunde en Industrieel Ontwerpen uit een gelijk aandeel mannen en vrouwen bestaan, is het percentage vrouwelijke eerstejaars studenten aan de TU Delft over het geheel genomen nog altijd niet hoger dan 30%. Hoe heeft dit zich in de loop der tijd ontwikkeld en hoe zijn vrouwen in het verleden omgegaan met hun minderheidsrol?</p><p>Deze digitale tentoonstelling begint met een nieuwe grafiek die een overzicht geeft van het aantal en het percentage vrouwelijke eerstejaars in de periode 1905-2018. Als startdatum is 1905 gekozen omdat in dat jaar de Polytechnische School werd omgevormd tot Technische Hogeschool, waarmee vrouwen voltijds in Delft konden gaan studeren. De grafiek laat geen lineair proces zien, maar een dynamisch proces met pieken en dalen. Aan de hand van de grafiek ontvouwen zich een aantal verhalen.</p><p>Allereerst over de DVSV, opgericht in 1904, waarin vrouwelijke studenten zich verenigden en ontplooiden, grotendeels zonder een overkoepelend emancipatorisch programma. De speeches van presidentes aan de novieten laten zien hoe ‘meisjes-studenten’ zich geacht werden te gedragen binnen de universitaire gemeenschap: \"val vooral niet te veel op,\" was het voornaamste devies vóór de Tweede Wereldoorlog.</p><p>Van het relatief hoge aandeel vrouwen in de vooroorlogse jaren, wordt Antonia Korvezee uitgelicht, die in 1954 werd aangesteld als eerste vrouwelijke hoogleraar van de Technische Hogeschool. Korvezee, in Delft opgeleid en in Delft gepromoveerd, werkte begin jaren dertig enige jaren in Parijs bij madame Curie aan het toen nieuwe specialisme van radioactiviteit. Deze kennis gebruikte ze later als hoogleraar om het vakgebied in Nederland op de kaart te zetten.</p><p>Het verhaal over de DVSV loopt door na de Tweede Wereldoorlog: Marian Geense schreef een boek over de levensloop van de vrouwen uit haar jaarclub uit 1956. Deze tentoonstelling bevat een voorpublicatie. Ook wordt een recente publicatie uitgelicht over een nog steeds bestaand vrouwenhuis in de Delftse binnenstad: de Boterbrug, opgericht in 1969. Een interview met één van de oprichtsters van het huis is hier opnieuw gepubliceerd.</p><p>Tevens uit de jaren zestig stamt de fictieve documentaire ‘Mejuffrouw, Mijne Heren’ van Mart van de Busken. De glorieuze film geeft een geweldig tijdsbeeld van de TH. De verteller is een van de 'zeldzame, tot idool verheven' vrouwelijke studentes, die als enige 'mejuffrouw' plaatsneemt tussen de mannen in de collegezaal.</p><p>Vanaf de jaren zeventig loopt zowel het absolute aantal als het relatieve percentage vrouwen op. Hiermee dient zich een nieuw tijdperk aan waarin vrouwenemancipatie een centrale rol inneemt. Voor de tentoonstelling heeft de recent afgestudeerde Noortje Weenink een interview afgenomen met Anna Vos, de oprichtster van het vak Vrouwenstudies aan de Faculteit Bouwkunde. Het gesprek laat zien hoe vrouwelijke studenten allerlei normen aan de kaak stelden die de basis vormden van hun eigen vakgebied.</p><p>Anna Vos studeerde af bij Franziska Bollerey die in 1979 werd aangesteld als tweede vrouwelijke hoogleraar aan de TH Delft, 25 jaar na Korvezee. In de jaren tachtig speelde zij in een toneelstuk tijdens een van de <em>meisjesinformatiedagen</em>, bedoeld om meer vrouwelijke studenten aan te trekken voor technische studies.</p><p>De tentoonstelling sluit af met het boek <em>Technische Universiteit, een mannenwereld</em>, uitgegeven door Studium Generale in 1989. In het boek is de blik omgedraaid en wordt prikkelend onderzocht wat het betekent om een mannengemeenschap te zijn –&nbsp;en wat ervoor nodig is om deze te veranderen.</p><p>Ondanks het toenemende aantal 'novieten' en de lange geschiedenis van vrouwelijke studenten en onderzoekers in Delft, staat de universiteit tegenwoordig nog steeds te boek als een mannengemeenschap. De thema's diversiteit en inclusiviteit staan hoog op de agenda, waarbij het al lang niet meer gaat om enkel het binaire onderscheid tussen mannen en vrouwen. De eerdere ervaringen van vrouwen die in deze tentoonstelling aan bod komen, kunnen desalniettemin handvaten aanbieden voor nieuwe generaties zodat zij (in de woorden van Anna Vos) niet telkens het wiel opnieuw hoeven uit te vinden maar kunnen voortbouwen op het werk van eerdere generaties.</p><p><em>Samengesteld door Sarah Edrisy, Jules Schoonman en Abel Streefland (Academisch Erfgoed team, TU Delft Library). Opmaak grafiek door Studio Mellegers van Dam.</em></p><p>Met dank aan:</p><ul><li>Ted Barendse (Education &amp; Student Affairs)</li><li>Margreet de Boer</li><li>Marjan van den Bos</li><li>Mart van den Busken</li><li>Marian Geense</li><li>Marcel Janssen</li><li>Frida de Jong</li><li>Elizabeth Poot</li><li>Roland van Roijen (NewMedia Centre)</li><li>Anna Vos</li><li>Noortje Weenink</li><li>Charlotte van Wijk (Faculteit Bouwkunde)</li><li>Koninklijke Bibliotheek</li><li>Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis</li></ul>"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Novieten"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/8bfe4657-bfc5-26ba-ae16-c349fc9266eb"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/d5040e5c-1e59-1da8-058d-aad3bb7e0e49",
+      "behavior": [
+        "info",
+        "info",
+        "w-4",
+        "h-4"
+      ],
+      "summary": {
+        "en": [
+          "Nieuwe leden van de Delftste Vrouwelijke Studentenvereniging (DVSV) werden in het verleden ‘novieten’ genoemd, tegenover de gebruikelijke term ‘feuten’ voor mannen. Maar anders dan hun mannelijke medestudenten, die na het eerste jaar werden opgenomen in een robuuste mannengemeenschap, werden de vrouwen als minderheid ‘beleefd genegeerd’ en geacht zich eerst maar eens te bewijzen. Hoe zijn vrouwen in het verleden omgegaan met hun minderheidsrol?"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Eerstejaarsstudenten van de TH en TU Delft in de periode 1905-2018"
         ]
       },
       "height": 991,
@@ -148,12 +381,12 @@
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982#xywh=0,0,992,991",
               "label": {
                 "en": [
-                  "First-year students of Delft technical college and TU Delft, 1905-2018"
+                  "Eerstejaarsstudenten van de TH en TU Delft in de periode 1905-2018"
                 ]
               },
               "summary": {
                 "en": [
-                  "Data from..."
+                  "Gebruikte bronnen: Jaarboeken en -verslagen TH Delft, Statistisch jaarboeken TU Delft en OSIRIS"
                 ]
               }
             },
@@ -166,63 +399,17 @@
                 "language": "en",
                 "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/1c804b73-39f3-f7b9-149a-796c31967b5b"
               },
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982#xywh=112,584,203,265",
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982#xywh=49,567,327,330",
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/197b9cf0-b289-f8ac-606b-20730774a7a0",
-              "motivation": "describing",
+              "motivation": "painting",
               "label": {
                 "en": [
-                  "Voor WO II"
+                  "Voor de Tweede Wereldoorlog"
                 ]
               },
               "summary": {
                 "en": [
-                  "DVSV"
-                ]
-              }
-            },
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/b62e78d7-dadc-bacb-d584-1363cd5bfa00"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982#xywh=407,735,103,110",
-              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/a16c3d80-9d54-2338-d22a-a642ac65a106",
-              "motivation": "describing",
-              "label": {
-                "en": [
-                  "1956"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Boek Marian Geense"
-                ]
-              }
-            },
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/df1d274b-3d37-542f-57c7-7947bad81734"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982#xywh=544,619,148,133",
-              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6b3f8d88-3132-620a-3cd7-6f4fcceb549e",
-              "motivation": "describing",
-              "label": {
-                "en": [
-                  "Jaren 1970"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Vrouwenstudies"
+                  "Opvallend aan de grafiek is dat het percentage vrouwen vóór de Tweede Wereldoorlog hoger is dan in de periode erna. Pas in 1983 stijgt het percentage weer uit boven de 11%, het maximum uit de vooroorlogse jaren."
                 ]
               }
             }
@@ -232,58 +419,29 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982",
       "behavior": [
-        "bottom",
-        "w-8",
+        "right",
+        "w-12",
         "h-8"
-      ]
-    },
-    {
-      "label": {
-        "en": [
-          "Introductie"
-        ]
-      },
-      "height": 1000,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "new annotation",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/ab31e034-8bb1-12bf-1c7b-2f9272ddddc2"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/d5040e5c-1e59-1da8-058d-aad3bb7e0e49#xywh=0,0,300,200",
-              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/497d8d8c-f07e-dd1c-8655-d3fe783c2b31",
-              "motivation": "painting"
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/8bfe4657-bfc5-26ba-ae16-c349fc9266eb"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/d5040e5c-1e59-1da8-058d-aad3bb7e0e49",
-      "behavior": [
-        "info",
-        "info",
-        "w-4",
-        "h-4"
       ],
       "summary": {
         "en": [
-          "tbd"
+          "Deze grafiek toont het absolute aantal eerstejaars studenten, de verdeling tussen man en vrouw en het percentage vrouwen. Pas vanaf 1905 is het voor vrouwen mogelijk om in Delft een volledige technische studie te volgen.",
+          "Opvallend aan de grafiek is dat het percentage vrouwen vóór de Tweede Wereldoorlog hoger is dan in de periode erna. Pas in 1983 stijgt het percentage weer uit boven de 11%, het maximum uit de vooroorlogse jaren.",
+          "In de loop der tijd is de definitie van eerstejaars studenten veranderd. Tot 1982 wordt er in de statistieken geen onderscheid gemaakt tussen verschillende soorten eerstejaars. Vanaf 1982 zijn de aantallen eerstejaars gebruikt inclusief 'interne omzwaaiers' (studenten die van studie wisselen), omdat deze het best overeenkwamen met de eerdere gegevens. Ook de invoering van de bachelor-masterstructuur in 2002 heeft impact gehad op de wijze van tellen, wat waarschijnlijk de 'dip' in de grafiek verklaart rond dat jaar."
         ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Bronnen: Jaarboeken en -verslagen TH Delft, Statistisch jaarboeken TU Delft en OSIRIS"
+          ]
+        }
       }
     },
     {
       "label": {
         "en": [
-          "Candidaat-leden!"
+          "'Weest geen preutsch juffertje'"
         ]
       },
       "height": 762,
@@ -417,7 +575,7 @@
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=67,80,220,307",
               "label": {
                 "en": [
-                  "Toespraak tot de nieuwe leden in 1928"
+                  "Toespraak tot de nieuwe leden in 1930"
                 ]
               },
               "summary": {
@@ -550,7 +708,7 @@
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=259,58,217,299",
               "label": {
                 "en": [
-                  "Toespraak tot de nieuwe leden 1928"
+                  "Toespraak tot de nieuwe leden 1930"
                 ]
               },
               "summary": {
@@ -812,7 +970,7 @@
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=332,386,211,294",
               "label": {
                 "en": [
-                  "Toespraak tot de nieuwe leden in 1929"
+                  "Toespraak tot de nieuwe leden in 1931"
                 ]
               },
               "summary": {
@@ -945,7 +1103,7 @@
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=524,416,214,303",
               "label": {
                 "en": [
-                  "Toespraak tot de nieuwe leden in 1929"
+                  "Toespraak tot de nieuwe leden in 1931"
                 ]
               },
               "summary": {
@@ -1078,7 +1236,7 @@
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=719,396,211,294",
               "label": {
                 "en": [
-                  "Toespraak tot de nieuwe leden in 1929"
+                  "Toespraak tot de nieuwe leden in 1931"
                 ]
               },
               "summary": {
@@ -1222,73 +1380,33 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426",
       "behavior": [
-        "right",
+        "left",
         "w-12",
         "h-6"
       ],
       "summary": {
         "en": [
-          "tbd"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Korvezee"
+          "De Delftse Vrouwelijke Studentenvereniging (DVSV), opgericht in 1904, was een gezelligheidsvereniging voor vrouwelijke studenten aan de TH. Tot 1970 werden vrijwel alle vrouwelijke studenten lid. De vereniging telde in de jaren twintig ongeveer 100 leden.",
+          "In redes voor eerstejaars, afgedrukt in de almanakken, gaven de achtereenvolgende presidentes instructies aan de nieuwe leden. Tot 1940 is het belangrijkste devies: val niet op als vrouw en wees dankbaar voor de kans om in Delft te studeren. Een openlijke feministische opstelling werd afgekeurd. Pas na de Tweede Wereldoorlog zou dit geleidelijk gaan veranderen."
         ]
       },
-      "height": 1000,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "new annotation",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/c407534f-2a77-6c10-e703-841561cbc665"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ac93661b-0f24-170f-c8ed-e158250d2bbf#xywh=0,0,300,200",
-              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/990d9f5f-71ef-28b4-46af-e9e9e28c17e4",
-              "motivation": "painting",
-              "summary": {
-                "en": [
-                  "<p>Dr. Ir. Antonia Korvezee (1899-1978) Antonia (Toos) Korvezee werd in 1954 de eerste vrouwelijke hoogleraar aan de Technische Hogeschool in Delft. Ze werd geboren in Friesland maar groeide op in Den Haag, waar ze de ‘HBS voor jongens’ doorliep. Vanwege haar aanleg voor wiskunde besloot ze in Delft te gaan studeren. In 1922 studeerde ze cum laude af in de scheikundige technologie en werd ze voor twee jaar assistente bij analytische scheikunde. Ze vervolgde haar opleiding in Delft door bij professor Scheffer een promotieonderzoek te doen. In 1930 promoveerde ze met lof op een onderwerp over koperchloride als katalysator. Van de 26 dissertaties die binnen het lab van professor Scheffer werden geschreven waren er 5 van de hand van vrouwen - voor die tijd een hoog percentage.</p><p>Begin jaren dertig werkte Korvezee met een toelage van het Delfts Hogeschoolfonds enige jaren in Parijs bij madame Curie aan het toen nieuwe specialisme van radioactiviteit. Terug in Delft werd ze in 1935 privaatdocente in dit vakgebied. In status stelde dit niet veel voor, maar vaak kon dit dienen als een opstap naar een nieuw te creëren leerstoel.</p><p>Door tussenkomst van de Tweede Wereldoorlog liep het voor Korvezee echter anders. Ze vertrok uit Delft en werkte bij een bedrijf in Venlo. Na de oorlog keerde ze terug naar Delft, waar inmiddels een andere wind woei: de laboratoriumsfeer had plaatsgemaakt voor de ingenieursaanpak van de wederopbouw en het industrialisatiestreven volgens Amerikaans model. Nieuwe speerpunten waren procesindustrie, petrochemische industrie en kernenergie. Op dat laatst gebied was Korvezee deskundige, zodat ze in 1948 werd benoemd tot lector. Bij de opvolging in 1953 van haar leermeester Scheffer werd ze echter gepasseerd en bij de voorbereiding om te komen tot een prestigieus instituut voor kernenergie-onderwijs werd ze niet betrokken. Haar taken verschoven in de richting van het onderwijs. Ze begeleide vijf promovendi, maar vestigde geen eigen school. In 1954 werd ze alsnog benoemd tot buitengewoon hoogleraar in de theoretische scheikunde. Vanaf 1959 voelde ze zich ziek en klaagde ze over ‘een alles overheersende vermoeidheid’. Haar ziekzijn noopte haar om ontslag te vragen. Haar afscheid gebeurde met stille trom. Ze overleed in Den Haag in 1978.</p><p>Opvolgsters heeft Korvezee niet gekend. Na de oorlog waren er aan de TH enkel bij de afdeling Technische Natuurkunde en bij de vakgroep Vezeltechniek nog enkel vrouwelijke collega’s werkzaam. Ondanks de grote uitbreiding van het aantal leerstoelen in de jaren vijftig en zestig duurde het 25 jaar voordat er weer een vrouw tot hoogleraar werd benoemd: Franziska Bollerey, die in 1980 hoogleraar in de architectuur- en stedenbouwgeschiedenis werd bij de afdeling Bouwkunde. In 1989 werd aan de TU een jaarlijkse emancipatieprijs ingesteld, de Antonia Korvezeeprijs, maar deze werd na enige jaren weer opgeheven.</p><p>Meer lezen: Frida de Jong, Standhouden in Delft, Gewina 20 (1997), pp. 227-243.</p>"
-                ]
-              },
-              "label": {
-                "en": [
-                  "Antonia Korvezee"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/26cadd49-5c6a-be88-fe55-14449a9cb4a3"
+      "requiredStatement": {
+        "label": {
+          "en": [
+            ""
+          ]
+        },
+        "value": {
+          "en": [
+            "Lees hier de redes uit 1930 en 1931. Klik op 'Start tour' en vervolgens op 'Bekijk object' om de volledige almanakken te bekijken."
+          ]
         }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ac93661b-0f24-170f-c8ed-e158250d2bbf",
-      "behavior": [
-        "info",
-        "info",
-        "w-4",
-        "h-6"
-      ],
-      "summary": {
-        "en": [
-          "Dr. Ir. Antonia Korvezee (1899-1978) Antonia (Toos) Korvezee werd in 1954 de eerste vrouwelijke hoogleraar aan de Technische Hogeschool in Delft."
-        ]
       }
     },
     {
       "label": {
         "en": [
-          "Koker met promotiebul van prof. A.E. Korvezee"
+          "Koker met promotiebul van Antonia Korvezee"
         ]
       },
       "height": 906,
@@ -1422,12 +1540,12 @@
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f087a33b-cf1f-923f-407d-87e99fe269a1#xywh=0,0,1000,906",
               "label": {
                 "en": [
-                  "Koker met promotiebul van prof. A.E. Korvezee"
+                  "Koker met promotiebul van Antonia Korvezee"
                 ]
               },
               "summary": {
                 "en": [
-                  "2016.0290.LIB"
+                  "TU Delft Library, Bijzondere Collecties, 2016.0290.LIB"
                 ]
               }
             }
@@ -1440,6 +1558,111 @@
         "w-8",
         "h-6"
       ]
+    },
+    {
+      "label": {
+        "en": [
+          "Prof. Dr. Ir. Antonia Korvezee"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/c407534f-2a77-6c10-e703-841561cbc665"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ac93661b-0f24-170f-c8ed-e158250d2bbf#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/990d9f5f-71ef-28b4-46af-e9e9e28c17e4",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "<p>Antonia (Toos) Korvezee werd in 1954 de eerste vrouwelijke hoogleraar aan de Technische Hogeschool in Delft. Ze werd geboren in Friesland maar groeide op in Den Haag, waar ze de ‘HBS voor jongens’ doorliep. Vanwege haar aanleg voor wiskunde besloot ze in Delft te gaan studeren. In 1922 studeerde ze cum laude af in de scheikundige technologie en werd ze voor twee jaar assistente bij analytische scheikunde. Ze vervolgde haar opleiding in Delft door bij professor Scheffer een promotieonderzoek te doen. In 1930 promoveerde ze met lof op een onderwerp over koperchloride als katalysator. Van de 26 dissertaties die binnen het lab van professor Scheffer werden geschreven waren er 5 van de hand van vrouwen - voor die tijd een hoog percentage.</p><p>Begin jaren dertig werkte Korvezee met een toelage van het Delfts Hogeschoolfonds enige jaren in Parijs bij Irène Curie aan het toen nieuwe specialisme van radioactiviteit. Terug in Delft werd ze in 1935 privaatdocente in dit vakgebied. In status stelde dit niet veel voor, maar vaak kon dit dienen als een opstap naar een nieuw te creëren leerstoel.</p><p>Door tussenkomst van de Tweede Wereldoorlog liep het voor Korvezee echter anders. Ze vertrok uit Delft en werkte bij een bedrijf in Venlo. Na de oorlog keerde ze terug naar Delft, waar inmiddels een andere wind woei: de laboratoriumsfeer had plaatsgemaakt voor de ingenieursaanpak van de wederopbouw en het industrialisatiestreven volgens Amerikaans model. Nieuwe speerpunten waren procesindustrie, petrochemische industrie en kernenergie.</p><p>Op dat laatst gebied was Korvezee deskundige, zodat ze in 1948 werd benoemd tot lector. Bij de opvolging in 1953 van haar leermeester Scheffer werd ze echter gepasseerd en bij de voorbereiding om te komen tot een prestigieus instituut voor kernenergie-onderwijs werd ze niet betrokken. Haar taken verschoven in de richting van het onderwijs. Ze begeleide vijf promovendi, maar vestigde geen eigen school. In 1954 werd ze alsnog benoemd tot buitengewoon hoogleraar in de theoretische scheikunde. Vanaf 1959 voelde ze zich ziek en klaagde ze over ‘een alles overheersende vermoeidheid’. Haar ziekzijn noopte haar om ontslag te vragen. Haar afscheid gebeurde met stille trom. Ze overleed in Den Haag in 1978.</p><p>Opvolgsters heeft Korvezee niet gekend. Na de oorlog waren er aan de TH enkel bij de afdeling Technische Natuurkunde en bij de vakgroep Vezeltechniek nog enkel vrouwelijke collega’s werkzaam. Ondanks de grote uitbreiding van het aantal leerstoelen in de jaren vijftig en zestig duurde het 25 jaar voordat er weer een vrouw tot hoogleraar werd benoemd: Franziska Bollerey, die in 1980 hoogleraar in de architectuur- en stedenbouwgeschiedenis werd bij de afdeling Bouwkunde. In 1989 werd aan de TU een jaarlijkse emancipatieprijs ingesteld, de Antonia Korvezeeprijs, maar deze werd na enige jaren weer opgeheven.</p><p>Meer lezen: Frida de Jong, Standhouden in Delft, Gewina 20 (1997), pp. 227-243.</p>"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Prof. Dr. Ir. Antonia Korvezee (1899-1978)"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/26cadd49-5c6a-be88-fe55-14449a9cb4a3"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ac93661b-0f24-170f-c8ed-e158250d2bbf",
+      "behavior": [
+        "info",
+        "w-4",
+        "h-6"
+      ],
+      "summary": {
+        "en": [
+          "Antonia Korvezee (1899-1978) werd in 1954 de eerste vrouwelijke hoogleraar aan de Technische Hogeschool in Delft. Ze werd geboren in Friesland maar groeide op in Den Haag, waar ze de ‘HBS voor jongens’ doorliep.",
+          "",
+          "Vanwege haar aanleg voor wiskunde besloot ze in Delft te gaan studeren. In 1922 studeerde ze cum laude af in de scheikundige technologie en werd ze voor twee jaar assistente bij analytische scheikunde. Ze vervolgde haar opleiding in Delft door bij professor Scheffer een promotieonderzoek te doen. In 1930 promoveerde ze met lof op een onderwerp over koperchloride als katalysator.",
+          "",
+          "Van de 26 dissertaties die binnen het lab van professor Scheffer werden geschreven waren er 5 van de hand van vrouwen - voor die tijd een hoog percentage."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "'Mijn man is geen architect; dat architectenbureau is van mij'"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/cc4be6d0-482b-e2b3-2090-4ada2c8622c2"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/77947f0a-e920-99ab-8616-11f978be7778#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6b870481-dfa5-46b4-598b-9f6783efd563",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "<h1>Acht Vrouwen in een Mannenwereld: Van Delftsche Novieten tot Ingenieurs</h1><p><em>Een voorpublicatie op basis van acht citaten.</em></p><h2>1. 'Ik wil ontwerpen, een stadsplan ontwikkelen dat ook daadwerkelijk gerealiseerd wordt'</h2><p>‘Ambities? Wat ben je van plan, het bevalt je toch goed als universitair docent op de TUD?’</p><p>‘Jawel.’ Hennie laat een stilte vallen om de spanning op te voeren. ‘Best leuk, hoor, dat lesgeven en projecten begeleiden, maar na een tijdje begint dat ook te vervelen. Ik ben niet voor niets stedenbouwer, ik wil de praktijk in, ik wil ontwerpen, een stadsplan ontwikkelen dat ook daadwerkelijk gerealiseerd wordt. Dus heb ik gesolliciteerd op een baan bij een stedenbouwkundig bureau.’</p><p>‘Goh, goed van je!’</p><p>‘Voor mijn veertigste, voor 1979 dus, wil ik bij een stedenbouwkundig bureau werken,’ zegt Hennie vastberaden.</p><h2>2. ‘Van een vrouw wordt verwacht dat ze haar idealen opgeeft en haar man volgt tot in de woestijn'</h2><p>Siu Ling staat op, schenkt zich koffie in. Wrevelige rimpels op haar voorhoofd. Het is toch idioot, denkt ze, dat in onze cultuur, in onze maatschappij, een man wel al zijn talenten kan ontwikkelen, zijn eerzucht kan volgen, over de hele wereld werk kan zoeken. Maar van een vrouw wordt verwacht dat ze haar idealen opgeeft en haar man volgt tot in de woestijn van een onderontwikkeld gebied. Als een vrouw kiest voor haar ambitie en haar werk wordt er schande van gesproken. Waarom zou een vrouw al haar dromen op moeten geven en mag een man de richting kiezen die hij zelf wil? Hier ben ik gelukkig, laat Folkert mij maar volgen en hier een baan zoeken.</p><h2>3. Het zal wel even wennen zijn, maar ingenieur Eygelaar is een vrouw'</h2><p>De telefoon op haar bureau rinkelt dringend.</p><p>‘Goedemorgen,’ zegt ze opgewekt. ‘Met Tineke Eygelaar.’</p><p>‘Hallo,’ klinkt het aan de andere kant van de lijn. ’Mag ik ingenieur Eygelaar van u?’’</p><p>‘Daar spreekt u mee,’ zegt ze.</p><p>‘Verbind u mij door met de ingenieur,’ klinkt het ongeduldig.</p><p>‘U bent al doorverbonden,’ zegt ze.</p><p>‘Moet u luisteren, juffrouw. Ik heb een dringende boodschap voor de ingenieur en u moet mij nu met hem doorverbinden.’</p><p>‘Daar spreekt u mee,’ herhaalt ze.</p><p>De man verliest nu echt zijn geduld.</p><p>‘Hoor eens even hier, juffrouw, ik ben niet in voor grapjes. Ik heb ingenieur Eygelaar nodig en wel nú!’</p><p>‘Ach heden.’ Ze kan haar lachen niet meer inhouden. ‘Het zal wel even wennen zijn, maar ingenieur Eygelaar is een vrouw.’</p><h2>4. 'Zo worden dictatoriale regiems gemaakt'</h2><p>De novieten leren dat er clubleden zijn en novieten, de nieuwkomers dus. De vele corveediensten zijn uiteraard voor de novieten.</p><p>‘Wat kom je hier doen?’ vraagt een clublid aan Dorothee.</p><p>‘Ik wil studeren en lid worden van de DVSV.’</p><p>‘Waarom de DVSV?’</p><p>‘Mijn moeder zei dat ik me …’</p><p>‘Moederskindjes kunnen we hier niet accepteren. Je kunt gaan.’</p><p>‘De DVSV,’ hakkelt ze, ‘is de beste studentenvereniging die er is, waardig en intellectueel en ik wil niets liever dan alles doen …’</p><p>Zo worden dictatoriale regiems gemaakt, denkt Dorothee. Maar ze schikt en plooit zich om maar in de gunst te komen, want weggestuurd worden is geen optie.</p><h2>5. ‘Meisjes hoefden niet te studeren, die kregen later toch een man'</h2><p>Maja beleeft die eerste dag van de ontgroening op OD26 op haar eigen manier. Ze denkt terug hoe de dag begon, hoe ze die ochtend werd uitgezwaaid door haar moeder, en ze realiseert zich hoe bijzonder dat is. Dat doet haar moeder anders nooit. Kennelijk vindt ze het belangrijk dat haar dochter in Delft gaat studeren.</p><p>Vanmorgen zei mama dat ze graag zag dat haar kind een carrière zou opbouwen.</p><p>‘Daar heb ik je voor grootgebracht,’ zei ze. Zij heeft zelf niet gestudeerd. Meisjes hoefden niet te studeren, die kregen later toch een man. En haar man heeft haar ook niet gestimuleerd om te studeren. Hij is immers uitvinder en hoogleraar en dat is genoeg. Mama beschouwt dat als de weeffout van haar leven.</p><h2>6. Ik ben een bèta, niks vage alfastudies'</h2><p>Ik ben een bèta, niks vage alfastudies, ik wil naar Delft, dacht Femke. Dus moet ik dat slim aanpakken als ik naar Delft wil.</p><p>En dat heeft ze doorgezet. Toen het nakomertje, haar broertje Hans, geboren werd heeft ze haar wil doorgedreven. Dit is mijn kans, dacht ze. Iedereen had het druk met dat kind en toen ze even niet opletten, is ze afgereisd naar Delft om zich in te schrijven.</p><p>‘Waar ga je naartoe?’ riep oma nog.</p><p>‘Even naar mijn vriendin, ik ben met het avondeten weer terug.’</p><p>Weg was ze.</p><p>Die ambtenaar van de Technische Hogeschool vroeg nog om een handtekening van haar vader of wettelijke vertegenwoordiger, maar dat probleem was snel opgelost. Even een straatje om, op een bankje een valse handtekening zetten en de zaak was voor elkaar. Weet die ambtenaar veel en tegen de tijd dat de rekening van het collegegeld in de brievenbus valt, ziet ze wel weer.</p><h2>7. ‘Ik begon mijn carrière met een verontrustend artikel over een dorp in Japan waar mensen ernstig ziek werden door verontreinigingen'</h2><p>'Wat wij doen is technologische kennis en hulpmiddelen introduceren in de gezondheidszorg,’ vertelt Tineke. Zij heeft zich in een ruime fauteuil genesteld en serveert thee met een koekje. ‘Wij gaan uit van de vraagstelling in de zorgsector. Voor technologische oplossingen is veel belangstelling. Verschillende buitenlandse onderzoekers komen tijdelijk bij onze vakgroep werken.’</p><p>‘Lijkt me interessant om een medisch vraagstuk te vertalen naar een elektrotechnisch probleem,’ meent Marian. Ze zit in een luie stoel naast een rommelig bijzettafeltje, waar naast krant en bril van Tineke nog een schaal met koekjes prijkt.</p><p>‘Dat is wat het boeiend maakt. Je moet buiten de grenzen van je eigen vakgebied kunnen kijken en de problemen die daar spelen vertalen naar een elektrotechnische opgaaf en daarna terugvertalen naar de medische wereld.’</p><p>‘Dat is nog eens wat anders dan een haven.’ Marian pakt een koekje en vervolgt: ‘Ik begon mijn carrière met een verontrustend artikel over een dorp in Japan waar mensen ernstig ziek werden door verontreinigingen. Sindsdien worden er steeds meer eisen gesteld om het milieu te beschermen. Als we een nieuwe haven baggeren in een natuurgebied moeten we elders nieuwe natuur creëren.’</p><h2>8. ‘Mijn man is geen architect. Dat architectenbureau is van mij'</h2><p>‘Dat zal ik u precies vertellen,’ zegt de docent. De mondhoeken van zijn pruimenmondje zakken misprijzend omlaag. ‘Als een kind thuiskomt, dan hoort daar de moeder te zijn, die haar ondersteunt en vragen kan beantwoorden en helpt bij huiswerk en problemen met vriendjes en zo. Maar Barbara heeft me verteld dat u geen van beiden thuis bent als zij uit school komt. Het is niet goed voor een kind om in een leeg huis te komen.’ Hij kijkt hen verwijtend aan, haalt zijn bril van zijn neus en begint die te poetsen om zijn woorden goed tot hen door te laten dringen.</p><p>Hetty voelt zich geroepen om ook wat te zeggen.</p><p>‘Ja, dat is het probleem met een eigen bedrijf,’ zegt ze. ‘Dan wordt er veel meer een beroep gedaan op de zelfredzaamheid van de kinderen. Maar het voordeel is wel dat kinderen hierdoor sneller onafhankelijk en zelfstandig worden.’</p><p>‘U ziet dat helemaal verkeerd.’ De docent snuift luidruchtig. ‘Ik heb uitgebreid met Barbara gesproken. Het is een bijzonder lief meisje. Ze wilde u eerst niets verwijten, maar toen kwam het hoge woord eruit. Zij verwijt u dat u nooit thuis bent en haar verwaarloost. En ik vind het mijn plicht, als klassendocent van uw dochter, om u, mevrouw, hierover aan te spreken.’ Zijn ogen priemen als een geslepen potlood in haar richting.</p><p>‘U bedoelt?’ zegt Hetty.</p><p>‘Ik bedoel dat een vrouw haar kinderen moet begeleiden en haar man moet ondersteunen. Het is de taak van een vrouw om thuis te zijn voor man en kinderen, zodat u ze goede raad kunt geven en met uw wijze woorden kunt ondersteunen. Een vrouw waakt over haar huishouding, nietsdoen is haar onbekend.’ Zelfvoldaan staart hij haar aan.</p><p>‘En wat is de taak van een man?’ vraagt Hetty, lichtelijk aangeslagen.</p><p>‘Uw man is een belangrijk architect. Hij heeft een eigen architectenbureau. Dat is een drukke en verantwoordelijke baan en hij heeft daarom geen tijd om de kinderen te begeleiden. Dat is de taak van de vrouw, van u, mevrouw.’</p><p>Er balt zich iets in Hetty samen.</p><p>‘Bedoelt u architectenbureau LG102?’ zegt ze. ‘Mijn man is geen architect. Dat architectenbureau is van mij.’</p>"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/98ae9103-91bc-83c7-733b-e28219dcd2ec"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/77947f0a-e920-99ab-8616-11f978be7778",
+      "behavior": [
+        "info",
+        "info",
+        "w-4",
+        "h-5"
+      ],
+      "summary": {
+        "en": [
+          "In 1956 werd de zogenoemde handelingsonbekwaamheid voor vrouwen in Nederland afgeschaft. Dit had als gevolg dat gehuwde vrouwelijke ingenieurs ook daadwerkelijk hun beroep konden gaan uitoefenen.",
+          "In het te verschijnen boek 'Acht Vrouwen in een Mannenwereld: Van Delftsche Novieten tot Ingenieurs' beschrijft Marian Geense de levensloop van haar jaarclub van de DVSV uit 1956, en de vooroordelen waarmee de vrouwen te maken krijgen in hun werkende leven. Lees hier een voorpublicatie van het boek op basis van acht citaten."
+        ]
+      }
     },
     {
       "label": {
@@ -1576,7 +1799,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bd1cee2a-2711-286e-85c0-e59fba3b4487",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6118e9ac-0aff-f5cb-47dd-5b9a2f8715ac#xywh=0,0,1000,656"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6118e9ac-0aff-f5cb-47dd-5b9a2f8715ac#xywh=0,0,1000,656",
+              "summary": {
+                "en": [
+                  "Eerstejaars Bouwkunde-studenten brengen het hout voor de open haard naar de opslag in de kelder. De Club bevond zich op de Oude Delft 26; links op de foto de beheerder van het pand."
+                ]
+              },
+              "label": {
+                "en": [
+                  "De Club van de DVSV (Rond 1956)"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/106f7d77-fa57-f509-b2ec-df6624c49528"
@@ -1588,55 +1821,6 @@
         "w-8",
         "h-5"
       ]
-    },
-    {
-      "label": {
-        "en": [
-          "'Mijn man is geen architect; dat architectenbureau is van mij'"
-        ]
-      },
-      "height": 1000,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "new annotation",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/cc4be6d0-482b-e2b3-2090-4ada2c8622c2"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/77947f0a-e920-99ab-8616-11f978be7778#xywh=0,0,300,200",
-              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6b870481-dfa5-46b4-598b-9f6783efd563",
-              "motivation": "painting",
-              "summary": {
-                "en": [
-                  "<h1>Acht Vrouwen in een Mannenwereld: Van Delftsche Novieten tot Ingenieurs</h1>",
-                  "<h2>'Ik wil ontwerpen, een stadsplan ontwikkelen dat ook daadwerkelijk gerealiseerd wordt'</h2><p>‘Ambities? Wat ben je van plan, het bevalt je toch goed als universitair docent op de TUD?’</p><p>‘Jawel.’ Hennie laat een stilte vallen om de spanning op te voeren. ‘Best leuk, hoor, dat lesgeven en projecten begeleiden, maar na een tijdje begint dat ook te vervelen. Ik ben niet voor niets stedenbouwer, ik wil de praktijk in, ik wil ontwerpen, een stadsplan ontwikkelen dat ook daadwerkelijk gerealiseerd wordt. Dus heb ik gesolliciteerd op een baan bij een stedenbouwkundig bureau.’</p><p>‘Goh, goed van je!’</p><p>‘Voor mijn veertigste, voor 1979 dus, wil ik bij een stedenbouwkundig bureau werken,’ zegt Hennie vastberaden.</p><h2>'Ik kom hier om kennis over te dragen, niet om aardig gevonden te worden'</h2><p>Voor de docenten van de HTS in Enschede is de val van de Berlijnse muur de directe aanleiding om voor de studenten een excursie naar Rusland te organiseren en Tineke, docent medische elektrotechniek, gaat mee.</p><p>Trots vertelt ze aan Maja wat haar plannen zijn.</p><p>‘Wist jij dat het al een heel oude beschaving is?’ Op haar zonnige terras in Enter is het goed toeven. De camelia bloeit en de eerste narcissen komen op.</p><p>’Toen wij hier nog in berenvellen op jacht gingen, hadden ze in de buurt van Moskou al nederzettingen met landbouw en veeteelt. Moskou werd in de elfde eeuw al in geschriften vermeld.’</p><p>‘Wat dacht je van Nijmegen?’ lacht Maja. Ze heeft haar haren kortgeknipt, haar elegante witte rokje gestreken. ‘Volgens mij kreeg Nijmegen rond het jaar honderd al marktrechten.’</p><p>‘Oké. Maar interessant is de grootsheid van de stad Moskou. Nijmegen is toch maar kneuterig gebleven. Moskou heeft het Rode Plein, het Theaterplein, het Bolsjoj-theater, de brede avenues, de elegante villa’s, de grote paleizen. Dat is allemaal gebouwd nadat Napoleon zich na die allesverwoestende brand in 1812 had teruggetrokken met wat er over was van zijn legers.’</p><p>‘En jullie gaan dat allemaal bekijken.’</p><p>‘Natuurlijk. We lopen over het Rode Plein met het Kremlin en het Leninmausoleum. We stappen in de metro. We gaan naar het theater.’</p><p>‘Ik hoop dat de leerlingen je wel aardig genoeg vinden om mee te gaan,’ spot Maja met een grijns.</p><p>‘Wat een flauwekul!’ lacht Tineke. Ontspannen schenkt ze nog een kop thee in. ‘Dat zal me toch verder worst zijn of de leerlingen me aardig vinden. Ik kom hier om kennis over te dragen, niet om aardig gevonden te worden.’</p><h2>'Van een vrouw wordt verwacht dat ze haar idealen opgeeft en haar man volgt tot in de woestijn'</h2><p>Siu Ling staat op, schenkt zich koffie in. Wrevelige rimpels op haar voorhoofd. Het is toch idioot, denkt ze, dat in onze cultuur, in onze maatschappij, een man wel al zijn talenten kan ontwikkelen, zijn eerzucht kan volgen, over de hele wereld werk kan zoeken. Maar van een vrouw wordt verwacht dat ze haar idealen opgeeft en haar man volgt tot in de woestijn van een onderontwikkeld gebied. Als een vrouw kiest voor haar ambitie en haar werk wordt er schande van gesproken. Waarom zou een vrouw al haar dromen op moeten geven en mag een man de richting kiezen die hij zelf wil? Hier ben ik gelukkig, laat Folkert mij maar volgen en hier een baan zoeken.</p><h2>'Het zal wel even wennen zijn, maar ingenieur Eygelaar is een vrouw'</h2><p>De telefoon op haar bureau rinkelt dringend.</p><p>‘Goedemorgen,’ zegt ze opgewekt. ‘Met Tineke Eygelaar.’</p><p>‘Hallo,’ klinkt het aan de andere kant van de lijn. ’Mag ik ingenieur Eygelaar van u?’’</p><p>‘Daar spreekt u mee,’ zegt ze.</p><p>‘Verbind u mij door met de ingenieur,’ klinkt het ongeduldig.</p><p>‘U bent al doorverbonden,’ zegt ze.</p><p>‘Moet u luisteren, juffrouw. Ik heb een dringende boodschap voor de ingenieur en u moet mij nu met hem doorverbinden.’</p><p>‘Daar spreekt u mee,’ herhaalt ze.</p><p>De man verliest nu echt zijn geduld.</p><p>‘Hoor eens even hier, juffrouw, ik ben niet in voor grapjes. Ik heb ingenieur Eygelaar nodig en wel nú!’</p><p>‘Ach heden.’ Ze kan haar lachen niet meer inhouden. ‘Het zal wel even wennen zijn, maar ingenieur Eygelaar is een vrouw.’</p><h2>'Getrouwde vrouwen geven alleen maar sores'</h2><p>Het was al heel wat dat het Amsterdamse ingenieursbureau Comprimo Maja als getrouwde vrouw had aangenomen. De overheid en de meeste bedrijven vinden dat getrouwde vrouwen alleen maar sores geven met hun huishoudelijke verplichtingen. Maar nu ze in verwachting is, is het afgelopen met haar carrière bij dit bedrijf. In 1968 wordt Maja ontslagen. De reden voor haar ontslag, is haar zorgplicht voor de baby.</p><h2>'Maar ik ben toevallig een vrouw en ik heb behoorlijk veel vakkennis'</h2><p>‘Meent u dat echt, bent u makelaar?’ De vrouw droeg een grijs mantelpakje met een streepje. Ze klemde haar handtasje onder haar arm. ‘Dat is dus, hoe zal ik het zeggen … U moet het me niet kwalijk nemen … maar wel bijzonder, voor een vrouw, bedoel ik.’</p><p>‘Ja,’ lachte Femke. ‘Dat klopt. Veel klanten kijken vreemd aan tegen een vrouw, want bijna alle makelaars zijn mannen. Maar ik ben toevallig een vrouw en ik heb behoorlijk veel vakkennis.’</p><p>‘O, als u dat dan zeker weet,’ aarzelde de vrouw, ‘ik ben niet zo zakelijk, snapt u.’</p><h2>'Ik ga voor die prijs'</h2><p>‘Er is een prijs verbonden aan de mooiste stand, qua creativiteit en originaliteit. Ik ga voor die prijs,’ zegt Hetty. ‘Dan moet je goede ideeën hebben. Ik ga uit van twee vijfhoeken. Op dat idee is vast nog nooit iemand gekomen. Moet je zien hoe mooi dat wordt. Heel bijzonder, dat trekt publiek. Je snapt dat zo’n vijfhoek constructief goed in elkaar moet zitten. Hoe maak je daar bijvoorbeeld een plafond in.’</p><h2>'Als je goed wilt ontwerpen moet je dat met de hand doen, met zacht potlood'</h2><p>‘Scoliose, een verkromming van de ruggengraat. Het is niet anders.’ Hennie haalt haar schouders op. ‘Die rug kwam omdat ik altijd achter de tekentafel heb gestaan. Volgend jaar word ik tweeënzestig en moet ik met prepensioen. Spijtig, Ik had graag nog wat door willen werken. Maar je moet ruimte maken voor de nieuwe generatie.’</p><p>‘Hebben jullie geen computers, zodat je niet achter die tekentafel hoeft te staan?’</p><p>‘Natuurlijk wel, de tekenkamer heeft tegenwoordig computers. Maar dat programma is waardeloos. Je kunt je creativiteit er niet in kwijt. Als je goed wilt ontwerpen moet je dat met de hand doen, met zacht potlood. Neem nou dat slakkenhuis dat ik had getekend. Dat moest door de tekenkamer worden uitgewerkt. In het begin tekende die jongen coördinaten en vaste punten. Ik zei tegen hem: Dat is een eenparig vergrotende cirkel, een logaritmische spiraal en daar is een formule voor. Hij heeft toen een bureau gebeld welke formule dat was. Toen was de jongste ineens de beste want hij kon ermee overweg.’</p><h2>'Ik zou altijd willen vliegen'</h2><p>Beneden haar verdwijnen de zwaaiende mensen, de stad, de bergen, de palmen, de sawa’s, die steeds kleiner worden en dan komt de zee, eindeloze golven onder een strakblauwe hemel.</p><p>Het toestel is vol. Siu Ling kijkt rond. Zeker tachtig mensen. Wat een mooie tulband draagt die man, denkt ze. Een Brits-Indiër? Hij lijkt op die Brits-Indiërs met tulbanden, die hen na de Tweede Wereldoorlog kwamen bevrijden. Dat maakte toen, als vijfjarige, enorme indruk op haar. De man knikt ernstig naar haar. Ze knikt beleefd terug.</p><p>Vrij! denkt ze. Ik zou altijd willen vliegen. Spelen met de wind in de lucht. Fantastisch dat ik vliegtuigbouwkunde ga studeren in Delft. Zo van bovenaf lijken er geen grenzen, kun je overal onbelemmerd naartoe. Het landschap beneden lijkt nietig, niet meer dan een landkaart met bergen, rivieren en zee.</p><p>Haar vriendinnen waren jaloers. In gedachten vertelt ze hen over het feest dat vliegen is, over alles wat ze ziet en beleeft. Zij zou ze willen vertellen hoe bijzonder het is om hoog boven de wereld te zweven.</p><h2>'Hoe doe je dat, hoe kies je de beste vorm, hoe bereken je de constructieonderdelen, hoe bereken je de risico’s?'</h2><p>Midden in de nacht schrikt ze wakker. Ze heeft gedroomd van Rotterdam. Dat beeld spookt nog lang door haar hoofd. Havens, kades, overslagterreinen. Grote machines, kolkend water, gapende gaten. Woeste draaikolken sleuren zand, schepen, stapels bankbiljetten naar beneden. Een onafzienbare stroom geld op haar nek dreigt haar mee te sleuren, de diepte in, naar een verschrikkelijk niets. Zwetend word ze wakker, waar ben ik?</p><p>Ze gooit de dekens van zich af, bed uit, water drinken, hijgend bijkomen voor het geopende raam.</p><p>Wonderlijk dat ik van Rotterdam droomde, denkt ze. Rotterdam, met zijn baggerwerk, zijn havens en kades. Verlang ik terug naar een onbezorgde tijd? Eerlijk gezegd, zo onbezorgd was die tijd niet. Maar kademuren kunnen ze wel bouwen, daar in Rotterdam.</p><p>Ze warmt een glas melk op in de magnetron.</p><p>Voor het open raam, warm glas melk in de hand, kijkt ze naar de lichtjes op straat. Wat is een stad vredig in de nacht. Ver weg rijden auto´s op de snelweg, varen schepen op zee, op weg naar een veilige haven. Nergens zijn de havens zo toegespitst op schepen met heel grote diepgang, worden kades gebouwd voor zulke diepstekende schepen. Op zo´n kade werken enorme krachten van grond en water en het is knap ingewikkeld om zo’n enorme constructie diep in de ondergrond te bouwen. Daardoor is zo’n constructie zeer kapitaalintensief en vol risico’s. Er bestaat geen enkel handboek waarin uitgelegd wordt hoe je zo’n kademuur moet ontwerpen, berekenen en bouwen.</p><p>Hoe doe je dat, hoe kies je de beste vorm, hoe bereken je de constructieonderdelen, hoe bereken je de risico’s? In feite is die kennis uniek.</p><h2>'\"Hate cannot drive out hate.\" De woorden van Martin Luther King resoneren door het RAI-gebouw'</h2><p>Langzaam stroomt de RAI vol.</p><p>Als iedereen binnen is daalt een diepe stilte neer. Dorothee houdt haar adem in. Echt iedereen is stil en wacht vol spanning af.</p><p>Na een welkomstwoord en een gezamenlijk gezongen psalm komt Martin Luther King binnen. Ontspannen loopt hij naar het spreekgestoelte, overziet de toegestroomde menigte. Dorothee heeft het gevoel dat hij iedereen even persoonlijk aankijkt. Het is muisstil. Zou King nu denken: weinig zwarte mensen hier?</p><p>‘Darkness cannot drive out darkness. Only light can do that.’</p><p>Hij wacht even tot de betekenis van deze woorden tot zijn gehoor is doorgedrongen.</p><p>‘Hate cannot drive out hate.’ De woorden van Martin Luther King resoneren door het RAI-gebouw. ‘Only love can do that.’</p><p>Dorothee knikt. Ja, denkt ze, dat is de kern van alle waarheid. Alleen liefde kan haar verdrijven.</p><p>Dan vertelt King de parabel van de gast die midden in de nacht op de deur klopt van een man, die in diepe rust is. De onverwachte bezoeker wil drie broden hebben. De man zegt: ‘Ik doe mijn deur niet open, want het is middernacht.’ En dat is de positie van de zwarten, zij kloppen op die deur en zij blijven kloppen.</p><p>‘Veel mensen zijn teleurgesteld,’ preekt King. ‘Zij hebben het gevoel dat zij niet meetellen, dat niemand om hen geeft, dat ze onrechtvaardig worden behandeld. Zij vragen om een brood van hoop, een brood van liefde en een brood van rechtvaardigheid.’</p><p>Hoop, liefde en rechtvaardigheid, peinst Dorothee, de bijbel zegt: geloof, hoop en liefde. Rechtvaardigheid in plaats van geloof. Ja, dat past beter in deze tijd.</p><h2>'Ik heb het onmisbare ingrediënt voor geluk gevonden'</h2><p>‘Ik heb het onmisbare ingrediënt voor geluk gevonden.’</p><p>‘En dat is?’</p><p>‘Een mens die herkend wordt, leert en groeit.’</p><p>‘Je bedoelt?’</p><p>‘Een mens kan alleen maar gelukkig zijn als die herkend wordt, leert en groeit.’</p><h2>'Weg met alle conventies en regeltjes, geboden en verboden en benepen kortzichtigheid'</h2><p>‘Wat een gezellig huis,’ zegt Hennie. ‘Ademt de sfeer van onze studententijd. Weet je nog dat we samen over architectuur en stedenbouw praatten, over vrije vormgeving, over emancipatie?’</p><p>‘En over man-vrouw-maatschappij,’ lacht Femke. ‘Jij vond het maar niks, die filosofische beschouwingen, maar ik vond het geweldig; weg met alle conventies en regeltjes, geboden en verboden en benepen kortzichtigheid. Ik was bevrijd van de bekrompen regels van fatsoen, vrij van de hang naar status en geld, vrij van de zoektocht naar erkenning.’</p><h2>'Zeker, er zijn zat risico’s met een eigen bedrijf'</h2><p>‘Een baas geeft zekerheid.’ Hij geeft een nijdige ruk aan het stuur. ‘Een vast inkomen en pensioen. Het is maar goed dat ik een behoorlijk salaris heb, dat geeft zekerheid voor de kinderen. Dat speculatieve bestaan van jou geeft geen solide basis.’</p><p>‘Ik zit nooit om werk verlegen,’ stuitert ze. ‘Ik heb het goed voor elkaar. Opdrachten zat.’</p><p>‘Die soms mislukken zodat je niets verdient en maanden zonder inkomen bent.’</p><p>‘Zeker, er zijn zat risico’s met een eigen bedrijf,’ zegt Hetty. ‘Maar een misser verdien ik met de volgende opdrachten dik terug. Over een heel jaar gezien heb ik meer inkomen dan jij.’</p><p>‘Ik zorg voor de stabiliteit in ons gezin,’ zegt hij afgemeten. ‘Dat wisselende inkomen van jou en al die spanning of je wel voldoende werk hebt.’</p><p>‘Jij bent gewoon jaloers. Volgens mij ben je zo jaloers als de pest.’</p><p>Zijn gezicht verkrampt. Nijdig trapt hij op de rem, staat met een schok stil en kijkt haar woedend aan.</p><p>Ze zwijgt verschrikt. Nu geen ruzie maken, denkt ze.</p><p>‘Sorry,’ zegt ze. ‘Zitten we zowaar in de auto te ruziën.’</p><h2>'Waarom golven altijd evenwijdig aan de kust op het strand afkomen'</h2><p>Het wateroppervlak in een golfveld vertoont een grillig patroon, leest ze in de aantekeningen die ze tijdens college heeft gemaakt. De energie speelt een belangrijke rol in het beschrijven van golven in een golfveld. Met een Fourieranalyse is het mogelijk om het grillige wateroppervlak te beschrijven.</p><p>Met een klop op de deur brengt mams haar een kop hete thee. Ze is twee trappen omhoog geklommen, want hun woonkamer en de slaapkamer van mams liggen een verdieping lager dan die van de familie Brasem.</p><p>‘Hoe gaat het?’ vraagt mams.</p><p>‘Ik ben bezig met golven. Nu snap ik eindelijk waarom golven altijd evenwijdig aan de kust op het strand afkomen, van welke kant de wind ook waait.’</p><p>‘Werkelijk? Ik herinner me dat je dat als kind al wilde weten, toen we langs het strand liepen.’</p><p>‘Ja, ze draaien bij als ze de kust naderen.’</p><p>‘Alsjeblieft.’ Mams reikt de thee aan.</p><p>‘Dank je. Wist je dat elk waterdeeltje in een golfveld een verticale cirkelbeweging maakt. Daarom blijft een bal, die op de golven drijft, altijd min of meer op dezelfde plek liggen, ook al beweegt de golf met grote snelheid naar de kust.’</p><h2>'Zo worden dictatoriale regiems gemaakt'</h2><p>De novieten leren dat er clubleden zijn en novieten, de nieuwkomers dus. De vele corveediensten zijn uiteraard voor de novieten.</p><p>‘Wat kom je hier doen?’ vraagt een clublid aan Dorothee.</p><p>‘Ik wil studeren en lid worden van de DVSV.’</p><p>‘Waarom de DVSV?’</p><p>‘Mijn moeder zei dat ik me …’</p><p>‘Moederskindjes kunnen we hier niet accepteren. Je kunt gaan.’</p><p>‘De DVSV,’ hakkelt ze, ‘is de beste studentenvereniging die er is, waardig en intellectueel en ik wil niets liever dan alles doen …’</p><p>Zo worden dictatoriale regiems gemaakt, denkt Dorothee. Maar ze schikt en plooit zich om maar in de gunst te komen, want weggestuurd worden is geen optie.</p><h2>'Meisjes hoefden niet te studeren, die kregen later toch een man'</h2><p>Maja beleeft die eerste dag op OD26 op haar eigen manier. Ze denkt terug hoe de dag begon, hoe ze die ochtend werd uitgezwaaid door haar moeder, en ze realiseert zich hoe bijzonder dat is. Dat doet haar moeder anders nooit. Kennelijk vindt ze het belangrijk dat haar dochter in Delft gaat studeren.</p><p>Vanmorgen zei mama dat ze graag zag dat haar kind een carrière zou opbouwen.</p><p>‘Daar heb ik je voor grootgebracht,’ zei ze. Zij heeft zelf niet gestudeerd. Meisjes hoefden niet te studeren, die kregen later toch een man. En haar man heeft haar ook niet gestimuleerd om te studeren. Hij is immers uitvinder en hoogleraar en dat is genoeg. Mama beschouwt dat als de weeffout van haar leven.</p><h2>'Schande, een gehuwde vrouw die werkt! Je hoort voor je gezin te zorgen'</h2><p>‘Toen wij begonnen was nog geen anderhalf procent van de eerstejaars vrouw. Dat is nu eenentwintig procent.’</p><p>‘Ha, dan is er nog hoop voor vrouwen in de techniek,‘ lacht Hetty.</p><p>Met enthousiaste kreten buigen de dames zich over de bijeengegaarde cijfers.</p><p>‘Van ons jaar is de helft in Delft afgestudeerd,’ zegt Femke. ‘Net als bij de heren, daar haakt ook de helft halverwege af.’</p><p>‘Ons jaar was veel geëmancipeerder dan de rest van Nederland,’ zegt Femke. ‘Kijk maar, van ons jaar werkte in 1980 drieënzeventig procent, terwijl in die tijd nog geen veertig procent van de vrouwen onder de vijftig een betaalde baan had.’</p><p>‘In de landen om ons heen hebben veel meer vrouwen een betaalde baan en is het heel gewoon om je kind alle werkdagen naar de opvang te brengen.’</p><p>‘Dat verschil per land stamt uit de Eerste Wereldoorlog.’ Maja strijkt door haar kortgeknipte grijze haar, bereid om een college emancipatiegeschiedenis te geven. ‘In onze buurlanden waren veel mannen onder de wapenen of gesneuveld, dus moesten de vrouwen de economie wel draaiende houden. Nederland was neutraal en hier was het een schande, een gehuwde vrouw die werkt! Je hoort voor je gezin te zorgen.‘</p><p>‘Sterker,’ zegt Femke, ‘wij mochten als getrouwde vrouw niet eens werken. Ik weet nog dat we in het laatste jaar van het gym discussieerden over een wet die verbood dat vrouwen een baan hadden als ze getrouwd waren. Pas in 1956 werd die wet opgeheven en mochten gehuwde vrouwen buiten de deur gaan werken.’</p><p>‘Mij ontsloegen ze toen ik zwanger werd,’ zegt Hennie.</p><p>‘Mij ook,’ zegt Maja.</p><h2>'Als ik mijn calques laat zien loopt de collegezaal vol'</h2><p>‘Die calque kun je zo vaak belichten als je wilt.’ Hetty raakt steeds meer op dreef. ‘Zo kun je tekeningen in meervoud maken. Daarvoor wordt papier gebruikt met een lichtgevoelige laag, die blauw kleurt als je hem belicht. Als je mijn calque voor dat papier spant, dan houden de zwarte inktlijnen het licht tegen en komen als witte lijnen op de blauwe afdruk terecht. Zo krijg je een blauwdruk.’</p><p>‘Leren bouwkundestudenten dat ook allemaal?’</p><p>‘Jazeker. Het leuke is dat ik dat allemaal in de collegezaal mag laten zien. Dat doe ik nu al meer dan een jaar. Eerst kwam er niemand op college want de hoogleraar is een beetje een saaie man. Maar als ik mijn calques laat zien loopt de collegezaal vol.‘</p><h2>'Ik ben een bèta, niks vage alfastudies'</h2><p>Ik ben een bèta, niks vage alfastudies, ik wil naar Delft, dacht Femke. Dus moet ik dat slim aanpakken als ik naar Delft wil.</p><p>En dat heeft ze doorgezet. Toen het nakomertje, haar broertje Hans, geboren werd heeft ze haar wil doorgedreven. Dit is mijn kans, dacht ze. Iedereen had het druk met dat kind en toen ze even niet opletten, is ze afgereisd naar Delft om zich in te schrijven.</p><p>‘Waar ga je naartoe?’ riep oma nog.</p><p>‘Even naar mijn vriendin, ik ben met het avondeten weer terug.’</p><p>Weg was ze.</p><p>Die ambtenaar van de Technische Hogeschool vroeg nog om een handtekening van haar vader of wettelijke vertegenwoordiger, maar dat probleem was snel opgelost. Even een straatje om, op een bankje een valse handtekening zetten en de zaak was voor elkaar. Weet die ambtenaar veel en tegen de tijd dat de rekening van het collegegeld in de brievenbus valt, ziet ze wel weer.</p><h2>'Kinderen willen niet gecombineerd worden met studie of carrière'</h2><p>Hoe doe je dat, drie kinderen opvoeden en tegelijk afstuderen? Kinderen willen niet gecombineerd worden met studie of carrière. Die willen gewoon een gezellige moeder die niet loopt te zeuren dat ze moeten afwassen en hun kamer opruimen. Een moeder die gewoon thuis is en voorleest, een spelletje doet of met ze knutselt.</p><p>Maar kinderen zijn buitengewoon tolerant ten opzichte van hun ouders en hebben een groot vermogen om zich aan te passen. Meestal gaat het dan ook goed. Maar niet altijd, zoals die keer dat Mark haar lachend tegemoetkomt als ze de deur van hun huis opent, na een warme dag werken aan haar afstudeerproject op de TH. Het is stralend weer, maar het is te laat om nog naar het strand te gaan.</p><p>Mark springt opgewekt in haar armen.</p><p>‘Hij is helemaal niet zo lief geweest, hoor,’ klikt Hans, als hij ziet dat ze zijn broertje omhelst. ‘Hij heeft een ballonnetje met water gegooid op de buurman beneden.’</p><p>‘Jij deed ook mee,’ protesteert Mark.</p><p>‘Ha, ha, maar die van jou was raak,’ glundert Hans.</p><p>‘Tjee.’ Ze voelt zich gelijk weer de ontaarde moeder. Dat krijg je ervan als je zo nodig moet studeren en je kinderen uren alleen thuis laat zitten, denkt ze. Dan halen ze de gekste dingen uit.</p><h2>'Help, dacht ze, het huishouden. Mijn hemel, nee!'</h2><p>Femke woont in Den Haag in een groot huis op de Ruychrocklaan. Men noemt het een herenhuis en het staat in een rij met allemaal dezelfde ruime woningen met een tuin voor en een tuin achter. Allemaal heel keurig. Oma woont beneden in de voorkamer en tante Dina op de zolderetage. Op de eerste verdieping zijn drie slaapkamers, voor haar ouders, voor haar broers en voor Femke.</p><p>Tante Dina is een oude dame die altijd hetzelfde ommetje maakt, steeds hetzelfde rondje. Tante Dina is nooit getrouwd geweest en daarom woont ze bij het gezin in. Zo gaat dat. Wie niet trouwt heeft geen inkomen en is afhankelijk van de familie. Tante Dina is Femkes schrikbeeld. Stel je voor, je hele leven in hetzelfde kringetje blijven ronddraaien en altijd de sloof zijn van je familie. Want reken maar dat je zonder een eigen inkomen niets te vertellen hebt. Femke huivert.</p><p>Op het gymnasium kwam een dame die voorlichting gaf over de Technische Hogeschool in Delft. Zij raadde de meisjes sterk af om daar te gaan studeren, want er zaten alleen maar jongens en dat was niets voor meisjes, die moesten het huishouden doen.</p><p>Help, dacht Femke, het huishouden! Mijn hemel, nee! Tante Dina! Ik wil onafhankelijk zijn. Ik wil naar Delft.</p><h2>'Techniek staat mij op het lijf geschreven'</h2><p>‘Als we ooit nog een baan willen, moeten we het nu doen,’ zegt Lucy. ‘Nu we nog redelijk jong zijn en met onze kennis iets kunnen betekenen op de arbeidsmarkt.’</p><p>‘Precies,’ beaamt Siu Ling. ‘Als de kinderen de deur uit zijn, zijn we te oud en wil niemand ons meer hebben.’</p><p>‘Onze levenservaring is nu optimaal,’ lacht Lucy.</p><p>‘Kijk.’ Siu Ling wijst op een advertentie van Hewlett-Packard. ‘HP zoekt een vertaler voor zijn technische handleidingen van het Engels naar het Nederlands. Als dát niet op ons lijf geschreven is.’</p><p>‘Technische handleidingen?’ vraagt Lucy.</p><p>‘Ik denk dat ze programma’s bedoelen zoals zij die hebben ontwikkeld voor gegevensanalyse, administratie, tekenprogramma’s.’</p><p>‘Vertalen, heerlijk. Ik beheers mijn talen.’</p><p>‘Behalve talenkennis heb je ook programmeerkennis nodig en dat is kennis die ik heb.’</p><p>‘Een baan van veertig uur red ik niet. Mijn gezin vraagt te veel energie.’</p><p>‘Dat is precies de reden waarom dit zo ideaal is. We doen het gewoon samen. Jij en ik, we bieden ons samen aan. Jij twintig uur en ik twintig uur. Dat is voor HP ook gunstig, want dan heeft die jouw kennis en mijn kennis bij elkaar.’</p><p>‘Twintig uur vertalen van handleidingen.’ Lucy leunt achterover, draait haar duimen rond elkaar. Een tevreden glimlach verheldert haar gezicht. ‘Mij heb je. Ik ben heel goed in talen en voor de talen die ik niet beheers kunnen we iemand inhuren.’</p><p>‘Het gaat om technische vertalingen,’ herhaalt Siu Ling. ‘Techniek staat mij op het lijf geschreven, ik zal zorgen dat het technisch allemaal klopt.’</p><p>‘Doen! We vullen elkaar goed aan. Ik wil wel tijdig stoppen om de kinderen na schooltijd op te vangen.’</p><p>‘Moet kunnen. Gemiste uren halen we ’s avond in.’</p><h2>'Ik dacht altijd dat denken het wezen van mijn leven bepaalde'</h2><p>‘Ik dacht altijd dat denken het wezen van mijn leven bepaalde,’ zegt Maja. ‘Maar ik begrijp nu dat doen, dingen tot stand brengen, onder de mensen komen, sociaal bezig zijn, zeker zo belangrijk zijn.’</p><p>‘Doen is de andere pool van de balans die ons in evenwicht houdt.’</p><p>‘De mens moet meewerken aan de voleinding der dingen door denken en doen.’</p><p>‘Dat is een belangrijke conclusie. Je moet niet alleen denken, maar ook doen.’</p><h2>'Ik begon mijn carrière met een verontrustend artikel over een dorp in Japan waar mensen ernstig ziek werden door verontreinigingen'</h2><p>'Wat wij doen is technologische kennis en hulpmiddelen introduceren in de gezondheidszorg,’ vertelt Tineke. Zij heeft zich in een ruime fauteuil genesteld en serveert thee met een koekje. ‘Wij gaan uit van de vraagstelling in de zorgsector. Voor technologische oplossingen is veel belangstelling. Verschillende buitenlandse onderzoekers komen tijdelijk bij onze vakgroep werken.’</p><p>‘Lijkt me interessant om een medisch vraagstuk te vertalen naar een elektrotechnisch probleem,’ meent Marian. Ze zit in een luie stoel naast een rommelig bijzettafeltje, waar naast krant en bril van Tineke nog een schaal met koekjes prijkt.</p><p>‘Dat is wat het boeiend maakt. Je moet buiten de grenzen van je eigen vakgebied kunnen kijken en de problemen die daar spelen vertalen naar een elektrotechnische opgaaf en daarna terugvertalen naar de medische wereld.’</p><p>‘Dat is nog eens wat anders dan een haven.’ Marian pakt een koekje en vervolgt: ‘Ik begon mijn carrière met een verontrustend artikel over een dorp in Japan waar mensen ernstig ziek werden door verontreinigingen. Sindsdien worden er steeds meer eisen gesteld om het milieu te beschermen. Als we een nieuwe haven baggeren in een natuurgebied moeten we elders nieuwe natuur creëren.’</p><h2>'Ik wil dat mijn werk betekenis heeft voor anderen'</h2><p>‘Fijn dat wij zo kunnen praten over ons vak,’ zegt Dorothee. ‘Je moet toch kunnen praten over je vak en over de betekenis van je werk.’</p><p>‘Betekenis krijgt je werk door zijn kwaliteit,’ vindt Hennie.</p><p>‘Ik wil dat mijn werk betekenis heeft voor anderen,’ zegt Dorothee.</p><p>‘Je hebt altijd voor iemand betekenis,’ zegt Hennie. ‘Al ben je niet meer dan dat ene streepje verf in een schilderij. Maar als dat streepje anders is, qua richting, kleurintentie, dan is dat schilderij ook anders, wellicht minder harmonieus, minder fraai.’</p><p>‘Ontwerpen is een zoektocht naar harmonie, naar een balans tussen de belangen van de verschillende partijen.’</p><h2>'Mijn man is geen architect. Dat architectenbureau is van mij'</h2><p>‘Dat zal ik u precies vertellen,’ zegt de docent. De mondhoeken van zijn pruimenmondje zakken misprijzend omlaag. ‘Als een kind thuiskomt, dan hoort daar de moeder te zijn, die haar ondersteunt en vragen kan beantwoorden en helpt bij huiswerk en problemen met vriendjes en zo. Maar Barbara heeft me verteld dat u geen van beiden thuis bent als zij uit school komt. Het is niet goed voor een kind om in een leeg huis te komen.’ Hij kijkt hen verwijtend aan, haalt zijn bril van zijn neus en begint die te poetsen om zijn woorden goed tot hen door te laten dringen.</p><p>Hetty voelt zich geroepen om ook wat te zeggen.</p><p>‘Ja, dat is het probleem met een eigen bedrijf,’ zegt ze. ‘Dan wordt er veel meer een beroep gedaan op de zelfredzaamheid van de kinderen. Maar het voordeel is wel dat kinderen hierdoor sneller onafhankelijk en zelfstandig worden.’</p><p>‘U ziet dat helemaal verkeerd.’ De docent snuift luidruchtig. ‘Ik heb uitgebreid met Barbara gesproken. Het is een bijzonder lief meisje. Ze wilde u eerst niets verwijten, maar toen kwam het hoge woord eruit. Zij verwijt u dat u nooit thuis bent en haar verwaarloost. En ik vind het mijn plicht, als klassendocent van uw dochter, om u, mevrouw, hierover aan te spreken.’ Zijn ogen priemen als een geslepen potlood in haar richting.</p><p>‘U bedoelt?’ zegt Hetty.</p><p>‘Ik bedoel dat een vrouw haar kinderen moet begeleiden en haar man moet ondersteunen. Het is de taak van een vrouw om thuis te zijn voor man en kinderen, zodat u ze goede raad kunt geven en met uw wijze woorden kunt ondersteunen. Een vrouw waakt over haar huishouding, nietsdoen is haar onbekend.’ Zelfvoldaan staart hij haar aan.</p><p>‘En wat is de taak van een man?’ vraagt Hetty, lichtelijk aangeslagen.</p><p>‘Uw man is een belangrijk architect. Hij heeft een eigen architectenbureau. Dat is een drukke en verantwoordelijke baan en hij heeft daarom geen tijd om de kinderen te begeleiden. Dat is de taak van de vrouw, van u, mevrouw.’</p><p>Er balt zich iets in Hetty samen.</p><p>‘Bedoelt u architectenbureau LG102?’ zegt ze. ‘Mijn man is geen architect. Dat architectenbureau is van mij.’</p>"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/98ae9103-91bc-83c7-733b-e28219dcd2ec"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/77947f0a-e920-99ab-8616-11f978be7778",
-      "behavior": [
-        "info",
-        "info",
-        "w-4",
-        "h-5"
-      ],
-      "summary": {
-        "en": [
-          "In haar aanstaande boek Acht Vrouwen in een Mannenwereld: Van Delftsche Novieten tot Ingenieurs beschrijft Marian Geense de levensloop van haar jaarclubgenoten uit 1956. Lees hier een voorpublicatie op basis van 27 citaten."
-        ]
-      }
     },
     {
       "label": {
@@ -1658,7 +1842,13 @@
                 "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
                 "width": 320,
                 "height": 176,
-                "duration": 10.026667
+                "duration": 10.026667,
+                "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "t=89,0",
+                  "id": "https://www.youtube.com/watch?v=popa6e9Sv5E/fragmentselector/3e21bc75-14dc-d667-cd5a-96651c0912f2"
+                }
               },
               "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2a2810e5-ad56-fac9-029a-d0c9fc038c1c#xywh=0,0,1903,1440",
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6179e7da-69e0-00bb-f87d-14d8c9790be1",
@@ -1667,7 +1857,17 @@
                 {
                   "id": "https://dlc.services/thumbs/7/21/5ee8ead6-8cdb-5062-b9b4-dd9f0c2dc956/full/full/0/default.jpg"
                 }
-              ]
+              ],
+              "label": {
+                "en": [
+                  "Mejuffrouw, Mijne Heren (1964)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Fictieve documentaire van Mart van den Busken over het Delftse studentenleven in de jaren zestig. Verhaald door een van de weinige vrouwelijke studenten."
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/ad7c99c7-3b50-0c0a-e914-ea90750043db"
@@ -1677,6 +1877,211 @@
       "behavior": [
         "w-12",
         "h-9"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "'Over seks werd niet gesproken'"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/7750930a-6f66-dabb-1c69-0522476183d7"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/c7f195ab-93ef-5bad-d356-a8a84acf4667#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/39fdfd31-1d8f-78ff-fc4f-8052be27ca4e",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "<h1>In gesprek met Margreet de Boer</h1><p><em>Uit: Marjan van den Bos en Bab Rentjes (red.) De Boterbabes (2019). Uitgegeven in eigen beheer.</em></p><p><strong>Samen met Babs Rentjes stond Margreet als oprichter aan de wieg van de Boterbrug. Ze hebben, om zo te zeggen, samen ruim 70 kinderen gekregen. Tijd voor een terugblik. Als de voordeur opengaat van haar pied-a-terre in Den Haag, sta je meteen in een wervelwind van kleuren. Op de muren, de meubels, op de vloer. Gelukkig is Margreet een heel rustige vrouw, en door haar lage stem klinkt alles wat ze zegt kalm en zelfverzekerd. Maar zo zelfverzekerd blijkt ze niet te zijn. Haar leven is haar overkomen, bewuste keuzes waren het vaak niet. Wel had ze van huis meegekregen dat vrouwen vanzelfsprekend werkten, want haar vader en moeder waren samen de oprichters van een tuinbouwschool voor biologische landbouw. In 1946! Later ontwierp zij zowel architectuur als landschap en tuininrichting. Nee, geen plantjes, Margreet is van de structuur. Ook gaf ze, als het zo uitkwam, cursussen aan huisvrouwen in vrouwenadviescommissies, dames die moesten leren tekeningen lezen, maar wél al heel goed wisten dat er in elke woning een flink verhuisraam moet zitten. Ze had altijd wel werk, dat moest ook wel na haar scheiding en met drie kinderen. Nu is ze voor de derde keer getrouwd, met een Tsjechisch architect en professor. Ze kijkt tevreden terug op het huislustrum in 2019. God schiep de wereld. Babs en Margreet schiepen de Boterbrugster. Naar hun gelijkenis.</strong></p><p>'Ik haatte meisjeshuizen, ik had al vijf jaar alleen gewoond. De club (OD26) vond ik vreselijk, de meisjes van de Paardenmarkt waren trutten en OD 128 waren oude dames. Babs en ik zochten zes leuke meisjes die bij ons pasten. We moesten ons bij elkaar ons gemak voelen. Ik denk dat we geen serieuze criteria hadden, we vonden gewoon dat je een soort familietje moest zijn. Diversiteit was daarbij geen doel. Het plan was om uit elk jaar iemand te hebben. Dat is compleet mislukt, de meisjes waren op één na allemaal derdejaars. We hebben een keer iemand moeten zeggen dat ze werd afgewezen. Die was psychisch niet in orde, ik vond het vreselijk. Maar uitstemmen, dat deden we niet, er kwam altijd iemand bij die paste. We waren vrij serieus, we wilden ook serieus contact en een goed gesprek hebben. Ik zat soms met de eerstejaars een hele nacht op de trap levensraadselen op te lossen. Met een fles vierkant, dat wel. De jongste en de oudste.</p><p>'Over seks werd in huis echt niet gesproken. We kregen op de DVSV wel seksuele voorlichting, toen hoorde ik voor het eerst over lesbische vrouwen. Eigenlijk is dat logisch in een vrouwenvereniging, en het werd ook best feitelijk gebracht, maar mij was het een onbekend fenomeen. Ik had vrij snel een vriend die bij mij sliep, maar we zorgden er wel voor dat we geen burengerucht veroorzaakten. We hadden eigenlijk nooit last van de vriendjes. Ze aten ook niet mee.</p><p>'Ons bijbaantje was bij het eenmansbureau van Koumans. Hij koos mij uit om zijn telefoon op te nemen en met hem te lunchen, met veel franse kaas en wijn. Ik kreeg gewoon maandgeld, vierhonderd gulden, denk ik, en aan het eind van de maand stond ik nooit rood. Ik at gewoon veel minder. Mijn vriendin was een dochter van Jamin, die at biefstuk. Ik niet. Ik kookte voor Babs en mij, we kookten om de beurt ons potje en schoven bij elkaar aan, aan de tafel in de keuken.</p><p>'Iedereen kon zichzelf zijn. Je liet elkaar vrij, er waren geen regeltjes. We hadden wel afspraken. Opruimen als je gekookt hebt. Afspreken en aanspreken, dat wel. Je hielp elkaar ook als je vastliep met het ontwerpen. Maar er was niemand die commentaar had toen ik naast Joop nog verliefd werd op een ander. Iedereen wist het, maar ze zeiden niets, heel tolerant.</p><p>'Vorige week waren we met mijn huisgenoten en wat jongere Boterbrugsters bij elkaar voor een etentje en een strandwandeling. Toen hadden we met z'n achten een avond heel openhartige, ontroerende gesprekken. Hier kan je alles zeggen wat je beweegt, hier wordt er echt naar je geluisterd en de manier waarop iemand een vraag stelde opende steeds een volgend luikje. Die openheid hadden we ook bij de Boterbrug reünies, vooral bij de speeches aan tafel. We hebben een familiegevoel, we zijn vertrouwd met elkaar. Je hoeft niet op te scheppen. Of die openheid door de jaren heen nu begon bij de eerste lustrumspeeches van Babs en mij, dat weet ik niet, het kan. In ieder geval is er nu, als we bij elkaar zijn, altijd een echt gesprek en ook heel veel emotie. Over dilemma's met je ouders, en over borstkanker. Het was echt heel bijzonder. Bij de antroposofen zeggen ze wel dat kinderen hun ouders uitzoeken en bij ons huis is dat misschien ook wel zo. Alsof het op een ander niveau is voorgekookt, dat je bij elkaar past. Het is niet expliciet, misschien is er al een band vóórdat je elkaar leert kennen, en dan herken je elkaar als je met elkaar in gesprek bent. Het is niet je huisgenoten uitkiezen, het is herkennen.</p><p>'Ook bij de jongste huisgenoten denk ik meteen: “Oooo wat heerlijk, wat leuk! We kennen elkaar!” Iemand die dertig jaar jonger was heeft mij een keer op een lustrum mee naar huis genomen toen ik teveel gedronken had. Lief, hè? We zijn pretentieloos, hoeven niet mooi te zijn of een stand op te houden, we zijn kameraden en we zijn lief voor de buren. Het zijn nu toch ook allemaal schatjes!'</p>"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/27b7bb54-08f4-c26a-0a79-8f16276466a0"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/c7f195ab-93ef-5bad-d356-a8a84acf4667",
+      "summary": {
+        "en": [
+          "In 1969 werd Boterbrug 5 opgericht, een meisjeshuis van de DVSV. 10 jaar later verhuisden de bewoners naar de Oude Delft 100, maar bleef de naam Boterbrug behouden. Na de fusie van de DVSV met het Delftsch Studenten Corps in 1976 en de recente aankoop van het pand op de Oude Delft, is de Boterburg tegenwoordig een 'Corpshuis' voor vrouwen.",
+          "Ter gelegenheid van het 50-jarig bestaan van de Boterbrug in 2019 is een jubileumboek gemaakt met daarin interviews met álle 75 bewoners, van 1969 tot nu. Lees hier een interview met Margreet de Boer, één van de oprichters van het huis."
+        ]
+      },
+      "behavior": [
+        "info",
+        "info",
+        "w-6",
+        "h-4"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Meisjeshuis Boterbrug 5"
+        ]
+      },
+      "height": 679,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/187c91d0-9d6d-79ab-01f5-8f2d4757e71b/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2216,
+                "width": 3263,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/187c91d0-9d6d-79ab-01f5-8f2d4757e71b",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3263,
+                  "height": 2216,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 695
+                    },
+                    {
+                      "width": 400,
+                      "height": 272
+                    },
+                    {
+                      "width": 200,
+                      "height": 136
+                    },
+                    {
+                      "width": 100,
+                      "height": 68
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/187c91d0-9d6d-79ab-01f5-8f2d4757e71b/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/187c91d0-9d6d-79ab-01f5-8f2d4757e71b",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 695,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 68
+                      },
+                      {
+                        "width": 200,
+                        "height": 136
+                      },
+                      {
+                        "width": 400,
+                        "height": 272
+                      },
+                      {
+                        "width": 1024,
+                        "height": 695
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/98fe5ec2-587f-74aa-2177-608e700c7e26",
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/7f3fc73e-4abd-5cac-3817-435788b762a0#xywh=0,0,1000,679",
+              "label": {
+                "en": [
+                  "Meisjeshuis Boterbrug 5"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Afkomstig uit de almanak van de DVSV voor het jaar 1970 (Persoonlijk archief Marjan van den Bos)"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/b141b9a2-86b4-4623-2ca1-2ae1ef52a895"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/7f3fc73e-4abd-5cac-3817-435788b762a0",
+      "behavior": [
+        "w-6",
+        "h-4"
       ]
     },
     {
@@ -1708,7 +2113,17 @@
                 {
                   "id": "https://dlc.services/thumbs/7/21/9c17b8ea-9bfb-3069-1c75-2cd0c5bf93db/full/full/0/default.jpg"
                 }
-              ]
+              ],
+              "label": {
+                "en": [
+                  "Noortje Weenink in gesprek met Anna Vos, initiatiefnemer van het vak Vrouwenstudies in 1979"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Geproduceerd in samenwerking met het NewMedia Centre"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/3dbc24c5-c24f-4cb1-66f3-fc3cbbde7cf6"
@@ -1722,8 +2137,16 @@
       ],
       "summary": {
         "en": [
-          "Informatie"
+          "Vanaf het midden van de jaren '70 stijgen zowel het aantal als het percentage eerstejaars vrouwelijke studenten gestaag. Onder invloed van de tweede feministische golf, ontstaan nieuwe initiatieven om de bestaande academische cultuur te bevragen en te veranderen. Dit vond zijn weerklank in het onderwijs.",
+          "Tijdens haar studie Bouwkunde zet Anna Vos een nieuw vak op om bestaande normen binnen het vakgebied te bevragen. Waarom worden studenten bijvoorbeeld alleen onderwezen over familiehuisvesting? In hoeverre bevestigen woningplattegronden traditionele rolverdelingen binnen het huishouden?"
         ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Bekijk hier een gesprek tussen Noortje Weenink, recent afgestudeerd aan dezelfde faculteit, en Anna Vos. Samen duiken ze het archief in."
+          ]
+        }
       }
     },
     {
@@ -1860,7 +2283,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/753a302f-6d50-d88e-9cd6-a92c33fa1cf9",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac#xywh=46,75,384,540"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac#xywh=46,77,384,540",
+              "label": {
+                "en": [
+                  "Vakomschrijving van Vrouwenstudies (1979)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Archief Vrouwenstudies"
+                ]
+              }
             },
             {
               "motivation": "painting",
@@ -1983,7 +2416,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bee8a9bd-3f4f-9800-c79f-350ef8297c92",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac#xywh=384,412,336,474"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac#xywh=384,412,336,474",
+              "label": {
+                "en": [
+                  "Vakomschrijving van Vrouwenstudies (1979)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Archief Vrouwenstudies"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/6d5f6e82-db78-847c-c0ad-f44426cb9c15"
@@ -1998,7 +2441,7 @@
     {
       "label": {
         "en": [
-          "Hallelujah"
+          "'Je kunt zelfs hoogleraar worden'"
         ]
       },
       "height": 2778,
@@ -2024,7 +2467,17 @@
                 {
                   "id": "https://dlc.services/thumbs/7/21/c6284fdb-d7f5-0616-471e-5217f8f1033d/full/full/0/default.jpg"
                 }
-              ]
+              ],
+              "summary": {
+                "en": [
+                  "Verslag van het NOS Journaal van de meisjesinformatiedagen in 1984."
+                ]
+              },
+              "label": {
+                "en": [
+                  "'Je kunt zelfs hoogleraar worden'"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/6578b812-1fed-a9bc-fbad-0c351c74c921"
@@ -2033,7 +2486,7 @@
       "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/92868b52-421e-69ab-70f5-ef5c60017ccb",
       "summary": {
         "en": [
-          "Verslag van Charles Groenhuijsen van de informatiedagen bij de TH Delft om technisch onderwijs bij vrouwen populair te maken. Franziska Bollerey, de tweede hoogleraar aan de TH Delft, figureert in een toneelstuk."
+          "Verslag van het NOS Journaal van de meisjesinformatiedagen in 1984. Franziska Bollerey, in 1979 aangesteld als hoogleraar bij de Faculteit Bouwkunde, figureert in een toneelstuk getiteld 'Je kunt zelfs hoogleraar worden'. 25 jaar na Korvezee was zij de tweede vrouw met deze titel aan de TH."
         ]
       },
       "behavior": [
@@ -2045,7 +2498,7 @@
     {
       "label": {
         "en": [
-          "De TU Delft, een mannenwereld (1989)"
+          "Barsten in het bolwerk?"
         ]
       },
       "height": 1000,
@@ -2176,7 +2629,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6ee30385-10b4-7c8d-1065-24d43e845f69",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ae31c498-5cb8-247c-5cb3-d58bce409e52#xywh=0,0,690,1000"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ae31c498-5cb8-247c-5cb3-d58bce409e52#xywh=0,0,690,1000",
+              "label": {
+                "en": [
+                  "De TU Delft, een mannenwereld (1989)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis "
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/aade2f8c-6a49-9ea2-dd68-2f5f56d57da8"
@@ -2190,8 +2653,16 @@
       ],
       "summary": {
         "en": [
-          "tbd"
+          "Ondanks het groeide aandeel vrouwen en de invloed van de tweede feministische golf, blijft de TH, sinds 1986 TU Delft genaamd, een mannenbolwerk. In het project 'De technische universiteit, een mannenwereld' uit 1989 benadert Studium Generale het probleem vanaf de andere kant: de mannen. \"...als er geen barsten in dit bolwerk ontstaan en de mannen niet óók een verandering willen, zal deze er ook niet komen,\" aldus het voorwoord.",
+          "Maar wat is een mannengemeenschap? Wat zijn de stereotype rollenpatronen die doorbroken moeten worden? En welke blokkades werpen deze op voor het gelijkwaardig functioneren van vrouwen? In een publicatie wordt gezocht naar antwoorden op deze vragen, die tegenwoordig nog steeds relevant zijn."
         ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Bekijk het volledige boek door te klikken op het beeld en vervolgens op 'Bekijk object'."
+          ]
+        }
       }
     },
     {
@@ -2329,7 +2800,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/8523fe29-cb1a-7a51-be0b-22415ba86745",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=21,21,338,473"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=21,21,338,473",
+              "label": {
+                "en": [
+                  "Almanak van de Delftsche Vrouwelijke Studenten Vereeniging (1994)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "TU Delft Library"
+                ]
+              }
             },
             {
               "motivation": "painting",
@@ -2452,7 +2933,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/06031e13-e770-9dc7-7649-40f3c7b2ad7e",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=266,238,348,413"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=266,238,348,413",
+              "label": {
+                "en": [
+                  "Vrouwen in techniek: 90 jaar Delftse vrouwelijke ingenieurs (1995)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "TU Delft Library"
+                ]
+              }
             },
             {
               "motivation": "painting",
@@ -2576,7 +3067,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/306ca6cd-a840-a917-3bbd-29232ed0e5e6",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=504,21,284,413"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=504,21,284,413",
+              "label": {
+                "en": [
+                  "Vrouwen die techniek studeren... hoe apart (1984)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis"
+                ]
+              }
             },
             {
               "motivation": "painting",
@@ -2699,7 +3200,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/7a84546b-2cf9-6293-9fc4-e50220bf0101",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=696,250,277,387"
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=696,250,277,387",
+              "label": {
+                "en": [
+                  "THD-vrouwendag 1985 : lezingen - vraagstelling - forum"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/116f4b96-eb56-8d81-81dc-3441c7b9db99"
@@ -2707,17 +3218,17 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736",
       "behavior": [
-        "w-12",
-        "h-9"
+        "w-8",
+        "h-6"
       ]
     },
     {
       "label": {
         "en": [
-          "Owee 1965"
+          "Verder lezen?"
         ]
       },
-      "height": 755,
+      "height": 1000,
       "width": 1000,
       "type": "Canvas",
       "items": [
@@ -2725,143 +3236,52 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2749,
-                "width": 3637,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 3637,
-                  "height": 2749,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 774
-                    },
-                    {
-                      "width": 400,
-                      "height": 302
-                    },
-                    {
-                      "width": 200,
-                      "height": 151
-                    },
-                    {
-                      "width": 100,
-                      "height": 76
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
+                "type": "TextualBody",
+                "value": "",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/textualbody/ab68dad5-fe33-1835-dd6c-5cf0adcffef1"
               },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 774,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 76
-                      },
-                      {
-                        "width": 200,
-                        "height": 151
-                      },
-                      {
-                        "width": 400,
-                        "height": 302
-                      },
-                      {
-                        "width": 1024,
-                        "height": 774
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/1a5e682f-f7fc-f089-a448-91cd572b7a77",
-              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d#xywh=0,0,1000,755",
+              "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/46ce51f6-f3be-7ac8-6e54-48d3b5dffc4e#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/9b64ade1-3240-2a6c-c8fb-7aec6cd30b1a",
+              "motivation": "painting",
               "label": {
                 "en": [
-                  "Owee 1965"
+                  "Bibliografie"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "(Wordt aan gewerkt...)"
                 ]
               }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/705cb49b-41f4-492b-8a4c-0347efc4ba0d"
+          "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/9a9737d8-2e14-c013-b115-384f35b50665"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d",
+      "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/46ce51f6-f3be-7ac8-6e54-48d3b5dffc4e",
       "behavior": [
-        "w-12",
-        "h-9"
-      ]
+        "w-4",
+        "info",
+        "info",
+        "h-6"
+      ],
+      "summary": {
+        "en": [
+          "Klik op het beeld om een viertal bronnen te lezen die zijn gedigitaliseerd in het kader van deze tentoonstelling. En klik daarnaast hieronder op 'Lees meer' voor een uitgebreidere bibliografie."
+        ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            ""
+          ]
+        }
+      }
     }
   ],
-  "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/manifest"
+  "id": "https://heritage.tudelft.nl/iiif/novieten/manifest"
 }

@@ -20,34 +20,9 @@ Heyn vervolgde:
 ## Uit de binnenstad
 Deze ongezouten opvatting moet worden gezien in het licht van de wijk zoals die er in 1970 bij lag. De centrale hoofdweg, de Mekelweg, was voornamelijk een parkeerplaats, de universiteitsbibliotheek bevond zich in de binnenstad en in de wijk bevond zich helemaal geen studentenhuisvesting. Later veranderde dit en werden er plannen gemaakt om de wijk aantrekkelijker en gevarieerder te maken. Maar eerst een stap terug. Hoe heeft de TH-wijk eigenlijk vorm gekregen? 
 
-<div class="block cutcorners w-7 h-4 row">
-    <div class="block image cutcorners w-4 h-4">
-        <img src="https://dlc.services/thumbs/5/1/bb277e73-7526-4416-9b0f-07b72748f391/full/full/0/default.jpg" alt="" />
-    </div>
-    <div class="block info cutcorners w-3 h-4">
-        <div class="text">
-            <p>Gebouw voor Geodesie aan de Kanaalweg uit 1895</p>
-            <p class="facts">Collectie TUD</p>
-        </div>
-    </div>
-</div>
-
-
 Van oudsher bevonden alle gebouwen van de voorlopers van de Technische Universiteit zich in de historische binnenstad van Delft. Toen de Koninklijke Akademie in 1842 bij koninklijk besluit werd opgericht stelde de gemeente het leegstaande gebouw van de Artillerie- en Genieschool aan de Oude Delft 95 ter beschikking. Ook werden de gebouwen ten zuiden van het complex aangekocht. Tweeëntwintig jaar later veranderde de Akademie in de Polytechnische School, die in eerste instantie in dezelfde gebouwen huisde. Eind negentiende, begin twintigste eeuw groeide de school daar echter uit en werd er gezocht naar geschikte locaties voor uitbreiding. Rond het in 1894 gegraven Rijn-Schiekanaal kwam ruimte beschikbaar.  
 
-Een belangrijke impuls voor de uitbreiding van de schoolgebouwen was dat in 1905 de Polytechnische School werd omgevormd tot Technische Hoogeschool (TH). Hiermee viel het Delftse ingenieursonderwijs onder de wet voor hoger onderwijs. Het was een grote stap voor de emancipatie van ingenieurs. En het leidde tot een bouwdrift die gezien kan worden als de Delftse variant van wat in de wetenschapsgeschiedenis de laboratoriumrevolutie is gaan heten: de massale opkomst van grote en goed uitgeruste laboratoria voor het doen van onderzoek en het geven van onderwijs. 
-
-<div class="block cutcorners w-7 h-4 row">
-    <div class="block image cutcorners w-4 h-4">
-        <a href="/nl/objects/txf18197"><img src="https://dlc.services/thumbs/5/1/515e9162-9c17-4bc5-8a79-9fb6f59c44c5/full/full/0/default.jpeg" alt="" /></a>
-    </div>
-    <div class="block info cutcorners w-3 h-4">
-        <div class="text">
-            <p><a href="/nl/objects/txf18197">Gebouw voor Geodesie</a> aan de Kanaalweg uit 1895</p>
-            <p class="facts">Collectie TUD</p>
-        </div>
-    </div>
-</div>
+Een belangrijke impuls voor de uitbreiding van de schoolgebouwen was dat in 1905 de Polytechnische School werd omgevormd tot Technische Hoogeschool (TH). Hiermee viel het Delftse ingenieursonderwijs onder de wet voor hoger onderwijs. Het was een grote stap voor de emancipatie van ingenieurs. En het leidde tot een bouwdrift die gezien kan worden als de Delftse variant van wat in de wetenschapsgeschiedenis de laboratoriumrevolutie is gaan heten: de massale opkomst van grote en goed uitgeruste laboratoria voor het doen van onderzoek en het geven van onderwijs.
 
 De nieuwbouw werd gerealiseerd door de Rijksgebouwendienst, waar Jan Vrijman verantwoordelijk was voor de onderwijsgebouwen. Vrijman heeft, samen met zijn voorganger Jacobus van Lokhorst, talloze laboratoria en universiteitsgebouwen in Hollandse neo-Renaissancestijl gebouwd. Beter gezegd, hun gebouwen zijn typerend geworden voor de laboratoriumrevolutie in Nederland. Het waren statige, paleisachtige, gebouwen die de grandeur van de wetenschap benadrukten. Dit geldt ook voor de gebouwen die aan de zuidkant van het kanaal werden opgericht: voor geodesie, natuurkunde, elektrotechniek, aero- en hydrodynamica en mijnbouwkunde - waar nu het Science Center in zit.  Het hoogtepunt van de universitaire bouwdrift in die tijd is het monsterlijk grote gebouw voor scheikunde, ontworpen door Van Dregt (van het bureau van Vrijman). Na oplevering was het gebouw, dat Rode Scheikunde werd genoemd, een van de grootste universitaire gebouwen van Nederland. Dat had ermee te maken dat de studie tot chemische technoloog erg populair was in die tijd. Het gebouw is vanwege oplopende kosten echter niet afgemaakt en voor scheikunde is het nooit gebruikt. Na de oorlog werd het het hoofdgebouw van de TH.
 

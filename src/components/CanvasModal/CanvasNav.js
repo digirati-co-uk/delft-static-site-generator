@@ -17,7 +17,7 @@ export const CanvasNav = ({
         type="button"
         style={{ color: 'white', width: 'unset' }}
       >
-        Start Tour
+        <a>Start tour</a>
       </button>
     </div>
   ) : (

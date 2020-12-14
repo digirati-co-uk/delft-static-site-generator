@@ -121,10 +121,10 @@ const Markdown = ({ pageContext, data, path }) => {
                     {title}
                     <GithubLink href={path} />
                   </div>
-                  <div className="boxtitle">{author}</div>
+                  <div className="caption">{author}</div>
                 </div>
                 <div className="block info cutcorners w-4 h-4 ">
-                  <div className="boxtitle">Table of Contents</div>
+                  <div className="caption">Table of Contents</div>
                   <ul>
                     {toc.items
                       ? toc.items.map(item => {

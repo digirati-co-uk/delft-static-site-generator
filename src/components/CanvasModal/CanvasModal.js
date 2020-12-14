@@ -151,12 +151,12 @@ class CanvasModal extends React.Component {
                   {annotations.map(annotation => (
                     <main>
                       {annotation.label && (
-                        <h3>
+                        <h1>
                           {getTranslation(
                             annotation.label,
                             this.props.pageLanguage
                           )}
-                        </h3>
+                        </h1>
                       )}
                       {annotation.summary &&
                         getTranslation(
@@ -206,8 +206,14 @@ class CanvasModal extends React.Component {
                           <p>
                             {getTranslation(
                               currentLabelAndDescriptionSource.summary,
-                              this.props.pageLanguage
-                            )}
+                              this.props.pageLanguage,
+                              '\n'
+                            )
+                              .split('\n')
+                              .slice(0, 1)
+                              .map(paragraph => (
+                                <p>{paragraph}</p>
+                              ))}
                           </p>
                         ) : (
                           ''
@@ -227,7 +233,13 @@ class CanvasModal extends React.Component {
                               `/`
                             }
                           >
-                            View Detail
+                            {getTranslation(
+                              {
+                                en: ['View object'],
+                                nl: ['Bekijk object'],
+                              },
+                              this.props.pageLanguage
+                            )}
                           </Link>
                         </div>
                       )}
