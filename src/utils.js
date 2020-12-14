@@ -29,7 +29,7 @@ const substituteSpecialLinks = (html, pageContext, allMDRemark) => {
             <div class="boxtitle">ARTICLE
             </div>
             <div class="maintitle">${p5}</div>
-            <div>${getAuthor(`/${p2}${p3}`, allMDRemark)}</div>
+            <div class="caption">${getAuthor(`/${p2}${p3}`, allMDRemark)}</div>
           </a>`;
       }
     }

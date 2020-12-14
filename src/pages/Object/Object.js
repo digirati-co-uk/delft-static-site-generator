@@ -118,7 +118,7 @@ class ObjectPage extends React.Component {
           <div className="blocks blocks--auto-height">
             <aside className="w-4">
               <div className="block info cutcorners w-4 h-4 ">
-                <div className="boxtitle">Part of Collections</div>
+                <div className="caption">Part of Collections</div>
                 <ol>
                   {(pageContext.collections || []).map(collection => (
                     <li key={`/${pageLanguage}/${collection[1]}`}>
@@ -130,7 +130,7 @@ class ObjectPage extends React.Component {
                 </ol>
               </div>
               <div className="block info cutcorners w-4 h-4 ">
-                <div className="boxtitle">Part of Exhibitions</div>
+                <div className="caption">Part of Exhibitions</div>
                 <ol>
                   {(pageContext.exhibitions || []).map(exhibition => (
                     <li key={`/${pageLanguage}/${exhibition[1]}`}>
@@ -142,7 +142,7 @@ class ObjectPage extends React.Component {
                 </ol>
               </div>
               <div className="block info cutcorners w-4 h-4 ">
-                <div className="boxtitle">Part of Publications</div>
+                <div className="caption">Part of Publications</div>
                 <ol>
                   {(this.state.publications || []).map(publication => (
                     <li key={publication.path}>

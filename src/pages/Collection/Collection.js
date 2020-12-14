@@ -107,7 +107,7 @@ class CollectionPage extends React.Component {
                   <GithubLink href={externalResource()} />
                   <IIIFLink href={externalResource()} />
                 </div>
-                <div className="boxtitle">{curator}</div>
+                <div className="caption">{curator}</div>
               </div>
               <div className="block info cutcorners w-min-4">
                 {summary[0]}

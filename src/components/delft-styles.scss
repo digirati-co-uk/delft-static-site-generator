@@ -542,7 +542,11 @@ h6 {
 }
 
 
-.caption,
+.caption {
+  font-family: 'f-mono';
+  text-align: center;
+}
+
 .boxtitle {
   font-family: 'f-mono';
   text-align: center;
@@ -734,7 +738,7 @@ $width: 1rem; // width of the chamfered edges
   }
 
   .info {
-    .boxtitle {
+    .caption, .boxtitle {
       margin-bottom: 1.5rem;
     }
 
