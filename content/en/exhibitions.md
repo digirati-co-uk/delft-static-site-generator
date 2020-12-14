@@ -10,7 +10,7 @@ title: "Exhibitions"
 <div class="blocks">
 <div class="block tint yellow cutcorners w-4 h-4 image">
 
-[Novieten](/en/exhibitions/62d39710-83ec-5064-a890-2bb3845cb67d)
+[Novieten](/en/exhibitions/novieten)
 </div>
 <div class="block tint yellow cutcorners w-4 h-4 image">
 
