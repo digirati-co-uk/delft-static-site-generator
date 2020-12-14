@@ -399,6 +399,47 @@
                 "service": {
                     "sizes": [
                         {
+                            "width": 863,
+                            "height": 1024
+                        },
+                        {
+                            "width": 337,
+                            "height": 400
+                        },
+                        {
+                            "width": 169,
+                            "height": 200
+                        },
+                        {
+                            "width": 84,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 863,
+                    "id": "https://dlc.services/thumbs/7/18/5bb86e00-96df-493d-9dd5-1b62fcd40fb3",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/5bb86e00-96df-493d-9dd5-1b62fcd40fb3/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/29472ca2-41af-47fb-835f-23e2db71b00c.json",
+            "label": {"nl": ["Portret van Prof. Mr. A.C. Josephus Jitta"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
                             "width": 794,
                             "height": 1024
                         },
