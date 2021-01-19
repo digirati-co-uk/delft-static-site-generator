@@ -9,33 +9,41 @@ title: "Academic Heritage"
 ###### *Please note: you are currently viewing a beta version of this website. For more information, please consult the [about page](/en/about/).*
 
 <div class="blocks">
-<div class="block tint purple cutcorners w-8 h-4 image">
+<div class="block tint purple cutcorners w-4 h-4 image">
 
-[Corona Chronicles](/en/exhibitions/corona-chronicles)
+[Novices](/en/exhibitions/novieten)
+</div>
+<div class="block tint copper cutcorners w-4 h-4 image">
+
+[Irrigation Knowledge](/en/objects/88e3a938-bd6c-4765-8645-1edb610392b7)
 </div>
 <div class="block cutcorners w-4 h-4 article">
 
 [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb)
 </div>
-<div class="block tint yellow cutcorners w-5 h-8 image">
+<div class="block tint copper cutcorners w-4 h-4 image">
 
-[Rise of a Campus](/en/exhibitions/rise-of-a-campus)
+[Trésor](/en/collections/lib-tresor)
 </div>
-<div class="block cutcorners w-7 h-5 image">
+<div class="block cutcorners w-4 h-4 article">
 
-[Floor plans](/en/collections/tu-cre-tib)
+[The Spanish Flu in Delft](/en/publications/delta-spanish-flu)
 </div>
-<div class="block cutcorners w-3 h-3 info">
+<div class="block tint purple cutcorners w-4 h-4 image">
+
+[Corona Chronicles](/en/exhibitions/corona-chronicles)
+</div>
+<div class="block cutcorners w-4 h-4 title">
 
 Would you like to become a friend? Please visit the website of <a href="http://histechnica.nl">Histechnica</a>, the Friends Association of TU Delft's Academic Heritage.
 </div>
-<div class="block tint copper cutcorners w-4 h-7 image">
+<div class="block tint purple cutcorners w-4 h-4 image">
+
+[Rise of a Campus](/en/exhibitions/rise-of-a-campus)
+</div>
+<div class="block tint copper cutcorners w-4 h-4 image">
 
 [Pendulum clock](/en/objects/photo-schwartz-slingeruurwerk)
-</div>
-<div class="block cutcorners w-8 h-4 title">
-
-Since 2017, when TU Delft celebrated its 175th anniversary, the university has been investing in raising the profile of its academic heritage by improving the preservation of its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 </div>
 </div>
 

@@ -9,35 +9,41 @@ title: "Academisch Erfgoed"
 ###### *Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de Engelstalige [about pagina](/en/about/).*
 
 <div class="blocks">
-<div class="block tint purple cutcorners w-8 h-4 image">
+<div class="block tint purple cutcorners w-4 h-4 image">
 
-[Corona Chronicles](/en/exhibitions/corona-chronicles)
+[Novieten](/nl/exhibitions/novieten)
+</div>
+<div class="block tint copper cutcorners w-4 h-4 image">
+
+[Irrigation Knowledge](/nl/objects/88e3a938-bd6c-4765-8645-1edb610392b7)
 </div>
 <div class="block cutcorners w-4 h-4 article">
 
 [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb)
 </div>
-<div class="block tint yellow cutcorners w-5 h-8 image">
+<div class="block tint copper cutcorners w-4 h-4 image">
+
+[Trésor](/nl/collections/lib-tresor)
+</div>
+<div class="block cutcorners w-4 h-4 article">
+
+[De Spaanse Griep in Delft](/nl/publications/delta-spanish-flu)
+</div>
+<div class="block tint purple cutcorners w-4 h-4 image">
+
+[Corona Chronicles](/nl/exhibitions/corona-chronicles)
+</div>
+<div class="block cutcorners w-4 h-4 title">
+
+Vrienden worden? Bezoek ook de website van <a href="http://histechnica.nl">Histechnica</a>, de vriendenvereniging van het Academisch Erfgoed van de TU delft.
+</div>
+<div class="block tint purple cutcorners w-4 h-4 image">
 
 [Rise of a Campus](/nl/exhibitions/rise-of-a-campus)
 </div>
-<div class="block cutcorners w-7 h-5 image">
-
-[Bouwtekeningen](/nl/collections/tu-cre-tib)
-</div>
-
-<div class="block cutcorners w-3 h-3 info">
-
-Vrienden worden? Bezoek ook de website van <a href="http://histechnica.nl">Histechnica</a>, de vriendenvereniging van het Academisch Erfgoed van de TU delft.
-
-</div>
-<div class="block tint copper cutcorners w-4 h-7 image">
+<div class="block tint copper cutcorners w-4 h-4 image">
 
 [Slingeruurwerk](/nl/objects/photo-schwartz-slingeruurwerk)
-</div>
-<div class="block cutcorners w-8 h-4 title">
-
-Since 2017, when TU Delft celebrated its 175th anniversary, the university has been investing in raising the profile of its academic heritage by improving the preservation of its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 </div>
 </div>
 
