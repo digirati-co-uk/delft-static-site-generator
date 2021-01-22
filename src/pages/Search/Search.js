@@ -137,9 +137,11 @@ const getExhbitionImage = node => {
 // };
 
 const mapToFE = (lunrResults, nonPublications) => {
-  const sortedOut = lunrResults.map(result =>
-    nonPublications.filter(item => item.path === result.ref)
-  );
+  const sortedOut = lunrResults
+    ? lunrResults.map(result =>
+        nonPublications.filter(item => item.path === result.ref)
+      )
+    : [];
 
   const results = sortedOut.map(node => {
     const type = node[0].path && node[0].path.split('/')[2];
@@ -224,17 +226,38 @@ const Search = ({ data, location, pageContext, path }) => {
     }, this);
   });
 
-  const mdResults = useLunr(
-    `${searchQuery}`,
-    data.localSearchMarkdown.index,
-    data.localSearchMarkdown.store
-  );
+  const useLunrSearch = () => {
+    try {
+      return useLunr(
+        `${searchQuery}`,
+        data.localSearchMarkdown.index,
+        data.localSearchMarkdown.store
+      );
+    } catch (error) {
+      console.log('Something went wrong on the Search query');
+      setSearchQuery('');
+      return [];
+    }
+  };
+
+  const mdResults = useLunrSearch();
+
+  const lunrSearch = query => {
+    try {
+      const res = idx.search(`${query}*`);
+      return res;
+    } catch (error) {
+      console.log('Something went wrong on the Search query');
+      setSearchQuery('');
+      return [];
+    }
+  };
 
   useEffect(() => {
     const found =
       searchQuery !== ''
         ? mapToFE(
-            idx.search(`${searchQuery}*`),
+            lunrSearch(searchQuery),
             nonPublications,
             pageContext.pageLanguage
           )
