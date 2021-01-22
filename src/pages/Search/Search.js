@@ -165,7 +165,7 @@ const Search = ({ data, location, pageContext, path }) => {
 
   const lunrSearch = query => {
     try {
-      const res = idx.search(`${query}*`);
+      const res = idx.search(`*${query}*`);
       return res;
     } catch (error) {
       console.log('Something went wrong on the Search query');
