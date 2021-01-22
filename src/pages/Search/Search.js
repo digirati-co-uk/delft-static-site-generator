@@ -48,82 +48,6 @@ const removeDuplicates = (results, lang) => {
   return [...resultsInCurrentLang, ...relevantOtherLang];
 };
 
-const resolveThumbnail = node => {
-  const nodeType = node.path.split('/')[2];
-  if (nodeType === 'exhibitions') {
-    return getExhbitionImage(node);
-  }
-  if (nodeType === 'objects') {
-    return getObjectImage(node);
-  }
-  if (nodeType === 'collections') {
-    return getCollectionsImage(node);
-  }
-};
-
-const getCollectionsImage = node => {
-  const collection = node.context.collection;
-  let image =
-    collection &&
-    collection.items &&
-    collection.items[0] &&
-    collection.items[0].thumbnail &&
-    collection.items[0].thumbnail[0] &&
-    collection.items[0].thumbnail[0].id
-      ? collection.items[0].thumbnail[0].id
-      : null;
-  return image;
-};
-
-const getObjectImage = node => {
-  const items = node.context.items;
-  let image =
-    items &&
-    items[0] &&
-    items[0].items &&
-    items[0].items[0] &&
-    items[0].items[0].items &&
-    items[0].items[0].items[0] &&
-    items[0].items[0].items[0].body &&
-    items[0].items[0].items[0].body.id
-      ? items[0].items[0].items[0].body.id
-      : null;
-  return image;
-};
-
-const getExhbitionImage = node => {
-  const items = node.context.items;
-  let image =
-    items &&
-    items[0] &&
-    items[0].items &&
-    items[0].items[0] &&
-    items[0].items[0].items &&
-    items[0].items[0].items[0] &&
-    items[0].items[0].items[0].thumbnail &&
-    items[0].items[0].items[0].thumbnail[0] &&
-    items[0].items[0].items[0].thumbnail[0].id
-      ? items[0].items[0].items[0].thumbnail[0].id
-      : null;
-
-  // if no image, eg. first block sometimes an about block
-  if (!image) {
-    image =
-      items &&
-      items[1] &&
-      items[1].items &&
-      items[1].items[0] &&
-      items[1].items[0].items &&
-      items[1].items[0].items[0] &&
-      items[1].items[0].items[0].thumbnail &&
-      items[1].items[0].items[0].thumbnail[0] &&
-      items[1].items[0].items[0].thumbnail[0].id
-        ? items[1].items[0].items[0].thumbnail[0].id
-        : null;
-  }
-  return image;
-};
-
 // const resolveMetaDataEnglish = node => {
 //   if (node.context && node.context.metadata) {
 //     return node.context.metadata.map(value => value.en).join(' | ');
@@ -149,7 +73,6 @@ const mapToFE = (lunrResults, nonPublications) => {
     return {
       path: node[0].path,
       id: node[0].context && node[0].context.id,
-      image: resolveThumbnail(node[0]),
       metadata: node[0].context && node[0].context.metadata,
       title: resolveTitle(node[0]),
       type: type,
@@ -212,14 +135,12 @@ const Search = ({ data, location, pageContext, path }) => {
     this.field('path');
     this.field('id');
     this.field('title');
-    this.field('image');
     this.field('type');
 
     nonPublications.forEach(function(doc) {
       this.add({
         path: doc.path,
         id: doc.context && doc.context.id,
-        image: resolveThumbnail(doc),
         title: resolveTitle(doc),
         type: doc.path && doc.path.split('/')[2],
       });
@@ -331,11 +252,6 @@ export const pageQuery = graphql`
             }
           }
           collection {
-            items {
-              thumbnail {
-                id
-              }
-            }
             label {
               en
               nl
@@ -347,9 +263,6 @@ export const pageQuery = graphql`
           items {
             items {
               items {
-                thumbnail {
-                  id
-                }
                 body {
                   id
                 }
