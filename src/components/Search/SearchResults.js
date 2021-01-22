@@ -14,7 +14,7 @@ const SearchResults = ({ results }) => {
       )}
       {!!results.length && (
         <ul className="search-results-list" style={{ marginLeft: '0' }}>
-          {results.map(({ title, path, date, content, author, image }) => (
+          {results.map(({ title, path, date, content, author }) => (
             <div
               key={title}
               key={path}
@@ -24,23 +24,6 @@ const SearchResults = ({ results }) => {
                 justifyContent: 'left',
               }}
             >
-              <div style={{ width: '10rem', marginRight: ' 0.75rem' }}>
-                {image ? (
-                  <img
-                    className="block cutcorners"
-                    src={image}
-                    style={{
-                      height: '10rem',
-                      width: '10rem',
-                      objectFit: 'cover',
-                      marginRight: ' 0.75rem',
-                    }}
-                  />
-                ) : (
-                  <></>
-                )}
-              </div>
-
               <div style={{ maxWidth: '70%' }}>
                 <h3 className="search-results-list__heading">
                   <a href={path} className="search-results-list__link">
