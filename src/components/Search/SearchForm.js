@@ -49,7 +49,8 @@ const SearchForm = ({ pageLanguage, query, showTitle }) => {
         navigate(
           `/${pageLanguage}/search/?keywords=${encodeURIComponent(
             debouncedSearchTerm
-          )}`
+          )}`,
+          { replace: true }
         );
       }
     },
