@@ -13,7 +13,7 @@
     {
       "label": {
         "en": [
-          "Female voices in speech recognition technology, Credit: Odette Scharenborg  "
+          "Female voices in speech recognition technology"
         ]
       },
       "height": 550,
@@ -144,7 +144,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/4125bcf4-02c8-99c9-44e0-4fcaf3c17f5a",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/db040fce-3179-7c90-5c68-8193575c81b0#xywh=0,0,1000,550"
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/db040fce-3179-7c90-5c68-8193575c81b0#xywh=0,0,1000,550",
+              "summary": {
+                "en": [
+                  "Credit: Odette Scharenborg"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Female voices in speech recognition technology"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/list/d90920d3-412d-f001-9834-5baaf518c17b"
@@ -205,6 +215,7 @@
       },
       "summary": {
         "en": [
+          "In Celebration of International Women in Science Day, Women's Month, and International Women's Day, the TU Delft Library & Delft Women in Science (DEWIS) hope to introduce you to a few campus leaders through their intellectual ideas, giving you a glimpse into how these women impact society as leading researchers as well as inspire future female scientists. Some of our faculty are even taking on gender challenges in their own research and teaching. ",
           "How many female scientists can you name?"
         ]
       }
@@ -215,8 +226,8 @@
           "Welcome"
         ]
       },
-      "height": 200,
-      "width": 300,
+      "height": 400,
+      "width": 800,
       "type": "Canvas",
       "items": [
         {
@@ -228,9 +239,14 @@
                 "type": "Video",
                 "id": "https://youtu.be/iRZx4Dz3vkE"
               },
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11#xywh=0,0,300,200",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11#xywh=0,0,800,400",
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e515b739-a294-d4cd-29bb-c5d684d911bb",
-              "motivation": "painting"
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "International Day of Women and Girls in Science"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/list/cb4c1b74-b45f-f1ad-0a4e-717921a8979e"
@@ -238,24 +254,156 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11",
       "behavior": [
-        "right",
         "w-8",
         "h-4"
       ],
       "summary": {
         "en": [
-          "In Celebration of International Women in Science Day, Women's Month, and International Women's Day, the TU Delft Library & Delft Women in Science (DEWIS) hope to introduce you to these campus leaders through their intellectual ideas, giving you a glimpse into how these women impact society as leading researchers as well as inspire future female scientists. Some of our faculty are even taking on gender challenges in their own research and teaching. "
+          "In Celebration of International Women in Science Day, Women's Month, and International Women's Day, the TU Delft Library & Delft Women in Science (DEWIS) hope to introduce you to a few campus leaders through their intellectual ideas, giving you a glimpse into how these women impact society as leading researchers as well as inspire future female scientists. Some of our faculty are even taking on gender challenges in their own research and teaching. "
         ]
       }
     },
     {
-      "height": 1000,
+      "height": 1200,
       "width": 1000,
       "type": "Canvas",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2250,
+                "width": 3000,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3000,
+                  "height": 2250,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 768
+                    },
+                    {
+                      "width": 400,
+                      "height": 300
+                    },
+                    {
+                      "width": 200,
+                      "height": 150
+                    },
+                    {
+                      "width": 100,
+                      "height": 75
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 768,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 75
+                      },
+                      {
+                        "width": 200,
+                        "height": 150
+                      },
+                      {
+                        "width": 400,
+                        "height": 300
+                      },
+                      {
+                        "width": 1024,
+                        "height": 768
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/43c898d2-eff7-3fb2-0402-99996cee4e23",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=97,83,363,271",
+              "label": {
+                "en": [
+                  "Improving and diversifying automatic speech processing technologies"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Researcher: Odette Scharenborg, credit..."
+                ]
+              }
+            },
             {
               "motivation": "painting",
               "type": "Annotation",
@@ -378,7 +526,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/47ef32d6-b68e-eee0-dbce-d276635de769",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=663,84,285,420",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=652,74,285,420",
               "label": {
                 "en": [
                   "Feijia Yin"
@@ -512,7 +660,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/105c740c-8281-ec5e-97ab-60400eb38b6a",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=270,378,370,246",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=213,394,389,259",
               "label": {
                 "en": [
                   "Amy Thomas "
@@ -528,11 +676,11 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2250,
-                "width": 3000,
+                "height": 4000,
+                "width": 2670,
                 "label": {
                   "en": [
                     "-"
@@ -540,10 +688,10 @@
                 },
                 "service": {
                   "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f",
+                  "id": "https://dlc.services/iiif-img/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299",
                   "protocol": "http://iiif.io/api/image",
-                  "width": 3000,
-                  "height": 2250,
+                  "width": 2670,
+                  "height": 4000,
                   "tiles": [
                     {
                       "width": 256,
@@ -559,20 +707,20 @@
                   ],
                   "sizes": [
                     {
-                      "width": 1024,
-                      "height": 768
+                      "width": 684,
+                      "height": 1024
                     },
                     {
-                      "width": 400,
-                      "height": 300
+                      "width": 267,
+                      "height": 400
                     },
                     {
-                      "width": 200,
-                      "height": 150
+                      "width": 134,
+                      "height": 200
                     },
                     {
-                      "width": 100,
-                      "height": 75
+                      "width": 67,
+                      "height": 100
                     }
                   ],
                   "profile": [
@@ -601,11 +749,11 @@
               },
               "thumbnail": [
                 {
-                  "id": "https://dlc.services/thumbs/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f/full/full/0/default.jpg",
+                  "id": "https://dlc.services/thumbs/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299/full/full/0/default.jpg",
                   "type": "Image",
                   "service": {
                     "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/91c850fb-d242-1ce4-d961-f7a22e326c4f",
+                    "id": "https://dlc.services/thumbs/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299",
                     "protocol": "http://iiif.io/api/image",
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
@@ -621,39 +769,39 @@
                         ]
                       }
                     ],
-                    "width": 1024,
-                    "height": 768,
+                    "width": 684,
+                    "height": 1024,
                     "sizes": [
                       {
-                        "width": 100,
-                        "height": 75
+                        "width": 67,
+                        "height": 100
                       },
                       {
-                        "width": 200,
-                        "height": 150
+                        "width": 134,
+                        "height": 200
                       },
                       {
-                        "width": 400,
-                        "height": 300
+                        "width": 267,
+                        "height": 400
                       },
                       {
-                        "width": 1024,
-                        "height": 768
+                        "width": 684,
+                        "height": 1024
                       }
                     ]
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/43c898d2-eff7-3fb2-0402-99996cee4e23",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=83,70,363,271",
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/5d4c37d3-c8da-8d40-f62e-67aec83776d2",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=123,703,246,366",
               "label": {
                 "en": [
-                  "Odette Scharenborg "
+                  "Wen-Jun Cao "
                 ]
               },
               "summary": {
                 "en": [
-                  "works on improving and diversifying automatic speech processing technologies. "
+                  "develops the fundamental understanding of circularity in the design, construction, operation, maintenance and repair cycle of civil infrastructure."
                 ]
               }
             },
@@ -779,7 +927,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/aa2cacb3-92bf-87c5-1505-be058438d6e4",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=492,661,433,286",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=433,870,440,291",
               "label": {
                 "en": [
                   "Laura Marchal-Crespo"
@@ -788,139 +936,6 @@
               "summary": {
                 "en": [
                   "studies how robots and virtual reality can be employed to improve neurorehabilitation patients after brain injuries."
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 4000,
-                "width": 2670,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 2670,
-                  "height": 4000,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 684,
-                      "height": 1024
-                    },
-                    {
-                      "width": 267,
-                      "height": 400
-                    },
-                    {
-                      "width": 134,
-                      "height": 200
-                    },
-                    {
-                      "width": 67,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/c2fcd0c6-ac3e-acc8-a48c-6799185a1299",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 684,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 67,
-                        "height": 100
-                      },
-                      {
-                        "width": 134,
-                        "height": 200
-                      },
-                      {
-                        "width": 267,
-                        "height": 400
-                      },
-                      {
-                        "width": 684,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/5d4c37d3-c8da-8d40-f62e-67aec83776d2",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=12,613,239,356",
-              "label": {
-                "en": [
-                  "Wen-Jun Cao "
-                ]
-              },
-              "summary": {
-                "en": [
-                  "develops the fundamental understanding of circularity in the design, construction, operation, maintenance and repair cycle of civil infrastructure."
                 ]
               }
             }
@@ -947,7 +962,12 @@
       },
       "label": {
         "en": [
-          "TU Delft Women in Science"
+          "TU Delft Women in Science Pt 1"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Click 'start tour' on the right"
         ]
       }
     },
@@ -1001,7 +1021,7 @@
       ],
       "summary": {
         "en": [
-          "--Odette Scharenborg "
+          "– Odette Scharenborg "
         ]
       }
     },
@@ -1055,7 +1075,7 @@
       },
       "summary": {
         "en": [
-          "--Feijia Yin"
+          "– Feijia Yin"
         ]
       }
     },
@@ -1109,7 +1129,7 @@
       ],
       "summary": {
         "en": [
-          "--Amy Thomas"
+          "– Amy Thomas"
         ]
       }
     },
@@ -1163,7 +1183,7 @@
       ],
       "summary": {
         "en": [
-          "--Laura Marchal-Crespo  "
+          "– Laura Marchal-Crespo  "
         ]
       }
     },
@@ -1361,7 +1381,7 @@
       ],
       "summary": {
         "en": [
-          "--Wen-Jun Cao"
+          "– Wen-Jun Cao"
         ]
       }
     },
@@ -1413,7 +1433,7 @@
       ],
       "summary": {
         "en": [
-          "--Alina Rwei"
+          "– Alina Rwei"
         ]
       }
     },
@@ -1460,7 +1480,7 @@
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/7d2512ef-edb4-283d-2195-b0fb3f6578ce",
       "summary": {
         "en": [
-          "--Catholijn Jonker "
+          "– Catholijn Jonker "
         ]
       },
       "behavior": [
@@ -1512,7 +1532,7 @@
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/794c49e8-bdbc-85bf-76b1-24eb192319e1",
       "summary": {
         "en": [
-          "--Neelke Doorn "
+          "– Neelke Doorn "
         ]
       },
       "behavior": [
@@ -1524,543 +1544,16 @@
     {
       "label": {
         "en": [
-          "TU Delft Women in Science 2"
+          "TU Delft Women in Science Pt 2"
         ]
       },
-      "height": 1000,
+      "height": 1200,
       "width": 1000,
       "type": "Canvas",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 1333,
-                "width": 2000,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 2000,
-                  "height": 1333,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 682
-                    },
-                    {
-                      "width": 400,
-                      "height": 267
-                    },
-                    {
-                      "width": 200,
-                      "height": 133
-                    },
-                    {
-                      "width": 100,
-                      "height": 67
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 682,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 67
-                      },
-                      {
-                        "width": 200,
-                        "height": 133
-                      },
-                      {
-                        "width": 400,
-                        "height": 267
-                      },
-                      {
-                        "width": 1024,
-                        "height": 682
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/03082db6-0d31-1697-1220-adc907134feb",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=210,727,387,258",
-              "label": {
-                "en": [
-                  "Neelke Doorn "
-                ]
-              },
-              "summary": {
-                "en": [
-                  "focuses on ethical issues in water governance and climate change. "
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/c179b5f3-194f-e6b8-b010-af631a90079f/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 1024,
-                "width": 1024,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/c179b5f3-194f-e6b8-b010-af631a90079f",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 1024,
-                  "height": 1024,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 1024
-                    },
-                    {
-                      "width": 400,
-                      "height": 400
-                    },
-                    {
-                      "width": 200,
-                      "height": 200
-                    },
-                    {
-                      "width": 100,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/c179b5f3-194f-e6b8-b010-af631a90079f/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/c179b5f3-194f-e6b8-b010-af631a90079f",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 100
-                      },
-                      {
-                        "width": 200,
-                        "height": 200
-                      },
-                      {
-                        "width": 400,
-                        "height": 400
-                      },
-                      {
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/02d6a8ac-593d-00e4-4323-48ac938baa14",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=53,450,249,249",
-              "label": {
-                "en": [
-                  "Alina Rwei"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "develops novel biomedical technologies for next-generation medicine."
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 1233,
-                "width": 1377,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 1377,
-                  "height": 1233,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 917
-                    },
-                    {
-                      "width": 400,
-                      "height": 358
-                    },
-                    {
-                      "width": 200,
-                      "height": 179
-                    },
-                    {
-                      "width": 100,
-                      "height": 90
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 917,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 90
-                      },
-                      {
-                        "width": 200,
-                        "height": 179
-                      },
-                      {
-                        "width": 400,
-                        "height": 358
-                      },
-                      {
-                        "width": 1024,
-                        "height": 917
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a34aa693-0716-b98b-f272-d0082ff7fc2d",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=404,44,435,388",
-              "label": {
-                "en": [
-                  "Sepideh Ghodrat"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "investigates the properties of materials (alloys, polymers and composites) and applies them as active elements in designing shape morphing objects like deployable structures, self-sizable adaptable shoes, self-sizable grips, self-regulating jackets and soft mobile devices."
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 1544,
-                "width": 1158,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 1158,
-                  "height": 1544,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 768,
-                      "height": 1024
-                    },
-                    {
-                      "width": 300,
-                      "height": 400
-                    },
-                    {
-                      "width": 150,
-                      "height": 200
-                    },
-                    {
-                      "width": 75,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 768,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 75,
-                        "height": 100
-                      },
-                      {
-                        "width": 150,
-                        "height": 200
-                      },
-                      {
-                        "width": 300,
-                        "height": 400
-                      },
-                      {
-                        "width": 768,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a06805c0-c292-906c-fb47-c14ff68796f9",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=731,644,269,355",
-              "label": {
-                "en": [
-                  "Catholijn Jonker "
-                ]
-              },
-              "summary": {
-                "en": [
-                  "is dedicated to creating teamwork between humans agents and robots in a way that brings about a co-evolution between humans and technology."
-                ]
-              }
-            },
             {
               "motivation": "painting",
               "type": "Annotation",
@@ -2181,7 +1674,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/9ad4bcb6-bf59-072d-37d6-2f1cf7a079be",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=73,38,288,382",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=121,54,288,382",
               "label": {
                 "en": [
                   "Klaske Havik "
@@ -2314,7 +1807,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2526487b-060a-ba61-a17a-614bc4ffadbf",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=327,450,397,264",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=576,46,368,244",
               "label": {
                 "en": [
                   "Kristina Djanashvili"
@@ -2323,6 +1816,534 @@
               "summary": {
                 "en": [
                   "designs synergic systems for better detection, visualization and treatment of cancer. "
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/24/c179b5f3-194f-e6b8-b010-af631a90079f/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1024,
+                "width": 1024,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/24/c179b5f3-194f-e6b8-b010-af631a90079f",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1024,
+                  "height": 1024,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 1024
+                    },
+                    {
+                      "width": 400,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/24/c179b5f3-194f-e6b8-b010-af631a90079f/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/24/c179b5f3-194f-e6b8-b010-af631a90079f",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 100
+                      },
+                      {
+                        "width": 200,
+                        "height": 200
+                      },
+                      {
+                        "width": 400,
+                        "height": 400
+                      },
+                      {
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/02d6a8ac-593d-00e4-4323-48ac938baa14",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=52,505,313,313",
+              "label": {
+                "en": [
+                  "Alina Rwei"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "develops novel biomedical technologies for next-generation medicine."
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/478,368,636,784/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1233,
+                "width": 1377,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1377,
+                  "height": 1233,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 917
+                    },
+                    {
+                      "width": 400,
+                      "height": 358
+                    },
+                    {
+                      "width": 200,
+                      "height": 179
+                    },
+                    {
+                      "width": 100,
+                      "height": 90
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 917,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 90
+                      },
+                      {
+                        "width": 200,
+                        "height": 179
+                      },
+                      {
+                        "width": 400,
+                        "height": 358
+                      },
+                      {
+                        "width": 1024,
+                        "height": 917
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a34aa693-0716-b98b-f272-d0082ff7fc2d",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=477,341,295,364",
+              "label": {
+                "en": [
+                  "Sepideh Ghodrat"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "investigates the properties of materials (alloys, polymers and composites) and applies them as active elements in designing shape morphing objects like deployable structures, self-sizable adaptable shoes, self-sizable grips, self-regulating jackets and soft mobile devices."
+                ]
+              },
+              "body.id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/478,368,636,784/full/0/default.jpg"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1333,
+                "width": 2000,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2000,
+                  "height": 1333,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 682
+                    },
+                    {
+                      "width": 400,
+                      "height": 267
+                    },
+                    {
+                      "width": 200,
+                      "height": 133
+                    },
+                    {
+                      "width": 100,
+                      "height": 67
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/24/bccd8185-bb1c-4344-3bad-68f84f5e9924",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 682,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 67
+                      },
+                      {
+                        "width": 200,
+                        "height": 133
+                      },
+                      {
+                        "width": 400,
+                        "height": 267
+                      },
+                      {
+                        "width": 1024,
+                        "height": 682
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/03082db6-0d31-1697-1220-adc907134feb",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=122,885,420,280",
+              "label": {
+                "en": [
+                  "Neelke Doorn "
+                ]
+              },
+              "summary": {
+                "en": [
+                  "focuses on ethical issues in water governance and climate change. "
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1544,
+                "width": 1158,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1158,
+                  "height": 1544,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 768,
+                      "height": 1024
+                    },
+                    {
+                      "width": 300,
+                      "height": 400
+                    },
+                    {
+                      "width": 150,
+                      "height": 200
+                    },
+                    {
+                      "width": 75,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/24/d6f2aeb8-d568-4ee9-dcb1-7dec3a84e19c",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 768,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 75,
+                        "height": 100
+                      },
+                      {
+                        "width": 150,
+                        "height": 200
+                      },
+                      {
+                        "width": 300,
+                        "height": 400
+                      },
+                      {
+                        "width": 768,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a06805c0-c292-906c-fb47-c14ff68796f9",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=654,745,262,347",
+              "label": {
+                "en": [
+                  "Catholijn Jonker "
+                ]
+              },
+              "summary": {
+                "en": [
+                  "is dedicated to creating teamwork between humans agents and robots in a way that brings about a co-evolution between humans and technology."
                 ]
               }
             }
@@ -2334,7 +2355,12 @@
       "behavior": [
         "w-9",
         "h-12"
-      ]
+      ],
+      "summary": {
+        "en": [
+          "Click 'start tour' on the right"
+        ]
+      }
     },
     {
       "height": 1000,
@@ -2374,7 +2400,7 @@
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/d8d1d9ae-391d-2298-4aa9-b717254a5541",
       "summary": {
         "en": [
-          "--Klaske Havik"
+          "– Klaske Havik"
         ]
       },
       "behavior": [
@@ -2437,7 +2463,7 @@
       ],
       "summary": {
         "en": [
-          "--Sepideh Ghodrat "
+          "– Sepideh Ghodrat "
         ]
       }
     },
@@ -2468,12 +2494,12 @@
               "motivation": "painting",
               "label": {
                 "en": [
-                  "AimÃƒÂ©e Sakes "
+                  "Aimée Sakes "
                 ]
               },
               "summary": {
                 "en": [
-                  "<p><strong>Advice for the next generation of female scientists</strong></p><p>My advice for the next generation of female scientist is to follow your heart and do not let anyone tell you what you can and cannot do. Follow your passion and put in the work necessary to achieve the goals you have set for yourself.</p><p><img src=\"https://dlc.services/thumbs/7/24/b4146461-9167-ec19-cbc5-e4957941a182/full/full/0/default.jpg\"></p><p>Fig 1. Development of a novel tissue transportation device inspired by wasps, credit: Sakes</p><p><strong>Research's Impact on Society</strong></p><p class=\"ql-align-justify\">One of the seven EU societal challenges is â€œHealth, demographic change and wellbeing\". The population is ageing in both Eastern &amp; Western societies, and this will increase in the coming two decades. Robotic medical instruments are needed to make our healthcare and societal system sustainable for the coming years. Furthermore, current medical instruments' limitations impede the development of new minimally invasive approaches. <a href=\"https://dutchsoftrobotics.nl/\" rel=\"noopener noreferrer\" target=\"_blank\">With the development of new medical instruments with improved functionality</a>, we can improve the application of minimally invasive approaches for even the most complex procedures, as well as develop new minimally invasive paradigms.</p><p><strong>Biography</strong></p><p class=\"ql-align-justify\">AimÃƒÆ’Ã‚Â©e Sakes is an assistant professor at the Biomedical Engineering Department at Delft University of Technology. Her research focusses on the development of innovative medical instruments and robots <a href=\"https://www.bitegroup.nl/\" rel=\"noopener noreferrer\" target=\"_blank\">inspired by nature</a>. In nature, you can find innovative solutions to solve current healthcare challenges. Think for example on the dexterous octopi tentacles, the stinger of wasps, and the super-fast chameleon tongue. In my research, I have translated these mechanisms into innovative steerable catheters, transport mechanisms and ultra-thin needles that can be used for the treatment of cardiovascular diseases, cancer, and brain surgery.</p><p class=\"ql-align-justify\"><a href=\"https://www.linkedin.com/in/aimee-sakes-3982b664/\" rel=\"noopener noreferrer\" target=\"_blank\">LinkedIn</a></p><p class=\"ql-align-justify\"><br></p>"
+                  "<p><strong>Advice for the next generation of female scientists</strong></p><p>My advice for the next generation of female scientist is to follow your heart and do not let anyone tell you what you can and cannot do. Follow your passion and put in the work necessary to achieve the goals you have set for yourself.</p><p><img src=\"https://dlc.services/thumbs/7/24/b4146461-9167-ec19-cbc5-e4957941a182/full/full/0/default.jpg\"></p><p>Fig 1. Development of a novel tissue transportation device inspired by wasps, credit: Sakes</p><p><strong>Research's Impact on Society</strong></p><p class=\"ql-align-justify\">One of the seven EU societal challenges is â€œHealth, demographic change and wellbeing\". The population is ageing in both Eastern &amp; Western societies, and this will increase in the coming two decades. Robotic medical instruments are needed to make our healthcare and societal system sustainable for the coming years. Furthermore, current medical instruments' limitations impede the development of new minimally invasive approaches. <a href=\"https://dutchsoftrobotics.nl/\" rel=\"noopener noreferrer\" target=\"_blank\">With the development of new medical instruments with improved functionality</a>, we can improve the application of minimally invasive approaches for even the most complex procedures, as well as develop new minimally invasive paradigms.</p><p><strong>Biography</strong></p><p class=\"ql-align-justify\">Aimée Sakes is an assistant professor at the Biomedical Engineering Department at Delft University of Technology. Her research focusses on the development of innovative medical instruments and robots <a href=\"https://www.bitegroup.nl/\" rel=\"noopener noreferrer\" target=\"_blank\">inspired by nature</a>. In nature, you can find innovative solutions to solve current healthcare challenges. Think for example on the dexterous octopi tentacles, the stinger of wasps, and the super-fast chameleon tongue. In my research, I have translated these mechanisms into innovative steerable catheters, transport mechanisms and ultra-thin needles that can be used for the treatment of cardiovascular diseases, cancer, and brain surgery.</p><p class=\"ql-align-justify\"><a href=\"https://www.linkedin.com/in/aimee-sakes-3982b664/\" rel=\"noopener noreferrer\" target=\"_blank\">LinkedIn</a></p><p class=\"ql-align-justify\"><br></p>"
                 ]
               }
             }
@@ -2490,7 +2516,7 @@
       ],
       "summary": {
         "en": [
-          "--AimÃƒÂ©e Sakes "
+          "– Aimée Sakes "
         ]
       }
     },
@@ -2532,7 +2558,7 @@
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/9b27d2bb-b1e9-55e5-9850-cf1683226844",
       "summary": {
         "en": [
-          "--Kristina Djanashvili"
+          "– Kristina Djanashvili"
         ]
       },
       "label": {
@@ -2596,7 +2622,7 @@
       ],
       "summary": {
         "en": [
-          "--Cynthia Liem "
+          "– Cynthia Liem "
         ]
       }
     },
@@ -2790,7 +2816,7 @@
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/1bffa5ce-1887-7afd-2097-e1b1243c6c78",
       "summary": {
         "en": [
-          "--Annemiek van Boeijen "
+          "– Annemiek van Boeijen "
         ]
       },
       "behavior": [
@@ -2803,10 +2829,10 @@
     {
       "label": {
         "en": [
-          "TU Delft Women in Science 3"
+          "TU Delft Women in Science Pt 3"
         ]
       },
-      "height": 1000,
+      "height": 1200,
       "width": 1000,
       "type": "Canvas",
       "items": [
@@ -2817,11 +2843,11 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/24/1f22f87c-68f8-2de0-9850-19414482b50b/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 1473,
-                "width": 1121,
+                "height": 3960,
+                "width": 2640,
                 "label": {
                   "en": [
                     "-"
@@ -2829,10 +2855,10 @@
                 },
                 "service": {
                   "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c",
+                  "id": "https://dlc.services/iiif-img/7/24/1f22f87c-68f8-2de0-9850-19414482b50b",
                   "protocol": "http://iiif.io/api/image",
-                  "width": 1121,
-                  "height": 1473,
+                  "width": 2640,
+                  "height": 3960,
                   "tiles": [
                     {
                       "width": 256,
@@ -2841,25 +2867,26 @@
                         1,
                         2,
                         4,
-                        8
+                        8,
+                        16
                       ]
                     }
                   ],
                   "sizes": [
                     {
-                      "width": 779,
+                      "width": 683,
                       "height": 1024
                     },
                     {
-                      "width": 304,
+                      "width": 267,
                       "height": 400
                     },
                     {
-                      "width": 152,
+                      "width": 133,
                       "height": 200
                     },
                     {
-                      "width": 76,
+                      "width": 67,
                       "height": 100
                     }
                   ],
@@ -2889,11 +2916,11 @@
               },
               "thumbnail": [
                 {
-                  "id": "https://dlc.services/thumbs/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c/full/full/0/default.jpg",
+                  "id": "https://dlc.services/thumbs/7/24/1f22f87c-68f8-2de0-9850-19414482b50b/full/full/0/default.jpg",
                   "type": "Image",
                   "service": {
                     "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c",
+                    "id": "https://dlc.services/thumbs/7/24/1f22f87c-68f8-2de0-9850-19414482b50b",
                     "protocol": "http://iiif.io/api/image",
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
@@ -2909,39 +2936,39 @@
                         ]
                       }
                     ],
-                    "width": 779,
+                    "width": 683,
                     "height": 1024,
                     "sizes": [
                       {
-                        "width": 76,
+                        "width": 67,
                         "height": 100
                       },
                       {
-                        "width": 152,
+                        "width": 133,
                         "height": 200
                       },
                       {
-                        "width": 304,
+                        "width": 267,
                         "height": 400
                       },
                       {
-                        "width": 779,
+                        "width": 683,
                         "height": 1024
                       }
                     ]
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2b96245e-69e9-dda3-139a-deeb0a7853b7",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=703,676,242,315",
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/75cb833b-8ab2-6c2c-55a1-8a9c16641374",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=44,188,252,378",
               "label": {
                 "en": [
-                  "Aleksandra Lekic"
+                  "Merle de Kreuk"
                 ]
               },
               "summary": {
                 "en": [
-                  "researches topics related to the circuit theory, control, and stability analysis of the power converters and hybrid power systems."
+                  "develops and improves wastewater treatment technologies."
                 ]
               }
             },
@@ -2949,7 +2976,7 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00/0,0,600,800/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 800,
@@ -3064,7 +3091,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e235a573-2bf6-083e-a1b2-fbf57e03c078",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=431,58,270,270",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=339,39,246,328",
               "summary": {
                 "en": [
                   "focusses on the development of innovative medical instruments and robots inspired by nature. "
@@ -3072,15 +3099,16 @@
               },
               "label": {
                 "en": [
-                  "AimÃ©e Sakes"
+                  "Aimée Sakes"
                 ]
-              }
+              },
+              "body.id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00/0,0,600,800/full/0/default.jpg"
             },
             {
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149/713,0,5031,3829/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3829,
@@ -3198,7 +3226,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/b933dc12-e1d3-5696-72d4-fb818bc7397d",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=426,352,447,297",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=623,286,354,267",
               "label": {
                 "en": [
                   "Cynthia Liem "
@@ -3208,7 +3236,8 @@
                 "en": [
                   "makes artificial intelligence content retrieval applications more meaningful and trustworthy through better measurement and validation processes. "
                 ]
-              }
+              },
+              "body.id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149/713,0,5031,3829/full/0/default.jpg"
             },
             {
               "motivation": "painting",
@@ -3331,7 +3360,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/8a64d420-12b8-90db-a540-b187e4b49506",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=65,593,328,328",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=75,614,304,304",
               "label": {
                 "en": [
                   "Annemiek van Boeijen"
@@ -3347,140 +3376,7 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/24/1f22f87c-68f8-2de0-9850-19414482b50b/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 3960,
-                "width": 2640,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/1f22f87c-68f8-2de0-9850-19414482b50b",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 2640,
-                  "height": 3960,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 683,
-                      "height": 1024
-                    },
-                    {
-                      "width": 267,
-                      "height": 400
-                    },
-                    {
-                      "width": 133,
-                      "height": 200
-                    },
-                    {
-                      "width": 67,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/1f22f87c-68f8-2de0-9850-19414482b50b/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/1f22f87c-68f8-2de0-9850-19414482b50b",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 683,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 67,
-                        "height": 100
-                      },
-                      {
-                        "width": 133,
-                        "height": 200
-                      },
-                      {
-                        "width": 267,
-                        "height": 400
-                      },
-                      {
-                        "width": 683,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/75cb833b-8ab2-6c2c-55a1-8a9c16641374",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=78,58,298,447",
-              "label": {
-                "en": [
-                  "Merle de Kreuk"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "develops and improves wastewater treatment technologies."
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec/0,241,718,899/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1280,
@@ -3596,7 +3492,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e250d023-9591-ed8c-9bc2-b269c4d4e639",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=438,672,205,304",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=412,786,299,374",
               "summary": {
                 "en": [
                   "examines sounds used in healthcare and demonstrates how designers can turn sound problems into opportunities with human-sensitive and evidence-based technological solutions that cater for better recovery and better clinical flow."
@@ -3605,6 +3501,139 @@
               "label": {
                 "en": [
                   "Elif Ozcan"
+                ]
+              },
+              "body.id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec/0,241,718,899/full/0/default.jpg"
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1473,
+                "width": 1121,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 1121,
+                  "height": 1473,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 779,
+                      "height": 1024
+                    },
+                    {
+                      "width": 304,
+                      "height": 400
+                    },
+                    {
+                      "width": 152,
+                      "height": 200
+                    },
+                    {
+                      "width": 76,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/24/e823eea5-5d37-800c-98a7-706fffa70c6c",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 779,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 76,
+                        "height": 100
+                      },
+                      {
+                        "width": 152,
+                        "height": 200
+                      },
+                      {
+                        "width": 304,
+                        "height": 400
+                      },
+                      {
+                        "width": 779,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2b96245e-69e9-dda3-139a-deeb0a7853b7",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=749,611,200,260",
+              "label": {
+                "en": [
+                  "Aleksandra Lekic"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "researches topics related to the circuit theory, control, and stability analysis of the power converters and hybrid power systems."
                 ]
               }
             }
@@ -3616,7 +3645,12 @@
       "behavior": [
         "w-9",
         "h-12"
-      ]
+      ],
+      "summary": {
+        "en": [
+          "Click 'start tour' on the right"
+        ]
+      }
     },
     {
       "label": {
@@ -3661,7 +3695,7 @@
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/411fbf16-8f0b-fc0a-65ad-e8b7673b8c0c",
       "summary": {
         "en": [
-          "--Merle de Kreuk"
+          "– Merle de Kreuk"
         ]
       },
       "behavior": [
@@ -3720,7 +3754,7 @@
       ],
       "summary": {
         "en": [
-          "--Aleksandra Lekic"
+          "– Aleksandra Lekic"
         ]
       }
     },
@@ -3768,7 +3802,7 @@
       ],
       "summary": {
         "en": [
-          "--Elif Ozcan Vieira"
+          "– Elif Ozcan Vieira"
         ]
       },
       "label": {
@@ -3778,290 +3812,13 @@
       }
     },
     {
-      "height": 336,
-      "width": 238,
+      "height": 175,
+      "width": 125,
       "type": "Canvas",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/58da02c4-4a1e-cab5-853a-cbc91163b629/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2263,
-                "width": 1600,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/58da02c4-4a1e-cab5-853a-cbc91163b629",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 1600,
-                  "height": 2263,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 724,
-                      "height": 1024
-                    },
-                    {
-                      "width": 283,
-                      "height": 400
-                    },
-                    {
-                      "width": 141,
-                      "height": 200
-                    },
-                    {
-                      "width": 71,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/58da02c4-4a1e-cab5-853a-cbc91163b629/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/58da02c4-4a1e-cab5-853a-cbc91163b629",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 724,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 71,
-                        "height": 100
-                      },
-                      {
-                        "width": 141,
-                        "height": 200
-                      },
-                      {
-                        "width": 283,
-                        "height": 400
-                      },
-                      {
-                        "width": 724,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/4998b8e5-491a-efa1-2dae-c1e293c3a1fd",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=13,190,98,134",
-              "label": {
-                "en": [
-                  "Finger extenders"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "\"The most common smartphones donÃ¢â‚¬â„¢t fit the",
-                  "average womenÃ¢â‚¬â„¢s hands (or pockets), because",
-                  "they are designed for the average male hand",
-                  "size. The average woman is unable to use their",
-                  "phone one handed, reducing the functionality of",
-                  "the device (Perez, 2019).\""
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/29420323-e4fc-0e83-98c8-bf12025040fd/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 7016,
-                "width": 4961,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/29420323-e4fc-0e83-98c8-bf12025040fd",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 4961,
-                  "height": 7016,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 724,
-                      "height": 1024
-                    },
-                    {
-                      "width": 283,
-                      "height": 400
-                    },
-                    {
-                      "width": 141,
-                      "height": 200
-                    },
-                    {
-                      "width": 71,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/29420323-e4fc-0e83-98c8-bf12025040fd/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/29420323-e4fc-0e83-98c8-bf12025040fd",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 724,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 71,
-                        "height": 100
-                      },
-                      {
-                        "width": 141,
-                        "height": 200
-                      },
-                      {
-                        "width": 283,
-                        "height": 400
-                      },
-                      {
-                        "width": 724,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/9b93c9af-9c74-8cc7-e26c-da187c0ee8b3",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=126,179,112,155",
-              "label": {
-                "en": [
-                  "Height shoe"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "\"This Ã¢â‚¬Å“reference manÃ¢â‚¬Â, that is meant to represent",
-                  "humanity, is a Caucasian man, between 25-30",
-                  "years of age who weighs roughly 70 kg and is",
-                  "170 cm in height (Perez, 2019). This reference",
-                  "man proves to not be sufficient to represent",
-                  "women...(Perez,2019).\""
-                ]
-              }
-            },
             {
               "motivation": "painting",
               "type": "Annotation",
@@ -4184,7 +3941,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/319eaa2a-f337-6a32-863b-e28b0b9a56f6",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=0,0,126,178",
+              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=0,0,125,175",
               "summary": {
                 "en": [
                   "\"GoogleÃ¢â‚¬â„¢s speech-recognition software, for example, is significantly more likely to accurately transcribe male speech, compared to female speech (Tatman, 2020). A similar pattern has been found in voice recognition software used to automatically score clinical trials, to select job applicants and for the voice command system in cars (The Guardian, 2019; Tatman, 2017). \""
@@ -4195,142 +3952,6 @@
                   "Voice pitch adjuster "
                 ]
               }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/24/6200bec0-03e9-8aa6-6765-b3157fd698b1/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 4961,
-                "width": 3508,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/24/6200bec0-03e9-8aa6-6765-b3157fd698b1",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 3508,
-                  "height": 4961,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 724,
-                      "height": 1024
-                    },
-                    {
-                      "width": 283,
-                      "height": 400
-                    },
-                    {
-                      "width": 141,
-                      "height": 200
-                    },
-                    {
-                      "width": 71,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/24/6200bec0-03e9-8aa6-6765-b3157fd698b1/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/24/6200bec0-03e9-8aa6-6765-b3157fd698b1",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 724,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 71,
-                        "height": 100
-                      },
-                      {
-                        "width": 141,
-                        "height": 200
-                      },
-                      {
-                        "width": 283,
-                        "height": 400
-                      },
-                      {
-                        "width": 724,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/b7f8b0ad-22e3-28f4-103b-1895123c167a",
-              "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=134,17,97,136",
-              "label": {
-                "en": [
-                  "Parent breasted sweater"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "\"The average parent breasted sweater is a fictional product that criticizes the way in which design can exclude users. In this case exclusion",
-                  "happens because of the gender stereotypes and expectations that are represented in the design, which are not matching with the actual",
-                  "behaviour and beliefs of the users.\""
-                ]
-              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/list/7b92437f-c0ce-befb-aa3a-3e102aad279c"
@@ -4338,12 +3959,14 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259",
       "behavior": [
+        "right",
         "w-12",
-        "h-4"
+        "h-9"
       ],
       "summary": {
         "en": [
-          "<p>\"Female voices are less likely to be accurately processed by voice recognition software and artificial intelligence assistants, because these programs are trained on datasets in which women are underrepresented (Perez, 2019).\" --Excerpts and fictional products from \"One Size Fits Some\", a 2020 Master's Thesis on gender bias at the TU Delft by Maartje van Proosdij advised by Prof. dr. B.F. van Eekelen and Dr. ir. A.G.C. van Boeijen.</p>"
+          "\"Female voices are less likely to be accurately processed by voice recognition software and artificial intelligence assistants, because these programs are trained on datasets in which women are underrepresented (Perez, 2019).\"",
+          "– Excerpts and fictional products from \"One Size Fits Some\", a 2020 Master's Thesis on gender bias at the TU Delft by Maartje van Proosdij advised by Prof. dr. B.F. van Eekelen and Dr. ir. A.G.C. van Boeijen."
         ]
       },
       "label": {
@@ -4493,7 +4116,7 @@
       ],
       "label": {
         "en": [
-          "Non-invasive nerve block via ultrasound, Credit: Rwei"
+          "Non-invasive nerve block via ultrasound, Credit: Alina Rwei"
         ]
       }
     },
