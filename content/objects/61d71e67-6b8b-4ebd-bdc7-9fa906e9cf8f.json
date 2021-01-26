@@ -1,0 +1,193 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Pentagoonprisma"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "prisma"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0287.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "45,0 (h)  * 28,0 (b)  * 34,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Pentagoon prisma voor het uitzetten van hoeken van negentig graden in een metalen houder. Het object ligt links op de foto. Zie ook inventarisnummer 2000.0283."
+        },
+        {
+            "label": "Documentatie",
+            "value": "W. Schermerhorn &amp; H.J. van Steenis. Leerboek der Landmeetkunde derde druk blz 133"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Pentagonprisma door Carl Zeiss;Pentagoon prisma (2000.0283.GEO;2000.0449.GEO)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/61d71e67-6b8b-4ebd-bdc7-9fa906e9cf8f/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/61d71e67-6b8b-4ebd-bdc7-9fa906e9cf8f/range/range-0-0.json",
+            "label": "0"
+        },
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/61d71e67-6b8b-4ebd-bdc7-9fa906e9cf8f/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/61d71e67-6b8b-4ebd-bdc7-9fa906e9cf8f/range/range-0-1.json",
+            "label": "1"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/61d71e67-6b8b-4ebd-bdc7-9fa906e9cf8f.json",
+    "label": "Pentagoonprisma",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 0,
+                            "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5",
+                            "height": 0
+                        },
+                        "width": 0,
+                        "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/full/0,0/0/default.jpg",
+                        "height": 0
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "width": 0,
+                                "height": 0
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 0,
+                        "@id": "https://dlc.services/thumbs/7/18/d1913f3c-6001-4070-b9e0-971a596800b5",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 0
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 0,
+                "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/canvas/c0",
+                "label": "Image",
+                "height": 0
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 0,
+                            "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5",
+                            "height": 0
+                        },
+                        "width": 0,
+                        "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/full/0,0/0/default.jpg",
+                        "height": 0
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "width": 0,
+                                "height": 0
+                            },
+                            {
+                                "width": 0,
+                                "height": 0
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 0,
+                        "@id": "https://dlc.services/thumbs/7/18/d1913f3c-6001-4070-b9e0-971a596800b5",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 0
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 0,
+                "@id": "https://dlc.services/iiif-img/7/18/d1913f3c-6001-4070-b9e0-971a596800b5/canvas/c0",
+                "label": "Image",
+                "height": 0
+            }
+        ],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/61d71e67-6b8b-4ebd-bdc7-9fa906e9cf8f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
