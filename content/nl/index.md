@@ -21,9 +21,9 @@ title: "Academisch Erfgoed"
 
 [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb)
 </div>
-<div class="block tint copper cutcorners w-4 h-4 image">
+<div class="block tint purple cutcorners w-4 h-4 image">
 
-[Trésor](/nl/collections/lib-tresor)
+[Voices of Women in Science](/nl/exhibitions/voices-of-wis)
 </div>
 <div class="block cutcorners w-4 h-4 article">
 
@@ -43,7 +43,7 @@ Vrienden worden? Bezoek ook de website van <a href="http://histechnica.nl">Histe
 </div>
 <div class="block tint copper cutcorners w-4 h-4 image">
 
-[Slingeruurwerk](/nl/objects/photo-schwartz-slingeruurwerk)
+[Trésor](/nl/collections/lib-tresor)
 </div>
 </div>
 

@@ -21,9 +21,9 @@ title: "Academic Heritage"
 
 [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb)
 </div>
-<div class="block tint copper cutcorners w-4 h-4 image">
+<div class="block tint purple cutcorners w-4 h-4 image">
 
-[Trésor](/en/collections/lib-tresor)
+[Voices of Women in Science](/en/exhibitions/voices-of-wis)
 </div>
 <div class="block cutcorners w-4 h-4 article">
 
@@ -43,7 +43,7 @@ Would you like to become a friend? Please visit the website of <a href="http://h
 </div>
 <div class="block tint copper cutcorners w-4 h-4 image">
 
-[Pendulum clock](/en/objects/photo-schwartz-slingeruurwerk)
+[Trésor](/en/collections/lib-tresor)
 </div>
 </div>
 
