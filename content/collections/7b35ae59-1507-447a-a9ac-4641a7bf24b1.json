@@ -30,6 +30,170 @@
                 "service": {
                     "sizes": [
                         {
+                            "width": 852,
+                            "height": 1024
+                        },
+                        {
+                            "width": 333,
+                            "height": 400
+                        },
+                        {
+                            "width": 166,
+                            "height": 200
+                        },
+                        {
+                            "width": 83,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 852,
+                    "id": "https://dlc.services/thumbs/7/18/61f5a944-d288-4b87-bdf0-27dcbe4271ff",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/61f5a944-d288-4b87-bdf0-27dcbe4271ff/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/fb59072f-be4a-4d3d-8870-41c258b2e1aa.json",
+            "label": {"nl": ["Portret van J.A. Keurenaer door H. Goovaerts"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 897,
+                            "height": 1024
+                        },
+                        {
+                            "width": 350,
+                            "height": 400
+                        },
+                        {
+                            "width": 175,
+                            "height": 200
+                        },
+                        {
+                            "width": 88,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 897,
+                    "id": "https://dlc.services/thumbs/7/18/9c91b261-40db-45d9-983e-a7f932fd9a2f",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/9c91b261-40db-45d9-983e-a7f932fd9a2f/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/2ed7fe53-b441-48a2-86fa-c2413f07d2fe.json",
+            "label": {"nl": ["Portret van Ir. G.H. de Vries Broekman door H. Luns"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 916,
+                            "height": 1024
+                        },
+                        {
+                            "width": 358,
+                            "height": 400
+                        },
+                        {
+                            "width": 179,
+                            "height": 200
+                        },
+                        {
+                            "width": 89,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 916,
+                    "id": "https://dlc.services/thumbs/7/18/ef8f2dd0-73c7-40d3-8930-da4aa56f8eda",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/ef8f2dd0-73c7-40d3-8930-da4aa56f8eda/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/3ddd99d2-3b93-49e2-a2d9-97686daf840f.json",
+            "label": {"nl": ["Portret van Rector Magnificus Prof. J.M. Tienstra door W.G. Hofker"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 865,
+                            "height": 1024
+                        },
+                        {
+                            "width": 338,
+                            "height": 400
+                        },
+                        {
+                            "width": 169,
+                            "height": 200
+                        },
+                        {
+                            "width": 85,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 865,
+                    "id": "https://dlc.services/thumbs/7/18/d1434513-db45-4b7b-b505-d338b31cb0b2",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/d1434513-db45-4b7b-b505-d338b31cb0b2/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/3dc52d11-ce5b-47a2-8dc7-2a73a6a5a828.json",
+            "label": {"nl": ["Portret van Ir. G. Diehl door H. Luns"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
                             "width": 867,
                             "height": 1024
                         },
@@ -850,20 +1014,20 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 1024,
-                            "height": 683
+                            "width": 897,
+                            "height": 1024
                         },
                         {
-                            "width": 400,
-                            "height": 267
+                            "width": 350,
+                            "height": 400
                         },
                         {
-                            "width": 200,
-                            "height": 133
+                            "width": 175,
+                            "height": 200
                         },
                         {
-                            "width": 100,
-                            "height": 67
+                            "width": 88,
+                            "height": 100
                         }
                     ],
                     "profile": [
@@ -874,12 +1038,12 @@
                             "supports": ["sizeByWhListed"]
                         }
                     ],
-                    "width": 1024,
-                    "id": "https://dlc.services/thumbs/7/18/d7421943-1def-40bc-a966-cc2235a25e2d",
+                    "width": 897,
+                    "id": "https://dlc.services/thumbs/7/18/5fadbe8d-f5f0-4053-b8c9-7e870582730d",
                     "type": "ImageService2",
-                    "height": 683
+                    "height": 1024
                 },
-                "id": "https://dlc.services/thumbs/7/18/d7421943-1def-40bc-a966-cc2235a25e2d/full/full/0/default.jpg",
+                "id": "https://dlc.services/thumbs/7/18/5fadbe8d-f5f0-4053-b8c9-7e870582730d/full/full/0/default.jpg",
                 "type": "Image"
             }],
             "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/cc30b82e-5632-4b12-b9c8-ecbe2429f0ee.json",
