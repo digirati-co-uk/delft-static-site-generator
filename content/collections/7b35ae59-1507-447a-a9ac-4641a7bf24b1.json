@@ -30,6 +30,703 @@
                 "service": {
                     "sizes": [
                         {
+                            "width": 1024,
+                            "height": 768
+                        },
+                        {
+                            "width": 400,
+                            "height": 300
+                        },
+                        {
+                            "width": 200,
+                            "height": 150
+                        },
+                        {
+                            "width": 100,
+                            "height": 75
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa",
+                    "type": "ImageService2",
+                    "height": 768
+                },
+                "id": "https://dlc.services/thumbs/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/95499e2d-d517-4c12-899c-83e2d7c3e8ce.json",
+            "label": {"nl": ["Leren aktentas"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 652
+                        },
+                        {
+                            "width": 400,
+                            "height": 255
+                        },
+                        {
+                            "width": 200,
+                            "height": 127
+                        },
+                        {
+                            "width": 100,
+                            "height": 64
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/ea95ade3-818f-41c6-a620-938a651f5854",
+                    "type": "ImageService2",
+                    "height": 652
+                },
+                "id": "https://dlc.services/thumbs/7/18/ea95ade3-818f-41c6-a620-938a651f5854/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/88426382-3cf5-4f16-a0b5-d40eff27858e.json",
+            "label": {"nl": ["Briefopener"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 579
+                        },
+                        {
+                            "width": 400,
+                            "height": 226
+                        },
+                        {
+                            "width": 200,
+                            "height": 113
+                        },
+                        {
+                            "width": 100,
+                            "height": 57
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/440f03bb-15de-4913-9fe0-e3dafb145678",
+                    "type": "ImageService2",
+                    "height": 579
+                },
+                "id": "https://dlc.services/thumbs/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/af4087ec-d172-4da0-accf-828a13d3fdcc.json",
+            "label": {"nl": ["Gedenkplaat Technische Natuurkunde"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 768
+                        },
+                        {
+                            "width": 400,
+                            "height": 300
+                        },
+                        {
+                            "width": 200,
+                            "height": 150
+                        },
+                        {
+                            "width": 100,
+                            "height": 75
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6",
+                    "type": "ImageService2",
+                    "height": 768
+                },
+                "id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/f1fb8e57-22ac-42c3-a659-f5f346f2aa07.json",
+            "label": {"nl": ["Gegoten model van een aambeeld door TU Delft"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 692
+                        },
+                        {
+                            "width": 400,
+                            "height": 270
+                        },
+                        {
+                            "width": 200,
+                            "height": 135
+                        },
+                        {
+                            "width": 100,
+                            "height": 68
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4",
+                    "type": "ImageService2",
+                    "height": 692
+                },
+                "id": "https://dlc.services/thumbs/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/9b913b20-63f7-4b59-b5dd-18c54e5b533e.json",
+            "label": {"nl": ["Fidelity Electronics schaakcomputer Chess Challenger"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7",
+                    "type": "ImageService2",
+                    "height": 683
+                },
+                "id": "https://dlc.services/thumbs/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/c636f514-93e9-4367-b058-44c6ffaa6e26.json",
+            "label": {"nl": ["Rekencilinder door Laboratorium van Geodesie"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 768
+                        },
+                        {
+                            "width": 400,
+                            "height": 300
+                        },
+                        {
+                            "width": 200,
+                            "height": 150
+                        },
+                        {
+                            "width": 100,
+                            "height": 75
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8",
+                    "type": "ImageService2",
+                    "height": 768
+                },
+                "id": "https://dlc.services/thumbs/7/18/beced942-54e0-43bc-b7ea-fc34616b39e8/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/fca7cd95-3071-4f38-9cdf-c65144c28923.json",
+            "label": {"nl": ["Twee boeken met handtekeningen van studenten van Prof. C.B. Biezeno"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 692,
+                            "height": 1024
+                        },
+                        {
+                            "width": 270,
+                            "height": 400
+                        },
+                        {
+                            "width": 135,
+                            "height": 200
+                        },
+                        {
+                            "width": 68,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 692,
+                    "id": "https://dlc.services/thumbs/7/18/072822e7-37bd-43cb-9d3a-b34c6c191082",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/072822e7-37bd-43cb-9d3a-b34c6c191082/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/4b12b161-e03a-4be3-9f54-a9af0fc82069.json",
+            "label": {"nl": ["Portret van J.E.N. baron Schimmelpenninck van der Oye van Hoevelaken door J. Linge"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 835,
+                            "height": 1024
+                        },
+                        {
+                            "width": 326,
+                            "height": 400
+                        },
+                        {
+                            "width": 163,
+                            "height": 200
+                        },
+                        {
+                            "width": 82,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 835,
+                    "id": "https://dlc.services/thumbs/7/18/f735bb22-83d3-444d-9b1a-0259de0ad3c4",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/f735bb22-83d3-444d-9b1a-0259de0ad3c4/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/49fe2202-c893-438b-b854-365dc9fac23c.json",
+            "label": {"nl": ["Portret van Prof. Ir. J.C. Dijxhoorn door A.F. Gips"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 863,
+                            "height": 1024
+                        },
+                        {
+                            "width": 337,
+                            "height": 400
+                        },
+                        {
+                            "width": 169,
+                            "height": 200
+                        },
+                        {
+                            "width": 84,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 863,
+                    "id": "https://dlc.services/thumbs/7/18/5bb86e00-96df-493d-9dd5-1b62fcd40fb3",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/5bb86e00-96df-493d-9dd5-1b62fcd40fb3/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/29472ca2-41af-47fb-835f-23e2db71b00c.json",
+            "label": {"nl": ["Portret van Prof. Mr. A.C. Josephus Jitta"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 794,
+                            "height": 1024
+                        },
+                        {
+                            "width": 310,
+                            "height": 400
+                        },
+                        {
+                            "width": 155,
+                            "height": 200
+                        },
+                        {
+                            "width": 78,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 794,
+                    "id": "https://dlc.services/thumbs/7/18/e88b1ad8-956e-49b5-9b22-220844db72d2",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/e88b1ad8-956e-49b5-9b22-220844db72d2/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/4f38cf34-8f6c-4ec4-beee-0174aa00c9c3.json",
+            "label": {"nl": ["Portret van Dr. Ir. C. Lely door W. van den Berg"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 861,
+                            "height": 1024
+                        },
+                        {
+                            "width": 336,
+                            "height": 400
+                        },
+                        {
+                            "width": 168,
+                            "height": 200
+                        },
+                        {
+                            "width": 84,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 861,
+                    "id": "https://dlc.services/thumbs/7/18/0a41f921-4942-467e-a981-abbff7a2e1e7",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/0a41f921-4942-467e-a981-abbff7a2e1e7/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/55ca0cb0-2eaf-4559-95ba-f97c15d3fee6.json",
+            "label": {"nl": ["Portret van Dr. L. Cohen Stuart"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 861,
+                            "height": 1024
+                        },
+                        {
+                            "width": 336,
+                            "height": 400
+                        },
+                        {
+                            "width": 168,
+                            "height": 200
+                        },
+                        {
+                            "width": 84,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 861,
+                    "id": "https://dlc.services/thumbs/7/18/1e3f07ab-40fd-4d8b-ade3-b655c3879345",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/1e3f07ab-40fd-4d8b-ade3-b655c3879345/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/ebbe92f1-a427-43d4-afc7-c8c561611555.json",
+            "label": {"nl": ["Portret van Prof. J.M.Telders door H.J. Haverman"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 852,
+                            "height": 1024
+                        },
+                        {
+                            "width": 333,
+                            "height": 400
+                        },
+                        {
+                            "width": 166,
+                            "height": 200
+                        },
+                        {
+                            "width": 83,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 852,
+                    "id": "https://dlc.services/thumbs/7/18/61f5a944-d288-4b87-bdf0-27dcbe4271ff",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/61f5a944-d288-4b87-bdf0-27dcbe4271ff/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/fb59072f-be4a-4d3d-8870-41c258b2e1aa.json",
+            "label": {"nl": ["Portret van J.A. Keurenaer door H. Goovaerts"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 897,
+                            "height": 1024
+                        },
+                        {
+                            "width": 350,
+                            "height": 400
+                        },
+                        {
+                            "width": 175,
+                            "height": 200
+                        },
+                        {
+                            "width": 88,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 897,
+                    "id": "https://dlc.services/thumbs/7/18/9c91b261-40db-45d9-983e-a7f932fd9a2f",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/9c91b261-40db-45d9-983e-a7f932fd9a2f/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/2ed7fe53-b441-48a2-86fa-c2413f07d2fe.json",
+            "label": {"nl": ["Portret van Ir. G.H. de Vries Broekman door H. Luns"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 916,
+                            "height": 1024
+                        },
+                        {
+                            "width": 358,
+                            "height": 400
+                        },
+                        {
+                            "width": 179,
+                            "height": 200
+                        },
+                        {
+                            "width": 89,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 916,
+                    "id": "https://dlc.services/thumbs/7/18/ef8f2dd0-73c7-40d3-8930-da4aa56f8eda",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/ef8f2dd0-73c7-40d3-8930-da4aa56f8eda/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/3ddd99d2-3b93-49e2-a2d9-97686daf840f.json",
+            "label": {"nl": ["Portret van Rector Magnificus Prof. J.M. Tienstra door W.G. Hofker"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 865,
+                            "height": 1024
+                        },
+                        {
+                            "width": 338,
+                            "height": 400
+                        },
+                        {
+                            "width": 169,
+                            "height": 200
+                        },
+                        {
+                            "width": 85,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 865,
+                    "id": "https://dlc.services/thumbs/7/18/d1434513-db45-4b7b-b505-d338b31cb0b2",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/d1434513-db45-4b7b-b505-d338b31cb0b2/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/3dc52d11-ce5b-47a2-8dc7-2a73a6a5a828.json",
+            "label": {"nl": ["Portret van Ir. G. Diehl door H. Luns"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
                             "width": 867,
                             "height": 1024
                         },
@@ -850,20 +1547,20 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 1024,
-                            "height": 683
+                            "width": 897,
+                            "height": 1024
                         },
                         {
-                            "width": 400,
-                            "height": 267
+                            "width": 350,
+                            "height": 400
                         },
                         {
-                            "width": 200,
-                            "height": 133
+                            "width": 175,
+                            "height": 200
                         },
                         {
-                            "width": 100,
-                            "height": 67
+                            "width": 88,
+                            "height": 100
                         }
                     ],
                     "profile": [
@@ -874,12 +1571,12 @@
                             "supports": ["sizeByWhListed"]
                         }
                     ],
-                    "width": 1024,
-                    "id": "https://dlc.services/thumbs/7/18/d7421943-1def-40bc-a966-cc2235a25e2d",
+                    "width": 897,
+                    "id": "https://dlc.services/thumbs/7/18/5fadbe8d-f5f0-4053-b8c9-7e870582730d",
                     "type": "ImageService2",
-                    "height": 683
+                    "height": 1024
                 },
-                "id": "https://dlc.services/thumbs/7/18/d7421943-1def-40bc-a966-cc2235a25e2d/full/full/0/default.jpg",
+                "id": "https://dlc.services/thumbs/7/18/5fadbe8d-f5f0-4053-b8c9-7e870582730d/full/full/0/default.jpg",
                 "type": "Image"
             }],
             "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/cc30b82e-5632-4b12-b9c8-ecbe2429f0ee.json",
