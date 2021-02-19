@@ -1,0 +1,148 @@
+{
+    "summary": {"nl": [""]},
+    "metadata": [
+        {
+            "label": {"nl": ["Beherende instelling"]},
+            "value": {"nl": ["TU Delft Library"]}
+        },
+        {
+            "label": {"nl": ["Conservator"]},
+            "value": {"nl": ["Sylvia Nijhuis"]}
+        }
+    ],
+    "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/collections/16beba4f-6d4a-4560-8996-c358fa96bcfb.json",
+    "label": {
+        "en": [""],
+        "nl": ["Collectie Library"]
+    },
+    "type": "Collection",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "items": [
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 573
+                        },
+                        {
+                            "width": 400,
+                            "height": 224
+                        },
+                        {
+                            "width": 200,
+                            "height": 112
+                        },
+                        {
+                            "width": 100,
+                            "height": 56
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac",
+                    "type": "ImageService2",
+                    "height": 573
+                },
+                "id": "https://dlc.services/thumbs/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/4d5d41f6-c4ab-453c-968b-808099d5ad28.json",
+            "label": {"nl": ["Serie zwart-witfoto's Testudo test"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/aec1d284-b54e-4f18-bdda-f3b7cbdb881b",
+                    "type": "ImageService2",
+                    "height": 683
+                },
+                "id": "https://dlc.services/thumbs/7/18/aec1d284-b54e-4f18-bdda-f3b7cbdb881b/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/7f8c5b45-0a1d-40d1-89b5-eb3c4be0c35d.json",
+            "label": {"nl": ["[LEEG]"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/aec1d284-b54e-4f18-bdda-f3b7cbdb881b",
+                    "type": "ImageService2",
+                    "height": 683
+                },
+                "id": "https://dlc.services/thumbs/7/18/aec1d284-b54e-4f18-bdda-f3b7cbdb881b/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/a8cf9459-b45b-4cfc-b73c-1045637cc03d.json",
+            "label": {"nl": ["[LEEG]"]},
+            "type": "Manifest"
+        }
+    ]
+}
