@@ -1,0 +1,108 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Serie zwart-witfoto's Testudo test"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "foto"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2019.0003.LIB"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h)  * 36,0 (b)  * 28,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "TESTUDO - testers (2002.0575.EWI)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/4d5d41f6-c4ab-453c-968b-808099d5ad28/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/4d5d41f6-c4ab-453c-968b-808099d5ad28/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/4d5d41f6-c4ab-453c-968b-808099d5ad28.json",
+    "label": "Serie zwart-witfoto's Testudo test",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 4832,
+                        "@id": "https://dlc.services/iiif-img/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac",
+                        "height": 2702
+                    },
+                    "width": 4832,
+                    "@id": "https://dlc.services/iiif-img/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac/full/1024,573/0/default.jpg",
+                    "height": 2702
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 573
+                        },
+                        {
+                            "width": 400,
+                            "height": 224
+                        },
+                        {
+                            "width": 200,
+                            "height": 112
+                        },
+                        {
+                            "width": 100,
+                            "height": 56
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 573
+                },
+                "@id": "https://dlc.services/thumbs/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 4832,
+            "@id": "https://dlc.services/iiif-img/7/18/176331c8-5395-4df7-9d64-f2b1d3885fac/canvas/c0",
+            "label": "Image",
+            "height": 2702
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/4d5d41f6-c4ab-453c-968b-808099d5ad28/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
