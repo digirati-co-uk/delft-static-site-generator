@@ -26,16 +26,19 @@ title: "Academisch Erfgoed"
 [Voices of Women in Science](/nl/exhibitions/voices-of-wis)
 </div>
 <div class="block cutcorners w-4 h-4 article">
-
-[De Spaanse Griep in Delft](/nl/publications/delta-spanish-flu)
+    <a href="http://histechnica.nl/">
+        <div class="boxtitle">LINK</div>
+        <div class="maintitle">Vrienden van het Academisch Erfgoed</div>
+        <div class="caption">Histechnica</div>
+    </a>
 </div>
 <div class="block tint purple cutcorners w-4 h-4 image">
 
 [Corona Chronicles](/nl/exhibitions/corona-chronicles)
 </div>
-<div class="block cutcorners w-4 h-4 title">
+<div class="block cutcorners w-4 h-4 article">
 
-Vrienden worden? Bezoek ook de website van <a href="http://histechnica.nl">Histechnica</a>, de vriendenvereniging van het Academisch Erfgoed van de TU delft.
+[De Spaanse Griep in Delft](/nl/publications/delta-spanish-flu)
 </div>
 <div class="block tint purple cutcorners w-4 h-4 image">
 

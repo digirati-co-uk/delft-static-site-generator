@@ -26,16 +26,19 @@ title: "Academic Heritage"
 [Voices of Women in Science](/en/exhibitions/voices-of-wis)
 </div>
 <div class="block cutcorners w-4 h-4 article">
-
-[The Spanish Flu in Delft](/en/publications/delta-spanish-flu)
+    <a href="http://histechnica.nl/">
+        <div class="boxtitle">LINK</div>
+        <div class="maintitle">Friends of Academic Heritage</div>
+        <div class="caption">Histechnica</div>
+    </a>
 </div>
 <div class="block tint purple cutcorners w-4 h-4 image">
 
 [Corona Chronicles](/en/exhibitions/corona-chronicles)
 </div>
-<div class="block cutcorners w-4 h-4 title">
+<div class="block cutcorners w-4 h-4 article">
 
-Would you like to become a friend? Please visit the website of <a href="http://histechnica.nl">Histechnica</a>, the Friends Association of TU Delft's Academic Heritage.
+[The Spanish Flu in Delft](/en/publications/delta-spanish-flu)
 </div>
 <div class="block tint purple cutcorners w-4 h-4 image">
 
