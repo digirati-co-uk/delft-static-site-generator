@@ -8,7 +8,7 @@ title: "About"
 
 # About TU Delft Library's Academic Heritage Team
 
-*Please note: you are currently viewing the beta version of TU Delft Library's academic heritage portal. This website contains demo material for testing purposes and does not yet provide access to the full digital special collections. Should you encounter any bugs or other issues, please don't hesitate to [contact TU Delft Library](https://www.tudelft.nl/library/over-the-library/contact-en-bereikbaarheid/). The first official release is scheduled for November 2020.*
+*Please note: you are currently viewing the beta version of TU Delft Library's academic heritage portal. This website contains demo material for testing purposes and does not yet provide access to the full digital special collections. Should you encounter any bugs or other issues, please don't hesitate to [contact TU Delft Library](https://www.tudelft.nl/en/library/about-the-library/contact-and-map). The first official release is scheduled for November 2020.*
 
 Since 2017, when TU Delft celebrated its 175th anniversary, the university has been raising the profile of its academic heritage by systematically curating  its collections, initiating research projects and organising on-campus presentations in collaboration with students and academic staff.
 
