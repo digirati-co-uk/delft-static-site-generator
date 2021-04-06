@@ -2,7 +2,7 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Portret van Prof. M. Grandpré Molière door J. Michiels van Kessenich."
+            "value": "Portret van prof. M. Grandpré Molière door J. Michiels van Kessenich"
         },
         {
             "label": "Objectnaam",
@@ -10,7 +10,7 @@
         },
         {
             "label": "Inventarisnummer",
-            "value": "2005.0001.CVB"
+            "value": "CVB.2005.0001"
         },
         {
             "label": "Datering",
@@ -18,23 +18,19 @@
         },
         {
             "label": "Maker",
-            "value": "Michiels van Kessenich, Judy  (ontwerper)"
+            "value": "Michiels van Kessenich, Judy  (maker)"
         },
         {
             "label": "Afmetingen",
-            "value": "50,0 (h)  * 1.040,0 (b)  * 890,0 (d) "
+            "value": "1.040,0 (h)  * 890,0 (b)  * 50,0 (d) "
         },
         {
             "label": "Materiaal",
             "value": "olieverf, hout"
         },
         {
-            "label": "Plaats vervaardiging",
-            "value": "<a href=\"https://www.geonames.org/2757344\">Delft, Nederland<\/a>"
-        },
-        {
             "label": "Beschrijving",
-            "value": "Geschilderd portret van M. Grandpré Molière, hoogleraar architectuur (1924-1953).<\/br>Testje JS"
+            "value": "Geschilderd portret door Judy Michiels van Kessenich, van prof. Marinus Jan Grandpré Moliere, hoogleraar architectuur van 1924 tot 1953."
         },
         {
             "label": "Voorstelling",
@@ -43,6 +39,6 @@
     ],
     "@type": "sc:Manifest",
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/cc30b82e-5632-4b12-b9c8-ecbe2429f0ee.json",
-    "label": "Portret van Prof. M. Grandpré Molière door J. Michiels van Kessenich.",
+    "label": "Portret van prof. M. Grandpré Molière door J. Michiels van Kessenich",
     "@context": "http://iiif.io/api/presentation/2/context.json"
 }
