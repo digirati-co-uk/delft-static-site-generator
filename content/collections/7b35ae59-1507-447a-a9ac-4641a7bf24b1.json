@@ -1956,47 +1956,6 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 778,
-                            "height": 1024
-                        },
-                        {
-                            "width": 304,
-                            "height": 400
-                        },
-                        {
-                            "width": 152,
-                            "height": 200
-                        },
-                        {
-                            "width": 76,
-                            "height": 100
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 778,
-                    "id": "https://dlc.services/thumbs/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2",
-                    "type": "ImageService2",
-                    "height": 1024
-                },
-                "id": "https://dlc.services/thumbs/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/83ee6b70-74c8-4c21-afd8-30c0a84645be.json",
-            "label": {"nl": ["Stenen plaquette van prof. C.B. Biezeno"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
                             "width": 708,
                             "height": 1024
                         },
