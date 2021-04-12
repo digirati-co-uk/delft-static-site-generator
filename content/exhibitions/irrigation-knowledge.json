@@ -355,8 +355,8 @@
       }
     },
     {
-      "height": 2179,
-      "width": 4360,
+      "height": 500,
+      "width": 1000,
       "type": "Canvas",
       "items": [
         {
@@ -366,7 +366,7 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/5ec473af-ef1e-3328-f0ef-5fe2ee7204c3/0,0,14032,7017/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/21/5ec473af-ef1e-3328-f0ef-5fe2ee7204c3/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 7017,
@@ -484,8 +484,8 @@
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/8c88b2df-5409-8ebc-6234-855640a9bc0f",
-              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/31d0c358-722e-7649-a9d4-bf0d079afd15#xywh=0,0,4360,2179",
+              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/610ea14e-fec1-de76-7fe9-17f027cb842e",
+              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=0,0,1000,500",
               "label": {
                 "en": [
                   "Map of irrigation works on Java and Madoera"
@@ -495,8 +495,7 @@
                 "en": [
                   "Dick van der Spek, 2003"
                 ]
-              },
-              "body.id": "https://dlc.services/iiif-img/7/21/5ec473af-ef1e-3328-f0ef-5fe2ee7204c3/0,0,14032,7017/full/0/default.jpg"
+              }
             },
             {
               "motivation": "painting",
@@ -618,8 +617,8 @@
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/52a9d5b6-a2fb-e8bd-f783-c33009788759",
-              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/31d0c358-722e-7649-a9d4-bf0d079afd15#xywh=1374,73,668,429",
+              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/65db4bc5-693d-d0df-5320-ea3390c68d83",
+              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=299,18,142,100",
               "label": {
                 "en": [
                   "Koningsplein during a flood (bandjir) in Batavia (1898)"
@@ -751,8 +750,8 @@
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/9bd58075-e2e5-869f-15f3-ceafab838a13",
-              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/31d0c358-722e-7649-a9d4-bf0d079afd15#xywh=741,1533,646,442",
+              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2912e72-4e53-622b-a23c-0b27b4b63ad8",
+              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=174,331,142,102",
               "label": {
                 "en": [
                   "Dam in a river behind the Beri-Beri hospital in Buitenzorg, probably in the Tji Pekantjilan (1897)"
@@ -884,8 +883,8 @@
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b6895d08-9404-ba9c-8f24-474dbd41baf0",
-              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/31d0c358-722e-7649-a9d4-bf0d079afd15#xywh=2513,1622,665,464",
+              "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b5442fa8-846e-e591-52a6-f4a2054ea2e8",
+              "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=592,378,140,98",
               "label": {
                 "en": [
                   "Construction of a railway bridge over a river, probably at the Soedhono sugar factory of the Cultuur-Maatschappij der Vorstenlanden near Ngawi (1925)"
@@ -898,10 +897,10 @@
               }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/list/c22a4584-f981-2be3-4fda-d76b0c13eb09"
+          "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/list/f2733eab-93a9-cea0-dc4c-cd217c9eeaf8"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/31d0c358-722e-7649-a9d4-bf0d079afd15",
+      "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066",
       "behavior": [
         "w-12",
         "h-6"
@@ -2985,7 +2984,8 @@
                 "type": "TextualBody",
                 "value": "",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/textualbody/7c228b79-375f-84a8-60da-0a9424389f8b"
               },
               "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=251,584,119,228",
               "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/a3d4feae-8e5e-595c-e369-2437543d1d2d",
