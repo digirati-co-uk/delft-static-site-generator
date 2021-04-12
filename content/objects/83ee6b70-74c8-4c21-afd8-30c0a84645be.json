@@ -2,7 +2,7 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Stenen plaquette van prof. C.B. Biezeno."
+            "value": "Stenen plaquette van prof. C.B. Biezeno"
         },
         {
             "label": "Objectnaam",
@@ -30,7 +30,83 @@
         }
     ],
     "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/83ee6b70-74c8-4c21-afd8-30c0a84645be/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/83ee6b70-74c8-4c21-afd8-30c0a84645be/range/range-0-0.json",
+        "label": "0"
+    }],
     "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/83ee6b70-74c8-4c21-afd8-30c0a84645be.json",
-    "label": "Stenen plaquette van prof. C.B. Biezeno.",
+    "label": "Stenen plaquette van prof. C.B. Biezeno",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3289,
+                        "@id": "https://dlc.services/iiif-img/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2",
+                        "height": 4330
+                    },
+                    "width": 3289,
+                    "@id": "https://dlc.services/iiif-img/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/full/778,1024/0/default.jpg",
+                    "height": 4330
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 778,
+                            "height": 1024
+                        },
+                        {
+                            "width": 304,
+                            "height": 400
+                        },
+                        {
+                            "width": 152,
+                            "height": 200
+                        },
+                        {
+                            "width": 76,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 778,
+                    "@id": "https://dlc.services/thumbs/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3289,
+            "@id": "https://dlc.services/iiif-img/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/canvas/c0",
+            "label": "Image",
+            "height": 4330
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/83ee6b70-74c8-4c21-afd8-30c0a84645be/sequences/normal",
+        "label": "Current page order"
+    }],
     "@context": "http://iiif.io/api/presentation/2/context.json"
 }
