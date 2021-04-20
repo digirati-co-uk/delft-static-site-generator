@@ -11,11 +11,11 @@ title: "Academic Heritage"
 <div class="blocks">
 <div class="block tint purple cutcorners w-4 h-4 image">
 
-[Novices](/en/exhibitions/novieten)
+[Irrigation Knowledge](/en/exhibitions/irrigation-knowledge)
 </div>
 <div class="block tint copper cutcorners w-4 h-4 image">
 
-[Irrigation Knowledge](/en/objects/88e3a938-bd6c-4765-8645-1edb610392b7)
+[Pekalenwerken](/en/objects/trl-lamminga)
 </div>
 <div class="block cutcorners w-4 h-4 article">
 
