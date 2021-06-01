@@ -68,6 +68,10 @@ title: "Digital Collections"
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
+[Vrije Universiteit](/en/collections/ex-vu)
+</div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
 [Histechnica](/en/collections/ex-histechnica)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">

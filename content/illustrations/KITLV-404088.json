@@ -1,145 +1,27 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
+  "label": {
+    "en": [
+      "Jan Willem IJzerman (1e rij, 2e v.l.) te midden van personeel van de Staatsspoorwegen"
+    ]
+  },
   "type": "Manifest",
+  "id": "https://heritage.tudelft.nl/iiif/4fc9bece-9d3b-4bb3-948b-890ebfea67fb/manifest",
   "items": [
     {
       "label": {
         "en": [
-          "Untitled Canvas"
+          "Jan Willem IJzerman (1e rij, 2e v.l.) te midden van personeel van de Staatsspoorwegen ter Sumatra's Westkust te Padangpandjang"
         ]
       },
-      "height": 735,
-      "width": 1000,
+      "height": 3369,
+      "width": 4580,
       "type": "Canvas",
+      "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/canvas/default",
       "items": [
         {
           "type": "AnnotationPage",
           "items": [
             {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/20/c41580e4-f194-4c06-811c-b1f9f274421c/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 3369,
-                "width": 4580,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/20/c41580e4-f194-4c06-811c-b1f9f274421c",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 4580,
-                  "height": 3369,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 753
-                    },
-                    {
-                      "width": 400,
-                      "height": 294
-                    },
-                    {
-                      "width": 200,
-                      "height": 147
-                    },
-                    {
-                      "width": 100,
-                      "height": 74
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/20/c41580e4-f194-4c06-811c-b1f9f274421c/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/20/c41580e4-f194-4c06-811c-b1f9f274421c",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 753,
-                    "sizes": [
-                      {
-                        "width": 1024,
-                        "height": 753
-                      },
-                      {
-                        "width": 400,
-                        "height": 294
-                      },
-                      {
-                        "width": 200,
-                        "height": 147
-                      },
-                      {
-                        "width": 100,
-                        "height": 74
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/annotation/6584d12c-51d9-225e-eaf3-6f5d8c8c8bf6",
-              "target": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/canvas/e33b9be4-b472-b537-5c18-3b499bb8da92#xywh=0,0,1000,735",
               "label": {
                 "en": [
                   "Jan Willem IJzerman and Jan Klopper among staff of the National Railway, 1919"
@@ -149,6 +31,32 @@
                 "en": [
                   "Leiden University Library, KITLV collection, no. KITLV 404088"
                 ]
+              },
+              "thumbnail": [
+                {
+                  "service": {
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838",
+                    "type": "ImageService2"
+                  },
+                  "type": "Image",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838/full/1024,/0/default.jpg"
+                }
+              ],
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838",
+              "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/canvas/default#xywh=0,0,4580,3369",
+              "body": {
+                "height": 3369,
+                "width": 4580,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838",
+                  "type": "ImageService2"
+                },
+                "type": "Image",
+                "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838/full/pct:50/0/default.jpg"
               }
             },
             {
@@ -159,8 +67,8 @@
                 "format": "text/plain",
                 "language": "en"
               },
-              "target": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/canvas/e33b9be4-b472-b537-5c18-3b499bb8da92#xywh=215,230,102,104",
-              "id": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/annotation/656c6383-4fa2-2a8a-9e78-6eefd24f1c7e",
+              "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/canvas/default#xywh=1064,1107,337,358",
+              "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/annotation/69602dd2-1ad9-5c9c-b347-35cc25aaeca9",
               "motivation": "describing",
               "label": {
                 "en": [
@@ -176,8 +84,8 @@
                 "format": "text/plain",
                 "language": "en"
               },
-              "target": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/canvas/e33b9be4-b472-b537-5c18-3b499bb8da92#xywh=330,225,85,99",
-              "id": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/annotation/e3c53dc3-d82a-c8eb-12aa-2512bb28892a",
+              "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/canvas/default#xywh=1539,1047,319,360",
+              "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/annotation/89672774-5820-99bf-bae2-b6cb9e56afdd",
               "motivation": "describing",
               "label": {
                 "en": [
@@ -186,16 +94,13 @@
               }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/list/aef87ea7-7512-1a89-de9d-cb7346772aaa"
+          "id": "https://example.org/uuid/81669c87-8761-4125-8bdd-f8a2cdf2fc0d"
         }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/canvas/e33b9be4-b472-b537-5c18-3b499bb8da92"
+      ]
     }
   ],
-  "id": "https://heritage.tudelft.nl/iiif/34cc8c79-e011-2783-c2f1-640b67884fa4/manifest",
-  "label": {
-    "en": [
-      "Jan Willem IJzerman (first row, second from the left) and Jan Klopper (first row, third from the left) among staff of the National Railway, 1919"
-    ]
-  }
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
 }
