@@ -1,0 +1,83 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Collection wall"
+    ],
+    "nl": [
+      "Collectiewand"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "From book wall to collection wall"
+        ],
+        "nl": [
+          "Van boekenwand naar collectiewand"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/d9796f93-b815-b045-35af-c31f9a8b5d75/textualbody/358a1803-8d10-001c-d4be-663a7b5b16b0"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/d9796f93-b815-b045-35af-c31f9a8b5d75/canvas/06e24a94-95d8-4074-5592-9f13d275bda0#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/d9796f93-b815-b045-35af-c31f9a8b5d75/annotation/1c164b68-37af-7691-b7c1-538e65382b73",
+              "motivation": "painting",
+              "summary": {
+                "nl": [
+                  "De boekenwand van de Library heeft een grote symbolische betekenis - vanuit architectonisch uitgangspunt, maar ook voor studenten, onderzoekers en medewerkers van de TU Delft.",
+                  "",
+                  "Het huidige gebouw is ontworpen in een tijd waarin al sprake was van een overgang van papier naar digitaal maar nog onduidelijk was hoe dat zou uitpakken. Inmiddels blijkt de inrichting van de boekenwand steeds minder aan te sluiten bij de wensen van de huidige tijd. Het aankopen en uitlenen van fysieke boeken en tijdschriften is de afgelopen 20 jaar steeds verder gedaald. Dit heeft als gevolg dat momenteel de helft van de wand leegstaat.",
+                  "",
+                  "Dit betekent niet dat de collectie als geheel stilstaat. Naast het alsmaar groeiende digitale aanbod, is de Library ook verantwoordelijk voor het behoud en de presentatie van het academisch erfgoed van de universiteit. Deze collecties bevinden zich in afgesloten depots en kunnen maar beperkt bezocht worden. Door van de boekenwand een collectiewand te maken, kunnen deze objecten getoond worden aan het publiek, als in een open depot.",
+                  "",
+                  "De vitrines die voor deze pilot in de wand zijn gebouwd geven een voorproefje van de transformatie die de boekenwand zal ondergaan tot collectiewand: een podium waar alle vormen van kennis die de Library herbergt in de spotlight komen te staan. Volgende pilots zullen onder meer in het teken staan van de (re)presentatie van digitale collecties."
+                ]
+              },
+              "label": {
+                "nl": [
+                  "Van boekenwand naar collectiewand"
+                ],
+                "en": [
+                  "From book wall to collection wall"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/d9796f93-b815-b045-35af-c31f9a8b5d75/list/12be997e-5e20-04e8-4652-89afe2f27e45"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/d9796f93-b815-b045-35af-c31f9a8b5d75/canvas/06e24a94-95d8-4074-5592-9f13d275bda0",
+      "behavior": [
+        "w-4",
+        "info",
+        "info",
+        "h-4"
+      ],
+      "summary": {
+        "nl": [
+          "De boekenwand van de Library heeft een grote symbolische betekenis - vanuit architectonisch uitgangspunt, maar ook voor studenten, onderzoekers en medewerkers van de TU Delft."
+        ]
+      }
+    }
+  ],
+  "id": "https://heritage.tudelft.nl/iiif/collection-wall/manifest"
+}
