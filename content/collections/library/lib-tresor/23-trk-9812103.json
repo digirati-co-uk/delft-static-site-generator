@@ -1,0 +1,2640 @@
+{
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ],
+        "nl": [
+          "Titel"
+        ]
+      },
+      "value": {
+        "en": [
+          "Civitates orbis terrarum. Liber primus-sextus."
+        ],
+        "nl": [
+          "Civitates orbis terrarum. Liber primus-sextus."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Authors"
+        ],
+        "nl": [
+          "Auteurs"
+        ]
+      },
+      "value": {
+        "en": [
+          "Georg Braun, Franz Hogenberg"
+        ],
+        "nl": [
+          "Georg Braun, Franz Hogenberg"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Year"
+        ],
+        "nl": [
+          "Jaar"
+        ]
+      },
+      "value": {
+        "en": [
+          "1572-1618."
+        ],
+        "nl": [
+          "1572-1618."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Place"
+        ],
+        "nl": [
+          "Plaats"
+        ]
+      },
+      "value": {
+        "en": [
+          "Colonia Agrippina"
+        ],
+        "nl": [
+          "Colonia Agrippina"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "OCLC Number"
+        ],
+        "nl": [
+          "OCLC-nummer"
+        ]
+      },
+      "value": {
+        "en": [
+          "<p><a href=\"https://tudelft.on.worldcat.org/v2/oclc/842530782\" rel=\"noopener noreferrer\" target=\"_blank\">842530782</a></p>"
+        ],
+        "nl": [
+          "<p><a href=\"https://tudelft.on.worldcat.org/v2/oclc/842530782\" rel=\"noopener noreferrer\" target=\"_blank\">842530782</a></p>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Collection"
+        ],
+        "nl": [
+          "Collectie"
+        ]
+      },
+      "value": {
+        "en": [
+          "TU Delft Library, Trésor"
+        ],
+        "nl": [
+          "TU Delft Library, Trésor"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call numbers"
+        ],
+        "nl": [
+          "Inventarisnummers"
+        ]
+      },
+      "value": {
+        "en": [
+          "<p>TRK 9812103</p><p>TRK 9812104</p><p>TRK 9812105</p>"
+        ],
+        "nl": [
+          "<p>TRK 9812103</p><p>TRK 9812104</p><p>TRK 9812105</p>"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://dlc.services/iiif-resource/7/string1/trk-9812103",
+  "items": [
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 295,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 295
+              },
+              {
+                "width": 400,
+                "height": 115
+              },
+              {
+                "width": 200,
+                "height": 58
+              },
+              {
+                "width": 100,
+                "height": 29
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/23bd2cd3-320a-49cd-8a9d-fc362d78978a",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/23bd2cd3-320a-49cd-8a9d-fc362d78978a/full/full/0/default.jpg"
+        }
+      ],
+      "height": 1703,
+      "width": 5920,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=0",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/23bd2cd3-320a-49cd-8a9d-fc362d78978a/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=0#",
+              "body": {
+                "height": 1703,
+                "width": 5920,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 1703,
+                  "width": 5920,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/23bd2cd3-320a-49cd-8a9d-fc362d78978a",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/23bd2cd3-320a-49cd-8a9d-fc362d78978a/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/0f0de34a-618f-4e04-9a2f-9319588f64e7"
+        }
+      ],
+      "label": {
+        "en": [
+          "'s-Hertogenbosch (Part I, p. 18a)"
+        ],
+        "nl": [
+          "'s-Hertogenbosch (Deel I, p. 18a)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 736,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 736
+              },
+              {
+                "width": 400,
+                "height": 287
+              },
+              {
+                "width": 200,
+                "height": 144
+              },
+              {
+                "width": 100,
+                "height": 72
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/9dbc6360-6f1b-4bb1-a638-665dee890001",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/9dbc6360-6f1b-4bb1-a638-665dee890001/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4105,
+      "width": 5712,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=1",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/9dbc6360-6f1b-4bb1-a638-665dee890001/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=1#",
+              "body": {
+                "height": 4105,
+                "width": 5712,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4105,
+                  "width": 5712,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/9dbc6360-6f1b-4bb1-a638-665dee890001",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/9dbc6360-6f1b-4bb1-a638-665dee890001/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8253e721-f0d5-47b0-b688-c6b229f1eecb"
+        }
+      ],
+      "label": {
+        "en": [
+          "Amsterdam (Part I, p. 20)"
+        ],
+        "nl": [
+          "Amsterdam (Deel I, p. 20)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 753,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 753
+              },
+              {
+                "width": 400,
+                "height": 294
+              },
+              {
+                "width": 200,
+                "height": 147
+              },
+              {
+                "width": 100,
+                "height": 74
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/2739aed1-7c15-4637-ac7d-73bf85a665f1",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/2739aed1-7c15-4637-ac7d-73bf85a665f1/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3708,
+      "width": 5044,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=2",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/2739aed1-7c15-4637-ac7d-73bf85a665f1/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=2#xywh=0,0,5044,3708",
+              "body": {
+                "height": 3708,
+                "width": 5044,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3708,
+                  "width": 5044,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/2739aed1-7c15-4637-ac7d-73bf85a665f1",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/2739aed1-7c15-4637-ac7d-73bf85a665f1/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/f744fd3a-ca25-4c76-9fae-f433024e77b1"
+        }
+      ],
+      "label": {
+        "en": [
+          "Arnhem (Part III, p. 17a)"
+        ],
+        "nl": [
+          "Arnhem (Deel III, p. 17a)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 740,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 740
+              },
+              {
+                "width": 400,
+                "height": 289
+              },
+              {
+                "width": 200,
+                "height": 145
+              },
+              {
+                "width": 100,
+                "height": 72
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/4288f874-f214-4588-a884-da1014b01e99",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/4288f874-f214-4588-a884-da1014b01e99/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3609,
+      "width": 4993,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=3",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/4288f874-f214-4588-a884-da1014b01e99/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=3#",
+              "body": {
+                "height": 3609,
+                "width": 4993,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3609,
+                  "width": 4993,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/4288f874-f214-4588-a884-da1014b01e99",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/4288f874-f214-4588-a884-da1014b01e99/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/321abaf1-689d-42ee-b6f5-c07a2f6cad16"
+        }
+      ],
+      "label": {
+        "en": [
+          "Borborch, Frankrijk (Part II, 23c)"
+        ],
+        "nl": [
+          "Borborch, Frankrijk (Deel II, 23c)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 757,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 757
+              },
+              {
+                "width": 400,
+                "height": 296
+              },
+              {
+                "width": 200,
+                "height": 148
+              },
+              {
+                "width": 100,
+                "height": 74
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/0f6fc4e2-b1a5-450f-a486-da31479622a9",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/0f6fc4e2-b1a5-450f-a486-da31479622a9/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3960,
+      "width": 5358,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=4",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/0f6fc4e2-b1a5-450f-a486-da31479622a9/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=4#",
+              "body": {
+                "height": 3960,
+                "width": 5358,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3960,
+                  "width": 5358,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/0f6fc4e2-b1a5-450f-a486-da31479622a9",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/0f6fc4e2-b1a5-450f-a486-da31479622a9/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/648261ce-3e0e-43ed-994c-b2d3440c2b37"
+        }
+      ],
+      "label": {
+        "en": [
+          "Brielle (Part II, p. 27)"
+        ],
+        "nl": [
+          "Brielle (Deel II, p. 27)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 728,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 728
+              },
+              {
+                "width": 400,
+                "height": 284
+              },
+              {
+                "width": 200,
+                "height": 142
+              },
+              {
+                "width": 100,
+                "height": 71
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/8fff16b6-b11e-4408-9ef0-0ec2ea9b07ab",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/8fff16b6-b11e-4408-9ef0-0ec2ea9b07ab/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3838,
+      "width": 5397,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=5",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/8fff16b6-b11e-4408-9ef0-0ec2ea9b07ab/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=5#",
+              "body": {
+                "height": 3838,
+                "width": 5397,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3838,
+                  "width": 5397,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/8fff16b6-b11e-4408-9ef0-0ec2ea9b07ab",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/8fff16b6-b11e-4408-9ef0-0ec2ea9b07ab/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e17574ae-c3c0-4f82-801b-374b7795b559"
+        }
+      ],
+      "label": {
+        "en": [
+          "Brouwershaven (Part I, p. 21b)"
+        ],
+        "nl": [
+          "Brouwershaven (Deel I, p. 21b)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 749,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 749
+              },
+              {
+                "width": 400,
+                "height": 292
+              },
+              {
+                "width": 200,
+                "height": 146
+              },
+              {
+                "width": 100,
+                "height": 73
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/94fd3be7-5544-4694-a44a-a4418865c5d2",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/94fd3be7-5544-4694-a44a-a4418865c5d2/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3977,
+      "width": 5439,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=6",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/94fd3be7-5544-4694-a44a-a4418865c5d2/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=6#",
+              "body": {
+                "height": 3977,
+                "width": 5439,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3977,
+                  "width": 5439,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/94fd3be7-5544-4694-a44a-a4418865c5d2",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/94fd3be7-5544-4694-a44a-a4418865c5d2/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/6c527ace-18e6-4175-8e22-5ab300841c61"
+        }
+      ],
+      "label": {
+        "en": [
+          "Kampen (Part III, p. 34)"
+        ],
+        "nl": [
+          "Kampen (Deel III, p. 34)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 873,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 873
+              },
+              {
+                "width": 400,
+                "height": 341
+              },
+              {
+                "width": 200,
+                "height": 170
+              },
+              {
+                "width": 100,
+                "height": 85
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/d3c3309c-148c-4e7f-9118-7bf7129712bd",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/d3c3309c-148c-4e7f-9118-7bf7129712bd/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3957,
+      "width": 4642,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=7",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/d3c3309c-148c-4e7f-9118-7bf7129712bd/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=7#",
+              "body": {
+                "height": 3957,
+                "width": 4642,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3957,
+                  "width": 4642,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/d3c3309c-148c-4e7f-9118-7bf7129712bd",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/d3c3309c-148c-4e7f-9118-7bf7129712bd/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/63a7ac17-269a-484a-93e2-512d37c5e884"
+        }
+      ],
+      "label": {
+        "en": [
+          "Deventer (Part III, p. 33)"
+        ],
+        "nl": [
+          "Deventer (Deel III, p. 33)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 674,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 674
+              },
+              {
+                "width": 400,
+                "height": 263
+              },
+              {
+                "width": 200,
+                "height": 132
+              },
+              {
+                "width": 100,
+                "height": 66
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/737525b0-4cea-4f2d-a639-7ef27d2de1d0",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/737525b0-4cea-4f2d-a639-7ef27d2de1d0/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3714,
+      "width": 5646,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=8",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/737525b0-4cea-4f2d-a639-7ef27d2de1d0/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=8#xywh=0,0,5646,3714",
+              "body": {
+                "height": 3714,
+                "width": 5646,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3714,
+                  "width": 5646,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/737525b0-4cea-4f2d-a639-7ef27d2de1d0",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/737525b0-4cea-4f2d-a639-7ef27d2de1d0/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/768d840b-12c2-4bd3-ad19-ca50028944e4"
+        }
+      ],
+      "label": {
+        "en": [
+          "Dordrecht (Part II, p. 24)"
+        ],
+        "nl": [
+          "Dordrecht (Deel II, p. 24)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 669,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 669,
+                "height": 1024
+              },
+              {
+                "width": 261,
+                "height": 400
+              },
+              {
+                "width": 131,
+                "height": 200
+              },
+              {
+                "width": 65,
+                "height": 100
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/a5ede6cf-d095-4aae-b884-8a3fb979ae24",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/a5ede6cf-d095-4aae-b884-8a3fb979ae24/full/full/0/default.jpg"
+        }
+      ],
+      "height": 5509,
+      "width": 3601,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=9",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/a5ede6cf-d095-4aae-b884-8a3fb979ae24/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=9#",
+              "body": {
+                "height": 5509,
+                "width": 3601,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 5509,
+                  "width": 3601,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/a5ede6cf-d095-4aae-b884-8a3fb979ae24",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/a5ede6cf-d095-4aae-b884-8a3fb979ae24/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e2193a48-0df8-494b-b116-2191a1ddf608"
+        }
+      ],
+      "label": {
+        "en": [
+          "Franeker (Part III, 36b)"
+        ],
+        "nl": [
+          "Franeker (Deel III, 36b)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 714,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 714
+              },
+              {
+                "width": 400,
+                "height": 279
+              },
+              {
+                "width": 200,
+                "height": 140
+              },
+              {
+                "width": 100,
+                "height": 70
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/9b7a8e79-2707-47d2-a85a-c897b8a5eba9",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/9b7a8e79-2707-47d2-a85a-c897b8a5eba9/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3592,
+      "width": 5148,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=10",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/9b7a8e79-2707-47d2-a85a-c897b8a5eba9/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=10#",
+              "body": {
+                "height": 3592,
+                "width": 5148,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3592,
+                  "width": 5148,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/9b7a8e79-2707-47d2-a85a-c897b8a5eba9",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/9b7a8e79-2707-47d2-a85a-c897b8a5eba9/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/020c70b5-0cfa-4f1d-b94b-534340232e76"
+        }
+      ],
+      "label": {
+        "en": [
+          "Geldern, Duitsland (Part III, 17c)"
+        ],
+        "nl": [
+          "Geldern, Duitsland (Deel III, 17c)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 968,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 968
+              },
+              {
+                "width": 400,
+                "height": 378
+              },
+              {
+                "width": 200,
+                "height": 189
+              },
+              {
+                "width": 100,
+                "height": 95
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/2899a5fe-fe8e-4a91-97ef-718d6decf60e",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/2899a5fe-fe8e-4a91-97ef-718d6decf60e/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3828,
+      "width": 4048,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=11",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/2899a5fe-fe8e-4a91-97ef-718d6decf60e/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=11#",
+              "body": {
+                "height": 3828,
+                "width": 4048,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3828,
+                  "width": 4048,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/2899a5fe-fe8e-4a91-97ef-718d6decf60e",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/2899a5fe-fe8e-4a91-97ef-718d6decf60e/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/906d673e-4b68-4313-b2b1-b50357465e44"
+        }
+      ],
+      "label": {
+        "en": [
+          "Gennep (Part II, 34d)"
+        ],
+        "nl": [
+          "Gennep (Deel II, 34d)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 708,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 708
+              },
+              {
+                "width": 400,
+                "height": 276
+              },
+              {
+                "width": 200,
+                "height": 138
+              },
+              {
+                "width": 100,
+                "height": 69
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/9e83606c-2ae2-4601-89c3-88d84bfc8ae8",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/9e83606c-2ae2-4601-89c3-88d84bfc8ae8/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3725,
+      "width": 5391,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=12",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/9e83606c-2ae2-4601-89c3-88d84bfc8ae8/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=12#",
+              "body": {
+                "height": 3725,
+                "width": 5391,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3725,
+                  "width": 5391,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/9e83606c-2ae2-4601-89c3-88d84bfc8ae8",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/9e83606c-2ae2-4601-89c3-88d84bfc8ae8/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/a797456d-5f05-4d84-a646-8732db5ff544"
+        }
+      ],
+      "label": {
+        "en": [
+          "Gorinchem (Part I, 21c)"
+        ],
+        "nl": [
+          "Gorinchem (Deel I, 21c)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 416,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 416
+              },
+              {
+                "width": 400,
+                "height": 162
+              },
+              {
+                "width": 200,
+                "height": 81
+              },
+              {
+                "width": 100,
+                "height": 41
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/897f37ec-254a-48c2-8d17-05340f7bc215",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/897f37ec-254a-48c2-8d17-05340f7bc215/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2334,
+      "width": 5752,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=13",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/897f37ec-254a-48c2-8d17-05340f7bc215/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=13#",
+              "body": {
+                "height": 2334,
+                "width": 5752,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2334,
+                  "width": 5752,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/897f37ec-254a-48c2-8d17-05340f7bc215",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/897f37ec-254a-48c2-8d17-05340f7bc215/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/4e742227-2e6c-404e-8b89-47ede58230be"
+        }
+      ],
+      "label": {
+        "en": [
+          "Gouda (Part III, 31b)"
+        ],
+        "nl": [
+          "Gouda (Deel III, 31b)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 788,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 788
+              },
+              {
+                "width": 400,
+                "height": 308
+              },
+              {
+                "width": 200,
+                "height": 154
+              },
+              {
+                "width": 100,
+                "height": 77
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/36ac98e6-86f9-483c-b3ae-b5102d4fefd4",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/36ac98e6-86f9-483c-b3ae-b5102d4fefd4/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3834,
+      "width": 4985,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=14",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/36ac98e6-86f9-483c-b3ae-b5102d4fefd4/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=14#",
+              "body": {
+                "height": 3834,
+                "width": 4985,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3834,
+                  "width": 4985,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/36ac98e6-86f9-483c-b3ae-b5102d4fefd4",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/36ac98e6-86f9-483c-b3ae-b5102d4fefd4/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/ec3799ce-1fa4-4de7-a668-4bb6f53df8d2"
+        }
+      ],
+      "label": {
+        "en": [
+          "Gravelines, Frankrijk (Part II, 23b)"
+        ],
+        "nl": [
+          "Gravelines, Frankrijk (Deel II, 23b)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 383,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 383
+              },
+              {
+                "width": 400,
+                "height": 150
+              },
+              {
+                "width": 200,
+                "height": 75
+              },
+              {
+                "width": 100,
+                "height": 37
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/786368e6-aebd-4d6e-96da-9b458441ab1f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/786368e6-aebd-4d6e-96da-9b458441ab1f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2027,
+      "width": 5418,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=15",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/786368e6-aebd-4d6e-96da-9b458441ab1f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=15#",
+              "body": {
+                "height": 2027,
+                "width": 5418,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2027,
+                  "width": 5418,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/786368e6-aebd-4d6e-96da-9b458441ab1f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/786368e6-aebd-4d6e-96da-9b458441ab1f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/415d2322-8d02-498b-a729-451e910a6da9"
+        }
+      ],
+      "label": {
+        "en": [
+          "Groningen (Part I, p. 21a)"
+        ],
+        "nl": [
+          "Groningen (Deel I, p. 21a)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 772,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 772
+              },
+              {
+                "width": 400,
+                "height": 302
+              },
+              {
+                "width": 200,
+                "height": 151
+              },
+              {
+                "width": 100,
+                "height": 75
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/929e9ff9-cd2c-4a9e-8eee-a4d8dc4d91ac",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/929e9ff9-cd2c-4a9e-8eee-a4d8dc4d91ac/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3967,
+      "width": 5263,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=16",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/929e9ff9-cd2c-4a9e-8eee-a4d8dc4d91ac/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=16#",
+              "body": {
+                "height": 3967,
+                "width": 5263,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3967,
+                  "width": 5263,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/929e9ff9-cd2c-4a9e-8eee-a4d8dc4d91ac",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/929e9ff9-cd2c-4a9e-8eee-a4d8dc4d91ac/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/d367d354-d6e6-4ed7-a019-b537a61b1250"
+        }
+      ],
+      "label": {
+        "en": [
+          "Groningen (Part II, p. 31)"
+        ],
+        "nl": [
+          "Groningen (Deel II, p. 31)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 748,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 748
+              },
+              {
+                "width": 400,
+                "height": 292
+              },
+              {
+                "width": 200,
+                "height": 146
+              },
+              {
+                "width": 100,
+                "height": 73
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/d4699ebf-8e7e-46bb-b776-9676518f2c04",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/d4699ebf-8e7e-46bb-b776-9676518f2c04/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4011,
+      "width": 5494,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=17",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/d4699ebf-8e7e-46bb-b776-9676518f2c04/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=17#",
+              "body": {
+                "height": 4011,
+                "width": 5494,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4011,
+                  "width": 5494,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/d4699ebf-8e7e-46bb-b776-9676518f2c04",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/d4699ebf-8e7e-46bb-b776-9676518f2c04/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/c1812651-297f-4c50-9faf-e46bb8b346fb"
+        }
+      ],
+      "label": {
+        "en": [
+          "Haarlem (Part II, p. 26)"
+        ],
+        "nl": [
+          "Haarlem (Deel II, p. 26)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 969,
+            "height": 1024,
+            "sizes": [
+              {
+                "width": 969,
+                "height": 1024
+              },
+              {
+                "width": 378,
+                "height": 400
+              },
+              {
+                "width": 189,
+                "height": 200
+              },
+              {
+                "width": 95,
+                "height": 100
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/9030d365-19c2-4da5-82f7-1e00ddb4f490",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/9030d365-19c2-4da5-82f7-1e00ddb4f490/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3900,
+      "width": 3690,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=18",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/9030d365-19c2-4da5-82f7-1e00ddb4f490/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=18#",
+              "body": {
+                "height": 3900,
+                "width": 3690,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3900,
+                  "width": 3690,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/9030d365-19c2-4da5-82f7-1e00ddb4f490",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/9030d365-19c2-4da5-82f7-1e00ddb4f490/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/c47ada9c-1437-4c90-b225-6e1efc42057e"
+        }
+      ],
+      "label": {
+        "en": [
+          "Leeuwarden (Part III, p. 36a)"
+        ],
+        "nl": [
+          "Leeuwarden (Deel III, p. 36a)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 771,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 771
+              },
+              {
+                "width": 400,
+                "height": 301
+              },
+              {
+                "width": 200,
+                "height": 151
+              },
+              {
+                "width": 100,
+                "height": 75
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/2df76358-812e-4cc2-892c-ff88fc75771f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/2df76358-812e-4cc2-892c-ff88fc75771f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4048,
+      "width": 5376,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=19",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/2df76358-812e-4cc2-892c-ff88fc75771f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=19#",
+              "body": {
+                "height": 4048,
+                "width": 5376,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4048,
+                  "width": 5376,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/2df76358-812e-4cc2-892c-ff88fc75771f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/2df76358-812e-4cc2-892c-ff88fc75771f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/3766e39f-85e6-44f2-a5da-d30871c8709f"
+        }
+      ],
+      "label": {
+        "en": [
+          "Leiden (Part II, p. 25)"
+        ],
+        "nl": [
+          "Leiden (Deel II, p. 25)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 942,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 942
+              },
+              {
+                "width": 400,
+                "height": 368
+              },
+              {
+                "width": 200,
+                "height": 184
+              },
+              {
+                "width": 100,
+                "height": 92
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/2656a65e-c09a-4cf5-a199-8abeaf918328",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/2656a65e-c09a-4cf5-a199-8abeaf918328/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3894,
+      "width": 4233,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=20",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/2656a65e-c09a-4cf5-a199-8abeaf918328/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=20#",
+              "body": {
+                "height": 3894,
+                "width": 4233,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3894,
+                  "width": 4233,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/2656a65e-c09a-4cf5-a199-8abeaf918328",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/2656a65e-c09a-4cf5-a199-8abeaf918328/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/eecad9c8-dff8-49df-a4df-0ac9cb5de272"
+        }
+      ],
+      "label": {
+        "en": [
+          "Middelburg (Part II, p. 28)"
+        ],
+        "nl": [
+          "Middelburg (Deel II, p. 28)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 660,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 660
+              },
+              {
+                "width": 400,
+                "height": 258
+              },
+              {
+                "width": 200,
+                "height": 129
+              },
+              {
+                "width": 100,
+                "height": 64
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/064a1cab-13bc-4152-9857-d58d4c9b11db",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/064a1cab-13bc-4152-9857-d58d4c9b11db/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3701,
+      "width": 5745,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=21",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/064a1cab-13bc-4152-9857-d58d4c9b11db/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=21#",
+              "body": {
+                "height": 3701,
+                "width": 5745,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3701,
+                  "width": 5745,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/064a1cab-13bc-4152-9857-d58d4c9b11db",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/064a1cab-13bc-4152-9857-d58d4c9b11db/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/9b081001-8323-4105-82a0-88de295eb41e"
+        }
+      ],
+      "label": {
+        "en": [
+          "Nijmegen (Part II, p. 29)"
+        ],
+        "nl": [
+          "Nijmegen (Deel II, p. 29)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 443,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 443
+              },
+              {
+                "width": 400,
+                "height": 173
+              },
+              {
+                "width": 200,
+                "height": 87
+              },
+              {
+                "width": 100,
+                "height": 43
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/f39a4c09-1195-4ee2-b528-2680e4101b40",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/f39a4c09-1195-4ee2-b528-2680e4101b40/full/full/0/default.jpg"
+        }
+      ],
+      "height": 2514,
+      "width": 5805,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=22",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/f39a4c09-1195-4ee2-b528-2680e4101b40/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=22#",
+              "body": {
+                "height": 2514,
+                "width": 5805,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 2514,
+                  "width": 5805,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/f39a4c09-1195-4ee2-b528-2680e4101b40",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/f39a4c09-1195-4ee2-b528-2680e4101b40/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/29819977-f192-43bc-b1e2-8ec9fe14c0a3"
+        }
+      ],
+      "label": {
+        "en": [
+          "Rotterdam (Part III, p. 31a)"
+        ],
+        "nl": [
+          "Rotterdam (Deel III, p. 31a)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 829,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 829
+              },
+              {
+                "width": 400,
+                "height": 324
+              },
+              {
+                "width": 200,
+                "height": 162
+              },
+              {
+                "width": 100,
+                "height": 81
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/129c8bca-6576-4fe3-a080-52f70ee5cebb",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/129c8bca-6576-4fe3-a080-52f70ee5cebb/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3520,
+      "width": 4346,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=23",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/129c8bca-6576-4fe3-a080-52f70ee5cebb/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=23#",
+              "body": {
+                "height": 3520,
+                "width": 4346,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3520,
+                  "width": 4346,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/129c8bca-6576-4fe3-a080-52f70ee5cebb",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/129c8bca-6576-4fe3-a080-52f70ee5cebb/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/b193152f-bc4a-4108-a2b1-366585241c11"
+        }
+      ],
+      "label": {
+        "en": [
+          "Roermond (Part III, 17d)"
+        ],
+        "nl": [
+          "Roermond (Deel III, 17d)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 750,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 750
+              },
+              {
+                "width": 400,
+                "height": 293
+              },
+              {
+                "width": 200,
+                "height": 146
+              },
+              {
+                "width": 100,
+                "height": 73
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/1747bb19-459e-415d-a478-f30536633f01",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/1747bb19-459e-415d-a478-f30536633f01/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3863,
+      "width": 5275,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=24",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/1747bb19-459e-415d-a478-f30536633f01/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=24#",
+              "body": {
+                "height": 3863,
+                "width": 5275,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3863,
+                  "width": 5275,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/1747bb19-459e-415d-a478-f30536633f01",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/1747bb19-459e-415d-a478-f30536633f01/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/8ba579ea-984f-4aad-a8aa-ba55bf863c04"
+        }
+      ],
+      "label": {
+        "en": [
+          "Soest, Duitsland (Part IV, p. 21)"
+        ],
+        "nl": [
+          "Soest, Duitsland (Deel IV, p. 21)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 734,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 734
+              },
+              {
+                "width": 400,
+                "height": 287
+              },
+              {
+                "width": 200,
+                "height": 143
+              },
+              {
+                "width": 100,
+                "height": 72
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/9a939275-c3f0-41b0-b904-73fe85e2591f",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/9a939275-c3f0-41b0-b904-73fe85e2591f/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3936,
+      "width": 5490,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=25",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/9a939275-c3f0-41b0-b904-73fe85e2591f/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=25#xywh=0,0,5490,3936",
+              "body": {
+                "height": 3936,
+                "width": 5490,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3936,
+                  "width": 5490,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/9a939275-c3f0-41b0-b904-73fe85e2591f",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/9a939275-c3f0-41b0-b904-73fe85e2591f/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/3da8547a-2b9d-408e-8c38-c7b7a5ce0383"
+        }
+      ],
+      "label": {
+        "en": [
+          "Utrecht (Part I, p. 19)"
+        ],
+        "nl": [
+          "Utrecht (Deel I, p. 19)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 737,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 737
+              },
+              {
+                "width": 400,
+                "height": 288
+              },
+              {
+                "width": 200,
+                "height": 144
+              },
+              {
+                "width": 100,
+                "height": 72
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/53882b26-87d0-49d3-9d0c-4d41b03aa7d6",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/53882b26-87d0-49d3-9d0c-4d41b03aa7d6/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3823,
+      "width": 5310,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=26",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/53882b26-87d0-49d3-9d0c-4d41b03aa7d6/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=26#",
+              "body": {
+                "height": 3823,
+                "width": 5310,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3823,
+                  "width": 5310,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/53882b26-87d0-49d3-9d0c-4d41b03aa7d6",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/53882b26-87d0-49d3-9d0c-4d41b03aa7d6/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/e04c0f5a-e90d-4490-93f8-95004ef2587e"
+        }
+      ],
+      "label": {
+        "en": [
+          "Venetië, Italië (Part I, p. 43)"
+        ],
+        "nl": [
+          "Venetië, Italië (Deel I, p. 43)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 890,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 890
+              },
+              {
+                "width": 400,
+                "height": 348
+              },
+              {
+                "width": 200,
+                "height": 174
+              },
+              {
+                "width": 100,
+                "height": 87
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/d0fa8fa0-3de8-4cdd-8020-10c8a7dccc40",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/d0fa8fa0-3de8-4cdd-8020-10c8a7dccc40/full/full/0/default.jpg"
+        }
+      ],
+      "height": 3801,
+      "width": 4372,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=27",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/d0fa8fa0-3de8-4cdd-8020-10c8a7dccc40/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=27#",
+              "body": {
+                "height": 3801,
+                "width": 4372,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 3801,
+                  "width": 4372,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/d0fa8fa0-3de8-4cdd-8020-10c8a7dccc40",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/d0fa8fa0-3de8-4cdd-8020-10c8a7dccc40/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/4abcc574-3dde-40ef-921c-d8d7c510f2a4"
+        }
+      ],
+      "label": {
+        "en": [
+          "Venlo (Part III, p. 17b)"
+        ],
+        "nl": [
+          "Venlo (Deel III, p. 17b)"
+        ]
+      }
+    },
+    {
+      "thumbnail": [
+        {
+          "service": {
+            "profile": [
+              "http://iiif.io/api/image/2/level0.json",
+              {
+                "formats": [
+                  "jpg"
+                ],
+                "qualities": [
+                  "color"
+                ],
+                "supports": [
+                  "sizeByWhListed"
+                ]
+              }
+            ],
+            "width": 1024,
+            "height": 820,
+            "sizes": [
+              {
+                "width": 1024,
+                "height": 820
+              },
+              {
+                "width": 400,
+                "height": 320
+              },
+              {
+                "width": 200,
+                "height": 160
+              },
+              {
+                "width": 100,
+                "height": 80
+              }
+            ],
+            "id": "https://apex.dlc.services/thumbs/7/6/0f8fd751-46a2-4948-82f3-91b1f619e726",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://dlc.services/thumbs/7/6/0f8fd751-46a2-4948-82f3-91b1f619e726/full/full/0/default.jpg"
+        }
+      ],
+      "height": 4021,
+      "width": 5022,
+      "type": "Canvas",
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=28",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://dlc.services/iiif-img/7/6/0f8fd751-46a2-4948-82f3-91b1f619e726/anno",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=trk-9812103&n1=&n2=28#",
+              "body": {
+                "height": 4021,
+                "width": 5022,
+                "service": {
+                  "protocol": "http://iiif.io/api/image",
+                  "height": 4021,
+                  "width": 5022,
+                  "profile": "http://iiif.io/api/image/2/level1.json",
+                  "id": "https://dlc.services/iiif-img/7/6/0f8fd751-46a2-4948-82f3-91b1f619e726",
+                  "type": "Service"
+                },
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/6/0f8fd751-46a2-4948-82f3-91b1f619e726/full/!2000,2000/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/3ec1553f-afd3-47ba-8455-9292113f67b9"
+        }
+      ],
+      "label": {
+        "en": [
+          "Zwolle (Part III, p. 35)"
+        ],
+        "nl": [
+          "Zwolle (Deel III, p. 35)"
+        ]
+      }
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "label": {
+    "en": [
+      "Civitates orbis terrarum. Liber primus-sextus."
+    ],
+    "nl": [
+      "Civitates orbis terrarum. Liber primus-sextus."
+    ]
+  }
+}
