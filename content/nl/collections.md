@@ -6,16 +6,50 @@ title: "Digitale Collecties"
 
 # Digitale collecties
 
-*Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de Engelstalige [about pagina](/en/about/).*
+## Special Collections
 
-## TU Delft Library
+### Museumcollectie
+
+The Museum Collection includes objects that draw on TU Delft's institutional history, academic education and research. The items range from measuring instruments, course material, demonstration devices and research collections, to art, such as professorial portraits. The collection contains around 6,500 objects. The objects can be loaned under museum conditions for public exhibitions hosted on or off the campus.
 
 <div class="blocks">
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Trésor](/nl/collections/lib-tresor)
+[Universiteits-geschiedenis](/nl/collections/7b35ae59-1507-447a-a9ac-4641a7bf24b1)
 </div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
+[Geodesie](/nl/collections/d51c775b-4472-4e6a-a952-f0f3da8aee9d)
+</div>
+
+</div>
+
+### Trésor
+
+The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, such as speeches, dissertations and lecture notes. 
+
+<div class="blocks">
+
+<div class="block purple tint cutcorners w-4 h-4 image">
+
+[Universiteits-geschiedenis](/nl/collections/lib-tr-universiteitsgeschiedenis)
+</div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
+[TH Mededelingen](/nl/collections/lib-tr-th-mededelingen)
+</div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
+[Women in Science](/nl/collections/lib-tr-women-in-science)
+</div>
+
+</div>
+
+### Other Library collections
+
+<div class="blocks">
+
 <div class="block purple tint cutcorners w-4 h-4 image">
 
 [Kaartenkamer](/nl/collections/lib-kaartenkamer)
