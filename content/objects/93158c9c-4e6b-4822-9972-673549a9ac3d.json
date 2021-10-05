@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Schuif-tachymeter op een vast stelschroevenblok door Otto Fennel & Söhne"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tachymeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0367.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Otto Fennel & Söhne (Kassel)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "380,0 (h)  * 400,0 (b)  * 200,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Schuif-tachymeter op een vast stelschroevenblok door Otto Fennel & Söhne, voor detailmeting volgens de voerstraalmethode met een verticale baak. Een schuif-tachymeter (theodoliet) voor hoek- en lengtemeting. Bij de schuif-tachymeter wordt met behulp van afstandsdraden een interval op een baak afgelezen. Aan het instrument bevindt zich een reductie-mechanisme met diverse schaalverdelingen (volgens de methode Wagner-Fennel). Op één van deze schalen wordt het gemeten interval ingesteld en vervolgens kan op andere schalen de horizontale afstand en het hoogteverschil worden bepaald. Dit instrument is in de zomer van 1902 gebruikt bij het in kaart brengen van de basis van de RD (Garderen/ Voorthuizen). Dit type instrumenten zijn in veel landen in gebruik geweest. Na 1925 nam het gebruik af als gevolg van de toegenomen belangstelling voor diagram-tachymeters. Otto Fennel, opgeleid door F.W. Breithaupt & Sohn, richtte in 1851 in Kassel zijn eigen onderneming op die ongeveer 100 jaar lang heeft bestaan."
+        },
+        {
+            "label": "Documentatie",
+            "value": "J. Dubbeld en G.F. Witt. Optische Lengtemeting blz 111."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Afstandsmeter in een houten kist (GEO.2000.0443)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/93158c9c-4e6b-4822-9972-673549a9ac3d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/93158c9c-4e6b-4822-9972-673549a9ac3d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/93158c9c-4e6b-4822-9972-673549a9ac3d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/5e8180a0-871d-4061-b2a2-dfecc7421bd1/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/93158c9c-4e6b-4822-9972-673549a9ac3d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

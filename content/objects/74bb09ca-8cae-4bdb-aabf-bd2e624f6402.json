@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Schilderij \"De Theodoliet\" door D. van Dien"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2008.0010.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1990"
+        },
+        {
+            "label": "Maker",
+            "value": "Dien, Dirk van  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "15,0 (h)  * 1.900,0 (b)  * 1.350,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Schilderij 'De Theodoliet' geschilderd door Dirk van Dien, ter gelegenheid van het derde lustrum van het gebouw voor Geodesie aan de Thijsseweg 11 te Delft. <\/br><\/br>Dirk van Dien, beeldend kunstenaar uit Delft, geboren 1948. <\/br><\/br>Het woord theodoliet is in de 16e eeuw afgeleid van het Arabische woord alhidade, wat zoiets betekent als de \"richtingbepaler\" in zowel godsdienstige als geografische betekenis. Ook in het woord theodoliet zit een aanduiding naar God.<\/br><\/br>De schilder heeft het begrip theodoliet uitgelegd als een zwaar en donker persoon (een godheid) die vanachter een jalon de richting aangeeft waarover de kijker moet gaan om van en naar het schilderij te lopen. Het schilderij besteedt ook aandacht aan het door Arabieren ontwikkelde tientallig stelsel, omdat de landmeters de eerste Europeanen waren die in loop van de 15e eeuw hierop overgingen."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/74bb09ca-8cae-4bdb-aabf-bd2e624f6402/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/74bb09ca-8cae-4bdb-aabf-bd2e624f6402/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/74bb09ca-8cae-4bdb-aabf-bd2e624f6402.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2821,
+                        "@id": "https://dlc.services/iiif-img/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e",
+                        "height": 2018
+                    },
+                    "width": 2821,
+                    "@id": "https://dlc.services/iiif-img/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e/full/1024,733/0/default.jpg",
+                    "height": 2018
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 733
+                        },
+                        {
+                            "width": 400,
+                            "height": 286
+                        },
+                        {
+                            "width": 200,
+                            "height": 143
+                        },
+                        {
+                            "width": 100,
+                            "height": 72
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 733
+                },
+                "@id": "https://dlc.services/thumbs/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2821,
+            "@id": "https://dlc.services/iiif-img/7/18/44029ac8-8ab6-49e3-b028-5fe7857d790e/canvas/c0",
+            "label": "Image",
+            "height": 2018
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/74bb09ca-8cae-4bdb-aabf-bd2e624f6402/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

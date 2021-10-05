@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Cahier met handgeschreven uiteenzetting over kadastraal landmeten"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "boek"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0829.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "20,0 (h)  * 340,0 (b)  * 230,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier, karton, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een cahier met een handgeschreven uiteenzetting over kadastraal landmeten voor technische ambtenaren. Mogelijk heeft dit gediend als onderwijs materiaal voor de opleiding tot civiel landmeter."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/06aae706-0b1d-4368-b874-0d6d091f1055/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/06aae706-0b1d-4368-b874-0d6d091f1055/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/06aae706-0b1d-4368-b874-0d6d091f1055.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/646232f9-2a98-4813-950d-0ca5e9c7c606/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/06aae706-0b1d-4368-b874-0d6d091f1055/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Theodoliet door Julius Wanschaff type W21 nr 6 "
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2008.0015.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1890 - 1930"
+        },
+        {
+            "label": "Maker",
+            "value": "Julius Wanschaff (Berlijn)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "510,0 (h)  * 520,0 (b)  * 310,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "glas, metaal, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Theodoliet door Julius Wanschaff type W21 nr 6, voor het meten van horizontale richtingen. De diameter van de horizontale rand is 21 cm. De theodoliet is gebruikt bij de Rijksdriehoeksmeting van Nederland in de periode 1886-1928 (secondaire metingen). Zowel de kijker als het bijbehorende alhidadeniveau bevinden zich in twee met leer beklede houten kisten. De kijker en de afleesmicroscopen zijn afneembaar. Aan het einde van beide afleesmicroscopen zijn borsteltjes bevestigd. De eerste as met de alhidade en de kijker (oculair) zijn gemerkt met een 6. Met soortelijke instrumenten is het tweede orde net van de RD gemeten. Enkele zijn nadat de bijhouding van het RD-net aan het Kadaster is overgedragen nog in eigendom van het Kadaster. Zie ook nummer 2000.0102.GEO In de bijbehorende doos kan de kijker en andere losse onderdelen zoals een diafragma, oculair en prisma."
+        },
+        {
+            "label": "Documentatie",
+            "value": "publicaties NCG"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Theodoliet door Julius Wanschaff type W5 (GEO.2000.0102)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/b5685905-1428-48aa-838d-0ba6e83bf4c0/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/b5685905-1428-48aa-838d-0ba6e83bf4c0/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/b5685905-1428-48aa-838d-0ba6e83bf4c0.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2171,
+                        "@id": "https://dlc.services/iiif-img/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8",
+                        "height": 1845
+                    },
+                    "width": 2171,
+                    "@id": "https://dlc.services/iiif-img/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8/full/1024,870/0/default.jpg",
+                    "height": 1845
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 870
+                        },
+                        {
+                            "width": 400,
+                            "height": 340
+                        },
+                        {
+                            "width": 200,
+                            "height": 170
+                        },
+                        {
+                            "width": 100,
+                            "height": 85
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 870
+                },
+                "@id": "https://dlc.services/thumbs/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2171,
+            "@id": "https://dlc.services/iiif-img/7/18/e1e3d247-3392-440a-9d9b-a75114454bb8/canvas/c0",
+            "label": "Image",
+            "height": 1845
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/b5685905-1428-48aa-838d-0ba6e83bf4c0/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

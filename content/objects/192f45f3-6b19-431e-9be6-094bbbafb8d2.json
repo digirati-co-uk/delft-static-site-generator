@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Bolrolplanimeter door G. Coradi"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0160.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1890 - 1910"
+        },
+        {
+            "label": "Maker",
+            "value": "G. Coradi  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "75,0 (h)  * 545,0 (b)  * 195,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Bolrolplanimeter door G. Coradi, voor de bepaling van oppervlaktes van percelen en van dwars- en lengteprofielen."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift für Vermessungskunde 1888 blz 162 Die Planimeter Coradi 1912 blz 18 e.v.zie ook fig 17. Het beschreven model is enigszins afwijkend van die van fig. 17."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Schijfrolplanimeter door G. Coradi (GEO.2000.0189)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/192f45f3-6b19-431e-9be6-094bbbafb8d2/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/192f45f3-6b19-431e-9be6-094bbbafb8d2/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/192f45f3-6b19-431e-9be6-094bbbafb8d2.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/0f2b1745-c7ed-4daf-ad56-98260dec7c7d/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/192f45f3-6b19-431e-9be6-094bbbafb8d2/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

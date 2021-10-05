@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Geglazuurde gedenktegel door Koninklijke Mosa"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tegel"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0331.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1980"
+        },
+        {
+            "label": "Maker",
+            "value": "Koninklijke Mosa bv (Maastricht)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h)  * 150,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "keramiek"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een geglazuurde gedenktegel vervaardigd door Koninklijke Mosa, ter gelegenheid van het vijftigjarig bestaan van de Nederlandse Artillerie Meetafdeling (1930-1980). Op de tegel is een geografisch ingenieur met een planchet afgebeeld."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/b5f12f52-4b58-41d3-a2de-f2de0358dd35/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/b5f12f52-4b58-41d3-a2de-f2de0358dd35/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/b5f12f52-4b58-41d3-a2de-f2de0358dd35.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/cf92f0c0-f8a8-482d-be66-7bd2bc672cfa/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/b5f12f52-4b58-41d3-a2de-f2de0358dd35/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

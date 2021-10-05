@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Onderwijsmodel van zeegravimeter"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "zeegravimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2012.0002.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1967"
+        },
+        {
+            "label": "Maker",
+            "value": "Marisse, J.A.J.  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "TU Delft  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,5 (h)  * 54,0 (b)  * 32,5 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "kunststof, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Model van de door de NCG en TUDelft (geodesie) aangeschafte zeegravimeter van Askaina Gss2 , gebruikt voor onderwijsdoeleinden en ontworpen door ir. J.A.J. Marissen voor zijn afstudeerscriptie (28-02-1967). De Askania Gss2 is onder andere gebruikt voor de zwaartekrachtmetingen op het Nederlandse deel van de Noordzee (1960)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Scriptie naar aanleiding van een opdracht tot vervaardiging van een model van de Askania-Zeegravimeter Gss 2."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/2b65c034-94d5-4b00-86ad-c718060ec814/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/2b65c034-94d5-4b00-86ad-c718060ec814/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/2b65c034-94d5-4b00-86ad-c718060ec814.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 5184,
+                        "@id": "https://dlc.services/iiif-img/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256",
+                        "height": 3456
+                    },
+                    "width": 5184,
+                    "@id": "https://dlc.services/iiif-img/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256/full/1024,683/0/default.jpg",
+                    "height": 3456
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 5184,
+            "@id": "https://dlc.services/iiif-img/7/18/3cafb347-4de3-4c0a-842e-2ae6d734f256/canvas/c0",
+            "label": "Image",
+            "height": 3456
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/2b65c034-94d5-4b00-86ad-c718060ec814/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

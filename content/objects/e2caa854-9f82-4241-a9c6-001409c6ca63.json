@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Roltransporteur in étui door H. Wild Werkstätte"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "transporteur"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0221.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "H. Wild Werkstätte für Feinmechanik und Optik (Heerbrugg)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "50,0 (h)  * 107,0 (b)  * 410,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, kunststof, textiel, karton"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Roltransporteur door H. Wild Werkstätte für Feinmechanik und Optik, tekeninstrument voor uitvoeren van kartering van poolcoördinaten (voerstraalmethode) m.b.v. de Wild RDS of RDH. Een andere naam voor dit instrument is rolpoolcoördinatograaf. Het instrument heeft een cirkelverdeling van 360 graden en vier verschillende schalen in een met textiel beklede etui."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Schermerhorn & van Steenis. Leerboek der Landmeetkunde hoofdstuk XX."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/e2caa854-9f82-4241-a9c6-001409c6ca63/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/e2caa854-9f82-4241-a9c6-001409c6ca63/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/e2caa854-9f82-4241-a9c6-001409c6ca63.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/7cb42837-bd8b-4a4c-839f-d9962b720eed/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e2caa854-9f82-4241-a9c6-001409c6ca63/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

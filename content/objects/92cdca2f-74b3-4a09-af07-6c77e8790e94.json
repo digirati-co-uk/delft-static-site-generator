@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Statief met afdekplaat en klemschroef door Kern & Co. AG"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0014.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1936 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Kern & Co. AG (Aarau)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "150,0 (h)  * 910,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Statief door Kern & Co. AG, met uitschuifbare poten en voorzien van afdekplaat en klemschroef. Het statief is voorzien van leren draagriemen. Dit statief behoort bij het planchet van Kern inventarisnummer 2004.0001.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Planchet door Kern & Co. AG (GEO.2004.0001)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/92cdca2f-74b3-4a09-af07-6c77e8790e94/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/92cdca2f-74b3-4a09-af07-6c77e8790e94/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/92cdca2f-74b3-4a09-af07-6c77e8790e94.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/66b3a0ff-3cd0-4d2a-95ce-c5b38371dc1b/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/92cdca2f-74b3-4a09-af07-6c77e8790e94/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

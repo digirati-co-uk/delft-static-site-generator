@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Horizontale veldenmillimeterbaak volgens Prof. J.W Dieperink door G. de Koningh"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "baak"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0195.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1923 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Dieperink, J.W.  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "G. de Koningh (Arnhem)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.350,0 (h)  * 30,0 (b)  * 110,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Horizontale veldenmillimeterbaak vervaardigd door G. de Koningh, met een witte achtergrond naar een ontwerp van hoogleraar J.W Dieperink (1878-1934). De baak was bestemd voor dradenafstandmeting tot een afstand van 120 meter."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Octrooi uit 1923 zie: http://cgi.girs.wageningen-ur.nl/cgi/products/posters/NL_A3-DIEPERINK.jpg K&L 1929 blz 193-212."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/09604e7e-4544-40ad-976e-00331068d2f4/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/09604e7e-4544-40ad-976e-00331068d2f4/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/09604e7e-4544-40ad-976e-00331068d2f4.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/9670d2ed-5dbb-4bf0-aa88-14ab161f8f1b/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/09604e7e-4544-40ad-976e-00331068d2f4/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

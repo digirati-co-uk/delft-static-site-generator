@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Doosniveau"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "doosniveau"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2004.0005.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1900"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "210,0 (h)  * 950,0 (b)  * 950,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "koper, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Doosniveau om grote statieven en planchet opstellingen exact waterpas op te kunnen stellen. Het niveau is bijvulbaar."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Schols C.M. Landmeten en waterpassen Atlas figuur 33"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/7ca25b51-05e8-4277-8371-ed0dee1d2b5f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/7ca25b51-05e8-4277-8371-ed0dee1d2b5f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/7ca25b51-05e8-4277-8371-ed0dee1d2b5f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82",
+                        "height": 1360
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82/full/1024,680/0/default.jpg",
+                    "height": 1360
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 680
+                        },
+                        {
+                            "width": 400,
+                            "height": 266
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 66
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 680
+                },
+                "@id": "https://dlc.services/thumbs/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/57f52f94-c742-40ba-aaad-87d5707f8b82/canvas/c0",
+            "label": "Image",
+            "height": 1360
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/7ca25b51-05e8-4277-8371-ed0dee1d2b5f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

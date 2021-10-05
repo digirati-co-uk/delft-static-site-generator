@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Statief met vaste poten door Micallef"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0001.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Micallef  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "200,0 (h)  * 1.400,0 (b)  * 200,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, glas, leer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Statief met vaste poten door Micallef, voorzien van klemschroef. De kop van het statief is voorzien van een doosniveau. Speciaal voor de tachymetertheodoliet met inventarisnummer 2004.0004.GEO. Voor terreinopname volgens de voerstraalmethode (richting en afstand) ook wel de poolcoördinatenmethode."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Dubbeld J. en Wit G.F. (Lab van Geodesie) Optische Lengetemeting 1970 blz. 114"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Tachymeter door Lingee & Micallef (GEO.2004.0004)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/80381207-57b1-4e9d-aa5f-5063ef41cf67/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/80381207-57b1-4e9d-aa5f-5063ef41cf67/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/80381207-57b1-4e9d-aa5f-5063ef41cf67.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/2642e496-6d7e-4ef6-9c26-6f719dc50fc6/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/80381207-57b1-4e9d-aa5f-5063ef41cf67/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

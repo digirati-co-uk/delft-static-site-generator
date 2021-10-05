@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Slingeruurwerk ZII door Zachariä"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "klok (uurwerk)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2009.0004.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1905 - 1915"
+        },
+        {
+            "label": "Maker",
+            "value": "Bernhard Zachariä  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "208,0 (h)  * 59,0 (b)  * 29,5 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, ijzer, metaal, nikkel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Slingeruurwerk ZII door Zachariä, onderdeel van set van twee identieke klokken. Eén (2009.0003.GEO) met aanduiding ZI (moederklok) en de ander (2009.0004.GEO) ZII de dochterklok. Deze klokken waren ooit elektronisch verbonden met elkaar.<\/br>Op de slinger van invar de inscriptie van Riefler München D.R.P. 100870 en daaronder 1168. "
+        },
+        {
+            "label": "Documentatie",
+            "value": "NCG"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Slingeruurwerk ZI door Zachariä (GEO.2009.0003)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/24fe17e7-72ae-4595-8065-5b8646af3001/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/70ee2b53-9313-4bdb-a0aa-13a2706c35b2/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/70ee2b53-9313-4bdb-a0aa-13a2706c35b2/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/70ee2b53-9313-4bdb-a0aa-13a2706c35b2.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1728,
+                        "@id": "https://dlc.services/iiif-img/7/18/24fe17e7-72ae-4595-8065-5b8646af3001",
+                        "height": 5214
+                    },
+                    "width": 1728,
+                    "@id": "https://dlc.services/iiif-img/7/18/24fe17e7-72ae-4595-8065-5b8646af3001/full/339,1024/0/default.jpg",
+                    "height": 5214
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/24fe17e7-72ae-4595-8065-5b8646af3001/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/24fe17e7-72ae-4595-8065-5b8646af3001/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 339,
+                            "height": 1024
+                        },
+                        {
+                            "width": 133,
+                            "height": 400
+                        },
+                        {
+                            "width": 66,
+                            "height": 200
+                        },
+                        {
+                            "width": 33,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 339,
+                    "@id": "https://dlc.services/thumbs/7/18/24fe17e7-72ae-4595-8065-5b8646af3001",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/24fe17e7-72ae-4595-8065-5b8646af3001/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1728,
+            "@id": "https://dlc.services/iiif-img/7/18/24fe17e7-72ae-4595-8065-5b8646af3001/canvas/c0",
+            "label": "Image",
+            "height": 5214
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/70ee2b53-9313-4bdb-a0aa-13a2706c35b2/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

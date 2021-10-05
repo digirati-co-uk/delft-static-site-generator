@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Choke-ring antenna door Ashtech"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "antenne"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0008.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1990 - 2005"
+        },
+        {
+            "label": "Maker",
+            "value": "Ashtech (Sunnyvale)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "240,0 (h)  * 370,0 (b)  * 370,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "kunststof, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Choke-ring antenne door Ashtech voor het nauwkeurig ontvangen (voor zowel hoogte als plaats) van een GPS signaal t.b.v. het AGRS netwerk van Nederland. Deze antenne is een aantal jaren opgesteld op de toren van het gebouw Kanaalweg 4 te Delft. De concentrische ringen zorgen voor afscherming van signalen die de antenne van onderen bereiken. Deze ringen zijn iets meer dan een kwart golflengte diep (+/- 5 cm bij GPS). Ongewenste GPS-signalen van de zijkant en van onderen kunnen het gevoelige antenne-element in het midden onder de grijze kap niet meer bereiken. Het feitelijke antenne-element (een klein verticaal dipool-element) is uiterst precies in het midden geplaatst. Deze choke-ring antenne is voorzien van een los instrumentvoetje, en is plaatsbaar op een normaal statief."
+        },
+        {
+            "label": "Documentatie",
+            "value": "www.topcongps.com/support/ChokeRingTheory.html"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/f9f99200-5b04-4659-8594-d00aadb289ed/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/f9f99200-5b04-4659-8594-d00aadb289ed/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/f9f99200-5b04-4659-8594-d00aadb289ed.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/0246564e-a709-47ad-93f7-e3af96cf9b15/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/f9f99200-5b04-4659-8594-d00aadb289ed/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

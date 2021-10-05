@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Gradenboog met de \"Engelse verdeling\""
+        },
+        {
+            "label": "Objectnaam",
+            "value": "gradenboog"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0869.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1,0 (h)  * 150,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een gradenboog met de 'Engelse verdeling' van 0 tot 360 graden, dit in tegenstelling tot het in het vaste land van Europa gebruikte 400 gon stelsel. De gradenboog werd gebruikt als hulpmiddel bij het tekenen."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/bf68cba4-cb7b-4f06-8c53-365f857764d9/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/bf68cba4-cb7b-4f06-8c53-365f857764d9/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/bf68cba4-cb7b-4f06-8c53-365f857764d9.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/dc6ace8a-57e8-4dec-b20f-274ce84259a9/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/bf68cba4-cb7b-4f06-8c53-365f857764d9/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

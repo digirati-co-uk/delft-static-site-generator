@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Laserafstandmeter door Hewlett-Packard type 3820A"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "afstandmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0817.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1980"
+        },
+        {
+            "label": "Maker",
+            "value": "Hewlett Packard  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "345,0 (h)  * 335,0 (b)  * 170,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, kunststof, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Totalstation, theodoliet met automatische tachymeter voor afstandmeting en richtingmeting (digitale rand). De Hewlett Packard 3820A is een laserafstandmeter, voorzien van een microcomputer. Deze laatste kan worden gebruikt voor berekeningen en voor het opslaan van de meetgegevens. De afstandmeter is gemonteerd op een vast stelschroevenblok. Het instrument kan - onder goede weersomstandigheden - afstanden tot 1 kilometer registreren met een enkel prisma en tot 5 kilometer met gebruik van een zesvoudig prisma. De afstandmeter heeft een GaAs laser met een golflengte van 830 nanometer (buiten het zichtbare gebied) In de documentatie bevindt zich een brief van de toenmalige TH Delft, waarin geklaagd wordt over afwijkingen in de gemeten waarden."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/24eb80f8-3834-4171-a392-36d93c636e3f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/24eb80f8-3834-4171-a392-36d93c636e3f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/24eb80f8-3834-4171-a392-36d93c636e3f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/3c97ff76-62b6-4834-8d01-ada9daf890f5/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/24eb80f8-3834-4171-a392-36d93c636e3f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

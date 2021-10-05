@@ -1,0 +1,192 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van prof. T.K.L. Sluyterman door C.J. Mension"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2003.0001.CVB"
+        },
+        {
+            "label": "Datering",
+            "value": "1931"
+        },
+        {
+            "label": "Maker",
+            "value": "Mension, Cornelis Jan  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "925,0 (h)  * 787,0 (b) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geschilderd portret door Cornelis Jan Mension van prof. Theodorus Karel Lodewijk Sluyterman. <\/br>Professor Sluyterman was hoogleraar decoratieve kunst en ornamenttekenen van 1905 tot 1931, en daarvoor leraar vanaf 1895."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Sluyterman, Theodorus Karel Lodewijk"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/4549534c-d075-403f-99d5-4c5d35663de3/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/a279ba87-afcc-4020-919f-71a52dd08bfd/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/a279ba87-afcc-4020-919f-71a52dd08bfd/range/range-0-0.json",
+            "label": "0"
+        },
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/a279ba87-afcc-4020-919f-71a52dd08bfd/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/a279ba87-afcc-4020-919f-71a52dd08bfd/range/range-0-1.json",
+            "label": "1"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/a279ba87-afcc-4020-919f-71a52dd08bfd.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 2048,
+                            "@id": "https://dlc.services/iiif-img/7/18/4549534c-d075-403f-99d5-4c5d35663de3",
+                            "height": 3072
+                        },
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/4549534c-d075-403f-99d5-4c5d35663de3/full/683,1024/0/default.jpg",
+                        "height": 3072
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/4549534c-d075-403f-99d5-4c5d35663de3/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/4549534c-d075-403f-99d5-4c5d35663de3/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 683,
+                                "height": 1024
+                            },
+                            {
+                                "width": 267,
+                                "height": 400
+                            },
+                            {
+                                "width": 133,
+                                "height": 200
+                            },
+                            {
+                                "width": 67,
+                                "height": 100
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 683,
+                        "@id": "https://dlc.services/thumbs/7/18/4549534c-d075-403f-99d5-4c5d35663de3",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 1024
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/4549534c-d075-403f-99d5-4c5d35663de3/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 2048,
+                "@id": "https://dlc.services/iiif-img/7/18/4549534c-d075-403f-99d5-4c5d35663de3/canvas/c0",
+                "label": "Image",
+                "height": 3072
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 3920,
+                            "@id": "https://dlc.services/iiif-img/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4",
+                            "height": 4488
+                        },
+                        "width": 3920,
+                        "@id": "https://dlc.services/iiif-img/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4/full/894,1024/0/default.jpg",
+                        "height": 4488
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 894,
+                                "height": 1024
+                            },
+                            {
+                                "width": 349,
+                                "height": 400
+                            },
+                            {
+                                "width": 175,
+                                "height": 200
+                            },
+                            {
+                                "width": 87,
+                                "height": 100
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 894,
+                        "@id": "https://dlc.services/thumbs/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 1024
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 3920,
+                "@id": "https://dlc.services/iiif-img/7/18/691be5ab-dd03-4aa8-b98a-10c63efec2a4/canvas/c0",
+                "label": "Image",
+                "height": 4488
+            }
+        ],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/a279ba87-afcc-4020-919f-71a52dd08bfd/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

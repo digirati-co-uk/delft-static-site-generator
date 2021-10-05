@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Dubbel pentagoon prisma door Robert Reiss GmbH"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "prisma"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0281.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Robert Reiss GmbH (Bad Liebenwerda)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "160,0 (h)  * 27,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hars"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een dubbel pentagoon prisma door Robert Reiss GmbH, met aflodings-stralengang tussen de twee prisma's door het houten handvat. Voor het uitzetten en bepalen van hoeken van 90 (haakse hoek) en 180 graden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "K&L 1912 blz 82-83: Prazisions Doppelprisma \"Zentral\" J.E. Alberda en J.B. Ebbinge. Inleiding Landmeetkunde (zevendruk) blz 90 e.v."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/5daaacab-3692-4496-8329-8b99bc620696/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/5daaacab-3692-4496-8329-8b99bc620696/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/5daaacab-3692-4496-8329-8b99bc620696.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/f3a0dda9-603d-4141-ac79-7fd3750ac6fb/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/5daaacab-3692-4496-8329-8b99bc620696/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Stengelhaak"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "stengelhaak"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0389.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "75,0 (h)  * 185,0 (b)  * 75,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Stengelhaak, hulpmiddel voor het bevestigen van oude (voor 1950) gemaakte geodetische instrumenten op een statief. Nadeel van de stengelhaak is dat het horizontaal stellen van het instrument lastig is."
+        },
+        {
+            "label": "Documentatie",
+            "value": "C.M. Schols. Landmeten en Waterpassen Atlas (1908) fig 39."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/6c57bcf9-2291-45d8-9ca3-73caf4d0b30d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/6c57bcf9-2291-45d8-9ca3-73caf4d0b30d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/6c57bcf9-2291-45d8-9ca3-73caf4d0b30d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/65b795ff-3ed3-487b-b81d-b14ea71413b1/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/6c57bcf9-2291-45d8-9ca3-73caf4d0b30d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

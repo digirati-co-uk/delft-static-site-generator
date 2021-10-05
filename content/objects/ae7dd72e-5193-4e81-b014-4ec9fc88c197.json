@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Standaardmeter door C. Bamberg"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "standaardmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0226.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1893"
+        },
+        {
+            "label": "Maker",
+            "value": "Bamberg, Carl  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "33,0 (h)  * 1.060,0 (b)  * 65,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Standaardmeter door C. Bamberg, gebruikt voor de vergelijking van de standmeter van de Rijks Driehoeksmeting (NCG). Twee stalen eindmaatstaven in een houten kist. De maatstaven hebben afzonderlijk een lengte van één meter. Geijkt door de Kaiserliche Normal-Eigungs-Kommision op 27 januari 1893. De set bestaat uit twee bijna identieke kisten."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Er is een ijkverklaring"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/ae7dd72e-5193-4e81-b014-4ec9fc88c197/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/ae7dd72e-5193-4e81-b014-4ec9fc88c197/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/ae7dd72e-5193-4e81-b014-4ec9fc88c197.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/6cb6567b-f54f-438d-8bdd-779b34ea672c/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/ae7dd72e-5193-4e81-b014-4ec9fc88c197/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

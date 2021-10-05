@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Schijfplanimeter door G.C. Starke"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0075.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1870"
+        },
+        {
+            "label": "Maker",
+            "value": "Starke, G.C.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "145,0 (h)  * 370,0 (b)  * 480,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, steen, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Schijfplanimeter door G.C. Starke, geodetisch meetinstrument voor oppervlaktebepalingen van percelen en van dwars- en lengteprofielen. De eerste in de praktijk bruikbare planimeter werd door Kasper Wetli uitgevonden en door Georg Starke in 1849 geconstrueerd. De beweging van de omloopstift wordt direct ontbonden in een rechtlijnige beweging van de omlooparm en een loodrecht daarop staande beweging van een wagen, waarop een omloopschijf bevestigd is. Op de schijf rust een meetrol. De beweging van de omlooparm brengt de schijf via een strak gespannen draad aan het draaien. De omwenteling van de meetrol wordt rechtstreeks overgebracht op een telwerk. De positie van de meetrol op de schijf wordt beïnvloed door de beweging van de wagen."
+        },
+        {
+            "label": "Documentatie",
+            "value": "http://www.mathematik.uni-wuerzburg.de/History/ausstell/planimet/starke.html"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/9f84669b-4629-4efb-8fad-1b083b9fbc9a/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/9f84669b-4629-4efb-8fad-1b083b9fbc9a/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/9f84669b-4629-4efb-8fad-1b083b9fbc9a.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/c5a63dec-a48b-47fd-b178-f7a527e703ae/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/9f84669b-4629-4efb-8fad-1b083b9fbc9a/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

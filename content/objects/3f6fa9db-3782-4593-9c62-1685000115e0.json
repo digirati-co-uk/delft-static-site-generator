@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Achthoekige équerre op een houten voet"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "équerre"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0538.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1750 - 1900"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.510,0 (h)  * 60,0 (b)  * 60,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Equerre of octogoon, volledige naam is équerre d'arpenteur. Dit is een achthoekige equerre op een houten voet. Dit eenvoudige instrument - ook wel een trommelkruis genoemd - is te gebruiken voor het uitzetten van hoeken van 45 en 90 graden of veelvouden daarvan. Bij deze equerre behoort de originele houten stok."
+        },
+        {
+            "label": "Documentatie",
+            "value": "C.M. Schols. Landmeten en waterpassen achtste druk hfst 8 blz 102 e.v. en fig 88 uit de bijbehorende atlas."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/60669f81-4563-4a7e-87c9-f203efb78362/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/3f6fa9db-3782-4593-9c62-1685000115e0/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/3f6fa9db-3782-4593-9c62-1685000115e0/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/3f6fa9db-3782-4593-9c62-1685000115e0.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/60669f81-4563-4a7e-87c9-f203efb78362",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/60669f81-4563-4a7e-87c9-f203efb78362/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/60669f81-4563-4a7e-87c9-f203efb78362/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/60669f81-4563-4a7e-87c9-f203efb78362/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/60669f81-4563-4a7e-87c9-f203efb78362",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/60669f81-4563-4a7e-87c9-f203efb78362/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/60669f81-4563-4a7e-87c9-f203efb78362/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/3f6fa9db-3782-4593-9c62-1685000115e0/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

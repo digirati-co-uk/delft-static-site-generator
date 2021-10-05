@@ -1,0 +1,127 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasinstrument volgens H.J. Heuvelink door F.W. Breithaupt & Sohn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0249.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1921"
+        },
+        {
+            "label": "Maker",
+            "value": "F.W. Breithaupt & Sohn (Kassel)  (producent)"
+        },
+        {
+            "label": "Maker",
+            "value": "Heuvelink, Hendrik Jan  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "280,0 (h)  * 540,0 (b)  * 190,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Waterpasinstrument door F.W. Breithaupt & Sohn, voor nauwkeurige hoogteverschilmeting d.m.v. doorgaande waterpassing, met een reversieniveau en een micrometerhellingschroef. <\/br>Gebouwd volgens aanwijzingen van professor Ir. H.J. Heuvelink en gebruikt voor onderzoek naar methoden voor de herziening (tweede nauwkeurigheidswaterpassing) van de Rijkswaterpassing van Nederland. Dit instrument is getest in 1921 door ir. W. Schermerhorn, evenals het identieke instrument de nr 31322 van de T.H. Bandung, waarbij aangemerkt wordt dat de nr 31322 beter was."
+        },
+        {
+            "label": "Documentatie",
+            "value": "De Ingenieur van 21 januari 1922 nr 3. Brief van fa. Breithaupt d.d. 17-12-1982 geleverd op 9 mei 1921 aan de T.H. Delft"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Hangbaak volgens Prof. J.W. Dieperink;Waterpasbaak (GEO.2000.0239;GEO.2000.0244)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/198a539d-a658-440d-a74f-b48417e8ef07/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/198a539d-a658-440d-a74f-b48417e8ef07/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/198a539d-a658-440d-a74f-b48417e8ef07.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/3ee4337b-eeee-4ee9-bf07-1d595c09f4d2/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/198a539d-a658-440d-a74f-b48417e8ef07/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

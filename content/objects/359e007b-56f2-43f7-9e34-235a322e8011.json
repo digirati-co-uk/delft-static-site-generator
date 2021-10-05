@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Kadastertheodoliet door H. Max"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0091.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Hildebrand, Max  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "230,0 (h)  * 300,0 (b)  * 230,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Kadastertheodoliet door H. Max, geodetisch meetinstrument voor het bepalen van horizontale en verticale hoeken. Een kadaster-theodoliet voor het meten van horizontale en verticale richtingen. De kijker is omlegbaar en randaflezing is mogelijk door middel van schaalmicroscopen. In 1879 werd de schaalmicroscoop voor het eerst toegepast."
+        },
+        {
+            "label": "Documentatie",
+            "value": "dr. C.M.Schols. Landmeten en waterpassen (8e druk hoofdstuk 4)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/349def79-f818-435c-8652-8c5062540c1c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/359e007b-56f2-43f7-9e34-235a322e8011/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/359e007b-56f2-43f7-9e34-235a322e8011/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/359e007b-56f2-43f7-9e34-235a322e8011.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/349def79-f818-435c-8652-8c5062540c1c",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/349def79-f818-435c-8652-8c5062540c1c/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/349def79-f818-435c-8652-8c5062540c1c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/349def79-f818-435c-8652-8c5062540c1c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/349def79-f818-435c-8652-8c5062540c1c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/349def79-f818-435c-8652-8c5062540c1c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/349def79-f818-435c-8652-8c5062540c1c/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/359e007b-56f2-43f7-9e34-235a322e8011/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

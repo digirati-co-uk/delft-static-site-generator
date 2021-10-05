@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Basismeetset door J.Carpentier"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "meetset"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0528.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Carpentier, J.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "425,0 (h)  * 550,0 (b)  * 240,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, glas, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Instrumentarium door J.Carpentier, voor het uitzetten van een basismeting (lengtemeting). Een set voor basismetingen die waarschijnlijk is aangeschaft voor de Eerste Basisdriehoeksmeting, uitgevoerd door Stamkart rond 1860 maar later afgekeurd. Het instrumentarium bestaat uit een houten kist met een meetlint (meetband) van de metaallegering invar, een staalkabel en zes ijkpunten voorzien niveau's, stelschroeven en schietloden. Een tweede houten kist bevat vier vastleggingsbouten, zes hoogtemerken die op de ijkpunten kunnen worden geplaatst, twee klossen dik garen en vijf korte kettingen. Twee stalen piketten en een onbekend voorwerp bevinden zich buiten de kisten. De bijbehorende houten bokken zijn niet aanwezig. (Plank 4 en 5)."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Onderdelen van invar meetband in een beklede houten kist (GEO.2000.0432)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/4ae08045-3b08-4e2c-8bd7-eaec1e614f05/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/4ae08045-3b08-4e2c-8bd7-eaec1e614f05/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/4ae08045-3b08-4e2c-8bd7-eaec1e614f05.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/8a9cd4ac-2446-4815-b81d-8b5b67aadd0c/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/4ae08045-3b08-4e2c-8bd7-eaec1e614f05/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

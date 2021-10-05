@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Merkbout"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "bout (bevestigingsmiddel)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2003.0004.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1975"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "20,0 (h)  * 155,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "messing"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Merkbout of vastleggingsbout, hulpmiddel voor het vastleggen van een in RD bepaalde coordinaten van een kerktoren of dergelijke, zie ook 2000.0859.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Merkbout (GEO.2000.0859)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/70a104d5-fdcf-4793-afea-4e9a6587222e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/70a104d5-fdcf-4793-afea-4e9a6587222e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/70a104d5-fdcf-4793-afea-4e9a6587222e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/27e465dd-4054-4a46-95c8-95cc0d0ed308/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/70a104d5-fdcf-4793-afea-4e9a6587222e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

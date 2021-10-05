@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Zakhellingmeter door L. Casella"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "clinometer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0116.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "L. Casella (Londen)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "67,0 (h)  * 190,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Zakhellingmeter door L. Casella, voor het bepalen van hellingshoeken. Het instrument heeft aan één kant een kompas en aan de andere kant een hellingmeter. Hoeken (richtingen) worden gemeten in gehele graden. Vooral gebruikt bij metingen tijdens exploraties."
+        },
+        {
+            "label": "Documentatie",
+            "value": "http://americanhistory2.si.edu/surveying/object.cfm?recordnumber=997284 L. P. Casella An Illustrated and Descriptive Catalogue of Surveying Philosophical Mathematical Optical Photographic and Standard Meteorological Instruments (London [ca. 1871]) p. 71."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/e5fce907-f936-4d7b-b2cf-c6acce6a0a82/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/e5fce907-f936-4d7b-b2cf-c6acce6a0a82/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/e5fce907-f936-4d7b-b2cf-c6acce6a0a82.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/6b7a2b9a-9714-4820-aaa7-9e03b0432425/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e5fce907-f936-4d7b-b2cf-c6acce6a0a82/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

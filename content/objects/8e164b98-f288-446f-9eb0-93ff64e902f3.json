@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Contact-tachymeter door Kern & Co."
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tachymeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0250.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Kern & Co. AG (Aarau)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "300,0 (h)  * 270,0 (b)  * 180,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, leer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een contact-tachymeter door Kern & Co. AG voor hoek- en lengtemeting. Dit instrument, in 1924 voor het eerst vervaardigd, is een technisch verbeterde uitvoering van de tachymeter van Sanguet. Door de opkomst van de ongeveer gelijktijdig uitgevonden dubbelbeeldafstandmeter is dit model geen succes geworden. Voor het opmeten via de voerstraalmethode, met dit instrument worden de afstanden gereduceerd, zie ook 2000.0235.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Tijdschrift voor Kadaster & Landmeetkunde: jaargang XLVI afl 3 J. Dubbeld en G.F. Witt (Lab. voor GEODESIE): Optische Lengtemeting (vervolg) 1970 blz 114."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Contact-tachymeter door J.L. Sanguet (GEO.2000.0235)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/8e164b98-f288-446f-9eb0-93ff64e902f3/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/8e164b98-f288-446f-9eb0-93ff64e902f3/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/8e164b98-f288-446f-9eb0-93ff64e902f3.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/c2e85681-f69a-4818-a958-a6780fcc28a7/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/8e164b98-f288-446f-9eb0-93ff64e902f3/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Berg-boussole volgens M. Hildebrand door Kipp & Zonen"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "kompas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0254.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Kipp & Zonen  (producent)"
+        },
+        {
+            "label": "Maker",
+            "value": "Hildebrand, Max  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "190,0 (h)  * 240,0 (b)  * 205,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Berg-boussole ontworpen door M. Hildebrand en geproduceerd door Kipp & Zonen, voor zowel azimuth bepaling t.o.v. het magnetisch noorden als gewone richting meting, de cirkel is verdeeld van 0 - 360 graden. Deze Boussole tranche-montagne (bergboussole) heeft een excentrisch geplaatste richtkijker met buisniveau op een vast stelschroevenblok. Opvolger van dit instrument is 2000.0879.GEO. Dit type instrumenten zijn in het voormalige Nederlands-Indië gebruikt voor topografische opnamen."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Bergboussole door M. Hildebrand;Richtkompas door M. Hildebrand (GEO.2000.0879;GEO.2000.0314)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/10bfae28-5365-444c-b884-0442f593f7a6/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/ba288ef3-41d2-42d0-8336-8528588c7cef/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/ba288ef3-41d2-42d0-8336-8528588c7cef/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/ba288ef3-41d2-42d0-8336-8528588c7cef.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/10bfae28-5365-444c-b884-0442f593f7a6",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/10bfae28-5365-444c-b884-0442f593f7a6/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/10bfae28-5365-444c-b884-0442f593f7a6/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/10bfae28-5365-444c-b884-0442f593f7a6/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/10bfae28-5365-444c-b884-0442f593f7a6",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/10bfae28-5365-444c-b884-0442f593f7a6/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/10bfae28-5365-444c-b884-0442f593f7a6/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/ba288ef3-41d2-42d0-8336-8528588c7cef/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

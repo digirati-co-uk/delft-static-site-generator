@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Hellingmeter door Gebr. Wichmann"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "hellingmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0209.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Gebr. Wichmann (Berlijn)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "75,0 (h)  * 140,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Hellingmeter door Gebr. Wichmann voor het bepalen van de hellingshoek t.b.v. het reduceren van schuine afstanden naar kaartafstanden en hoogte verschillen. Een meetinstrument voor het bepalen van hellingshoeken (elevatie en depressiehoeken tot 60 graden), naar een ontwerp van Brandis. Met dit type instrument werden aanvankelijk boomhoogten bepaald. In een later stadium werd deze hellingmeter, voorzien van een afstand- en hoogtereductie, gebruikt bij lengtemetingen met de meethand."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Brandis. Zeitschrift f\"r Vermessung 1892 blz 603 over ontstaan en ontwikkeling. Serbert. Vermessungstechnick Instrumentkunde blz 20 afd 12. Wilski. Markscheidekunde 1929 blz 28. Zeitschrift für Vermessumg 1889 blz 647 en 1890 blz 87. Jordan 1914 en 1931"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/8142fd77-dfe6-4e45-92f1-1507829b74b6/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/8142fd77-dfe6-4e45-92f1-1507829b74b6/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/8142fd77-dfe6-4e45-92f1-1507829b74b6.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/81e8702e-3e69-4050-a808-8cb7f85188dd/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/8142fd77-dfe6-4e45-92f1-1507829b74b6/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

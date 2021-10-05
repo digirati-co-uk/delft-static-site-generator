@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van prof. A.E. Korvezee"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2011.0003.TBM"
+        },
+        {
+            "label": "Datering",
+            "value": "1996"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "561,0 (h)  * 561,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geschilderd portret van prof. dr. ir. Antonia Elisabeth Korvezee, de eerste vrouwelijke hoogleraar aan de Technische Hogeschool (1954 - 1961, theoretische scheikunde). Het portret is vervaardigd ter gelegenheid van de emancipatieprijs."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Korvezee, Antonia Elisabeth"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Portret van prof. H. Priemus (TBM.2010.0083)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/56df910e-ab94-4784-b696-6146405d7b40/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/adf7c898-8e4a-4774-807b-e37b9f506fc9/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/adf7c898-8e4a-4774-807b-e37b9f506fc9/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/adf7c898-8e4a-4774-807b-e37b9f506fc9.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3965,
+                        "@id": "https://dlc.services/iiif-img/7/18/56df910e-ab94-4784-b696-6146405d7b40",
+                        "height": 3972
+                    },
+                    "width": 3965,
+                    "@id": "https://dlc.services/iiif-img/7/18/56df910e-ab94-4784-b696-6146405d7b40/full/1022,1024/0/default.jpg",
+                    "height": 3972
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/56df910e-ab94-4784-b696-6146405d7b40/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/56df910e-ab94-4784-b696-6146405d7b40/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1022,
+                            "height": 1024
+                        },
+                        {
+                            "width": 399,
+                            "height": 400
+                        },
+                        {
+                            "width": 200,
+                            "height": 200
+                        },
+                        {
+                            "width": 100,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1022,
+                    "@id": "https://dlc.services/thumbs/7/18/56df910e-ab94-4784-b696-6146405d7b40",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/56df910e-ab94-4784-b696-6146405d7b40/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3965,
+            "@id": "https://dlc.services/iiif-img/7/18/56df910e-ab94-4784-b696-6146405d7b40/canvas/c0",
+            "label": "Image",
+            "height": 3972
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/adf7c898-8e4a-4774-807b-e37b9f506fc9/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

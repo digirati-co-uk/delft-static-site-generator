@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van prof. M.W. Beijerinck"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2011.0009.CVB"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "958,0 (h)  * 790,0 (b)  * 85,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geschilderd portret van prof. dr. Martinus Willem Beijerinck, hoogleraar algemene en toegepaste microbiologie van 1895 tot 1921."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Beijerinck, M.W."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/04dc7bba-87fb-4a73-adb7-c96f5bdc79c2/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/04dc7bba-87fb-4a73-adb7-c96f5bdc79c2/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/04dc7bba-87fb-4a73-adb7-c96f5bdc79c2.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3826,
+                        "@id": "https://dlc.services/iiif-img/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080",
+                        "height": 4605
+                    },
+                    "width": 3826,
+                    "@id": "https://dlc.services/iiif-img/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080/full/851,1024/0/default.jpg",
+                    "height": 4605
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 851,
+                            "height": 1024
+                        },
+                        {
+                            "width": 332,
+                            "height": 400
+                        },
+                        {
+                            "width": 166,
+                            "height": 200
+                        },
+                        {
+                            "width": 83,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 851,
+                    "@id": "https://dlc.services/thumbs/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3826,
+            "@id": "https://dlc.services/iiif-img/7/18/8bf2104d-b8cb-4828-b2c7-809489afd080/canvas/c0",
+            "label": "Image",
+            "height": 4605
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/04dc7bba-87fb-4a73-adb7-c96f5bdc79c2/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

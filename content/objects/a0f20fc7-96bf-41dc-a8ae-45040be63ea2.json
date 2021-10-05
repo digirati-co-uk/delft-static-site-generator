@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Slinger met bijbehorende houten kist"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "slinger (onderdeel)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2004.0002.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "130,0 (h)  * 390,0 (b)  * 350,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, kunststof, messing"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Slinger met bijbehorende houten kist, onderdeel voor de zwaartekrachtmeter van Vening Meinesz. Met dit instrument werd in onderzeeboten de zwaartekracht op oceanen gemeten. De werking berust op het principe dat een slinger sneller gaat slingeren naarmate de zwaartekracht toeneemt. Het instrument is gebouwd omstreeks 1920 en voor het laatst gebruikt in de Caribische Zee in 1957, zie ook 2000.0535.GEO. Het oorspronkelijke slingerapparaat bevatte vier slingers. Vening Meinesz bewees (zie proefschrift) dat er maar drie slingers nodig waren. Deze slinger ging altijd mee als reserve voor het geval een van de drie slingers beschadigd was. <\/br>De bijbehorende houten kist heeft de mogelijkheid om vier slingers op te slaan. Slinger no. 91. "
+        },
+        {
+            "label": "Documentatie",
+            "value": "NCG publicaties"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Gravimeter door Van Rest (GEO.2000.0535)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/a0f20fc7-96bf-41dc-a8ae-45040be63ea2/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/a0f20fc7-96bf-41dc-a8ae-45040be63ea2/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/a0f20fc7-96bf-41dc-a8ae-45040be63ea2.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/b8fd1af4-70f5-4f50-8892-c984513f559b/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/a0f20fc7-96bf-41dc-a8ae-45040be63ea2/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

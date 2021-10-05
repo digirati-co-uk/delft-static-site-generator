@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Ebbenhouten octant met ivoren detaillering door L.J. Harri"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "octant"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0067.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Harri, Leendert Johannes  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "110,0 (h)  * 310,0 (b)  * 250,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Octant door L.J. Harri, hydrografisch meetinstrument voor het bepalen van hoeken (kleiner dan 90 graden) in ieder willekeurig vlak. Een spiegeloctant voor het meten van hoeken, met een handgreep, een ebbenhouten frame en een randverdeling op ivoor. Bij een octant is de cirkelboog ongeveer het achtste deel van een cirkel."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/a5e1e2be-bfc4-4778-a89d-91641b6954b7/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/a5e1e2be-bfc4-4778-a89d-91641b6954b7/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/a5e1e2be-bfc4-4778-a89d-91641b6954b7.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/7547e1cc-ab24-4da8-aa35-9eb736f4374c/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/a5e1e2be-bfc4-4778-a89d-91641b6954b7/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

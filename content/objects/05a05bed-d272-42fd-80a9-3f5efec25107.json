@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Repetitietheodoliet door F.W. Breithaupt & Sohn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0095.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1905 - 1915"
+        },
+        {
+            "label": "Maker",
+            "value": "F.W. Breithaupt & Sohn (Kassel)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "470,0 (h)  * 280,0 (b)  * 210,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een repetitietheodoliet door F.W. Breithaupt & Sohn, met een boussole voor het meten van horizontale en verticale hoeken met diametraalaflezing van de randen. Dit instrument kan ook gebruikt worden voor astronomische waarnemingen en is daarom voorzien van oculairprisma's en een zonnekijker (Meridiansucher) met een 24 uurs verdeling om de astronomische meridiaan te bepalen. Bij dit instrument behoort een los alhidade of ruiterniveau. Diameter horizontale rand is 18 centimeter."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Johnson & Smith blz 91 beschrijving solar attachment en het gebruik. F.W. Breithaupt & Sohn. Die Theodoliete des mathemtisch-mechanischen Instituts uit 1919 blz 62 e.v. Breithaupt (Duitse) catalogus 1939 blz 28 afbeelding."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/05a05bed-d272-42fd-80a9-3f5efec25107/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/05a05bed-d272-42fd-80a9-3f5efec25107/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/05a05bed-d272-42fd-80a9-3f5efec25107.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/69a9dadd-bd4d-42eb-9c77-874910066e8c/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/05a05bed-d272-42fd-80a9-3f5efec25107/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

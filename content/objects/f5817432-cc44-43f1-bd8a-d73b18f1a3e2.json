@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Richtkompas met gradenboog en waterpas door H. Hoffmann"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "kompas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0861.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1914"
+        },
+        {
+            "label": "Maker",
+            "value": "Hoffmann, H.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "255,0 (h)  * 320,0 (b)  * 110,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Boussole door H. Hoffmann, met bereik van 0 tot 360 graden horizontaal; 0 tot 90 graden verticaal. Kompas met een gradenboog en een waterpas voor metingen in kolenmijnen. De gradenboog is verticaal geplaatst en voorzien van een wijzer. Het instrument werd met een speciale pen in de rots geplaatst."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/f5817432-cc44-43f1-bd8a-d73b18f1a3e2/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/f5817432-cc44-43f1-bd8a-d73b18f1a3e2/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/f5817432-cc44-43f1-bd8a-d73b18f1a3e2.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/991d73a6-f616-4ea5-bd8e-d9cba5ea9c3c/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/f5817432-cc44-43f1-bd8a-d73b18f1a3e2/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
