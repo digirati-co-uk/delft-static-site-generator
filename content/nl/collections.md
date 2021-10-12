@@ -6,11 +6,13 @@ title: "Digitale Collecties"
 
 # Digitale collecties
 
+This website aims to provide access to the full digital special collections of TU Delft Library, and other digital collections related to academic heritage.
+
 ## Special Collections
 
 ### Museumcollectie
 
-The Museum Collection includes objects that draw on TU Delft's institutional history, academic education and research. The items range from measuring instruments, course material, demonstration devices and research collections, to art, such as professorial portraits. The collection contains around 6,500 objects. The objects can be loaned under museum conditions for public exhibitions hosted on or off the campus.
+The Museum Collection includes objects that draw on TU Delft's institutional history, academic education and research. The items range from measuring instruments, course material, demonstration devices and research collections, to art, such as professorial portraits. The collection contains around 6,500 objects. Objects can be loaned under museum conditions for public exhibitions hosted on or off the campus. A complete inventory will be gradually published here; currently two subcollecties can be viewed online. Please contact [TU Delft Library](https://www.tudelft.nl/library/over-de-library/contact-en-bereikbaarheid) for more information about the collection.
 
 <div class="blocks">
 
@@ -27,26 +29,26 @@ The Museum Collection includes objects that draw on TU Delft's institutional his
 
 ### Trésor
 
-The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, such as speeches, dissertations and lecture notes. 
+The Trésor includes historic books, journals, maps, photographs and prints from before 1900. Their age, rarity, value or vulnerability is what makes them special. The Trésor also collects TU Delft output that is not usually included in academic journals, such as speeches, dissertations and lecture notes. Digitised objects from the collection can be found in multiple locations: the separate [Trésor website](https://tresor.tudelft.nl), [Research Repository](https://repository.tudelft.nl/islandora/search/?collection=research), [Image Archive](https://repository.tudelft.nl/search/MMP/?q=set%3Aprentenkabinet), and the [Colonial Architecture & Town Planning Repository](http://www.colonialarchitecture.eu). The dispersed material will be gradually brought together on this website.
 
 <div class="blocks">
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Universiteits-geschiedenis](/nl/collections/lib-tr-universiteitsgeschiedenis)
+[Universiteits-geschiedenis](/nl/collections/lib-tresor-universiteitsgeschiedenis)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[TH Mededelingen](/nl/collections/lib-tr-th-mededelingen)
+[TH Mededelingen](/nl/collections/lib-tresor-th-mededelingen)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Women in Science](/nl/collections/lib-tr-women-in-science)
+[Women in Science](/nl/collections/lib-tresor-women-in-science)
 </div>
 
 </div>
 
-### Other Library collections
+## TU Delft Library
 
 <div class="blocks">
 
@@ -71,11 +73,7 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Campus Real Estate](/nl/collections/tu-cre-tib)
-</div>
-<div class="block purple tint cutcorners w-4 h-4 image">
-
-[OTB](/nl/collections/tu-bk-otb-fotoarchief)
+[Campus Real Estate](/nl/collections/tu-cre-tib-bouwtekeningen)
 </div>
 
 </div>
