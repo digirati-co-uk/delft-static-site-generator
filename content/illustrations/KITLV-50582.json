@@ -1,165 +1,72 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "Students of the technical college in Bandung, around 1920"
-    ]
-  },
-  "items": [
-    {
-      "label": {
-        "en": [
-          "Untitled Canvas"
-        ]
-      },
-      "height": 693,
-      "width": 999,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/20/f34ff6b7-f333-4131-916f-2550326d5494/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 1286,
-                "width": 1855,
+    "label": {
+      "en": [
+        "Students of the technical college in Bandung, around 1920"
+      ]
+    },
+    "type": "Manifest",
+    "id": "https://heritage.tudelft.nl/iiif/0f06e8de-38c4-432e-9fd7-69eedbaadd75/manifest",
+    "items": [
+      {
+        "label": {
+          "en": [
+            "KITLV A536 - Studenten van de Technische Hogeschool te Bandoeng"
+          ]
+        },
+        "height": 1286,
+        "width": 1855,
+        "type": "Canvas",
+        "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:763321/canvas/default",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
                 "label": {
                   "en": [
-                    "-"
+                    "Students of the technical college in Bandung, around 1920"
                   ]
                 },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/20/f34ff6b7-f333-4131-916f-2550326d5494",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 1855,
-                  "height": 1286,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 710
-                    },
-                    {
-                      "width": 400,
-                      "height": 277
-                    },
-                    {
-                      "width": 200,
-                      "height": 139
-                    },
-                    {
-                      "width": 100,
-                      "height": 69
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
+                "summary": {
+                  "en": [
+                    "Leiden University Library, KITLV collection, no. KITLV 50582"
                   ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/20/f34ff6b7-f333-4131-916f-2550326d5494/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/20/f34ff6b7-f333-4131-916f-2550326d5494",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 710,
-                    "sizes": [
-                      {
-                        "width": 1024,
-                        "height": 710
-                      },
-                      {
-                        "width": 400,
-                        "height": 277
-                      },
-                      {
-                        "width": 200,
-                        "height": 139
-                      },
-                      {
-                        "width": 100,
-                        "height": 69
-                      }
-                    ]
+                },
+                "thumbnail": [
+                  {
+                    "service": {
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321",
+                      "type": "ImageService2"
+                    },
+                    "type": "Image",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321/full/1024,/0/default.jpg"
                   }
+                ],
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321",
+                "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:763321/canvas/default#",
+                "body": {
+                  "height": 1286,
+                  "width": 1855,
+                  "service": {
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321",
+                    "type": "ImageService2"
+                  },
+                  "type": "Image",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A763321/full/pct:50/0/default.jpg"
                 }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/annotation/c3db86f6-6ef5-9959-7c61-6df2733b4c27",
-              "target": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/canvas/fe3fe6ff-c679-84dd-87e4-d6b991fdd313#xywh=0,0,999,693",
-              "label": {
-                "en": [
-                  "Students of the technical college in Bandung, around 1920"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Leiden University Library, KITLV collection, no. KITLV 50582"
-                ]
               }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/list/82f5a5b9-a3d7-85ad-0cd5-b95a1b5e7c9b"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/canvas/fe3fe6ff-c679-84dd-87e4-d6b991fdd313"
-    }
-  ],
-  "id": "https://heritage.tudelft.nl/iiif/e593adfa-a6d4-7636-855f-cc4988e98d14/manifest"
-}
+            ],
+            "id": "https://example.org/uuid/a70cfd08-4a46-40e6-bd36-9fb57335924d"
+          }
+        ]
+      }
+    ],
+    "@context": [
+      "http://www.w3.org/ns/anno.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+    ]
+  }

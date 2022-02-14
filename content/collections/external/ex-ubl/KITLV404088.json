@@ -1,0 +1,228 @@
+{
+  "label": {
+    "en": [
+      "Jan Willem IJzerman (1e rij, 2e v.l.) te midden van personeel van de Staatsspoorwegen"
+    ]
+  },
+  "logo": [
+    {
+      "id": "https://iiifviewer.universiteitleiden.nl/logo/",
+      "type": "Image"
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Jan Willem IJzerman (1e rij, 2e v.l.) te midden van personeel van de Staatsspoorwegen ter Sumatra's Westkust te Padangpandjang"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Country"
+        ]
+      },
+      "value": {
+        "en": [
+          "No place, unknown, or undetermined"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date issued"
+        ]
+      },
+      "value": {
+        "en": [
+          "20uu"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ]
+      },
+      "value": {
+        "en": [
+          "No linguistic content"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ]
+      },
+      "value": {
+        "en": [
+          "Digital image"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Note"
+        ]
+      },
+      "value": {
+        "en": [
+          "1e rij v.l.n.r.: [...] Rosel, J.W. IJzerman, [...] Klopper, [...] Lefebre.",
+          "Depicted: IJzerman, J.W.; Rosel, [...]; Klopper, [...]; Lefebre, [...]"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Subject (geographic)"
+        ]
+      },
+      "value": {
+        "en": [
+          "Padangpanjang"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Subject (topical)"
+        ]
+      },
+      "value": {
+        "en": [
+          "Personnel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Subject (topical)"
+        ]
+      },
+      "value": {
+        "en": [
+          "Railways"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Published"
+        ]
+      },
+      "value": {
+        "en": [
+          "1919"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Shelfmark"
+        ]
+      },
+      "value": {
+        "en": [
+          "KITLV 404088"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Persistent URL"
+        ]
+      },
+      "value": {
+        "en": [
+          "<a href=\"http://hdl.handle.net/1887.1/item:727838\">hdl.handle.net/1887.1/item:727838</a>"
+        ]
+      }
+    }
+  ],
+  "type": "Manifest",
+  "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/manifest",
+  "rights": "Download provided. <a href=\"https://creativecommons.org/licenses/by/4.0/\">Use of this resource is governed by the terms and conditions of the Creative Commons CC BY License</a>",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Leiden University Libraries"
+      ]
+    }
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Jan Willem IJzerman (1e rij, 2e v.l.) te midden van personeel van de Staatsspoorwegen ter Sumatra's Westkust te Padangpandjang"
+        ]
+      },
+      "height": 3369,
+      "width": 4580,
+      "thumbnail": [
+        {
+          "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838",
+            "type": "ImageService2"
+          },
+          "type": "Image",
+          "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838/full/1024,/0/default.jpg"
+        }
+      ],
+      "type": "Canvas",
+      "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/canvas/default",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838",
+              "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:727838/canvas/default#",
+              "body": {
+                "height": 3369,
+                "width": 4580,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838",
+                  "type": "ImageService2"
+                },
+                "type": "Image",
+                "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A727838/full/pct:50/0/default.jpg"
+              }
+            }
+          ],
+          "id": "https://example.org/uuid/81669c87-8761-4125-8bdd-f8a2cdf2fc0d"
+        }
+      ]
+    }
+  ],
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}

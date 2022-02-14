@@ -1,166 +1,72 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "Opening of the technical college in Bandung, 3 July 1920. The speaker is probably W. IJzerman"
-    ]
-  },
-  "items": [
-    {
-      "label": {
-        "en": [
-          "Untitled Canvas"
-        ]
-      },
-      "height": 750,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/20/76ac865a-099b-43ca-9040-74872c687fff/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2103,
-                "width": 2803,
+    "label": {
+      "en": [
+        "Opening of the technical college in Bandung, 3 July 1920. The speaker is probably W. IJzerman"
+      ]
+    },
+    "type": "Manifest",
+    "id": "https://heritage.tudelft.nl/iiif/ba45a83d-db99-4c3d-b76d-e9198da4ae6a/manifest",
+    "items": [
+      {
+        "label": {
+          "en": [
+            "KITLV A34 - Opening van de Technische Hoogeschool te Bandoeng op 3 juli 1920"
+          ]
+        },
+        "height": 2103,
+        "width": 2803,
+        "type": "Canvas",
+        "id": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:913018/canvas/default",
+        "items": [
+          {
+            "type": "AnnotationPage",
+            "items": [
+              {
                 "label": {
                   "en": [
-                    "-"
+                    "Opening of the technical college in Bandung, 3 July 1920. The speaker is probably W. IJzerman"
                   ]
                 },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/20/76ac865a-099b-43ca-9040-74872c687fff",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 2803,
-                  "height": 2103,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 768
-                    },
-                    {
-                      "width": 400,
-                      "height": 300
-                    },
-                    {
-                      "width": 200,
-                      "height": 150
-                    },
-                    {
-                      "width": 100,
-                      "height": 75
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
+                "summary": {
+                  "en": [
+                    "Leiden University Library, KITLV collection, no. KITLV 11908"
                   ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/20/76ac865a-099b-43ca-9040-74872c687fff/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/20/76ac865a-099b-43ca-9040-74872c687fff",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 768,
-                    "sizes": [
-                      {
-                        "width": 1024,
-                        "height": 768
-                      },
-                      {
-                        "width": 400,
-                        "height": 300
-                      },
-                      {
-                        "width": 200,
-                        "height": 150
-                      },
-                      {
-                        "width": 100,
-                        "height": 75
-                      }
-                    ]
+                },
+                "thumbnail": [
+                  {
+                    "service": {
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A913018",
+                      "type": "ImageService2"
+                    },
+                    "type": "Image",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A913018/full/1024,/0/default.jpg"
                   }
+                ],
+                "motivation": "painting",
+                "type": "Annotation",
+                "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A913018",
+                "target": "https://digitalcollections.universiteitleiden.nl/iiif_manifest/item:913018/canvas/default#",
+                "body": {
+                  "height": 2103,
+                  "width": 2803,
+                  "service": {
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A913018",
+                    "type": "ImageService2"
+                  },
+                  "type": "Image",
+                  "id": "https://iiif.universiteitleiden.nl/iiif/2/hdl%3A1887.1%2Fitem%3A913018/full/pct:50/0/default.jpg"
                 }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/906a853f-f60b-5cf2-0e61-4d1e482e867b/annotation/c1ce1cb4-3093-077f-8205-14c650a6500d",
-              "target": "https://heritage.tudelft.nl/iiif/906a853f-f60b-5cf2-0e61-4d1e482e867b/canvas/6e1067dc-b009-64b9-e997-f61f05a6c50a#xywh=0,0,1000,750",
-              "label": {
-                "en": [
-                  "Opening of the technical college in Bandung, 3 July 1920. The speaker is probably W. IJzerman"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Leiden University Library, KITLV collection, no. KITLV 11908"
-                ]
               }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/906a853f-f60b-5cf2-0e61-4d1e482e867b/list/72eb4124-24f9-3fb1-ab85-f42f1f93d095"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/906a853f-f60b-5cf2-0e61-4d1e482e867b/canvas/6e1067dc-b009-64b9-e997-f61f05a6c50a"
-    }
-  ],
-  "id": "https://heritage.tudelft.nl/iiif/906a853f-f60b-5cf2-0e61-4d1e482e867b/manifest"
-}
+            ],
+            "id": "https://example.org/uuid/79f5598c-16f7-4943-a87f-ad1f5a7eccd8"
+          }
+        ]
+      }
+    ],
+    "@context": [
+      "http://www.w3.org/ns/anno.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+    ]
+  }

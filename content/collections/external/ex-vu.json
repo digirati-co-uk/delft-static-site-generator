@@ -1,0 +1,35 @@
+{
+  "label": {
+    "en": [
+      "Vrije Universiteit"
+    ],
+    "nl": [
+      "Vrije Universiteit"
+    ]
+  },
+  "summary": { 
+    "en": [ 
+      "De Kaartenverzameling van de UB VU herbergt naast een collectie atlassen en cartografische literatuur een collectie van ca 60.000 kaarten. Hiervan is een deel geselecteerd voor opname in de Beeldbank.",
+      "<a href=\"https://vu.contentdm.oclc.org/digital/collection/krt\">More information</a>"
+    ],
+    "nl": [
+      ""
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [ "" ]
+      },
+      "value": {
+        "none": [ "" ]
+      }
+    }
+  ],
+  "type": "Collection",
+  "id": "https://delft-static-site-generator.netlify.com/collections/ex-vu",
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}
