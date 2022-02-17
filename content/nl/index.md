@@ -13,7 +13,7 @@ title: "Academisch Erfgoed"
 </div>
 <div class="block tint copper cutcorners w-4 h-4 image">
 
-[Pekalenwerken](/nl/objects/trl-lamminga)
+[Pekalenwerken](/en/objects/lib-tresor-trl-9-3)
 </div>
 <div class="block cutcorners w-4 h-4 article">
 
@@ -44,7 +44,7 @@ title: "Academisch Erfgoed"
 </div>
 <div class="block tint copper cutcorners w-4 h-4 image">
 
-[Trésor](/nl/collections/lib-tr-th-mededelingen)
+[TH Mededelingen](/nl/collections/lib-tresor-th-mededelingen)
 </div>
 </div>
 
