@@ -16,7 +16,7 @@
     "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/collections/d51c775b-4472-4e6a-a952-f0f3da8aee9d.json",
     "label": {
         "en": [""],
-        "nl": ["Deelcollectie Geodesie"]
+        "nl": ["Collectie Geodesie"]
     },
     "type": "Collection",
     "@context": [
@@ -2153,7 +2153,7 @@
                 "type": "Image"
             }],
             "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/17eccb33-2e0b-48da-b22e-303e8cc2e6f0.json",
-            "label": {"nl": ["Waterpasinstrument met een compas door J.H. Onderdewijngaart Canzius"]},
+            "label": {"nl": ["Waterpasinstrument met een kompas door J.H. Onderdewijngaart Canzius"]},
             "type": "Manifest"
         },
         {
@@ -2605,88 +2605,6 @@
             }],
             "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/a5e1e2be-bfc4-4778-a89d-91641b6954b7.json",
             "label": {"nl": ["Ebbenhouten octant met ivoren detaillering door L.J. Harri"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
-                            "width": 1024,
-                            "height": 683
-                        },
-                        {
-                            "width": 400,
-                            "height": 267
-                        },
-                        {
-                            "width": 200,
-                            "height": 133
-                        },
-                        {
-                            "width": 100,
-                            "height": 67
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
-                    "id": "https://dlc.services/thumbs/7/18/9dd7cd9d-05f5-4b38-a97c-ccc5c4bf7483",
-                    "type": "ImageService2",
-                    "height": 683
-                },
-                "id": "https://dlc.services/thumbs/7/18/9dd7cd9d-05f5-4b38-a97c-ccc5c4bf7483/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/45f13b00-aaac-454f-aacd-d174a2629916.json",
-            "label": {"nl": ["Winkelhaak door Lerebours"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
-                            "width": 1024,
-                            "height": 683
-                        },
-                        {
-                            "width": 400,
-                            "height": 267
-                        },
-                        {
-                            "width": 200,
-                            "height": 133
-                        },
-                        {
-                            "width": 100,
-                            "height": 67
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
-                    "id": "https://dlc.services/thumbs/7/18/56a9b49b-8866-485a-97c6-a95b7650ecb2",
-                    "type": "ImageService2",
-                    "height": 683
-                },
-                "id": "https://dlc.services/thumbs/7/18/56a9b49b-8866-485a-97c6-a95b7650ecb2/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/89b55d5d-38d8-432f-860e-8b3a91438f4f.json",
-            "label": {"nl": ["Arceerliniaal"]},
             "type": "Manifest"
         },
         {
@@ -22620,47 +22538,6 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 294,
-                            "height": 1024
-                        },
-                        {
-                            "width": 115,
-                            "height": 400
-                        },
-                        {
-                            "width": 57,
-                            "height": 200
-                        },
-                        {
-                            "width": 29,
-                            "height": 100
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 294,
-                    "id": "https://dlc.services/thumbs/7/18/4a0a8cbd-2b65-4133-afc4-1e3b7c42f560",
-                    "type": "ImageService2",
-                    "height": 1024
-                },
-                "id": "https://dlc.services/thumbs/7/18/4a0a8cbd-2b65-4133-afc4-1e3b7c42f560/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/31263d9a-f9d5-4df2-8625-1eeed5981286.json",
-            "label": {"nl": ["Kwikbarometer"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
                             "width": 1024,
                             "height": 784
                         },
@@ -22941,47 +22818,6 @@
             }],
             "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/efa64d32-e7db-4b38-ba19-927484e0563e.json",
             "label": {"nl": ["Tachymeter Leica Scanstation C10/15"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
-                            "width": 156,
-                            "height": 1024
-                        },
-                        {
-                            "width": 61,
-                            "height": 400
-                        },
-                        {
-                            "width": 31,
-                            "height": 200
-                        },
-                        {
-                            "width": 15,
-                            "height": 100
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 156,
-                    "id": "https://dlc.services/thumbs/7/18/b3492017-a156-48a8-b77d-9f25802c32ad",
-                    "type": "ImageService2",
-                    "height": 1024
-                },
-                "id": "https://dlc.services/thumbs/7/18/b3492017-a156-48a8-b77d-9f25802c32ad/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/0d1e3fb8-61f8-40c7-b157-074bc66319b6.json",
-            "label": {"nl": ["Barometer door R. Fuess"]},
             "type": "Manifest"
         }
     ]
