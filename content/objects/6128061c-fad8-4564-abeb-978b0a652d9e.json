@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Anéroide-barometer in een houten kist volgens F.H. Reitz door R. Deutschbein"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "barometer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0313.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Reitz, F.H.  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "R. Deutschbein (Hamburg)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "80,0 (h)  * 170,0 (b)  * 185,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, textiel, glas, leer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Anéroide-barometer door R. Deutschbein, een meetinstrument voor hoogtemeting, in een houten kist naar een ontwerp van Reitz. Bij deze barometer, die voor het eerst in 1873 door uitvinder Reitz werd beschreven, wordt de zeer kleine beweging van een fijne verdeling door een sterk vergrotende microscoop waargenomen. In het kistje bevindt zich ook een thermometer."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift für Vermessunswesen 1873 en 1887 Jordan (1914) blz 666 667"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/6128061c-fad8-4564-abeb-978b0a652d9e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/6128061c-fad8-4564-abeb-978b0a652d9e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/6128061c-fad8-4564-abeb-978b0a652d9e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/99b6b124-0b2f-48cf-85a4-958f2dd3e90a/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/6128061c-fad8-4564-abeb-978b0a652d9e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

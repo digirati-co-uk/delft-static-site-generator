@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Hellingmeter door Gebr. Wichmann"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "hellingmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0210.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Gebr. Wichmann (Berlijn)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "95,0 (h)  * 130,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geodetisch meetinstrument door de Gebr. Wichmann voor het bepalen van de helling in procenten en de lengtecorrectie voor een 20 m meetband. De lengte-correctie voor een twintig meter meetband en het hellingspercentage kunnen direct afgelezen worden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Brückner. Zeitschrift für Vermessung 1907 blz 376"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ad115802-f069-42bc-9260-180c627fbd9e/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/353ce46c-1d5a-4b41-8516-2d1d5b0b614f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/353ce46c-1d5a-4b41-8516-2d1d5b0b614f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/353ce46c-1d5a-4b41-8516-2d1d5b0b614f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/ad115802-f069-42bc-9260-180c627fbd9e",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/ad115802-f069-42bc-9260-180c627fbd9e/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ad115802-f069-42bc-9260-180c627fbd9e/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ad115802-f069-42bc-9260-180c627fbd9e/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ad115802-f069-42bc-9260-180c627fbd9e",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ad115802-f069-42bc-9260-180c627fbd9e/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/ad115802-f069-42bc-9260-180c627fbd9e/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/353ce46c-1d5a-4b41-8516-2d1d5b0b614f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

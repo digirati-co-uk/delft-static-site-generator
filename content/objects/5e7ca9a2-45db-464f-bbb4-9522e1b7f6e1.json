@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Spiegelreflectiecirkel door Pistor & Martins"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "spiegelreflectiecirkel"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0039.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1850"
+        },
+        {
+            "label": "Maker",
+            "value": "Pistor & Martins (Berlijn)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "460,0 (h)  * 430,0 (b)  * 300,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Spiegel-prismacirkel door Pistor & Martins, op een vast stelschroevenblok en met een cardanische bevestiging en een contragewicht. In 1845 werd op deze verbeterde versie van de reflectiecirkel een patent aangevraagd. Naast de betere beeldvorming - door het gebruik van een prisma en het weglaten van de kleine spiegel - is de diametrale aflezing de belangrijkste verbetering. Zie ook inventarisnummer 2000.0440.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zie ook cercle réfléchissant van Borda en circulo de reflexión"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Reflectiecirkel met houten handvatten door Th. Wegener (GEO.2000.0440)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/5e7ca9a2-45db-464f-bbb4-9522e1b7f6e1/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/5e7ca9a2-45db-464f-bbb4-9522e1b7f6e1/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/5e7ca9a2-45db-464f-bbb4-9522e1b7f6e1.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/380913a9-bc81-4f5f-8d04-f1ff549a8aea/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/5e7ca9a2-45db-464f-bbb4-9522e1b7f6e1/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

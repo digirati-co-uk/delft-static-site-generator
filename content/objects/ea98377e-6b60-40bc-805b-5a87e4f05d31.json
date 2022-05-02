@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "NAP-bout"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "bout (bevestigingsmiddel)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0802.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "40,0 (h)  * 315,0 (b)  * 40,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Vastleggingsbout (NAP bout). Merkteken voorzien van een beschermdop met schroefdraad voor het vaststellen van een ondergronds merkteken voor van de vastlegging van hoogte t.o.v. NAP bij de basismeting in Stroe, 1913. Voor het plaatsen van een ondergronds merkteken in een beton constructie. Zie ook inventarisnummer 2000.0804.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "J. Heuvevelink. Basis bij Stroe 1913. Blz 11 Ondergrondse merkteekens en fotobijlage IX fig 17."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "NAP-bout (GEO.2000.0804)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/ea98377e-6b60-40bc-805b-5a87e4f05d31/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/ea98377e-6b60-40bc-805b-5a87e4f05d31/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/ea98377e-6b60-40bc-805b-5a87e4f05d31.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/3a9442a9-2bf1-4e12-9d9b-a2a9b8879f32/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/ea98377e-6b60-40bc-805b-5a87e4f05d31/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Statief door G. de Koningh"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0523.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "G. de Koningh (Arnhem)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "240,0 (h)  * 1.430,0 (b)  * 240,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal, leer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een statief met speciale plaat t.b.v. van het centreren van een theodoliet (door G. de Koningh) boven een bekend punt en vaste poten. De klemplaat voor het schuiven (centreren) is voorzien van een stengelhaakconstructie. Behoort bij inventarisnummer 2004.0008.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Theodoliet door G. de Koningh (GEO.2004.0008)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/f67e2870-0200-47a6-9702-a77d24becf49/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/8e9af577-b202-46d2-93c5-0387251576ba/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/8e9af577-b202-46d2-93c5-0387251576ba/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/8e9af577-b202-46d2-93c5-0387251576ba.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/f67e2870-0200-47a6-9702-a77d24becf49",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/f67e2870-0200-47a6-9702-a77d24becf49/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/f67e2870-0200-47a6-9702-a77d24becf49/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/f67e2870-0200-47a6-9702-a77d24becf49/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/f67e2870-0200-47a6-9702-a77d24becf49",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/f67e2870-0200-47a6-9702-a77d24becf49/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/f67e2870-0200-47a6-9702-a77d24becf49/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/8e9af577-b202-46d2-93c5-0387251576ba/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

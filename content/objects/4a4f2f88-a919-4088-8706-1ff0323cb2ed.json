@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Stangplanimeter volgens H. Prytz door Knudsen Born"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0169.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Prytz, Holger  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "Knudsen Born  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "70,0 (h)  * 260,0 (b)  * 8,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "messing"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Stang- of bijlplanimeter volgens H. Prytz door Knudsen Born. Voor oppervlaktebepalingen van percelen en van dwars- en lengteprofielen. Ontwerp van de Deense officier Holger Prytz uit 1879.<\/br>Met tekstuele uitleg en illustratief diagram."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift für Vermessungswesen 1895 blz 90-97 en 324 Robert L. Foote Geometry of the Prytz planimeter. http://www.math.uu.nl/people/hogend/cmcoll.html#sta"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/4a4f2f88-a919-4088-8706-1ff0323cb2ed/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/4a4f2f88-a919-4088-8706-1ff0323cb2ed/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/4a4f2f88-a919-4088-8706-1ff0323cb2ed.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/685fb537-3b5a-4c0f-a245-84b63dfa931b/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/4a4f2f88-a919-4088-8706-1ff0323cb2ed/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

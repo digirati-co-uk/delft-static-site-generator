@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Zahnkreis-theodoliet door Gustav Heyde"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0094.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1896 - 1905"
+        },
+        {
+            "label": "Maker",
+            "value": "Gustav Heyde Gesellschaft für Optik und Feinmechanik (Dresden)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "290,0 (h)  * 220,0 (b)  * 155,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Zahnkreis-theodoliet door Gustav Heyde Gesellschaft für Optik und Feinmechanik. Geodetisch meetinstrument voor het bepalen van horizontale hoeken voor veelhoeksmeting. <\/br>Dit is een \"Zahnkreis\"-repetitietheodoliet voor het meten van horizontale richtingen op een vast stelschroevenblok. In 1896 construeerde Gustav Heyde een theodoliet met een speciale afleesmethode waarbij een horizontale rand met 360 tanden (Zahnkreis theodolite) gebruikt werd. Aflezing met meetschroef 1'schatting o,1'(=6\"). In feite is de werking van de moderne code-theodoliet een elektronische toepassing van hetzelfde principe. Objectief opening 23 á 24 cm en f=20cm."
+        },
+        {
+            "label": "Documentatie",
+            "value": "G. Heyde Preisliste 1912 op blz 36 staat vanaf 1896 geconstrueerd. Zeitschrift für Vermessungskunde 1896 blz 652; 1905 blz 2; 1911 blz 429 en 430."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/28cf41ec-1d99-4446-ab6a-677c23098458/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/28cf41ec-1d99-4446-ab6a-677c23098458/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/28cf41ec-1d99-4446-ab6a-677c23098458.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/39ab41af-5cc7-4e5d-8f12-92260c885c5d/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/28cf41ec-1d99-4446-ab6a-677c23098458/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

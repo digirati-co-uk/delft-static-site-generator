@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Stelschroeven met twee waterpassen in een houten kist door C. Bamberg"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "stelschroevenblok"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0891.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Bamberg, Carl  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "130,0 (h)  * 310,0 (b)  * 165,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Stelschroeven met twee waterpassen in een houten kist. Op het blok kon een signaal, bijvoorbeeld een heliotroop, worden geplaatst. Het voorwerp werd gebruikt door de Rijkscommissie van Graadmeting en Waterpassing."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/704926c7-ea16-412e-b081-84b83853c1ff/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/1953ecbd-0d1b-4718-92b6-fe1f000f2274/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/1953ecbd-0d1b-4718-92b6-fe1f000f2274/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/1953ecbd-0d1b-4718-92b6-fe1f000f2274.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/704926c7-ea16-412e-b081-84b83853c1ff",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/704926c7-ea16-412e-b081-84b83853c1ff/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/704926c7-ea16-412e-b081-84b83853c1ff/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/704926c7-ea16-412e-b081-84b83853c1ff/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/704926c7-ea16-412e-b081-84b83853c1ff",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/704926c7-ea16-412e-b081-84b83853c1ff/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/704926c7-ea16-412e-b081-84b83853c1ff/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/1953ecbd-0d1b-4718-92b6-fe1f000f2274/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

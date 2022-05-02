@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Proportielineaal"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "liniaal (geleidingsgereedschap)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2008.0019.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "3,0 (h)  * 120,0 (b)  * 35,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "dierlijk materiaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Proportieliniaal of proportionaalpasser (le compas de réduction). Hulpmiddel voor het verdelen op willekeurige schaal van afstanden op een kaart. Dit instrument werd ook nog de evenredigheidspasser genoemd. De eerste dateert van 1597."
+        },
+        {
+            "label": "Documentatie",
+            "value": "zie levensbeschrijving van Galileo Galilei"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/4c269765-1370-417e-aa45-0bde6efb86ca/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/45723213-7b83-4455-a284-10e1bc42b491/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/45723213-7b83-4455-a284-10e1bc42b491/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/45723213-7b83-4455-a284-10e1bc42b491.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1355,
+                        "@id": "https://dlc.services/iiif-img/7/18/4c269765-1370-417e-aa45-0bde6efb86ca",
+                        "height": 1073
+                    },
+                    "width": 1355,
+                    "@id": "https://dlc.services/iiif-img/7/18/4c269765-1370-417e-aa45-0bde6efb86ca/full/1024,811/0/default.jpg",
+                    "height": 1073
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/4c269765-1370-417e-aa45-0bde6efb86ca/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/4c269765-1370-417e-aa45-0bde6efb86ca/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 811
+                        },
+                        {
+                            "width": 400,
+                            "height": 317
+                        },
+                        {
+                            "width": 200,
+                            "height": 158
+                        },
+                        {
+                            "width": 100,
+                            "height": 79
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/4c269765-1370-417e-aa45-0bde6efb86ca",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 811
+                },
+                "@id": "https://dlc.services/thumbs/7/18/4c269765-1370-417e-aa45-0bde6efb86ca/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1355,
+            "@id": "https://dlc.services/iiif-img/7/18/4c269765-1370-417e-aa45-0bde6efb86ca/canvas/c0",
+            "label": "Image",
+            "height": 1073
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/45723213-7b83-4455-a284-10e1bc42b491/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

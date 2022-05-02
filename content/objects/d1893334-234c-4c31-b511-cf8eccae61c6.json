@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasinstrument door Ludwig Tesdorpf"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0530.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Ludwig Tesdorpf (Stuttgart)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "200,0 (h)  * 355,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Waterpasinstrument door Ludwig Tesdorpf, voor doorgaande precisie-waterpassing met een waterpasbaak. Een waterpasinstrument met reversieniveau voor hoogteverschilmeting. Het niveau en de kijker zijn aan elkaar bevestigd en omkeerbaar. Op 15 november 1905 is de firma Tesdorpf overgenomen door F. Sartorius uit Göttingen."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Brief uit 1899 van Fa. L.Tesdorpf aan prof H.J. Heuvelink met gebruiksaanwijzing model 195."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d1893334-234c-4c31-b511-cf8eccae61c6/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d1893334-234c-4c31-b511-cf8eccae61c6/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/d1893334-234c-4c31-b511-cf8eccae61c6.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/8bc67786-6e06-4a81-974b-5f17a0ba8fdd/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d1893334-234c-4c31-b511-cf8eccae61c6/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

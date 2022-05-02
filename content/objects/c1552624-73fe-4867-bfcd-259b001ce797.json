@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Incomplete heliotroop in een houten kist volgens Bertrand"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "heliotroop"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0231.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1870 - 1880"
+        },
+        {
+            "label": "Maker",
+            "value": "Bertrand  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "94,0 (h)  * 554,0 (b)  * 198,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal, leer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Houten kist met een incomplete heliotroopuitrusting voor het bepalen van richting. De uitrusting bestaat uit twee heliotroopspiegels, een stelschroef en een stengelhaak (voor bevestiging aan een statief). Deze heliotroop is gebruikt bij de driehoeksmeting van Nederland en in de werkplaats van de Rijksdriehoeksmeting vervaardigd. Dit type instrument is in 1829 door Bertrand ontworpen (zie verder ook 2000.0230). Op een richtpunt (ver van een standplaats) werd dit hulpmiddel zodanig geplaatst dat zonlicht via de spiegel in de richting van de standplaats werd teruggekaatst. Er moest wel tijdens de meting doorlopend iemand bij dit instrument staan die d.m.v. een houten hamertje de spiegel de juiste stand tikte, waardoor tijdens de meting de weerkaatsing van het zonlicht gericht blijft op de standplaats van de theodoliet."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Heliotroop in een houten kist (GEO.2000.0230)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c1552624-73fe-4867-bfcd-259b001ce797/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c1552624-73fe-4867-bfcd-259b001ce797/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/c1552624-73fe-4867-bfcd-259b001ce797.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/1df059cc-91bc-42da-9797-ac35b78b1fe3/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c1552624-73fe-4867-bfcd-259b001ce797/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

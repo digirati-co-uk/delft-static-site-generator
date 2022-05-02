@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Zonneprisma volgens Prof. R. Roelofs"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "prisma"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0847.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "Roelofs, R.  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "40,0 (h)  * 65,0 (b)  * 55,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een zonneprisma, geplaatst op een objectief van een theodoliet, als hulpmiddel voor het bepalen van de richting naar de zon t.b.v. azimut-bepaling. Naar een ontwerp van professor R. Roelofs. Het zonneprisma kan op het objectief van een theodoliet Wild T2 geplaatst worden."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/b5daaa04-f6ff-416a-894a-6b6540587199/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/b5daaa04-f6ff-416a-894a-6b6540587199/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/b5daaa04-f6ff-416a-894a-6b6540587199.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/31b3cb7c-2858-40d8-9b71-2c4a0378b6d6/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/b5daaa04-f6ff-416a-894a-6b6540587199/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

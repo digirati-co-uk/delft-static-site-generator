@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasstatief met vaste poten door G. de Koningh"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0011.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "G. de Koningh (Arnhem)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "170,0 (h)  * 1.500,0 (b)  * 170,0 (d) "
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Waterpasstafief met vaste poten voor het opstellen van het instrument, door G. de Koningh nr 3603. Het instrument is bekend onder inventarisnummer 2000.0337.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Waterpasinstrument door G. de Koningh (GEO.2000.0337)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/944ac7e2-bd0a-4e39-8b81-e693a48e3c10/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/944ac7e2-bd0a-4e39-8b81-e693a48e3c10/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/944ac7e2-bd0a-4e39-8b81-e693a48e3c10.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/eefa9444-e327-4e96-9d2a-cb9022e1821a/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/944ac7e2-bd0a-4e39-8b81-e693a48e3c10/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

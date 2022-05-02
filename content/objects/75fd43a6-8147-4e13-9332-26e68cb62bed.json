@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Spiegelsextant door F. L. Laporte"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "sextant"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0057.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Laporte, F.L.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,0 (h)  * 150,0 (b)  * 160,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Spiegelsextant door F. L. Laporte. Behalve als meetinstrument is deze sextant ook geschikt voor het tekenen van de gemeten hoeken."
+        },
+        {
+            "label": "Documentatie",
+            "value": "POULS H.C. \"Nederlands fabrikaat\" in Geodesia nederlands geodetisch tijdschrift 1985 \"De spiegelpasser van Lipkens en de kleine spiegelsextant van Laporte\" pp.171-4. Handleiding ten dienste van de officieren der Militaire Verkenningen. Febr 1910 blz 44t/m"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/75fd43a6-8147-4e13-9332-26e68cb62bed/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/75fd43a6-8147-4e13-9332-26e68cb62bed/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/75fd43a6-8147-4e13-9332-26e68cb62bed.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/95afcfc4-fd91-4472-a51f-4f35ed99833b/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/75fd43a6-8147-4e13-9332-26e68cb62bed/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

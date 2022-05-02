@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Messing gedenkplaat Technische Natuurkunde"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "gedenkplaat"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "1995.0036.TMD"
+        },
+        {
+            "label": "Datering",
+            "value": "1979"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "60,0 (h)  * 158,0 (b)  * 1,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Messing plaat met de inscriptie: '1929-1979 Technische Natuurkunde' en afbeeldingen van het gebouw op Mijnbouwplein 11 en het gebouw op de Lorentzweg 1."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/af4087ec-d172-4da0-accf-828a13d3fdcc.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 4277,
+                        "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678",
+                        "height": 2417
+                    },
+                    "width": 4277,
+                    "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/full/1024,579/0/default.jpg",
+                    "height": 2417
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 579
+                        },
+                        {
+                            "width": 400,
+                            "height": 226
+                        },
+                        {
+                            "width": 200,
+                            "height": 113
+                        },
+                        {
+                            "width": 100,
+                            "height": 57
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/440f03bb-15de-4913-9fe0-e3dafb145678",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 579
+                },
+                "@id": "https://dlc.services/thumbs/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 4277,
+            "@id": "https://dlc.services/iiif-img/7/18/440f03bb-15de-4913-9fe0-e3dafb145678/canvas/c0",
+            "label": "Image",
+            "height": 2417
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/af4087ec-d172-4da0-accf-828a13d3fdcc/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,127 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Tachymeter-theodoliet door Richer type Moinot"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0010.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Moinot, I.  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "Richer  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "400,0 (h)  * 300,0 (b)  * 240,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Tachymeter-theodoliet door Richer type Moinot. Landmeetkundig instrument (ontworpen in 1865 door Moinot), waarmee richtingen en afstanden vanuit een opstelpunt naar een baak met een centimeter verdeling kunnen worden gemeten (zgn. voerstraalmethode). Instrumenten van dit type zijn gebruikt bij de Staatsspoorwegen.<\/br>Dit exemplaar is een eerste verbetering van het originele model. Het instrument staat op een vast stelschroevenblok en is voorzien van een oriënteringskijker of een buiskompas en twee verticale cirkels waarvan één met een randverdeling. Een reversieniveau op het beweegbare deel van de cirkel zonder rand. De horizontale rand is verdeeld volgens het metrische stelsel (400 gon). Inventarisnummers 2000.150.GEO en 2000.151.GEO (rekenlinialen) behoren bij dit instrument (zie ook 2000.273.GEO). <\/br>Instrumenten van dit type zijn in Nederland gebruikt bij de Staats spoorwegen."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Levés de plans à la stadia. Notes pratiques pour études de tracés par I. Moinot Ingénieur Civil Ancien Ingénieur des études du Réseau Central de la Compagnie d'Orléans. 2me Édition Revue et simplifiée. (Périgueux 1874). H.J. Buisman. Landmeten en waterpas"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Rekenliniaal voor de Tachéomètre van Richer Moinot;Rekenliniaal voor de Tachéomètre van Richer Moinot;Tachymeter-theodoliet door Maison Richer Guyard Canary et Cie. (GEO.2000.0151;GEO.2000.0150;GEO.2000.0273)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/93a8cb02-5afc-4914-9832-7bd3942edc44/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/93a8cb02-5afc-4914-9832-7bd3942edc44/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/93a8cb02-5afc-4914-9832-7bd3942edc44.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/48ce1715-8771-44dc-b2cb-8a48fb2ee1e4/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/93a8cb02-5afc-4914-9832-7bd3942edc44/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

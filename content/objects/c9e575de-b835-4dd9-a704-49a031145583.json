@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Feng Shui kompas"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "kompas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0088.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1950"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "20,0 (h)  * 85,0 (b)  * 85,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Het kompas, een Chinese uitvinding uit de tweede eeuw voor Christus, werd in de eerste instantie gebruikt door Feng Shui meesters om de juiste oriëntatie van tempels, huizen, en graven te bepalen, het lot te voorspellen, of voor het zoeken naar edelstenen. Pas later, in de 9e eeuw, zou het kompas worden gebruikt door Chinese zeevaarders. Waarschijnlijk is het kompas via de Arabische wereld en de kruistochten geïntroduceerd in Europa."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Dr Hans Günther Körber. Zur Konstruction von Sonneuhren und Kompassen des 16 bis 18 Jahrhunderts (Berlin 1965) blz 81-88."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5fee9628-2e11-48ab-b051-5012844d44a4/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c9e575de-b835-4dd9-a704-49a031145583/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c9e575de-b835-4dd9-a704-49a031145583/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/c9e575de-b835-4dd9-a704-49a031145583.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/5fee9628-2e11-48ab-b051-5012844d44a4",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/5fee9628-2e11-48ab-b051-5012844d44a4/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5fee9628-2e11-48ab-b051-5012844d44a4/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5fee9628-2e11-48ab-b051-5012844d44a4/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/5fee9628-2e11-48ab-b051-5012844d44a4",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5fee9628-2e11-48ab-b051-5012844d44a4/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/5fee9628-2e11-48ab-b051-5012844d44a4/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c9e575de-b835-4dd9-a704-49a031145583/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

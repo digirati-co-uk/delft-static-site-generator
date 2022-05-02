@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Curvimeter"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "curvimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0328.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h)  * 61,0 (b)  * 56,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Curvimeter, een reken en/of tekeninstrument voor het bepalen de afstand op een kaart van een een gekromde of gebroken lijn. Een meetinstrument voor het meten van afstanden op kaarten met een loopwielomtrek van 10 cm."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/7dd04d3e-ebdc-416d-858a-ff812fa7401f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/7dd04d3e-ebdc-416d-858a-ff812fa7401f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/7dd04d3e-ebdc-416d-858a-ff812fa7401f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/edcffd64-7da8-4fb9-97de-e9b14c56f77c/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/7dd04d3e-ebdc-416d-858a-ff812fa7401f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

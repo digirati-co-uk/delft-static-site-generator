@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Statief voor pantometer"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0851.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "120,0 (h)  * 1.100,0 (b)  * 120,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal, leer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Statief voor het opstellen van een instrument (pantometer). Het statief is oorspronkelijk gebruikt bij een gemeente. Zie ook 2000.0347.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Pantometer door Pessler & Sohn (GEO.2000.0347)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5210da16-b3ca-404e-9135-5428043d52a5/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/a393c63f-7db7-4e76-9f25-7e1248e350c9/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/a393c63f-7db7-4e76-9f25-7e1248e350c9/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/a393c63f-7db7-4e76-9f25-7e1248e350c9.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/5210da16-b3ca-404e-9135-5428043d52a5",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/5210da16-b3ca-404e-9135-5428043d52a5/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5210da16-b3ca-404e-9135-5428043d52a5/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5210da16-b3ca-404e-9135-5428043d52a5/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/5210da16-b3ca-404e-9135-5428043d52a5",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5210da16-b3ca-404e-9135-5428043d52a5/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/5210da16-b3ca-404e-9135-5428043d52a5/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/a393c63f-7db7-4e76-9f25-7e1248e350c9/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Standaardmeter door Dumoulin-Froment"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "standaardmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0225.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Dumoulin-Froment (Parijs)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,0 (h)  * 1.020,0 (b)  * 20,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Standaardmeter door Dumoulin-Froment, gebruikt voor het ijken van waterpasbaken t.b.v. nauwkeurigheidswaterpassen van 1875-1885. Normaalmeetstaaf die werd gebruikt voor de bepaling van de lengte en uitzettingscoëfficient van de waterpasbaken. De meetstaaf kan worden opgeborgen in een houten kist. Aan de binnenzijde van de kist zijn handgeschreven aantekeningen bevestigd, waaronder de Ministeriële Beschikking van 20-6-1900 nr 213 en verwijzing naar archief NCG."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift für Instrumenten 1881 blz 278. K&L 1890 blz 44"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/a1a65f35-6c95-4818-a9f4-a51910008ab7/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/a1a65f35-6c95-4818-a9f4-a51910008ab7/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/a1a65f35-6c95-4818-a9f4-a51910008ab7.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2356,
+                        "@id": "https://dlc.services/iiif-img/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc",
+                        "height": 1661
+                    },
+                    "width": 2356,
+                    "@id": "https://dlc.services/iiif-img/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc/full/1024,722/0/default.jpg",
+                    "height": 1661
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 722
+                        },
+                        {
+                            "width": 400,
+                            "height": 282
+                        },
+                        {
+                            "width": 200,
+                            "height": 141
+                        },
+                        {
+                            "width": 100,
+                            "height": 71
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 722
+                },
+                "@id": "https://dlc.services/thumbs/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2356,
+            "@id": "https://dlc.services/iiif-img/7/18/480765e0-7890-4c7e-b06d-9940d2b9e1fc/canvas/c0",
+            "label": "Image",
+            "height": 1661
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/a1a65f35-6c95-4818-a9f4-a51910008ab7/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

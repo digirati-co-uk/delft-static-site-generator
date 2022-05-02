@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Pantograaf in een houten kist door J. Ahrend & Zn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "pantograaf"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0502.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "J. Ahrend & Zn (Amsterdam)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "155,0 (h)  * 1.750,0 (b)  * 160,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Pantograaf in een houten kist door J. Ahrend & Zn, voor het verkleinen en vergroten van tekeningen. Pantograaf in een houten kist, voor het vergroten of verkleinen van tekeningen. In de kist bevinden zich een gebruiksaanwijzing voor het gebruik van de vrijzwevende precisie pantograaf en een tabellenboek voor de instelling van de precisie pantograaf van R. Reiss."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/076bc7af-b84b-4318-a841-8e9400a75d78/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/076bc7af-b84b-4318-a841-8e9400a75d78/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/076bc7af-b84b-4318-a841-8e9400a75d78.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/23a87200-12c6-4c2f-b047-b015d71c7eb1/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/076bc7af-b84b-4318-a841-8e9400a75d78/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

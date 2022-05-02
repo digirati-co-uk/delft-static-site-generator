@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Schijfpoolplanimeter volgens F. Hohmann door G. Coradi"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0086.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1883 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "G. Coradi  (producent)"
+        },
+        {
+            "label": "Maker",
+            "value": "Hohmann, F.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "120,0 (h)  * 260,0 (b)  * 320,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Schijfpoolplanimeter volgens F. Hohmann door G. Coradi. Een meetinstrument voor oppervlaktebepalingen van percelen en dwars- en lengte- profielen. Vrijzwevende schijfpoolplanimeter, waarbij de meetrol zich over een grote speciaal geprepareerde schijf beweegt. Schijf en meetrol worden onafhankelijk van het papieroppervlak bewogen tijdens het planimetreren. Bij deze constructie wordt de nauwkeurigheid van de metingen niet langer bepaald door de aard van het (papier-)oppervlak. In 1883 werd de vrijzwevende schijfpoolplanimeter door Hohmann en Coradi geconstrueerd. Bij het instrument hoort een houten kist."
+        },
+        {
+            "label": "Documentatie",
+            "value": "http://www.leinweb.com/snackbar/planimtr/wheatley/s0-4.htm#index<\/br>(14-9-2018: link werkt niet meer)<\/br><\/br>Waarschijnlijk patent DE23538 (1883)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/7d46c052-420b-436a-9fcc-60cc31f0da39/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/7d46c052-420b-436a-9fcc-60cc31f0da39/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/7d46c052-420b-436a-9fcc-60cc31f0da39.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/d1975ad0-93ee-4c3b-8046-8d64626acd22/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/7d46c052-420b-436a-9fcc-60cc31f0da39/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

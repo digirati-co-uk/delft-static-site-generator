@@ -1,0 +1,127 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasinstrument volgens H. Wild door Carl Zeiss"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0252.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1909"
+        },
+        {
+            "label": "Maker",
+            "value": "Carl Zeiss (Jena)  (producent)"
+        },
+        {
+            "label": "Maker",
+            "value": "Wild, Heinrich (Zwitsers 1877-1951)  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "195,0 (h)  * 205,0 (b)  * 75,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geodetisch meetinstrument voor doorgaande waterpassing samen met een waterpasbaak. Een waterpasinstrument voor hoogteverschilmeting. Dit type is door H. Wild ontworpen toen hij hoofd was van de geodetische afdeling bij Carl Zeiss Jena, en sinds 1909 in productie. Het instrument is voorzien van veel nieuwe vindingen zoals het reversieniveau met prisma en de gesloten kijkerbuis, met toepassing van de centrale instellens."
+        },
+        {
+            "label": "Documentatie",
+            "value": "http://homepage.hispeed.ch/dedual/wild_heerbrugg/hwatzeiss.htm DRP betekent Deutsche Reich Patent"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Uitklapbare verticale E baak (GEO.2000.0505)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/78e21983-8210-42d6-9d02-239a587174a8/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/78e21983-8210-42d6-9d02-239a587174a8/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/78e21983-8210-42d6-9d02-239a587174a8.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/6c909916-6af2-4a0a-b175-b03d4b451aba/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/78e21983-8210-42d6-9d02-239a587174a8/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

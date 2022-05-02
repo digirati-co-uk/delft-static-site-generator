@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Transversaalschaal door J.M. Kleman & Zoon"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schaalstok"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0070.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1775 - 1825"
+        },
+        {
+            "label": "Maker",
+            "value": "J.M. Kleman & Zoon (Amsterdam)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1,0 (h)  * 470,0 (b)  * 70,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Transversaalschaal door J.M. Kleman & Zoon, hulpmiddel voor de cartografie om gemeten afstanden op een kaart af te beelden. Deze transversaalschaal is bedoeld voor afstanden die gemeten zijn in Rijnlandse voeten en duimen. De verdeling van de deze transversaalschaal is zowel in het tientalligstelsel (Arabisch-Indisch) als het toen gangbare twaalftalligstelsel (Romeins)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "De Amsterdammer J.M. Kleman begon in 1781 als instrumentmaker. In 1807 kwam zijn zoon in de firma en heette voortaan J.M. Kleman & Zoon. In 1857 overleed de laatste eigenaar en werd de zaak opgeheven. (bron: H.C. Pouls 'De landmeter.' (1997)."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/189625bd-096d-4134-bed9-33828cc6cd3d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/189625bd-096d-4134-bed9-33828cc6cd3d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/189625bd-096d-4134-bed9-33828cc6cd3d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3626,
+                        "@id": "https://dlc.services/iiif-img/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a",
+                        "height": 1011
+                    },
+                    "width": 3626,
+                    "@id": "https://dlc.services/iiif-img/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a/full/1024,286/0/default.jpg",
+                    "height": 1011
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 286
+                        },
+                        {
+                            "width": 400,
+                            "height": 112
+                        },
+                        {
+                            "width": 200,
+                            "height": 56
+                        },
+                        {
+                            "width": 100,
+                            "height": 28
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 286
+                },
+                "@id": "https://dlc.services/thumbs/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3626,
+            "@id": "https://dlc.services/iiif-img/7/18/4c65f05c-e27f-4825-bd57-999bc9ed3b9a/canvas/c0",
+            "label": "Image",
+            "height": 1011
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/189625bd-096d-4134-bed9-33828cc6cd3d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

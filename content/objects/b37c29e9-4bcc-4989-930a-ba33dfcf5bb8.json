@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Richtkijker door G.Heyde"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "richtkijker"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0850.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Heyde, Gustav  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "250,0 (h)  * 330,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een draaibare richtkijker, of transitinstrument, door G.Heyde op een vaste voet voor het controleren van de richtingen, en voor het nauwkeurig zichten van een lijn. Het instrument is voorzien van twee extra objectieven."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/b37c29e9-4bcc-4989-930a-ba33dfcf5bb8/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/b37c29e9-4bcc-4989-930a-ba33dfcf5bb8/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/b37c29e9-4bcc-4989-930a-ba33dfcf5bb8.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/5dce8820-c85e-4b93-9b04-1a7a83b908ae/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/b37c29e9-4bcc-4989-930a-ba33dfcf5bb8/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

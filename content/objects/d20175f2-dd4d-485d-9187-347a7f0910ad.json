@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van prof. G. van Iterson door B. van Vlijmen"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2002.0026.TNW"
+        },
+        {
+            "label": "Maker",
+            "value": "van Vlijmen, Bernard  (maker)"
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geschilderd portret door Bernard van Vlymen, van prof. dr. ir. Gerrit van Iterson jr.. Professor Iterson was hoogleraar microscopische anatomie van 1907 tot 1948."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "van Iterson, Gerrit"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d20175f2-dd4d-485d-9187-347a7f0910ad/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d20175f2-dd4d-485d-9187-347a7f0910ad/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/d20175f2-dd4d-485d-9187-347a7f0910ad.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3864,
+                        "@id": "https://dlc.services/iiif-img/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9",
+                        "height": 4427
+                    },
+                    "width": 3864,
+                    "@id": "https://dlc.services/iiif-img/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9/full/894,1024/0/default.jpg",
+                    "height": 4427
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 894,
+                            "height": 1024
+                        },
+                        {
+                            "width": 349,
+                            "height": 400
+                        },
+                        {
+                            "width": 175,
+                            "height": 200
+                        },
+                        {
+                            "width": 87,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 894,
+                    "@id": "https://dlc.services/thumbs/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3864,
+            "@id": "https://dlc.services/iiif-img/7/18/d391fbb2-0ab6-4948-a8a1-456f9bd73db9/canvas/c0",
+            "label": "Image",
+            "height": 4427
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d20175f2-dd4d-485d-9187-347a7f0910ad/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

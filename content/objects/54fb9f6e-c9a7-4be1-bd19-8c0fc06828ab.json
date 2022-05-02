@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van prof. C.J. van Loon door A.F. Gips"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2008.0011.CVB"
+        },
+        {
+            "label": "Datering",
+            "value": "1917"
+        },
+        {
+            "label": "Maker",
+            "value": "Gips, Abraham Frans  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.890,0 (h)  * 1.320,0 (b)  * 90,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geschilderd portret door Abraham Frans Gips van prof. Carel Jan van Loon, hoogleraar Delfstofkunde, Aardkunde en Mijnkunde van 1902 tot 1915, en daarvoor leraar van 1899 tot 1902."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "van Loon, Carel Jan"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/340fc20a-1ae3-4af0-b608-213e1299985f/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/54fb9f6e-c9a7-4be1-bd19-8c0fc06828ab/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/54fb9f6e-c9a7-4be1-bd19-8c0fc06828ab/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/54fb9f6e-c9a7-4be1-bd19-8c0fc06828ab.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 4076,
+                        "@id": "https://dlc.services/iiif-img/7/18/340fc20a-1ae3-4af0-b608-213e1299985f",
+                        "height": 5704
+                    },
+                    "width": 4076,
+                    "@id": "https://dlc.services/iiif-img/7/18/340fc20a-1ae3-4af0-b608-213e1299985f/full/732,1024/0/default.jpg",
+                    "height": 5704
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/340fc20a-1ae3-4af0-b608-213e1299985f/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/340fc20a-1ae3-4af0-b608-213e1299985f/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 732,
+                            "height": 1024
+                        },
+                        {
+                            "width": 286,
+                            "height": 400
+                        },
+                        {
+                            "width": 143,
+                            "height": 200
+                        },
+                        {
+                            "width": 71,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 732,
+                    "@id": "https://dlc.services/thumbs/7/18/340fc20a-1ae3-4af0-b608-213e1299985f",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/340fc20a-1ae3-4af0-b608-213e1299985f/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 4076,
+            "@id": "https://dlc.services/iiif-img/7/18/340fc20a-1ae3-4af0-b608-213e1299985f/canvas/c0",
+            "label": "Image",
+            "height": 5704
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/54fb9f6e-c9a7-4be1-bd19-8c0fc06828ab/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

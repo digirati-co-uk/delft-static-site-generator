@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Bronzen buste van Prof. J.M. Tienstra"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "buste"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2003.0014.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "340,0 (h)  * 470,0 (b)  * 360,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "brons"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Bronzen buste van de Delftse geodesie-hoogleraar J.M. Tienstra (1895-1951). Bij de buste hoorde een houten console. Op deze console stond in losse bronzen letters: \"Professor J.M. Tienstra 1895-1951\"."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Tienstra, J.M."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/14728453-6f40-4a6e-93f2-455e5de2a44e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/14728453-6f40-4a6e-93f2-455e5de2a44e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/14728453-6f40-4a6e-93f2-455e5de2a44e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/822d11c9-2b3a-43ab-937f-e5ad876be2f9/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/14728453-6f40-4a6e-93f2-455e5de2a44e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

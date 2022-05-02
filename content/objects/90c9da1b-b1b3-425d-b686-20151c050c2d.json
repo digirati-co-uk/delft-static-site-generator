@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Wit marmeren buste van Prof. Dr. C.M. Schols door G. Pickery"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "buste"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0002.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1897"
+        },
+        {
+            "label": "Maker",
+            "value": "Pickery, Gustaaf  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "280,0 (h)  * 610,0 (b)  * 430,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "steen"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Wit marmeren buste van professor C.M. Schols op een console (67 * 40 * 34 cm) van grijs marmer. Dr. Ch.M. Schols was hoogleraar in de Geodesie en het landmeten en waterpassen. Voluit CHARLES MATHIEU SCHOLS geboren 28-03-1849 te Maastricht, overleden 17 maart 1897 te Delft. Schols was persoonlijk lid en secretaris van de Rijkscommissie voor Graadmeting en Waterpassing van 1881 - 1897 (thans NCG) en de initiatiefnemer voor de bouw van het voormalige gebouw Geodesie aan de Kanaalweg 4 te Delft. Dit is het monumentale pand met de koepel voor astronomisch waarnemen. Deze buste was oorspronkelijk in de hal van Kanaalweg 4 geplaatst, maar is in 1975 verhuisd naar de hal van het nieuwe Geodesie gebouw aan de Thijsseweg 11. Na het van opheffen van de opleiding Geodesie in 2002 is de buste in 2003 verwijderd. Op de begraafplaats aan de Kanaalweg Delft is een grafmonument met zijn portret in brons."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Schols, Charles Mathieu"
+        },
+        {
+            "label": "Documentatie",
+            "value": "zie NCG publicaties"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/90c9da1b-b1b3-425d-b686-20151c050c2d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/90c9da1b-b1b3-425d-b686-20151c050c2d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/90c9da1b-b1b3-425d-b686-20151c050c2d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1536,
+                        "@id": "https://dlc.services/iiif-img/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816",
+                        "height": 2048
+                    },
+                    "width": 1536,
+                    "@id": "https://dlc.services/iiif-img/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816/full/768,1024/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 768,
+                            "height": 1024
+                        },
+                        {
+                            "width": 300,
+                            "height": 400
+                        },
+                        {
+                            "width": 150,
+                            "height": 200
+                        },
+                        {
+                            "width": 75,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 768,
+                    "@id": "https://dlc.services/thumbs/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1536,
+            "@id": "https://dlc.services/iiif-img/7/18/fdee96e2-9ca0-414d-a107-a63b85e55816/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/90c9da1b-b1b3-425d-b686-20151c050c2d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

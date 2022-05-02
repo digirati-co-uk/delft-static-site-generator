@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Boussole met richtkijker door Lion"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "kompas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0004.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1800 - 1850"
+        },
+        {
+            "label": "Maker",
+            "value": "Lion  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "160,0 (h)  * 177,0 (b)  * 177,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Boussole door Lion, een kompas met een richtkijker voor het bepalen van richtingen t.o.v. het magnetische noorden (0 - 360 graden). Dit instrument is voorzien van een niveau en een kogelgewricht om het kompas horizontaal te stellen en op een jalon of meetstok te plaatsen."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/044b5593-7efe-4de9-95bc-ee64447123b0/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/044b5593-7efe-4de9-95bc-ee64447123b0/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/044b5593-7efe-4de9-95bc-ee64447123b0.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/819cd0a1-0316-47bf-a4a2-cdecdbc517cb/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/044b5593-7efe-4de9-95bc-ee64447123b0/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

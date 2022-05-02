@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasinstrument door J. Salleron"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0277.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Salleron, Jules  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "208,0 (h)  * 380,0 (b)  * 175,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een waterpasinstrument (niveau d'egault) door J. Salleron, voor hoogteverschil meting voor doorgaande waterpassing. Dit type is uitgerust met een vast buisniveau en ronde tappen waarin de kijker in twee standen geplaatst kan worden."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5209d80b-0289-4fbf-98dd-382743670800/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/7c589e8c-6e70-40c0-ab8d-3f4f607ccf80/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/7c589e8c-6e70-40c0-ab8d-3f4f607ccf80/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/7c589e8c-6e70-40c0-ab8d-3f4f607ccf80.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/5209d80b-0289-4fbf-98dd-382743670800",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/5209d80b-0289-4fbf-98dd-382743670800/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5209d80b-0289-4fbf-98dd-382743670800/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5209d80b-0289-4fbf-98dd-382743670800/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/5209d80b-0289-4fbf-98dd-382743670800",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5209d80b-0289-4fbf-98dd-382743670800/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/5209d80b-0289-4fbf-98dd-382743670800/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/7c589e8c-6e70-40c0-ab8d-3f4f607ccf80/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Proefexemplaar van een veldenmillimeterbaak volgens Prof. J.W. Dieperink"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "baak"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0236.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1923 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Dieperink, J.W.  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "100,0 (h)  * 30,0 (b)  * 90,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Proefexemplaar van een korte verticale 'veldenmillimeterbaak', toegepast bij waterpassen, voorzien van een metalen voetplaat. De baak heeft een zogenaamde transversaalverdeling, voor het verrichten van nauwkeurigheidswaterpassingen (aflezen tot 0,1 mm). Deze verdeling is een uitvinding van prof. J.W. Dieperink van LUW, een andere naam voor deze baak is dan ook de Dieperink baak. Gebruik in combinatie met 2000.0305.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "|Octrooi uit 1923 zie: http://cgi.girs.wageningen-ur.nl/cgi/products/posters/NL_A3-DIEPERINK.jpg Schermerhorn & van Steenis Leerboek de Landmeetkunde vierde druk blz 113 en 114."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Elektrische rekenmachine door Burroughs Class 1 model 2 op standaard (SCR.2000.0305)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5216c61f-6565-49f7-bdd5-0b1175833781/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/fcde3e59-2d51-4835-afcc-37cba7ff0325/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/fcde3e59-2d51-4835-afcc-37cba7ff0325/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/fcde3e59-2d51-4835-afcc-37cba7ff0325.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/5216c61f-6565-49f7-bdd5-0b1175833781",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/5216c61f-6565-49f7-bdd5-0b1175833781/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5216c61f-6565-49f7-bdd5-0b1175833781/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5216c61f-6565-49f7-bdd5-0b1175833781/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/5216c61f-6565-49f7-bdd5-0b1175833781",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5216c61f-6565-49f7-bdd5-0b1175833781/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/5216c61f-6565-49f7-bdd5-0b1175833781/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/fcde3e59-2d51-4835-afcc-37cba7ff0325/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

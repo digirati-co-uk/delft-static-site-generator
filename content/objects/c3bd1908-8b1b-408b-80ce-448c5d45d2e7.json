@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Demonstatiemodel van rekenmachine door Brunsviga Maschinenwerke AG"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "rekenmachine"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0293.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Brunsviga Maschinenwerke AG (Boedapest)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "125,0 (h)  * 140,0 (b)  * 200,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hars"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Demonstratiemodel van een rekenmachine door Brunsviga Maschinenwerke AG, dat laat zien hoe het rekenmechanisme werkt. Een belangrijk onderdeel is het 'sprossenrad', een tandwiel, waarvan het mogelijk is de de tanden van nul tot negen te variëren. Demonstratie voor rekenonderwijs, optellen, aftrekken, delen, vermenigvuldigen."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c3bd1908-8b1b-408b-80ce-448c5d45d2e7/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c3bd1908-8b1b-408b-80ce-448c5d45d2e7/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/c3bd1908-8b1b-408b-80ce-448c5d45d2e7.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/9bbaefaf-df99-487d-8960-3a15ada963c4/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c3bd1908-8b1b-408b-80ce-448c5d45d2e7/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

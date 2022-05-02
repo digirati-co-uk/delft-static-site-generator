@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Quadrant in een étui"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "quadrant"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0084.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,0 (h)  * 138,0 (b)  * 130,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, karton, textiel, papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Quadrant in een étui, geodetisch en/of mijnbouwkundig meetinstrument voor het bepalen van hellingshoeken in graden en in een soort tangens verdeling. Met stok bevestiging, opgeborgen in een met textiel beklede etui."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/1075a336-16f4-4c2d-abf3-d44c6a713b7b/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/1075a336-16f4-4c2d-abf3-d44c6a713b7b/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/1075a336-16f4-4c2d-abf3-d44c6a713b7b.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2927,
+                        "@id": "https://dlc.services/iiif-img/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12",
+                        "height": 2048
+                    },
+                    "width": 2927,
+                    "@id": "https://dlc.services/iiif-img/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12/full/1024,716/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 716
+                        },
+                        {
+                            "width": 400,
+                            "height": 280
+                        },
+                        {
+                            "width": 200,
+                            "height": 140
+                        },
+                        {
+                            "width": 100,
+                            "height": 70
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 716
+                },
+                "@id": "https://dlc.services/thumbs/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2927,
+            "@id": "https://dlc.services/iiif-img/7/18/86d7508f-9fd1-483b-8be2-fd51bb143b12/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/1075a336-16f4-4c2d-abf3-d44c6a713b7b/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

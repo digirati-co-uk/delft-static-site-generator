@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Tachymeter door Lingee & Micallef"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tachymeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2004.0004.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Lingee & Micallef  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "400,0 (h)  * 285,0 (b)  * 285,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hout, leer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Tachéomètre door Lingee & Micallef, instrument voor gereduceerde afstandmeting en bepaling van een horizontale richting. Verbeterde versie van het instrument van Sanguet (zie inventarisnummer 2000.0235.GEO). Het kijker van dit instrument is uitgerust met een buisniveau en kan dus gebruikt worden als waterpasinstrument. Bij het instrument behoort een speciaal statief zie inventarisnummer 2005.0001.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Dubbeld J. en Wit G.F. (Lab van Geodesie) Optische Lengetemeting 1970 blz. 114"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Statief met vaste poten door Micallef (GEO.2005.0001)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/25eea0f6-be71-409c-9c0e-4b15bbb2c7c3/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/25eea0f6-be71-409c-9c0e-4b15bbb2c7c3/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/25eea0f6-be71-409c-9c0e-4b15bbb2c7c3.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85",
+                        "height": 1360
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85/full/1024,680/0/default.jpg",
+                    "height": 1360
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 680
+                        },
+                        {
+                            "width": 400,
+                            "height": 266
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 66
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 680
+                },
+                "@id": "https://dlc.services/thumbs/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/b55869a8-494c-4064-8cf6-0d0b01bf2a85/canvas/c0",
+            "label": "Image",
+            "height": 1360
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/25eea0f6-be71-409c-9c0e-4b15bbb2c7c3/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

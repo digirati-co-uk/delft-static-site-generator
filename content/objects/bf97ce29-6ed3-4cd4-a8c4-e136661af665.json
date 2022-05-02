@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Vizierliniaal door M. Hildebrand"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "vizierliniaal"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0268.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Hildebrand & Schramm (Freiburg)  (producent)"
+        },
+        {
+            "label": "Maker",
+            "value": "Hildebrand, Max  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "235,0 (h)  * 510,0 (b)  * 80,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een vizierliniaal (Kippregel) door M. Hildebrand, met richtkijker, een dradenafstandmeter met verticale rand (360 graden) en twee buisniveau's; een voor de juiste bepaling van de verticale richting, en een voor het stellen van het planchet (tekentafel). Inventaris nummer 2000.0377.GEO is de bevestigingsplaat voor het tekentafelblad."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Stelschroevenblok door Hildebrand & Schramm (GEO.2000.0377)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/bf97ce29-6ed3-4cd4-a8c4-e136661af665/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/bf97ce29-6ed3-4cd4-a8c4-e136661af665/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/bf97ce29-6ed3-4cd4-a8c4-e136661af665.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/a72d498d-8615-4fdb-9c7e-ee9ebf3cd885/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/bf97ce29-6ed3-4cd4-a8c4-e136661af665/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

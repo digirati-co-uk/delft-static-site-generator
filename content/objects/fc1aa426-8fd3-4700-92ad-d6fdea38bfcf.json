@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Ruiterniveau"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "ruiterniveau"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0378.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "85,0 (h)  * 130,0 (b)  * 35,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Ruiterniveau (ook wel alhidadeniveau), hulpmiddel voor horizontaal stellen van de tweede as van een theodoliet, met een metalen handvat."
+        },
+        {
+            "label": "Documentatie",
+            "value": "C.M. Schols. Landmeten en Waterpassen Atlas 1908 fig 27a 27b en 27c"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/fc1aa426-8fd3-4700-92ad-d6fdea38bfcf/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/fc1aa426-8fd3-4700-92ad-d6fdea38bfcf/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/fc1aa426-8fd3-4700-92ad-d6fdea38bfcf.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/8deebe0e-3548-448e-9229-e6ef32ca0182/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/fc1aa426-8fd3-4700-92ad-d6fdea38bfcf/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
