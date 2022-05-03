@@ -2,50 +2,50 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Waterpasinstrument met een kompas door J.H. Onderdewijngaart Canzius"
+            "value": "Zelfportret van prof. A.F. Gips"
         },
         {
             "label": "Objectnaam",
-            "value": "waterpas"
+            "value": "schilderij"
         },
         {
             "label": "Inventarisnummer",
-            "value": "2000.0053.GEO"
+            "value": "2003.0729.BKD"
         },
         {
             "label": "Datering",
-            "value": "1797 - 1810"
+            "value": "1924"
         },
         {
             "label": "Maker",
-            "value": "Onderdewijngaart Canzius, Jacob Hendrik  (maker)"
+            "value": "Gips, Abraham Frans  (maker)"
         },
         {
             "label": "Afmetingen",
-            "value": "200,0 (h)  * 520,0 (b)  * 140,0 (d) "
+            "value": "680,0 (h)  * 550,0 (b)  * 50,0 (d) "
         },
         {
             "label": "Materiaal",
-            "value": "metaal, glas"
+            "value": "olieverf, linnen, hout"
         },
         {
             "label": "Beschrijving",
-            "value": "Waterpasinstrument door J.H. Onderdewijngaart Canzius, met een kompas op vier stelschroeven. Aan het instrument is een verzegeld certificaat van C.R.T. Krayenhoff bevestigd. Dit instrument is gebruikt bij de verspreiding (1798- 1811) van het Amsterdams Peil in Nederland (toen de Bataafse republiek)."
+            "value": "Geschilderd zelfportret van prof. A.F. Gips, hoogleraar handtekenen en geschiedenis der schilder- en beeldhouwkunst van 1905 tot 1930, en daarvoor leraar vanaf 1894."
         },
         {
-            "label": "Documentatie",
-            "value": "Catalogus van Mr. J.H. Onderdewijngaart Canzius te Delft (1804).<\/br>Pouls, H.C. De Landmeter (1997) p. 279-280; 347-348.<\/br>Waalewijn, A. Drie eeuwen normaal Amsterdams peil (1987)."
+            "label": "Voorstelling",
+            "value": "Gips, Abraham Frans"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/6f575567-619f-43ef-92df-af67a49e2010/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/17eccb33-2e0b-48da-b22e-303e8cc2e6f0/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/32664534-860a-46f4-991e-87791f511d6d/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/17eccb33-2e0b-48da-b22e-303e8cc2e6f0/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/32664534-860a-46f4-991e-87791f511d6d/range/range-0-0.json",
         "label": "0"
     }],
-    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/17eccb33-2e0b-48da-b22e-303e8cc2e6f0.json",
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/32664534-860a-46f4-991e-87791f511d6d.json",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -57,17 +57,17 @@
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
                         "width": 3072,
-                        "@id": "https://dlc.services/iiif-img/7/18/6f575567-619f-43ef-92df-af67a49e2010",
+                        "@id": "https://dlc.services/iiif-img/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e",
                         "height": 2048
                     },
                     "width": 3072,
-                    "@id": "https://dlc.services/iiif-img/7/18/6f575567-619f-43ef-92df-af67a49e2010/full/1024,683/0/default.jpg",
+                    "@id": "https://dlc.services/iiif-img/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e/full/1024,683/0/default.jpg",
                     "height": 2048
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/6f575567-619f-43ef-92df-af67a49e2010/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/6f575567-619f-43ef-92df-af67a49e2010/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e/canvas/c0"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -99,20 +99,20 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/6f575567-619f-43ef-92df-af67a49e2010",
+                    "@id": "https://dlc.services/thumbs/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e",
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 683
                 },
-                "@id": "https://dlc.services/thumbs/7/18/6f575567-619f-43ef-92df-af67a49e2010/full/full/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 3072,
-            "@id": "https://dlc.services/iiif-img/7/18/6f575567-619f-43ef-92df-af67a49e2010/canvas/c0",
+            "@id": "https://dlc.services/iiif-img/7/18/cb8d8f16-ec68-495b-bf51-0bb692716e9e/canvas/c0",
             "label": "Image",
             "height": 2048
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/17eccb33-2e0b-48da-b22e-303e8cc2e6f0/sequences/normal",
+        "@id": "https://dlc.services/7/18/32664534-860a-46f4-991e-87791f511d6d/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"
