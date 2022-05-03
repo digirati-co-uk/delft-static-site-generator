@@ -24,6 +24,10 @@ The Museum Collection includes objects that draw on TU Delft's institutional his
 
 [Geodesie](/nl/collections/d51c775b-4472-4e6a-a952-f0f3da8aee9d)
 </div>
+<div class="block purple tint cutcorners w-4 h-4 image">
+
+[Schilderijen Waterwerken](/nl/collections/64c2d30b-1002-4063-a4d0-299cb10c507e)
+</div>
 
 </div>
 
@@ -43,7 +47,7 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Women in Science](/nl/collections/lib-tresor-women-in-science)
+[DVSV](/nl/collections/lib-tresor-dvsv)
 </div>
 
 </div>
