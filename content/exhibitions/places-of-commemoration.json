@@ -1,0 +1,439 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Places of Commemoration"
+    ]
+  },
+  "items": [
+    {
+      "label": {
+        "en": [
+          "Window display of the Huijser bookshop"
+        ]
+      },
+      "height": 6037,
+      "width": 7073,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/22/024f550d-965c-4c1d-b144-e70785601154/0,0,7073,6037/full/0/default.jpg",
+                "width": 8384,
+                "height": 6037,
+                "service": {
+                  "id": "https://dlc.services/iiif-img/7/22/024f550d-965c-4c1d-b144-e70785601154",
+                  "type": "ImageService2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ],
+                  "width": 8384,
+                  "height": 6037,
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 737
+                    },
+                    {
+                      "width": 400,
+                      "height": 288
+                    },
+                    {
+                      "width": 200,
+                      "height": 144
+                    },
+                    {
+                      "width": 100,
+                      "height": 72
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/22/024f550d-965c-4c1d-b144-e70785601154",
+                    "type": "ImageService2",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 737,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 72
+                      },
+                      {
+                        "width": 200,
+                        "height": 144
+                      },
+                      {
+                        "width": 400,
+                        "height": 288
+                      },
+                      {
+                        "width": 1024,
+                        "height": 737
+                      }
+                    ]
+                  },
+                  "id": "https://dlc.services/thumbs/7/22/024f550d-965c-4c1d-b144-e70785601154/full/full/0/default.jpg"
+                }
+              ],
+              "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/33db270e-7778-2ee1-6fbc-0a9fddcad3cc#xywh=0,0,7073,6037",
+              "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/annotation/be073a87-b67e-7d53-2a6f-18aa0b98dab2",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "Beeldbank WO2, NIOD, Filmdienst BS Delft, 187913"
+                ]
+              },
+              "label": {
+                "en": [
+                  "The window display of the Huijser bookshop in the Choorstraat in Delft, after the liberation in May 1945. The portrait of Queen Wilhelmina is flanked by the Delft professors Mekel (left) and Schoenmaker (right), who were executed for their resistance work."
+                ]
+              },
+              "body.id": "https://dlc.services/iiif-img/7/22/024f550d-965c-4c1d-b144-e70785601154/0,0,7073,6037/full/0/default.jpg"
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/list/f873ad9c-f051-b1ad-2f57-bfaec13f5146"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/33db270e-7778-2ee1-6fbc-0a9fddcad3cc",
+      "behavior": [
+        "w-8",
+        "h-8"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Discover the story behind the war memorials in TU Delft Aula"
+        ]
+      },
+      "height": 1280,
+      "width": 976,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/2f6f6ea9-3b7f-2437-bd50-f43bf4137165#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/annotation/0aee5c52-b939-1a9f-fc03-9f581cf747a8",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "The Second World War was not an easy time for TU Delft – then still a technical college. It was a period in which the institution had to guard its survival and its integrity. After the war, the sad balance was drawn up. During the war, 180 Delft students, recent graduates and teachers were murdered or died.",
+                  "",
+                  "Several places in and around the Aula of TU Delft commemorate this difficult period. Because in 2022 it will be 80 years since many Delft students were murdered because of resistance work, extra attention will be paid this year to the war history of the university. You are invited to take a tour of the building’s places of commemoration."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Places of commemoration in and around the Aula"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/list/5cb70216-467f-4d56-d4c9-b258b0763783"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/2f6f6ea9-3b7f-2437-bd50-f43bf4137165",
+      "behavior": [
+        "w-4",
+        "info",
+        "info",
+        "h-4"
+      ],
+      "summary": {
+        "en": [
+          "The Second World War was not an easy time for TU Delft – then still a technical college. It was a period in which the institution had to guard its survival and its integrity. After the war, the sad balance was drawn up. During the war, 180 Delft students, recent graduates and teachers were murdered or died."
+        ]
+      }
+    },
+    {
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/21/4838915c-2096-446a-9701-12368ca0191b/full/full/0/default.jpg",
+                "width": 1675,
+                "height": 1122,
+                "service": {
+                  "id": "https://dlc.services/iiif-img/7/21/4838915c-2096-446a-9701-12368ca0191b",
+                  "type": "ImageService2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ],
+                  "width": 1675,
+                  "height": 1122,
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 686
+                    },
+                    {
+                      "width": 400,
+                      "height": 268
+                    },
+                    {
+                      "width": 200,
+                      "height": 134
+                    },
+                    {
+                      "width": 100,
+                      "height": 67
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/21/4838915c-2096-446a-9701-12368ca0191b",
+                    "type": "ImageService2",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 686,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 67
+                      },
+                      {
+                        "width": 200,
+                        "height": 134
+                      },
+                      {
+                        "width": 400,
+                        "height": 268
+                      },
+                      {
+                        "width": 1024,
+                        "height": 686
+                      }
+                    ]
+                  },
+                  "id": "https://dlc.services/thumbs/7/21/4838915c-2096-446a-9701-12368ca0191b/full/full/0/default.jpg",
+                  "width": 1024,
+                  "height": 686
+                }
+              ],
+              "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/2f7cba4b-255b-5275-8deb-81fbf18e5c83#xywh=32,32,639,428",
+              "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/annotation/4df3273b-9073-ad10-95bf-c10fdb4a5eaa",
+              "motivation": "painting"
+            },
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Image",
+                "id": "https://dlc.services/iiif-img/7/21/ce140122-c45d-4ed0-8356-f9fdeeae35e3/full/full/0/default.jpg",
+                "width": 2688,
+                "height": 1792,
+                "service": {
+                  "id": "https://dlc.services/iiif-img/7/21/ce140122-c45d-4ed0-8356-f9fdeeae35e3",
+                  "type": "ImageService2",
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ],
+                  "width": 2688,
+                  "height": 1792,
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 683
+                    },
+                    {
+                      "width": 400,
+                      "height": 267
+                    },
+                    {
+                      "width": 200,
+                      "height": 133
+                    },
+                    {
+                      "width": 100,
+                      "height": 67
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "service": {
+                    "id": "https://dlc.services/thumbs/7/21/ce140122-c45d-4ed0-8356-f9fdeeae35e3",
+                    "type": "ImageService2",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 683,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 67
+                      },
+                      {
+                        "width": 200,
+                        "height": 133
+                      },
+                      {
+                        "width": 400,
+                        "height": 267
+                      },
+                      {
+                        "width": 1024,
+                        "height": 683
+                      }
+                    ]
+                  },
+                  "id": "https://dlc.services/thumbs/7/21/ce140122-c45d-4ed0-8356-f9fdeeae35e3/full/full/0/default.jpg",
+                  "width": 1024,
+                  "height": 683
+                }
+              ],
+              "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/2f7cba4b-255b-5275-8deb-81fbf18e5c83#xywh=247,487,722,482",
+              "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/annotation/2b457fb1-9652-e0b2-176c-18665632b505",
+              "motivation": "painting"
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/list/7d1159b1-30cb-d534-4dc1-0402ee4ab7aa"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/2f7cba4b-255b-5275-8deb-81fbf18e5c83",
+      "behavior": [
+        "bottom",
+        "h-8",
+        "w-8"
+      ],
+      "label": {
+        "en": [
+          "Places of Commemoration elsewhere"
+        ]
+      },
+      "summary": {
+        "en": [
+          "The Executive Board has decided to support two places of commemoration outside of the university: the National Monument Oranjehotel  in Scheveningen and the National Holocaust Names Memorial in Amsterdam."
+        ]
+      }
+    }
+  ],
+  "id": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/manifest"
+}
