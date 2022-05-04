@@ -25,7 +25,7 @@ For more information, please contact [TU Delft Library](https://www.tudelft.nl/e
 
 ### IIIF
 
-Built according to the specifications of the International Image Interoperability Framework (IIIF), the website aims to promote creative reuse of the digital collections. For example, a [Manifest Editor](https://github.com/digirati-co-uk/iiif-manifest-editor) developed to curate digital exhibitions will become publicly available. More information about the project and its use of IIIF can be found in this Medium article by Digirati's Technology Director Tom Crane: [Reaching into collections to tell stories](https://medium.com/digirati-ch/reaching-into-collections-to-tell-stories-3dc32a1772af).
+Built according to the specifications of the International Image Interoperability Framework (IIIF), the website aims to promote creative reuse of the digital collections. For example, a [Manifest Editor](https://github.com/digirati-co-uk/iiif-manifest-editor) developed to curate digital exhibitions will become publicly available. More information about the project and its use of IIIF can be found in this Medium article by Digirati's Technology Director Tom Crane: [Reaching into collections to tell stories](https://medium.com/digirati-ch/reaching-into-collections-to-tell-stories-3dc32a1772af) and in Jules Schoonman's [presentation](https://youtu.be/VnqtYzxyY64) at the IIIF Community Call on 11 March 2020.
 
 ### Links
 
