@@ -11,7 +11,6 @@ title: "Exhibitions"
 
 [Places of Commemoration](/en/exhibitions/places-of-commemoration)
 </div>
-
 </div>
 
 ## Delft-Bandung
