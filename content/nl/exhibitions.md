@@ -6,6 +6,13 @@ title: "Tentoonstellingen"
 
 # Tentoonstellingen
 
+<div class="blocks">
+<div class="block tint yellow cutcorners w-4 h-4 image">
+
+[Plekken van Herinnering](/nl/exhibitions/places-of-commemoration)
+</div>
+</div>
+
 ## Delft-Bandung
 De TU Delft Library onderzoekt de lange relatie tussen Delft en Indonesië, in het kader van het honderdjarig bestaan in 2020 van de oudste technische hogeschool van Indonesië, Bandung Institute of Technology (ITB). Zie de (Engelstalige) tentoonstelling hieronder en de publicatie [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb).
 
