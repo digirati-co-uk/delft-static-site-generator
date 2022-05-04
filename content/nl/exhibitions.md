@@ -9,7 +9,7 @@ title: "Tentoonstellingen"
 <div class="blocks">
 <div class="block tint yellow cutcorners w-4 h-4 image">
 
-[Plekken van herinnering](/nl/exhibitions/places-of-commemoration)
+[Plekken van Herinnering](/nl/exhibitions/places-of-commemoration)
 </div>
 </div>
 
