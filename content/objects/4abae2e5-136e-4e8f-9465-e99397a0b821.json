@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Graveermes"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "mes (snijgereedschap)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0877.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "70,0 (h)  * 80,0 (b)  * 80,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een graveermes aan een rond handvat dat op drie poten staat. De poten zijn voorzien van kogels, zodat het geheel over het te graveren materiaal bewogen kan worden. In het midden van het handvat is een vergrootglas bevestigd. zie ook inventarisnummer 2000.0876.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Graveermes (GEO.2000.0876)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/d17388a4-945d-4016-9d25-a7e84178c67f/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/4abae2e5-136e-4e8f-9465-e99397a0b821/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/4abae2e5-136e-4e8f-9465-e99397a0b821/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/4abae2e5-136e-4e8f-9465-e99397a0b821.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1822,
+                        "@id": "https://dlc.services/iiif-img/7/18/d17388a4-945d-4016-9d25-a7e84178c67f",
+                        "height": 1260
+                    },
+                    "width": 1822,
+                    "@id": "https://dlc.services/iiif-img/7/18/d17388a4-945d-4016-9d25-a7e84178c67f/full/1024,708/0/default.jpg",
+                    "height": 1260
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/d17388a4-945d-4016-9d25-a7e84178c67f/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/d17388a4-945d-4016-9d25-a7e84178c67f/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 708
+                        },
+                        {
+                            "width": 400,
+                            "height": 277
+                        },
+                        {
+                            "width": 200,
+                            "height": 138
+                        },
+                        {
+                            "width": 100,
+                            "height": 69
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/d17388a4-945d-4016-9d25-a7e84178c67f",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 708
+                },
+                "@id": "https://dlc.services/thumbs/7/18/d17388a4-945d-4016-9d25-a7e84178c67f/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1822,
+            "@id": "https://dlc.services/iiif-img/7/18/d17388a4-945d-4016-9d25-a7e84178c67f/canvas/c0",
+            "label": "Image",
+            "height": 1260
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/4abae2e5-136e-4e8f-9465-e99397a0b821/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

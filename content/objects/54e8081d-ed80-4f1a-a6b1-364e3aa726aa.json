@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Verrekijker"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "verrekijker"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0207.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "50,0 (h)  * 450,0 (b)  * 50,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, leer, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geodetisch of nautisch instrument voor verkenning van bijvoorbeeld richtingmeting. Een verrekijker met rechtopstaand beeld, hulpmiddel ter verkenning van richtingmeting. Vierdelige, uitschuifbare verrekijker met een zonnefilter."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/1702643d-71ad-4c69-987c-e3c305c15826/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/54e8081d-ed80-4f1a-a6b1-364e3aa726aa/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/54e8081d-ed80-4f1a-a6b1-364e3aa726aa/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/54e8081d-ed80-4f1a-a6b1-364e3aa726aa.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/1702643d-71ad-4c69-987c-e3c305c15826",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/1702643d-71ad-4c69-987c-e3c305c15826/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/1702643d-71ad-4c69-987c-e3c305c15826/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/1702643d-71ad-4c69-987c-e3c305c15826/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/1702643d-71ad-4c69-987c-e3c305c15826",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/1702643d-71ad-4c69-987c-e3c305c15826/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/1702643d-71ad-4c69-987c-e3c305c15826/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/54e8081d-ed80-4f1a-a6b1-364e3aa726aa/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

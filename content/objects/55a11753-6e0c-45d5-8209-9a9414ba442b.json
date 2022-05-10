@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Theodoliet door Julius Wanschaff"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0295.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Julius Wanschaff (Berlijn)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "180,0 (h)  * 160,0 (b)  * 130,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Theodoliet door Julius Wanschaff, voor het bepalen van verticale en horizontale hoeken. Een kleine theodoliet op een vast stelschroevenblok (een z.g. 9 cm theodoliet), voor het meten van horizontale en verticale hoeken. Het instrument heeft een horizontale rand met schaalmicroscopen en een verticale rand met noniusaflezing. Het instrument is gebruikt bij de Rijksdriehoeksmetingen (1886-1929). Julius Wanschaff (27 mei 1844  20 september 1903), een precisie-instrumentmaker, opende zijn bedrijf in 1872 in Berlijn. Zijn zoon Herman Wanschaff voegde rond 1900 zich bij zijn vader in het bedrijf en ging later verder onder zijn eigen naam. Het bedrijf Wanschaff werd rond 1922 overgenomen samen met de bedrijven van Otto Töpfer & Sohn en Hans Heele door het bedrijf van Carl Bamberg en ging verder onder de naam 'Askania Werke AG'."
+        },
+        {
+            "label": "Documentatie",
+            "value": "RD Kadaster en de NCG. Bij het Kadaster (RD) zijn diverse van deze instrumenten waarvan een met de naam J. Wanschaff."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/55a11753-6e0c-45d5-8209-9a9414ba442b/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/55a11753-6e0c-45d5-8209-9a9414ba442b/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/55a11753-6e0c-45d5-8209-9a9414ba442b.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/6746082a-97da-4d1f-8c6d-e4c01ee91d6e/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/55a11753-6e0c-45d5-8209-9a9414ba442b/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

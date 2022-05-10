@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Transversaalschaal door G. Hulst van Keulen"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schaalstok"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0071.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1775 - 1825"
+        },
+        {
+            "label": "Maker",
+            "value": "Hulst van Keulen, Gerard  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h)  * 340,0 (b)  * 55,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Transversaalschaal door G. Hulst van Keulen, gebruikt door landmeters in de voormalige Nederlandse kolonie Suriname. Schaal van 200 kettingen van 66 voeten Rhijnlands ieder. Vastgestelde schaal tot de kaarten van metingen voor de geadmitteerde Landmeeters der Colonie van Suriname."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Swinden Jean Henri van (1746-1823); Nieuwland Pieter (1764-1794); Keulen Gerard Hulst van (1733-1801) Verhandeling over de inrigting en het gebruik der octanten en sextanten van Hadley : voormaals opgesteld en uitgegeven door de commissarissen tot de zake"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/e731354a-62e2-46b6-8c46-92e533f9d91f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/e731354a-62e2-46b6-8c46-92e533f9d91f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/e731354a-62e2-46b6-8c46-92e533f9d91f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/3fcd94fa-46a2-45d9-abe1-c7c44876bcb8/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e731354a-62e2-46b6-8c46-92e533f9d91f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

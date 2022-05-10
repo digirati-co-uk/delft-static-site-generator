@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Houten kist met een heliotroop"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "heliotroop"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0349.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1870 - 1890"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "88,0 (h)  * 558,0 (b)  * 223,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Houten kist met een heliotroop of zonnespiegel. De uitrusting bestaat uit een stelplank, een vizier, een stelschroef, een hamer, een heliotroopspiegel met los diafragma en een losse heliotroopspiegel. Deze heliotroop is gebruikt bij de Rijksdriehoeksmeting van Nederland en in eigen werkplaats vervaardigd. In 1820 kwam C.F. Gauss op de gedachte zonlicht te gebruiken voor het zichtbaar maken van ver gelegen punten bij driehoeksmetingen. De eerste heliotroop werd in 1821 geconstrueerd. Dit type instrument is in 1829 door Bertrand ontworpen. Op een richtpunt (ver van een standplaats) werd dit hulpmiddel zodanig geplaatst dat zonlicht via de spiegel in de richting van de standplaats werd teruggekaatst. Er moest wel tijdens de meting doorlopend iemand bij dit instrument staan die met een houten hamertje de spiegel de juiste stand tikte, waardoor tijdens de meting het zonlicht weerkaatst bleef in de richting van de standplaats (theodoliet). Heliotropen zijn tot ver in de 20e eeuw gebruikt bij triangulatie activiteiten in landen zoals Saoedi-Arabië."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift Bayerischen Geometersverein 1909 blz 10 e.v. Der Heliotroop seine Geschichte Konstruction und Genauigkeit. Zeitschrift für Vermessungswesen 1878 blz 193 door Bertrand ontworpen en later door Bamberg verbeterd."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/28716d85-3156-46e7-9afe-12b20f46e5dc/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/28716d85-3156-46e7-9afe-12b20f46e5dc/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/28716d85-3156-46e7-9afe-12b20f46e5dc.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/b9322ada-327a-4b65-a72e-3d6e5018d8bd/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/28716d85-3156-46e7-9afe-12b20f46e5dc/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

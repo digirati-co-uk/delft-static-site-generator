@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Spiegelreflectiecirkel door J. Dollond and Son"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "spiegelreflectiecirkel"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0037.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1775 - 1825"
+        },
+        {
+            "label": "Maker",
+            "value": "J. Dollond and Son (Londen)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "180,0 (h)  * 310,0 (b)  * 270,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Spiegelreflectiecirkel door J. Dollond and Son, voor navigatie doeleinden en gebruikt door hydrografen (landmeters op zee). Een reflectiecirkel is een spiegelinstrument voor hoekmeting, met een houten handvat en diverse uitwisselbare kijkers en lenzen. De eerste reflectiecirkel werd op aanwijzing van Borda in 1775 door Lenoir te Parijs vervaardigd. Het meetprincipe is hetzelfde als bij de octant en sextant, maar met dit instrument kan een repetitiemeting worden uitgevoerd, bovendien kunnen ook grote hoeken worden gemeten."
+        },
+        {
+            "label": "Documentatie",
+            "value": "zie ook cercle réfléchissant"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/b0850475-706b-4d87-86c7-bc20d666b2da/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/fdded6e5-26b4-4ea6-843f-36201cc9592e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/fdded6e5-26b4-4ea6-843f-36201cc9592e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/fdded6e5-26b4-4ea6-843f-36201cc9592e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/b0850475-706b-4d87-86c7-bc20d666b2da",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/b0850475-706b-4d87-86c7-bc20d666b2da/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/b0850475-706b-4d87-86c7-bc20d666b2da/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b0850475-706b-4d87-86c7-bc20d666b2da/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/b0850475-706b-4d87-86c7-bc20d666b2da",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/b0850475-706b-4d87-86c7-bc20d666b2da/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/b0850475-706b-4d87-86c7-bc20d666b2da/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/fdded6e5-26b4-4ea6-843f-36201cc9592e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

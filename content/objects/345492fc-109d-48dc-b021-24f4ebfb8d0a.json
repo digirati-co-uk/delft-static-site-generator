@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Proportieliniaal door Tavernier-Gravet"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "proportieliniaal"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0218.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Tavernier-Gravet (Parijs)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "430,0 (h)  * 5,0 (b)  * 58,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een proportieliniaal of proportionaalpasser door Tavernier-Gravet (le compas de réduction), een hulpmiddel bij het karteren op willekeurige schalen, met aan één zijde een schaalverdeling voor het uitzetten van koorden lengten. Aan de andere zijde is een gelijke verdeling van 0 - 600 aangebracht. Voor het verdelen op willekeurige schaal van afstanden op een kaart."
+        },
+        {
+            "label": "Documentatie",
+            "value": "P.H. van Cittert Nederlands Tijdschrift voor Natuurkunde jaargang 13 1947 blz 1 - 22. Proportionaalpassers. Marice Daumas. Scientific Instruments of the 17e and 18e centuries and their makers uit 1972 blz 22 296 297. Fockema Andreae en Koeman. Kaarten en"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/02166441-742c-4134-b176-7ababee795d1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/345492fc-109d-48dc-b021-24f4ebfb8d0a/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/345492fc-109d-48dc-b021-24f4ebfb8d0a/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/345492fc-109d-48dc-b021-24f4ebfb8d0a.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/02166441-742c-4134-b176-7ababee795d1",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/02166441-742c-4134-b176-7ababee795d1/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/02166441-742c-4134-b176-7ababee795d1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/02166441-742c-4134-b176-7ababee795d1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/02166441-742c-4134-b176-7ababee795d1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/02166441-742c-4134-b176-7ababee795d1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/02166441-742c-4134-b176-7ababee795d1/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/345492fc-109d-48dc-b021-24f4ebfb8d0a/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

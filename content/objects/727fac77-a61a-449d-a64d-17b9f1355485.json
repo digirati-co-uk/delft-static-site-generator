@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Curvimeter van vermoedelijk Lasailly"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "curvimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0329.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Lasailly (Parijs)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "8,0 (h)  * 110,0 (b)  * 20,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "ivoor, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Curvimeter, een reken en/of tekeninstrument voor het bepalen de afstand op een kaart van een een gekromde of gebroken lijn. Een instrument voor het meten van afstanden op kaarten. Het loopwiel (diameter 17 mm) van deze curvimeter verplaatst zich langs de as met schroefdraad. De afstand tussen loopwiel en centreerpunt kan met een schaalstok bepaald worden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift für Vermessungswesen 1876 blz 123 en 124."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/727fac77-a61a-449d-a64d-17b9f1355485/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/727fac77-a61a-449d-a64d-17b9f1355485/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/727fac77-a61a-449d-a64d-17b9f1355485.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/eadcd86c-ff35-4f4c-8849-4c9df4b8644b/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/727fac77-a61a-449d-a64d-17b9f1355485/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Gegoten miniatuur aambeeld als presse-papier door TU Delft"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "miniatuur"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "1995.0045.TMD"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "TU Delft  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "40,0 (h)  * 85,0 (b)  * 35,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "gietijzer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Gegoten model van een aambeeld door de TU Delft, waarschijnlijk bedoeld als pressepapier."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/f1fb8e57-22ac-42c3-a659-f5f346f2aa07.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6",
+                        "height": 1536
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/full/1024,768/0/default.jpg",
+                    "height": 1536
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 768
+                        },
+                        {
+                            "width": 400,
+                            "height": 300
+                        },
+                        {
+                            "width": 200,
+                            "height": 150
+                        },
+                        {
+                            "width": 100,
+                            "height": 75
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 768
+                },
+                "@id": "https://dlc.services/thumbs/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/72130f00-e59a-49a1-9050-d24ba2cdd8e6/canvas/c0",
+            "label": "Image",
+            "height": 1536
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/f1fb8e57-22ac-42c3-a659-f5f346f2aa07/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

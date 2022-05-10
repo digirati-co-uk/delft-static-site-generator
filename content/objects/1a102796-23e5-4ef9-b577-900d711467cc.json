@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Rapport van de Nauwkeurigheids-Waterpassing door H.G. van de Sande Bakhuyzen en G. van Diesen"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "rapport"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0885.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1884 - 1885"
+        },
+        {
+            "label": "Maker",
+            "value": "Van de Sande Bakhuyzen, Hendricus Gerardus (Nederlands, 1838-1923) ; Diesen, G. van  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "10,0 (h)  * 330,0 (b)  * 220,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Eindverslag met de uitkomsten van de in 1885 uitgevoerde Nauwkeurigheids-Waterpassing en hoogten van diverse NAPbouten. Hiemee kwam een eind aan de eerste Rijkswaterpassing die begon in 1875 o.l.v. Cohen Stuart. De hierbij gebruikte instrumenten zijn bekend onder inventarisnummer 2000.0016, 2000.0017.GEO en 2000.0298.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Nedrlandse Commissie voor Geodesie publicaties"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Bronzen NAP bout;Waterpasinstrument op een vast stelschroevenblok door Firma Gebr. Caminada;Waterpasinstrument met twee niveaus door Firma Gebr. Caminada nr. 7 (GEO.2000.0298;GEO.2000.0016;GEO.2000.0017)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/1a102796-23e5-4ef9-b577-900d711467cc/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/1a102796-23e5-4ef9-b577-900d711467cc/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/1a102796-23e5-4ef9-b577-900d711467cc.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/ecbabc5a-a574-47a1-9baa-fc1b3b41d4de/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/1a102796-23e5-4ef9-b577-900d711467cc/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

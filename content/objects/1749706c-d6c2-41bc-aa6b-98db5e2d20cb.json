@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Grafometer volgens P. Danfrie door Firma Gebr. Caminada"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "grafometer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0858.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Danfrie, Philippe  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "Firma Gebr. Caminada (Rotterdam)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "275,0 (h)  * 210,0 (b)  * 210,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Halve cirkel of grafometer door Firma Gebr. Caminada, een hoekmeetinstrument voor richtingmeting. Het instrument bestaat uit een halve cirkel met verdeelde rand en vaste vizieren langs de diagonaal, een draaibare vizierliniaal en een kogelgewricht, waardoor het 90 graden kan worden gekanteld. Het instrument kan geplaatst worden op een statief. De halve cirkel werd ontworpen in 1597 door de Fransman Philippe Danfrie."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/1749706c-d6c2-41bc-aa6b-98db5e2d20cb/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/1749706c-d6c2-41bc-aa6b-98db5e2d20cb/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/1749706c-d6c2-41bc-aa6b-98db5e2d20cb.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/9d7392a9-2c18-4225-ad09-1b2f4b7f7090/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/1749706c-d6c2-41bc-aa6b-98db5e2d20cb/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

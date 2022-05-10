@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Statief met uitschuifbare poten en klemschroef door AGA"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0013.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "AGA  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "150,0 (h)  * 1.520,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Statief met uitschuifbare poten en klemschroef, behorende bij de holle spiegel reflector van de afstandmeter door AGA, bekend onder inventarisnummer 2000.0334.GEO en 2000.0534.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Geodimeter-reflector door AGA;Afstandmeter door AGA (GEO.2000.0334;GEO.2000.0534)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/fffbdfc5-4954-43a4-9b5b-004a221c68c8/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/fffbdfc5-4954-43a4-9b5b-004a221c68c8/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/fffbdfc5-4954-43a4-9b5b-004a221c68c8.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/d65d4a2e-c196-4622-88ad-fba5cb150695/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/fffbdfc5-4954-43a4-9b5b-004a221c68c8/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

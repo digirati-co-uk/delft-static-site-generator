@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Statief bij het astrolabium door Daniel White Co."
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0010.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "Daniel White Co.  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "150,0 (h)  * 1.230,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Speciaal statief behoort bij het astrolabium de  Daniel White Company. De kop van het statief is voorzien van een schroefdraad om de voetplaat van het instrument te bevestigen. Het statief hoort bij inventarisnummer 2000.0539.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Astrolabium door Daniel White Co. (GEO.2000.0539)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/83144fbb-f228-40c0-b46f-1263667d7af3/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c7030358-1419-4f5b-bfc6-8240c14c74af/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c7030358-1419-4f5b-bfc6-8240c14c74af/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/c7030358-1419-4f5b-bfc6-8240c14c74af.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/83144fbb-f228-40c0-b46f-1263667d7af3",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/83144fbb-f228-40c0-b46f-1263667d7af3/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/83144fbb-f228-40c0-b46f-1263667d7af3/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/83144fbb-f228-40c0-b46f-1263667d7af3/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/83144fbb-f228-40c0-b46f-1263667d7af3",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/83144fbb-f228-40c0-b46f-1263667d7af3/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/83144fbb-f228-40c0-b46f-1263667d7af3/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c7030358-1419-4f5b-bfc6-8240c14c74af/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

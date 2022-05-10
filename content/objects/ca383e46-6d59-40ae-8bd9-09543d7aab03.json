@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Afstand-transporteur door G. Coradi"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "transporteur"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0258.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1919 - 1929"
+        },
+        {
+            "label": "Maker",
+            "value": "G. Coradi  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "135,0 (h)  * 250,0 (b)  * 330,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, textiel, hout"
+        },
+        {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2657896\">Zürich, Zwitserland<\/a>"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Afstand-transporteur door G. Coradi, tekeninstrument voor de voerstraalmethode. Een afstand-transporteur (Distanz-Transporteur) met schalen 1:5000 en 1:12500, met decimale graden, in een met textiel beklede houten kist."
+        },
+        {
+            "label": "Documentatie",
+            "value": "E. Ritter. Schweizerischen Zeitschrift für Vermessungswesen und Kultuurtechnik 1924"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/ca383e46-6d59-40ae-8bd9-09543d7aab03/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/ca383e46-6d59-40ae-8bd9-09543d7aab03/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/ca383e46-6d59-40ae-8bd9-09543d7aab03.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/101a0e7b-8030-46a8-b3e9-500d7f4c22c7/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/ca383e46-6d59-40ae-8bd9-09543d7aab03/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

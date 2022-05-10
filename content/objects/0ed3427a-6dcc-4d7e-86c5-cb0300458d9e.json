@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Richtkompas door F.W. Breithaupt & Sohn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "richtkompas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0315.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1920 - 1930"
+        },
+        {
+            "label": "Maker",
+            "value": "F.W. Breithaupt & Sohn (Kassel)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "310,0 (h)  * 205,0 (b)  * 230,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, kunststof, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Boussole-tachymeter door F.W. Breithaupt & Sohn. Geodetisch meetinstrument voor zowel detailmeting volgens de voerstraal methode als eenvoudige tijd en/of plaats bepaling in de tropen. Een universele boussole-tachymeter voor richting- en lengtemeting. Het object heeft een Engelse kompasaanduiding. De kijker is voorzien van een centrale instellens. Dit type meter is als excentrische kijker te gebruiken door omlegging in de as-ondersteuningen waardoor metingen steil naar beneden verricht kunnen worden. Het object is ook te gebruiken als een planchetinstrument door de kijker met drager los te maken en te bevestigen op een bijbehorende liniaal."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Volgens brief van fa Breithaupt d.d. 17-12-1982 is deze geleverd aan de BPM Den Haag op 21-9-1925"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/2857c96d-2328-482d-96bc-a95dd6fab438/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/0ed3427a-6dcc-4d7e-86c5-cb0300458d9e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/0ed3427a-6dcc-4d7e-86c5-cb0300458d9e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/0ed3427a-6dcc-4d7e-86c5-cb0300458d9e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/2857c96d-2328-482d-96bc-a95dd6fab438",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/2857c96d-2328-482d-96bc-a95dd6fab438/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/2857c96d-2328-482d-96bc-a95dd6fab438/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/2857c96d-2328-482d-96bc-a95dd6fab438/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/2857c96d-2328-482d-96bc-a95dd6fab438",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/2857c96d-2328-482d-96bc-a95dd6fab438/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/2857c96d-2328-482d-96bc-a95dd6fab438/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/0ed3427a-6dcc-4d7e-86c5-cb0300458d9e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

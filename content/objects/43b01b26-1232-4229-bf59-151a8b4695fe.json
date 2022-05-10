@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasinstrument door G.C. Starke"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpasinstrument"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0025.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Starke, G.C.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "240,0 (h)  * 270,0 (b)  * 205,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Waterpasinstrument door G.C. Starke, geschikt voor eenvoudige waterpassingen zoals doorgaande- en vlakte-waterpassingen. Het instrument is voorzien van een micrometer-hellingschroef voor het nauwkeurig horizontaal stellen. Het kan zowel op een stok als statief geplaatst worden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Stampfer 1877 blz 38 fig 17. G. Starke heeft zowel met Stampfer als met Kammerer samengewerkt"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/43b01b26-1232-4229-bf59-151a8b4695fe/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/43b01b26-1232-4229-bf59-151a8b4695fe/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/43b01b26-1232-4229-bf59-151a8b4695fe.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/81aef1d9-f17e-47e7-ab6a-7ca92225f6a2/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/43b01b26-1232-4229-bf59-151a8b4695fe/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

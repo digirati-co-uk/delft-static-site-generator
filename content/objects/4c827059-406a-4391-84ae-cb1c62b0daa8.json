@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Planchet door F.W. Breithaupt & Sohn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "planchet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0453.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1919 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "F.W. Breithaupt & Sohn (Kassel)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "50,0 (h)  * 190,0 (b)  * 160,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Planchet door F.W. Breithaupt & Sohn voor vlakke tekeningen en voor 'kompas opnames bij hoogtemetingen'. Een planchet (Krokiertisch) met een scharnier voor plaatsing op een stok, zodat het 90 graden kan worden gekanteld, als hulpmiddel voor veldonderzoek. Behoort bij het z.g. Marschkompass no 30683."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/94569528-815d-431a-ab59-70c277b3a7bb/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/4c827059-406a-4391-84ae-cb1c62b0daa8/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/4c827059-406a-4391-84ae-cb1c62b0daa8/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/4c827059-406a-4391-84ae-cb1c62b0daa8.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/94569528-815d-431a-ab59-70c277b3a7bb",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/94569528-815d-431a-ab59-70c277b3a7bb/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/94569528-815d-431a-ab59-70c277b3a7bb/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/94569528-815d-431a-ab59-70c277b3a7bb/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/94569528-815d-431a-ab59-70c277b3a7bb",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/94569528-815d-431a-ab59-70c277b3a7bb/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/94569528-815d-431a-ab59-70c277b3a7bb/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/4c827059-406a-4391-84ae-cb1c62b0daa8/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -6,24 +6,26 @@ title: "Tentoonstellingen"
 
 # Tentoonstellingen
 
-*Let op: u bezoekt momenteel een beta versie van deze website. Bekijk voor meer informatie de Engelstalige [about pagina](/en/about/).*
+<div class="blocks">
+<div class="block tint yellow cutcorners w-4 h-4 image">
+
+[Plekken van Herinnering](/nl/exhibitions/places-of-commemoration)
+</div>
+</div>
 
 ## Delft-Bandung
-De TU Delft Library onderzoekt de lange relatie tussen Delft en Indonesië, in het kader van het honderdjarig bestaan in 2020 van de oudste technische hogeschool van Indonesië, Bandung Institute of Technology (ITB). Zie de twee (Engelstalige) tentoonstellingen hieronder en de publicatie [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb).
+De TU Delft Library onderzoekt de lange relatie tussen Delft en Indonesië, in het kader van het honderdjarig bestaan in 2020 van de oudste technische hogeschool van Indonesië, Bandung Institute of Technology (ITB). Zie de (Engelstalige) tentoonstelling hieronder en de publicatie [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb).
+
 <div class="blocks">
 <div class="block tint yellow cutcorners w-4 h-4 image">
 
 [Irrigation Knowledge](/nl/exhibitions/irrigation-knowledge)
 </div>
-<div class="block tint yellow cutcorners w-4 h-4 image">
-
-[Bandoeng-Bandung](/nl/exhibitions/bandoeng-bandung)
-</div>
-
 </div>
 
 ## Vrouwen in de wetenschap, toen & nu
 In samenwerking met (onder andere) Vincent Cellucci (Open Spaces, TU Delft Library), DEWIS (Delft Women in Science), oud-leden van de DVSV (Delftste Vrouwelijke Studentenvereniging) en (alumni van) de Faculteit Bouwkunde.
+
 <div class="blocks">
 <div class="block tint yellow cutcorners w-4 h-4 image">
 
@@ -37,6 +39,7 @@ In samenwerking met (onder andere) Vincent Cellucci (Open Spaces, TU Delft Libra
 </div>
 
 ## Overige tentoonstellingen
+
 <div class="blocks">
 <div class="block tint yellow cutcorners w-4 h-4 image">
 

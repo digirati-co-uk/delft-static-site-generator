@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Theodoliet door Pistor & Martins"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2008.0016.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Pistor & Martins (Berlijn)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "230,0 (h)  * 280,0 (b)  * 200,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "glas, messing, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Theodoliet door Pistor & Martins, voor het bepalen van horizontale en verticale richtingen. De kijker is afneembaar en voorzien van een buisniveau ten behoeve van het waterpassen.  De horizontale rand kan d.m.v. van twee afleeskijkertjes en een nonius afgelezen worden. De verticale rand is af te lezen met een kijker met noniusverdeling. Het instrument is uitgerust met een bevestigingsoog voor bevesting met een stengelhaak op een statief. Dit is de kleine theodoliet die door Stamkart gebruikt is voor diens Rijksdriehoeksmeting van 1866 tot 1882."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Publicaties Nederlandse Commissie voor Geodesie."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/526b81ff-941b-4b59-b744-32adcebd9924/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/526b81ff-941b-4b59-b744-32adcebd9924/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/526b81ff-941b-4b59-b744-32adcebd9924.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1681,
+                        "@id": "https://dlc.services/iiif-img/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac",
+                        "height": 1328
+                    },
+                    "width": 1681,
+                    "@id": "https://dlc.services/iiif-img/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac/full/1024,809/0/default.jpg",
+                    "height": 1328
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 809
+                        },
+                        {
+                            "width": 400,
+                            "height": 316
+                        },
+                        {
+                            "width": 200,
+                            "height": 158
+                        },
+                        {
+                            "width": 100,
+                            "height": 79
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 809
+                },
+                "@id": "https://dlc.services/thumbs/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1681,
+            "@id": "https://dlc.services/iiif-img/7/18/9fd68c91-4918-4e9d-b33e-68da690472ac/canvas/c0",
+            "label": "Image",
+            "height": 1328
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/526b81ff-941b-4b59-b744-32adcebd9924/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

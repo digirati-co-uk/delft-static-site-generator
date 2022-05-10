@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Niveaubeproever"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "niveautester"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2003.0010.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1975"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "75,0 (h)  * 350,0 (b)  * 80,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "messing, ijzer, kunststof, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Niveaubeproever, voor het testen van niveaus. Apparaat, ook wel libel of waterpas genoemd, gebruikt om de kwaliteit van niveau's  te beproeven. Met het apparaat kan de luchtbel in het niveau nauwkeurig worden ingesteld. Als het niveau daarna 180 graden wordt gedraaid, moet de luchtbel zich op dezelfde plaats bevinden. Bij het apparaat hoort een met ether gevuld niveau. (afmetingen 150 * 20 * 20)."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/374c68ab-85a1-479d-847f-93844896f3f5/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/374c68ab-85a1-479d-847f-93844896f3f5/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/374c68ab-85a1-479d-847f-93844896f3f5.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/bcd69992-33c8-4272-bad2-2955f69db2c1/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/374c68ab-85a1-479d-847f-93844896f3f5/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

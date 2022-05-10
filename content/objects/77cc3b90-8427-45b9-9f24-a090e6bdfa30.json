@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Stangplanimeter door Alfred J. Amsler & Co."
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0326.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1962 - 1972"
+        },
+        {
+            "label": "Maker",
+            "value": "Alfred J. Amsler & Co.  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "29,0 (h)  * 245,0 (b)  * 82,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "kunststof, metaal"
+        },
+        {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2658761\">Schaffhausen, Zwitserland<\/a>"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Stangplanimeter door Alfred J. Amsler & Co., een rekenhulpmiddel voor het bepalen van de oppervlakte van op een kaart getekende gesloten figuren (integreren). Vooral gebruikt voor oppervlaktebepalingen van (kadastrale) percelen en dwars- en lengteprofielen. Bij de planimeter hoort een gebruiksaanwijzing. Geschenk van prof. dr. ir. J. Schijve."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/77cc3b90-8427-45b9-9f24-a090e6bdfa30/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/77cc3b90-8427-45b9-9f24-a090e6bdfa30/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/77cc3b90-8427-45b9-9f24-a090e6bdfa30.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/e604ec97-4c8c-430a-98d0-eec8e548392e/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/77cc3b90-8427-45b9-9f24-a090e6bdfa30/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

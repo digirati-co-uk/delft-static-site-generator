@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Theodoliet op een vast stelschroevenblok door Secrétan"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0006.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1800 - 1850"
+        },
+        {
+            "label": "Maker",
+            "value": "Secrétan (Parijs)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "240,0 (h)  * 260,0 (b)  * 190,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Theodoliet door Secrétan, landmeetkundig instrument voor het meten van zowel horizontale als verticale hoeken of richtingen. Ook te gebruiken voor het bepalen van hoogteverschillen. De richtkijker is daarom voorzien van een buisniveau."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/73d5417a-1121-4678-80d1-f2a05f8713ad/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/73d5417a-1121-4678-80d1-f2a05f8713ad/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/73d5417a-1121-4678-80d1-f2a05f8713ad.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/92872c97-ada6-4fb9-a989-377d5227ad8e/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/73d5417a-1121-4678-80d1-f2a05f8713ad/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

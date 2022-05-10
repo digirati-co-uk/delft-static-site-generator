@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Stangplanimeter door Eckert & Hamann"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0083.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1897 - 1910"
+        },
+        {
+            "label": "Maker",
+            "value": "Eckert & Hamann  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "50,0 (h)  * 55,0 (b)  * 225,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Stangplanimeter door Eckert & Hamann, in een verbeterde versie voor oppervlaktebepalingen van percelen en dwars- en lengteprofielen."
+        },
+        {
+            "label": "Documentatie",
+            "value": "\"Neues Instrument zur Bestimmung des Inhaltes einer gegebenen Fläche\", Zeitung für Landwirthschaft, 22(729) 1 juli 1897, p.97-98."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d02bfdec-1d73-4143-8ec5-7de03945fa83/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d02bfdec-1d73-4143-8ec5-7de03945fa83/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/d02bfdec-1d73-4143-8ec5-7de03945fa83.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/c6d04cfa-a3fb-4e92-bab7-064fe9bc5f84/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d02bfdec-1d73-4143-8ec5-7de03945fa83/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

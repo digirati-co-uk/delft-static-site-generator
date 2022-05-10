@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Monding van de Nieuwe Waterweg bij Hoek van Holland"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2002.0053.CTG"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Kannemans, C.C.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.075,0 (h)  * 3.880,0 (b)  * 65,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Schilderij van de monding van de Nieuwe Waterweg bij Hoek van Holland. Dit type schilderijen werd gemaakt in opdracht van Rijkswaterstaat na de afronding van een groot project."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Monding van het Noorzeekanaal bij IJmuiden;Spoorbrug over de Waal bij Zaltbommel;Spoorbrug over de Lek bij Culemborg;Spoorbrug over het Hollands Diep bij Moerdijk;Spoorbrug over de Waal bij Nijmegen (CTG.2002.0057;CTG.2002.0056;CTG.2002.0052;CTG.2002.0054;CTG.2002.0055)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/0cf03d4c-e9e5-4611-a2bb-7ce0d432c7e1/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/0cf03d4c-e9e5-4611-a2bb-7ce0d432c7e1/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/0cf03d4c-e9e5-4611-a2bb-7ce0d432c7e1.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 10663,
+                        "@id": "https://dlc.services/iiif-img/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a",
+                        "height": 2960
+                    },
+                    "width": 10663,
+                    "@id": "https://dlc.services/iiif-img/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a/full/1024,284/0/default.jpg",
+                    "height": 2960
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 284
+                        },
+                        {
+                            "width": 400,
+                            "height": 111
+                        },
+                        {
+                            "width": 200,
+                            "height": 56
+                        },
+                        {
+                            "width": 100,
+                            "height": 28
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 284
+                },
+                "@id": "https://dlc.services/thumbs/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 10663,
+            "@id": "https://dlc.services/iiif-img/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a/canvas/c0",
+            "label": "Image",
+            "height": 2960
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/0cf03d4c-e9e5-4611-a2bb-7ce0d432c7e1/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

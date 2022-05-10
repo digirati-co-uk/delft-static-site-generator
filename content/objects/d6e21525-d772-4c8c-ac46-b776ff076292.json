@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Precisie-poolplanimeter volgens F. Hohmann door G. Coradi"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0085.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1892"
+        },
+        {
+            "label": "Maker",
+            "value": "G. Coradi  (producent)"
+        },
+        {
+            "label": "Maker",
+            "value": "Hohmann, F.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "63,0 (h)  * 435,0 (b)  * 190,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, karton"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Precisie-poolplanimeter volgens F. Hohmann door G. Coradi, geodetisch meetinstrument voor oppervlaktebepalingen van percelen en dwars- en lengteprofielen voor het bepalen van oppervlakten van vlakken op een kaart (integreren). <\/br>Precisie-poolplanimeter (integreermachine) volgens de constructie van F. Hohmann. Aan het eind van de poolarm bevindt zich een scheefstaand loopwiel waaraan een schijf verbonden is. Op deze schijf rust een meetrol. De plaats van de meetrol is afhankelijk van de stand van de omlooparm. Met dit type planimeter werd getracht een aantal nadelen van de gewone poolplanimeter op te heffen. Deze nadelen zijn onder meer de gelijktijdige rollende en glijdende beweging van de meetrol, de afhankelijkheid van het papieroppervlak en het feit dat het gewicht van de planimeter deels op de puntlagering van de meetrol rust. Bij het instrument hoort een losse controle cirkel en een houten kist. Inclusief onbekend raderwerk met telmechanisme."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d6e21525-d772-4c8c-ac46-b776ff076292/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d6e21525-d772-4c8c-ac46-b776ff076292/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/d6e21525-d772-4c8c-ac46-b776ff076292.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/a9de62ef-d03a-423b-84de-b20148d8cdb0/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d6e21525-d772-4c8c-ac46-b776ff076292/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

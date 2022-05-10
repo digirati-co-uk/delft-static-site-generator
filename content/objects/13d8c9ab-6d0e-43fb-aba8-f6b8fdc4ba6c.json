@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Kijker met de prisma's van Rochon"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "afstandmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0038.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1800 - 1850"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "40,0 (h)  * 440,0 (b)  * 50,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Kijker met de prisma's van Rochon voor de bepaling van afstanden, volgens het principe van A.M. de Rochon in 1777 ontworpen (zie ook 2000.0267.GEO)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Wagner, F., \"Entwicklungsgeschichte der optischen Entfernungsmesser\", München Beck, 1969."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Dubbelbeeldafstandmeter volgens A-M. de Rochon door Lerebours (GEO.2000.0267)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/13d8c9ab-6d0e-43fb-aba8-f6b8fdc4ba6c/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/13d8c9ab-6d0e-43fb-aba8-f6b8fdc4ba6c/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/13d8c9ab-6d0e-43fb-aba8-f6b8fdc4ba6c.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/c98914a4-dcc5-4ecf-81e1-ba523ad1e37e/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/13d8c9ab-6d0e-43fb-aba8-f6b8fdc4ba6c/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

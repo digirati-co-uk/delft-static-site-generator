@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Proportieliniaal"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "liniaal (geleidingsgereedschap)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0342.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1725 - 1775"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "4,0 (h)  * 75,0 (b)  * 175,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Rekenhulpmiddel voor het rekenen in een kaart, met een willekeurige schaal. Een proportieliniaal of een proportionaalpasser voorzien van zes dubbele verdelingsschalen, als hulpmiddel bij wiskundige berekeningen en het karteren. De lengte van de benen bedraagt ongeveer zes Parijse duimen. Met een lineaire-, kwadrische-, kubieke-, koorden-, metalen- en polygoonschaal. De koordeschaal is niet correct. De symbolen voor koper en ijzer zijn bij de metalenschaal verwisseld. Aanduidingen zijn in het Frans met veel spelfouten."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/603469b6-ce8a-4756-9c57-8ae8681a3675/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/603469b6-ce8a-4756-9c57-8ae8681a3675/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/603469b6-ce8a-4756-9c57-8ae8681a3675.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/0892a322-4b8a-4f68-bcc6-2ad7669aeeaa/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/603469b6-ce8a-4756-9c57-8ae8681a3675/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

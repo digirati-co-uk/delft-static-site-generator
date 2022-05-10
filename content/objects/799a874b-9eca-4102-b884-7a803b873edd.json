@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Twee horizontale baken door H.Wild Werkstätte"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "baak"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0194.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "H. Wild Werkstätte für Feinmechanik und Optik (Heerbrugg)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,0 (h)  * 1.550,0 (b)  * 80,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Twee horizontale baken door H.Wild Werkstätte für Feinmechanik und Optik. Voor dubbelbeeldafstandmeting behorende bij de Wild opzet precisie afstandmeter. Bij deze baak behoort ook een statief"
+        },
+        {
+            "label": "Documentatie",
+            "value": "S. Bertschmann: Die neue optische Distanzmesser uit 1925 blz 26 e.v. R. Bosshadt: Optische Distanz messung und Polarkoornaten Methode mit besonderer berücksichitgung des Reduktionstachymeters. J. Dubbeld en G.F. Witt (Lab. voor GEODESIE): Optische Lengtem"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Afstandmeter door H. Wild Werkstätte (GEO.2000.0260)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/799a874b-9eca-4102-b884-7a803b873edd/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/799a874b-9eca-4102-b884-7a803b873edd/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/799a874b-9eca-4102-b884-7a803b873edd.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/e7f5b9b6-3854-453a-b985-0e33f694adef/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/799a874b-9eca-4102-b884-7a803b873edd/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Signaallamp met lens en oliepitbrander"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "lamp"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0383.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "107,0 (h)  * 60,0 (b)  * 70,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, textiel, glas, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Signaallamp met een lens, twee handvatten en een oliepitbrander, als hulpmiddel bij het richting meten met een theodoliet bij nachtmetingen, zoals bijv. astronomische waarnemen. Kan ook gebruikt worden voor de randaflezing van een theodoliet."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/4ce7c852-eb62-4a6d-af2f-3ed6a7a4ae45/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/4ce7c852-eb62-4a6d-af2f-3ed6a7a4ae45/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/4ce7c852-eb62-4a6d-af2f-3ed6a7a4ae45.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/e6f30566-ffc0-4a94-bd64-11c0d3f62547/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/4ce7c852-eb62-4a6d-af2f-3ed6a7a4ae45/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Arceerapparaat door Riefler"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "arceerapparaat"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2003.0011.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "Riefler  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "15,0 (h)  * 250,0 (b)  * 170,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "messing"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Arceerapparaat door Riefler, hulpstuk om tekeningen of kaarten te arceren. De arm van het hulpstuk, dat bedoeld is om op de liniaal van een tekenmachine te worden gemonteerd, kan onder een willekeurige hoek worden geplaatst en in die stand nauwkeurig met een vaste afstand worden verplaatst. Hierdoor wordt het mogelijk een tekening of kaart nauwkeurig te arceren."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/08d5ce26-ebbf-4f24-a31b-8227de52784f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/08d5ce26-ebbf-4f24-a31b-8227de52784f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/08d5ce26-ebbf-4f24-a31b-8227de52784f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/0bedd536-e200-4a29-99b5-ab5634e91a74/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/08d5ce26-ebbf-4f24-a31b-8227de52784f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

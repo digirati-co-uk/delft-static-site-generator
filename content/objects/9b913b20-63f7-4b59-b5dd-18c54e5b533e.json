@@ -1,0 +1,188 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Chess Challenger schaakcomputer door Fidelity Electronics"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schaakcomputer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "1998.0011.TMD"
+        },
+        {
+            "label": "Datering",
+            "value": "1975 - 2000"
+        },
+        {
+            "label": "Maker",
+            "value": "Fidelity Electronics  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "60,0 (h)  * 410,0 (b)  * 270,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "kunststof, metaal, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Elektronische schaakcomputer door Fidelity Electronics in een met de hand vervaardigd houten koffertje. Op het deksel is een metalen plaatje bevestigd met de tekst: 'Ter nagedachtenis aan Albert de Haan (overleden) 29 oktober 1979'."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/9b913b20-63f7-4b59-b5dd-18c54e5b533e/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/9b913b20-63f7-4b59-b5dd-18c54e5b533e/range/range-0-0.json",
+            "label": "0"
+        },
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/9b913b20-63f7-4b59-b5dd-18c54e5b533e/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/9b913b20-63f7-4b59-b5dd-18c54e5b533e/range/range-0-1.json",
+            "label": "1"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/9b913b20-63f7-4b59-b5dd-18c54e5b533e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 1818,
+                            "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4",
+                            "height": 1228
+                        },
+                        "width": 1818,
+                        "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/full/1024,692/0/default.jpg",
+                        "height": 1228
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 692
+                            },
+                            {
+                                "width": 400,
+                                "height": 270
+                            },
+                            {
+                                "width": 200,
+                                "height": 135
+                            },
+                            {
+                                "width": 100,
+                                "height": 68
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 1024,
+                        "@id": "https://dlc.services/thumbs/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 692
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 1818,
+                "@id": "https://dlc.services/iiif-img/7/18/7f5d8c2e-a78b-4ab1-8aa4-ef4ba3971bb4/canvas/c0",
+                "label": "Image",
+                "height": 1228
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 3072,
+                            "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85",
+                            "height": 2048
+                        },
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/full/1024,683/0/default.jpg",
+                        "height": 2048
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 683
+                            },
+                            {
+                                "width": 400,
+                                "height": 267
+                            },
+                            {
+                                "width": 200,
+                                "height": 133
+                            },
+                            {
+                                "width": 100,
+                                "height": 67
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 1024,
+                        "@id": "https://dlc.services/thumbs/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 683
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 3072,
+                "@id": "https://dlc.services/iiif-img/7/18/9db0cd60-c64f-4a45-88be-b0502be8da85/canvas/c0",
+                "label": "Image",
+                "height": 2048
+            }
+        ],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/9b913b20-63f7-4b59-b5dd-18c54e5b533e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

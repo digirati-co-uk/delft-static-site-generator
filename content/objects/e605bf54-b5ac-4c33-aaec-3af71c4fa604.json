@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van Frans van Hasselt door M.L. van Hasselt"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2011.0007.CVB"
+        },
+        {
+            "label": "Datering",
+            "value": "1937 - 1940"
+        },
+        {
+            "label": "Maker",
+            "value": "Hasselt, Margot van  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.480,0 (h)  * 1.130,0 (b)  * 60,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Margaretha Livina (Margot) van Hasselt (1879\u20131935) maakte eind jaren \u201930 dit portret van haar neef Johan Barthold Frans van Hasselt (1913\u20131942). <\/br>Op 23 november 1940 sprak Frans van Hasselt, destijds voorzitter van het gezelschap Practische Studie, een groep studenten toe die zich hadden verzameld uit protest tegen het gedwongen ontslag van Joodse docenten. Het leidde tot een spontane protestactie: een studentenstaking waarbij veel van het onderwijs niet door kon gaan. Als gevolg van de staking besloot de Duitse bezetter de Technische Hogeschool te sluiten. <\/br>Van Hasselt werd in de zomer van 1941 opgepakt en overleed, waarschijnlijk door uitputting, in het concentratiekamp Buchenwald op 10 september 1942."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "van Hasselt, Frans"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Schilderij '1940-1945 studenten streden en leden' door prof. G. de Josselin de Jong;Herdenkingsplaquette voor gevallenen van WOII door prof. L.O. Wenckebach ;Gedenksteen voor Frans van Hasselt (CVB.2007.0103;CVB.2020.0001;CVB.2011.0008)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/e605bf54-b5ac-4c33-aaec-3af71c4fa604/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/e605bf54-b5ac-4c33-aaec-3af71c4fa604/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/e605bf54-b5ac-4c33-aaec-3af71c4fa604.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3928,
+                        "@id": "https://dlc.services/iiif-img/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe",
+                        "height": 5085
+                    },
+                    "width": 3928,
+                    "@id": "https://dlc.services/iiif-img/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe/full/791,1024/0/default.jpg",
+                    "height": 5085
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 791,
+                            "height": 1024
+                        },
+                        {
+                            "width": 309,
+                            "height": 400
+                        },
+                        {
+                            "width": 154,
+                            "height": 200
+                        },
+                        {
+                            "width": 77,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 791,
+                    "@id": "https://dlc.services/thumbs/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3928,
+            "@id": "https://dlc.services/iiif-img/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe/canvas/c0",
+            "label": "Image",
+            "height": 5085
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e605bf54-b5ac-4c33-aaec-3af71c4fa604/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

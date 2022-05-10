@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Metalen meetwiel aan bamboe stok door Wittmann"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "odometer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0213.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Wittmann (Wenen)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "970,0 (h)  * 100,0 (b)  * 40,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Metalen meetwiel aan een bamboe stok. De omwentelingen van het meetwiel worden op een telwerk geregistreerd. Bij dit meetwiel is één omwenteling dertig centimeter."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Vogler blz 294 met vermelding dat de werkplaats van Wittmann niet meer bestaat. Jordan 2 1888 blz 31."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/884f3874-a9ec-4860-939b-03d6fa469670/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d6c6ee88-f159-46be-914f-e18e51b9f166/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d6c6ee88-f159-46be-914f-e18e51b9f166/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/d6c6ee88-f159-46be-914f-e18e51b9f166.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/884f3874-a9ec-4860-939b-03d6fa469670",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/884f3874-a9ec-4860-939b-03d6fa469670/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/884f3874-a9ec-4860-939b-03d6fa469670/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/884f3874-a9ec-4860-939b-03d6fa469670/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/884f3874-a9ec-4860-939b-03d6fa469670",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/884f3874-a9ec-4860-939b-03d6fa469670/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/884f3874-a9ec-4860-939b-03d6fa469670/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d6c6ee88-f159-46be-914f-e18e51b9f166/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

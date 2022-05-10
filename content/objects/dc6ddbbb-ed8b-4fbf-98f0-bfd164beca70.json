@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Statief voor équerre of Hollandse cirkel"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0543.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1800 - 1900"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.350,0 (h)  * 550,0 (b)  * 550,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Voor het plaatsen van geodetisch instrument zoals een equerre of een Hollandse cirkel of een flesjeswaterpas. Statief voor een equerre of een Hollandse cirkel, door een ingenieuze constructie kan de verticale as heel precies verticaal gesteld worden. Onderdeel van een geodetisch meetinstrument (2000.0178.GEO)."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Flesjeswaterpas (GEO.2000.0178)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/dc6ddbbb-ed8b-4fbf-98f0-bfd164beca70/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/dc6ddbbb-ed8b-4fbf-98f0-bfd164beca70/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/dc6ddbbb-ed8b-4fbf-98f0-bfd164beca70.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/bf7ebe03-5a20-4d0e-b74e-d2f4a8881f40/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/dc6ddbbb-ed8b-4fbf-98f0-bfd164beca70/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

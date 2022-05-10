@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Richtkompas door M. Hildebrand"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "richtkompas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0314.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1932 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Hildebrand, Max  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "180,0 (h)  * 210,0 (b)  * 210,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Boussole-tachymetertheodoliet door M. Hildebrand, voor zowel detailmeting volgens de voerstraal methode als eenvoudige tijd en/of plaats bepaling in de tropen. Een eenheids-bergboussole voorzien van richtkijker met draden afstandmeter van Horstink. In 1932 werden door luitenant-kolonel J. Th. Horstink van de Topografische Dienst van Nederlands-Indië enkele voorstellen gedaan tot verbetering van de bergboussole. Hieruit is dit instrument ontstaan. De voornaamste verbeteringen zijn: horizontale en verticale afstandsdraden, een extra gewone horizontale rand en een afneembaar niveau op de kijker. Het instrument heeft een Nederlandse kompasaanduiding: rechtsom Noord, Oost, Zuid, West. Zie ook 2000.0254.GEO voor de oude bergboussole, en 2000.0879.GEO voor de opvolger van dit model. Het bijbehorende statief heeft als inventarisnummer 2000.0513.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Berg-boussole volgens M. Hildebrand door Kipp & Zonen;Bergboussole door M. Hildebrand;Statief van boussole-tachymetertheodoliet door M. Hildebrand (GEO.2000.0254;GEO.2000.0879;GEO.2000.0513)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/09412167-eaa1-48ba-ac19-352231347e76/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/05a53e6d-2298-4f85-a58a-b25bcbefd6d5/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/05a53e6d-2298-4f85-a58a-b25bcbefd6d5/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/05a53e6d-2298-4f85-a58a-b25bcbefd6d5.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/09412167-eaa1-48ba-ac19-352231347e76",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/09412167-eaa1-48ba-ac19-352231347e76/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/09412167-eaa1-48ba-ac19-352231347e76/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/09412167-eaa1-48ba-ac19-352231347e76/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/09412167-eaa1-48ba-ac19-352231347e76",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/09412167-eaa1-48ba-ac19-352231347e76/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/09412167-eaa1-48ba-ac19-352231347e76/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/05a53e6d-2298-4f85-a58a-b25bcbefd6d5/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Meetketting met twee handvatten en drie kettingen"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "meetketting"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0076.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,0 (h)  * 80,0 (b)  * 60,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geodetisch meetinstrument voor het bepalen van grote afstanden met geringe nauwkeurigheid, zoals rivierbreedte bepaling. Een simpele afstandmeter, met twee handvatten die door driekettingen bij elkaar gehouden worden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift für Instrumenten 1895 blz 112 Duitse benaming Entfernungsanzeiger D.R. patent 28 Dezember 1892."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d9316afb-ea8a-4829-86c4-24f4194969b2/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d9316afb-ea8a-4829-86c4-24f4194969b2/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/d9316afb-ea8a-4829-86c4-24f4194969b2.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/a7424ee9-5b57-4c5a-a091-d5a4501a1f56/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d9316afb-ea8a-4829-86c4-24f4194969b2/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

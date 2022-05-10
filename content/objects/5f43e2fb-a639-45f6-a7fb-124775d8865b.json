@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Spiegelhoekmeter volgens A. Lipkens"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "spiegelhoekmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0203.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1850"
+        },
+        {
+            "label": "Maker",
+            "value": "Lipkens, Antoine  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "22,0 (h)  * 110,0 (b)  * 25,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Spiegelhoekmeter volgens A. Lipkens voor het uitzetten en meten van vaste hoeken van 45, 90, 180, 60 en 120 graden. Dit instrument is naar een ontwerp van A. Lipkens (eerste directeur Polytechnische School Delft vanaf 1842)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "In zijn Luxemburgse tijd heeft Lipkens enige meetinstrumentjes uitgevonden, waarvan de bekendste het spiegelkruis of \u201céquerre à miroirs\" was. Dit spiegelkruis is onder meer uitvoerig beschreven in de <\/br>landmeetkundeboeken van Gisius Nanning (\"Handleiding tot de werkdadige meetkunst\u201d, Deel 2, Delft, 1829, pp. 200-204), Van Kerkwijk (\u201cGeodesie voor de kadetten van alle wapenen\u201d, tweede druk, Breda, 1847, pp. 50-55) en Barenbroek (\"Beginselen der Werkdadige Meetkunst\u201d, Groningen, 1867, pp. 10-12). Daarnaast heeft Tutein Nolthenius in 1950 in een artikel over Antoine Lipkens uitgebreid aandacht besteed aan dit instrument ('Antoine Lipkens\u2019 in: \u201cTijdschrift voor Kadaster en Landmeetkunde, 1950, pp. 84-91). Ook in Duitsland is het instrument bekend geworden en wel onder de naam Spiegel-Winkelmesser; de naam van Lipkens is daarbij echter om onbegrijpelijke redenen verduitst tot \"Kataster-Director Lüpkens\u201d (Schneitler, \"Die Instrumente und Werkzeuge der höheren und niederen Meszkunst\u201d, Leipzig, 1858, p.78)."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/676679f9-88cf-46db-aee7-636374f145fa/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/5f43e2fb-a639-45f6-a7fb-124775d8865b/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/5f43e2fb-a639-45f6-a7fb-124775d8865b/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/5f43e2fb-a639-45f6-a7fb-124775d8865b.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/676679f9-88cf-46db-aee7-636374f145fa",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/676679f9-88cf-46db-aee7-636374f145fa/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/676679f9-88cf-46db-aee7-636374f145fa/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/676679f9-88cf-46db-aee7-636374f145fa/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/676679f9-88cf-46db-aee7-636374f145fa",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/676679f9-88cf-46db-aee7-636374f145fa/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/676679f9-88cf-46db-aee7-636374f145fa/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/5f43e2fb-a639-45f6-a7fb-124775d8865b/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

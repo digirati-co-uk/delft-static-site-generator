@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Tachymeter-theodoliet door Maison Richer Guyard Canary et Cie."
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tachymeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0273.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Maison Richer Guyard Canary et Cie. (Parijs)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "300,0 (h)  * 220,0 (b)  * 180,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een tachymeter-theodoliet (tachéomètre) met repetitie inrichting en diametraal aflezing, van Richer volgens systeem Moinot op een vast stelschroevenblok en met een oriënteringskijker met kompas (ook wel boussole). Dit instrument is bestemd voor tachymetrische metingen, ofwel voor het opmeten van het terrein volgens de voerstraalmethode (richting en afstand). De kijker is volgens het principe van Porro, met gegraveerde afstandsdraden. Horizontale rand met schaal van 0-400 graden (nonius 2 centigraad), Verticale rand met schaal van 0-400 graden (nonius 2 centigraad). Klem- en fijn beweging horizontaal op rand, verticaal op de tweede as. Voor documentatie zie 2000.0010.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Levés de plans à la stadia. Notes pratiques pour études de tracés par I. Moinot Ingénieur Civil Ancien Ingénieur des études du Réseau Central de la Compagnie d'Orléans. 2me Édition Revue et simplifiée. (Périgueux 1874). blz 17 staat dat M Richer twee mode"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Tachymeter-theodoliet door Richer type Moinot (GEO.2000.0010)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/0eda3a3f-3ed3-43b7-8721-82a59f59a35a/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/0eda3a3f-3ed3-43b7-8721-82a59f59a35a/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/0eda3a3f-3ed3-43b7-8721-82a59f59a35a.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/914159b6-8a1b-48d3-b20c-515f97dc0fe8/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/0eda3a3f-3ed3-43b7-8721-82a59f59a35a/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

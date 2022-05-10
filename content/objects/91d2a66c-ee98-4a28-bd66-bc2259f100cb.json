@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasinstrument door E. Wenckebach"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0059.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "mid 19th century"
+        },
+        {
+            "label": "Maker",
+            "value": "Wenckebach, Eduard (Nederlands, 1813 - 1874)  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "170,0 (h)  * 335,0 (b)  * 140,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Waterpasinstrument door E. Wenckebach, op een vast stelschroevenblok voor een doorgaande waterpassing als een vlaktewaterpassing met een waterpasbaak. Het instrument is voorzien van een horizontale rand, een hellingschroef en een gradenboog van 360 graden. Dit type heeft ronde tappen en een ruiterniveau."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/91d2a66c-ee98-4a28-bd66-bc2259f100cb/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/91d2a66c-ee98-4a28-bd66-bc2259f100cb/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/91d2a66c-ee98-4a28-bd66-bc2259f100cb.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/34c1c195-b0e7-4bef-ae64-15bb157cf0c2/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/91d2a66c-ee98-4a28-bd66-bc2259f100cb/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Pantograaf met ivoren wieltjes volgens C. Scheiner"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "pantograaf"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0135.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1750 - 1800"
+        },
+        {
+            "label": "Maker",
+            "value": "Scheiner, Christoph  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "70,0 (h)  * 400,0 (b)  * 300,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Pantograaf met ivoren wieltjes voor het vergroten of verkleinen van tekeningen. Het instrument is in 1603 uitgevonden door de Duitse Jezuïet Christopher Scheiner (1573-1650)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "http://www.faculty.fairfield.edu/jmac/sj/scientists/scheiner.htm Wybter &Turner"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/193ff30b-4e3f-45bc-a00c-f4d10a5205d9/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/193ff30b-4e3f-45bc-a00c-f4d10a5205d9/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/193ff30b-4e3f-45bc-a00c-f4d10a5205d9.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/01edfafe-f9fa-4b59-8809-8d8689e0b1de/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/193ff30b-4e3f-45bc-a00c-f4d10a5205d9/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

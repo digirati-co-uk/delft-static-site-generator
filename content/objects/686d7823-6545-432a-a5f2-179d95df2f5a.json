@@ -1,0 +1,127 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Uurwerk door Strasser & Rohde No. 277"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "uurwerk"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0537.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1904"
+        },
+        {
+            "label": "Maker",
+            "value": "Strasser & Rohde  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.080,0 (h)  * 320,0 (b)  * 390,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout"
+        },
+        {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2821978\">Glashütte, Duitsland<\/a>"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Dit slingeruurwerk werd in 1901 besteld door de Rijkscommissie voor Graadmeting en Waterpassing en in 1904 afgeleverd. Het was bestemd om gebruikt te worden bij het slingerinstrument van Defforges (zie 2000.0536.GEO), ter bepaling van de zwaartekrachtverschillen. De combinatie klok en slingerinstrument heeft nooit goed gewerkt, en is later vervangen. De lengte van de slinger is later aangepast. Vanaf 1907 zijn er testen uitgevoerd met deze klok, zie de koffer van Vening Meinesz (2000.0900.GEO).<\/br>De pendel is gemaakt door Riefler (Sigmund Riefler 1847-1912) van het type L, D.R.P. 100870, nr. 70 (Achtzigschläger, voor tachtig slingeringen per minuut). Deze pendel is een nikkelstaalcompensatiependel en is op 21 mei 1902 aan Strasser & Rohde geleverd. Het slingerslot voor transport is alleen voor deze klok ontworpen. "
+        },
+        {
+            "label": "Documentatie",
+            "value": "zie NCG publicaties en de aantekeningen van Modderman uit 1907 en 1908 die zich in de koffer van Vening Meinesz bevinden."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Gravimeter door Defforges met bijbehorende slinger door Bianchi;Koffer met logboeken, aantekenboeken en papieren door Prof. Dr. Ir. F.A. Vening Meinesz en E.A.J.H. Modderman;Slingeruurwerk door Strasser & Rohde No. 233 (GEO.2000.0536;GEO.2000.0900;GEO.2005.0007)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/686d7823-6545-432a-a5f2-179d95df2f5a/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/686d7823-6545-432a-a5f2-179d95df2f5a/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/686d7823-6545-432a-a5f2-179d95df2f5a.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2808,
+                        "@id": "https://dlc.services/iiif-img/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85",
+                        "height": 3502
+                    },
+                    "width": 2808,
+                    "@id": "https://dlc.services/iiif-img/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85/full/821,1024/0/default.jpg",
+                    "height": 3502
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 821,
+                            "height": 1024
+                        },
+                        {
+                            "width": 321,
+                            "height": 400
+                        },
+                        {
+                            "width": 160,
+                            "height": 200
+                        },
+                        {
+                            "width": 80,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 821,
+                    "@id": "https://dlc.services/thumbs/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2808,
+            "@id": "https://dlc.services/iiif-img/7/18/ba48f70b-04fc-455b-af8a-047c8fcc0a85/canvas/c0",
+            "label": "Image",
+            "height": 3502
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/686d7823-6545-432a-a5f2-179d95df2f5a/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

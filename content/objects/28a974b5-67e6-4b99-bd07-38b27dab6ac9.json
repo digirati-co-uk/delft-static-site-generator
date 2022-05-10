@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Demonstratiemodel van de stralengang van T1 theodoliet door H. Wild Werkstätte"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0413.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1975 - 2000"
+        },
+        {
+            "label": "Maker",
+            "value": "H. Wild Werkstätte für Feinmechanik und Optik (Heerbrugg)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "70,0 (h)  * 325,0 (b)  * 220,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, glas, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een onderwijsmodel die de stralengang van een theodoliet type Wild T1 door H. Wild Werkstätte für Feinmechanik und Optik demonstreert. Zie 2000.0411.GEO voor een theodoliet van dit type."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Repetitietheodoliet door H. Wild Werkstätte type T1 (GEO.2000.0411)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/28a974b5-67e6-4b99-bd07-38b27dab6ac9/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/28a974b5-67e6-4b99-bd07-38b27dab6ac9/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/28a974b5-67e6-4b99-bd07-38b27dab6ac9.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/0fe6c3ee-9783-4a16-80ea-53d38bf61a63/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/28a974b5-67e6-4b99-bd07-38b27dab6ac9/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

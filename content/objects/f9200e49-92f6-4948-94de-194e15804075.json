@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Tachymeter door Otto Fennel "
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tachymeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0197.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1903"
+        },
+        {
+            "label": "Maker",
+            "value": "Otto Fennel & Söhne (Kassel)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "540,0 (h)  * 300,0 (b)  * 470,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, glas, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Tachymeter door Otto Fennel & Söhne, voor richting- en (gereduceerde) afstandmeting. Deze tachymeter is uitgevoerd als een schuiftachymeter naar een ontwerp van twee Belgische officieren; Pequellier en Wagner. Vervaardigd door Otto Fennel & Söhne in Kassel."
+        },
+        {
+            "label": "Documentatie",
+            "value": "http://www.surveyhistory.org/tacheometer.htm W. Tinter: Osterreichische Zeitschrift für Vermessungswesen 1876 Heft 5-8. C. Wagners Tachygraphometer J. Dubbeld en G.F. Witt (Lab. voor GEODESIE): Optische Lengtemeting (vervolg) 1970 blz 110 en 111. Otto Fen"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Statief voor tachymeter-theodoliet door Otto Fennel & Söhne (GEO.2000.0515)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/f9200e49-92f6-4948-94de-194e15804075/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/f9200e49-92f6-4948-94de-194e15804075/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/f9200e49-92f6-4948-94de-194e15804075.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2813,
+                        "@id": "https://dlc.services/iiif-img/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7",
+                        "height": 2018
+                    },
+                    "width": 2813,
+                    "@id": "https://dlc.services/iiif-img/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7/full/1024,735/0/default.jpg",
+                    "height": 2018
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 735
+                        },
+                        {
+                            "width": 400,
+                            "height": 287
+                        },
+                        {
+                            "width": 200,
+                            "height": 143
+                        },
+                        {
+                            "width": 100,
+                            "height": 72
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 735
+                },
+                "@id": "https://dlc.services/thumbs/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2813,
+            "@id": "https://dlc.services/iiif-img/7/18/58fb5752-e8b1-477d-b95e-dc6049c595b7/canvas/c0",
+            "label": "Image",
+            "height": 2018
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/f9200e49-92f6-4948-94de-194e15804075/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

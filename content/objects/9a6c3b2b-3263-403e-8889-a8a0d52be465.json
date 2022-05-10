@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Peilmerk Amsterdams Peil"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "merkplaat"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2003.0002.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1890"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,0 (h)  * 117,0 (b)  * 196,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Peilmerk Amsterdams Peil, voor het vastleggen van een hoogte t.o.v. het Amsterdams Peil. Het Amsterdams Peil was van 1802 tot 1886 het officiële 0-niveau in Nederland."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/9a6c3b2b-3263-403e-8889-a8a0d52be465/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/9a6c3b2b-3263-403e-8889-a8a0d52be465/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/9a6c3b2b-3263-403e-8889-a8a0d52be465.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/d5619606-9cab-46ce-826b-e0e7e2f33a61/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/9a6c3b2b-3263-403e-8889-a8a0d52be465/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

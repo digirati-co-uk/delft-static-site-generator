@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Set van 7 tekeningen van tachymeter ontwikkeld door M.J.M. Bogaerts"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tekening"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0005.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "TU Delft  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "470,0 (b)  * 430,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Set van 7 tekeningen van het electronisch gedeelte van de afstandmeter van de totalstation of tachymeter van M.J.M. Bogaerts.<\/br><\/br>1. Digitale fasemeter <\/br><\/br>2. Schuifregister en teller detailpuntnummer <\/br><\/br>3. Generator<\/br><\/br>4. Tijdbasis <\/br><\/br>5. Registratie <\/br><\/br>6. Overzicht elektronisch gedeelte <\/br><\/br>7. Blokschema<\/br><\/br>Zie ook  inventarisnummer 2005.0003.GEO, 2003.0008.GEO en 2003.0009.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Bogaerts M.J.M. A self-reducing range-finder with an automatic registration system. Delft z.j."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Basisreductietachymeter ontwikkeld door M.J.M. Bogaerts en TU Delft;Tachymeter door TU Delft en Optische Industrie \"De Oude Delft\";Tachymeter door TU Delft en Optische Industrie \"De Oude Delft\" (GEO.2005.0003;GEO.2003.0008;GEO.2003.0009)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/2f9f32d0-b1e4-4d73-833c-8a489cbb34e2/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/2f9f32d0-b1e4-4d73-833c-8a489cbb34e2/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/2f9f32d0-b1e4-4d73-833c-8a489cbb34e2.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/729abaa7-e73e-449b-b1d1-5619c01262c1/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/2f9f32d0-b1e4-4d73-833c-8a489cbb34e2/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

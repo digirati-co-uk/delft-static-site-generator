@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Pantometer door Pessler & Sohn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "pantometer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0347.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Pessler & Sohn (Freiberg)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "225,0 (h)  * 185,0 (b)  * 185,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "koper, glas, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Pantometer door Pessler & Sohn, voor detailmeting en uitzetten van haakse hoeken. Dit is een pantometer met boussole (kompas) voor het bepalen van richtingen t.o.v. het magnetisch noorden en uitzetten van haakse hoeken. De pantometer heeft een doosniveau en een kan op een stok geplaatst worden. Dit instrument is gebruikt door de Landmeetkundige Dienst van Delft. "
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Draaibaar prisma door Spindler & Hoyer;Statief voor pantometer (GEO.2000.0370;GEO.2000.0851)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/6f6925fb-8c5c-47e1-818c-c61b8286cf5d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/6f6925fb-8c5c-47e1-818c-c61b8286cf5d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/6f6925fb-8c5c-47e1-818c-c61b8286cf5d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/4cc87258-f9e6-4680-b1b6-30e270a0f06b/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/6f6925fb-8c5c-47e1-818c-c61b8286cf5d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

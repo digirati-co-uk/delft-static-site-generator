@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Delftsblauwe gedenktegel"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tegel"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0332.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1982"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h)  * 155,0 (b)  * 155,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "keramiek"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een Delftsblauwe gedenktegel die is uitgegeven door de Nederlandse Vereniging voor Geodesie ter gelegenheid van de bijeenkomst van het Permanent Committee van de Fédération Internationale des Géomètres (FIG) in Den Haag op 21 - 24 juni 1962. De tegel is geglazuurd. De afbeelding is naar de titelillustratie van het boek (1662) van Mattheus van Nispen, 'De beknopte Lant-Meet-Konst'."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/533e0f5c-88d2-4f35-a5ba-8a9763b21815/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/533e0f5c-88d2-4f35-a5ba-8a9763b21815/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/533e0f5c-88d2-4f35-a5ba-8a9763b21815.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/8b269597-0bb4-4727-913d-5a3d07a48a54/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/533e0f5c-88d2-4f35-a5ba-8a9763b21815/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

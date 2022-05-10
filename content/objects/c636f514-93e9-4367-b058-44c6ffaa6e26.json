@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Rekencilinder door Laboratorium van Geodesie"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "rekencilinder"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0149.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Laboratorium van Geodesie  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "65,0 (h)  * 365,0 (b)  * 53,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier, karton, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een rekencilinder (werkt als een rekenliniaal) voor vermenigvuldigen, delen. Dit is een prototype voor een rekencilinder voor technisch-wetenschappelijk rekenwerk. Het object is gevonden in de nalatenschap van de Delftse hoogleraar J.M. Tienstra. Verdere toelichting ontbreekt."
+        },
+        {
+            "label": "Herkomst",
+            "value": "Tienstra, J.M."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c636f514-93e9-4367-b058-44c6ffaa6e26/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c636f514-93e9-4367-b058-44c6ffaa6e26/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/c636f514-93e9-4367-b058-44c6ffaa6e26.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/115a0f4b-c9aa-457e-b0ed-d4dad426a7c7/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c636f514-93e9-4367-b058-44c6ffaa6e26/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

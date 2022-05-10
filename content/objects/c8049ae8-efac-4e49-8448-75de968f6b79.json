@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van kroonprins Willem Alexander Paul Frederik Lodewijk van Oranje Nassau door N. Pieneman"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2008.0029.CVB"
+        },
+        {
+            "label": "Datering",
+            "value": "1844"
+        },
+        {
+            "label": "Maker",
+            "value": "Pieneman, Nicolaas  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "2.100,0 (h)  * 1.450,0 (b) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geschilderd portret van kroonprins Willem Alexander Paul Frederik Lodewijk van Oranje Nassau, de latere Koning Willem III, beschermheer van de Koninklijke Academie voor Burgelijk Ingenieurs.<\/br>Geschilderd door Nicolaas Pieneman."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "van Oranje Nassau, Willem Alexander Paul Frederik Lodewijk"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c8049ae8-efac-4e49-8448-75de968f6b79/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c8049ae8-efac-4e49-8448-75de968f6b79/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/c8049ae8-efac-4e49-8448-75de968f6b79.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3905,
+                        "@id": "https://dlc.services/iiif-img/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f",
+                        "height": 5067
+                    },
+                    "width": 3905,
+                    "@id": "https://dlc.services/iiif-img/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f/full/789,1024/0/default.jpg",
+                    "height": 5067
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 789,
+                            "height": 1024
+                        },
+                        {
+                            "width": 308,
+                            "height": 400
+                        },
+                        {
+                            "width": 154,
+                            "height": 200
+                        },
+                        {
+                            "width": 77,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 789,
+                    "@id": "https://dlc.services/thumbs/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3905,
+            "@id": "https://dlc.services/iiif-img/7/18/b5218e9d-ff3c-4168-96e7-c53164e5246f/canvas/c0",
+            "label": "Image",
+            "height": 5067
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c8049ae8-efac-4e49-8448-75de968f6b79/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

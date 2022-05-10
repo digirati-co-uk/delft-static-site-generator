@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasinstument door Gebroeders Caminada"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0109.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1863"
+        },
+        {
+            "label": "Maker",
+            "value": "Firma Gebr. Caminada (Rotterdam)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "210,0 (h)  * 415,0 (b)  * 210,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Waterpasinstrument door de Gebroeders Caminada, met een boussole en dwars geplaatst niveau. Dit instrument is een zogenaamde \"Dumpy level\" van Gravatt (1830) met wijzigingen van dr. L. Cohen. Is ingezet ter voorbereiding van de eerste nauwkeurigheidswaterpassing."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Notulen K.I.v. I 1863-1864 blz 195 e.v. mededeling van L. Cohen Stuart. A TREATISE ON ENGINEERING FIELD-WORK: CONTAINING PRACTICAL LAND SURVEYING FOR RAILWAYS &c. WITH THE THEORY PRINCIPLES AND PRACTICE OF LEVELLING AND THEIR APPLICATION TO THE PURPOSES O"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/734ff691-1aab-4143-a5cc-2db55c74f0ab/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/734ff691-1aab-4143-a5cc-2db55c74f0ab/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/734ff691-1aab-4143-a5cc-2db55c74f0ab.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/ab9c252e-7d7f-4d02-a426-f74ac53d6900/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/734ff691-1aab-4143-a5cc-2db55c74f0ab/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Tekening van J.B.M. Hauser van de tachymeter van M.J.M. Bogaerts"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tekening"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0006.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1960 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "TU Delft  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "720,0 (b)  * 510,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Tekening van J.B.M. Hauser van het ontwerp van het total station van M.J.M. Bogaerts. De ontwikkeling van de electronica was op dat moment nog niet compact genoeg en kon niet geplaatst worden binnen de contouren van dit ontwerp. Beide prototypes zijn daarom voorzien van extra voorzieningen t.b.v. de electronica.<\/br><\/br>Twee prototypes van dit total station zijn opgenomen in de collectie onder 2005.003.GEO, 2003.008.GEO en 2003.009.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Bogaerts M.J.M. A self-reducing range-finder with an automatic registration system. Delft z.j."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/3e760cfc-fb2d-4bff-84ce-ae042099c27a/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/3e760cfc-fb2d-4bff-84ce-ae042099c27a/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/3e760cfc-fb2d-4bff-84ce-ae042099c27a.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/04f147f1-e063-442d-9e9f-e50d7c39ff9c/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/3e760cfc-fb2d-4bff-84ce-ae042099c27a/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

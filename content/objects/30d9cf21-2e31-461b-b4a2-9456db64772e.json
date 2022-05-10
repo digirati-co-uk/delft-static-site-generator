@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Vizierliniaal met richtkijker door Mansuéte Descamps"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "vizierliniaal"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0003.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Mansuéte Descamps  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "125,0 (h)  * 390,0 (b)  * 40,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Vizierliniaal door Mansuéte Descamps, door landmeters of topografen gebruikt bij het maken van tekeningen op een tafel  (planchet) in het terrein. De kijker werd gericht op een te meten object zodat met de liniaal de richting kon worden uitgetekend."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Dr. C.M.Schols Landmeten en waterpssen (8e druk hoofdstuk 6)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/79a256da-b990-4ed4-be0d-f00783464696/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/30d9cf21-2e31-461b-b4a2-9456db64772e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/30d9cf21-2e31-461b-b4a2-9456db64772e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/30d9cf21-2e31-461b-b4a2-9456db64772e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/79a256da-b990-4ed4-be0d-f00783464696",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/79a256da-b990-4ed4-be0d-f00783464696/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/79a256da-b990-4ed4-be0d-f00783464696/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/79a256da-b990-4ed4-be0d-f00783464696/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/79a256da-b990-4ed4-be0d-f00783464696",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/79a256da-b990-4ed4-be0d-f00783464696/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/79a256da-b990-4ed4-be0d-f00783464696/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/30d9cf21-2e31-461b-b4a2-9456db64772e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

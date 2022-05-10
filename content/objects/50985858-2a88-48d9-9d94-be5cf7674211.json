@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Koperen vizierliniaal"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "liniaal (geleidingsgereedschap)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2006.0016.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1700 - 1800"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "160,0 (h)  * 460,0 (b)  * 55,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "koper"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Vizierliniaal om met een planchet (tekentafel) in het terrein direct richtingen op een kaart in te tekenen. De bijbehorende planchet is niet meer aanwezig. Het instrument zelf is van koper en voorzien van twee paardenharen. Het kan van twee kanten gebruikt worden. Door middel van de voorwaartse inkeping kon met behulp van de twee bekende punten de omgeving in kaart worden gebracht. Deze methode werd al gebruikt door Jacob van Deventer in de 16e eeuw."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/50985858-2a88-48d9-9d94-be5cf7674211/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/50985858-2a88-48d9-9d94-be5cf7674211/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/50985858-2a88-48d9-9d94-be5cf7674211.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/0fc5b678-479b-4a05-9ea0-3b92bcc6b5e1/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/50985858-2a88-48d9-9d94-be5cf7674211/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

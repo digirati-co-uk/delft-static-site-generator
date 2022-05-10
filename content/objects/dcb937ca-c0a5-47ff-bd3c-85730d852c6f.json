@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Afstandmeter volgens T.H. Snoeck en beschreven door F.H. Snoeck"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "afstandmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0048.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1860 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Snoeck, T.H.  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "45,0 (h)  * 135,0 (b)  * 65,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Afstandsmeter naar een ontwerp van Snoeck in een met textiel bekleed houten doosje. Bij deze afstandmeter behoort een geschreven beschrijving van F.H. Snoeck uit 1865."
+        },
+        {
+            "label": "Documentatie",
+            "value": "POULS H.C. \"Nederlands fabrikaat\" in Geodesia nederlands geodetisch tijdschrift: De afstandmeter van T.H. Snoeck (ca.1865), pp.202-5. F.H.Snoeck (Majoor der Artillerie). Afstandmeter (handschrift) 30 juli 1865."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/dcb937ca-c0a5-47ff-bd3c-85730d852c6f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/dcb937ca-c0a5-47ff-bd3c-85730d852c6f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/dcb937ca-c0a5-47ff-bd3c-85730d852c6f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/c2f0d658-faa4-4104-9771-a9ab432a10c4/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/dcb937ca-c0a5-47ff-bd3c-85730d852c6f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

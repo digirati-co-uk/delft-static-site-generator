@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Onderwijsmodel voor de praktijk van fotogrammetrie"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "fotogrammeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2012.0004.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1930 - 1940"
+        },
+        {
+            "label": "Maker",
+            "value": "Konsortium Luftbild GmbH (München)  (producent)"
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Stereo-plotter gebruikt als onderwijsmodel voor onderwijs in de fotogrammetrie (Geodesie). In het apparaat kunnen twee foto\u2019s (glasplaten) worden geplaatst vanuit twee verschillende hoeken. Via twee oculairs wordt dit als een stereobeeld gezien. Met behulp van de stift kunnen overeenkomstige punten geplot worden op de bijbehorende tekenplaat. Gebruikt tussen 1930 en 1940 bij de colleges van prof. Schermerhorn."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/42b3bd2b-5e3d-4129-ae9f-8a526e6e8028/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/42b3bd2b-5e3d-4129-ae9f-8a526e6e8028/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/42b3bd2b-5e3d-4129-ae9f-8a526e6e8028.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 4631,
+                        "@id": "https://dlc.services/iiif-img/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624",
+                        "height": 2967
+                    },
+                    "width": 4631,
+                    "@id": "https://dlc.services/iiif-img/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624/full/1024,656/0/default.jpg",
+                    "height": 2967
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 656
+                        },
+                        {
+                            "width": 400,
+                            "height": 256
+                        },
+                        {
+                            "width": 200,
+                            "height": 128
+                        },
+                        {
+                            "width": 100,
+                            "height": 64
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 656
+                },
+                "@id": "https://dlc.services/thumbs/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 4631,
+            "@id": "https://dlc.services/iiif-img/7/18/9f66ddb4-c7fa-4fd8-a3d6-fc60059a3624/canvas/c0",
+            "label": "Image",
+            "height": 2967
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/42b3bd2b-5e3d-4129-ae9f-8a526e6e8028/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

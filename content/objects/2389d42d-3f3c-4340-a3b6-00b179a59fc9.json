@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Twee wiggen in een houten doosje"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "wig"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0391.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1885"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "50,0 (h)  * 165,0 (b)  * 80,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Houten doosje met twee wiggen, op de wiggen is een centimeterverdeling aangebracht. Het doosje bevat een briefje met ijkwaarden van de twee wiggen. De wiggen zijn gebruikt door de Rijkscommissie van Graadmeten en Waterpassen bij de eerste rijkswaterpassing van 1875 tot 1885. De instrumenten zijn gebruikt voor het ijken van baken en niveaus. Hoogteverschil kan worden gemeten tussen 0,5 -1 centimeter met een precisie van 0,05 mm."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/2389d42d-3f3c-4340-a3b6-00b179a59fc9/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/2389d42d-3f3c-4340-a3b6-00b179a59fc9/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/2389d42d-3f3c-4340-a3b6-00b179a59fc9.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/44d69018-a0d9-400d-898c-2f8a2ba889a5/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/2389d42d-3f3c-4340-a3b6-00b179a59fc9/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

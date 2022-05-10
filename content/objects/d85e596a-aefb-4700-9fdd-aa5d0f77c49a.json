@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Hollandse cirkel door J.M. Kleman & Zoon"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "hoekmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0049.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1809 - 1857"
+        },
+        {
+            "label": "Maker",
+            "value": "J.M. Kleman & Zoon (Amsterdam)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "270,0 (h)  * 290,0 (b)  * 280,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Hollandse cirkel door J.M. Kleman & Zoon, geodetisch meetinstrument voor het bepalen van horizontale hoeken of verticale hoeken. Het instrument is voorzien van twee niveaus, een kogelscharnier, een beweegbare richtkijker, een verstelbare controlekijker en een micrometerschroef op de as. Met behulp van de niveaus en de kijkers kon in een zuiver horizontaal vlak gemeten worden. Dit instrument heeft bijna alle eigenschappen van een theodoliet. Randverdeling is twee maal 0-180 graden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "De Amsterdammer J.M. Kleman begon in 1781 als instrumentmaker. In 1807 kwam zijn zoon in de firma en heette voortaan J.M. Kleman & Zoon. In 1857 overleed de laatste eigenaar en werd de zaak opgeheven. (bron: H.C. Pouls 'De landmeter.' (1997)."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d85e596a-aefb-4700-9fdd-aa5d0f77c49a/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d85e596a-aefb-4700-9fdd-aa5d0f77c49a/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/d85e596a-aefb-4700-9fdd-aa5d0f77c49a.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/5560e955-cc8e-4ba1-ae15-28cf85378864/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d85e596a-aefb-4700-9fdd-aa5d0f77c49a/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

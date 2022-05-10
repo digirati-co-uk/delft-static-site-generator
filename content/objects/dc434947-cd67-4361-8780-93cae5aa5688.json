@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Koker met promotiebul van prof. A.E. Korvezee"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Bul"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2016.0290.LIB"
+        },
+        {
+            "label": "Datering",
+            "value": "1930"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "410,0 (h)  * 550,0 (b)  * 1,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "papier, karton, metaal, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Koker met promotiebul van prof. dr. ir. Antonia Elisabeth Korvezee."
+        },
+        {
+            "label": "Herkomst",
+            "value": "Korvezee, Antonia Elisabeth"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/dc434947-cd67-4361-8780-93cae5aa5688/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/dc434947-cd67-4361-8780-93cae5aa5688/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/dc434947-cd67-4361-8780-93cae5aa5688.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2173,
+                        "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51",
+                        "height": 1970
+                    },
+                    "width": 2173,
+                    "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/full/1024,928/0/default.jpg",
+                    "height": 1970
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 928
+                        },
+                        {
+                            "width": 400,
+                            "height": 363
+                        },
+                        {
+                            "width": 200,
+                            "height": 181
+                        },
+                        {
+                            "width": 100,
+                            "height": 91
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 928
+                },
+                "@id": "https://dlc.services/thumbs/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2173,
+            "@id": "https://dlc.services/iiif-img/7/18/e76ce7df-b9c6-47d4-b5e0-8f1dc8fd1d51/canvas/c0",
+            "label": "Image",
+            "height": 1970
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/dc434947-cd67-4361-8780-93cae5aa5688/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Demonstratiemodel van een timmermanswaterpas"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0136.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1950 - 1975"
+        },
+        {
+            "label": "Maker",
+            "value": "Werkplaats Geodesie TU Delft  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "425,0 (h)  * 580,0 (b)  * 15,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, textiel, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Replica van een 17e eeuwse timmermanswaterpas. Veel instrumenten uit de 17e eeuw zijn door de landmeters zelf vervaardigd. Op de afbeelding wordt de werking van een timmermanswaterpas verduidelijkt."
+        },
+        {
+            "label": "Documentatie",
+            "value": "H.C. Pouls. De landmeter"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/b1544457-bced-4ef8-a45c-4ace506369ae/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/8316d07d-6fe4-4b0a-9e32-7096f6eb634c/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/8316d07d-6fe4-4b0a-9e32-7096f6eb634c/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/8316d07d-6fe4-4b0a-9e32-7096f6eb634c.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/b1544457-bced-4ef8-a45c-4ace506369ae",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/b1544457-bced-4ef8-a45c-4ace506369ae/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/b1544457-bced-4ef8-a45c-4ace506369ae/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b1544457-bced-4ef8-a45c-4ace506369ae/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/b1544457-bced-4ef8-a45c-4ace506369ae",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/b1544457-bced-4ef8-a45c-4ace506369ae/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/b1544457-bced-4ef8-a45c-4ace506369ae/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/8316d07d-6fe4-4b0a-9e32-7096f6eb634c/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

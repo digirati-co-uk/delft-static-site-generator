@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Bauernfeind-prisma in een bekleed houten doosje"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "prisma"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0810.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "35,0 (h)  * 70,0 (b)  * 55,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "glas, metaal, hout, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Driezijdig prisma (Prisma van Bauernfeind) in een met textiel bekleed houten doosje, voor het uitzetten van hoeken. Geodetisch meetinstrument voor eenvoudig landmeetkundig werk (detailmetingen)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "C.M. Schols. Landmeten en Waterpassen Atlas (achtste druk) fig 93 en 94. J.E. Alberda en J.B. Ebbinge. Inleiding Landmeetkunde (zevende druk) blz 91 e.v."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/d8f3c6d6-73e8-487d-9db0-a7215122b58f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/d8f3c6d6-73e8-487d-9db0-a7215122b58f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/d8f3c6d6-73e8-487d-9db0-a7215122b58f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/53d6efe5-fac9-4251-a208-9d10d3b61cda/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/d8f3c6d6-73e8-487d-9db0-a7215122b58f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

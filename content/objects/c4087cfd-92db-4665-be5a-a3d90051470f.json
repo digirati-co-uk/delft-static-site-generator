@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Repetitie-theodoliet door F.W. Breithaupt & Sohn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0100.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "F.W. Breithaupt & Sohn (Kassel)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "365,0 (h)  * 365,0 (b)  * 230,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Repetitie-theodoliet door F.W. Breithaupt & Sohn, geodetisch meetinstrument voor het bepalen van horizontale en verticale hoeken, en gereduceerde afstanden t.b.v. het maken van kaarten m.b.v. de voerstraalmethode. <\/br>Met losse dubbelbeeldafstandmeter en boussole voor het bepalen van horizontale en verticale richtingen, naar een ontwerp van W. Uhink. De tachymeter is voorzien van twee spiegelprisma's, een biprisma in de kijker en een spleetoculair. Het instrument heeft, ondanks de grotere nauwkeurigheid in vergelijking met andere dubbelbeeldafstandmeters (zie Redta van Zeiss), nauwelijks opgang gevonden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Tijdschrift K&L 1928 blz 42-45 hierin staat dat op aanwijzing van prof. Schermerhorn en prof. Heuvelinkeen er een dubbelbeeldafstandmeter is gebouwd. Verder Zeitschrift für Instrumenten 1929 blz 581-595 Entworfs Geschichte Optischen EntfernnungsMesser blz"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c4087cfd-92db-4665-be5a-a3d90051470f/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c4087cfd-92db-4665-be5a-a3d90051470f/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/c4087cfd-92db-4665-be5a-a3d90051470f.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/ac5c3e0b-bf29-4083-88bf-b4573bfb096a/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c4087cfd-92db-4665-be5a-a3d90051470f/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Afstandmeter door AGA"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "afstandmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0534.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1947"
+        },
+        {
+            "label": "Maker",
+            "value": "AGA  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.540,0 (h)  * 1.100,0 (b)  * 1.200,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, kunststof, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een elektronisch-optische afstandmeter als onderdeel van de AGA Geodimeter. De AGA Geodimeter is een geodetisch instrument dat werd gebruikt voor afstandmeting tot 50 kilometer, gebaseerd op de principes zoals aangegeven door de Zweedse Dr. Erik Bergstrand in 'Arkiv för Fysik' in 1949, waarbij gebruik wordt gemaakt van de snelheid van het licht. Bij het instrument horen een set spiegels en een kist met hulpstukken. (zie ook 2000.0818.GEO, 2000.0334.GEO en 2005.0013.GEO Model 1 werd geproduceerd in 1953 en model 2 werd in 1955 geïntroduceerd. Meet afstanden van 0 tot 50 kilometer. Als lichtbron werd gebruik gemaakt van gemakkelijk te vervangen lampen. Bij de meter horen reserveonderdelen, een omvormer en twee gloeilampjes (bij 2000.0334.GEO)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Z.A. Description of Aga geodimeter type NASM-1 Bergstrand system. The International Hydrographical Review XXX no1 mei 1953 p. 171 - 173."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Geodimeter-reflector door AGA;Prisma door AGA;Statief met uitschuifbare poten en klemschroef door AGA (GEO.2000.0334;GEO.2000.0818;GEO.2005.0013)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/2d8700a6-8b14-4eaa-ba13-2c23eb80d184/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/2d8700a6-8b14-4eaa-ba13-2c23eb80d184/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/2d8700a6-8b14-4eaa-ba13-2c23eb80d184.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1360,
+                        "@id": "https://dlc.services/iiif-img/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56",
+                        "height": 2048
+                    },
+                    "width": 1360,
+                    "@id": "https://dlc.services/iiif-img/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56/full/680,1024/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 680,
+                            "height": 1024
+                        },
+                        {
+                            "width": 266,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 66,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 680,
+                    "@id": "https://dlc.services/thumbs/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1360,
+            "@id": "https://dlc.services/iiif-img/7/18/d9df784d-1dcb-4edf-8238-b1c10b968f56/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/2d8700a6-8b14-4eaa-ba13-2c23eb80d184/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

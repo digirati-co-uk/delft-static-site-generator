@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Baak volgens Prof. J.W. Dieperink"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "baak"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0238.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1923 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Dieperink, J.W.  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h)  * 675,0 (b)  * 72,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Baak, te gebruiken bij nauwkeurigheidswaterpassing (aflezen tot 0,1 mm). Drie verticale baken op metaal met transversaalverdeling. Deze verdeling is een uitvinding van prof. J.W. Dieperink (1878-1934) van LUW, een andere naam voor deze baak is dan ook de Dieperink baak."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Octrooi uit 1923 zie: http://cgi.girs.wageningen-ur.nl/cgi/products/posters/NL_A3-DIEPERINK.jpg Schermerhorn & van Steenis Leerboek de Landmeetkunde vierde druk blz 113 en 114."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/c06e5dcd-e3f4-4a77-ad08-30d566bb3186/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/c06e5dcd-e3f4-4a77-ad08-30d566bb3186/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/c06e5dcd-e3f4-4a77-ad08-30d566bb3186.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/0bcf6d64-b4b2-4928-9ac1-b260ff2807e4/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/c06e5dcd-e3f4-4a77-ad08-30d566bb3186/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

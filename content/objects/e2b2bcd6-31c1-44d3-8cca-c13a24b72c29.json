@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Zakwaterpas in etui"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "waterpas"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0866.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1925"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "40,0 (h)  * 150,0 (b)  * 90,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hout, leer, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Zakwaterpas, een demontabele waterpasinstrument voor hoogteverschilmetingen (waterpassen), voorzien van een waterpas en een stelschroef. In het etui zit een opstelschroef. Het voorwerp is opgeborgen in een met leer bekleed etui. Dit instrumentje werd gebruikt als hulpmiddel bij hoogteverschil metingen. Zie ook inventarisnummer 2000.0201.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Zakwaterpasinstrument door J. Ahrend & Zn (GEO.2000.0201)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/175b926f-723d-425e-b55d-b49e675a2647/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/e2b2bcd6-31c1-44d3-8cca-c13a24b72c29/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/e2b2bcd6-31c1-44d3-8cca-c13a24b72c29/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/e2b2bcd6-31c1-44d3-8cca-c13a24b72c29.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/175b926f-723d-425e-b55d-b49e675a2647",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/175b926f-723d-425e-b55d-b49e675a2647/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/175b926f-723d-425e-b55d-b49e675a2647/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/175b926f-723d-425e-b55d-b49e675a2647/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/175b926f-723d-425e-b55d-b49e675a2647",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/175b926f-723d-425e-b55d-b49e675a2647/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/175b926f-723d-425e-b55d-b49e675a2647/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e2b2bcd6-31c1-44d3-8cca-c13a24b72c29/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

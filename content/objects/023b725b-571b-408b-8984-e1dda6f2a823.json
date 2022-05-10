@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Centreerkijker door Hildebrand & Schramm"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "kijker"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0276.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1850 - 1875"
+        },
+        {
+            "label": "Maker",
+            "value": "Hildebrand & Schramm (Freiburg)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "130,0 (h)  * 100,0 (b)  * 100,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Centreerkijker door Hildebrand & Schramm. Geodetisch meetinstrument voor dwangcentrering, te gebruiken op statieven (driepoten). Ook wel optisch lood genaamd, is een kijker op een stelschroevenblok en met twee niveaus, die in de richting van de zwaartekracht te stellen is. Vroeger ook wel nagelinstrument genoemd. In 1886 door Max Hildebrand vervaardigd op aanwijzingen van A. Nagel. Het is vermoedelijk het achtste door Max Hildebrand vervaardigde instrument. Bij dit instrument hoort een losse plaat die niet aanwezig is bij 2000.0217.GEO (het identieke exemplaar)."
+        },
+        {
+            "label": "Documentatie",
+            "value": "K. Lüdemann. Mitteilungen a. d. Markscheidewesen (1924). Die Genauigkeit der Zentrierung mit dem optischen Abloder von Max Hildebrand. Schermerhorn van Steenis 3e druk 1953 blz 206 207 Zeitschschrift für Vermessung 1888 blz 39 - 50. Vermessungstechnik 34e"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Centreerkijker door M. Hildebrand (GEO.2000.0217)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/023b725b-571b-408b-8984-e1dda6f2a823/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/023b725b-571b-408b-8984-e1dda6f2a823/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/023b725b-571b-408b-8984-e1dda6f2a823.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/009925b0-8f1d-4aa3-aa2d-52c289177564/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/023b725b-571b-408b-8984-e1dda6f2a823/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

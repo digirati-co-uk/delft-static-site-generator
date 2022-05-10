@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Planchetinstrument door Carl Zeiss"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "planchetinstrument"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0352.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Carl Zeiss (Jena)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "130,0 (h)  * 550,0 (b)  * 150,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Planchetinstrument (Profilkipprgel) door Carl Zeiss voor het voor de directe grafische opname van dwarsprofielen. Een instrument waarbij de drie linialen mechanisch gekoppeld kunnen worden aan de kijker. Door deze koppeling veroorzaakt de verticale beweging van de kijker een horizontale draaiing van de liniaal over de meettafel. Met behulp van dit instrument kan direct in het terrein snel en zonder rekenen dwarsprofielen getekend worden. De liniaal kan ook ontkoppeld worden, waarbij het instrument voor normale planchetopnamen gebruikt kan worden."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Zeitschrift für Instrumenten. November 1928 blz 559-561"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/618fec10-5fc9-435a-bdd0-7dca09da8661/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/618fec10-5fc9-435a-bdd0-7dca09da8661/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/618fec10-5fc9-435a-bdd0-7dca09da8661.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/ea2771b5-bf30-4af5-a38e-3e0ea5476064/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/618fec10-5fc9-435a-bdd0-7dca09da8661/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

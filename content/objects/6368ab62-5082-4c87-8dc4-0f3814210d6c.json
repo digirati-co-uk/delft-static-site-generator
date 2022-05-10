@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Planimeter door M. Kloth"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Planimeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0393.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "M. Kloth  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "10,0 (h)  * 225,0 (b)  * 215,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "glas, karton"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een grafische planimeter door M. Kloth, ook wel hyperbeltafel (nomogram), als hulpmiddel bij oppervlakte bepalingen van willekeurige driehoeken met schaal 1:1000.<\/br>In een kartonnen doos. Zie voor gebruiksaanwijzing 2000.0392.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Duits patent DE26695 [Patent gaat ook over een productiemethode. Het is niet zeker dat die methode voor dit exemplaar is gebruikt. Er zijn minstens 2 verschillende productiemethodes bekend]"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Planimeter door M. Kloth (GEO.2000.0392)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/6368ab62-5082-4c87-8dc4-0f3814210d6c/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/6368ab62-5082-4c87-8dc4-0f3814210d6c/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/6368ab62-5082-4c87-8dc4-0f3814210d6c.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/beee55aa-c2a4-4ad1-b0ac-3d2bdf87b450/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/6368ab62-5082-4c87-8dc4-0f3814210d6c/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

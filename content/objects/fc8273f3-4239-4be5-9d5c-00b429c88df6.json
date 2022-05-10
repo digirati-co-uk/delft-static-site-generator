@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Spiegeltelescoop door B.E. van der Bildt"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "telescoop"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0054.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1800 - 1825"
+        },
+        {
+            "label": "Maker",
+            "value": "Bildt, Bauke Eisma van der  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "375,0 (h)  * 425,0 (b)  * 230,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Spiegeltelescoop door B.E. van der Bildt, op drie inklapbare poten voor het waarnemen van hemellichamen."
+        },
+        {
+            "label": "Documentatie",
+            "value": "http://www.telescopic-telescopes.com/reflecting_telescope.htm"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/fc8273f3-4239-4be5-9d5c-00b429c88df6/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/fc8273f3-4239-4be5-9d5c-00b429c88df6/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/fc8273f3-4239-4be5-9d5c-00b429c88df6.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/dd191cb4-f4c5-47e0-929a-7c90b55abbb4/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/fc8273f3-4239-4be5-9d5c-00b429c88df6/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

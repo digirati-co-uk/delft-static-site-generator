@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Standaardmeter door Reproli"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "standaardmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2004.0010.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Reproli  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "120,0 (h)  * 1.100,0 (b)  * 160,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een speciaal met thermometer uitgerust basistoestel van Reproli, aangeschaft door Rijkscommissie voor Graadmeting en Waterpassing en in ongerede geraakt (tussen 1912 en 1925) tijdens gebruik bij de Rijksuniversiteit van Leiden. In de bijbehorende kist bevindt zich een notitie van de Rijkscommissie voor Graadmeting en Waterpassing (Professor Heuvelink) van 28 mei 1926 met kenmerk Basistoestel van Reproli. In 1912 nam H.G.v.d.Sande Bakhuyzen het initiatief om het basistoestel naar zijn inzichten te verbeteren. In plaats van de glazen plaatjes op de meetstaven werden invar-plaatjes aangebracht. De oorspronkelijke glazen plaatjes zijn gemonteerd op twee houten latjes. Een van de staafjes is in Leiden zoekgeraakt."
+        },
+        {
+            "label": "Documentatie",
+            "value": "zie publicaties van de NCG. Een foto van het instrument in gebruik is te vinden in het gemeentearchief Delft nummer 50372"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/8d977e37-8805-40be-a18d-d70b04681b6c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/e5aa5046-2a55-45ad-93d7-541c198f8617/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/e5aa5046-2a55-45ad-93d7-541c198f8617/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/e5aa5046-2a55-45ad-93d7-541c198f8617.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/8d977e37-8805-40be-a18d-d70b04681b6c",
+                        "height": 1360
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/8d977e37-8805-40be-a18d-d70b04681b6c/full/1024,680/0/default.jpg",
+                    "height": 1360
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/8d977e37-8805-40be-a18d-d70b04681b6c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/8d977e37-8805-40be-a18d-d70b04681b6c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 680
+                        },
+                        {
+                            "width": 400,
+                            "height": 266
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 66
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/8d977e37-8805-40be-a18d-d70b04681b6c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 680
+                },
+                "@id": "https://dlc.services/thumbs/7/18/8d977e37-8805-40be-a18d-d70b04681b6c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/8d977e37-8805-40be-a18d-d70b04681b6c/canvas/c0",
+            "label": "Image",
+            "height": 1360
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e5aa5046-2a55-45ad-93d7-541c198f8617/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

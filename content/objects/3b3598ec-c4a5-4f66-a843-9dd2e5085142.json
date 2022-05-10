@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Houten statief met driedelige uitschuifbare poten"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0540.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "180,0 (h)  * 520,0 (b)  * 180,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, koper, ijzer"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een houten statief met driedelige, uitschuifbare poten. In het algemeen zijn de meeste statieven tweedelig."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/3b3598ec-c4a5-4f66-a843-9dd2e5085142/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/3b3598ec-c4a5-4f66-a843-9dd2e5085142/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/3b3598ec-c4a5-4f66-a843-9dd2e5085142.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 2048,
+                        "@id": "https://dlc.services/iiif-img/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f",
+                        "height": 3072
+                    },
+                    "width": 2048,
+                    "@id": "https://dlc.services/iiif-img/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f/full/683,1024/0/default.jpg",
+                    "height": 3072
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 683,
+                            "height": 1024
+                        },
+                        {
+                            "width": 267,
+                            "height": 400
+                        },
+                        {
+                            "width": 133,
+                            "height": 200
+                        },
+                        {
+                            "width": 67,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 683,
+                    "@id": "https://dlc.services/thumbs/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 2048,
+            "@id": "https://dlc.services/iiif-img/7/18/fef6ac84-ce36-40da-825c-ca24f31c8a0f/canvas/c0",
+            "label": "Image",
+            "height": 3072
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/3b3598ec-c4a5-4f66-a843-9dd2e5085142/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

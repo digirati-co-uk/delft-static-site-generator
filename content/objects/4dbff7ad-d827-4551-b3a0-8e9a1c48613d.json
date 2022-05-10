@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Bogenspiegel door Ateliers H. Morin & Gensse"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "spiegelinstrument"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0188.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Ateliers H. Morin & Gensse (Parijs)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "38,0 (h)  * 83,0 (b)  * 38,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Bogenspiegel door Ateliers H. Morin & Gensse voor het uitzetten van een boog tussen twee bekende punten. Het instrument bestaat uit twee spiegels, die ten opzichte van elkaar draaibaar zijn. De ingestelde hoek bepaald de straal van de uit te zetten cirkel."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/4dbff7ad-d827-4551-b3a0-8e9a1c48613d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/4dbff7ad-d827-4551-b3a0-8e9a1c48613d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/4dbff7ad-d827-4551-b3a0-8e9a1c48613d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/b2326cd6-a1b8-4f4c-86b6-e76146965317/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/4dbff7ad-d827-4551-b3a0-8e9a1c48613d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

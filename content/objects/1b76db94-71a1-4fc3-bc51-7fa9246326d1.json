@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portret van A. Lipkens door W.H. Schmidt"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "schilderij"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2006.0031.CVB"
+        },
+        {
+            "label": "Datering",
+            "value": "1845"
+        },
+        {
+            "label": "Maker",
+            "value": "Schmidt, Willem Hendrik  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "1.360,0 (h)  * 1.140,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olieverf, linnen, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Geschilderd portret door Willem Hendrik Schmidt, van Antoine Lipkens, eerste directeur van de Koninklijke Akademie voor Civiel Ingenieurs van 1842 tot 1846."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Lipkens, Antoine"
+        },
+        {
+            "label": "Documentatie",
+            "value": "A. Tutein Nolthenius, 'Antoine Lipkens' in: \"Tijdschrift voor Kadaster en Landmeetkunde\", 1 januari 1950, pagina 84-91."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/1b76db94-71a1-4fc3-bc51-7fa9246326d1/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/1b76db94-71a1-4fc3-bc51-7fa9246326d1/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/1b76db94-71a1-4fc3-bc51-7fa9246326d1.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1800,
+                        "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f",
+                        "height": 2148
+                    },
+                    "width": 1800,
+                    "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/full/858,1024/0/default.jpg",
+                    "height": 2148
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 858,
+                            "height": 1024
+                        },
+                        {
+                            "width": 335,
+                            "height": 400
+                        },
+                        {
+                            "width": 168,
+                            "height": 200
+                        },
+                        {
+                            "width": 84,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 858,
+                    "@id": "https://dlc.services/thumbs/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1800,
+            "@id": "https://dlc.services/iiif-img/7/18/95254959-f3bb-4b6a-bc68-9db15f9e437f/canvas/c0",
+            "label": "Image",
+            "height": 2148
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/1b76db94-71a1-4fc3-bc51-7fa9246326d1/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

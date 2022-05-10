@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Staafpasser"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "passer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0318.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1875"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "10,0 (h)  * 1.110,0 (b)  * 80,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, textiel"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een staafpasser met verschillende hulpstukken voor het tekenen van grote cirkels en voor het overbrengen van lengtematen bij het karteren. Het instrument kan opgeborgen worden in een met textiel bekleed etui."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/1a2d2650-e943-4689-84fc-bfb334326a23/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/f13b4ec5-83d3-4dac-a9e0-57f9fb938100/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/f13b4ec5-83d3-4dac-a9e0-57f9fb938100/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/f13b4ec5-83d3-4dac-a9e0-57f9fb938100.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/1a2d2650-e943-4689-84fc-bfb334326a23",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/1a2d2650-e943-4689-84fc-bfb334326a23/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/1a2d2650-e943-4689-84fc-bfb334326a23/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/1a2d2650-e943-4689-84fc-bfb334326a23/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/1a2d2650-e943-4689-84fc-bfb334326a23",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/1a2d2650-e943-4689-84fc-bfb334326a23/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/1a2d2650-e943-4689-84fc-bfb334326a23/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/f13b4ec5-83d3-4dac-a9e0-57f9fb938100/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

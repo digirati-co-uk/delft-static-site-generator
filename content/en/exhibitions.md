@@ -6,18 +6,19 @@ title: "Exhibitions"
 
 # Exhibitions
 
-*Please note: you are currently viewing a beta version of this website. For more information, please consult the [about page](/en/about/).*
+<div class="blocks">
+<div class="block tint yellow cutcorners w-4 h-4 image">
+
+[Places of Commemoration](/en/exhibitions/places-of-commemoration)
+</div>
+</div>
 
 ## Delft-Bandung
-TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the 2020 centenary of Indonesia’s oldest technical college: Bandung Institute of Technology (ITB). See the two exhibitions below and the publication [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb).
+TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the 2020 centenary of Indonesia’s oldest technical college: Bandung Institute of Technology (ITB). See the exhibition below and the publication [The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb).
 <div class="blocks">
 <div class="block tint yellow cutcorners w-4 h-4 image">
 
 [Irrigation Knowledge](/en/exhibitions/irrigation-knowledge)
-</div>
-<div class="block tint yellow cutcorners w-4 h-4 image">
-
-[Bandoeng-Bandung](/en/exhibitions/bandoeng-bandung)
 </div>
 
 </div>

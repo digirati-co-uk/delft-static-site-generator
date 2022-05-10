@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Chronometer door Vacheron Constantin"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "chronometer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0843.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Vacheron Constatin (Genève)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "130,0 (h)  * 150,0 (b)  * 140,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een cardanisch bevestigde chronometer door Vacheron Constantin in een houten kistje (uren, minuten, seconden)."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/ea8c6ebf-52bc-4c95-9354-5ce8b3dde042/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/ea8c6ebf-52bc-4c95-9354-5ce8b3dde042/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/ea8c6ebf-52bc-4c95-9354-5ce8b3dde042.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/5c5e153a-683e-4838-a6f0-548a70e0e77d/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/ea8c6ebf-52bc-4c95-9354-5ce8b3dde042/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

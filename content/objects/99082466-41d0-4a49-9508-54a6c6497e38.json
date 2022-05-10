@@ -1,0 +1,127 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Chambre Claire volgens W.H. Wollaston door P. Berville"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "tekeninstrument"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0219.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1806 - 1825"
+        },
+        {
+            "label": "Maker",
+            "value": "Wollaston, William Hyde (Brits, 1766 - 1828)  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "P. Berville (Parijs)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "30,0 (h)  * 65,0 (b)  * 280,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, textiel, papier"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een Chambre Claire of Camera Lucida door P. Berville in een met textiel bekleed etui. Bij het instrument horen elf lensjes en twee afbeeldingen. De Chambre Claire is in 1806 door doctor Wollaston uitgevonden. Met dit tekeninstrument kan een panorama, dat men in een verticaal vlak waarneemt, natuurgetrouw op een horizontaal vlak weergegeven worden. Men kan zowel een verkleining als een vergroting tekenen. In Nederlands-Indië zijn deze hulpmiddelen gebruikt bij terreinverkenningen en panorama schetsen door de Topografische Dienst, voor het vervaardigen van een zo goed mogelijk beeld van het terrein."
+        },
+        {
+            "label": "Documentatie",
+            "value": "Horstink. Deel 1 uit 1931 blz 123. Catlogus Morin 31e edition (1937) blz 76 Stanley. Math. Drawing Instruments blz 150 e.v. http://www.newcastle.edu.au/discipline/fine-art/theory/analysis/lucida-x.htm"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Demonstatiemodel van Chambre Claire volgens W.H. Wollaston door P. Berville;Vierzijdig prisma volgens Wollaston (GEO.2000.0220;GEO.2000.0282)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/59c14c3a-7410-4193-96eb-29915637f1b6/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/99082466-41d0-4a49-9508-54a6c6497e38/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/99082466-41d0-4a49-9508-54a6c6497e38/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/99082466-41d0-4a49-9508-54a6c6497e38.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/59c14c3a-7410-4193-96eb-29915637f1b6",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/59c14c3a-7410-4193-96eb-29915637f1b6/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/59c14c3a-7410-4193-96eb-29915637f1b6/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/59c14c3a-7410-4193-96eb-29915637f1b6/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/59c14c3a-7410-4193-96eb-29915637f1b6",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/59c14c3a-7410-4193-96eb-29915637f1b6/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/59c14c3a-7410-4193-96eb-29915637f1b6/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/99082466-41d0-4a49-9508-54a6c6497e38/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

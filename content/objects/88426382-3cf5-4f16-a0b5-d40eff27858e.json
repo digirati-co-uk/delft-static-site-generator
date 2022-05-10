@@ -1,0 +1,107 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Briefopener "
+        },
+        {
+            "label": "Objectnaam",
+            "value": "briefopener"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "1992.0258.TMD"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "35,0 (h)  * 345,0 (b)  * 45,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "ivoor, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Briefopener met een vroege telegraafkabel als handvat."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ea95ade3-818f-41c6-a620-938a651f5854/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/88426382-3cf5-4f16-a0b5-d40eff27858e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/88426382-3cf5-4f16-a0b5-d40eff27858e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/88426382-3cf5-4f16-a0b5-d40eff27858e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 4263,
+                        "@id": "https://dlc.services/iiif-img/7/18/ea95ade3-818f-41c6-a620-938a651f5854",
+                        "height": 2713
+                    },
+                    "width": 4263,
+                    "@id": "https://dlc.services/iiif-img/7/18/ea95ade3-818f-41c6-a620-938a651f5854/full/1024,652/0/default.jpg",
+                    "height": 2713
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ea95ade3-818f-41c6-a620-938a651f5854/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ea95ade3-818f-41c6-a620-938a651f5854/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 652
+                        },
+                        {
+                            "width": 400,
+                            "height": 255
+                        },
+                        {
+                            "width": 200,
+                            "height": 127
+                        },
+                        {
+                            "width": 100,
+                            "height": 64
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ea95ade3-818f-41c6-a620-938a651f5854",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 652
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ea95ade3-818f-41c6-a620-938a651f5854/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 4263,
+            "@id": "https://dlc.services/iiif-img/7/18/ea95ade3-818f-41c6-a620-938a651f5854/canvas/c0",
+            "label": "Image",
+            "height": 2713
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/88426382-3cf5-4f16-a0b5-d40eff27858e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

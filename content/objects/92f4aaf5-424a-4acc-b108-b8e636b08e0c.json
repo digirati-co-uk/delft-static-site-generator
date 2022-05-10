@@ -1,0 +1,123 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Spiegelpasser volgens A. Lipkens door C. Kühler."
+        },
+        {
+            "label": "Objectnaam",
+            "value": "spiegelpasser"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0077.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1850"
+        },
+        {
+            "label": "Maker",
+            "value": "Lipkens, Antoine  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "Carl Kühler (Wesel)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "15,0 (h)  * 160,0 (b)  * 30,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Spiegelpasser volgens A. Lipkens door C. Kühler. Geodetisch instrument voor het meten van hoeken. Combinatie van een meetpasser en een hoekspiegel naar een ontwerp van Antoine Lipkens. De gemeten hoek tussen twee meetpunten en de passer is het dubbele van de hoek tussen de passerbenen. Aangezien de lengte van de benen bekend is, is de hoek gemakkelijk te tekenen."
+        },
+        {
+            "label": "Documentatie",
+            "value": "A. Tutein Nolthenius, 'Antoine Lipkens' in: \"Tijdschrift voor Kadaster en Landmeetkunde\", 1 januari 1950, pagina 84-91."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/92f4aaf5-424a-4acc-b108-b8e636b08e0c/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/92f4aaf5-424a-4acc-b108-b8e636b08e0c/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/92f4aaf5-424a-4acc-b108-b8e636b08e0c.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/735960f1-dc58-478a-97d5-08c765b6bd9a/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/92f4aaf5-424a-4acc-b108-b8e636b08e0c/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Hollandse cirkel door H.J. Harting"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "theodoliet"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0062.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1825 - 1850"
+        },
+        {
+            "label": "Maker",
+            "value": "Harting-Bank (Breda)  (producent)"
+        },
+        {
+            "label": "Maker",
+            "value": "Harting, H.J.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "235,0 (h)  * 230,0 (b)  * 200,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, kunststof"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een zogenaamde Hollandse cirkel door H.J. Harting, voor horizontale en verticale hoekmetingen voor het bepalen van hoeken, in elk willekeurig vlak. Het instrument is voorzien van een beweegbare richtkijker, een controlekijker, een niveau en een kogelscharnier."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/e4ae6d1d-73c7-4d4b-b2d2-420100e5ff34/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/e4ae6d1d-73c7-4d4b-b2d2-420100e5ff34/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/e4ae6d1d-73c7-4d4b-b2d2-420100e5ff34.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/11734773-b0ff-4b75-a0d0-9b36ac6da322/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e4ae6d1d-73c7-4d4b-b2d2-420100e5ff34/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Proportieliniaal door G. Hulst van Keulen"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "liniaal (geleidingsgereedschap)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0341.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1775 - 1800"
+        },
+        {
+            "label": "Maker",
+            "value": "Hulst van Keulen, Gerard  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h)  * 145,0 (b)  * 335,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Proportieliniaal of proportionaalpasser door G. Hulst van Keulen. Rekenhulpmiddel voor berekeningen t.b.v. van wiskunde afstandsberekeningen voor de artillerie. Deze proportieliniaal is voorzien van zes dubbele verhoudingsschalen (lineaire-, kwadratische-. kubieke-, koorden-, polygonenschaal) en een enkelvoudige schaal voor het caliber van de (geschuts) stukken en het gewicht van de kogels. Op de zijkant is een verdeling van een Rijnlandse voet in twaalf duimen aangebracht. Aanduidingen in het Latijn."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/66eacb02-82af-48dc-aa75-b42ad466ecc4/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/66eacb02-82af-48dc-aa75-b42ad466ecc4/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/66eacb02-82af-48dc-aa75-b42ad466ecc4.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/d7beed47-aee3-427e-a0e6-7e5e4723b371/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/66eacb02-82af-48dc-aa75-b42ad466ecc4/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

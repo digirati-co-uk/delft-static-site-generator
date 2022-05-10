@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Afstandsmeter in een houten kist"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "afstandmeter"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0443.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1885 - 1910"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "22,0 (h)  * 285,0 (b)  * 105,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Een afstandsmeter voor de basis te Stroe in een houten kist. Met een liniaal van invar met een millimeterverdeling. Geodetisch meetinstrument, gebruikt bij de voorbereiding van de basisafstandmeting ten behoeve van de Rijsdriehoeksmeting. Waarschijnlijk een onderdeel van inventarisnummer 2000.0367.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Schuif-tachymeter op een vast stelschroevenblok door Otto Fennel & Söhne (GEO.2000.0367)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/be0e4342-916b-47bb-bed1-60fb870dae47/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/be0e4342-916b-47bb-bed1-60fb870dae47/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/be0e4342-916b-47bb-bed1-60fb870dae47.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/add5762e-4166-4198-80a7-3c96e07fcfbd/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/be0e4342-916b-47bb-bed1-60fb870dae47/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

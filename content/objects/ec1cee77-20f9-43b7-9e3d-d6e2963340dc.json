@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Waterpasstatief met een klemplaat door Troughton & Simms"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "statief (standaarden)"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0012.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1875 - 1900"
+        },
+        {
+            "label": "Maker",
+            "value": "Troughton & Simms (Londen)  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "152,0 (b)  * 1.515,0 (d) "
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Waterpasstatief met een speciale klemplaat, alleen voor het instrument door Troughton & Simms (type Dumpy Level), inventarisnummer 2000.0339.GEO."
+        },
+        {
+            "label": "Documentatie",
+            "value": "H.J. Buisman. Landmeten en Waterpassen 2e druk (Haarlem 1921) fig 222."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Waterpasinstrument door Troughton & Simms (GEO.2000.0339)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/fa799b8a-5076-4fd7-b070-034956763106/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/ec1cee77-20f9-43b7-9e3d-d6e2963340dc/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/ec1cee77-20f9-43b7-9e3d-d6e2963340dc/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/ec1cee77-20f9-43b7-9e3d-d6e2963340dc.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/fa799b8a-5076-4fd7-b070-034956763106",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/fa799b8a-5076-4fd7-b070-034956763106/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/fa799b8a-5076-4fd7-b070-034956763106/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/fa799b8a-5076-4fd7-b070-034956763106/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/fa799b8a-5076-4fd7-b070-034956763106",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/fa799b8a-5076-4fd7-b070-034956763106/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/fa799b8a-5076-4fd7-b070-034956763106/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/ec1cee77-20f9-43b7-9e3d-d6e2963340dc/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Klemplaat passend bij een rotswandstatief"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "klemplaat"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2005.0018.GEO"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1950"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "100,0 (h)  * 160,0 (b)  * 160,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Voor bevestiging van een statief met het plaatsen van een theodoliet of een signaal. Deze klemplaat past bij het rotswandstatief bekend onder inventarisnummer 2000.0542.GEO."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Rotswandstatief voor theodoliet (GEO.2000.0542)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/cf2b7988-0d68-4189-b8b0-2087b17ba97c/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/cf2b7988-0d68-4189-b8b0-2087b17ba97c/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/cf2b7988-0d68-4189-b8b0-2087b17ba97c.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/e5a282bf-481a-4d54-bd9f-5d663b25adcf/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/cf2b7988-0d68-4189-b8b0-2087b17ba97c/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
