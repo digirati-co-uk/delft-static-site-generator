@@ -24,7 +24,6 @@ const articlePageTransform = html =>
 
 const Markdown = ({ pageContext, data, path }) => {
   const pageLanguage = getPageLanguage(path);
-  alert(pageLanguage);
 
   let title = '-';
   let author = '-';
