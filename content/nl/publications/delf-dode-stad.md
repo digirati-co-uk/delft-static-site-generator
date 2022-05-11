@@ -5,7 +5,7 @@ title: "De TU-wijk, een dode stad?"
 author: "Abel Streefland"
 ---
 
-*Dit artikel is eerder verschenen in* [Delf, cultuurhistorisch magazine voor Delft](https://virtumedia.nl/magazine/delf)*, jaargang 20 no.2, pp. 16-18.*
+*Dit artikel is eerder verschenen in* [Delf, cultuurhistorisch magazine voor Delft](https://delfia-batavorum.nl/publicaties/delf)*, jaargang 20 no.2, pp. 16-18.*
 
 --- 
 
