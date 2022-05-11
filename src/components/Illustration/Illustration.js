@@ -164,13 +164,7 @@ export const Illustration = props => (
         allSitePage {
           nodes {
             path
-            context {
-              items {
-                thumbnail {
-                  id
-                }
-              }
-            }
+            pageContext
           }
         }
       }

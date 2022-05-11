@@ -89,6 +89,7 @@ const resolveTitle = node => {
   let otherLang = lang === 'en' ? 'nl' : 'en';
 
   if (type === 'objects') {
+    if (!node.context) return '';
     const title = node.context.metadata[0].value[lang];
     if (!title) return node.context.metadata[0].value[otherLang];
     return title;
@@ -239,37 +240,7 @@ export const pageQuery = graphql`
     allSitePage {
       nodes {
         path
-        context {
-          id
-          metadata {
-            label {
-              en
-              nl
-            }
-            value {
-              en
-              nl
-            }
-          }
-          collection {
-            label {
-              en
-              nl
-            }
-          }
-          label {
-            en
-          }
-          items {
-            items {
-              items {
-                body {
-                  id
-                }
-              }
-            }
-          }
-        }
+        pageContext
       }
     }
   }

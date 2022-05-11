@@ -24,9 +24,14 @@ const articlePageTransform = html =>
 
 const Markdown = ({ pageContext, data, path }) => {
   const pageLanguage = getPageLanguage(path);
-  const { title, author } = data.markdownRemark
-    ? data.markdownRemark.frontmatter
-    : { author: '-', title: '-' };
+  alert(pageLanguage);
+
+  let title = '-';
+  let author = '-';
+  if (data.markdownRemark.frontmatter) {
+    title = data.markdownRemark.frontmatter.title || '-';
+    author = data.markdownRemark.frontmatter.author || '-';
+  }
   const content = data.markdownRemark
     ? articlePageTransform(
         substituteSpecialLinks(
@@ -170,7 +175,7 @@ const Markdown = ({ pageContext, data, path }) => {
 Markdown.propTypes = {
   pageContext: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
-  '*': PropTypes.string.isRequired,
+  '*': PropTypes.string,
 };
 
 export default Markdown;

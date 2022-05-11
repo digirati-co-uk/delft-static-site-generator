@@ -58,7 +58,10 @@ class ObjectPage extends React.Component {
     const illustationIds = allIll
       .filter(illustration => {
         let thumbnailId = this.getThumbnailsFromIllustration(illustration);
-        if (this.state.ids.filter(id => thumbnailId.includes(id)).length > 0) {
+        if (
+          thumbnailId &&
+          this.state.ids.filter(id => thumbnailId.includes(id)).length > 0
+        ) {
           return illustration;
         }
       })
@@ -238,22 +241,11 @@ export const query = graphql`
         }
       }
     }
-    allSitePage(filter: { context: {}, path: { regex: "/illustrations/" } }) {
+    allSitePage(filter: { path: { regex: "/illustrations/" } }) {
       nodes {
         path
         id
-        context {
-          id
-          items {
-            items {
-              items {
-                thumbnail {
-                  id
-                }
-              }
-            }
-          }
-        }
+        pageContext
       }
     }
   }

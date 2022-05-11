@@ -357,7 +357,7 @@ class ExhibitionPage extends React.Component {
                       {translate(canvas.summary, pageLanguage, '\n')
                         .split('\n')
                         .map(paragraph => (
-                          <p key={`about__${idx}`}>{paragraph}</p>
+                          <p key={`about__${paragraph}`}>{paragraph}</p>
                         ))}
                       {
                         <p>

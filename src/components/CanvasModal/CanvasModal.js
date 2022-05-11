@@ -44,7 +44,7 @@ class CanvasModal extends React.Component {
     const foundNode = this.props.data.find(node => {
       return node.path === `/en/${route}` || node.path === `/nl/${route}`;
     });
-    if (foundNode) {
+    if (foundNode && foundNode.context) {
       foundNode.context.items.map((item, index) => {
         if (
           item.items[0].items[0].id.split('/')[6] ===
@@ -83,7 +83,7 @@ class CanvasModal extends React.Component {
     const foundNode = this.props.data.find(node => {
       return node.path === `/en/${route}` || node.path === `/nl/${route}`;
     });
-    if (foundNode) {
+    if (foundNode && foundNode.context) {
       foundNode.context.items.map((item, index) => {
         if (
           item.items[0].items[0].id.split('/')[6] ===
@@ -296,16 +296,7 @@ export default props => (
           nodes {
             id
             path
-            context {
-              items {
-                items {
-                  items {
-                    id
-                    target
-                  }
-                }
-              }
-            }
+            pageContext
           }
         }
       }

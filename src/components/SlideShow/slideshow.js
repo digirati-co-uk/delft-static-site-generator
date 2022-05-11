@@ -7,12 +7,14 @@ import {
   RangeNavigationProvider,
   withBemClass,
 } from '@canvas-panel/core';
+
 import {
   SimpleSlideTransition,
   Slide,
   CanvasNavigation,
 } from '@canvas-panel/slideshow';
-import { Link, navigate } from 'gatsby';
+
+import { navigate } from 'gatsby';
 
 import { Grid } from './Grid';
 import './slideshow.css';
@@ -36,6 +38,7 @@ class SlideShow extends React.Component {
   constructor(props) {
     super(props);
     this.thumbnailCache = {};
+    this.canvasList = [];
   }
 
   componentDidMount() {

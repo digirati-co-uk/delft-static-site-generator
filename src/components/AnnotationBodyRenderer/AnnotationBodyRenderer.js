@@ -56,23 +56,23 @@ const IIIFImageAnnotationCover = ({
       <picture>
         <source
           media={'max-width: 980px'}
-          srcset={body.id.replace('/full/full/', `/full/!1000,1000/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!1000,1000/`)}
         />
         <source
           media={'max-width: 700px'}
-          srcset={body.id.replace('/full/full/', `/full/!800,800/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!800,800/`)}
         />
         <source
           media={'max-width: 600px'}
-          srcset={body.id.replace('/full/full/', `/full/!600,600/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!600,600/`)}
         />
         <source
           media={'max-width: 480px'}
-          srcset={body.id.replace('/full/full/', `/full/!500,500/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!500,500/`)}
         />
         <source
           media={'max-width: 320px'}
-          srcset={body.id.replace('/full/full/', `/full/!250,250/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!250,250/`)}
         />
         <img
           src={body.id.replace('/full/full/', `/full/!1000,1000/`)}

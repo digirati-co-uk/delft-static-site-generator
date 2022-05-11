@@ -69,8 +69,8 @@ export const getTranslation = (obj, lang, glue = ' ') => {
 
 export const getPageLanguage = pathname => {
   // ...
-  const languageCandidate = pathname.split('/')[1];
-  return languageCandidate === 'nl' ? languageCandidate : 'en';
+  const languageCandidate = pathname ? pathname.split('/')[1] : 'nl';
+  return languageCandidate;
 };
 
 export const thumbnailGetSize = (thumbnail, pWidth, pHeight) => {
