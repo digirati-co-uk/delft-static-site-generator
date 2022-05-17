@@ -11,7 +11,7 @@ const LanguageSelector = ({ data, path = '' }) => {
   let allowEnglish = false;
   let allowDutch = false;
 
-  data.allSitePage.edges.forEach(site => {
+  data.allSitePage.edges.forEach((site) => {
     if (
       site.node.path === englishPath ||
       site.node.path === `${englishPath}/`
@@ -60,7 +60,7 @@ const LanguageSelector = ({ data, path = '' }) => {
   );
 };
 
-export default props => (
+export default (props) => (
   <StaticQuery
     query={graphql`
       {
@@ -74,7 +74,7 @@ export default props => (
         }
       }
     `}
-    render={data => <LanguageSelector data={data} {...props} />}
+    render={(data) => <LanguageSelector data={data} {...props} />}
   />
 );
 

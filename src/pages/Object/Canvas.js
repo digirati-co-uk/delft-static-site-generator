@@ -18,7 +18,7 @@ const CanvasPage = ({ location, pageContext, path }) => {
   const getPageMetaData = () => {
     let description = '';
     if (location.pathname.includes('/en/')) {
-      pageContext.metadata.map(property => {
+      pageContext.metadata.map((property) => {
         if (
           property &&
           property.label &&
@@ -29,7 +29,7 @@ const CanvasPage = ({ location, pageContext, path }) => {
         }
       });
     } else if (location.pathname.includes('/nl/')) {
-      pageContext.metadata.map(property => {
+      pageContext.metadata.map((property) => {
         if (
           property &&
           property.label &&

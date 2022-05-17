@@ -65,7 +65,7 @@ const SearchForm = ({ pageLanguage, query, showTitle }) => {
         className="search-form"
         role="search"
         method="GET"
-        onSubmit={e => e.preventDefault()}
+        onSubmit={(e) => e.preventDefault()}
         style={{
           backgroundColor: 'white',
           padding: '0.25rem',
@@ -91,7 +91,7 @@ const SearchForm = ({ pageLanguage, query, showTitle }) => {
           name="keywords"
           style={{ width: '90%', border: 'none', height: '100%' }}
           value={value}
-          onChange={e => setValue(e.target.value)}
+          onChange={(e) => setValue(e.target.value)}
         />
       </form>
     </>

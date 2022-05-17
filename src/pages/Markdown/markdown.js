@@ -8,7 +8,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
 import { Illustration } from '../../components/Illustration/Illustration';
 
-const articlePageTransform = html =>
+const articlePageTransform = (html) =>
   html.match(/<h2>Table of Contents<\/h2>/)
     ? {
         toc: html.match(
@@ -85,7 +85,7 @@ const Markdown = ({ pageContext, data, path }) => {
       : null;
 
   const shortcodes = {
-    Illustration: props => (
+    Illustration: (props) => (
       <Illustration {...props} pageLanguage={pageLanguage} />
     ),
 
@@ -131,14 +131,14 @@ const Markdown = ({ pageContext, data, path }) => {
                   <div className="caption">Table of Contents</div>
                   <ul>
                     {toc.items
-                      ? toc.items.map(item => {
+                      ? toc.items.map((item) => {
                           return (
                             <li style={{ padding: '3px' }} key={item.url}>
                               <a href={item.url}>{item.title}</a>
 
                               {item.items ? (
                                 <ul style={{ paddingLeft: '10px' }}>
-                                  {item.items.map(subitem => (
+                                  {item.items.map((subitem) => (
                                     <li
                                       style={{ padding: '3px' }}
                                       key={subitem.url}
@@ -180,7 +180,7 @@ Markdown.propTypes = {
 export default Markdown;
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {

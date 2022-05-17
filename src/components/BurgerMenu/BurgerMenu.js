@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BurgerMenu = props => (
+const BurgerMenu = (props) => (
   <svg
     height="32px"
     style={{

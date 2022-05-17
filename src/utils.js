@@ -38,7 +38,7 @@ const substituteSpecialLinks = (html, pageContext, allMDRemark) => {
 
 const getAuthor = (path, allMDRemark) => {
   let author;
-  allMDRemark.edges.forEach(markdown => {
+  allMDRemark.edges.forEach((markdown) => {
     if (markdown.node.frontmatter.path === path) {
       author = markdown.node.frontmatter.author;
     }
@@ -67,7 +67,7 @@ export const getTranslation = (obj, lang, glue = ' ') => {
   return (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue);
 };
 
-export const getPageLanguage = pathname => {
+export const getPageLanguage = (pathname) => {
   // ...
   if (!pathname) return 'nl';
   const languageCandidate = pathname.split('/')[1];

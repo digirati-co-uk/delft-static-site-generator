@@ -8,7 +8,7 @@ import Layout from '../../components/Layout/layout';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { Modal } from '../../components/Modal/Modal';
 
-const getThumbnailImageSource = thumbnail => {
+const getThumbnailImageSource = (thumbnail) => {
   if (typeof thumbnail === 'string') {
     return thumbnail;
   }
@@ -19,9 +19,9 @@ const getThumbnailImageSource = thumbnail => {
 
 const getMetatataIfExist = (allMetadata, key, lang, prependKey = false) => {
   const matching = allMetadata.filter(
-    metadata =>
+    (metadata) =>
       Object.values(metadata.label)
-        .map(value => value.join(''))
+        .map((value) => value.join(''))
         .indexOf(key) !== -1
   );
   if (matching.length > 0) {
@@ -78,11 +78,11 @@ class CollectionPage extends React.Component {
     );
     const summary = translate(collection.summary, pageLanguage, '\n')
       .split('\n')
-      .map(paragraph => (
+      .map((paragraph) => (
         <p dangerouslySetInnerHTML={{ __html: paragraph }}></p>
       ));
     const items = (collection.items || []).filter(
-      resource => resource.type === 'Manifest'
+      (resource) => resource.type === 'Manifest'
     );
     this.summary = summary;
 
@@ -126,7 +126,7 @@ class CollectionPage extends React.Component {
               </div>
             </aside>
             <article className="w-8">
-              {items.slice(0, this.state.objectsToShow).map(manifest => (
+              {items.slice(0, this.state.objectsToShow).map((manifest) => (
                 <div
                   key={`collection__${
                     objectLinks[manifest.id || manifest['@id']]
@@ -159,7 +159,7 @@ class CollectionPage extends React.Component {
                       {manifest.summary
                         ? translate(manifest.summary, pageLanguage, '\n')
                             .split('\n')
-                            .map(paragraph => (
+                            .map((paragraph) => (
                               <p className="collection-list__summary">
                                 {paragraph}
                               </p>

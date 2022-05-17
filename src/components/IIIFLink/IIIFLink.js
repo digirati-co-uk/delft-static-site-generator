@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { GITHUB_RAW_JSON_BASE } from '../../utils';
 import './IIIFLink.scss';
 
-const getIIIFLink = href => {
+const getIIIFLink = (href) => {
   if (
     href.includes('exhibitions') ||
     href.includes('objects') ||

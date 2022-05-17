@@ -39,7 +39,7 @@ Menu.propTypes = {
 
 Menu.defaultProps = {
   style: {},
-  t: key => key,
+  t: (key) => key,
 };
 
 export default translate('Menu')(Menu);
