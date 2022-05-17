@@ -29,6 +29,7 @@ class ObjectPage extends React.Component {
     this.setState({
       renderSlideShow: <DynamicSlideShow context={pageContext} />,
     });
+    console.log(allIllustrations);
 
     const publications = this.getRelatedPublications(
       allPublications,
@@ -40,14 +41,14 @@ class ObjectPage extends React.Component {
   getThumbnailsFromIllustration = (illustration) => {
     if (
       illustration &&
-      illustration.context &&
-      illustration.context.items &&
-      illustration.context.items[0] &&
-      illustration.context.items[0].items &&
-      illustration.context.items[0].items[0] &&
-      illustration.context.items[0].items[0].items
+      illustration.pageContext &&
+      illustration.pageContext.items &&
+      illustration.pageContext.items[0] &&
+      illustration.pageContext.items[0].items &&
+      illustration.pageContext.items[0].items[0] &&
+      illustration.pageContext.items[0].items[0].items
     ) {
-      return illustration.context.items[0].items[0].items.map(
+      return illustration.pageContext.items[0].items[0].items.map(
         (item) => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
       );
     }
