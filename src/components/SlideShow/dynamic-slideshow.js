@@ -4,13 +4,13 @@ import withLocation from '../withLocation/withLocation';
 import Slideshow from './slideshow';
 
 const DynamicSlideShow = ({ search, context, location }) => {
-  const { id } = search;
+  const { id } = search || '';
   return (
     <Slideshow
       jsonld={context}
-      pathname={location.pathname}
+      pathname={location ? location.pathname : ''}
       id={id}
-      location={location.href}
+      location={location ? location.href : ''}
     />
   );
 };

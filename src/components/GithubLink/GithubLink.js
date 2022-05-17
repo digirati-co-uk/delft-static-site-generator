@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { GITHUB_BASE } from '../../utils';
 
-const getGitLink = href => {
+const getGitLink = (href) => {
   if (
     href.includes('exhibitions') ||
     href.includes('objects') ||

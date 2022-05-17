@@ -7,12 +7,14 @@ import {
   RangeNavigationProvider,
   withBemClass,
 } from '@canvas-panel/core';
+
 import {
   SimpleSlideTransition,
   Slide,
   CanvasNavigation,
 } from '@canvas-panel/slideshow';
-import { Link, navigate } from 'gatsby';
+
+import { navigate } from 'gatsby';
 
 import { Grid } from './Grid';
 import './slideshow.css';
@@ -36,6 +38,7 @@ class SlideShow extends React.Component {
   constructor(props) {
     super(props);
     this.thumbnailCache = {};
+    this.canvasList = [];
   }
 
   componentDidMount() {
@@ -54,7 +57,7 @@ class SlideShow extends React.Component {
     }
   }
 
-  getThumbnails = manifest => {
+  getThumbnails = (manifest) => {
     const manifestId = manifest.id || manifest['@id'];
     if (this.thumbnailCache.hasOwnProperty(manifestId)) {
       return this.thumbnailCache[manifestId];
@@ -67,7 +70,7 @@ class SlideShow extends React.Component {
           sequence.getCanvases().reduce((canvasThumbnails, canvas) => {
             let thumbnail = canvas.getThumbnail();
             if (!thumbnail) {
-              canvas.getImages().forEach(image => {
+              canvas.getImages().forEach((image) => {
                 thumbnail = image.getThumbnail();
                 if (thumbnail) {
                   return true;
@@ -86,12 +89,12 @@ class SlideShow extends React.Component {
 
   getThumbnailsArray = () => {
     const thumbnails = this.props.jsonld.items.map(
-      item => item.thumbnail[0].id
+      (item) => item.thumbnail[0].id
     );
     return thumbnails;
   };
 
-  goToRange = newIndex => {
+  goToRange = (newIndex) => {
     if (newIndex !== this.currentIndex)
       navigate(`${this.props.pathname}?id=${newIndex}`);
   };
@@ -104,7 +107,7 @@ class SlideShow extends React.Component {
           {({ ref, ...fullscreenProps }) => (
             <Manifest jsonLd={this.props.jsonld}>
               <RangeNavigationProvider>
-                {rangeProps => {
+                {(rangeProps) => {
                   const {
                     manifest,
                     canvas,
@@ -123,8 +126,9 @@ class SlideShow extends React.Component {
                     nextRange();
                     if (!(currentIndex >= canvasList.length - 1))
                       navigate(
-                        `${this.props.pathname}?id=${parseInt(currentIndex) +
-                          1}`
+                        `${this.props.pathname}?id=${
+                          parseInt(currentIndex) + 1
+                        }`
                       );
                   };
                   this.previousRange = () => {
@@ -158,7 +162,7 @@ class SlideShow extends React.Component {
                           <ContainerDimensions>
                             {({ width, height }) => (
                               <Grid
-                                onClick={index => goToRange(index)}
+                                onClick={(index) => goToRange(index)}
                                 thumbnails={this.getThumbnailsArray(manifest)}
                                 selected={this.props.id}
                                 pathname={this.props.pathname}

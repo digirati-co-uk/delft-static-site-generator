@@ -30,7 +30,7 @@ class CanvasModal extends React.Component {
     const navItems = getAnnotations(
       this.props.selectedCanvas.items,
       this.props.selectedCanvas.annotations
-    ).filter(annotation => annotation.motivation === 'layout-viewport-focus');
+    ).filter((annotation) => annotation.motivation === 'layout-viewport-focus');
     if (navItems.length > 0) {
       this.setState({
         navItems: navItems,
@@ -38,25 +38,6 @@ class CanvasModal extends React.Component {
       });
     }
   }
-
-  getModalObjectId = route => {
-    let indexToFind = 0;
-    const foundNode = this.props.data.find(node => {
-      return node.path === `/en/${route}` || node.path === `/nl/${route}`;
-    });
-    if (foundNode) {
-      foundNode.context.items.map((item, index) => {
-        if (
-          item.items[0].items[0].id.split('/')[6] ===
-          this.props.selectedCanvas.items[0].items[
-            this.state.currentNavIndex
-          ].body.id.split('/')[6]
-        )
-          indexToFind = index;
-      });
-    }
-    return indexToFind;
-  };
 
   renderSingleItemCanvas = (items, annotations) => {
     const getAnno =
@@ -76,15 +57,15 @@ class CanvasModal extends React.Component {
     );
   };
 
-  getModalObjectId = route => {
+  getModalObjectId = (route) => {
     let indexToFind = 0;
     const lookingForIndex =
       this.state.currentNavIndex === -1 ? 0 : this.state.currentNavIndex;
-    const foundNode = this.props.data.find(node => {
+    const foundNode = this.props.data.find((node) => {
       return node.path === `/en/${route}` || node.path === `/nl/${route}`;
     });
-    if (foundNode) {
-      foundNode.context.items.map((item, index) => {
+    if (foundNode && foundNode.pageContext) {
+      foundNode.pageContext.items.map((item, index) => {
         if (
           item.items[0].items[0].id.split('/')[6] ===
           this.props.selectedCanvas.items[0].items[
@@ -110,11 +91,12 @@ class CanvasModal extends React.Component {
     } else return fallback;
   }
 
-  getDetailsLink = imageAnnotations => {
+  getDetailsLink = (imageAnnotations) => {
     if (imageAnnotations.length < 1) return false;
     if (this.state.currentNavIndex === -1 && this.state.navItems.length > 0)
       return false;
     let index = this.state.navItems.length > 1 ? this.state.currentNavIndex : 0;
+
     return this.props.annotationDetails[
       getAnnotationId(imageAnnotations[index])
     ];
@@ -137,7 +119,7 @@ class CanvasModal extends React.Component {
     );
 
     const imageAnnotations = annotations.filter(
-      annotation => annotation.body.type === 'Image'
+      (annotation) => annotation.body.type === 'Image'
     );
     const detailsLink = this.getDetailsLink(imageAnnotations);
     return (
@@ -148,7 +130,7 @@ class CanvasModal extends React.Component {
               {(this.props.selectedCanvas.behavior || []).indexOf('info') !==
               -1 ? (
                 <div className="canvas-modal__essay">
-                  {annotations.map(annotation => (
+                  {annotations.map((annotation) => (
                     <main>
                       {annotation.label && (
                         <h1>
@@ -165,7 +147,7 @@ class CanvasModal extends React.Component {
                           '\n'
                         )
                           .split('\n')
-                          .map(paragraph => (
+                          .map((paragraph) => (
                             <p
                               key={`about__${paragraph}`}
                               dangerouslySetInnerHTML={{ __html: paragraph }}
@@ -203,7 +185,7 @@ class CanvasModal extends React.Component {
                           ''
                         )}
                         {currentLabelAndDescriptionSource.summary ? (
-                          <p>
+                          <div>
                             {getTranslation(
                               currentLabelAndDescriptionSource.summary,
                               this.props.pageLanguage,
@@ -211,10 +193,10 @@ class CanvasModal extends React.Component {
                             )
                               .split('\n')
                               .slice(0, 1)
-                              .map(paragraph => (
-                                <p>{paragraph}</p>
+                              .map((paragraph) => (
+                                <p key={paragraph}>{paragraph}</p>
                               ))}
-                          </p>
+                          </div>
                         ) : (
                           ''
                         )}
@@ -288,7 +270,7 @@ CanvasModal.defaultProps = {
   annotationDetails: {},
 };
 
-export default props => (
+export default (props) => (
   <StaticQuery
     query={graphql`
       query {
@@ -296,25 +278,16 @@ export default props => (
           nodes {
             id
             path
-            context {
-              items {
-                items {
-                  items {
-                    id
-                    target
-                  }
-                }
-              }
-            }
+            pageContext
           }
         }
       }
     `}
-    render={data => <CanvasModal data={data.allSitePage.nodes} {...props} />}
+    render={(data) => <CanvasModal data={data.allSitePage.nodes} {...props} />}
   />
 );
 
-const getAnnotationId = annotation => {
+const getAnnotationId = (annotation) => {
   if (!annotation) {
     return false;
   }

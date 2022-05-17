@@ -69,7 +69,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  t: key => key,
+  t: (key) => key,
 };
 
 export default translate('Header')(Header);

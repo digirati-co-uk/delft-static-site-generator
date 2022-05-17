@@ -17,7 +17,7 @@ const Publications = ({ data, path: pagePath, annos }) => {
       <main>
         <div className="blocks">
           {data.allMarkdownRemark &&
-            (data.allMarkdownRemark.edges || []).map(article => {
+            (data.allMarkdownRemark.edges || []).map((article) => {
               const { title, date, path, author } = article.node.frontmatter;
               return (
                 <div className="block cutcorners w-4 h-4 article">
@@ -43,7 +43,7 @@ Publications.propTypes = {
 export default Publications;
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     allMarkdownRemark(
       filter: { frontmatter: { path: { regex: $path } } }
       sort: { fields: [frontmatter___date], order: DESC }

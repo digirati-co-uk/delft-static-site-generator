@@ -20,7 +20,7 @@ class ManifestCabinet extends React.Component {
     }
   }
 
-  getThumbnails = manifest => {
+  getThumbnails = (manifest) => {
     const manifestId = manifest.id || manifest['@id'];
     if (this.thumbnailCache.hasOwnProperty(manifestId)) {
       return this.thumbnailCache[manifestId];
@@ -33,7 +33,7 @@ class ManifestCabinet extends React.Component {
           sequence.getCanvases().reduce((canvasThumbnails, canvas) => {
             let thumbnail = canvas.getThumbnail();
             if (!thumbnail) {
-              canvas.getImages().forEach(image => {
+              canvas.getImages().forEach((image) => {
                 thumbnail = image.getThumbnail();
                 if (thumbnail) {
                   return true;
@@ -91,7 +91,7 @@ class ManifestCabinet extends React.Component {
                 >
                   {thumbnail ? (
                     <img
-                      ref={imageEl => {
+                      ref={(imageEl) => {
                         if (isSelected) {
                           this.selectedThumbnail = imageEl;
                         }

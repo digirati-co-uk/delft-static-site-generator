@@ -8,7 +8,7 @@ import { graphql, Link } from 'gatsby';
 
 import DynamicSlideShow from '../../components/SlideShow/dynamic-slideshow';
 
-const isHtml = val => val.match(/<[^>]+>/) !== null;
+const isHtml = (val) => val.match(/<[^>]+>/) !== null;
 
 class ObjectPage extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class ObjectPage extends React.Component {
       renderSlideShow: 'Loading...',
       publications: [],
       ids: (this.props.pageContext.items || []).map(
-        item => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
+        (item) => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
       ),
     };
   }
@@ -29,6 +29,7 @@ class ObjectPage extends React.Component {
     this.setState({
       renderSlideShow: <DynamicSlideShow context={pageContext} />,
     });
+    console.log(allIllustrations);
 
     const publications = this.getRelatedPublications(
       allPublications,
@@ -37,18 +38,18 @@ class ObjectPage extends React.Component {
     this.setState({ publications: publications });
   }
 
-  getThumbnailsFromIllustration = illustration => {
+  getThumbnailsFromIllustration = (illustration) => {
     if (
       illustration &&
-      illustration.context &&
-      illustration.context.items &&
-      illustration.context.items[0] &&
-      illustration.context.items[0].items &&
-      illustration.context.items[0].items[0] &&
-      illustration.context.items[0].items[0].items
+      illustration.pageContext &&
+      illustration.pageContext.items &&
+      illustration.pageContext.items[0] &&
+      illustration.pageContext.items[0].items &&
+      illustration.pageContext.items[0].items[0] &&
+      illustration.pageContext.items[0].items[0].items
     ) {
-      return illustration.context.items[0].items[0].items.map(
-        item => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
+      return illustration.pageContext.items[0].items[0].items.map(
+        (item) => item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id
       );
     }
   };
@@ -56,23 +57,26 @@ class ObjectPage extends React.Component {
   getRelatedPublications = (allPub, allIll) => {
     //first get the ids of the illustion id from the illustrations
     const illustationIds = allIll
-      .filter(illustration => {
+      .filter((illustration) => {
         let thumbnailId = this.getThumbnailsFromIllustration(illustration);
-        if (this.state.ids.filter(id => thumbnailId.includes(id)).length > 0) {
+        if (
+          thumbnailId &&
+          this.state.ids.filter((id) => thumbnailId.includes(id)).length > 0
+        ) {
           return illustration;
         }
       })
-      .map(illus => illus.path.split('/').pop());
+      .map((illus) => illus.path.split('/').pop());
 
     const publications = allPub
-      .filter(publication => {
+      .filter((publication) => {
         if (publication.node && publication.node.rawMarkdownBody) {
-          return illustationIds.some(path =>
+          return illustationIds.some((path) =>
             publication.node.rawMarkdownBody.includes(path)
           );
         }
       })
-      .map(publication => {
+      .map((publication) => {
         return {
           title: publication.node.frontmatter.title,
           path: publication.node.frontmatter.path,
@@ -120,7 +124,7 @@ class ObjectPage extends React.Component {
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="caption">Part of Collections</div>
                 <ol>
-                  {(pageContext.collections || []).map(collection => (
+                  {(pageContext.collections || []).map((collection) => (
                     <li key={`/${pageLanguage}/${collection[1]}`}>
                       <Link to={`/${pageLanguage}/${collection[1]}`}>
                         {translate(collection[2], pageLanguage)}
@@ -132,7 +136,7 @@ class ObjectPage extends React.Component {
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="caption">Part of Exhibitions</div>
                 <ol>
-                  {(pageContext.exhibitions || []).map(exhibition => (
+                  {(pageContext.exhibitions || []).map((exhibition) => (
                     <li key={`/${pageLanguage}/${exhibition[1]}`}>
                       <Link to={`/${pageLanguage}/${exhibition[1]}`}>
                         {translate(exhibition[2], pageLanguage)}
@@ -144,16 +148,13 @@ class ObjectPage extends React.Component {
               <div className="block info cutcorners w-4 h-4 ">
                 <div className="caption">Part of Publications</div>
                 <ol>
-                  {(this.state.publications || []).map(publication => (
+                  {(this.state.publications || []).map((publication) => (
                     <li key={publication.path}>
                       <Link
                         to={publication.path}
                         style={{ textTransform: 'capitalize' }}
                       >
-                        {publication.title
-                          .split('/')
-                          .pop()
-                          .replace('-', ' ')}
+                        {publication.title.split('/').pop().replace('-', ' ')}
                       </Link>
                     </li>
                   ))}
@@ -238,22 +239,11 @@ export const query = graphql`
         }
       }
     }
-    allSitePage(filter: { context: {}, path: { regex: "/illustrations/" } }) {
+    allSitePage(filter: { path: { regex: "/illustrations/" } }) {
       nodes {
         path
         id
-        context {
-          id
-          items {
-            items {
-              items {
-                thumbnail {
-                  id
-                }
-              }
-            }
-          }
-        }
+        pageContext
       }
     }
   }

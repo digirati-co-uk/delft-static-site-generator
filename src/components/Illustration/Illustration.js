@@ -6,7 +6,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import './illustration.scss';
 
-const fetchDataFromFile = source => {
+const fetchDataFromFile = (source) => {
   const json = require(`../../../content/illustrations/${source}`);
   return json;
 };
@@ -20,7 +20,7 @@ const convertArrayToObject = (array, key) =>
     {}
   );
 
-const getThumbnails = manifest => {
+const getThumbnails = (manifest) => {
   if (!manifest.items) return [];
   const items =
     manifest &&
@@ -32,7 +32,7 @@ const getThumbnails = manifest => {
     manifest.items[0].items[0].items
       ? manifest.items[0].items[0].items
       : [];
-  const thumbnails = items.map(item => {
+  const thumbnails = items.map((item) => {
     if (item && item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id) {
       return item.thumbnail[0].id;
     }
@@ -40,10 +40,10 @@ const getThumbnails = manifest => {
   return thumbnails;
 };
 
-const getGraphThumbnail = node => {
+const getGraphThumbnail = (node) => {
   if (!node || !node.items) return [];
   let thumbnails = node && node.items ? node.items : [];
-  thumbnails = (thumbnails || []).map(item => {
+  thumbnails = (thumbnails || []).map((item) => {
     if (item && item.thumbnail && item.thumbnail[0] && item.thumbnail[0].id)
       return item.thumbnail[0].id;
   });
@@ -52,8 +52,8 @@ const getGraphThumbnail = node => {
 
 const getPath = (objects, path) => {
   let link = '';
-  const objectPath = objects.find(object => {
-    return getGraphThumbnail(object.context).includes(path);
+  const objectPath = objects.find((object) => {
+    return getGraphThumbnail(object.pageContext).includes(path);
   });
   if (objectPath && objectPath.path) {
     link = objectPath.path;
@@ -64,7 +64,7 @@ const getPath = (objects, path) => {
   return link;
 };
 
-const fixUrl = url => {
+const fixUrl = (url) => {
   return url
     .replace('thumbs', 'iiif-img')
     .replace('/full/full/0/default.jpg', '');
@@ -89,16 +89,16 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
     const thumbnails = getThumbnails(manifest);
 
     // objects which have the same thumbnails
-    const linkedObjects = data.allSitePage.nodes.filter(node => {
+    const linkedObjects = data.allSitePage.nodes.filter((node) => {
       //thumbnails from the linked objects
-      const thumbs = getGraphThumbnail(node.context);
-      const intersection = thumbnails.filter(el => thumbs.includes(el));
+      const thumbs = getGraphThumbnail(node.pageContext);
+      const intersection = thumbnails.filter((el) => thumbs.includes(el));
       return intersection.length >= 1;
     });
 
     let languaged = [];
     if (linkedObjects.length >= 1) {
-      languaged = linkedObjects.filter(route =>
+      languaged = linkedObjects.filter((route) =>
         route.path.split('/')[1].includes(pageLanguage)
       );
     }
@@ -106,7 +106,7 @@ const IllustrationComponent = ({ source, pageLanguage, children, data }) => {
     if (thumbnails.length >= 1) {
       //use the first thumbnail for the annotation.
       setThumbnailSrc(thumbnails[0]);
-      thumbnails.map(thumb => {
+      thumbnails.map((thumb) => {
         const key = thumb ? fixUrl(thumb) : '';
         const path = getPath(languaged, thumb);
         annotations = { ...annotations, [key]: path };
@@ -157,24 +157,18 @@ IllustrationComponent.propTypes = {
   source: PropTypes.string,
 };
 
-export const Illustration = props => (
+export const Illustration = (props) => (
   <StaticQuery
     query={graphql`
       query MyQuery {
         allSitePage {
           nodes {
             path
-            context {
-              items {
-                thumbnail {
-                  id
-                }
-              }
-            }
+            pageContext
           }
         }
       }
     `}
-    render={data => <IllustrationComponent data={data} {...props} />}
+    render={(data) => <IllustrationComponent data={data} {...props} />}
   />
 );

@@ -6,8 +6,8 @@ import { useLunr } from 'react-lunr';
 import { graphql } from 'gatsby';
 import lunr from 'lunr';
 
-const searchGraphQL = results => {
-  return results.filter(node => {
+const searchGraphQL = (results) => {
+  return results.filter((node) => {
     const nodeType = node.path.split('/')[2];
     return (
       nodeType !== 'publications' &&
@@ -26,17 +26,17 @@ const removeDuplicates = (results, lang) => {
   let results2 = [...results];
 
   let resultsInCurrentLang = results2.filter(
-    result => result.path.split('/')[1] === lang
+    (result) => result.path.split('/')[1] === lang
   );
 
   const allOtherLang = results2.filter(
-    result => result.path.split('/')[1] !== lang
+    (result) => result.path.split('/')[1] !== lang
   );
 
   const relevantOtherLang = [];
 
-  allOtherLang.forEach(result => {
-    let paths = resultsInCurrentLang.map(node => node.path);
+  allOtherLang.forEach((result) => {
+    let paths = resultsInCurrentLang.map((node) => node.path);
     let otherLangPath = result.path.split('/');
     let otherLang = otherLangPath[1] === 'en' ? 'nl' : 'en';
     otherLangPath[1] = otherLang;
@@ -49,31 +49,31 @@ const removeDuplicates = (results, lang) => {
 };
 
 // const resolveMetaDataEnglish = node => {
-//   if (node.context && node.context.metadata) {
-//     return node.context.metadata.map(value => value.en).join(' | ');
+//   if (node.pageContext && node.pageContext.metadata) {
+//     return node.pageContext.metadata.map(value => value.en).join(' | ');
 //   }
 // };
 
 // const resolveMetaDataDutch = node => {
-//   if (node.context && node.context.metadata) {
-//     return node.context.metadata.map(value => value.nl).join(' | ');
+//   if (node.pageContext && node.pageContext.metadata) {
+//     return node.pageContext.metadata.map(value => value.nl).join(' | ');
 //   }
 // };
 
 const mapToFE = (lunrResults, nonPublications) => {
   const sortedOut = lunrResults
-    ? lunrResults.map(result =>
-        nonPublications.filter(item => item.path === result.ref)
+    ? lunrResults.map((result) =>
+        nonPublications.filter((item) => item.path === result.ref)
       )
     : [];
 
-  const results = sortedOut.map(node => {
+  const results = sortedOut.map((node) => {
     const type = node[0].path && node[0].path.split('/')[2];
     const lang = node[0].path && node[0].path.split('/')[1];
     return {
       path: node[0].path,
-      id: node[0].context && node[0].context.id,
-      metadata: node[0].context && node[0].context.metadata,
+      id: node[0].pageContext && node[0].pageContext.id,
+      metadata: node[0].pageContext && node[0].pageContext.metadata,
       title: resolveTitle(node[0]),
       type: type,
     };
@@ -82,15 +82,16 @@ const mapToFE = (lunrResults, nonPublications) => {
   return results;
 };
 
-const resolveTitle = node => {
+const resolveTitle = (node) => {
   const lang = node.path && node.path.split('/')[1];
   const type = node.path && node.path.split('/')[2];
 
   let otherLang = lang === 'en' ? 'nl' : 'en';
 
   if (type === 'objects') {
-    const title = node.context.metadata[0].value[lang];
-    if (!title) return node.context.metadata[0].value[otherLang];
+    if (!node.pageContext) return '';
+    const title = node.pageContext.metadata[0].value[lang];
+    if (!title) return node.pageContext.metadata[0].value[otherLang];
     return title;
   }
   if (type === 'collections') {
@@ -101,21 +102,25 @@ const resolveTitle = node => {
       return 'Collecties';
     }
     const title =
-      node.context &&
-      node.context.collection &&
-      node.context.collection.label[lang][0];
+      node.pageContext &&
+      node.pageContext.collection &&
+      node.pageContext.collection.label[lang][0];
     return title
       ? title
-      : node.context &&
-          node.context.collection &&
-          node.context.collection.label[otherLang][0];
+      : node.pageContext &&
+          node.pageContext.collection &&
+          node.pageContext.collection.label[otherLang][0];
   }
   if (type === 'exhibitions') {
     const title =
-      node.context && node.context.label && node.context.label[lang];
+      node.pageContext &&
+      node.pageContext.label &&
+      node.pageContext.label[lang];
     return title
       ? title
-      : node.context && node.context.label && node.context.label[otherLang];
+      : node.pageContext &&
+          node.pageContext.label &&
+          node.pageContext.label[otherLang];
   }
 };
 
@@ -130,17 +135,17 @@ const Search = ({ data, location, pageContext, path }) => {
 
   const nonPublications = searchGraphQL(data.allSitePage.nodes, searchQuery);
 
-  var idx = lunr(function() {
+  var idx = lunr(function () {
     this.ref('path');
     this.field('path');
     this.field('id');
     this.field('title');
     this.field('type');
 
-    nonPublications.forEach(function(doc) {
+    nonPublications.forEach(function (doc) {
       this.add({
         path: doc.path,
-        id: doc.context && doc.context.id,
+        id: doc.pageContext && doc.pageContext.id,
         title: resolveTitle(doc),
         type: doc.path && doc.path.split('/')[2],
       });
@@ -163,7 +168,7 @@ const Search = ({ data, location, pageContext, path }) => {
 
   const mdResults = useLunrSearch();
 
-  const lunrSearch = query => {
+  const lunrSearch = (query) => {
     try {
       const res = idx.search(`*${query}*`);
       return res;
@@ -184,7 +189,7 @@ const Search = ({ data, location, pageContext, path }) => {
           )
         : [];
 
-    const cleaned = found.filter(res => {
+    const cleaned = found.filter((res) => {
       return (
         res.path !== '/Exhibition/Exhibition/' &&
         !((res.path === '/en/exhibitions' || '/nl/exhibitions') && !res.title)
@@ -239,37 +244,7 @@ export const pageQuery = graphql`
     allSitePage {
       nodes {
         path
-        context {
-          id
-          metadata {
-            label {
-              en
-              nl
-            }
-            value {
-              en
-              nl
-            }
-          }
-          collection {
-            label {
-              en
-              nl
-            }
-          }
-          label {
-            en
-          }
-          items {
-            items {
-              items {
-                body {
-                  id
-                }
-              }
-            }
-          }
-        }
+        pageContext
       }
     }
   }

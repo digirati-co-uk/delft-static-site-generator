@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Logo = props => (
+const Logo = (props) => (
   <a
     href="https://www.tudelft.nl/en/"
     style={{ borderBottom: 0, textAlign: 'center' }}

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import withLocation from '../withLocation/withLocation';
 import CanvasModal from './CanvasModal';
 
-const DynamicCanvasModal = props => {
+const DynamicCanvasModal = (props) => {
   return (
     <CanvasModal {...props} pathname={props.location.pathname} id={props.id} />
   );

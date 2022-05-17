@@ -4,11 +4,11 @@ import OpenSeadragon from 'openseadragon';
 import ContainerDimensions from 'react-container-dimensions';
 import './ThinCanvasPanel.scss';
 
-const parseXYWH = xywh => {
+const parseXYWH = (xywh) => {
   if (!xywh) {
     return {};
   }
-  const [x, y, width, height] = xywh.split(',').map(v => parseInt(v, 10));
+  const [x, y, width, height] = xywh.split(',').map((v) => parseInt(v, 10));
   return {
     x,
     y,
@@ -17,7 +17,7 @@ const parseXYWH = xywh => {
   };
 };
 
-const getHashParams = uri => {
+const getHashParams = (uri) => {
   const hashParams = uri.split('#')[1];
   if (hashParams) {
     return hashParams.split('&').reduce((result, item) => {
@@ -29,10 +29,10 @@ const getHashParams = uri => {
   return {};
 };
 
-const ensureInfoJson = url =>
+const ensureInfoJson = (url) =>
   url.endsWith('/info.json') ? url : `${url}/info.json`;
 
-const getTileSourceUrl = service => {
+const getTileSourceUrl = (service) => {
   if (Array.isArray(service)) {
     if (typeof service[0] === 'string') {
       return ensureInfoJson(service[0]);
@@ -45,7 +45,7 @@ const getTileSourceUrl = service => {
   return ensureInfoJson(service.id);
 };
 
-const createVideo = body => {
+const createVideo = (body) => {
   let url = body.id;
   if (body.id.includes('youtu.be') || body.id.includes('youtube')) {
     if (url.includes('watch')) {
@@ -127,7 +127,7 @@ class ThinCanvasPanel extends React.Component {
     }
   }
 
-  setViewerRef = el => {
+  setViewerRef = (el) => {
     this.viewerEl = el;
     this.createOsd();
     this.displayAnnotationsOnCanvas();
@@ -172,7 +172,7 @@ class ThinCanvasPanel extends React.Component {
     });
   };
 
-  getAnnotationCrop = annotation => {
+  getAnnotationCrop = (annotation) => {
     if (annotation && annotation.body && annotation.body.id) {
       const iiifPathParts = annotation.body.id.split('/');
       const xywh = iiifPathParts[iiifPathParts.length - 4];
@@ -199,11 +199,11 @@ class ThinCanvasPanel extends React.Component {
     );
   };
 
-  getRotation = param => {
+  getRotation = (param) => {
     return parseInt(param.split('/')[9]);
   };
 
-  getQuality = param => {
+  getQuality = (param) => {
     return parseInt(param.split('/')[10]);
   };
 
@@ -214,7 +214,7 @@ class ThinCanvasPanel extends React.Component {
     if (this.props.navItems.length > 1) this.addCanvasBackground();
     this.annotations = this.props.getAnnotations();
 
-    this.annotations.forEach(annotation => {
+    this.annotations.forEach((annotation) => {
       const coords = this.convertCoordsToViewportRelative(
         parseXYWH(getHashParams(annotation.target || '').xywh),
         canvas
@@ -273,7 +273,7 @@ class ThinCanvasPanel extends React.Component {
     });
   };
 
-  setCurrentNavitemFocus = canvasItem => {
+  setCurrentNavitemFocus = (canvasItem) => {
     const { canvas, currentNavItem } = this.props;
     const coords = this.convertCoordsToViewportRelative(
       parseXYWH(getHashParams(canvasItem || '').xywh),

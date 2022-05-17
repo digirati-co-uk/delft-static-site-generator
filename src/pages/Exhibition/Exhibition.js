@@ -157,14 +157,14 @@ class ExhibitionPage extends React.Component {
     </div>
   );
 
-  getBlockClasses = canvas =>
+  getBlockClasses = (canvas) =>
     canvas.behavior && canvas.behavior.length > 0
       ? `block cutcorners ${canvas.behavior.join(' ')}${
           canvas.summary ? '' : ' image'
         }`
       : `block cutcorners w-8 h-8 image${canvas.summary ? '' : ' image'}`;
 
-  getBlockImageClasses = canvas => {
+  getBlockImageClasses = (canvas) => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
     return blockClasses
       .reduce(
@@ -175,33 +175,43 @@ class ExhibitionPage extends React.Component {
               blockClasses.indexOf('column') !== -1 &&
               cls.indexOf('h-') === 0
             ) {
-              newCls = `h-${parseInt(cls.substr(2), 10) -
-                Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
+              newCls = `h-${
+                parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 4)
+              }`;
             }
             if (blockClasses.indexOf('row') !== -1 && cls.indexOf('w-') === 0) {
-              newCls = `w-${parseInt(cls.substr(2), 10) -
-                Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
+              newCls = `w-${
+                parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 3)
+              }`;
             }
             if (
               blockClasses.indexOf('left') !== -1 &&
               cls.indexOf('w-') === 0
             ) {
-              newCls = `w-${parseInt(cls.substr(2), 10) -
-                Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
+              newCls = `w-${
+                parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 3)
+              }`;
             }
             if (
               blockClasses.indexOf('right') !== -1 &&
               cls.indexOf('w-') === 0
             ) {
-              newCls = `w-${parseInt(cls.substr(2), 10) -
-                Math.ceil(parseInt(cls.substr(2), 10) / 3)}`;
+              newCls = `w-${
+                parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 3)
+              }`;
             }
             if (
               blockClasses.indexOf('bottom') !== -1 &&
               cls.indexOf('h-') === 0
             ) {
-              newCls = `h-${parseInt(cls.substr(2), 10) -
-                Math.ceil(parseInt(cls.substr(2), 10) / 4)}`;
+              newCls = `h-${
+                parseInt(cls.substr(2), 10) -
+                Math.ceil(parseInt(cls.substr(2), 10) / 4)
+              }`;
             }
             textClasses.push(newCls);
           }
@@ -212,7 +222,7 @@ class ExhibitionPage extends React.Component {
       .join(' ');
   };
 
-  getCanvasPhysicalSize = canvas =>
+  getCanvasPhysicalSize = (canvas) =>
     this.getBlockImageClasses(canvas)
       .split(' ')
       .reduce(
@@ -230,7 +240,7 @@ class ExhibitionPage extends React.Component {
         }
       );
 
-  getBlockTextClasses = canvas => {
+  getBlockTextClasses = (canvas) => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
     return blockClasses
       .reduce(
@@ -261,7 +271,7 @@ class ExhibitionPage extends React.Component {
       .join(' ');
   };
 
-  getBlockArrowClasses = canvas => {
+  getBlockArrowClasses = (canvas) => {
     const blockClasses = this.getBlockClasses(canvas).split(' ');
     if (blockClasses.includes('bottom') || blockClasses.includes('column')) {
       return 'arrow up';
@@ -356,8 +366,8 @@ class ExhibitionPage extends React.Component {
                     <div className="text">
                       {translate(canvas.summary, pageLanguage, '\n')
                         .split('\n')
-                        .map(paragraph => (
-                          <p key={`about__${idx}`}>{paragraph}</p>
+                        .map((paragraph) => (
+                          <p key={`about__${paragraph}`}>{paragraph}</p>
                         ))}
                       {
                         <p>
@@ -401,7 +411,7 @@ class ExhibitionPage extends React.Component {
                             <p>
                               {translate(canvas.summary, pageLanguage, '\n')
                                 .split('\n')
-                                .map(paragraph => (
+                                .map((paragraph) => (
                                   <p key={`about__${idx}`}>{paragraph}</p>
                                 ))}
                             </p>

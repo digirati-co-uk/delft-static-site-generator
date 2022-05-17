@@ -4,7 +4,7 @@ import '../ManifestCabinet/ManifestCabinet.scss';
 
 import { Link } from 'gatsby';
 
-const useMountEffect = fun => useEffect(fun);
+const useMountEffect = (fun) => useEffect(fun);
 
 export const Grid = ({ thumbnails, onClick, selected, pathname, width }) => {
   const divRef = useRef(null);

@@ -36,7 +36,7 @@ class Layout extends React.Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <TranslatorProvider
             translations={translations[this.props.language] || translations.en}
           >

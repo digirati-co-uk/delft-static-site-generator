@@ -18,15 +18,15 @@ The Museum Collection includes objects that draw on TU Delft's institutional his
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[History of the university](/nl/collections/7b35ae59-1507-447a-a9ac-4641a7bf24b1)
+[History of the university](/en/collections/7b35ae59-1507-447a-a9ac-4641a7bf24b1)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Geodesy](/nl/collections/d51c775b-4472-4e6a-a952-f0f3da8aee9d)
+[Geodesy](/en/collections/d51c775b-4472-4e6a-a952-f0f3da8aee9d)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Water works paintings](/nl/collections/64c2d30b-1002-4063-a4d0-299cb10c507e)
+[Water works paintings](/en/collections/64c2d30b-1002-4063-a4d0-299cb10c507e)
 </div>
 
 </div>
@@ -39,15 +39,15 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[History of the university](/nl/collections/lib-tresor-universiteitsgeschiedenis)
+[History of the university](/en/collections/lib-tresor-universiteitsgeschiedenis)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[TH Mededelingen](/nl/collections/lib-tresor-th-mededelingen)
+[TH Mededelingen](/en/collections/lib-tresor-th-mededelingen)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[DVSV](/nl/collections/lib-tresor-dvsv)
+[DVSV](/en/collections/lib-tresor-dvsv)
 </div>
 
 </div>
@@ -58,15 +58,15 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Map Room](/nl/collections/lib-kaartenkamer)
+[Map Room](/en/collections/lib-kaartenkamer)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Photos](/nl/collections/lib-fotografie)
+[Photos](/en/collections/lib-fotografie)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Image archive](/nl/collections/lib-fotoarchief)
+[Image archive](/en/collections/lib-fotoarchief)
 </div>
 
 </div>
@@ -77,7 +77,7 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Campus Real Estate](/nl/collections/tu-cre-tib-bouwtekeningen)
+[Campus Real Estate](/en/collections/tu-cre-tib-bouwtekeningen)
 </div>
 
 </div>
@@ -88,31 +88,31 @@ The Trésor includes historic books, journals, maps, photographs and prints from
 
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Nationaal Archief](/nl/collections/ex-na)
+[Nationaal Archief](/en/collections/ex-na)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Het Nieuwe Instituut](/nl/collections/ex-hni)
+[Het Nieuwe Instituut](/en/collections/ex-hni)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Stadsarchief Delft](/nl/collections/ex-stadsarchief-delft)
+[Stadsarchief Delft](/en/collections/ex-stadsarchief-delft)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Universitaire Bibliotheken Leiden](/nl/collections/ex-ubl)
+[Universitaire Bibliotheken Leiden](/en/collections/ex-ubl)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Histechnica](/nl/collections/ex-histechnica)
+[Histechnica](/en/collections/ex-histechnica)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Atria](/nl/collections/ex-atria)
+[Atria](/en/collections/ex-atria)
 </div>
 <div class="block purple tint cutcorners w-4 h-4 image">
 
-[Aviodrome](/nl/collections/ex-aviodrome)
+[Aviodrome](/en/collections/ex-aviodrome)
 </div>
 
 </div>

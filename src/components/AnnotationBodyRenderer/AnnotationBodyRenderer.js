@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const filterToPreferredChoices = (choices, pageLanguage = 'en') =>
   choices.filter(
-    choice =>
+    (choice) =>
       !choice.hasOwnProperty('language') ||
       (choice.hasOwnProperty('language') && choice.language === pageLanguage)
   );
@@ -56,23 +56,23 @@ const IIIFImageAnnotationCover = ({
       <picture>
         <source
           media={'max-width: 980px'}
-          srcset={body.id.replace('/full/full/', `/full/!1000,1000/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!1000,1000/`)}
         />
         <source
           media={'max-width: 700px'}
-          srcset={body.id.replace('/full/full/', `/full/!800,800/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!800,800/`)}
         />
         <source
           media={'max-width: 600px'}
-          srcset={body.id.replace('/full/full/', `/full/!600,600/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!600,600/`)}
         />
         <source
           media={'max-width: 480px'}
-          srcset={body.id.replace('/full/full/', `/full/!500,500/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!500,500/`)}
         />
         <source
           media={'max-width: 320px'}
-          srcset={body.id.replace('/full/full/', `/full/!250,250/`)}
+          srcSet={body.id.replace('/full/full/', `/full/!250,250/`)}
         />
         <img
           src={body.id.replace('/full/full/', `/full/!1000,1000/`)}
@@ -152,8 +152,8 @@ const IIIFVideoAnnotationCover = ({ body, position, annotation }) => {
           url.split('/')[4].split('#')[0]
         }&width=1024&height=768`
       )
-        .then(response => response.json())
-        .then(data => setImageUrl(data.thumbnail_url));
+        .then((response) => response.json())
+        .then((data) => setImageUrl(data.thumbnail_url));
     }
     if (annotation.thumbnail) {
       setImageUrl(annotation.thumbnail[0].id);
@@ -202,15 +202,17 @@ export const AnnotationBodyRenderer = ({
 }) => {
   switch (body.type) {
     case 'Choice':
-      return filterToPreferredChoices(body.items, pageLanguage).map(choice => (
-        <AnnotationBodyRenderer
-          body={choice}
-          position={position}
-          annotation={annotation}
-          canvas={canvas}
-          canvasSize={canvasSize}
-        />
-      ));
+      return filterToPreferredChoices(body.items, pageLanguage).map(
+        (choice) => (
+          <AnnotationBodyRenderer
+            body={choice}
+            position={position}
+            annotation={annotation}
+            canvas={canvas}
+            canvasSize={canvasSize}
+          />
+        )
+      );
     case 'Video':
       return (
         <IIIFVideoAnnotationCover
