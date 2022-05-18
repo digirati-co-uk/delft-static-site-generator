@@ -15,8 +15,9 @@ jobs:
       run: |
         git clone --depth=1 --branch=master https://github.com/libis/ca_tudelft_iiif
         pwd
-        cp -a ca_tudelft_iiif/objects/. ./content/objects
-        cp -a ca_tudelft_iiif/collections/. ./content/collections/lib-library
+        ls
+        cp -a ca_tudelft_iiif/objects/. content/objects
+        cp -a ca_tudelft_iiif/collections/. content/collections/lib-library
         git rm --cached -f ca_tudelft_iiif
         rm -r ca_tudelft_iiif
         git add .
