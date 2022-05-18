@@ -5,6 +5,8 @@ on:
     # Daily schedule
     - cron: '0 3 * * *'
 
+  workflow_dispatch: {}
+
 jobs:
   copy:
     runs-on: ubuntu-latest
