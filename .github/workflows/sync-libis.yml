@@ -9,9 +9,8 @@ jobs:
   copy:
     runs-on: ubuntu-latest
     steps:
-    # Checkout the libis repo
     - name: Copy iiif
-    - run: |
+      run: |
         git clone --depth=1 --branch=master https://github.com/libis/ca_tudelft_iiif
         cp -a ca_tudelft_iiif/objects/. content/objects
         cp -a ca_tudelft_iiif/collections/. content/collections/lib-library
@@ -20,6 +19,3 @@ jobs:
         git add .
         git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/libis/ca_tudelft_iiif"
         git push target master
-
-
-
