@@ -12,9 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: 'copy'
-          fetch-depth: 0
+
 
       - run: |
           git clone --depth=1 --branch=master https://github.com/libis/ca_tudelft_iiif
