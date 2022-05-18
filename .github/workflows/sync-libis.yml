@@ -20,7 +20,7 @@ jobs:
           ls
           cp -a ca_tudelft_iiif/objects/. content/objects
           cp -a ca_tudelft_iiif/collections/. content/collections/lib-library
-          git rm --cached -f ca_tudelft_iiif
+          rm -r ca_tudelft_iiif
           git add .
           git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/libis/ca_tudelft_iiif"
 
