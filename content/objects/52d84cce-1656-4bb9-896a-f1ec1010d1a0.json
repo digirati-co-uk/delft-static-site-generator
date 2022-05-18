@@ -2,7 +2,7 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Herdenkingsplaquette gevallenen studentenverzet door prof. L.O. Wenckebach "
+            "value": "Herdenkingsplaquette voor gevallenen van WOII door prof. L.O. Wenckebach "
         },
         {
             "label": "Objectnaam",
@@ -13,12 +13,24 @@
             "value": "2020.0001.CVB"
         },
         {
+            "label": "Datering",
+            "value": "1948"
+        },
+        {
             "label": "Maker",
-            "value": "Wenckebach, L.O.  (ontwerper)"
+            "value": "Wenckebach, Ludwig Oswald  (ontwerper)"
         },
         {
             "label": "Materiaal",
             "value": "brons"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "De Delftse hoogleraar Ludwig Oswald Wenckebach (1895\u20131962) ontwierp dit bronzen reliëf voor de medewerkers en studenten van de TU Delft - toen nog een Technische Hogeschool - die het leven lieten door de Tweede Wereldoorlog.<\/br>De centrale dichtregel 'Het schild was zwak, maar sterk is het betrouwen' komt uit het gedicht 'In Memoriam Anton Marinus Pleyte' van oud-TH-student Hendrik Jan Scheepmaker. Natuurkundestudent Pleyte is in 1943 gefusilleerd vanwege zijn verzetsactiviteiten.<\/br>Op 21 oktober 1948 werden zowel de plaquette van Wenckebach als het schilderij van De Josselin de Jong, een verbeelding van het studentenverzet, tijdens een plechtige bijeenkomst overgedragen aan het college van curatoren en officieel onthuld in het toenmalige hoofdgebouw aan de Oude Delft 95.<\/br>Later is de plaquette naar het toenmalige hoofdgebouw van de TH aan de Julianalaan gebracht. En in 2007 is de plaquette in de Aula van de TU geplaatst."
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Schilderij '1940-1945 studenten streden en leden' door prof. G. de Josselin de Jong;Portret van Frans van Hasselt door M.L. van Hasselt;Gedenksteen voor Frans van Hasselt (CVB.2007.0103;CVB.2011.0007;CVB.2011.0008)"
         }
     ],
     "@type": "sc:Manifest",
@@ -29,7 +41,7 @@
         "@id": "https://dlc.services/iiif-manifest/7/18/52d84cce-1656-4bb9-896a-f1ec1010d1a0/range/range-0-0.json",
         "label": "0"
     }],
-    "@id": "https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/test/content/objects/52d84cce-1656-4bb9-896a-f1ec1010d1a0.json",
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/52d84cce-1656-4bb9-896a-f1ec1010d1a0.json",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
