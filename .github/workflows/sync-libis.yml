@@ -15,7 +15,7 @@ jobs:
 
 
       - run: |
-          git clone --depth=1 --branch=master https://github.com/libis/ca_tudelft_iiif
+          git clone --depth=1 --branch=main https://github.com/libis/ca_tudelft_iiif
           pwd
           ls
           cp -a ca_tudelft_iiif/objects/. content/objects
