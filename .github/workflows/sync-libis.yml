@@ -15,7 +15,7 @@ jobs:
         with:
           ref: 'copy'
           fetch-depth: 0
-          
+
       - run: |
           git clone --depth=1 --branch=master https://github.com/libis/ca_tudelft_iiif
           pwd
@@ -26,8 +26,7 @@ jobs:
           rm -r ca_tudelft_iiif
           git add .
           git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/libis/ca_tudelft_iiif"
-        
+
       - run: git push origin master --force-with-lease
-        continue-on-error: true
-        
+
 
