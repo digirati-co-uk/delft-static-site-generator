@@ -1,0 +1,271 @@
+{
+    "summary": {"nl": ["Zes 19e eeuwse schilderijen vervaardigd door C.C. Kannemans en A.W. Stortenbeker van Nederlandse waterstaatswerken. De doeken hebben een groot formaat (ong. 4 x 1 meter) en zijn vervaardigd in opdracht van de Nederlandse regering ter documentatie van de voltooide bouwprojecten. De doeken van Kannemans zijn in 1878 geëxposeerd (en bekroond) op de Wereldtentoonstelling van Philadelphia. Kannemans was naast schilder ook fotograaf en legde de bruggen die hij schilderde ook vast op de gevoelige plaat.\nVoor private spooorwegondernemers was het niet mogelijk om kostbare brugverbindingen aan te leggen over de Nederlandse rivieren. Hier kwam verandering in na 1860, toen de spoorwegaanleg een staatszaak werd. De spoorbruggen bij Culemborg en Zaltbommel werden ontworpen door G. van Diesen (1826-1916); de Moerdijkbrug en de spoorbrug bij Nijmegen werden ontworpen door J.G. van den Bergh (1824-1890). Een grote uitdaging vormde het kruiend ijs: in de Waal en de Lek fungeerde de brugpijlers zodoende als ijsbreker. In Culemborg, waar dit onmogelijk was, werd één grote overspanning gebruikt. De eer van langste brug van Europa werd niet lang daarna overgedragen aan de Moerdijkbrug. Op de doeken wordt de technische vooruitgang onder andere uitgebeeld door het contrast tussen enerzijds zeilschepen en trekschuiten, en anderzijds stoomraderboten en stoomtreinen.\nOok bij de uitvoering van de Waterwerken neemt de overheid geleidelijk de rol over van particuliere ondernemers. Het Noordzeekanaal werd door particuliere ondernemers aangelegd en in 1876 geopend. In 1882 nam het rijk de lasten over. De Nieuwe Waterweg, waarvoor de duinen bij Hoek van Holland werden doorgraven om toegang te bieden voor grotere stoomschepen, was vanaf het begin een overheidsaangelegenheid. Kannemans doeken van deze waterwerken kunnen als elkaars pendanten worden gezien, blijkend uit de compositie en het feit dat hij er maar één signeerde.\nChristiaan Cornelis Kannemans (1812-1884) was als autodidact bekend als schilder van zeestukken, met name schipbreuken. In binnen- en buitenland ontving hij diverse onderscheidingen. Dat de laatste opdracht voor de spoorbrug bij Nijmegen niet naar hem ging, heeft niet met de kwaliteit van zijn werk te maken maar met het feit dat hij rond die tijd een punt achter zijn schildersloopbaan zette. Over A.W. Stortenbeker is naast dat hij de Nijmeegse brug schilderde verder niets bekend.\n(Gebaseerd op: Wilma van Giesbergen, Universitair cultureel erfgoed: Zes negentiende-eeuwse waterstaatswerken geschilderd door C.C. Kannemans en A.W. Stortenbeker. Delft Integraal 1998, nummer 4)"]},
+    "metadata": [
+        {
+            "label": {"nl": ["Beherende instelling"]},
+            "value": {"nl": ["TU Delft Library"]}
+        },
+        {
+            "label": {"nl": ["Conservator"]},
+            "value": {"nl": ["Sylvia Nijhuis"]}
+        }
+    ],
+    "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/collections/64c2d30b-1002-4063-a4d0-299cb10c507e.json",
+    "label": {
+        "en": [""],
+        "nl": ["Schilderijen Waterstaatswerken"]
+    },
+    "type": "Collection",
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "items": [
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 324
+                        },
+                        {
+                            "width": 400,
+                            "height": 127
+                        },
+                        {
+                            "width": 200,
+                            "height": 63
+                        },
+                        {
+                            "width": 100,
+                            "height": 32
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/56077157-6d15-415e-9515-0dd1f36dac31",
+                    "type": "ImageService2",
+                    "height": 324
+                },
+                "id": "https://dlc.services/thumbs/7/18/56077157-6d15-415e-9515-0dd1f36dac31/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/b644a121-1cde-4a28-98b2-92df4f41d6eb.json",
+            "label": {"nl": ["Spoorbrug over de Lek bij Culemborg"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 295
+                        },
+                        {
+                            "width": 400,
+                            "height": 115
+                        },
+                        {
+                            "width": 200,
+                            "height": 58
+                        },
+                        {
+                            "width": 100,
+                            "height": 29
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/8e152582-1053-43db-8530-1e767e583b1f",
+                    "type": "ImageService2",
+                    "height": 295
+                },
+                "id": "https://dlc.services/thumbs/7/18/8e152582-1053-43db-8530-1e767e583b1f/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/1f5e8ccd-8582-47e0-b688-0894b98354a6.json",
+            "label": {"nl": ["Spoorbrug over het Hollands Diep bij Moerdijk"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 280
+                        },
+                        {
+                            "width": 400,
+                            "height": 109
+                        },
+                        {
+                            "width": 200,
+                            "height": 55
+                        },
+                        {
+                            "width": 100,
+                            "height": 27
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74",
+                    "type": "ImageService2",
+                    "height": 280
+                },
+                "id": "https://dlc.services/thumbs/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/3a60b91e-5f73-4a6a-a3ff-6c572d9e317a.json",
+            "label": {"nl": ["Spoorbrug over de Waal bij Zaltbommel"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 282
+                        },
+                        {
+                            "width": 400,
+                            "height": 110
+                        },
+                        {
+                            "width": 200,
+                            "height": 55
+                        },
+                        {
+                            "width": 100,
+                            "height": 28
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd",
+                    "type": "ImageService2",
+                    "height": 282
+                },
+                "id": "https://dlc.services/thumbs/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/7cdc6179-2168-48b9-8155-ade6144010a3.json",
+            "label": {"nl": ["Monding van het Noorzeekanaal bij IJmuiden"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 284
+                        },
+                        {
+                            "width": 400,
+                            "height": 111
+                        },
+                        {
+                            "width": 200,
+                            "height": 56
+                        },
+                        {
+                            "width": 100,
+                            "height": 28
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a",
+                    "type": "ImageService2",
+                    "height": 284
+                },
+                "id": "https://dlc.services/thumbs/7/18/2018c39b-015c-43db-8f37-4f64ba8b359a/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/0cf03d4c-e9e5-4611-a2bb-7ce0d432c7e1.json",
+            "label": {"nl": ["Monding van de Nieuwe Waterweg bij Hoek van Holland"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 292
+                        },
+                        {
+                            "width": 400,
+                            "height": 114
+                        },
+                        {
+                            "width": 200,
+                            "height": 57
+                        },
+                        {
+                            "width": 100,
+                            "height": 28
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115",
+                    "type": "ImageService2",
+                    "height": 292
+                },
+                "id": "https://dlc.services/thumbs/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/79ad29dc-864d-4f39-95bb-908243d7ebe8.json",
+            "label": {"nl": ["Spoorbrug over de Waal bij Nijmegen"]},
+            "type": "Manifest"
+        }
+    ]
+}
