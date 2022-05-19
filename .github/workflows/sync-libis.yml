@@ -18,8 +18,10 @@ jobs:
           git clone --depth=1 --branch=main https://github.com/libis/ca_tudelft_iiif
           pwd
           ls
+          rm -r content/objects
+          rm -r content/collections/lib-collectiveaccess
           cp -a ca_tudelft_iiif/objects/. content/objects
-          cp -a ca_tudelft_iiif/collections/. content/collections/lib-library
+          cp -a ca_tudelft_iiif/collections/. content/collections/lib-collectiveaccess
           rm -r ca_tudelft_iiif
           git config user.name github-actions
           git config user.email github-actions@github.com
