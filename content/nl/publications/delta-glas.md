@@ -23,4 +23,4 @@ De vijf glas-in-loodramen bevonden zich boven de bescheiden gedecoreerde hoofdin
 
 Voor de afdeling Elektrotechniek verrees in de jaren zestig een nieuw complex in de Wippolder. Op 25 november 1969 opende de toenmalige minister van Onderwijs en Wetenschappen, G.H. Veringa, de inmiddels iconische hoogbouw aan de Mekelweg. De vijf glas-in-loodramen verhuisden mee. Ze hebben daar jarenlang relatief onzichtbaar voor de glasgevel in de entree gehangen. In juli zijn ze teruggeplaatst op hun originele locatie, als sluitstuk van het opknappen van het gebouw aan de Kanaalweg voor studentenhuisvestingsorganisatie Duwo.
 
-*Deze column heeft eerder in iets gewijzigde vorm gestaan in* [Delf, cultuurhistorisch magazine voor de regio Delft](https://virtumedia.nl/magazine/delf)*, jaargang 20 nr. 3.*
+*Deze column heeft eerder in iets gewijzigde vorm gestaan in* [Delf, cultuurhistorisch magazine voor de regio Delft](https://delfia-batavorum.nl/publicaties/delf)*, jaargang 20 nr. 3.*
