@@ -25,8 +25,8 @@ When the Dutch educational system was reformed by the famous Dutch statesman Joh
 
 The city of Delft was an important centre for knowledge of the Dutch East Indies. Nonetheless, Delft Polytechnic and its successor Delft Technical College (founded in 1905) did not pay much attention to the Dutch East Indies in the curriculum. Only in 1908 was a professor for water management appointed with the explicit task of training engineers who aspired to work in the East Indies.[^4]
 
-<Illustration source="KITLV-11908.json"></Illustration>
-<Illustration source="collectie-nusantara.json"></Illustration>
+<Illustration source="tu-itb-01.json"></Illustration>
+<Illustration source="tu-itb-02.json"></Illustration>
 
 This initiative came surprisingly late. For example, since 1874, the Department of Public Works in the East Indies had set a diploma from Delft as a requirement for working there. More­over, since the mid-19th century, a staggering average of 25% to 30% of all engineers who completed their education in Delft went to the Dutch East Indies.[^5] Civil engineers from Delft were deemed to be capable of more than was expected on the basis of their education and work experience. There were military engineers from the navy who worked on railway development, irrigation experts engaged in mining and agricultural reform, and there were engineers who published on topics ranging from vocational education to harbour development and bridge construction.  The constant call from the East Indies for Delft-trained engineers meant that graduates were expected to be versatile.[^6]
 
@@ -59,7 +59,7 @@ The private funds were invested in the Royal Institute for Higher Technical Educ
 
 The Royal Institute was tasked with building the college and designing the curriculum. Already in April 1918, a preliminary recommendation was written by Jan Willem IJzerman, who would later become chairman of the institute.[^13] IJzerman, a prominent railway engineer in the Dutch East Indies, began his recommendation by stating that the training provided by the new technical college should be at the same level as Delft. The curriculum would focus on training civil engineers. The plan was to later add a chemical engineering programme. For this reason, Delft professor of chemical engineering Sebastiaan Hoogewerff was asked to help develop the curriculum.[^14] IJzerman and his colleagues envisioned a fully functioning college, encompassing all types of engineering sciences. It would take a number of decades before this would be realized.
 
-<Illustration source="na-4.KIVI-864.json"></Illustration>
+<Illustration source="tu-itb-03.json"></Illustration>
 
 Delft professor Jan Klopper was subsequently asked to further develop the curriculum.[^15] Its four-year duration was the most important difference to Delft, where students had one additional year – and often needed longer – depending on their extracurricular activities. Klopper’s deliberate choice of four years can be seen as a disguised criticism of Delft’s work ethic. In addition to keeping an attendance register, Klopper proposed to raise the students’ level by holding periodic tests and spending 40 weeks of the year on education – in contrast to Delft’s 25 weeks. The school in the Dutch East Indies should thus become more efficient than Delft, compensating for the shorter programme duration.[^16]
 
@@ -72,7 +72,7 @@ On 8 March 1919, Klopper and IJzerman boarded the ship  J.Pz. Coen in Amsterdam,
 
 Where the school would be built had not yet been decided, and led to heated discussions. At the time, plans existed to move the government of the Dutch East Indies from the capital Batavia to Bandung, which had a cooler climate due to the high altitude. The Department of Warfare had already moved there and other departments planned to do the same. IJzerman had his mind set on a location close to Bandung. But a counter- campaign was launched in the capital to keep parts of the government there. In 1918, the governor-general, together with the Department of Education, had chosen Batavia as the preferred place to establish the new technical college.
 
-<Illustration source="KITLV-404088.json"></Illustration>
+<Illustration source="tu-itb-04.json"></Illustration>
 
 However, when Klopper and IJzerman approached the harbour of Tandjong-Priok, they were informed that the mayor of Bandung had offered them a site of approximately 30 hectares free of charge. IJzerman preferred this option and decided that the technical college would be built in Bandung, very much against the will of the governor-general.[^20]
 
@@ -84,15 +84,15 @@ The technical college in Bandung was mainly led by a board of three directors. T
 high standing in the colony. K.A.R. Bosscha was the chairman.
 Three professors had been appointed when the school opened: Willem Boomstra for mathematics, Jacob Clay for physics and Jan Klopper for mechanics. In 1921, H.C.P. de Vos was appointed professor of irrigation and hydromechanics and Richard Schoemaker became professor of architecture. He had a background in the Dutch East Indies as an army captain. His brother Charles Wolff Schoemaker would become a professor at Bandung in 1922, after which Richard left for Delft.
 
-<Illustration source="maclaine-pont.json"></Illustration>
-<Illustration source="KITLV-11869.json"></Illustration>
+<Illustration source="tu-itb-05.json"></Illustration>
+<Illustration source="tu-itb-06.json"></Illustration>
 
 The technical college in Bandung – in contrast to Delft – made use of a large body of visiting professors. These were often engineers working on Java who, for a limited period of time, would share with the students their knowledge of and experien­ces in the Dutch East Indies. In this way, students received thorough training on topics that were specifically useful in the colony, for example, the use of local building materials, information on the colonial judicial system and on the irrigation systems that were designed specifically for use on Java.
 
 There were numerous exchanges between Delft and Bandung. The two Schoemaker brothers, for example, alternated their positions for a year in 1938. The famous Delft professors Biezenoo and Keverling Buisman (both in the field of mechanics) visited Bandung for a year. In addition, the technical college in Bandung functioned as an incubator for aspiring scientists. Among these were Jacob Clay, who later became a professor  in Amsterdam; P.P. Bijlaard, who became a professor in Delft (after which he went to Cornell University in the US) and C.G.J. Vreedenburgh, who also went to Delft.[^22] Similar exchanges took place among the students body. The college in Delft had flexible admission requirements for graduates from Bandung.
 
-<Illustration source="KITLV-50582.json"></Illustration>
-<Illustration source="KITLV-116885.json"></Illustration>
+<Illustration source="tu-itb-07.json"></Illustration>
+<Illustration source="tu-itb-08.json"></Illustration>
 
 ## A leading institute
 In October 1924, the school in Bandung was officially handed over to the colonial government. The Royal Institute was liquidated and the money that was left was put into a found­ation, the ‘Stichting Bandungsche Technische Hooge­school­fonds’. The organization of the school was handed over to the governor-general and the board of directors was abolished. A new executive board (‘Curatorium’) was installed, of which Bosscha – again – became the chairman. In honour of his work for the college, the brand-new physics laboratory, furnished by Jacob Clay, was named after Bosscha in 1924.[^23]

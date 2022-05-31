@@ -13,7 +13,7 @@ De eerste uitbraak van de Spaanse Griep in Delft was aan het begin van de zomer 
 
 Een tweede uitbraak, dit keer onder de studenten van de Technische Hogeschool, de voorloper van de Technische Universiteit, was tijdens de groentijd van het corps. De eerstejaars werden in september tijdens de ontgroening natgespoten met een brandspuit en moesten daarna nog een dag in hun natte kleren rondlopen. Het is dus niet verrassend dat er de volgende dag onder de 150 ‘groenen’ zo’n 50 zieken waren. Ze werden door de artsen vanuit Delft teruggestuurd naar hun ouders om daar uit te zieken en om ervoor te zorgen dat ze de Delftse burgerij niet aan zouden steken. De rest van de groentijd werd door het corps geschrapt of versoberd.
 
-<Illustration source="6071d882-4b32-e1d1-cdd7-36b01dacc77e.json"></Illustration>
+<Illustration source="delta-spanish-flu-01.json"></Illustration>
 
 De Delftsche Courant beschreef eind oktober de situatie in de stad:
 
@@ -23,7 +23,7 @@ In de daaropvolgende weken bleek de Spaanse Griep vooral op lagere en middelbare
 
 Ook de TH sloot van 11 tot 23 november de deuren voor de colleges, met inbegrip van de practica en tekenlessen. Tentamens werden in die tijd allemaal mondeling afgenomen en konden dus makkelijk uitgesteld worden. Studenten maakten, op het moment dat ze dachten de stof goed genoeg te beheersen, een afspraak met de docent. Massale tentamens zoals tegenwoordig waren er dus nog niet.
 
-<Illustration source="852d1dcb-9b49-89ac-b1bb-0cd8b6f1eac5.json"></Illustration>
+<Illustration source="delta-spanish-flu-02.json"></Illustration>
 
 Op 1 november 1918 waren er in Delft al zo’n drieduizend besmettingen. Dat was bijna negen procent van de bevolking van de stad. De pandemie zou nog tot diep in de winter duren. In Nederland zijn er enkele tienduizenden mensen aan het virus, of complicaties daarvan, overleden. In de stad Delft vielen ongeveer 135 doden te betreuren.
 
