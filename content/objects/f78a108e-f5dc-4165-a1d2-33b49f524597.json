@@ -1,0 +1,200 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "TESTUDO computer door W.L. van der Poel"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Digitale computer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2002.0575.EWI"
+        },
+        {
+            "label": "Datering",
+            "value": "1947"
+        },
+        {
+            "label": "Maker",
+            "value": "Poel, W.L. van der  (ontwerper)"
+        },
+        {
+            "label": "Maker",
+            "value": "TU Delft faculteit TNW  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "400,0 (h)  * 5.000,0 (b)  * 720,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "hout, metaal, rubber"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "De TESTUDO (Latijn: schildpad) is een geavanceerde mechanische rekenmachine. De TESTUDO is gebaseerd op de ARCO, een rekenmachine ontworpen als afstudeeropdracht door W. L. van der Poel (later hoogleraar bij de TU Delft). Tijdens de Tweede Wereldoorlog kwam de interesse voor wiskundige berekeningen in een stroomversnelling terecht, met name in Engeland en Amerika. Dit had te maken met de grote hoeveelheid gecodeerde berichten die ontcijferd moesten worden. De eerste 'echte' digitale computer, de Colossus (1943) was daar het gevolg van. Ook de Eniac (1946), die tot eind jaren '70 als de eerste computer gold, maakte gebruik van elektronenbuizen als voornaamste bestanddelen. <\/br>De TESTUDO, waar Van der Poel aan begon in 1947, bevat nog geen elektronische componenten en is gebaseerd op de relaistechniek die vanaf de jaren '30 bekend was uit de automatische telefonie. Omdat Van der Poel nauwelijks budget had om mee te werken, gebruikt hij 600 afgedankte relais, die hij via Leen van Kosten verkreeg. Deze moesten allemaal opnieuw worden opgespoeld, wat Van der Poel deed met een draaibank.<\/br>De TESTUDO is niet voor oorlogsdoeleinden ontworpen, maar als wetenschappelijke rekenmachine voor de vakgroep de Delftse hoogleraar A.C.S. Van Heel voor berekeningen aan optica. De TESTUDO bestaat uit vijf houten kasten. Programmeerpaneel: 1480 * 720 * 330, relaiseeheid: 1280 * 720 * 3300, Relaiseenheid: 720 * 660 * 410, relaiseenheid met lampen: 1280 * 720 * 300"
+        },
+        {
+            "label": "Documentatie",
+            "value": "TH mededelingen, november 1957, jaargang 5 nr. 2, p.35"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Serie zwart-witfoto's Testudo  (LIB.2019.0003)"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/f78a108e-f5dc-4165-a1d2-33b49f524597/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/f78a108e-f5dc-4165-a1d2-33b49f524597/range/range-0-0.json",
+            "label": "0"
+        },
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/f78a108e-f5dc-4165-a1d2-33b49f524597/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/f78a108e-f5dc-4165-a1d2-33b49f524597/range/range-0-1.json",
+            "label": "1"
+        }
+    ],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/f78a108e-f5dc-4165-a1d2-33b49f524597.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 1600,
+                            "@id": "https://dlc.services/iiif-img/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750",
+                            "height": 1200
+                        },
+                        "width": 1600,
+                        "@id": "https://dlc.services/iiif-img/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750/full/1024,768/0/default.jpg",
+                        "height": 1200
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 768
+                            },
+                            {
+                                "width": 400,
+                                "height": 300
+                            },
+                            {
+                                "width": 200,
+                                "height": 150
+                            },
+                            {
+                                "width": 100,
+                                "height": 75
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 1024,
+                        "@id": "https://dlc.services/thumbs/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 768
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 1600,
+                "@id": "https://dlc.services/iiif-img/7/18/2d236e2f-7ead-4b99-a91d-2175e8138750/canvas/c0",
+                "label": "Image",
+                "height": 1200
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 1600,
+                            "@id": "https://dlc.services/iiif-img/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf",
+                            "height": 1200
+                        },
+                        "width": 1600,
+                        "@id": "https://dlc.services/iiif-img/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf/full/1024,768/0/default.jpg",
+                        "height": 1200
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 768
+                            },
+                            {
+                                "width": 400,
+                                "height": 300
+                            },
+                            {
+                                "width": 200,
+                                "height": 150
+                            },
+                            {
+                                "width": 100,
+                                "height": 75
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 1024,
+                        "@id": "https://dlc.services/thumbs/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 768
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 1600,
+                "@id": "https://dlc.services/iiif-img/7/18/c0ecbb1a-4555-49f9-9e0e-0399d65b27cf/canvas/c0",
+                "label": "Image",
+                "height": 1200
+            }
+        ],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/f78a108e-f5dc-4165-a1d2-33b49f524597/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
