@@ -10,6 +10,7 @@
     "docz": "^1.3.2"
   },
   "dependencies": {
+    "@babel/runtime": "^7.18.3",
     "@canvas-panel/core": "^0.2.0",
     "@canvas-panel/slideshow": "^0.2.0",
     "@mdx-js/mdx": "v1",
@@ -25,6 +26,7 @@
     "gatsby-plugin-react-helmet": "^5.13.0",
     "gatsby-plugin-sass": "^5.13.0",
     "gatsby-plugin-sharp": "^4.13.0",
+    "gatsby-plugin-typesense": "^0.3.0",
     "gatsby-remark-autolink-headers": "^5.13.0",
     "gatsby-remark-images": "^6.13.0",
     "gatsby-remark-lazy-load": "^1.0.2",
@@ -41,12 +43,14 @@
     "react-container-dimensions": "^1.4.1",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-instantsearch-dom": "^6.27.0",
     "react-lunr": "^1.0.0",
     "react-share": "^4.4.0",
     "react-translate": "^7.0.1",
     "react-use-flexsearch": "^0.1.1",
     "react-virtualized": "^9.21.2",
-    "stream-http": "^3.2.0"
+    "stream-http": "^3.2.0",
+    "typesense-instantsearch-adapter": "^2.4.1"
   },
   "keywords": [
     "gatsby"

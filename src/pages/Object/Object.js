@@ -29,7 +29,6 @@ class ObjectPage extends React.Component {
     this.setState({
       renderSlideShow: <DynamicSlideShow context={pageContext} />,
     });
-    console.log(allIllustrations);
 
     const publications = this.getRelatedPublications(
       allPublications,
@@ -118,6 +117,12 @@ class ObjectPage extends React.Component {
         <div id="slideshow" style={{ width: '100%', height: '80vh' }}>
           {renderSlideShow}
         </div>
+        <div style={{ display: 'none' }} data-typesense-field="type">
+          object
+        </div>
+        <div style={{ display: 'none' }} data-typesense-field="image">
+          {this.getPageMetaData().image}
+        </div>
         <main>
           <div className="blocks blocks--auto-height">
             <aside className="w-4">
@@ -195,6 +200,21 @@ class ObjectPage extends React.Component {
                     const isValueHTML = isHtml(value);
                     return (
                       <React.Fragment key={index}>
+                        {index === 0 ? (
+                          <div
+                            style={{ display: 'none' }}
+                            data-typesense-field="title"
+                          >
+                            {value}
+                          </div>
+                        ) : (
+                          <div
+                            style={{ display: 'none' }}
+                            data-typesense-field="content"
+                          >
+                            {value}
+                          </div>
+                        )}
                         {isLabelHTML ? (
                           <dt
                             className="metadata-label"

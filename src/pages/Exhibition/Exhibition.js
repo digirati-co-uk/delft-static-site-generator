@@ -104,20 +104,32 @@ class ExhibitionPage extends React.Component {
   renderCanvasBody = (canvas, pageLanguage) => (
     <React.Fragment>
       {canvas.thumbnail && canvas.thumbnail.length > 0 ? (
-        <AnnotationBodyRenderer
-          body={canvas.thumbnail[0]}
-          pageLanguage={pageLanguage}
-        />
+        <>
+          <div style={{ display: 'none' }} data-typesense-field="image">
+            {canvas.thumbnail[0].id}
+          </div>
+          <AnnotationBodyRenderer
+            body={canvas.thumbnail[0]}
+            pageLanguage={pageLanguage}
+          />
+        </>
       ) : (
         canvas.items &&
-        (canvas.items[0].items || []).map((annotation, idx) =>
-          this.renderAnnotation(
-            annotation,
-            `canvas_items__${idx}`,
-            pageLanguage,
-            canvas
-          )
-        )
+        (canvas.items[0].items || []).map((annotation, idx) => (
+          <>
+            {idx === 0 && (
+              <div style={{ display: 'none' }} data-typesense-field="image">
+                {annotation.body.id}
+              </div>
+            )}
+            {this.renderAnnotation(
+              annotation,
+              `canvas_items__${idx}`,
+              pageLanguage,
+              canvas
+            )}
+          </>
+        ))
       )}
       {canvas.annotations &&
         (canvas.annotations[0].items || []).map((annotation, idx) =>
@@ -317,6 +329,7 @@ class ExhibitionPage extends React.Component {
           ? items[1].items[0].items[0].thumbnail[0].id
           : null;
     }
+
     const meta = {
       image: image,
       description: summary && summary[language] ? summary[language][0] : null,
@@ -332,6 +345,9 @@ class ExhibitionPage extends React.Component {
     return (
       <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
+          <div style={{ display: 'none' }} data-typesense-field="type">
+            exhibition
+          </div>
           <div className="blocks">
             <div className="block title cutcorners w-4 h-4 ">
               <div className="boxtitle">
@@ -344,7 +360,9 @@ class ExhibitionPage extends React.Component {
                 )}
               </div>
               <div className="maintitle">
-                {translate(manifest.label, pageLanguage)}
+                <div data-typesense-field="title">
+                  {translate(manifest.label, pageLanguage)}
+                </div>
                 <GithubLink href={path} />
                 <IIIFLink href={path} />
               </div>
@@ -367,7 +385,12 @@ class ExhibitionPage extends React.Component {
                       {translate(canvas.summary, pageLanguage, '\n')
                         .split('\n')
                         .map((paragraph) => (
-                          <p key={`about__${paragraph}`}>{paragraph}</p>
+                          <p
+                            data-typesense-field="about"
+                            key={`about__${paragraph}`}
+                          >
+                            {paragraph}
+                          </p>
                         ))}
                       {
                         <p>
@@ -408,7 +431,7 @@ class ExhibitionPage extends React.Component {
                             <p>{translate(canvas.label, pageLanguage)}</p>
                           </div>
                           <div className="text">
-                            <p>
+                            <p data-typesense-field="content">
                               {translate(canvas.summary, pageLanguage, '\n')
                                 .split('\n')
                                 .map((paragraph) => (
@@ -416,7 +439,10 @@ class ExhibitionPage extends React.Component {
                                 ))}
                             </p>
                             {canvas.requiredStatement && (
-                              <div className="facts">
+                              <div
+                                className="facts"
+                                data-typesense-field="content"
+                              >
                                 {translate(
                                   canvas.requiredStatement.value,
                                   pageLanguage

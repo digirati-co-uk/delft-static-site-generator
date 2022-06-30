@@ -1,50 +1,82 @@
 import React from 'react';
+import { connectHighlight } from 'react-instantsearch-dom';
 
-const SearchResults = ({ results }) => {
+const withHighlight = ({ hit }) => {
+  // const parsedHit = highlight({
+  //   highlightProperty: '_highlightResult',
+  //   attribute,
+  //   hit,
+  // });
   return (
-    <section aria-label="Search results for all posts">
-      {!!results.length && (
-        <h2
-          className="search-results-count"
-          id="search-results-count"
-          aria-live="assertive"
+    <div
+      key={hit.title}
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        right: 'auto',
+      }}
+    >
+      <div
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'flex-start',
+        }}
+      >
+        <div
+          className="block cutcorners w-4 h-4"
+          style={
+            hit.image && {
+              marginRight: '1rem',
+              width: '30rem',
+              marginBottom: '0',
+              paddingBottom: '0',
+              height: '30rem',
+            }
+          }
         >
-          {results.length} results
-        </h2>
-      )}
-      {!!results.length && (
-        <ul className="search-results-list" style={{ marginLeft: '0' }}>
-          {results.map(({ title, path, date, content, author }) => (
-            <div
-              key={title}
-              key={path}
-              style={{
-                listStyle: 'none',
-                display: 'flex',
-                justifyContent: 'left',
-              }}
-            >
-              <div style={{ maxWidth: '70%' }}>
-                <h3 className="search-results-list__heading">
-                  <a href={path} className="search-results-list__link">
-                    {title ? title : path}
-                  </a>
-                  <p style={{ textTransform: 'capitalize' }}>
-                    {path ? path.split('/')[2] : <></>}
-                  </p>
-
-                  <p>{author}</p>
-                  {/* we might want to summerise the content here but too much for now */}
-                  <p dangerouslySetInnerHTML={{ __html: content }}></p>
-                </h3>
-                <p>{date}</p>
-              </div>
-            </div>
-          ))}
-        </ul>
-      )}
-    </section>
+          <img
+            style={{
+              objectFit: 'cover',
+              width: '30rem',
+              marginBottom: '0',
+              paddingBottom: '0',
+              height: '30rem',
+            }}
+            src={hit.image}
+          />
+        </div>
+        <div className="search-results-list__heading">
+          <a
+            style={{
+              fontWeight: 'bold',
+              textDecoration: 'none',
+              fontSize: '1.5rem',
+            }}
+            href={hit.page_path}
+            className="search-results-list__link"
+          >
+            {hit.title ? hit.title : hit.page_path}
+          </a>
+          <p style={{ textTransform: 'capitalize', marginBottom: '0.25rem' }}>
+            {hit.type}
+          </p>
+          <div
+            style={{
+              borderBottom: '1px solid black',
+              width: '100%',
+              paddingBottom: '1rem',
+            }}
+          />
+          <p>{hit.about}</p>
+          <p>{hit.content}</p>
+          <p>{hit.author}</p>
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default SearchResults;
+export const SearchResult = withHighlight;
+
+// const SearchResult = connectHighlight(withHighlight);

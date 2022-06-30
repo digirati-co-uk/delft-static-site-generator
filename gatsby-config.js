@@ -76,80 +76,78 @@ module.exports = {
     // different names or engines. For example, multi-lingual sites could create
     // an index for each language.
     {
-      resolve: 'gatsby-plugin-local-search',
+      resolve: `gatsby-plugin-typesense`,
       options: {
-        // A unique name for the search index. This should be descriptive of
-        // what the index contains. This is required.
-        name: 'markdown',
-        languages: ['nl', 'en'],
+        rootDir: `${__dirname}/public`, // Required
+        collectionSchema: {
+          // Required
+          name: 'pages_v1',
+          fields: [
+            {
+              name: 'title',
+              type: 'string',
+              optional: true,
+              facet: true,
+            },
+            {
+              name: 'about',
+              type: 'string[]',
+              optional: true,
+              facet: true,
+            },
+            {
+              name: 'content',
+              type: 'string[]',
+              optional: true,
+              facet: true,
+            },
+            {
+              name: 'image',
+              type: 'string',
+              optional: true,
+              facet: true,
+            },
+            {
+              name: 'type',
+              type: 'string',
+              optional: true,
+              facet: true,
+            },
+            {
+              name: 'author',
+              type: 'string',
+              optional: true,
+              facet: true,
+            },
+            {
+              name: 'date',
+              type: 'string',
+              optional: true,
+              facet: true,
+            },
 
-        // Set the search engine to create the index. This is required.
-        // The following engines are supported: flexsearch, lunr
-        engine: 'lunr',
-
-        // Provide options to the engine. This is optional and only recommended
-        // for advanced users.
-        //
-        // Note: Only the flexsearch engine supports options.
-        engineOptions: 'speed',
-
-        // GraphQL query used to fetch all data for the search index. This is
-        // required.
-        query: `
-          {
-            allMarkdownRemark {
-                nodes {
-                  id
-                  frontmatter {
-                    path
-                    title
-                    author
-                    date
-                    image
-                  }
-                  rawMarkdownBody
-                }
-              }
-          }
-        `,
-
-        // Field used as the reference value for each document.
-        // Default: 'id'.
-        ref: 'id',
-
-        // List of keys to index. The values of the keys are taken from the
-        // normalizer function below.
-        // Default: all fields
-        index: ['title', 'body', 'path', 'author', 'date', 'image'],
-
-        // List of keys to store and make available in your UI. The values of
-        // the keys are taken from the normalizer function below.
-        // Default: all fields
-        store: [
-          'id',
-          'path',
-          'title',
-          'body',
-          'path',
-          'author',
-          'date',
-          'image',
-        ],
-
-        // Function used to map the result from the GraphQL query. This should
-        // return an array of items to index in the form of flat objects
-        // containing properties to index. The objects must contain the `ref`
-        // field above (default: 'id'). This is required.
-        normalizer: ({ data }) =>
-          data.allMarkdownRemark.nodes.map(node => ({
-            id: node.id,
-            path: node.frontmatter.path,
-            title: node.frontmatter.title,
-            author: node.frontmatter.author,
-            date: node.frontmatter.date,
-            image: node.frontmatter.image,
-            body: node.rawMarkdownBody,
-          })),
+            {
+              name: 'page_path', // Required
+              type: 'string',
+            },
+            {
+              name: 'page_priority_score', // Required
+              type: 'int32',
+            },
+          ],
+          default_sorting_field: 'page_priority_score', // Required
+        },
+        server: {
+          // Required
+          apiKey: 'xyz',
+          nodes: [
+            {
+              host: 'localhost',
+              port: '8108',
+              protocol: 'http',
+            },
+          ],
+        },
       },
     },
   ],
