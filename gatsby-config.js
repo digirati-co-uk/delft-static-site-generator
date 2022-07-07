@@ -139,12 +139,12 @@ module.exports = {
         },
         server: {
           // Required
-          apiKey: 'xyz',
+          apiKey: 'wL2mqHbUfa5hlr6k6DG9HcEqqKdRgeCD',
           nodes: [
             {
-              host: 'localhost',
-              port: '8108',
-              protocol: 'http',
+              host: '63flhve71t2un5xgp-1.a1.typesense.net',
+              port: '443',
+              protocol: 'https',
             },
           ],
         },

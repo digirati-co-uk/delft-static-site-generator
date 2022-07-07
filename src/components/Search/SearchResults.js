@@ -1,12 +1,7 @@
 import React from 'react';
-import { connectHighlight } from 'react-instantsearch-dom';
+import { Highlight } from 'react-instantsearch-dom';
 
 const withHighlight = ({ hit }) => {
-  // const parsedHit = highlight({
-  //   highlightProperty: '_highlightResult',
-  //   attribute,
-  //   hit,
-  // });
   return (
     <div
       key={hit.title}
@@ -23,29 +18,34 @@ const withHighlight = ({ hit }) => {
           justifyContent: 'flex-start',
         }}
       >
-        <div
-          className="block cutcorners w-4 h-4"
-          style={
-            hit.image && {
-              marginRight: '1rem',
-              width: '30rem',
-              marginBottom: '0',
-              paddingBottom: '0',
-              height: '30rem',
-            }
-          }
-        >
-          <img
-            style={{
-              objectFit: 'cover',
-              width: '30rem',
-              marginBottom: '0',
-              paddingBottom: '0',
-              height: '30rem',
-            }}
-            src={hit.image}
-          />
-        </div>
+        {hit.image && (
+          <div className="block">
+            <div
+              className="block cutcorners w-2 h-2"
+              style={
+                hit.image && {
+                  marginRight: '1rem',
+                  width: '5rem',
+                  marginBottom: '0',
+                  paddingBottom: '0',
+                  height: '5rem',
+                }
+              }
+            >
+              <img
+                style={{
+                  objectFit: 'cover',
+                  width: '10rem',
+                  marginBottom: '0',
+                  paddingBottom: '0',
+                  height: '10rem',
+                }}
+                src={hit.image}
+              />
+            </div>
+          </div>
+        )}
+
         <div className="search-results-list__heading">
           <a
             style={{
@@ -56,7 +56,7 @@ const withHighlight = ({ hit }) => {
             href={hit.page_path}
             className="search-results-list__link"
           >
-            {hit.title ? hit.title : hit.page_path}
+            <Highlight attribute={'title'} hit={hit} />
           </a>
           <p style={{ textTransform: 'capitalize', marginBottom: '0.25rem' }}>
             {hit.type}
@@ -68,9 +68,9 @@ const withHighlight = ({ hit }) => {
               paddingBottom: '1rem',
             }}
           />
-          <p>{hit.about}</p>
-          <p>{hit.content}</p>
-          <p>{hit.author}</p>
+          <Highlight attribute={'about'} hit={hit} />
+          <Highlight attribute={'content'} hit={hit} />
+          <Highlight attribute={'author'} hit={hit} />
         </div>
       </div>
     </div>
@@ -78,5 +78,3 @@ const withHighlight = ({ hit }) => {
 };
 
 export const SearchResult = withHighlight;
-
-// const SearchResult = connectHighlight(withHighlight);

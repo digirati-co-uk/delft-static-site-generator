@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Layout from '../../components/Layout/layout';
 import { SearchResult } from '../../components/Search/SearchResults';
 import { graphql } from 'gatsby';
@@ -10,20 +10,19 @@ import {
   Hits,
   connectStats,
   Pagination,
-  ScrollTo,
-  Highlight,
   connectHighlight,
+  RefinementList,
 } from 'react-instantsearch-dom';
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
   server: {
-    apiKey: 'xyz', // Be sure to use the search-only-api-key
+    apiKey: 'AOXs2nQnRYi5Cs9NvCiUPyLPXAWSdIeJ', // Be sure to use the search-only-api-key
     nodes: [
       {
-        host: 'localhost',
-        port: '8108',
-        protocol: 'http',
+        host: '63flhve71t2un5xgp-1.a1.typesense.net',
+        port: '443',
+        protocol: 'https',
       },
     ],
   },
@@ -56,6 +55,8 @@ const Search = ({ pageContext, path }) => {
             <h1>Search</h1>
             <SearchBox />
             <CustomStats />
+            <RefinementList attribute="type" sortBy={['name:asc']} />
+
             <CustomHighlight />
             <Pagination
               // Optional parameters
