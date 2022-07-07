@@ -39,7 +39,6 @@ const Stats = ({ nbHits }) => <p> {nbHits} results</p>;
 const CustomStats = connectStats(Stats);
 
 const Search = ({ pageContext, path }) => {
-  console.log(path);
   const CustomHits = () => (
     <Hits
       hitComponent={({ hit }) => <SearchResult hit={hit} page_path={path} />}
