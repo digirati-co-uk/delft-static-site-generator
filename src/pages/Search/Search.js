@@ -15,35 +15,31 @@ import {
 } from 'react-instantsearch-dom';
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
-const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
-  server: {
-    apiKey: 'AOXs2nQnRYi5Cs9NvCiUPyLPXAWSdIeJ', // Be sure to use the search-only-api-key
-    nodes: [
-      {
-        host: '63flhve71t2un5xgp-1.a1.typesense.net',
-        port: '443',
-        protocol: 'https',
-      },
-    ],
-  },
-  // The following parameters are directly passed to Typesense's search API endpoint.
-  //  So you can pass any parameters supported by the search endpoint below.
-  //  queryBy is required.
-  additionalSearchParameters: {
-    queryBy: 'title,about,image,type,content,author',
-  },
-});
-const searchClient = typesenseInstantsearchAdapter.searchClient;
-
-const Stats = ({ nbHits }) => <p> {nbHits} results</p>;
-const CustomStats = connectStats(Stats);
-
 const Search = ({ pageContext, path }) => {
-  const CustomHits = () => (
-    <Hits
-      hitComponent={({ hit }) => <SearchResult hit={hit} page_path={path} />}
-    />
-  );
+  const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
+    server: {
+      apiKey: 'AOXs2nQnRYi5Cs9NvCiUPyLPXAWSdIeJ', // Be sure to use the search-only-api-key
+      nodes: [
+        {
+          host: '63flhve71t2un5xgp-1.a1.typesense.net',
+          port: '443',
+          protocol: 'https',
+        },
+      ],
+    },
+    // The following parameters are directly passed to Typesense's search API endpoint.
+    //  So you can pass any parameters supported by the search endpoint below.
+    //  queryBy is required.
+    additionalSearchParameters: {
+      queryBy: 'title,about,image,type,content,author',
+    },
+  });
+  const searchClient = typesenseInstantsearchAdapter.searchClient;
+
+  const Stats = ({ nbHits }) => <p> {nbHits} results</p>;
+  const CustomStats = connectStats(Stats);
+
+  const CustomHits = () => <Hits hitComponent={SearchResult} />;
 
   const CustomHighlight = connectHighlight(CustomHits);
   return (
