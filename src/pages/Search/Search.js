@@ -38,11 +38,15 @@ const searchClient = typesenseInstantsearchAdapter.searchClient;
 const Stats = ({ nbHits }) => <p> {nbHits} results</p>;
 const CustomStats = connectStats(Stats);
 
-const CustomHits = () => <Hits hitComponent={SearchResult} />;
-
-const CustomHighlight = connectHighlight(CustomHits);
-
 const Search = ({ pageContext, path }) => {
+  console.log(path);
+  const CustomHits = () => (
+    <Hits
+      hitComponent={({ hit }) => <SearchResult hit={hit} page_path={path} />}
+    />
+  );
+
+  const CustomHighlight = connectHighlight(CustomHits);
   return (
     <Layout
       language={pageContext.pageLanguage}
