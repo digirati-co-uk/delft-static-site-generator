@@ -49,7 +49,6 @@ const Search = ({ pageContext, path }) => {
   const CustomHighlight = connectHighlight(CustomHits);
 
   const transformItems = (items) => {
-    console.log(items);
     return items.map((item) => ({
       ...item,
       // label: item.label.toUpperCase(),
