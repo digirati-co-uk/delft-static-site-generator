@@ -37,7 +37,7 @@ const Search = ({ pageContext, path }) => {
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
 
-  const Stats = ({ nbHits }) => <p> {nbHits / 2} results</p>;
+  const Stats = ({ nbHits }) => <p> {Math.round(nbHits / 2)} results</p>;
   const CustomStats = connectStats(Stats);
 
   const CustomHits = () => (
@@ -52,7 +52,7 @@ const Search = ({ pageContext, path }) => {
     return items.map((item) => ({
       ...item,
       // label: item.label.toUpperCase(),
-      count: item.count / 2,
+      count: Math.round(item.count / 2),
     }));
   };
   return (

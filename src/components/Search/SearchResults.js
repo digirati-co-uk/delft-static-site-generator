@@ -14,6 +14,7 @@ const withHighlight = ({ hit, page_path }) => {
         display: 'flex',
         alignItems: 'center',
         right: 'auto',
+        paddingTop: '1.5rem',
       }}
     >
       <div
