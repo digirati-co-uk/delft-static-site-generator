@@ -12,6 +12,7 @@ import {
   Pagination,
   connectHighlight,
   RefinementList,
+  Configure,
 } from 'react-instantsearch-dom';
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
@@ -36,12 +37,25 @@ const Search = ({ pageContext, path }) => {
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
 
-  const Stats = ({ nbHits }) => <p> {nbHits} results</p>;
+  const Stats = ({ nbHits }) => <p> {nbHits / 2} results</p>;
   const CustomStats = connectStats(Stats);
 
-  const CustomHits = () => <Hits hitComponent={SearchResult} />;
+  const CustomHits = () => (
+    <Hits
+      hitComponent={({ hit }) => <SearchResult hit={hit} page_path={path} />}
+    />
+  );
 
   const CustomHighlight = connectHighlight(CustomHits);
+
+  const transformItems = (items) => {
+    console.log(items);
+    return items.map((item) => ({
+      ...item,
+      // label: item.label.toUpperCase(),
+      count: item.count / 2,
+    }));
+  };
   return (
     <Layout
       language={pageContext.pageLanguage}
@@ -54,16 +68,21 @@ const Search = ({ pageContext, path }) => {
             <h1>Search</h1>
             <SearchBox />
             <CustomStats />
-            <RefinementList attribute="type" sortBy={['name:asc']} />
+            <RefinementList
+              attribute="type"
+              sortBy={['name:asc']}
+              transformItems={transformItems}
+            />
+            <Configure hitsPerPage={100} />
 
             <CustomHighlight />
-            <Pagination
+            {/* <Pagination
               // Optional parameters
               showFirst={true}
               showPrevious={true}
               showNext={true}
               showLast={true}
-            />
+            /> */}
           </div>
         </InstantSearch>
       </main>

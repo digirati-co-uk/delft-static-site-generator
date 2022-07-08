@@ -2,11 +2,11 @@ import React from 'react';
 import { Highlight } from 'react-instantsearch-dom';
 
 const withHighlight = ({ hit, page_path }) => {
-  // const language = page_path.split('/')[1];
+  const language = page_path.split('/')[1];
 
-  // if (!hit.page_path.includes(`/${language}/`)) {
-  //   return <></>;
-  // }
+  if (!hit.page_path.includes(`/${language}/`)) {
+    return <></>;
+  }
   return (
     <div
       key={hit.title}

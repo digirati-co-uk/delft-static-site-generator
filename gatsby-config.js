@@ -126,7 +126,6 @@ module.exports = {
               optional: true,
               facet: true,
             },
-
             {
               name: 'page_path', // Required
               type: 'string',
