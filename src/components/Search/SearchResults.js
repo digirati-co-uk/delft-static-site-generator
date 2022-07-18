@@ -1,12 +1,8 @@
 import React from 'react';
-import { Highlight } from 'react-instantsearch-dom';
+import { Highlight, Snippet } from 'react-instantsearch-dom';
 
-const withHighlight = ({ hit, page_path }) => {
-  const language = page_path.split('/')[1];
-
-  if (!hit.page_path.includes(`/${language}/`)) {
-    return <></>;
-  }
+const withHighlight = ({ hit }) => {
+  const language = hit.page_path.split('/')[1];
   return (
     <div
       key={hit.title}
@@ -62,7 +58,7 @@ const withHighlight = ({ hit, page_path }) => {
             href={hit.page_path}
             className="search-results-list__link"
           >
-            <Highlight attribute={'title'} hit={hit} />
+            <Highlight attribute={'title'} hit={hit} /> ({language})
           </a>
           <p style={{ textTransform: 'capitalize', marginBottom: '0.25rem' }}>
             {hit.type}
@@ -75,7 +71,7 @@ const withHighlight = ({ hit, page_path }) => {
             }}
           />
           <Highlight attribute={'about'} hit={hit} />
-          <Highlight attribute={'content'} hit={hit} />
+          <Snippet attribute={'content'} hit={hit} separator=" - " />
           <Highlight attribute={'author'} hit={hit} />
         </div>
       </div>

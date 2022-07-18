@@ -101,7 +101,7 @@ class ExhibitionPage extends React.Component {
       />
     );
 
-  renderCanvasBody = (canvas, pageLanguage) => (
+  renderCanvasBody = (canvas, pageLanguage, firstCanvas) => (
     <React.Fragment>
       {canvas.thumbnail && canvas.thumbnail.length > 0 ? (
         <>
@@ -117,7 +117,7 @@ class ExhibitionPage extends React.Component {
         canvas.items &&
         (canvas.items[0].items || []).map((annotation, idx) => (
           <>
-            {idx === 0 && (
+            {idx === 0 && firstCanvas && (
               <div style={{ display: 'none' }} data-typesense-field="image">
                 {annotation.body.id}
               </div>
@@ -420,7 +420,11 @@ class ExhibitionPage extends React.Component {
                         <div className={this.getBlockImageClasses(canvas)}>
                           {this.renderMediaHolder(
                             canvas,
-                            this.renderCanvasBody(canvas, pageLanguage)
+                            this.renderCanvasBody(
+                              canvas,
+                              pageLanguage,
+                              idx === 0
+                            )
                           )}
                         </div>
                         <div className={this.getBlockTextClasses(canvas)}>
@@ -456,7 +460,7 @@ class ExhibitionPage extends React.Component {
                       <React.Fragment>
                         {this.renderMediaHolder(
                           canvas,
-                          this.renderCanvasBody(canvas, pageLanguage)
+                          this.renderCanvasBody(canvas, pageLanguage, idx === 0)
                         )}
                         <div className="caption">
                           {translate(canvas.label, pageLanguage)}

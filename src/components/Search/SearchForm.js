@@ -98,6 +98,7 @@ const SearchForm = ({ pageLanguage, query, showTitle }) => {
   ) : (
     <button
       className="search-form__button"
+      style={{ padding: '1rem' }}
       onClick={() => navigate(`/${pageLanguage}/search`)}
     >
       <SearchIcon color="white" />

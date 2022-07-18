@@ -103,7 +103,7 @@ const Markdown = ({ pageContext, data, path }) => {
     ),
     h2: (props, children) => (
       <>
-        <div style={{ display: 'none' }} data-typesense-field="title">
+        <div style={{ display: 'none' }} data-typesense-field="content">
           {props.children}
         </div>
         <h2

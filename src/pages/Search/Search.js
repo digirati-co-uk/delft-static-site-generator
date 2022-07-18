@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout/layout';
 import { SearchResult } from '../../components/Search/SearchResults';
 import { graphql } from 'gatsby';
+import { orderBy } from 'lodash';
 import './Search.scss';
 
 import {
@@ -37,7 +38,7 @@ const Search = ({ pageContext, path }) => {
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
 
-  const Stats = ({ nbHits }) => <p> {Math.round(nbHits / 2)} results</p>;
+  const Stats = ({ nbHits }) => <p> {nbHits} results</p>;
   const CustomStats = connectStats(Stats);
 
   const CustomHits = () => (
@@ -48,13 +49,6 @@ const Search = ({ pageContext, path }) => {
 
   const CustomHighlight = connectHighlight(CustomHits);
 
-  const transformItems = (items) => {
-    return items.map((item) => ({
-      ...item,
-      // label: item.label.toUpperCase(),
-      count: Math.round(item.count / 2),
-    }));
-  };
   return (
     <Layout
       language={pageContext.pageLanguage}
@@ -69,19 +63,20 @@ const Search = ({ pageContext, path }) => {
             <CustomStats />
             <RefinementList
               attribute="type"
-              sortBy={['name:asc']}
-              transformItems={transformItems}
+              // sortBy={['name:asc']}
+              facetOrdering={false}
+              transformItems={(items) => orderBy(items, 'label', 'asc')}
             />
-            <Configure hitsPerPage={100} />
+            <Configure hitsPerPage={20} attributesToSnippet={['content']} />
 
             <CustomHighlight />
-            {/* <Pagination
+            <Pagination
               // Optional parameters
               showFirst={true}
               showPrevious={true}
               showNext={true}
               showLast={true}
-            /> */}
+            />
           </div>
         </InstantSearch>
       </main>
