@@ -5,16 +5,12 @@
   ],
   "type": "Manifest",
   "label": {
-    "en": [
-      "Corona Chronicles"
-    ]
+    "en": ["Corona Chronicles"]
   },
   "items": [
     {
       "label": {
-        "en": [
-          "About"
-        ]
+        "en": ["About"]
       },
       "height": 1000,
       "width": 1000,
@@ -27,7 +23,7 @@
               "type": "Annotation",
               "body": {
                 "type": "TextualBody",
-                "value": "",
+                "value": "Since the beginning of 2020, the world has been in the grip of a global pandemic. A new strain of Coronavirus, known as Coronavirus 19, has affected millions of people worldwide, and hundreds of thousands of people have died. Many governments have put their countries into lockdown to stop the spread of the virus. This online exhibition looks at the current pandemic from a historical perspective. This project is a collaboration between the Academic Heritage Team of TU Delft Library and Lesley Robertson of the Delft School of Microbiology Archives at the Delft Science Centre.",
                 "format": "text/plain",
                 "language": "en",
                 "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/e42e7cf3-b0ed-987f-3318-d60944ca2bd8"
@@ -35,17 +31,8 @@
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/43a448b2-27c9-c008-6ea9-b837ad4bf939",
               "motivation": "painting",
-              "summary": {
-                "en": [
-                  "Since the beginning of 2020, the world has been in the grip of a global pandemic. A new strain of Coronavirus, known as Coronavirus 19, has affected millions of people worldwide, and hundreds of thousands of people have died. Many governments have put their countries into lockdown to stop the spread of the virus. This online exhibition looks at the current pandemic from a historical perspective.",
-                  "",
-                  "This project is a collaboration between the Academic Heritage Team of TU Delft Library and Lesley Robertson of the Delft School of Microbiology Archives at the Delft Science Centre."
-                ]
-              },
               "label": {
-                "en": [
-                  "Corona Crisis from a Historical Perspective"
-                ]
+                "en": ["Corona Crisis from a Historical Perspective"]
               }
             }
           ],
@@ -58,17 +45,11 @@
           "This online exhibition looks at the current pandemic from a historical perspective, in collaboration with the Delft School of Microbiology Archives at the Delft Science Centre."
         ]
       },
-      "behavior": [
-        "w-4",
-        "h-4",
-        "info"
-      ]
+      "behavior": ["w-4", "h-4", "info"]
     },
     {
       "label": {
-        "en": [
-          "Illustration of a coronavirus"
-        ]
+        "en": ["Illustration of a coronavirus"]
       },
       "height": 1000,
       "width": 562,
@@ -87,9 +68,7 @@
                 "height": 2250,
                 "width": 4000,
                 "label": {
-                  "en": [
-                    "-"
-                  ]
+                  "en": ["-"]
                 },
                 "service": {
                   "type": "ImageService2",
@@ -101,13 +80,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
+                      "scaleFactors": [1, 2, 4, 8, 16]
                     }
                   ],
                   "sizes": [
@@ -131,14 +104,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -162,15 +129,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -204,9 +165,7 @@
                 ]
               },
               "label": {
-                "en": [
-                  "Illustration of a coronavirus"
-                ]
+                "en": ["Illustration of a coronavirus"]
               }
             }
           ],
@@ -214,17 +173,11 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cdc3483-276c-b5bf-9bae-eeb9a48e75ac",
-      "behavior": [
-        "bottom",
-        "w-4",
-        "h-8"
-      ]
+      "behavior": ["bottom", "w-4", "h-8"]
     },
     {
       "label": {
-        "en": [
-          "Tobacco leaves infected with tobacco mosaic virus (TMV)"
-        ]
+        "en": ["Tobacco leaves infected with tobacco mosaic virus (TMV)"]
       },
       "height": 1212,
       "width": 1554,
@@ -243,9 +196,7 @@
                 "height": 2616,
                 "width": 1554,
                 "label": {
-                  "en": [
-                    "-"
-                  ]
+                  "en": ["-"]
                 },
                 "service": {
                   "type": "ImageService2",
@@ -257,13 +208,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
+                      "scaleFactors": [1, 2, 4, 8, 16]
                     }
                   ],
                   "sizes": [
@@ -287,14 +232,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -318,15 +257,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 608,
@@ -365,48 +298,37 @@
                   "Photographed in 1898. Source: Delft School of Microbiology, Beijerinck Collection."
                 ]
               }
-            },
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/399bc69f-8c18-f225-41ca-c781ca0f1916"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2#xywh=804,283,561,332",
-              "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/b6e8b884-b3db-7ade-c90e-149bd9b7cfb2",
-              "motivation": "describing",
-              "summary": {
-                "en": [
-                  "This disease was characterized by mosaic-like spots and discoloration on the leaves."
-                ]
-              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/98d58fda-44be-a947-297e-090bd22fc110"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2",
-      "behavior": [
-        "bottom",
-        "w-8",
-        "h-8"
+      "annotations": [
+        {
+          "type": "Annotation",
+          "body": {
+            "type": "TextualBody",
+            "value": "This disease was characterized by mosaic-like spots and discoloration on the leaves.",
+            "format": "text/plain",
+            "language": "en",
+            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/399bc69f-8c18-f225-41ca-c781ca0f1916"
+          },
+          "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2#xywh=804,283,561,332",
+          "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/b6e8b884-b3db-7ade-c90e-149bd9b7cfb2",
+          "motivation": "describing"
+        }
       ],
+      "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2",
+      "behavior": ["bottom", "w-8", "h-8"],
       "requiredStatement": {
         "value": {
-          "en": [
-            ""
-          ]
+          "en": [""]
         }
       }
     },
     {
       "label": {
-        "en": [
-          "A Mysterious Infection"
-        ]
+        "en": ["A Mysterious Infection"]
       },
       "height": 1000,
       "width": 1000,
@@ -419,23 +341,14 @@
               "type": "Annotation",
               "body": {
                 "type": "TextualBody",
-                "value": "new annotation",
+                "value": "<p>Tobacco Mosaic Virus (TMV), which causes Tobacco Mosaic Disease, was the first virus to be recognized as an infectious biological agent smaller than even bacteria. This part of the exhibition is about how the Tobacco Mosaic disease led to important research on viruses, and the key players in this story.<br/> In the 1850s, tobacco farmers in the Netherlands began reporting a new disease on their tobacco plants. This disease was characterized by mosaic-like spots and discoloration on the leaves. This infection was given the name  “Tobacco Mosaic Disease”. <br/><br/> We now know that the disease is caused by a virus known as the Tobacco Mosaic Virus (TMV). This is a single stranded RNA virus that infects tobacco plants. TMV was the first virus to be recognized as an infectious agent smaller than bacteria.</p>",
                 "format": "text/plain",
                 "language": "en",
                 "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/7c4ca69b-12bb-e973-ad73-60a77e824d7d"
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/49ddd806-0e6f-220e-98a8-ffc6cb90ec00",
-              "motivation": "painting",
-              "summary": {
-                "en": [
-                  "Tobacco Mosaic Virus (TMV), which causes Tobacco Mosaic Disease, was the first virus to be recognized as an infectious biological agent smaller than even bacteria. This part of the exhibition is about how the Tobacco Mosaic disease led to important research on viruses, and the key players in this story.",
-                  "",
-                  "In the 1850s, tobacco farmers in the Netherlands began reporting a new disease on their tobacco plants. This disease was characterized by mosaic-like spots and discoloration on the leaves. This infection was given the name  “Tobacco Mosaic Disease”. ",
-                  "",
-                  "We now know that the disease is caused by a virus known as the Tobacco Mosaic Virus (TMV). This is a single stranded RNA virus that infects tobacco plants. TMV was the first virus to be recognized as an infectious agent smaller than bacteria."
-                ]
-              }
+              "motivation": "painting"
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/0bd1056e-d405-b86f-83c7-266f338b3384"
@@ -447,17 +360,11 @@
           "Tobacco Mosaic Virus (TMV), which causes Tobacco Mosaic Disease, was the first virus to be recognized as an infectious biological agent smaller than even bacteria. This part of the exhibition is about how the Tobacco Mosaic disease led to important research on viruses, and the key players in this story."
         ]
       },
-      "behavior": [
-        "info",
-        "w-4",
-        "h-4"
-      ]
+      "behavior": ["info", "w-4", "h-4"]
     },
     {
       "label": {
-        "en": [
-          "Mayer, Ivanovski and Beijerinck"
-        ]
+        "en": ["Mayer, Ivanovski and Beijerinck"]
       },
       "height": 1000,
       "width": 1000,
@@ -476,8 +383,11 @@
                 "height": 1772,
                 "width": 1165,
                 "label": {
+                  "en": ["-"]
+                },
+                "summary": {
                   "en": [
-                    "-"
+                    "Tobacco Mosaic Disease was first described in 1882 by Adolf Mayer, Director of the Agricultural Experimental Station in Wageningen, who discovered that the disease could be transferred between plants. He first described it as \"a soluble, possibly enzyme-like contagium\". In 1886, he changed his mind and reported that it is \"bacterial, but that the infectious forms have not yet been isolated, nor are their forms of life known\". Mayer concluded that the disease had a lot of characteristics that looked like a bacterial infection, but the disease carrier could not be isolated, nor seen by microscope. This was strange, especially since these were known techniques at that time."
                   ]
                 },
                 "service": {
@@ -490,12 +400,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
+                      "scaleFactors": [1, 2, 4, 8]
                     }
                   ],
                   "sizes": [
@@ -519,14 +424,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -550,15 +449,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 673,
@@ -586,15 +479,8 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/312b70cb-281d-95c8-4604-e7f446695c25",
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=17,55,391,596",
-              "summary": {
-                "en": [
-                  "Tobacco Mosaic Disease was first described in 1882 by Adolf Mayer, Director of the Agricultural Experimental Station in Wageningen, who discovered that the disease could be transferred between plants. He first described it as \"a soluble, possibly enzyme-like contagium\". In 1886, he changed his mind and reported that it is \"bacterial, but that the infectious forms have not yet been isolated, nor are their forms of life known\". Mayer concluded that the disease had a lot of characteristics that looked like a bacterial infection, but the disease carrier could not be isolated, nor seen by microscope. This was strange, especially since these were known techniques at that time."
-                ]
-              },
               "label": {
-                "en": [
-                  "Adolf Mayer"
-                ]
+                "en": ["Adolf Mayer"]
               }
             },
             {
@@ -607,8 +493,11 @@
                 "height": 1772,
                 "width": 1189,
                 "label": {
+                  "en": ["-"]
+                },
+                "summary": {
                   "en": [
-                    "-"
+                    "In 1892, Dmitri Ivanovski, a Russian botanist, reported \"that the sap of leaves attacked by the mosaic disease retains its infectious qualities even after filtration through Chamberland filter candles\". Ivanovski, like Mayer, was puzzled by this phenomenon. He hypothesized that the cause of the disease could be unculturable bacteria, or spores of bacteria, too small to be stopped  by the Chamberland filters. He called it a “contagion vivum fixum”, Latin for “fixed living contaminant”."
                   ]
                 },
                 "service": {
@@ -621,12 +510,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
+                      "scaleFactors": [1, 2, 4, 8]
                     }
                   ],
                   "sizes": [
@@ -650,14 +534,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -681,15 +559,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 687,
@@ -717,15 +589,8 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/19ffe93b-037b-e2f2-3994-6d87cd092bbb",
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=327,463,351,521",
-              "summary": {
-                "en": [
-                  "In 1892, Dmitri Ivanovski, a Russian botanist, reported \"that the sap of leaves attacked by the mosaic disease retains its infectious qualities even after filtration through Chamberland filter candles\". Ivanovski, like Mayer, was puzzled by this phenomenon. He hypothesized that the cause of the disease could be unculturable bacteria, or spores of bacteria, too small to be stopped  by the Chamberland filters. He called it a “contagion vivum fixum”, Latin for “fixed living contaminant”."
-                ]
-              },
               "label": {
-                "en": [
-                  "Dmitri Ivanovski"
-                ]
+                "en": ["Dmitri Ivanovski"]
               }
             },
             {
@@ -738,8 +603,11 @@
                 "height": 1181,
                 "width": 759,
                 "label": {
+                  "en": ["-"]
+                },
+                "summary": {
                   "en": [
-                    "-"
+                    "Martinus W. Beijerinck is often called the Father of Virology because of his important contribution to the discovery of the TMV. After he published his work, he recognized that his work was built on the work of two other scientists, namely Adolf Mayer and Dmitry Ivanovski."
                   ]
                 },
                 "service": {
@@ -752,12 +620,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
+                      "scaleFactors": [1, 2, 4, 8]
                     }
                   ],
                   "sizes": [
@@ -781,14 +644,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -812,15 +669,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 658,
@@ -848,15 +699,8 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/928e038a-e0b8-e145-3ea3-fdd699216db1",
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=624,191,352,546",
-              "summary": {
-                "en": [
-                  "In 1885, Mayer suggested that Martinus Beijerinck, at that time a teacher at the Agricultural School in Wageningen, later Professor of Biology and Bacteriology at the Polytechnical School in Delft, should take a look at tobacco mosaic disease as Mayer was unable to discover the cause. Beijerinck’s results were similar to Mayer’s. When he tried again in 1887, after he had moved to the Netherlands Yeast and Spirits Factory in Delft, he was still unable to find a cause."
-                ]
-              },
               "label": {
-                "en": [
-                  "Martinus W. Beijerinck"
-                ]
+                "en": ["Martinus W. Beijerinck"]
               }
             }
           ],
@@ -864,21 +708,10 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75",
-      "summary": {
-        "en": [
-          "Martinus W. Beijerinck is often called the Father of Virology because of his important contribution to the discovery of the TMV. After he published his work, he recognized that his work was built on the work of two other scientists, namely Adolf Mayer and Dmitry Ivanovski."
-        ]
-      },
-      "behavior": [
-        "left",
-        "w-12",
-        "h-6"
-      ],
+      "behavior": ["left", "w-12", "h-6"],
       "requiredStatement": {
         "value": {
-          "en": [
-            "Delft School of Microbiology, Beijerinck Collection"
-          ]
+          "en": ["Delft School of Microbiology, Beijerinck Collection"]
         }
       }
     },
@@ -900,8 +733,11 @@
                 "height": 1332,
                 "width": 1772,
                 "label": {
+                  "en": ["-"]
+                },
+                "summary": {
                   "en": [
-                    "-"
+                    "Chamberland filters are made from porous glass. They were made in different sizes, and the finest pores could prevent bacteria from passing through. They were held in the neck of a sterile flask with a rubber stopper, and the liquid to be filtered was poured through. Source: Delft School of Microbiology, Beijerinck Collection."
                   ]
                 },
                 "service": {
@@ -914,12 +750,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
+                      "scaleFactors": [1, 2, 4, 8]
                     }
                   ],
                   "sizes": [
@@ -943,14 +774,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -974,15 +799,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -1010,15 +829,8 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a5429baf-5ef7-abe4-1550-4c20ac15a3e3",
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e0318e6-14f2-e5cc-6761-9e21c0fe652e#xywh=0,0,1000,751",
-              "summary": {
-                "en": [
-                  "Chamberland filters are made from porous glass. They were made in different sizes, and the finest pores could prevent bacteria from passing through. They were held in the neck of a sterile flask with a rubber stopper, and the liquid to be filtered was poured through. Source: Delft School of Microbiology, Beijerinck Collection."
-                ]
-              },
               "label": {
-                "en": [
-                  "Chamberland filters"
-                ]
+                "en": ["Chamberland filters"]
               }
             }
           ],
@@ -1027,21 +839,14 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e0318e6-14f2-e5cc-6761-9e21c0fe652e",
       "rights": "Delft School of Microbiology, Beijerinck Collection",
-      "behavior": [
-        "w-8",
-        "h-4"
-      ],
+      "behavior": ["w-8", "h-4"],
       "label": {
-        "en": [
-          "Chamberland filters"
-        ]
+        "en": ["Chamberland filters"]
       }
     },
     {
       "label": {
-        "en": [
-          "Contagium Vivum Fluidum"
-        ]
+        "en": ["Contagium Vivum Fluidum"]
       },
       "height": 1000,
       "width": 1000,
@@ -1057,23 +862,22 @@
                 "value": "",
                 "format": "text/plain",
                 "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/3b9d39ee-8799-0d75-9672-6f02ab4adf2b"
+                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/3b9d39ee-8799-0d75-9672-6f02ab4adf2b",
+                "summary": {
+                  "en": [
+                    "Beijerinck ground infected leaves into pulp and passed the resulting liquid through Chamberland filters, producing infectious liquid without detectable  bacteria. He painted the liquid onto healthy leaves, and found that those leaves also became infected. ",
+                    "He repeated this procedure several times, using new leaves each time, but the effect was equally strong each time. He thereby eliminated the possibility that this could be a chemical effect. Because if the disease was caused by a chemical, the effect would get weaker with each repeat. Next to that, heating the liquid to 90°C inactivated it. Beijerinck concluded that tobacco mosaic disease was apparently caused by something biological because it could reproduce itself and was inactivated  by heat. ",
+                    "Because it couldn’t be cultivated, Beijerinck concluded that this new form of infectious agent was too small to see under the microscope. He named it “contagium vivum fluidum”, Latin for contagious living fluid. As a shorthand, he reintroduced the term virus, Latin for liquid poison.  ",
+                    "In a note in 1899, Beijerinck acknowledged Ivanovski’s 1892 paper, which he had not known of. However, Ivanovski, also in 1899, still insisted that the cause of Tobacco Mosaic Disease was a small bacterium or spore."
+                  ]
+                }
               },
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/08e0d725-4b55-d453-df09-74f1790b0c86",
               "motivation": "painting",
-              "summary": {
-                "en": [
-                  "Beijerinck ground infected leaves into pulp and passed the resulting liquid through Chamberland filters, producing infectious liquid without detectable  bacteria. He painted the liquid onto healthy leaves, and found that those leaves also became infected. ",
-                  "He repeated this procedure several times, using new leaves each time, but the effect was equally strong each time. He thereby eliminated the possibility that this could be a chemical effect. Because if the disease was caused by a chemical, the effect would get weaker with each repeat. Next to that, heating the liquid to 90°C inactivated it. Beijerinck concluded that tobacco mosaic disease was apparently caused by something biological because it could reproduce itself and was inactivated  by heat. ",
-                  "Because it couldn’t be cultivated, Beijerinck concluded that this new form of infectious agent was too small to see under the microscope. He named it “contagium vivum fluidum”, Latin for contagious living fluid. As a shorthand, he reintroduced the term virus, Latin for liquid poison.  ",
-                  "In a note in 1899, Beijerinck acknowledged Ivanovski’s 1892 paper, which he had not known of. However, Ivanovski, also in 1899, still insisted that the cause of Tobacco Mosaic Disease was a small bacterium or spore."
-                ]
-              },
+
               "label": {
-                "en": [
-                  "Contagium Vivum Fluidum"
-                ]
+                "en": ["Contagium Vivum Fluidum"]
               }
             }
           ],
@@ -1086,11 +890,7 @@
           "After becoming Professor of Microbiology at the Delft Polytechnic (now Delft University of Technology) in 1897, Beijerinck repeated his previous experiment."
         ]
       },
-      "behavior": [
-        "info",
-        "w-4",
-        "h-4"
-      ]
+      "behavior": ["info", "w-4", "h-4"]
     },
     {
       "height": 1000,
@@ -1104,7 +904,7 @@
               "type": "Annotation",
               "body": {
                 "type": "TextualBody",
-                "value": "new annotation",
+                "value": "Martinus Beijerinck is often called the Father of Virology, as he realised the infectious agent  was biological  rather than chemical, and self-replicating, but too small to be bacterial. After his papers on the 'contagium vivum fluidum', or virus, described above, and unable to progress with the research, he turned to other research. He did not live long enough to actually see viruses under an electron microscope, or learn how widespread and important they are. \" Beijerinck died in January, 1931, 4 years before the American Wendell Meredith Stanley (later to be awarded the Nobel Prize) managed to crystallize TMV. He used an electron microscope to show that it is actually a rod-shaped particle. This first visual proof was a turning point in science as it dispelled any doubt of the existence of viruses. In the same year, Loeffler and Frosch showed that the cause of foot and mouth disease was also a virus, From then on, work proceeded apace and the true range of viruses became apparent.",
                 "format": "text/plain",
                 "language": "en",
                 "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/0dedf57b-a236-5d61-39a0-3020c63193a2"
@@ -1113,15 +913,10 @@
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/c2c124d3-c2e2-1577-0a76-6167e98a6ef4",
               "motivation": "painting",
               "summary": {
-                "en": [
-                  "Martinus Beijerinck is often called the Father of Virology, as he realised the infectious agent  was biological  rather than chemical, and self-replicating, but too small to be bacterial. After his papers on the 'contagium vivum fluidum', or virus, described above, and unable to progress with the research, he turned to other research. He did not live long enough to actually see viruses under an electron microscope, or learn how widespread and important they are. ",
-                  "Beijerinck died in January, 1931, 4 years before the American Wendell Meredith Stanley (later to be awarded the Nobel Prize) managed to crystallize TMV. He used an electron microscope to show that it is actually a rod-shaped particle. This first visual proof was a turning point in science as it dispelled any doubt of the existence of viruses. In the same year, Loeffler and Frosch showed that the cause of foot and mouth disease was also a virus, From then on, work proceeded apace and the true range of viruses became apparent."
-                ]
+                "en": []
               },
               "label": {
-                "en": [
-                  "Father of Virology"
-                ]
+                "en": ["Father of Virology"]
               }
             }
           ],
@@ -1129,15 +924,9 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c",
-      "behavior": [
-        "info",
-        "w-4",
-        "h-4"
-      ],
+      "behavior": ["info", "w-4", "h-4"],
       "label": {
-        "en": [
-          "Father of Virology"
-        ]
+        "en": ["Father of Virology"]
       },
       "summary": {
         "en": [
@@ -1147,9 +936,7 @@
     },
     {
       "label": {
-        "en": [
-          "Beijerinck’s laboratory journal"
-        ]
+        "en": ["Beijerinck’s laboratory journal"]
       },
       "height": 472,
       "width": 780,
@@ -1168,8 +955,11 @@
                 "height": 1616,
                 "width": 2665,
                 "label": {
+                  "en": ["-"]
+                },
+                "summary": {
                   "en": [
-                    "-"
+                    "The pages from Beijerinck’s laboratory journal that describe the tobacco mosaic virus (TMV) experiment. Source: Delft School of Microbiology, Beijerinck Collection"
                   ]
                 },
                 "service": {
@@ -1182,13 +972,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
+                      "scaleFactors": [1, 2, 4, 8, 16]
                     }
                   ],
                   "sizes": [
@@ -1212,14 +996,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -1243,15 +1021,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -1279,15 +1051,8 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/21b428e2-f2f1-c0ac-34b0-23d0b4e3daba",
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/d3fb79c2-45b3-4cf2-533b-400c178583ec#xywh=0,0,780,472",
-              "summary": {
-                "en": [
-                  "The pages from Beijerinck’s laboratory journal that describe the tobacco mosaic virus (TMV) experiment. Source: Delft School of Microbiology, Beijerinck Collection"
-                ]
-              },
               "label": {
-                "en": [
-                  "Beijerinck’s laboratory journal"
-                ]
+                "en": ["Beijerinck’s laboratory journal"]
               }
             }
           ],
@@ -1295,16 +1060,11 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/d3fb79c2-45b3-4cf2-533b-400c178583ec",
-      "behavior": [
-        "w-8",
-        "h-4"
-      ]
+      "behavior": ["w-8", "h-4"]
     },
     {
       "label": {
-        "en": [
-          "An electron micrograph of TMV"
-        ]
+        "en": ["An electron micrograph of TMV"]
       },
       "height": 1000,
       "width": 1000,
@@ -1322,10 +1082,8 @@
                 "format": "image/jpeg",
                 "height": 675,
                 "width": 675,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
+                "summary": {
+                  "en": ["Source: T. Moravec, Wikimedia Commons"]
                 },
                 "service": {
                   "type": "ImageService2",
@@ -1337,11 +1095,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4
-                      ]
+                      "scaleFactors": [1, 2, 4]
                     }
                   ],
                   "sizes": [
@@ -1365,14 +1119,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -1396,15 +1144,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 675,
@@ -1432,15 +1174,9 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/f1f0668d-7865-00e0-ef48-bded1aade509",
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/7a27da52-ca4c-dea6-faf5-5e81a1db1e47#xywh=0,0,1000,1000",
-              "summary": {
-                "en": [
-                  "Source: T. Moravec, Wikimedia Commons"
-                ]
-              },
+
               "label": {
-                "en": [
-                  "An electron micrograph of TMV"
-                ]
+                "en": ["An electron micrograph of TMV"]
               }
             }
           ],
@@ -1448,16 +1184,11 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/7a27da52-ca4c-dea6-faf5-5e81a1db1e47",
-      "behavior": [
-        "w-4",
-        "h-4"
-      ]
+      "behavior": ["w-4", "h-4"]
     },
     {
       "label": {
-        "en": [
-          "Beijerinck's laboratories"
-        ]
+        "en": ["Beijerinck's laboratories"]
       },
       "height": 1000,
       "width": 1000,
@@ -1476,8 +1207,11 @@
                 "height": 510,
                 "width": 708,
                 "label": {
+                  "en": ["-"]
+                },
+                "summary": {
                   "en": [
-                    "-"
+                    "Source: Delft School of Microbiology, Beijerinck Collection"
                   ]
                 },
                 "service": {
@@ -1490,11 +1224,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4
-                      ]
+                      "scaleFactors": [1, 2, 4]
                     }
                   ],
                   "sizes": [
@@ -1518,14 +1248,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -1549,15 +1273,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 708,
@@ -1585,15 +1303,9 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/abebcbee-b5c4-989a-4e58-4362d8f93a9f",
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8c69ddbc-8fe7-9c3b-5f40-f5973165c3f0#xywh=37,421,708,510",
-              "body.id": "https://dlc.services/iiif-img/7/19/4491679f-25ec-c4af-9bbd-b313a52fdcfc/0,0,708,510/full/0/default.jpg",
               "label": {
                 "en": [
                   "Beijerinck in the Professor’s private laboratory in his Laboratory of Microbiology at the Polytechnic."
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Source: Delft School of Microbiology, Beijerinck Collection"
                 ]
               }
             },
@@ -1606,9 +1318,9 @@
                 "format": "image/jpeg",
                 "height": 1861,
                 "width": 1348,
-                "label": {
+                "summary": {
                   "en": [
-                    "-"
+                    "Source: Delft School of Microbiology, Beijerinck Collection"
                   ]
                 },
                 "service": {
@@ -1621,12 +1333,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8
-                      ]
+                      "scaleFactors": [1, 2, 4, 8]
                     }
                   ],
                   "sizes": [
@@ -1650,14 +1357,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -1681,15 +1382,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 742,
@@ -1721,11 +1416,6 @@
                 "en": [
                   "Beijerinck in his laboratory at the Netherlands Yeast and Spirits Factory"
                 ]
-              },
-              "summary": {
-                "en": [
-                  "Source: Delft School of Microbiology, Beijerinck Collection"
-                ]
               }
             }
           ],
@@ -1738,16 +1428,11 @@
           "Eventually, Beijerinck became the first Professor of Microbiology at the Department of General Microbiology at Delft's Polytechnic (now Delft University of Technology). The lab of that department opened in 1895 and Beijerinck worked there until his retirement in 1921, when he was succeeded as Professor by Albert Jan Kluyver."
         ]
       },
-      "behavior": [
-        "w-8",
-        "h-8"
-      ]
+      "behavior": ["w-8", "h-8"]
     },
     {
       "label": {
-        "en": [
-          "About Beijerinck: From Botany to Microbiology"
-        ]
+        "en": ["About Beijerinck: From Botany to Microbiology"]
       },
       "height": 1000,
       "width": 1000,
@@ -1760,7 +1445,7 @@
               "type": "Annotation",
               "body": {
                 "type": "TextualBody",
-                "value": "new annotation",
+                "value": "Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. In his spare time, he carried out research and gained his doctorate in 1877 on the subject of plant galls, which are abnormal outgrowths in plant tissue. Due to the high quality of his scientific publications, J.C. van Marken, the Director of the Netherlands Yeast and Spirits Factory persuaded him to move to Delft in 1884, to research ways of improving the quality of the factory’s products and controlling contamination problems.\", Beijerinck was not very happy as an industrial scientist because his wide range of interests did not suit the more focussed requirements of industrial life, despite the broad freedom that Van Marken gave him. In theory, he should have been working on fermentation, the yeasts involved, kefir and related analytical methods. However, during this time he published research on a very wide range of topics including different sorts of bacteria and their enzymes, plants and microorganisms in drinking water, and even the spectacular sunsets caused by the eruption of Krakatoa. He also continued his work on plant galls and the wasps that cause them.",
                 "format": "text/plain",
                 "language": "en",
                 "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/4be8df3c-49a3-535f-9ef0-8d53ce801fd2"
@@ -1768,16 +1453,8 @@
               "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/20b29783-32bf-b7f5-16c3-2176ce947f5e",
               "motivation": "painting",
-              "summary": {
-                "en": [
-                  "Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. In his spare time, he carried out research and gained his doctorate in 1877 on the subject of plant galls, which are abnormal outgrowths in plant tissue. Due to the high quality of his scientific publications, J.C. van Marken, the Director of the Netherlands Yeast and Spirits Factory persuaded him to move to Delft in 1884, to research ways of improving the quality of the factory’s products and controlling contamination problems. ",
-                  "Beijerinck was not very happy as an industrial scientist because his wide range of interests did not suit the more focussed requirements of industrial life, despite the broad freedom that Van Marken gave him. In theory, he should have been working on fermentation, the yeasts involved, kefir and related analytical methods. However, during this time he published research on a very wide range of topics including different sorts of bacteria and their enzymes, plants and microorganisms in drinking water, and even the spectacular sunsets caused by the eruption of Krakatoa. He also continued his work on plant galls and the wasps that cause them. "
-                ]
-              },
               "label": {
-                "en": [
-                  "About Beijerinck: From Botany to Microbiology"
-                ]
+                "en": ["About Beijerinck: From Botany to Microbiology"]
               }
             }
           ],
@@ -1785,11 +1462,7 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c",
-      "behavior": [
-        "info",
-        "w-4",
-        "h-4"
-      ],
+      "behavior": ["info", "w-4", "h-4"],
       "summary": {
         "en": [
           "Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. "
@@ -1798,9 +1471,7 @@
     },
     {
       "label": {
-        "en": [
-          "Take a tour of a reconstruction of Beijerinck's office"
-        ]
+        "en": ["Take a tour of a reconstruction of Beijerinck's office"]
       },
       "height": 562,
       "width": 1000,
@@ -1826,15 +1497,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -1865,9 +1530,7 @@
               "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/134aacc1-6660-eff1-9e2c-025a813aabb3",
               "motivation": "painting",
               "label": {
-                "en": [
-                  "Beijerinck's Office"
-                ]
+                "en": ["Beijerinck's Office"]
               },
               "summary": {
                 "en": [
@@ -1880,11 +1543,7 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b",
-      "behavior": [
-        "bottom",
-        "w-12",
-        "h-9"
-      ],
+      "behavior": ["bottom", "w-12", "h-9"],
       "summary": {
         "en": [
           "The foundation stones for what later became known as microbiology and applied botany, and only much later biotechnology, were laid in a room looking just like this one. The furniture was made for Beijerinck in the late 19th-century and later used by Albert Jan Kluyver. The room also holds equipment from Gerrit van Iterson. The office of a professor teaching at the end of the 19th and beginning of the 20th centuries would have served many different purposes. Usually it held not only a reference library, teaching and writing equipment, but it also sometimes functioned as a meeting room and simple lab. It was perfectly normal for scientists to carry out experiments in their offices. For that reason, in addition to the books and papers, you can see microscopes, weighing scales and chemicals in some of the cupboards. In the beginning of Beijerincks tenure, there was no electricity in the buildings and the professors used gas light. Therefore much of the equipment has been adjusted to work in low light circumstances. Enjoy your visit!"
@@ -1892,9 +1551,7 @@
       },
       "requiredStatement": {
         "value": {
-          "en": [
-            "Science Centre Delft"
-          ]
+          "en": ["Science Centre Delft"]
         }
       }
     }
