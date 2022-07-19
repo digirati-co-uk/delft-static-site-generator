@@ -82,7 +82,7 @@ module.exports = {
         collectionSchema: {
           // Required
           name: 'pages_v1',
-          queryLanguages: ['nl', 'en'],
+          query_languages: ['nl', 'en'],
           fields: [
             {
               name: 'title',

@@ -342,6 +342,7 @@ class ExhibitionPage extends React.Component {
     const { pageContext: manifest, path } = this.props;
     const pageLanguage = getPageLanguage(path);
     const { renderCanvasModal } = this.state;
+    console.log(path, pageLanguage);
     return (
       <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
@@ -386,7 +387,7 @@ class ExhibitionPage extends React.Component {
                         .split('\n')
                         .map((paragraph) => (
                           <p
-                            data-typesense-field="about"
+                            data-typesense-field="content"
                             key={`about__${paragraph}`}
                           >
                             {paragraph}

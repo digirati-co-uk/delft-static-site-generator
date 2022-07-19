@@ -33,7 +33,7 @@ const Search = ({ pageContext, path }) => {
     //  So you can pass any parameters supported by the search endpoint below.
     //  queryBy is required.
     additionalSearchParameters: {
-      queryBy: 'title,about,image,type,content,author',
+      query_by: 'title,about,image,type,content,author',
     },
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;

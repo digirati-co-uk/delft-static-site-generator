@@ -4,7 +4,7 @@ const fs = require('fs');
 const Upgrader = require('iiif-prezi2to3');
 
 const upgrader = new Upgrader({ 'deref_links ': false });
-const TRANSLATIONS = ['nl', 'en'];
+const TRANSLATIONS = ['en', 'nl'];
 const IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE =
   'http://iiif.io/api/presentation/3/context.json';
 

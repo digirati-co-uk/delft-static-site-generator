@@ -44,6 +44,10 @@ class CollectionPage extends React.Component {
     };
   }
 
+  componentDidMount() {
+    console.log(this.props);
+  }
+
   hideSummary = () => {
     this.setState({
       renderCanvasModal: false,
@@ -69,6 +73,7 @@ class CollectionPage extends React.Component {
     }
     const path = this.props.path;
     const pageLanguage = getPageLanguage(path);
+    console.log(pageLanguage);
     const title = translate(collection.label, pageLanguage);
     const curator = getMetatataIfExist(
       collection.metadata || [],

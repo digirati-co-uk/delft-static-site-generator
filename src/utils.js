@@ -47,6 +47,7 @@ const getAuthor = (path, allMDRemark) => {
 };
 
 export const getTranslation = (obj, lang, glue = ' ') => {
+  console.log(obj, lang, glue);
   if (obj) {
     if (
       (obj ? obj[lang] || obj['@none'] || obj.none || [] : []).join(glue) ===
