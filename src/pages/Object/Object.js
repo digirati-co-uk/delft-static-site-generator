@@ -110,7 +110,7 @@ class ObjectPage extends React.Component {
     const { pageContext, path } = this.props;
 
     const { renderSlideShow } = this.state;
-    const pageLanguage = getPageLanguage(path);
+    const pageLanguage = getPageLanguage(this.props.location.pathname);
 
     return (
       <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>

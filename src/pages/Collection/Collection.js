@@ -72,8 +72,7 @@ class CollectionPage extends React.Component {
       return 'Error: collection not defined, please check the source manifest.';
     }
     const path = this.props.path;
-    const pageLanguage = getPageLanguage(path);
-    console.log(pageLanguage);
+    const pageLanguage = getPageLanguage(this.props.location.pathname);
     const title = translate(collection.label, pageLanguage);
     const curator = getMetatataIfExist(
       collection.metadata || [],

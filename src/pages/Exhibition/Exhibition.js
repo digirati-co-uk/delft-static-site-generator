@@ -59,8 +59,8 @@ class ExhibitionPage extends React.Component {
   }
 
   showCanvasDetails = (canvas, annotationDetails) => () => {
-    const { pageContext: manifest, path } = this.props;
-    const pageLanguage = getPageLanguage(path);
+    const { pageContext: manifest } = this.props;
+    const pageLanguage = getPageLanguage(this.props.location.pathname);
     this.setState({
       renderCanvasModal: (
         <DynamicCanvasModal
@@ -340,9 +340,8 @@ class ExhibitionPage extends React.Component {
 
   render() {
     const { pageContext: manifest, path } = this.props;
-    const pageLanguage = getPageLanguage(path);
+    const pageLanguage = getPageLanguage(this.props.location.pathname);
     const { renderCanvasModal } = this.state;
-    console.log(path, pageLanguage);
     return (
       <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
