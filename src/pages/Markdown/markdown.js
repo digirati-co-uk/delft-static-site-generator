@@ -191,12 +191,7 @@ const Markdown = ({ pageContext, data, path }) => {
           </main>
         </MDXProvider>
       ) : (
-        <>
-          <div style={{ display: 'none' }} data-typesense-field="type">
-            general
-          </div>
-          <main dangerouslySetInnerHTML={{ __html: content.html }} />
-        </>
+        <main dangerouslySetInnerHTML={{ __html: content.html }} />
       )}
     </Layout>
   );

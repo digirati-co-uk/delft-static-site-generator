@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '../../components/Layout/layout';
 import { SearchResult } from '../../components/Search/SearchResults';
 import { graphql } from 'gatsby';
 import { orderBy } from 'lodash';
+import { navigate } from 'gatsby';
 import './Search.scss';
+import withLocation from '../../components/withLocation/withLocation';
 
 import {
   InstantSearch,
@@ -17,7 +19,22 @@ import {
 } from 'react-instantsearch-dom';
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
 
-const Search = ({ pageContext, path }) => {
+const Search = ({ pageContext, path, location }) => {
+  const [searchQueryParam, setSearchQueryParam] = useState('');
+  const [newParam, setNewParam] = useState('');
+
+  useEffect(() => {
+    if (newParam !== '') {
+      navigate(`${path}?keywords=${newParam}`, { replace: true });
+    }
+  }, [newParam]);
+
+  useEffect(() => {
+    if (location && location.search && location.search.includes('?keywords=')) {
+      const query = location.search.split('?keywords=')[1];
+      setSearchQueryParam(query);
+    }
+  }, []);
   const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
       apiKey: 'AOXs2nQnRYi5Cs9NvCiUPyLPXAWSdIeJ', // Be sure to use the search-only-api-key
@@ -59,7 +76,13 @@ const Search = ({ pageContext, path }) => {
         <InstantSearch searchClient={searchClient} indexName="pages_v1">
           <div className="search-content">
             <h1>Search</h1>
-            <SearchBox />
+            <SearchBox
+              onBlur={(event) => {
+                event.preventDefault();
+                setNewParam(event.target.value);
+              }}
+              defaultRefinement={searchQueryParam}
+            />
             <CustomStats />
             <RefinementList
               attribute="type"
@@ -84,8 +107,6 @@ const Search = ({ pageContext, path }) => {
   );
 };
 
-export default Search;
-
 export const pageQuery = graphql`
   query {
     site {
@@ -95,3 +116,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default withLocation(Search);
