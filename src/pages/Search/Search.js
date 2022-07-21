@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Layout from '../../components/Layout/layout';
 import { SearchResult } from '../../components/Search/SearchResults';
 import { graphql } from 'gatsby';
 import { orderBy } from 'lodash';
 import { navigate } from 'gatsby';
+import qs from 'qs';
 import './Search.scss';
 import withLocation from '../../components/withLocation/withLocation';
 
@@ -18,23 +19,42 @@ import {
   Configure,
 } from 'react-instantsearch-dom';
 import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
+const DEBOUNCE_TIME = 400;
+const createURL = (state) => `?${qs.stringify(state)}`;
+
+const searchStateToUrl = (searchState) =>
+  searchState ? createURL(searchState) : '';
+
+const urlToSearchState = ({ search }) => qs.parse(search.slice(1));
 
 const Search = ({ pageContext, path, location }) => {
-  const [searchQueryParam, setSearchQueryParam] = useState('');
-  const [newParam, setNewParam] = useState('');
+  const [isSearching, setIsSearching] = useState(false);
+  const [searchState, setSearchState] = useState(urlToSearchState(location));
+
+  const debouncedSetStateRef = useRef(null);
+
+  function onSearchStateChange(updatedSearchState) {
+    clearTimeout(debouncedSetStateRef.current);
+
+    debouncedSetStateRef.current = setTimeout(() => {
+      navigate(searchStateToUrl(updatedSearchState), { replace: true });
+    }, DEBOUNCE_TIME);
+
+    setSearchState(updatedSearchState);
+  }
 
   useEffect(() => {
-    if (newParam !== '') {
-      navigate(`${path}?keywords=${newParam}`, { replace: true });
-    }
-  }, [newParam]);
+    setSearchState(urlToSearchState(location));
+  }, [location]);
 
   useEffect(() => {
-    if (location && location.search && location.search.includes('?keywords=')) {
-      const query = location.search.split('?keywords=')[1];
-      setSearchQueryParam(query);
+    if (searchState.query !== '' && searchState.query) {
+      setIsSearching(true);
+    } else {
+      setIsSearching(false);
     }
-  }, []);
+  }, [searchState]);
+
   const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
       apiKey: 'AOXs2nQnRYi5Cs9NvCiUPyLPXAWSdIeJ', // Be sure to use the search-only-api-key
@@ -52,6 +72,7 @@ const Search = ({ pageContext, path, location }) => {
     additionalSearchParameters: {
       query_by: 'title,about,image,type,content,author',
     },
+    attributesToSnippet: ['content'],
   });
   const searchClient = typesenseInstantsearchAdapter.searchClient;
 
@@ -60,7 +81,9 @@ const Search = ({ pageContext, path, location }) => {
 
   const CustomHits = () => (
     <Hits
-      hitComponent={({ hit }) => <SearchResult hit={hit} page_path={path} />}
+      hitComponent={({ hit }) => (
+        <SearchResult hit={hit} page_path={path} isSearching={isSearching} />
+      )}
     />
   );
 
@@ -73,16 +96,16 @@ const Search = ({ pageContext, path, location }) => {
       meta={{ description: 'Search' }}
     >
       <main>
-        <InstantSearch searchClient={searchClient} indexName="pages_v1">
+        <InstantSearch
+          searchClient={searchClient}
+          indexName="pages_v1"
+          searchState={searchState}
+          onSearchStateChange={onSearchStateChange}
+          createURL={createURL}
+        >
           <div className="search-content">
             <h1>Search</h1>
-            <SearchBox
-              onBlur={(event) => {
-                event.preventDefault();
-                setNewParam(event.target.value);
-              }}
-              defaultRefinement={searchQueryParam}
-            />
+            <SearchBox />
             <CustomStats />
             <RefinementList
               attribute="type"

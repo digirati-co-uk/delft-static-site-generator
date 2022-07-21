@@ -6,6 +6,38 @@
   margin-right: auto;
   margin-left: auto;
 
+  .search-result {
+    .ais-Hits-list li {
+      padding-top: unset;
+    }
+
+    .ais-Snippet {
+      span {
+        display: none;
+        width: 100%;
+      }
+
+      span:first-of-type {
+        display: block;
+      }
+    }
+
+    &__isSearching {
+      span {
+        display: block;
+      }
+
+      .ais-Snippet-nonHighlighted {
+        display: none;
+      }
+
+      .ais-Snippet-highlighted+.ais-Snippet-nonHighlighted {
+        display: inline;
+      }
+
+    }
+  }
+
   form {
     width: 100%;
     display: flex;
@@ -58,7 +90,4 @@
     }
   }
 
-  .ais-Hits-list li {
-    padding-top: unset;
-  }
 }

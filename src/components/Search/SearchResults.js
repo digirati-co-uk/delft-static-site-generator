@@ -1,11 +1,12 @@
 import React from 'react';
 import { Highlight, Snippet } from 'react-instantsearch-dom';
 
-const withHighlight = ({ hit }) => {
+const withHighlight = ({ hit, isSearching }) => {
   const language = hit.page_path.split('/')[1];
   return (
     <div
       key={hit.title}
+      className={isSearching ? 'search-result__isSearching' : 'search-result'}
       style={{
         display: 'flex',
         alignItems: 'center',
@@ -71,7 +72,7 @@ const withHighlight = ({ hit }) => {
             }}
           />
           <Highlight attribute={'about'} hit={hit} />
-          <Snippet attribute={'content'} hit={hit} separator=" - " />
+          <Snippet attribute={'content'} hit={hit} separator=" " />
           <Highlight attribute={'author'} hit={hit} />
         </div>
       </div>
