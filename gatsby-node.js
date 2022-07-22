@@ -9,20 +9,21 @@ const IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE =
   'http://iiif.io/api/presentation/3/context.json';
 
 const createTranslatedPage = (params, createPage) =>
-  TRANSLATIONS.forEach(language =>
+  TRANSLATIONS.forEach((language) =>
     createPage({
       ...params,
       path: `${language}/${params.path}`,
     })
   );
 
-const convertToV3ifNecessary = manifest => {
+const convertToV3ifNecessary = (manifest) => {
+  if (!manifest) return {};
   const context = manifest['@context'];
   const isNotP3 =
     context &&
     ((context.constructor === Array &&
       context.filter(
-        namespace => namespace === IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE
+        (namespace) => namespace === IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE
       ).length === 0) ||
       (context.constructor === String &&
         !context !== IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE));
@@ -32,7 +33,7 @@ const convertToV3ifNecessary = manifest => {
   return manifest;
 };
 
-const getManifestContext = itemPath => {
+const getManifestContext = (itemPath) => {
   const split = itemPath.split('/');
   let object = split.pop().split('-');
   if (!isNaN(object[0])) object.shift();
@@ -49,36 +50,36 @@ const getManifestContext = itemPath => {
   return [formatted, convertToV3ifNecessary(json)];
 };
 
-const getCollectionGroup = itemPath => {
+const getCollectionGroup = (itemPath) => {
   // Get the collection by filename
   return itemPath.split('/')[2];
 };
-const checkifFolder = filepath =>
+const checkifFolder = (filepath) =>
   fs.existsSync(filepath) && fs.lstatSync(filepath).isDirectory();
 
-const checkifSubfolder = root => fs.statSync(path.join(root)).isDirectory();
+const checkifSubfolder = (root) => fs.statSync(path.join(root)).isDirectory();
 
-const checkifJSON = filepath =>
+const checkifJSON = (filepath) =>
   fs.statSync(filepath).isFile() && path.extname(filepath) === '.json';
 
-const getFiles = filepath =>
-  fs.readdirSync(filepath).map(item => path.join(filepath, item));
+const getFiles = (filepath) =>
+  fs.readdirSync(filepath).map((item) => path.join(filepath, item));
 
-const getJSONFilesUnderPath = filepath => {
+const getJSONFilesUnderPath = (filepath) => {
   const files = [];
   try {
     const allDirectory = getFiles(filepath);
 
-    allDirectory.forEach(item => {
+    allDirectory.forEach((item) => {
       if (checkifJSON(item)) {
         files.push(item);
       } else if (checkifSubfolder(path.join(item))) {
         const subfiles = getFiles(item);
-        subfiles.forEach(file => {
+        subfiles.forEach((file) => {
           // eslint-disable-next-line no-unused-expressions
           checkifJSON(file)
             ? files.push(file)
-            : getFiles(file).forEach(subfile => {
+            : getFiles(file).forEach((subfile) => {
                 if (checkifJSON(subfile)) files.push(subfile);
               });
         });
@@ -90,15 +91,15 @@ const getJSONFilesUnderPath = filepath => {
   return files;
 };
 
-const getCollections = filepath => {
+const getCollections = (filepath) => {
   const files = [];
   const allDirectory = getFiles(filepath);
-  allDirectory.forEach(item => {
+  allDirectory.forEach((item) => {
     if (checkifJSON(item)) {
       files.push(item);
     } else if (checkifSubfolder(path.join(item))) {
       const subfiles = getFiles(item);
-      subfiles.forEach(file => {
+      subfiles.forEach((file) => {
         if (checkifJSON(file)) files.push(file);
       });
     }
@@ -106,14 +107,14 @@ const getCollections = filepath => {
   return files;
 };
 
-const getObjectsInCollection = items => {
+const getObjectsInCollection = (items) => {
   const formatted = [];
-  items.map(item => {
+  items.map((item) => {
     const [path, collectionItemContext] = getManifestContext(item);
 
     const labels = { en: [''], nl: [''] };
 
-    collectionItemContext.metadata.map(data => {
+    collectionItemContext.metadata.map((data) => {
       if (data.label && data.label.en && data.label.en[0] === 'Title') {
         labels.en =
           data.value && data.value.en && data.value.en[0]
@@ -140,8 +141,8 @@ const getObjectsInCollection = items => {
 
 const getAllAnnotationsFromManifest = (manifest, manifestPath, _annotations) =>
   (manifest.items || []).reduce((annotations, canvas) => {
-    const processAnnotationPage = annotationPage => {
-      (annotationPage.items || []).forEach(annotation => {
+    const processAnnotationPage = (annotationPage) => {
+      (annotationPage.items || []).forEach((annotation) => {
         let annotationId = annotation.id;
         if (annotation.body && annotation.body.type === 'Image') {
           if (annotation.body.service) {
@@ -177,21 +178,21 @@ const getAllAnnotationsFromManifest = (manifest, manifestPath, _annotations) =>
     return annotations;
   }, _annotations || {});
 
-const getThumbnails = thumbnails =>
-  (thumbnails || []).map(thumbnail => thumbnail.id);
+const getThumbnails = (thumbnails) =>
+  (thumbnails || []).map((thumbnail) => thumbnail.id);
 
-const getFirstThumbnail = thumbnails => getThumbnails(thumbnails || [])[0];
+const getFirstThumbnail = (thumbnails) => getThumbnails(thumbnails || [])[0];
 
-const getCanvasThumbnail = canvas => {
+const getCanvasThumbnail = (canvas) => {
   let thumbnail = null;
   if (!thumbnail && canvas) {
     if (canvas.thumbnail) {
       thumbnail = getFirstThumbnail(canvas.thumbnail);
     }
     if (!thumbnail) {
-      canvas.items.forEach(annotationList => {
+      canvas.items.forEach((annotationList) => {
         if (!thumbnail && annotationList.items) {
-          annotationList.items.forEach(annotation => {
+          annotationList.items.forEach((annotation) => {
             if (!thumbnail && annotation.thumbnail) {
               thumbnail = getFirstThumbnail(annotation.thumbnail);
             }
@@ -203,7 +204,7 @@ const getCanvasThumbnail = canvas => {
   return thumbnail;
 };
 
-const getManifestThumbnail = manifest => {
+const getManifestThumbnail = (manifest) => {
   let thumbnail = null;
   if (manifest.thumbnail) {
     thumbnail = getFirstThumbnail(manifest.thumbnail);
@@ -218,7 +219,7 @@ const getManifestThumbnail = manifest => {
     Array.isArray(manifest.items) &&
     manifest.items.length > 0
   ) {
-    manifest.items.forEach(canvas => {
+    manifest.items.forEach((canvas) => {
       if (!thumbnail) {
         thumbnail = getCanvasThumbnail(canvas);
       }
@@ -245,7 +246,7 @@ const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
     return objectLinks;
   }, _objectLinks || []);
 
-const createCollectionPages = objectLinks => {
+const createCollectionPages = (objectLinks) => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
   return getCollections(collectionsPath).reduce(
@@ -399,14 +400,14 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
 
     const searchTemplate = path.resolve(`src/pages/Search/Search.js`);
 
-    TRANSLATIONS.forEach(language =>
+    TRANSLATIONS.forEach((language) =>
       createPage({
         path: `${language}/search/`,
         component: searchTemplate,
@@ -442,21 +443,21 @@ exports.createPages = ({ actions, graphql }) => {
         }, // additional data can be passed via context
       });
     });
-    TRANSLATIONS.forEach(language =>
+    TRANSLATIONS.forEach((language) =>
       createPage({
         path: `${language}/publications/`,
         component: publicationsTemplate,
       })
     );
 
-    Object.values(objectMeta.pages).forEach(object => {
+    Object.values(objectMeta.pages).forEach((object) => {
       object.context.collections =
         collectionMeta.objectInCollections[object.context.id];
 
       const annos = Object.entries(objectMeta.annotationsPartOfObjects)
         .filter(
           ([key, value]) =>
-            value.filter(item => item[1] === object.path).length > 0
+            value.filter((item) => item[1] === object.path).length > 0
         )
         .map(([key]) => key);
 
@@ -464,7 +465,7 @@ exports.createPages = ({ actions, graphql }) => {
         annos.reduce((_exhibitions, annotation) => {
           if (exhibitionMeta.annotationsPartOfExhibition[annotation]) {
             exhibitionMeta.annotationsPartOfExhibition[annotation].forEach(
-              exhibition => {
+              (exhibition) => {
                 _exhibitions[exhibition[1]] = exhibition;
               }
             );
@@ -491,11 +492,11 @@ exports.createPages = ({ actions, graphql }) => {
       // });
       createTranslatedPage(object, createPage);
     });
-    Object.values(exhibitionMeta.pages).forEach(exhibition => {
+    Object.values(exhibitionMeta.pages).forEach((exhibition) => {
       const annos = Object.entries(exhibitionMeta.annotationsPartOfExhibition)
         .filter(
           ([key, value]) =>
-            value.filter(item => item[1] === exhibition.path).length > 0
+            value.filter((item) => item[1] === exhibition.path).length > 0
         )
         .reduce((_annos, [key]) => {
           try {
@@ -508,7 +509,7 @@ exports.createPages = ({ actions, graphql }) => {
       exhibition.context.annotationDetails = annos;
       createTranslatedPage(exhibition, createPage);
     });
-    Object.values(collectionMeta.pages).forEach(collection =>
+    Object.values(collectionMeta.pages).forEach((collection) =>
       createTranslatedPage(collection, createPage)
     );
   });

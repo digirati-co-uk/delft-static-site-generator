@@ -5,16 +5,12 @@
   ],
   "type": "Manifest",
   "label": {
-    "en": [
-      "Bandoeng – Bandung"
-    ]
+    "en": ["Bandoeng – Bandung"]
   },
   "items": [
     {
       "label": {
-        "en": [
-          "Introduction"
-        ]
+        "en": ["Introduction"]
       },
       "height": 1000,
       "width": 1000,
@@ -27,7 +23,7 @@
               "type": "Annotation",
               "body": {
                 "type": "TextualBody",
-                "value": "new annotation",
+                "value": "<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>",
                 "format": "text/plain",
                 "language": "en",
                 "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/textualbody/a3ba7f54-4f49-14c3-25da-fa0586b086d1"
@@ -35,15 +31,8 @@
               "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/674ce695-eaca-e67f-2664-d83873bd4eaa",
               "motivation": "painting",
-              "summary": {
-                "en": [
-                  "<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>"
-                ]
-              },
               "label": {
-                "en": [
-                  "Bandoeng – Bandung"
-                ]
+                "en": ["Bandoeng – Bandung"]
               }
             }
           ],
@@ -57,18 +46,11 @@
           "NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021."
         ]
       },
-      "behavior": [
-        "info",
-        "info",
-        "w-4",
-        "h-4"
-      ]
+      "behavior": ["info", "info", "w-4", "h-4"]
     },
     {
       "label": {
-        "en": [
-          "Villa Isola"
-        ]
+        "en": ["Villa Isola"]
       },
       "height": 707,
       "width": 1000,
@@ -87,9 +69,7 @@
                 "height": 2780,
                 "width": 3929,
                 "label": {
-                  "en": [
-                    "-"
-                  ]
+                  "en": ["-"]
                 },
                 "service": {
                   "type": "ImageService2",
@@ -101,13 +81,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
+                      "scaleFactors": [1, 2, 4, 8, 16]
                     }
                   ],
                   "sizes": [
@@ -131,14 +105,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -163,15 +131,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -205,9 +167,7 @@
                 ]
               },
               "label": {
-                "en": [
-                  "Villa Isola"
-                ]
+                "en": ["Villa Isola"]
               }
             }
           ],
@@ -222,17 +182,11 @@
           "Villa Isola was designed for the Dutch media tycoon Dominique Willem Berretty, founder of the Aneta press-agency in the Dutch East Indies. The circular complex, which included a vast garden, took inspiration from both modern Art Deco and ancient Hindu temple architecture. The building now serves as the headmastership office of the Indonesia University of Education."
         ]
       },
-      "behavior": [
-        "right",
-        "w-12",
-        "h-6"
-      ]
+      "behavior": ["right", "w-12", "h-6"]
     },
     {
       "label": {
-        "en": [
-          "Technische Hogeschool"
-        ]
+        "en": ["Technische Hogeschool"]
       },
       "height": 750,
       "width": 1000,
@@ -251,9 +205,7 @@
                 "height": 3024,
                 "width": 4032,
                 "label": {
-                  "en": [
-                    "-"
-                  ]
+                  "en": ["-"]
                 },
                 "service": {
                   "type": "ImageService2",
@@ -265,13 +217,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
+                      "scaleFactors": [1, 2, 4, 8, 16]
                     }
                   ],
                   "sizes": [
@@ -295,14 +241,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -327,15 +267,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -364,14 +298,10 @@
               "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/81e70062-e9c3-d545-93e4-0de163903fa2",
               "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d#xywh=0,0,1000,750",
               "summary": {
-                "en": [
-                  "Photo: Abel Streefland"
-                ]
+                "en": ["Photo: Abel Streefland"]
               },
               "label": {
-                "en": [
-                  "Bandung Institute of Technology"
-                ]
+                "en": ["Bandung Institute of Technology"]
               }
             }
           ],
@@ -379,11 +309,7 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d",
-      "behavior": [
-        "left",
-        "w-12",
-        "h-6"
-      ],
+      "behavior": ["left", "w-12", "h-6"],
       "summary": {
         "en": [
           "Henri Maclaine Pont (1884 – 1971) was born on Java in the Dutch East Indies and studied architecture in Delft from 1902-09. After his studies he returned to the East Indies and worked as a designer for the Semarang-Cheribon steam tram company in Semarang. Maclaine Pont was fascinated by indigenous building techniques and trained local craftsmen to work on his buildings.",
@@ -393,9 +319,7 @@
     },
     {
       "label": {
-        "en": [
-          "Cikapundung Craft Community"
-        ]
+        "en": ["Cikapundung Craft Community"]
       },
       "height": 640,
       "width": 999,
@@ -414,9 +338,7 @@
                 "height": 2467,
                 "width": 3850,
                 "label": {
-                  "en": [
-                    "-"
-                  ]
+                  "en": ["-"]
                 },
                 "service": {
                   "type": "ImageService2",
@@ -428,13 +350,7 @@
                     {
                       "width": 256,
                       "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
+                      "scaleFactors": [1, 2, 4, 8, 16]
                     }
                   ],
                   "sizes": [
@@ -458,14 +374,8 @@
                   "profile": [
                     "http://iiif.io/api/image/2/level1.json",
                     {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
+                      "formats": ["jpg"],
+                      "qualities": ["native", "color", "gray"],
                       "supports": [
                         "regionByPct",
                         "sizeByForcedWh",
@@ -490,15 +400,9 @@
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
                       {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
+                        "formats": ["jpg"],
+                        "qualities": ["color"],
+                        "supports": ["sizeByWhListed"]
                       }
                     ],
                     "width": 1024,
@@ -527,14 +431,10 @@
               "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/91a8a06a-d874-512c-48a6-f7708d5da64f",
               "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a#xywh=0,0,999,640",
               "summary": {
-                "en": [
-                  "Artist’s impression: Céline Mugica"
-                ]
+                "en": ["Artist’s impression: Céline Mugica"]
               },
               "label": {
-                "en": [
-                  "Cikapundung Craft Community"
-                ]
+                "en": ["Cikapundung Craft Community"]
               }
             }
           ],
@@ -542,11 +442,7 @@
         }
       ],
       "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a",
-      "behavior": [
-        "right",
-        "w-12",
-        "h-6"
-      ],
+      "behavior": ["right", "w-12", "h-6"],
       "summary": {
         "en": [
           "Shared Heritage Lab is a three-year cross-domain collaboration between TU Delft’s Faculty of Architecture and the Built Environment and the School of Architecture, Planning & Policy Development of ITB. The city of Bandung served as one of the Lab’s case studies.",
