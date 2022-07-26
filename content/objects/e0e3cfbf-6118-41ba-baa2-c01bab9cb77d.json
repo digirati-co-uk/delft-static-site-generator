@@ -1,0 +1,40 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Fles met onbekende vloeistof"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "onbekend"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2013.0048.CTG"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "23,0 (h) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "olie, glas"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Grote fles met onbekende lichtkleurige vloeistof. "
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/e0e3cfbf-6118-41ba-baa2-c01bab9cb77d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/e0e3cfbf-6118-41ba-baa2-c01bab9cb77d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
