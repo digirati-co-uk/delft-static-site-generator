@@ -395,7 +395,8 @@
                 "type": "TextualBody",
                 "value": "new annotation",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/textualbody/a9ba045a-859d-c7e2-1f82-51ab7c4181a3"
               },
               "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/c8d39540-e003-ff5c-d4ea-81ed3a4a8056#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/22b86aa4-37a0-c441-c78e-cfe339b7907e",
@@ -2851,7 +2852,8 @@
                 "type": "TextualBody",
                 "value": "new annotation",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/textualbody/35ba7ff5-c274-4d93-0d67-62d69bf08f80"
               },
               "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/47f89994-c260-9f83-c789-c5c123ecc7a5#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/f3ae0dad-e3e6-dddc-b7c7-dbe392a604d0",
@@ -3617,8 +3619,8 @@
           "The Science of Creativity"
         ]
       },
-      "height": 1000,
-      "width": 1000,
+      "height": 1309,
+      "width": 998,
       "type": "Canvas",
       "items": [
         {
@@ -3746,147 +3748,16 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e79b7757-d82d-aa69-b0cd-a88b581a63a2",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=252,40,443,578",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=43,402,417,545",
               "body.id": "https://dlc.services/iiif-img/7/21/cd5ff140-c806-4399-81a2-1c0cadfbad1a/718,789,4982,6483/full/0/default.jpg",
-              "label": {
+              "summary": {
                 "en": [
                   "In 1966, the educational psychologist Ellis Paul Torrance released the Torrance Tests of Creative Thinking, the first pencil-and-paper creativity test. Though some doubted its predictive validity – including, eventually, Torrance himself – the ease of distributing and scoring the test at a mass scale ensured it would be widely used in both research and education. "
                 ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 6115,
-                "width": 9213,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 9213,
-                  "height": 6115,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32,
-                        64
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 680
-                    },
-                    {
-                      "width": 400,
-                      "height": 265
-                    },
-                    {
-                      "width": 200,
-                      "height": 133
-                    },
-                    {
-                      "width": 100,
-                      "height": 66
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
               },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 680,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 66
-                      },
-                      {
-                        "width": 200,
-                        "height": 133
-                      },
-                      {
-                        "width": 400,
-                        "height": 265
-                      },
-                      {
-                        "width": 1024,
-                        "height": 680
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/b38edd9d-c00f-bd1e-4b6a-45538e91c1e3",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=587,156,384,255",
               "label": {
                 "en": [
-                  "Postwar psychologists used a wide variety of methods to study creativity, from psychoanalysis and biographical studies to tests of “divergent thinking” that were partly inspired by brainstorming. The ultimate aim of many researchers was to devise a new test able to identify inventive people early in life, a particular wish of the massive government and private R&D apparatus that proliferated after WWII. In service of this aim, researchers collected large data sets and employed the most sophisticated statistical methods, even though many of the assessments could be extremely hard to quantify."
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Frank Barron, Creativity and Psychological Health, ",
-                  "D. van Nostrand Company, Inc., 1963"
+                  "Torrance test completed by Dr. Samuel Franklin in 2014"
                 ]
               }
             },
@@ -4013,7 +3884,12 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/5284b26f-c526-71c3-90c7-4b35f3d6e5ed",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=538,431,422,277",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=91,69,426,280",
+              "summary": {
+                "en": [
+                  "In 1966, the educational psychologist Ellis Paul Torrance released the Torrance Tests of Creative Thinking, the first pencil-and-paper creativity test. Though some doubted its predictive validity – including, eventually, Torrance himself – the ease of distributing and scoring the test at a mass scale ensured it would be widely used in both research and education."
+                ]
+              },
               "label": {
                 "en": [
                   "Torrance test completed by Dr. Samuel Franklin in 2014"
@@ -4142,13 +4018,13 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2a88ffd9-b62c-73cf-a062-ac288eea0c2e",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=705,564,242,334",
-              "label": {
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=616,73,267,367",
+              "summary": {
                 "en": [
                   "The field of creativity studies was in some respect built on the foundation of a single brick. One of the most widely used tests was to have people list as many uses for a common brick as they could in a set amount of time. Though later studies showed little correspondence between such “divergent thinking” tests and extraordinary creative accomplishment later in life, they became a staple of creativity testing. "
                 ]
               },
-              "summary": {
+              "label": {
                 "en": [
                   "Kaiser Aluminum News, 1968"
                 ]
@@ -4275,16 +4151,150 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9cc3e632-8abf-f970-62fd-9ec3974d6ed4",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=285,612,440,319",
-              "label": {
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=501,467,463,336",
+              "summary": {
                 "en": [
                   "One of the goals of early creativity researchers was to show that creative ability was distinct from general intelligence, at least as measured by standard IQ tests. If true, this would prove the practical importance for a new science of creativity. Here the authors compare test results of high-IQ students and ones that scored well on purported tests of creativity such as the one on the left."
                 ]
               },
+              "label": {
+                "en": [
+                  "Jacob W. Getzels and Philip W. Jackson, Creativity and Intelligence, John Wiley & Sons, Inc., 1962"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6115,
+                "width": 9213,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 9213,
+                  "height": 6115,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 680
+                    },
+                    {
+                      "width": 400,
+                      "height": 265
+                    },
+                    {
+                      "width": 200,
+                      "height": 133
+                    },
+                    {
+                      "width": 100,
+                      "height": 66
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/cbcd6a7e-78d6-45a3-ba3b-23444cd1e9f5",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 680,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 66
+                      },
+                      {
+                        "width": 200,
+                        "height": 133
+                      },
+                      {
+                        "width": 400,
+                        "height": 265
+                      },
+                      {
+                        "width": 1024,
+                        "height": 680
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/b38edd9d-c00f-bd1e-4b6a-45538e91c1e3",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=502,831,447,297",
               "summary": {
                 "en": [
-                  "Jacob W. Getzels and Philip W. Jackson, ",
-                  "Creativity and Intelligence, John Wiley & Sons, Inc., 1962"
+                  "Postwar psychologists used a wide variety of methods to study creativity, from psychoanalysis and biographical studies to tests of “divergent thinking” that were partly inspired by brainstorming. The ultimate aim of many researchers was to devise a new test able to identify inventive people early in life, a particular wish of the massive government and private R&D apparatus that proliferated after WWII. In service of this aim, researchers collected large data sets and employed the most sophisticated statistical methods, even though many of the assessments could be extremely hard to quantify."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Frank Barron, Creativity and Psychological Health, D. van Nostrand Company, Inc., 1963"
                 ]
               }
             }
@@ -4306,8 +4316,161 @@
       },
       "behavior": [
         "left",
-        "h-9",
-        "w-12"
+        "w-12",
+        "h-9"
+      ]
+    },
+    {
+      "height": 999,
+      "width": 999,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/96d105de-9a6b-419c-86b2-cf192c95523a/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 10417,
+                "width": 10417,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/96d105de-9a6b-419c-86b2-cf192c95523a",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 10417,
+                  "height": 10417,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 1024
+                    },
+                    {
+                      "width": 400,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/96d105de-9a6b-419c-86b2-cf192c95523a/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/96d105de-9a6b-419c-86b2-cf192c95523a",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 100
+                      },
+                      {
+                        "width": 200,
+                        "height": 200
+                      },
+                      {
+                        "width": 400,
+                        "height": 400
+                      },
+                      {
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1febb90d-5e2a-0838-766e-22dd4aeb85eb",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639#xywh=0,0,999,999",
+              "summary": {
+                "en": [
+                  "Kaiser Aluminum News, 1968"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Rorschach inkblot"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/11ef9ff1-0f48-a484-12b5-1b195e91e66f"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639",
+      "behavior": [
+        "w-12",
+        "h-5"
       ]
     },
     {
@@ -4446,13 +4609,23 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/742f09f4-1005-6fb1-0a56-7b2967a9c627",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=221,533,578,426"
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=188,533,592,436",
+              "summary": {
+                "en": [
+                  "Researchers at Berkeley’s IPAR asked subjects to create mosaics with colored tiles. The examples on the left were produced by the “non-creative” control group of randomly selected students, while those on the right were produced by prominent figures rated highly creative by their peers. The researchers concluded that creative people naturally prefer asymmetrical figures."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
+                ]
+              }
             },
             {
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/4479,548,3718,5404/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 6452,
@@ -4571,13 +4744,24 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3c6f823d-4999-2cd7-d7a8-3ff9209f6dee",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=436,318,563,411"
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=681,44,294,424",
+              "body.id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/4479,548,3718,5404/full/0/default.jpg",
+              "label": {
+                "en": [
+                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Drawing completion tests were commonly used in creativity studies. Although creativity and art were closely associated, these tests were scored not on the test-taker’s artistic ability, but rather on the originality and elaborateness of their responses."
+                ]
+              }
             },
             {
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/bdd5d699-94f9-465c-ae4a-d5d209f3c270/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/21/bdd5d699-94f9-465c-ae4a-d5d209f3c270/4164,352,3702,5420/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 6036,
@@ -4695,8 +4879,184 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/92fab8fb-2fff-9abe-f901-f07122318a1c",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=104,8,479,354"
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=31,47,300,437",
+              "body.id": "https://dlc.services/iiif-img/7/21/bdd5d699-94f9-465c-ae4a-d5d209f3c270/4164,352,3702,5420/full/0/default.jpg",
+              "summary": {
+                "en": [
+                  "Researchers found that people they deemed creative preferred messy and asymmetrical figures, while randomly selected university students tended to prefer simple, linear, and sym­metrical figures. The psychologists concluded creative people had a higher “tolerance for ambiguity,” though the result might also have been because the creative group, which included successful architects and writers, was more likely to have a learned taste for modern art."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
+                ]
+              }
             },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/9be87962-0977-4b05-9012-c3a0061ced9f/4415,422,3758,5440/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6237,
+                "width": 8713,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/9be87962-0977-4b05-9012-c3a0061ced9f",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 8713,
+                  "height": 6237,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 733
+                    },
+                    {
+                      "width": 400,
+                      "height": 286
+                    },
+                    {
+                      "width": 200,
+                      "height": 143
+                    },
+                    {
+                      "width": 100,
+                      "height": 72
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/9be87962-0977-4b05-9012-c3a0061ced9f/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/9be87962-0977-4b05-9012-c3a0061ced9f",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 733,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 72
+                      },
+                      {
+                        "width": 200,
+                        "height": 143
+                      },
+                      {
+                        "width": 400,
+                        "height": 286
+                      },
+                      {
+                        "width": 1024,
+                        "height": 733
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/27efc122-6e41-0792-dcfe-aa001147d254",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=355,69,304,438",
+              "body.id": "https://dlc.services/iiif-img/7/21/9be87962-0977-4b05-9012-c3a0061ced9f/4415,422,3758,5440/full/0/default.jpg",
+              "label": {
+                "en": [
+                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Traditionally, psychologists used ink blot tests to peer into peoples’ subconscious. Creativity researchers were interested not in the underlying meaning of what their subjects saw in the random shapes but rather their originality, which researchers quantified to calculate a measure of creative ability."
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/a9af9f68-5adb-0db6-3826-40b3c8e3ffaf"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59",
+      "summary": {
+        "en": [
+          "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley. There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis. One finding revealed these creative subjects preferred abstract to representational art. The researchers interpreted this aesthetic preference, as well as characteristics like high “ego strength” and “femininity” in men, as the result of a naturally creative personality, but later critics pointed out they might also have had to do with education, socialization, and the expectation to be creative in the first place. Indeed, much creativity research has been based on individuals who society already considered creative, thus reinforcing notions of who was creative, particularly white, male professionals with high education and liberal cultural values. Many researchers today doubt that something like the “creative personality” really exists, instead seeing creativity as a complex social phenomenon."
+        ]
+      },
+      "behavior": [
+        "right",
+        "w-12",
+        "h-8"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Still looking..."
+        ]
+      },
+      "height": 368,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
             {
               "motivation": "painting",
               "type": "Annotation",
@@ -4817,158 +5177,43 @@
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/ec44aa0d-4a25-f4dd-ec61-fc58858b9aee",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=445,89,470,173"
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/9be87962-0977-4b05-9012-c3a0061ced9f/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 6237,
-                "width": 8713,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/9be87962-0977-4b05-9012-c3a0061ced9f",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 8713,
-                  "height": 6237,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32,
-                        64
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 733
-                    },
-                    {
-                      "width": 400,
-                      "height": 286
-                    },
-                    {
-                      "width": 200,
-                      "height": 143
-                    },
-                    {
-                      "width": 100,
-                      "height": 72
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/776cdccf-397d-177f-ff60-35bd126cbba5",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a17bd09b-10b7-edb1-19b0-c7d4fde70896#xywh=0,0,1000,368",
+              "label": {
+                "en": [
+                  "Map of brains of people in STEM fields deemed creative via a questionnaire."
+                ]
               },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/9be87962-0977-4b05-9012-c3a0061ced9f/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/9be87962-0977-4b05-9012-c3a0061ced9f",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 733,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 72
-                      },
-                      {
-                        "width": 200,
-                        "height": 143
-                      },
-                      {
-                        "width": 400,
-                        "height": 286
-                      },
-                      {
-                        "width": 1024,
-                        "height": 733
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/27efc122-6e41-0792-dcfe-aa001147d254",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=226,210,485,347"
+              "summary": {
+                "en": [
+                  "David M. Bashwiner et al., Scientific Reports, February 2016"
+                ]
+              }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/a9af9f68-5adb-0db6-3826-40b3c8e3ffaf"
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/981e658d-108d-91a7-8719-173c39c6e459"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59",
-      "summary": {
-        "en": [
-          "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley. There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis. One finding revealed these creative subjects preferred abstract to representational art. The researchers interpreted this aesthetic preference, as well as characteristics like high “ego strength” and “femininity” in men, as the result of a naturally creative personality, but later critics pointed out they might also have had to do with education, socialization, and the expectation to be creative in the first place. Indeed, much creativity research has been based on individuals who society already considered creative, thus reinforcing notions of who was creative, particularly white, male professionals with high education and liberal cultural values. Many researchers today doubt that something like the “creative personality” really exists, instead seeing creativity as a complex social phenomenon."
-        ]
-      },
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a17bd09b-10b7-edb1-19b0-c7d4fde70896",
       "behavior": [
         "right",
-        "h-10",
-        "w-12"
-      ]
+        "w-12",
+        "h-3"
+      ],
+      "summary": {
+        "en": [
+          "The rise of neuroscience has revived the dream of finding the individual psychological basis of creativity. A number of studies have used new brain imaging technology to peer into the brains of people deemed creative or while engaged in activities deemed creative. These researchers have run into the same problems as previous studies: difficulty showing that one sort of creativity – say, piano improvisation – has any resemblance to other things we think of as creative, such as inventing a machine or writing a novel."
+        ]
+      }
     },
     {
       "label": {
         "en": [
-          "Untitled Canvas"
+          "A Corporate Counterculture"
         ]
       },
-      "height": 999,
-      "width": 999,
+      "height": 1000,
+      "width": 1000,
       "type": "Canvas",
       "items": [
         {
@@ -4978,11 +5223,11 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/96d105de-9a6b-419c-86b2-cf192c95523a/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/21/d9475790-9cb2-422b-9b91-68d2da7e5c2e/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 10417,
-                "width": 10417,
+                "height": 3215,
+                "width": 5009,
                 "label": {
                   "en": [
                     "-"
@@ -4990,10 +5235,10 @@
                 },
                 "service": {
                   "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/96d105de-9a6b-419c-86b2-cf192c95523a",
+                  "id": "https://dlc.services/iiif-img/7/21/d9475790-9cb2-422b-9b91-68d2da7e5c2e",
                   "protocol": "http://iiif.io/api/image",
-                  "width": 10417,
-                  "height": 10417,
+                  "width": 5009,
+                  "height": 3215,
                   "tiles": [
                     {
                       "width": 256,
@@ -5004,27 +5249,26 @@
                         4,
                         8,
                         16,
-                        32,
-                        64
+                        32
                       ]
                     }
                   ],
                   "sizes": [
                     {
                       "width": 1024,
-                      "height": 1024
+                      "height": 657
                     },
                     {
                       "width": 400,
-                      "height": 400
+                      "height": 257
                     },
                     {
                       "width": 200,
-                      "height": 200
+                      "height": 128
                     },
                     {
                       "width": 100,
-                      "height": 100
+                      "height": 64
                     }
                   ],
                   "profile": [
@@ -5053,11 +5297,11 @@
               },
               "thumbnail": [
                 {
-                  "id": "https://dlc.services/thumbs/7/21/96d105de-9a6b-419c-86b2-cf192c95523a/full/full/0/default.jpg",
+                  "id": "https://dlc.services/thumbs/7/21/d9475790-9cb2-422b-9b91-68d2da7e5c2e/full/full/0/default.jpg",
                   "type": "Image",
                   "service": {
                     "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/96d105de-9a6b-419c-86b2-cf192c95523a",
+                    "id": "https://dlc.services/thumbs/7/21/d9475790-9cb2-422b-9b91-68d2da7e5c2e",
                     "protocol": "http://iiif.io/api/image",
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
@@ -5074,36 +5318,2800 @@
                       }
                     ],
                     "width": 1024,
-                    "height": 1024,
+                    "height": 657,
                     "sizes": [
                       {
                         "width": 100,
-                        "height": 100
+                        "height": 64
                       },
                       {
                         "width": 200,
-                        "height": 200
+                        "height": 128
                       },
                       {
                         "width": 400,
-                        "height": 400
+                        "height": 257
                       },
                       {
                         "width": 1024,
-                        "height": 1024
+                        "height": 657
                       }
                     ]
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1febb90d-5e2a-0838-766e-22dd4aeb85eb",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639#xywh=0,0,999,999"
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/31466717-e1ea-ecab-ddc8-ed55f334340a",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=18,42,229,146",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/f1cfec20-4128-4796-b5b1-b800604687f3/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3230,
+                "width": 5040,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/f1cfec20-4128-4796-b5b1-b800604687f3",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5040,
+                  "height": 3230,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 656
+                    },
+                    {
+                      "width": 400,
+                      "height": 256
+                    },
+                    {
+                      "width": 200,
+                      "height": 128
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/f1cfec20-4128-4796-b5b1-b800604687f3/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/f1cfec20-4128-4796-b5b1-b800604687f3",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 656,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 128
+                      },
+                      {
+                        "width": 400,
+                        "height": 256
+                      },
+                      {
+                        "width": 1024,
+                        "height": 656
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e2afad69-442c-82b6-259e-5b9c1efb38ab",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=263,48,230,147",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/8326717e-381b-41d2-b019-e0d54e29b0dd/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3208,
+                "width": 5035,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/8326717e-381b-41d2-b019-e0d54e29b0dd",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5035,
+                  "height": 3208,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 652
+                    },
+                    {
+                      "width": 400,
+                      "height": 255
+                    },
+                    {
+                      "width": 200,
+                      "height": 127
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/8326717e-381b-41d2-b019-e0d54e29b0dd/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/8326717e-381b-41d2-b019-e0d54e29b0dd",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 652,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 127
+                      },
+                      {
+                        "width": 400,
+                        "height": 255
+                      },
+                      {
+                        "width": 1024,
+                        "height": 652
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c24489ae-b4ed-0e1d-2cf0-b14649345be0",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=508,39,230,147",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/49a00da1-9667-4c2d-8dcf-aaa4dd537e96/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3219,
+                "width": 5011,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/49a00da1-9667-4c2d-8dcf-aaa4dd537e96",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5011,
+                  "height": 3219,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 658
+                    },
+                    {
+                      "width": 400,
+                      "height": 257
+                    },
+                    {
+                      "width": 200,
+                      "height": 128
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/49a00da1-9667-4c2d-8dcf-aaa4dd537e96/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/49a00da1-9667-4c2d-8dcf-aaa4dd537e96",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 658,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 128
+                      },
+                      {
+                        "width": 400,
+                        "height": 257
+                      },
+                      {
+                        "width": 1024,
+                        "height": 658
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/13301733-9e5a-a1b7-c5aa-46e8c8da8454",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=750,33,233,149",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/f001c9b4-c83c-4528-9076-d3c8f67c5f8b/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3219,
+                "width": 5002,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/f001c9b4-c83c-4528-9076-d3c8f67c5f8b",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5002,
+                  "height": 3219,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 659
+                    },
+                    {
+                      "width": 400,
+                      "height": 257
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/f001c9b4-c83c-4528-9076-d3c8f67c5f8b/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/f001c9b4-c83c-4528-9076-d3c8f67c5f8b",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 659,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 257
+                      },
+                      {
+                        "width": 1024,
+                        "height": 659
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/36229569-3f9e-c11d-2f05-0016d089326f",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=20,226,232,148",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/0c8b94c2-77ef-47c2-a2c9-87b6835a9a21/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3201,
+                "width": 5000,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/0c8b94c2-77ef-47c2-a2c9-87b6835a9a21",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5000,
+                  "height": 3201,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 656
+                    },
+                    {
+                      "width": 400,
+                      "height": 256
+                    },
+                    {
+                      "width": 200,
+                      "height": 128
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/0c8b94c2-77ef-47c2-a2c9-87b6835a9a21/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/0c8b94c2-77ef-47c2-a2c9-87b6835a9a21",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 656,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 128
+                      },
+                      {
+                        "width": 400,
+                        "height": 256
+                      },
+                      {
+                        "width": 1024,
+                        "height": 656
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/09640709-1b54-a90c-114c-394424c29238",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=266,228,222,141",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/a39894a9-8cef-4b0b-a0e8-fa2a3ebdf504/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3229,
+                "width": 5037,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/a39894a9-8cef-4b0b-a0e8-fa2a3ebdf504",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5037,
+                  "height": 3229,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 656
+                    },
+                    {
+                      "width": 400,
+                      "height": 256
+                    },
+                    {
+                      "width": 200,
+                      "height": 128
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/a39894a9-8cef-4b0b-a0e8-fa2a3ebdf504/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/a39894a9-8cef-4b0b-a0e8-fa2a3ebdf504",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 656,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 128
+                      },
+                      {
+                        "width": 400,
+                        "height": 256
+                      },
+                      {
+                        "width": 1024,
+                        "height": 656
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/163af9c8-84b6-9d1b-99ef-9d77cb190345",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=510,221,232,148",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/7d723b73-8509-40e3-8bb5-b66d00d52097/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3239,
+                "width": 5012,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/7d723b73-8509-40e3-8bb5-b66d00d52097",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5012,
+                  "height": 3239,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 662
+                    },
+                    {
+                      "width": 400,
+                      "height": 258
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/7d723b73-8509-40e3-8bb5-b66d00d52097/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/7d723b73-8509-40e3-8bb5-b66d00d52097",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 662,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 258
+                      },
+                      {
+                        "width": 1024,
+                        "height": 662
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9a30bd2e-b202-adf9-0a44-2e5f650e3feb",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=764,234,223,144",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/cf185286-36b1-4022-be37-2283ae8e4edb/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3226,
+                "width": 5003,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/cf185286-36b1-4022-be37-2283ae8e4edb",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5003,
+                  "height": 3226,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 660
+                    },
+                    {
+                      "width": 400,
+                      "height": 258
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/cf185286-36b1-4022-be37-2283ae8e4edb/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/cf185286-36b1-4022-be37-2283ae8e4edb",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 660,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 258
+                      },
+                      {
+                        "width": 1024,
+                        "height": 660
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3bb8624e-c1dc-b07d-e301-a9cf7ef4e0c3",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=15,396,235,151",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/66928523-34d6-4394-aafa-8c287a457dee/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3224,
+                "width": 4979,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/66928523-34d6-4394-aafa-8c287a457dee",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4979,
+                  "height": 3224,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 663
+                    },
+                    {
+                      "width": 400,
+                      "height": 259
+                    },
+                    {
+                      "width": 200,
+                      "height": 130
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/66928523-34d6-4394-aafa-8c287a457dee/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/66928523-34d6-4394-aafa-8c287a457dee",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 663,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 130
+                      },
+                      {
+                        "width": 400,
+                        "height": 259
+                      },
+                      {
+                        "width": 1024,
+                        "height": 663
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/8ad0d15b-2c27-e73e-47bb-f4199056c8cf",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=276,394,224,145",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/c962c6a8-08a1-4288-8aa9-1bfa1fd13ffa/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3233,
+                "width": 4978,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/c962c6a8-08a1-4288-8aa9-1bfa1fd13ffa",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4978,
+                  "height": 3233,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 665
+                    },
+                    {
+                      "width": 400,
+                      "height": 260
+                    },
+                    {
+                      "width": 200,
+                      "height": 130
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/c962c6a8-08a1-4288-8aa9-1bfa1fd13ffa/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/c962c6a8-08a1-4288-8aa9-1bfa1fd13ffa",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 665,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 130
+                      },
+                      {
+                        "width": 400,
+                        "height": 260
+                      },
+                      {
+                        "width": 1024,
+                        "height": 665
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/513eb124-da3c-55ea-fb54-bc01a1dbbaff",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=518,404,218,141",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/563a73a1-8264-4a0d-a5a7-ad1517a7cc09/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3194,
+                "width": 4962,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/563a73a1-8264-4a0d-a5a7-ad1517a7cc09",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4962,
+                  "height": 3194,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 659
+                    },
+                    {
+                      "width": 400,
+                      "height": 257
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/563a73a1-8264-4a0d-a5a7-ad1517a7cc09/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/563a73a1-8264-4a0d-a5a7-ad1517a7cc09",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 659,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 257
+                      },
+                      {
+                        "width": 1024,
+                        "height": 659
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/50fe8189-90f6-1e78-e8a6-16d9688dce7c",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=755,411,232,148",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/d865a110-6ba9-42bb-9fce-b9574f1ed84e/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3226,
+                "width": 4982,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/d865a110-6ba9-42bb-9fce-b9574f1ed84e",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4982,
+                  "height": 3226,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 663
+                    },
+                    {
+                      "width": 400,
+                      "height": 259
+                    },
+                    {
+                      "width": 200,
+                      "height": 130
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/d865a110-6ba9-42bb-9fce-b9574f1ed84e/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/d865a110-6ba9-42bb-9fce-b9574f1ed84e",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 663,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 130
+                      },
+                      {
+                        "width": 400,
+                        "height": 259
+                      },
+                      {
+                        "width": 1024,
+                        "height": 663
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c0913eac-9272-0b7e-f73d-79436a9e49f1",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=12,601,229,148",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/9d2ab96c-4b3b-4015-ad9b-b6eebbfbd429/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3229,
+                "width": 4978,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/9d2ab96c-4b3b-4015-ad9b-b6eebbfbd429",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 4978,
+                  "height": 3229,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 664
+                    },
+                    {
+                      "width": 400,
+                      "height": 259
+                    },
+                    {
+                      "width": 200,
+                      "height": 130
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/9d2ab96c-4b3b-4015-ad9b-b6eebbfbd429/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/9d2ab96c-4b3b-4015-ad9b-b6eebbfbd429",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 664,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 130
+                      },
+                      {
+                        "width": 400,
+                        "height": 259
+                      },
+                      {
+                        "width": 1024,
+                        "height": 664
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e6081f7c-7ba9-4f7b-990a-0e74cdabe78f",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=257,584,237,153",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/1c9d5f72-3922-4ef5-9a2e-ccfbb29ad448/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3234,
+                "width": 5009,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/1c9d5f72-3922-4ef5-9a2e-ccfbb29ad448",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5009,
+                  "height": 3234,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 661
+                    },
+                    {
+                      "width": 400,
+                      "height": 258
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/1c9d5f72-3922-4ef5-9a2e-ccfbb29ad448/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/1c9d5f72-3922-4ef5-9a2e-ccfbb29ad448",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 661,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 258
+                      },
+                      {
+                        "width": 1024,
+                        "height": 661
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/08997bad-bc2f-65d6-b918-480547ceecca",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=510,603,231,149",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/25365eba-8584-4b92-8bdc-556c6423f02b/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3232,
+                "width": 5015,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/25365eba-8584-4b92-8bdc-556c6423f02b",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5015,
+                  "height": 3232,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 660
+                    },
+                    {
+                      "width": 400,
+                      "height": 258
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/25365eba-8584-4b92-8bdc-556c6423f02b/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/25365eba-8584-4b92-8bdc-556c6423f02b",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 660,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 258
+                      },
+                      {
+                        "width": 1024,
+                        "height": 660
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/accc95b6-1120-fe01-e3b8-97cbc686506c",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=761,586,225,144",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/d1be611f-3ed2-41e1-bf2c-b83543ce8a3c/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3226,
+                "width": 5007,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/d1be611f-3ed2-41e1-bf2c-b83543ce8a3c",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5007,
+                  "height": 3226,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 660
+                    },
+                    {
+                      "width": 400,
+                      "height": 258
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/d1be611f-3ed2-41e1-bf2c-b83543ce8a3c/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/d1be611f-3ed2-41e1-bf2c-b83543ce8a3c",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 660,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 258
+                      },
+                      {
+                        "width": 1024,
+                        "height": 660
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c32d124a-718d-8e23-a519-938b6f1f8e18",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=10,779,238,152",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/f68d2c83-cb1b-4b7f-9a81-546c5a482982/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3233,
+                "width": 5012,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/f68d2c83-cb1b-4b7f-9a81-546c5a482982",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5012,
+                  "height": 3233,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 661
+                    },
+                    {
+                      "width": 400,
+                      "height": 258
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/f68d2c83-cb1b-4b7f-9a81-546c5a482982/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/f68d2c83-cb1b-4b7f-9a81-546c5a482982",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 661,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 258
+                      },
+                      {
+                        "width": 1024,
+                        "height": 661
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/836eef4d-1f08-4240-4577-10504228a3ad",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=263,789,237,152",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/33597349-12ad-40fb-bde5-afd13649099e/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3228,
+                "width": 5020,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/33597349-12ad-40fb-bde5-afd13649099e",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5020,
+                  "height": 3228,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 658
+                    },
+                    {
+                      "width": 400,
+                      "height": 257
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 64
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/33597349-12ad-40fb-bde5-afd13649099e/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/33597349-12ad-40fb-bde5-afd13649099e",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 658,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 64
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 257
+                      },
+                      {
+                        "width": 1024,
+                        "height": 658
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cfebe2ab-731f-400c-e336-e437f9a2ac3f",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=514,809,232,148",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/18804aee-2b95-45b6-b82b-7437a311aabd/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3233,
+                "width": 5010,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/18804aee-2b95-45b6-b82b-7437a311aabd",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5010,
+                  "height": 3233,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 661
+                    },
+                    {
+                      "width": 400,
+                      "height": 258
+                    },
+                    {
+                      "width": 200,
+                      "height": 129
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/18804aee-2b95-45b6-b82b-7437a311aabd/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/18804aee-2b95-45b6-b82b-7437a311aabd",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 661,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 129
+                      },
+                      {
+                        "width": 400,
+                        "height": 258
+                      },
+                      {
+                        "width": 1024,
+                        "height": 661
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1918f1bd-46f3-bac6-8ffa-53ffa2efbbe1",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=754,797,235,150",
+              "label": {
+                "en": [
+                  "Kaiser Aluminum News, “You and Creativity,” 1968"
+                ]
+              }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/11ef9ff1-0f48-a484-12b5-1b195e91e66f"
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/a294e3fe-5b42-1178-3b3e-4a77015902f6"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639"
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92",
+      "summary": {
+        "en": [
+          "In the 1950s and 1960s, some major corporations used creativity and imagination as part of their public image. In addition to making them seem dynamic and cutting edge, the high-minded connotations of creativity could sometimes be a moral salve for corporations increasingly accused of peddling only weapons of war or wasteful consumer products. ",
+          "The 1968 edition of Kaiser News, the organ of Oakland, California-based Kaiser Aluminum & Chemical Company featured lyrical essays on poetry and psychedelic art, alongside tests and exercises to help improve employee creativity. The countercultural content was borrowed from the streets, college campuses, and art studios of nearby Berkeley and San Francisco. It did not matter that the 1960s counterculture was highly critical of the military-industrial complex of which Kaiser was a part. The company, which at the time made everything from fighter jet fuselages to trays for TV dinners, perhaps hoped the nonconformist attitude would make its employees feel less like cogs in a machine, thereby spurring innovation."
+        ]
+      },
+      "behavior": [
+        "left",
+        "h-8",
+        "w-12"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Creativity is Not About Art"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/4d76fcca-3a39-43de-ba76-23ad0e000309/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3398,
+                "width": 5227,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/4d76fcca-3a39-43de-ba76-23ad0e000309",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5227,
+                  "height": 3398,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 666
+                    },
+                    {
+                      "width": 400,
+                      "height": 260
+                    },
+                    {
+                      "width": 200,
+                      "height": 130
+                    },
+                    {
+                      "width": 100,
+                      "height": 65
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/4d76fcca-3a39-43de-ba76-23ad0e000309/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/4d76fcca-3a39-43de-ba76-23ad0e000309",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 666,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 65
+                      },
+                      {
+                        "width": 200,
+                        "height": 130
+                      },
+                      {
+                        "width": 400,
+                        "height": 260
+                      },
+                      {
+                        "width": 1024,
+                        "height": 666
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=29,27,689,448",
+              "summary": {
+                "en": [
+                  "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. Courtesy of Hagley Museum and Library"
+                ]
+              },
+              "label": {
+                "en": [
+                  "The artist in the business suit"
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/c856e755-513f-4f72-82f9-0135f7f30b78/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3210,
+                "width": 5181,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/c856e755-513f-4f72-82f9-0135f7f30b78",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5181,
+                  "height": 3210,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 634
+                    },
+                    {
+                      "width": 400,
+                      "height": 248
+                    },
+                    {
+                      "width": 200,
+                      "height": 124
+                    },
+                    {
+                      "width": 100,
+                      "height": 62
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/c856e755-513f-4f72-82f9-0135f7f30b78/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/c856e755-513f-4f72-82f9-0135f7f30b78",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 634,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 62
+                      },
+                      {
+                        "width": 200,
+                        "height": 124
+                      },
+                      {
+                        "width": 400,
+                        "height": 248
+                      },
+                      {
+                        "width": 1024,
+                        "height": 634
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7abe4c4d-509e-5b62-4521-07e2758cb92f",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=271,497,677,419",
+              "label": {
+                "en": [
+                  "The artist in the business suit"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. Courtesy of Hagley Museum and Library"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/32a6dfb6-7784-168a-d623-d9155729b204"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25",
+      "behavior": [
+        "right",
+        "h-8",
+        "w-12"
+      ],
+      "summary": {
+        "en": [
+          "The British author Oscar Wilde once wrote, “all art is quite useless.” So why would people who write about creativity – which they say is the ability to come up with something new and useful – constantly urge people to unleash their inner artist? In creativity literature the idealized figure of the romantic artist is a model for us to emulate, not for his or her ability to make art – reading books on creativity will not make us skilled painters – but rather for other attributes seen as desirable, such as flexibility, passion, playfulness, rebelliousness, and above all a purported penchant for novelty. Yet even as creativity experts embrace the figure of the artist, they are also quick to disown the reputation of the wild-eyed bohemian who is hostile to capitalism. Truly creative people, they say, can thrive even in the commercial or technical worlds. Creativity is like the essence of the artist, distilled and bottled for general use."
+        ]
+      }
     },
     {
       "label": {
@@ -5247,7 +8255,11 @@
           "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/f297625a-27e6-387a-d98e-4599bd296c45"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7"
+      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
     },
     {
       "label": {
@@ -5391,7 +8403,11 @@
           "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/73f7ab0b-2aaa-eb2b-cd95-e5060d58cce2"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d1fdda1f-8e57-339e-efab-ef55a8a8a3c2"
+      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d1fdda1f-8e57-339e-efab-ef55a8a8a3c2",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
     },
     {
       "label": {
@@ -5535,7 +8551,11 @@
           "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/2fa7addd-46f3-66ad-d8d3-1079986614cf"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d8479b09-50b6-34f7-777e-be103320e7cf"
+      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d8479b09-50b6-34f7-777e-be103320e7cf",
+      "behavior": [
+        "w-4",
+        "h-4"
+      ]
     }
   ],
   "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/manifest"
