@@ -11,11 +11,6 @@
   },
   "items": [
     {
-      "label": {
-        "en": [
-          "Untitled Canvas"
-        ]
-      },
       "height": 1000,
       "width": 1000,
       "type": "Canvas",
@@ -27,7 +22,7 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/2478f680-330d-4f5f-8d79-161b25b38063/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 11812,
@@ -39,7 +34,7 @@
                 },
                 "service": {
                   "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/2478f680-330d-4f5f-8d79-161b25b38063",
+                  "id": "https://dlc.services/iiif-img/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077",
                   "protocol": "http://iiif.io/api/image",
                   "width": 11812,
                   "height": 11812,
@@ -102,11 +97,11 @@
               },
               "thumbnail": [
                 {
-                  "id": "https://dlc.services/thumbs/7/21/2478f680-330d-4f5f-8d79-161b25b38063/full/full/0/default.jpg",
+                  "id": "https://dlc.services/thumbs/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077/full/full/0/default.jpg",
                   "type": "Image",
                   "service": {
                     "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/2478f680-330d-4f5f-8d79-161b25b38063",
+                    "id": "https://dlc.services/thumbs/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077",
                     "protocol": "http://iiif.io/api/image",
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
@@ -145,18 +140,33 @@
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/b36ce34a-5bb0-62d3-f26d-9e4d334ea475",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/8a6c76da-bcf9-c09f-3792-92e518af53b7#xywh=0,0,1000,1000"
+              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/c6e43b29-35e6-d10e-455e-6a07e2cd3a99",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=0,0,1000,1000",
+              "label": {
+                "en": [
+                  "Creative person"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Creativity cliches - artistically interpreted by Xaviera Altena"
+                ]
+              }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/c483f4a9-22a8-5978-696c-19ee3e33917c"
+          "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/f297625a-27e6-387a-d98e-4599bd296c45"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/8a6c76da-bcf9-c09f-3792-92e518af53b7",
+      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7",
       "behavior": [
         "w-8",
         "h-8"
-      ]
+      ],
+      "label": {
+        "en": [
+          "Creative person"
+        ]
+      }
     },
     {
       "label": {
@@ -569,7 +579,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/28fd3aa8-6917-b28d-ded3-500bc640a915",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=29,70,381,493",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=59,66,339,437",
               "label": {
                 "en": [
                   "Rockets and cars – military and consumer goods – were the twin engines of the post-WWII American economy. Sometimes they even imitated one another, as in the aeronautical styling and advertising art for this 1950s Oldsmobile Rocket 88."
@@ -860,163 +870,6 @@
           "CREATIVITY meant the opposite of conformity: it conjured individuality, self-expression, freedom. And though it carried artsy connotations, it didn’t pose a threat to technology or capitalism. On the contrary, its proponents said, it was responsible for all the new ideas from gadgets to art to advertisements that kept the system going."
         ]
       }
-    },
-    {
-      "label": {
-        "en": [
-          "Solar Do-Nothing Machine"
-        ]
-      },
-      "height": 774,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/76c17db9-e1cd-479d-8726-e995c478f2ad/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 3876,
-                "width": 5004,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/76c17db9-e1cd-479d-8726-e995c478f2ad",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 5004,
-                  "height": 3876,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 793
-                    },
-                    {
-                      "width": 400,
-                      "height": 310
-                    },
-                    {
-                      "width": 200,
-                      "height": 155
-                    },
-                    {
-                      "width": 100,
-                      "height": 77
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/76c17db9-e1cd-479d-8726-e995c478f2ad/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/76c17db9-e1cd-479d-8726-e995c478f2ad",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 793,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 77
-                      },
-                      {
-                        "width": 200,
-                        "height": 155
-                      },
-                      {
-                        "width": 400,
-                        "height": 310
-                      },
-                      {
-                        "width": 1024,
-                        "height": 793
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/0df23a88-8a5c-9d7c-0a2e-52078d2166da",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/b39cdf6d-ed6e-0259-22f2-7a13d2797f93#xywh=0,0,1000,774",
-              "summary": {
-                "en": [
-                  "©1957 Eames Office, LLC (eamesoffice.com)"
-                ]
-              },
-              "label": {
-                "en": [
-                  "Solar Do-Nothing Machine"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/54f0bda9-e1fa-6cae-9b53-a87094ca90ea"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/b39cdf6d-ed6e-0259-22f2-7a13d2797f93",
-      "behavior": [
-        "w-12",
-        "h-6"
-      ]
     },
     {
       "label": {
@@ -2118,6 +1971,11 @@
                 "en": [
                   "New York Herald Tribune, January 1958"
                 ]
+              },
+              "summary": {
+                "en": [
+                  "Brainstorming was a new craze in the 1950s. Its inventor, advertising executive Alex Osborn, proselytized his method for generating ideas: judgement was strictly prohibited, and shouting out ideas encouraged. A secretary would write down ideas as they came flying forth – the more the better – and later pass them to upper management for vetting. When a 1958 Yale study claimed brain­storming was ineffective, it became a national controversy, a lightning rod for the larger question facing mass society: are more heads better than one, or should the individual reign supreme?"
+                ]
               }
             }
           ],
@@ -2127,14 +1985,172 @@
       "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a",
       "summary": {
         "en": [
-          "Brainstorming was a new craze in the 1950s. Its inventor, advertising executive Alex Osborn, proselytized his method for generating ideas: judgement was strictly prohibited, and shouting out ideas encouraged. A secretary would write down ideas as they came flying forth – the more the better – and later pass them to upper management for vetting. When a 1958 Yale study claimed brain­storming was ineffective, it became a national controversy, a lightning rod for the larger question facing mass society: are more heads better than one, or should the individual reign supreme?"
+          "Brainstorming was a new craze in the 1950s. Its inventor, advertising executive Alex Osborn, proselytized his method for generating ideas..."
         ]
       },
       "behavior": [
-        "left",
-        "h-4",
-        "w-12"
+        "bottom",
+        "w-5",
+        "h-7"
       ]
+    },
+    {
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/2478f680-330d-4f5f-8d79-161b25b38063/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 11812,
+                "width": 11812,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/2478f680-330d-4f5f-8d79-161b25b38063",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 11812,
+                  "height": 11812,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 1024
+                    },
+                    {
+                      "width": 400,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/2478f680-330d-4f5f-8d79-161b25b38063/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/2478f680-330d-4f5f-8d79-161b25b38063",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 100
+                      },
+                      {
+                        "width": 200,
+                        "height": 200
+                      },
+                      {
+                        "width": 400,
+                        "height": 400
+                      },
+                      {
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/b36ce34a-5bb0-62d3-f26d-9e4d334ea475",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/8a6c76da-bcf9-c09f-3792-92e518af53b7#xywh=0,0,1000,1000",
+              "label": {
+                "en": [
+                  "Creative session"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Creativity cliches - artistically interpreted by Xaviera Altena"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/c483f4a9-22a8-5978-696c-19ee3e33917c"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/8a6c76da-bcf9-c09f-3792-92e518af53b7",
+      "behavior": [
+        "w-7",
+        "h-7"
+      ],
+      "label": {
+        "en": [
+          "Creative session"
+        ]
+      }
     },
     {
       "label": {
@@ -2836,7 +2852,7 @@
     {
       "label": {
         "en": [
-          "Script of a synectics meeting"
+          "Synectics session"
         ]
       },
       "height": 1000,
@@ -2890,8 +2906,7 @@
                   "",
                   "Transcript of a tape recorded Synectics session c.1965. The participants included members of the Synectics, Inc. team and employees of Steel Products Engineering, a U.S. company here trying to solve a problem associated with the manufacture of metal gears. ",
                   "",
-                  "Printed in Tom Alexander, “Synectics: Inventing by the ",
-                  "Madness Method,” Fortune, August 1965"
+                  "Printed in Tom Alexander, “Synectics: Inventing by the Madness Method,” Fortune, August 1965"
                 ]
               },
               "label": {
@@ -2908,12 +2923,12 @@
       "behavior": [
         "info",
         "info",
-        "w-12",
-        "h-2"
+        "w-4",
+        "h-7"
       ],
       "summary": {
         "en": [
-          "Read a script of a synectics meeting"
+          "Read a transcript of a tape recorded Synectics session c.1965. The participants included members of the Synectics, Inc. team and employees of Steel Products Engineering, a U.S. company here trying to solve a problem associated with the manufacture of metal gears. "
         ]
       }
     },
@@ -2923,7 +2938,7 @@
           "Post-script: Post-its"
         ]
       },
-      "height": 1000,
+      "height": 762,
       "width": 1000,
       "type": "Canvas",
       "items": [
@@ -3051,7 +3066,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9be54011-0f4b-a4d9-c14d-cd160f114862",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5ab04549-585c-91c2-0021-d95db3f5332e#xywh=104,49,613,451",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5ab04549-585c-91c2-0021-d95db3f5332e#xywh=48,31,474,348",
               "label": {
                 "en": [
                   "Images from a yearly gathering of the Order of Dutch Consulting Engineers, where they worked on urban renewal plans using the METAPLAN methodology, 1974.  Orde van Nederlandse Raadgevende Ingenieurs, now Koninklijke Nlingenieurs"
@@ -3179,7 +3194,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7a18af68-ff8a-1a91-6f9d-829adf1762e6",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5ab04549-585c-91c2-0021-d95db3f5332e#xywh=422,519,562,414",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5ab04549-585c-91c2-0021-d95db3f5332e#xywh=476,396,465,343",
               "label": {
                 "en": [
                   "Images from a yearly gathering of the Order of Dutch Consulting Engineers, where they worked on urban renewal plans using the METAPLAN methodology, 1974.  Orde van Nederlandse Raadgevende Ingenieurs, now Koninklijke Nlingenieurs"
@@ -3308,7 +3323,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/a9c16018-d40a-09e7-1bed-6443d062f165",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5ab04549-585c-91c2-0021-d95db3f5332e#xywh=107,522,286,286",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5ab04549-585c-91c2-0021-d95db3f5332e#xywh=147,417,279,279",
               "label": {
                 "en": [
                   "Brainstorming meeting at the advertising firm BBDO, where the technique was born. Late 1950s. The woman at bottom right is using a stenograph machine to record the barrage of ideas, while the poster on the wall lists the “Brainstorm Ground Rules.”"
@@ -3332,8 +3347,8 @@
       },
       "behavior": [
         "bottom",
-        "w-6",
-        "h-10"
+        "w-8",
+        "h-7"
       ]
     },
     {
@@ -3608,9 +3623,9 @@
         ]
       },
       "behavior": [
-        "bottom",
-        "w-6",
-        "h-10"
+        "left",
+        "w-12",
+        "h-8"
       ]
     },
     {
@@ -4315,7 +4330,7 @@
         ]
       },
       "behavior": [
-        "left",
+        "right",
         "w-12",
         "h-9"
       ]
@@ -5050,8 +5065,8 @@
           "Still looking..."
         ]
       },
-      "height": 368,
-      "width": 1000,
+      "height": 1167,
+      "width": 1631,
       "type": "Canvas",
       "items": [
         {
@@ -5061,7 +5076,7 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/66a370a8-fd85-44d6-b730-b74a9ee72148/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/21/66a370a8-fd85-44d6-b730-b74a9ee72148/0,0,1631,1167/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 1167,
@@ -5178,17 +5193,18 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/776cdccf-397d-177f-ff60-35bd126cbba5",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a17bd09b-10b7-edb1-19b0-c7d4fde70896#xywh=0,0,1000,368",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a17bd09b-10b7-edb1-19b0-c7d4fde70896#xywh=0,0,1631,1167",
               "label": {
                 "en": [
-                  "Map of brains of people in STEM fields deemed creative via a questionnaire."
+                  "Map of brains of people in STEM fields deemed creative via a questionnaire (David M. Bashwiner et al., Scientific Reports, February 2016)"
                 ]
               },
               "summary": {
                 "en": [
-                  "David M. Bashwiner et al., Scientific Reports, February 2016"
+                  "A number of studies have used new brain imaging technology to peer into the brains of people deemed creative or while engaged in activities deemed creative. These researchers have run into the same problems as previous studies: difficulty showing that one sort of creativity – say, piano improvisation – has any resemblance to other things we think of as creative, such as inventing a machine or writing a novel."
                 ]
-              }
+              },
+              "body.id": "https://dlc.services/iiif-img/7/21/66a370a8-fd85-44d6-b730-b74a9ee72148/0,0,1631,1167/full/0/default.jpg"
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/981e658d-108d-91a7-8719-173c39c6e459"
@@ -5196,15 +5212,173 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a17bd09b-10b7-edb1-19b0-c7d4fde70896",
       "behavior": [
-        "right",
-        "w-12",
-        "h-3"
+        "bottom",
+        "w-5",
+        "h-7"
       ],
       "summary": {
         "en": [
-          "The rise of neuroscience has revived the dream of finding the individual psychological basis of creativity. A number of studies have used new brain imaging technology to peer into the brains of people deemed creative or while engaged in activities deemed creative. These researchers have run into the same problems as previous studies: difficulty showing that one sort of creativity – say, piano improvisation – has any resemblance to other things we think of as creative, such as inventing a machine or writing a novel."
+          "The rise of neuroscience has revived the dream of finding the individual psychological basis of creativity..."
         ]
       }
+    },
+    {
+      "label": {
+        "en": [
+          "Creative work"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 11812,
+                "width": 11812,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 11812,
+                  "height": 11812,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 1024
+                    },
+                    {
+                      "width": 400,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 100
+                      },
+                      {
+                        "width": 200,
+                        "height": 200
+                      },
+                      {
+                        "width": 400,
+                        "height": 400
+                      },
+                      {
+                        "width": 1024,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/29c0f038-e8c4-e392-53c5-13ed5996ecf8",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d1fdda1f-8e57-339e-efab-ef55a8a8a3c2#xywh=0,0,1000,1000",
+              "summary": {
+                "en": [
+                  "Creativity cliches - artistically interpreted by Xaviera Altena"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Creative work"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/73f7ab0b-2aaa-eb2b-cd95-e5060d58cce2"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d1fdda1f-8e57-339e-efab-ef55a8a8a3c2",
+      "behavior": [
+        "w-7",
+        "h-7"
+      ]
     },
     {
       "label": {
@@ -7822,8 +7996,8 @@
           "Creativity is Not About Art"
         ]
       },
-      "height": 1000,
-      "width": 1000,
+      "height": 681,
+      "width": 681,
       "type": "Canvas",
       "items": [
         {
@@ -7951,7 +8125,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=29,27,689,448",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=23,20,404,261",
               "summary": {
                 "en": [
                   "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. Courtesy of Hagley Museum and Library"
@@ -8085,7 +8259,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7abe4c4d-509e-5b62-4521-07e2758cb92f",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=271,497,677,419",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=212,265,447,277",
               "label": {
                 "en": [
                   "The artist in the business suit"
@@ -8096,6 +8270,141 @@
                   "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. Courtesy of Hagley Museum and Library"
                 ]
               }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/7abc7471-4a24-4b61-a9ec-7bb9e5b588ef/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 8292,
+                "width": 5775,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/7abc7471-4a24-4b61-a9ec-7bb9e5b588ef",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 5775,
+                  "height": 8292,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 713,
+                      "height": 1024
+                    },
+                    {
+                      "width": 279,
+                      "height": 400
+                    },
+                    {
+                      "width": 139,
+                      "height": 200
+                    },
+                    {
+                      "width": 70,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/7abc7471-4a24-4b61-a9ec-7bb9e5b588ef/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/7abc7471-4a24-4b61-a9ec-7bb9e5b588ef",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 713,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 70,
+                        "height": 100
+                      },
+                      {
+                        "width": 139,
+                        "height": 200
+                      },
+                      {
+                        "width": 279,
+                        "height": 400
+                      },
+                      {
+                        "width": 713,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/89828206-93c1-a98f-5365-dd889718b156",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=33,364,218,312",
+              "label": {
+                "en": [
+                  "Scientific American, September 1958"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "In 1958 Alcoa ran an ad in Scientific American with an array of missiles styled in a modern, cubist painting, suggesting missiles, like paintings, were just another product of imagination."
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/32a6dfb6-7784-168a-d623-d9155729b204"
@@ -8103,9 +8412,9 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25",
       "behavior": [
-        "right",
-        "h-8",
-        "w-12"
+        "bottom",
+        "w-7",
+        "h-9"
       ],
       "summary": {
         "en": [
@@ -8116,11 +8425,64 @@
     {
       "label": {
         "en": [
-          "Untitled Canvas"
+          "A Do-Nothing Machine"
+        ]
+      },
+      "height": 176,
+      "width": 320,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,320,176",
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7c654266-b000-bc2b-5b99-fb22e4437d12",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Solar Do-Nothing Machine, a film by Charles and Ray Eames (1957)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "In 1957 the Aluminum Company of America, or Alcoa, whose business consisted of a mix of military contracts and consumer products, hired the famed design firm of Charles and Ray Eames to create a fanciful, brightly colored “Do-Nothing Machine.” Resembling a piece of modern art, the project promoted Alcoa’s new photovoltaic cells not by showing their application to any­thing useful, but by challenging would-be clients to come up with their own uses while lending the corporation a whimsical, artsy vibe.",
+                  "Eames Office, LLC. All rights reserved"
+                ]
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/76c17db9-e1cd-479d-8726-e995c478f2ad/full/full/0/default.jpg"
+                }
+              ]
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/9d0ebf5f-f615-742e-4ba2-5bbe390afdd7"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d",
+      "behavior": [
+        "left",
+        "w-5",
+        "h-4"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Creative Spaces"
         ]
       },
       "height": 1000,
-      "width": 1000,
+      "width": 792,
       "type": "Canvas",
       "items": [
         {
@@ -8130,11 +8492,11 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077/full/full/0/default.jpg",
+                "id": "https://dlc.services/iiif-img/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 11812,
-                "width": 11812,
+                "height": 4079,
+                "width": 3234,
                 "label": {
                   "en": [
                     "-"
@@ -8142,10 +8504,10 @@
                 },
                 "service": {
                   "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077",
+                  "id": "https://dlc.services/iiif-img/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d",
                   "protocol": "http://iiif.io/api/image",
-                  "width": 11812,
-                  "height": 11812,
+                  "width": 3234,
+                  "height": 4079,
                   "tiles": [
                     {
                       "width": 256,
@@ -8155,27 +8517,25 @@
                         2,
                         4,
                         8,
-                        16,
-                        32,
-                        64
+                        16
                       ]
                     }
                   ],
                   "sizes": [
                     {
-                      "width": 1024,
+                      "width": 812,
                       "height": 1024
                     },
                     {
-                      "width": 400,
+                      "width": 317,
                       "height": 400
                     },
                     {
-                      "width": 200,
+                      "width": 159,
                       "height": 200
                     },
                     {
-                      "width": 100,
+                      "width": 79,
                       "height": 100
                     }
                   ],
@@ -8205,11 +8565,11 @@
               },
               "thumbnail": [
                 {
-                  "id": "https://dlc.services/thumbs/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077/full/full/0/default.jpg",
+                  "id": "https://dlc.services/thumbs/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d/full/full/0/default.jpg",
                   "type": "Image",
                   "service": {
                     "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/6187e854-138b-4d8e-b0b0-4bfdc398a077",
+                    "id": "https://dlc.services/thumbs/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d",
                     "protocol": "http://iiif.io/api/image",
                     "profile": [
                       "http://iiif.io/api/image/2/level0.json",
@@ -8225,194 +8585,64 @@
                         ]
                       }
                     ],
-                    "width": 1024,
+                    "width": 812,
                     "height": 1024,
                     "sizes": [
                       {
-                        "width": 100,
+                        "width": 79,
                         "height": 100
                       },
                       {
-                        "width": 200,
+                        "width": 159,
                         "height": 200
                       },
                       {
-                        "width": 400,
+                        "width": 317,
                         "height": 400
                       },
                       {
-                        "width": 1024,
+                        "width": 812,
                         "height": 1024
                       }
                     ]
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/c6e43b29-35e6-d10e-455e-6a07e2cd3a99",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=0,0,1000,1000"
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/f297625a-27e6-387a-d98e-4599bd296c45"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7",
-      "behavior": [
-        "w-4",
-        "h-4"
-      ]
-    },
-    {
-      "label": {
-        "en": [
-          "Untitled Canvas"
-        ]
-      },
-      "height": 1000,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 11812,
-                "width": 11812,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 11812,
-                  "height": 11812,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32,
-                        64
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 1024
-                    },
-                    {
-                      "width": 400,
-                      "height": 400
-                    },
-                    {
-                      "width": 200,
-                      "height": 200
-                    },
-                    {
-                      "width": 100,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/39ee5c41-cd5f-2352-a90c-15af871be681",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c#xywh=0,0,792,1000",
+              "label": {
+                "en": [
+                  "Action Office promotional photograph from the Herman Miller company, 1964"
+                ]
               },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/7832f040-0f0e-4e41-8742-1cdb481e6b9c",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 100
-                      },
-                      {
-                        "width": 200,
-                        "height": 200
-                      },
-                      {
-                        "width": 400,
-                        "height": 400
-                      },
-                      {
-                        "width": 1024,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/29c0f038-e8c4-e392-53c5-13ed5996ecf8",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d1fdda1f-8e57-339e-efab-ef55a8a8a3c2#xywh=0,0,1000,1000"
+              "summary": {
+                "en": [
+                  "Courtesy Vitra Design Museum"
+                ]
+              }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/73f7ab0b-2aaa-eb2b-cd95-e5060d58cce2"
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/c6e3adf2-89b7-620c-7392-ead37b3e4ab8"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d1fdda1f-8e57-339e-efab-ef55a8a8a3c2",
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c",
       "behavior": [
-        "w-4",
-        "h-4"
-      ]
+        "bottom",
+        "w-5",
+        "h-12"
+      ],
+      "summary": {
+        "en": [
+          "In 1964 the designers Robert Propst and George Nelson attempted to revolutionize the white collar workplace with their new Action Office line of furniture for the Herman Miller company. Believing the traditional office was “restrictive and inflexible,” they studied people “noted for creativity” (some­times using the psychologist J. P. Guilford’s battery of creativity tests) and determined the workspace of the future should be flexible, active, and individualized. Unfortunately the desires of management intervened and the subsequent versions devolved into the endless rectangular cubicle farms we know today. But the idea that creativity could be heightened through open and flexible workplaces persisted, reflected in our own era of corporate design that looks anything but corporate, from the refurbished factories and artist studio-inspired lofts of urban tech startups to the playground-like campuses of Silicon Valley giants. ",
+          "",
+          "All of these changes have been accompanied by parallel changes in the way we dress, the way we are managed, and the way we are encouraged to think about our work – not as work, but as passion and play, where the boundaries between work and leisure break down and, we are told, the future runs not on toil but on pure ideas."
+        ]
+      }
     },
     {
       "label": {
         "en": [
-          "Untitled Canvas"
+          "Creative workplace"
         ]
       },
       "height": 1000,
@@ -8545,7 +8775,17 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/3865b42c-e9f1-5df2-ce02-f8439199a921",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d8479b09-50b6-34f7-777e-be103320e7cf#xywh=0,0,1000,1000"
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d8479b09-50b6-34f7-777e-be103320e7cf#xywh=0,0,1000,1000",
+              "summary": {
+                "en": [
+                  "Creativity cliches - artistically interpreted by Xaviera Altena"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Creative workplace"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/list/2fa7addd-46f3-66ad-d8d3-1079986614cf"
@@ -8553,8 +8793,8 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/d8479b09-50b6-34f7-777e-be103320e7cf",
       "behavior": [
-        "w-4",
-        "h-4"
+        "w-7",
+        "h-7"
       ]
     }
   ],
