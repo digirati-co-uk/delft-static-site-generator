@@ -201,12 +201,15 @@
               "summary": {
                 "en": [
                   "These days, creativity is coveted by CEOs, mayors, engineers and designers. A hundred years ago, practically nobody even uttered the word. Of course kindred concepts, like “imagination,” “genius,” and “originality,” have long been discussed, but the particular concept of creativity – usually defined as the ability to come up with something both new and useful, and assumed to apply to any activity, be it art or science or cooking – is actually a relatively new invention.",
-                  "",
                   "This exhibit will look at the crucial years of the 1950s and 1960s, when people first began to put something called creativity into theory and practice and propelled that word into our everyday speech.",
-                  "",
                   "It was not bohemian artists or hippies who did this, but rather those closer to the heart of the post-World War II military-consumer economy, including engineers, psychologists, and advertising men. They were the ones responsible for keeping up innovation whilst also addressing criticisms that their system was conformist, alienating, and amoral. As they experimented with new kinds of psychological testing to identify “creative” employees, devised new methods for stimulating “creative thinking,” and drew up diagrams of “the creative process,” these early experts constantly tried to balance chaos, playfulness, and indivi­dual liberation with control, rationality, and the corporate bottom line.",
-                  "",
-                  "Was this movement an attempt to liberate humanity, or to co-opt something inherently human? Or was it both?"
+                  "Was this movement an attempt to liberate humanity, or to co-opt something inherently human? Or was it both?",
+                  "<b>Curators</b>",
+                  "Dr. Samuel Franklin &amp; Prof. Dr. Bregje van Eekelen (Industrial Design Engineering), Geertje van Achterberg, Academic Heritage Team (TU Delft Library)",
+                  "<b>Illustrations</b>",
+                  "Xaviera Altena",
+                  "<b>Co-funding</b>",
+                  "Marie Skłodowska Curie grant agreement No 707404 (EU Horizon 2020)"
                 ]
               }
             }
@@ -387,9 +390,20 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/cb0d58ea-b4fd-8aab-1cc9-84471079315b",
       "behavior": [
-        "w-8",
-        "h-4"
-      ]
+        "right",
+        "h-5",
+        "w-12"
+      ],
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "summary": {
+        "en": [
+          "Caption"
+        ]
+      }
     },
     {
       "height": 1000,
@@ -414,12 +428,15 @@
               "summary": {
                 "en": [
                   "“In a time when knowledge, constructive and destructive, is advancing by the most incredible leaps and bounds into a fantastic atomic age, genuinely creative adaptation seems to represent the only possibility that man can keep abreast of the kaleidoscopic change in his world … international annihilation will be the price we pay for a lack of creativity.” – Carl Rogers, humanistic psychologist,  Toward a Theory of Creativity, 1954",
-                  "“The Cold War called for ever-accelerating efforts in a contest of intellects. Inventive brains were at a premium, and there were never enough.” – J. P. Guilford, psychologist, Journal of Creative Behavior, 1967"
+                  "“The Cold War called for ever-accelerating efforts in a contest of intellects. Inventive brains were at a premium, and there were never enough.” – J. P. Guilford, psychologist, Journal of Creative Behavior, 1967",
+                  "The 1950s and 1960s contained the perfect storm for an idea like creativity to arise: During the Cold War “the West,” led by a newly empowered United States, was competing with the Soviet Union in a race of military technology.",
+                  "The U.S. economy was powered by consumer capitalism with its constant stream of “new and improved” goods. Social critics saw totalitarianism abroad and consumerism at home, both led by massive bureaucracies, as twin threats to “the individual,” inciting a national panic over conformity. With the recent experience of the Holocaust and the looming threat of nuclear Armageddon in mind, some worried about the effect of mass society on humane values. But even corporate America began to fear that conformity might slow the innovation on which its profits depended.",
+                  "CREATIVITY meant the opposite of conformity: it conjured individuality, self-expression, freedom. And though it carried artsy connotations, it didn’t pose a threat to technology or capitalism. On the contrary, its proponents said, it was responsible for all the new ideas from gadgets to art to advertisements that kept the system going."
                 ]
               },
               "label": {
                 "en": [
-                  "Quotes"
+                  "Creativity, Consumerism, and the Cold War"
                 ]
               }
             }
@@ -430,18 +447,20 @@
       "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/c8d39540-e003-ff5c-d4ea-81ed3a4a8056",
       "summary": {
         "en": [
-          "“In a time when knowledge, constructive and destructive, is advancing by the most incredible leaps and bounds into a fantastic atomic age, genuinely creative adaptation seems to represent the only possibility that man can keep abreast of the kaleidoscopic change in his world … international annihilation will be the price we pay for a lack of creativity.” – Carl Rogers, humanistic psychologist,  Toward a Theory of Creativity, 1954"
+          "The 1950s and 1960s contained the perfect storm for an idea like creativity to arise: During the Cold War “the West,” led by a newly empowered United States, was competing with the Soviet Union in a race of military technology.",
+          "The U.S. economy was powered by consumer capitalism with its constant stream of “new and improved” goods. Social critics saw totalitarianism abroad and consumerism at home, both led by massive bureaucracies, as twin threats to “the individual,” inciting a national panic over conformity. With the recent experience of the Holocaust and the looming threat of nuclear Armageddon in mind, some worried about the effect of mass society on humane values. But even corporate America began to fear that conformity might slow the innovation on which its profits depended.",
+          "CREATIVITY meant the opposite of conformity: it conjured individuality, self-expression, freedom. And though it carried artsy connotations, it didn’t pose a threat to technology or capitalism. On the contrary, its proponents said, it was responsible for all the new ideas from gadgets to art to advertisements that kept the system going."
         ]
       },
       "behavior": [
+        "info",
+        "info",
         "w-4",
-        "info",
-        "info",
-        "h-4"
+        "h-8"
       ],
       "label": {
         "en": [
-          "Quotes"
+          "Creativity, Consumerism, and the Cold War"
         ]
       }
     },
@@ -458,139 +477,6 @@
         {
           "type": "AnnotationPage",
           "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 3760,
-                "width": 2913,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 2913,
-                  "height": 3760,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 793,
-                      "height": 1024
-                    },
-                    {
-                      "width": 310,
-                      "height": 400
-                    },
-                    {
-                      "width": 155,
-                      "height": 200
-                    },
-                    {
-                      "width": 77,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 793,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 77,
-                        "height": 100
-                      },
-                      {
-                        "width": 155,
-                        "height": 200
-                      },
-                      {
-                        "width": 310,
-                        "height": 400
-                      },
-                      {
-                        "width": 793,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/28fd3aa8-6917-b28d-ded3-500bc640a915",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=59,66,339,437",
-              "label": {
-                "en": [
-                  "Rockets and cars – military and consumer goods – were the twin engines of the post-WWII American economy. Sometimes they even imitated one another, as in the aeronautical styling and advertising art for this 1950s Oldsmobile Rocket 88."
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Oldsmobile advertisement, USA, 1955. Image Courtesy of The Advertising Archives."
-                ]
-              }
-            },
             {
               "motivation": "painting",
               "type": "Annotation",
@@ -713,7 +599,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/155fcabf-8e51-0782-5ce5-c128dbd005c1",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=446,31,297,381",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=42,24,297,381",
               "label": {
                 "en": [
                   "Chicago Commuters, 1953"
@@ -721,7 +607,7 @@
               },
               "summary": {
                 "en": [
-                  "Photo by Dan Weiner. Copyright John Broderick"
+                  "The U.S. economy was powered by consumer capitalism with its constant stream of “new and improved” goods. Social critics saw totalitarianism abroad and consumerism at home, both led by massive bureaucracies, as twin threats to “the individual,” inciting a national panic over conformity. Photo by Dan Weiner. Copyright John Broderick"
                 ]
               }
             },
@@ -847,10 +733,155 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/64141e57-0d02-96b9-dd73-8e0c1710cb16",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=432,472,314,255",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=87,480,314,255",
               "label": {
                 "en": [
                   "Mushroom cloud of the Test Baker atomic bomb, Bikini Atoll, July 25, 1946"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "With the recent experience of the Holocaust and the looming threat of nuclear Armageddon in mind, some worried about the effect of mass society on humane values. But even corporate America began to fear that conformity might slow the innovation on which its profits depended."
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3760,
+                "width": 2913,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 2913,
+                  "height": 3760,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 793,
+                      "height": 1024
+                    },
+                    {
+                      "width": 310,
+                      "height": 400
+                    },
+                    {
+                      "width": 155,
+                      "height": 200
+                    },
+                    {
+                      "width": 77,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/eaac0891-ec70-48d3-b1dd-737419fb1675",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 793,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 77,
+                        "height": 100
+                      },
+                      {
+                        "width": 155,
+                        "height": 200
+                      },
+                      {
+                        "width": 310,
+                        "height": 400
+                      },
+                      {
+                        "width": 793,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/28fd3aa8-6917-b28d-ded3-500bc640a915",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=390,26,339,437",
+              "requiredStatement": {
+                "value": {
+                  "en": [
+                    ""
+                  ]
+                }
+              },
+              "summary": {
+                "en": [
+                  "Rockets and cars – military and consumer goods – were the twin engines of the post-WWII American economy. Sometimes they even imitated one another, as in the aeronautical styling and advertising art for this 1950s Oldsmobile Rocket 88. Image Courtesy of The Advertising Archives."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Oldsmobile advertisement, USA, 1955"
                 ]
               }
             }
@@ -860,14 +891,12 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561",
       "behavior": [
-        "left",
-        "w-12",
+        "w-8",
         "h-8"
       ],
       "summary": {
         "en": [
-          "The 1950s and 1960s contained the perfect storm for an idea like creativity to arise: During the Cold War “the West,” led by a newly empowered United States, was competing with the Soviet Union in a race of military technology. The U.S. economy was powered by consumer capitalism with its constant stream of “new and improved” goods. Social critics saw totalitarianism abroad and consumerism at home, both led by massive bureaucracies, as twin threats to “the individual,” inciting a national panic over conformity. With the recent experience of the Holocaust and the looming threat of nuclear Armageddon in mind, some worried about the effect of mass society on humane values. But even corporate America began to fear that conformity might slow the innovation on which its profits depended.",
-          "CREATIVITY meant the opposite of conformity: it conjured individuality, self-expression, freedom. And though it carried artsy connotations, it didn’t pose a threat to technology or capitalism. On the contrary, its proponents said, it was responsible for all the new ideas from gadgets to art to advertisements that kept the system going."
+          "The 1950s and 1960s contained the perfect storm for an idea like creativity to arise: During the Cold War “the West,” led by a newly empowered United States, was competing with the Soviet Union in a race of military technology."
         ]
       }
     },
@@ -2840,7 +2869,8 @@
       "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9",
       "summary": {
         "en": [
-          "In the wake of the brainstorming controversy, new methods such as Synectics popped up. Synectics was based on the theory that new ideas came from metaphorical thinking. As in brainstorming, its facilitators led participants through a series of steps aimed at unleashing seemingly irrelevant ideas – like fish anatomy to improve a hammer – then corral­ling them back toward a relevant solution. Observers said Synectics sessions resembled “LSD parties,” but the intention was always to end with a concrete goal, product, or service. Even as Synectics founders railed against the corporate culture of efficiency and rationality, they also espoused traditional management techniques to optimize their creative process. Just like the “scientific manage­ment” experts of the early 20th Century made detailed motion studies to find the “one best way” of doing physical labor, Synectics, Inc.  used video and audio recordings of product design sessions to make the process of group creativity more efficient."
+          "In the wake of the brainstorming controversy, new methods such as Synectics popped up. Synectics was based on the theory that new ideas came from metaphorical thinking.",
+          "As in brainstorming, its facilitators led participants through a series of steps aimed at unleashing seemingly irrelevant ideas – like fish anatomy to improve a hammer – then corral­ling them back toward a relevant solution. Observers said Synectics sessions resembled “LSD parties,” but the intention was always to end with a concrete goal, product, or service. Even as Synectics founders railed against the corporate culture of efficiency and rationality, they also espoused traditional management techniques to optimize their creative process. Just like the “scientific manage­ment” experts of the early 20th Century made detailed motion studies to find the “one best way” of doing physical labor, Synectics, Inc.  used video and audio recordings of product design sessions to make the process of group creativity more efficient."
         ]
       },
       "behavior": [
@@ -3614,7 +3644,8 @@
       "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983",
       "summary": {
         "en": [
-          "The dream of understanding the creative process scientifically, in a way that could be easily replicated, came with a proliferation of diagrams – a frenzy of lines and arrows, bubbles and diamonds. Some diagrams showed “scientifically” how creativity rises and falls over a lifetime, while others layed out the steps of having an idea so that people of any age or ability might learn to be creative. These visuals echoed the graphic design and technological analogies of the fields they drew upon, including engineering, cybernetics, and industrial design. Many diagrams elaborated on the 4-stage model proposed by British socialist and scholar Graham Wallas in 1927: Preparation, Incubation, Illumination, and Verification. Since then, theorists have added, renamed, reshuffled, and looped these steps, as well as devised myriad other schemes, all to bring order to what some insist can never be truly orderly."
+          "The dream of understanding the creative process scientifically, in a way that could be easily replicated, came with a proliferation of diagrams – a frenzy of lines and arrows, bubbles and diamonds.",
+          "Some diagrams showed “scientifically” how creativity rises and falls over a lifetime, while others layed out the steps of having an idea so that people of any age or ability might learn to be creative. These visuals echoed the graphic design and technological analogies of the fields they drew upon, including engineering, cybernetics, and industrial design. Many diagrams elaborated on the 4-stage model proposed by British socialist and scholar Graham Wallas in 1927: Preparation, Incubation, Illumination, and Verification. Since then, theorists have added, renamed, reshuffled, and looped these steps, as well as devised myriad other schemes, all to bring order to what some insist can never be truly orderly."
         ]
       },
       "label": {
@@ -4505,277 +4536,6 @@
               "motivation": "painting",
               "type": "Annotation",
               "body": {
-                "id": "https://dlc.services/iiif-img/7/21/00298292-8c7a-4939-b153-bef45c24160a/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 6423,
-                "width": 8722,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/00298292-8c7a-4939-b153-bef45c24160a",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 8722,
-                  "height": 6423,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32,
-                        64
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 754
-                    },
-                    {
-                      "width": 400,
-                      "height": 295
-                    },
-                    {
-                      "width": 200,
-                      "height": 147
-                    },
-                    {
-                      "width": 100,
-                      "height": 74
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/00298292-8c7a-4939-b153-bef45c24160a/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/00298292-8c7a-4939-b153-bef45c24160a",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 754,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 74
-                      },
-                      {
-                        "width": 200,
-                        "height": 147
-                      },
-                      {
-                        "width": 400,
-                        "height": 295
-                      },
-                      {
-                        "width": 1024,
-                        "height": 754
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/742f09f4-1005-6fb1-0a56-7b2967a9c627",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=188,533,592,436",
-              "summary": {
-                "en": [
-                  "Researchers at Berkeley’s IPAR asked subjects to create mosaics with colored tiles. The examples on the left were produced by the “non-creative” control group of randomly selected students, while those on the right were produced by prominent figures rated highly creative by their peers. The researchers concluded that creative people naturally prefer asymmetrical figures."
-                ]
-              },
-              "label": {
-                "en": [
-                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/4479,548,3718,5404/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 6452,
-                "width": 8840,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 8840,
-                  "height": 6452,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16,
-                        32,
-                        64
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 747
-                    },
-                    {
-                      "width": 400,
-                      "height": 292
-                    },
-                    {
-                      "width": 200,
-                      "height": 146
-                    },
-                    {
-                      "width": 100,
-                      "height": 73
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 747,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 73
-                      },
-                      {
-                        "width": 200,
-                        "height": 146
-                      },
-                      {
-                        "width": 400,
-                        "height": 292
-                      },
-                      {
-                        "width": 1024,
-                        "height": 747
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3c6f823d-4999-2cd7-d7a8-3ff9209f6dee",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=681,44,294,424",
-              "body.id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/4479,548,3718,5404/full/0/default.jpg",
-              "label": {
-                "en": [
-                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Drawing completion tests were commonly used in creativity studies. Although creativity and art were closely associated, these tests were scored not on the test-taker’s artistic ability, but rather on the originality and elaborateness of their responses."
-                ]
-              }
-            },
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
                 "id": "https://dlc.services/iiif-img/7/21/bdd5d699-94f9-465c-ae4a-d5d209f3c270/4164,352,3702,5420/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
@@ -5042,6 +4802,277 @@
                   "Traditionally, psychologists used ink blot tests to peer into peoples’ subconscious. Creativity researchers were interested not in the underlying meaning of what their subjects saw in the random shapes but rather their originality, which researchers quantified to calculate a measure of creative ability."
                 ]
               }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/4479,548,3718,5404/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6452,
+                "width": 8840,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 8840,
+                  "height": 6452,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 747
+                    },
+                    {
+                      "width": 400,
+                      "height": 292
+                    },
+                    {
+                      "width": 200,
+                      "height": 146
+                    },
+                    {
+                      "width": 100,
+                      "height": 73
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 747,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 73
+                      },
+                      {
+                        "width": 200,
+                        "height": 146
+                      },
+                      {
+                        "width": 400,
+                        "height": 292
+                      },
+                      {
+                        "width": 1024,
+                        "height": 747
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3c6f823d-4999-2cd7-d7a8-3ff9209f6dee",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=681,44,294,424",
+              "body.id": "https://dlc.services/iiif-img/7/21/4ae24fbb-cc11-4dbd-ae68-2a2951380b04/4479,548,3718,5404/full/0/default.jpg",
+              "label": {
+                "en": [
+                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Drawing completion tests were commonly used in creativity studies. Although creativity and art were closely associated, these tests were scored not on the test-taker’s artistic ability, but rather on the originality and elaborateness of their responses."
+                ]
+              }
+            },
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/00298292-8c7a-4939-b153-bef45c24160a/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6423,
+                "width": 8722,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/00298292-8c7a-4939-b153-bef45c24160a",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 8722,
+                  "height": 6423,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16,
+                        32,
+                        64
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 1024,
+                      "height": 754
+                    },
+                    {
+                      "width": 400,
+                      "height": 295
+                    },
+                    {
+                      "width": 200,
+                      "height": 147
+                    },
+                    {
+                      "width": 100,
+                      "height": 74
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/00298292-8c7a-4939-b153-bef45c24160a/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/00298292-8c7a-4939-b153-bef45c24160a",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 1024,
+                    "height": 754,
+                    "sizes": [
+                      {
+                        "width": 100,
+                        "height": 74
+                      },
+                      {
+                        "width": 200,
+                        "height": 147
+                      },
+                      {
+                        "width": 400,
+                        "height": 295
+                      },
+                      {
+                        "width": 1024,
+                        "height": 754
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/742f09f4-1005-6fb1-0a56-7b2967a9c627",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=188,533,592,436",
+              "summary": {
+                "en": [
+                  "Researchers at Berkeley’s IPAR asked subjects to create mosaics with colored tiles. The examples on the left were produced by the “non-creative” control group of randomly selected students, while those on the right were produced by prominent figures rated highly creative by their peers. The researchers concluded that creative people naturally prefer asymmetrical figures."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/a9af9f68-5adb-0db6-3826-40b3c8e3ffaf"
@@ -5050,7 +5081,8 @@
       "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59",
       "summary": {
         "en": [
-          "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley. There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis. One finding revealed these creative subjects preferred abstract to representational art. The researchers interpreted this aesthetic preference, as well as characteristics like high “ego strength” and “femininity” in men, as the result of a naturally creative personality, but later critics pointed out they might also have had to do with education, socialization, and the expectation to be creative in the first place. Indeed, much creativity research has been based on individuals who society already considered creative, thus reinforcing notions of who was creative, particularly white, male professionals with high education and liberal cultural values. Many researchers today doubt that something like the “creative personality” really exists, instead seeing creativity as a complex social phenomenon."
+          "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley.",
+          "There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis. One finding revealed these creative subjects preferred abstract to representational art. The researchers interpreted this aesthetic preference, as well as characteristics like high “ego strength” and “femininity” in men, as the result of a naturally creative personality, but later critics pointed out they might also have had to do with education, socialization, and the expectation to be creative in the first place. Indeed, much creativity research has been based on individuals who society already considered creative, thus reinforcing notions of who was creative, particularly white, male professionals with high education and liberal cultural values. Many researchers today doubt that something like the “creative personality” really exists, instead seeing creativity as a complex social phenomenon."
         ]
       },
       "behavior": [
@@ -7993,6 +8025,58 @@
     {
       "label": {
         "en": [
+          "A Do-Nothing Machine"
+        ]
+      },
+      "height": 3876,
+      "width": 5004,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "Video",
+                "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
+                "width": 320,
+                "height": 176,
+                "duration": 10.026667
+              },
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,5004,3876",
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7c654266-b000-bc2b-5b99-fb22e4437d12",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Solar Do-Nothing Machine, a film by Charles and Ray Eames (1957)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "In 1957 the Aluminum Company of America, or Alcoa, whose business consisted of a mix of military contracts and consumer products, hired the famed design firm of Charles and Ray Eames to create a fanciful, brightly colored “Do-Nothing Machine.” Resembling a piece of modern art, the project promoted Alcoa’s new photovoltaic cells not by showing their application to any­thing useful, but by challenging would-be clients to come up with their own uses while lending the corporation a whimsical, artsy vibe. Eames Office, LLC. All rights reserved"
+                ]
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/76c17db9-e1cd-479d-8726-e995c478f2ad/full/full/0/default.jpg"
+                }
+              ]
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/9d0ebf5f-f615-742e-4ba2-5bbe390afdd7"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d",
+      "behavior": [
+        "left",
+        "w-12",
+        "h-8"
+      ]
+    },
+    {
+      "label": {
+        "en": [
           "Creativity is Not About Art"
         ]
       },
@@ -8125,7 +8209,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=23,20,404,261",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=36,30,462,297",
               "summary": {
                 "en": [
                   "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. Courtesy of Hagley Museum and Library"
@@ -8259,7 +8343,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7abe4c4d-509e-5b62-4521-07e2758cb92f",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=212,265,447,277",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=186,363,463,286",
               "label": {
                 "en": [
                   "The artist in the business suit"
@@ -8270,7 +8354,36 @@
                   "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. Courtesy of Hagley Museum and Library"
                 ]
               }
-            },
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/32a6dfb6-7784-168a-d623-d9155729b204"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25",
+      "behavior": [
+        "bottom",
+        "w-6",
+        "h-8"
+      ],
+      "summary": {
+        "en": [
+          "The British author Oscar Wilde once wrote, “all art is quite useless.” So why would people who write about creativity – which they say is the ability to come up with something new and useful – constantly urge people to unleash their inner artist? In creativity literature the idealized figure of the romantic artist is a model for us to emulate, not for his or her ability to make art – reading books on creativity will not make us skilled painters – but rather for other attributes seen as desirable, such as flexibility, passion, playfulness, rebelliousness, and above all a purported penchant for novelty. Yet even as creativity experts embrace the figure of the artist, they are also quick to disown the reputation of the wild-eyed bohemian who is hostile to capitalism. Truly creative people, they say, can thrive even in the commercial or technical worlds. Creativity is like the essence of the artist, distilled and bottled for general use."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Cubist missiles"
+        ]
+      },
+      "height": 1000,
+      "width": 696,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
             {
               "motivation": "painting",
               "type": "Annotation",
@@ -8393,8 +8506,8 @@
                   }
                 }
               ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/89828206-93c1-a98f-5365-dd889718b156",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=33,364,218,312",
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cab264ad-d299-4774-ea0c-601181791fc9",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258#xywh=0,0,696,1000",
               "label": {
                 "en": [
                   "Scientific American, September 1958"
@@ -8407,237 +8520,14 @@
               }
             }
           ],
-          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/32a6dfb6-7784-168a-d623-d9155729b204"
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/14d3683e-6c22-07ca-89b1-79b387c47585"
         }
       ],
-      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25",
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258",
       "behavior": [
-        "bottom",
-        "w-7",
-        "h-9"
-      ],
-      "summary": {
-        "en": [
-          "The British author Oscar Wilde once wrote, “all art is quite useless.” So why would people who write about creativity – which they say is the ability to come up with something new and useful – constantly urge people to unleash their inner artist? In creativity literature the idealized figure of the romantic artist is a model for us to emulate, not for his or her ability to make art – reading books on creativity will not make us skilled painters – but rather for other attributes seen as desirable, such as flexibility, passion, playfulness, rebelliousness, and above all a purported penchant for novelty. Yet even as creativity experts embrace the figure of the artist, they are also quick to disown the reputation of the wild-eyed bohemian who is hostile to capitalism. Truly creative people, they say, can thrive even in the commercial or technical worlds. Creativity is like the essence of the artist, distilled and bottled for general use."
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "A Do-Nothing Machine"
-        ]
-      },
-      "height": 176,
-      "width": 320,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "Video",
-                "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
-                "width": 320,
-                "height": 176,
-                "duration": 10.026667
-              },
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,320,176",
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7c654266-b000-bc2b-5b99-fb22e4437d12",
-              "motivation": "painting",
-              "label": {
-                "en": [
-                  "Solar Do-Nothing Machine, a film by Charles and Ray Eames (1957)"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "In 1957 the Aluminum Company of America, or Alcoa, whose business consisted of a mix of military contracts and consumer products, hired the famed design firm of Charles and Ray Eames to create a fanciful, brightly colored “Do-Nothing Machine.” Resembling a piece of modern art, the project promoted Alcoa’s new photovoltaic cells not by showing their application to any­thing useful, but by challenging would-be clients to come up with their own uses while lending the corporation a whimsical, artsy vibe.",
-                  "Eames Office, LLC. All rights reserved"
-                ]
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/76c17db9-e1cd-479d-8726-e995c478f2ad/full/full/0/default.jpg"
-                }
-              ]
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/9d0ebf5f-f615-742e-4ba2-5bbe390afdd7"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d",
-      "behavior": [
-        "left",
-        "w-5",
-        "h-4"
+        "w-6",
+        "h-8"
       ]
-    },
-    {
-      "label": {
-        "en": [
-          "Creative Spaces"
-        ]
-      },
-      "height": 1000,
-      "width": 792,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 4079,
-                "width": 3234,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 3234,
-                  "height": 4079,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 812,
-                      "height": 1024
-                    },
-                    {
-                      "width": 317,
-                      "height": 400
-                    },
-                    {
-                      "width": 159,
-                      "height": 200
-                    },
-                    {
-                      "width": 79,
-                      "height": 100
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 812,
-                    "height": 1024,
-                    "sizes": [
-                      {
-                        "width": 79,
-                        "height": 100
-                      },
-                      {
-                        "width": 159,
-                        "height": 200
-                      },
-                      {
-                        "width": 317,
-                        "height": 400
-                      },
-                      {
-                        "width": 812,
-                        "height": 1024
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/39ee5c41-cd5f-2352-a90c-15af871be681",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c#xywh=0,0,792,1000",
-              "label": {
-                "en": [
-                  "Action Office promotional photograph from the Herman Miller company, 1964"
-                ]
-              },
-              "summary": {
-                "en": [
-                  "Courtesy Vitra Design Museum"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/c6e3adf2-89b7-620c-7392-ead37b3e4ab8"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c",
-      "behavior": [
-        "bottom",
-        "w-5",
-        "h-12"
-      ],
-      "summary": {
-        "en": [
-          "In 1964 the designers Robert Propst and George Nelson attempted to revolutionize the white collar workplace with their new Action Office line of furniture for the Herman Miller company. Believing the traditional office was “restrictive and inflexible,” they studied people “noted for creativity” (some­times using the psychologist J. P. Guilford’s battery of creativity tests) and determined the workspace of the future should be flexible, active, and individualized. Unfortunately the desires of management intervened and the subsequent versions devolved into the endless rectangular cubicle farms we know today. But the idea that creativity could be heightened through open and flexible workplaces persisted, reflected in our own era of corporate design that looks anything but corporate, from the refurbished factories and artist studio-inspired lofts of urban tech startups to the playground-like campuses of Silicon Valley giants. ",
-          "",
-          "All of these changes have been accompanied by parallel changes in the way we dress, the way we are managed, and the way we are encouraged to think about our work – not as work, but as passion and play, where the boundaries between work and leisure break down and, we are told, the future runs not on toil but on pure ideas."
-        ]
-      }
     },
     {
       "label": {
@@ -8796,6 +8686,168 @@
         "w-7",
         "h-7"
       ]
+    },
+    {
+      "label": {
+        "en": [
+          "Creative Spaces"
+        ]
+      },
+      "height": 1000,
+      "width": 792,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "motivation": "painting",
+              "type": "Annotation",
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4079,
+                "width": 3234,
+                "label": {
+                  "en": [
+                    "-"
+                  ]
+                },
+                "service": {
+                  "type": "ImageService2",
+                  "id": "https://dlc.services/iiif-img/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d",
+                  "protocol": "http://iiif.io/api/image",
+                  "width": 3234,
+                  "height": 4079,
+                  "tiles": [
+                    {
+                      "width": 256,
+                      "height": 256,
+                      "scaleFactors": [
+                        1,
+                        2,
+                        4,
+                        8,
+                        16
+                      ]
+                    }
+                  ],
+                  "sizes": [
+                    {
+                      "width": 812,
+                      "height": 1024
+                    },
+                    {
+                      "width": 317,
+                      "height": 400
+                    },
+                    {
+                      "width": 159,
+                      "height": 200
+                    },
+                    {
+                      "width": 79,
+                      "height": 100
+                    }
+                  ],
+                  "profile": [
+                    "http://iiif.io/api/image/2/level1.json",
+                    {
+                      "formats": [
+                        "jpg"
+                      ],
+                      "qualities": [
+                        "native",
+                        "color",
+                        "gray"
+                      ],
+                      "supports": [
+                        "regionByPct",
+                        "sizeByForcedWh",
+                        "sizeByWh",
+                        "sizeAboveFull",
+                        "rotationBy90s",
+                        "mirroring",
+                        "gray"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "thumbnail": [
+                {
+                  "id": "https://dlc.services/thumbs/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d/full/full/0/default.jpg",
+                  "type": "Image",
+                  "service": {
+                    "type": "ImageService2",
+                    "id": "https://dlc.services/thumbs/7/21/7756ed2b-f072-4fef-b821-09ecf9ee9d3d",
+                    "protocol": "http://iiif.io/api/image",
+                    "profile": [
+                      "http://iiif.io/api/image/2/level0.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "color"
+                        ],
+                        "supports": [
+                          "sizeByWhListed"
+                        ]
+                      }
+                    ],
+                    "width": 812,
+                    "height": 1024,
+                    "sizes": [
+                      {
+                        "width": 79,
+                        "height": 100
+                      },
+                      {
+                        "width": 159,
+                        "height": 200
+                      },
+                      {
+                        "width": 317,
+                        "height": 400
+                      },
+                      {
+                        "width": 812,
+                        "height": 1024
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/39ee5c41-cd5f-2352-a90c-15af871be681",
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c#xywh=0,0,792,1000",
+              "label": {
+                "en": [
+                  "Action Office promotional photograph from the Herman Miller company, 1964"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Believing the traditional office was “restrictive and inflexible,” they studied people “noted for creativity” (some­times using the psychologist J. P. Guilford’s battery of creativity tests) and determined the workspace of the future should be flexible, active, and individualized. Unfortunately the desires of management intervened and the subsequent versions devolved into the endless rectangular cubicle farms we know today. But the idea that creativity could be heightened through open and flexible workplaces persisted, reflected in our own era of corporate design that looks anything but corporate, from the refurbished factories and artist studio-inspired lofts of urban tech startups to the playground-like campuses of Silicon Valley giants. All of these changes have been accompanied by parallel changes in the way we dress, the way we are managed, and the way we are encouraged to think about our work – not as work, but as passion and play, where the boundaries between work and leisure break down and, we are told, the future runs not on toil but on pure ideas. Courtesy Vitra Design Museum"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/c6e3adf2-89b7-620c-7392-ead37b3e4ab8"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c",
+      "behavior": [
+        "bottom",
+        "w-5",
+        "h-7"
+      ],
+      "summary": {
+        "en": [
+          "In 1964 the designers Robert Propst and George Nelson attempted to revolutionize the white collar workplace with their new Action Office line of furniture for the Herman Miller company."
+        ]
+      }
     }
   ],
   "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/manifest"
