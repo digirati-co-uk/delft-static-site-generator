@@ -68,47 +68,6 @@
                     "sizes": [
                         {
                             "width": 1024,
-                            "height": 295
-                        },
-                        {
-                            "width": 400,
-                            "height": 115
-                        },
-                        {
-                            "width": 200,
-                            "height": 58
-                        },
-                        {
-                            "width": 100,
-                            "height": 29
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
-                    "id": "https://dlc.services/thumbs/7/18/8e152582-1053-43db-8530-1e767e583b1f",
-                    "type": "ImageService2",
-                    "height": 295
-                },
-                "id": "https://dlc.services/thumbs/7/18/8e152582-1053-43db-8530-1e767e583b1f/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/1f5e8ccd-8582-47e0-b688-0894b98354a6.json",
-            "label": {"nl": ["Spoorbrug over het Hollands Diep bij Moerdijk"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
-                            "width": 1024,
                             "height": 280
                         },
                         {
