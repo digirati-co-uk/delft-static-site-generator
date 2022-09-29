@@ -250,7 +250,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/155fcabf-8e51-0782-5ce5-c128dbd005c1",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=42,24,297,381",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=28,33,297,381",
               "label": {
                 "en": [
                   "Chicago Commuters, 1953"
@@ -384,7 +384,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/64141e57-0d02-96b9-dd73-8e0c1710cb16",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=99,491,314,255",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=50,457,314,255",
               "label": {
                 "en": [
                   "Mushroom cloud of the Test Baker atomic bomb, Bikini Atoll, July 25, 1946"
@@ -517,7 +517,7 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/28fd3aa8-6917-b28d-ded3-500bc640a915",
-              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=390,34,339,437",
+              "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=405,32,339,437",
               "requiredStatement": {
                 "value": {
                   "en": [
@@ -544,12 +544,7 @@
       "behavior": [
         "w-8",
         "h-8"
-      ],
-      "summary": {
-        "en": [
-          "Postwar America contained the perfect conditions for the concept of creativity to arise–a potent mix of optimism about material progress and fears of conformity and technology run amok."
-        ]
-      }
+      ]
     },
     {
       "height": 1000,
@@ -737,7 +732,17 @@
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/63a4a98b-ea2a-9a35-7005-7b2424850197",
               "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826#xywh=0,0,5417,2344",
-              "body.id": "https://dlc.services/iiif-img/7/21/767ec03d-5399-48a2-bf51-41a7a079f0f8/0,14,5417,2344/full/0/default.jpg"
+              "body.id": "https://dlc.services/iiif-img/7/21/767ec03d-5399-48a2-bf51-41a7a079f0f8/0,14,5417,2344/full/0/default.jpg",
+              "summary": {
+                "en": [
+                  "Brainstorming meeting at the advertising firm BBDO, where the technique was born. Late 1950s. The woman at bottom right is using a stenograph machine to record the barrage of ideas, while the poster on the wall lists the “Brainstorm Ground Rules.” (Photo by Philippe Halsman)"
+                ]
+              },
+              "label": {
+                "en": [
+                  "BBDO"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/78f00079-3e77-1d5e-5d25-0ce48770639b"
@@ -1432,7 +1437,7 @@
       ],
       "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2",
       "behavior": [
-        "right",
+        "left",
         "w-12",
         "h-10"
       ],
@@ -1443,60 +1448,6 @@
           "These early creativity consultants claimed white collar workers were too rational and needed help accessing their irrational and poetic sides. In highly-structured, replicable sessions, buttoned-up types were encouraged to get wild and break rules – temporarily, at least – to generate profitable new ideas. These experts claimed their methods could be used to solve any problem from domestic arguments to ending the nuclear standoff, but they were most widely taken up in the world from which they emerged: corporate R&D and product development."
         ]
       }
-    },
-    {
-      "label": {
-        "en": [
-          "Making the Strange Familiar and the Familiar Strange"
-        ]
-      },
-      "height": 1000,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "new annotation",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/textualbody/43711a7d-7d9c-21ff-a48d-8a64bbf353b2"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/1def6fea-cba0-259b-b073-d7c959fdeb4e#xywh=0,0,300,200",
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/68d14edc-845e-7aed-341d-a128fc1125ce",
-              "motivation": "painting",
-              "summary": {
-                "en": [
-                  "<p>In the wake of the brainstorming controversy, new methods such as Synectics popped up. Synectics was based on the theory that new ideas came from metaphorical thinking. As in brainstorming, its facilitators led participants through a series of steps aimed at unleashing seemingly irrelevant ideas – like fish anatomy to improve a hammer – then corral­ling them back toward a relevant solution. Observers said Synectics sessions resembled “LSD parties,” but the intention was always to end with a concrete goal, product, or service. Even as&nbsp;Synectics founders railed against the corporate culture of efficiency and rationality, they&nbsp;also espoused traditional management techniques to optimize their creative process. Just like the “scientific manage­ment” experts of the early 20th Century made detailed motion studies to find the “one best way” of doing physical labor, Synectics, Inc.&nbsp;&nbsp;used video and audio recordings of product design sessions to make the process of group creativity more efficient.</p><h2>Transcript of a synectics meeting</h2><p>Bellow is a transcript of a tape recorded Synectics session c.1965. The participants included members of the Synectics, Inc. team and employees of Steel Products Engineering, a U.S. company here trying to solve a problem associated with the manufacture of metal gears.</p><blockquote>Jack:</blockquote><blockquote>O.K., the date is March 4, 1965, the PAG [Problem as Given] is “How to make a finished gear round,” the PAU [Problem as Understood] is “How to grind gear without rounding” … O.K., start off with rounding as the key word. We need a direct analogy first.</blockquote><blockquote>Alex:</blockquote><blockquote>How about pregnancy? Swelling abdomen – rounding?</blockquote><blockquote>Bill:</blockquote><blockquote>When I think of rounding,&nbsp;</blockquote><blockquote>I think about the universe.</blockquote><blockquote>Horace:</blockquote><blockquote>Marble.</blockquote><blockquote>Jack:</blockquote><blockquote>Let’s take a symbolic analogy of marble.</blockquote><blockquote>Jim:</blockquote><blockquote>Well, let’s see, I’m a very still lake – and I get tremendous enjoyment from reflecting all the objects that come over me – and I’m terribly upset when the wind blows and the ripples form so that the reflections can’t be transmitted.</blockquote><blockquote>Horace:</blockquote><blockquote>Ripples destroy the reflections.</blockquote><blockquote>Jim:</blockquote><blockquote>Yeah, ripples ruin me.</blockquote><blockquote>Bill:</blockquote><blockquote>On that same lake, let me get in there. I have enjoyment from the knowledge … that the waters from me gave birth to little streams but I’m especially proud when I realize that some of the waters which come from me leave me in evaporation … I see this beautiful colored rainbow. I realize this is a child of mine …</blockquote><p>Printed in Tom Alexander, “Synectics: Inventing by the Madness Method,” Fortune, August 1965</p>"
-                ]
-              },
-              "label": {
-                "en": [
-                  "Making the Strange Familiar and the Familiar Strange"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/1de12013-6246-5e22-7053-8940f757f288"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/1def6fea-cba0-259b-b073-d7c959fdeb4e",
-      "summary": {
-        "en": [
-          "In the wake of the brainstorming controversy, new methods such as Synectics popped up. Synectics was based on the theory that new ideas came from metaphorical thinking.",
-          "As in brainstorming, its facilitators led participants through a series of steps aimed at unleashing seemingly irrelevant ideas – like fish anatomy to improve a hammer – then corral­ling them back toward a relevant solution. Observers said Synectics sessions resembled “LSD parties,” but the intention was always to end with a concrete goal, product, or service. Even as Synectics founders railed against the corporate culture of efficiency and rationality, they also espoused traditional management techniques to optimize their creative process."
-        ]
-      },
-      "behavior": [
-        "info",
-        "info",
-        "w-6",
-        "h-4"
-      ]
     },
     {
       "label": {
@@ -1658,6 +1609,60 @@
         "bottom",
         "w-6",
         "h-10"
+      ]
+    },
+    {
+      "label": {
+        "en": [
+          "Making the Strange Familiar and the Familiar Strange"
+        ]
+      },
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/textualbody/43711a7d-7d9c-21ff-a48d-8a64bbf353b2"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/1def6fea-cba0-259b-b073-d7c959fdeb4e#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/68d14edc-845e-7aed-341d-a128fc1125ce",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "<p>In the wake of the brainstorming controversy, new methods such as Synectics popped up. Synectics was based on the theory that new ideas came from metaphorical thinking. As in brainstorming, its facilitators led participants through a series of steps aimed at unleashing seemingly irrelevant ideas – like fish anatomy to improve a hammer – then corral­ling them back toward a relevant solution. Observers said Synectics sessions resembled “LSD parties,” but the intention was always to end with a concrete goal, product, or service. Even as&nbsp;Synectics founders railed against the corporate culture of efficiency and rationality, they&nbsp;also espoused traditional management techniques to optimize their creative process. Just like the “scientific manage­ment” experts of the early 20th Century made detailed motion studies to find the “one best way” of doing physical labor, Synectics, Inc.&nbsp;&nbsp;used video and audio recordings of product design sessions to make the process of group creativity more efficient.</p><h2>Transcript of a synectics meeting</h2><p>Bellow is a transcript of a tape recorded Synectics session c.1965. The participants included members of the Synectics, Inc. team and employees of Steel Products Engineering, a U.S. company here trying to solve a problem associated with the manufacture of metal gears.</p><blockquote>Jack:</blockquote><blockquote>O.K., the date is March 4, 1965, the PAG [Problem as Given] is “How to make a finished gear round,” the PAU [Problem as Understood] is “How to grind gear without rounding” … O.K., start off with rounding as the key word. We need a direct analogy first.</blockquote><blockquote>Alex:</blockquote><blockquote>How about pregnancy? Swelling abdomen – rounding?</blockquote><blockquote>Bill:</blockquote><blockquote>When I think of rounding,&nbsp;</blockquote><blockquote>I think about the universe.</blockquote><blockquote>Horace:</blockquote><blockquote>Marble.</blockquote><blockquote>Jack:</blockquote><blockquote>Let’s take a symbolic analogy of marble.</blockquote><blockquote>Jim:</blockquote><blockquote>Well, let’s see, I’m a very still lake – and I get tremendous enjoyment from reflecting all the objects that come over me – and I’m terribly upset when the wind blows and the ripples form so that the reflections can’t be transmitted.</blockquote><blockquote>Horace:</blockquote><blockquote>Ripples destroy the reflections.</blockquote><blockquote>Jim:</blockquote><blockquote>Yeah, ripples ruin me.</blockquote><blockquote>Bill:</blockquote><blockquote>On that same lake, let me get in there. I have enjoyment from the knowledge … that the waters from me gave birth to little streams but I’m especially proud when I realize that some of the waters which come from me leave me in evaporation … I see this beautiful colored rainbow. I realize this is a child of mine …</blockquote><p>Printed in Tom Alexander, “Synectics: Inventing by the Madness Method,” Fortune, August 1965</p>"
+                ]
+              },
+              "label": {
+                "en": [
+                  "Making the Strange Familiar and the Familiar Strange"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/1de12013-6246-5e22-7053-8940f757f288"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/1def6fea-cba0-259b-b073-d7c959fdeb4e",
+      "summary": {
+        "en": [
+          "In the wake of the brainstorming controversy, new methods such as Synectics popped up. Synectics was based on the theory that new ideas came from metaphorical thinking.",
+          "As in brainstorming, its facilitators led participants through a series of steps aimed at unleashing seemingly irrelevant ideas – like fish anatomy to improve a hammer – then corral­ling them back toward a relevant solution. Observers said Synectics sessions resembled “LSD parties,” but the intention was always to end with a concrete goal, product, or service. Even as Synectics founders railed against the corporate culture of efficiency and rationality, they also espoused traditional management techniques to optimize their creative process."
+        ]
+      },
+      "behavior": [
+        "info",
+        "info",
+        "w-6",
+        "h-4"
       ]
     },
     {
@@ -2667,64 +2672,9 @@
         ]
       },
       "behavior": [
-        "right",
+        "left",
         "w-12",
         "h-10"
-      ]
-    },
-    {
-      "height": 1000,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "new annotation",
-                "format": "text/plain",
-                "language": "en"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b09c7b78-dd2e-5cc1-f643-10e5af061834#xywh=0,0,300,200",
-              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/36b024a6-f7a1-3099-9312-783ea3ed60b9",
-              "motivation": "painting",
-              "summary": {
-                "en": [
-                  "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley. There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis.",
-                  "One finding revealed these creative subjects preferred abstract to representational art. The researchers interpreted this aesthetic preference, as well as characteristics like high “ego strength” and “femininity” in men, as the result of a naturally creative personality, but later critics pointed out they might also have had to do with education, socialization, and the expectation to be creative in the first place.",
-                  "Indeed, much creativity research has been based on individuals who society already considered creative, thus reinforcing notions of who was creative, particularly white, male professionals with high education and liberal cultural values. Many researchers today doubt that something like the “creative personality” really exists, instead seeing creativity as a complex social phenomenon."
-                ]
-              },
-              "label": {
-                "en": [
-                  "Constructing the Creative Personality"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/43d46381-c36b-ad21-ac4f-ce86523b3271"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b09c7b78-dd2e-5cc1-f643-10e5af061834",
-      "summary": {
-        "en": [
-          "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley. There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis."
-        ]
-      },
-      "label": {
-        "en": [
-          "Constructing the Creative Personality"
-        ]
-      },
-      "behavior": [
-        "info",
-        "info",
-        "info",
-        "h-3",
-        "w-6"
       ]
     },
     {
@@ -2888,6 +2838,62 @@
         "bottom",
         "w-6",
         "h-9"
+      ]
+    },
+    {
+      "height": 1000,
+      "width": 1000,
+      "type": "Canvas",
+      "items": [
+        {
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "type": "Annotation",
+              "body": {
+                "type": "TextualBody",
+                "value": "new annotation",
+                "format": "text/plain",
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/textualbody/82ff28d9-5b54-ec09-d0c9-0ded31d7be4a"
+              },
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b09c7b78-dd2e-5cc1-f643-10e5af061834#xywh=0,0,300,200",
+              "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/36b024a6-f7a1-3099-9312-783ea3ed60b9",
+              "motivation": "painting",
+              "summary": {
+                "en": [
+                  "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley. There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis.",
+                  "One finding revealed these creative subjects preferred abstract to representational art. The researchers interpreted this aesthetic preference, as well as characteristics like high “ego strength” and “femininity” in men, as the result of a naturally creative personality, but later critics pointed out they might also have had to do with education, socialization, and the expectation to be creative in the first place.",
+                  "Indeed, much creativity research has been based on individuals who society already considered creative, thus reinforcing notions of who was creative, particularly white, male professionals with high education and liberal cultural values. Many researchers today doubt that something like the “creative personality” really exists, instead seeing creativity as a complex social phenomenon."
+                ]
+              },
+              "label": {
+                "en": [
+                  "Constructing the Creative Personality"
+                ]
+              }
+            }
+          ],
+          "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/43d46381-c36b-ad21-ac4f-ce86523b3271"
+        }
+      ],
+      "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b09c7b78-dd2e-5cc1-f643-10e5af061834",
+      "summary": {
+        "en": [
+          "Some of the most highly publicized creativity studies were carried out at the Institute for Personality Assessment and Research (IPAR) at the University of California, Berkeley. There, famous writers, mathematicians, and architects like Truman Capote, Louis Kahn, and Eero Saarinnen underwent intensive scrutiny including Rorschach ink blots, drawing completion tests, and psycho­analysis."
+        ]
+      },
+      "label": {
+        "en": [
+          "Constructing the Creative Personality"
+        ]
+      },
+      "behavior": [
+        "info",
+        "info",
+        "info",
+        "h-3",
+        "w-6"
       ]
     },
     {
@@ -3586,8 +3592,18 @@
                 }
               ],
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/948d003d-2eac-6916-95c5-b54bdfb17909",
-              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e#xywh=-9418,-4346,10417,10417",
-              "body.id": "https://dlc.services/iiif-img/7/21/509a91e3-20ff-4f69-bf6c-716b18b9d3ba/0,0,10417,10417/full/0/default.jpg"
+              "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e#xywh=-9418,-9418,10417,10417",
+              "body.id": "https://dlc.services/iiif-img/7/21/509a91e3-20ff-4f69-bf6c-716b18b9d3ba/0,0,10417,10417/full/0/default.jpg",
+              "label": {
+                "en": [
+                  "Peter Max for Tin Lizzie Restaurant New York"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Reprinted in Kaiser Aluminum News, 1968"
+                ]
+              }
             }
           ],
           "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/list/96a22ad3-3263-25c6-8e79-aeb30070f298"
@@ -6392,7 +6408,8 @@
                 "type": "TextualBody",
                 "value": "new annotation",
                 "format": "text/plain",
-                "language": "en"
+                "language": "en",
+                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/textualbody/aa1400d1-970d-91ce-7dcc-9cc7ff001307"
               },
               "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/e304ea99-4d7d-a4c7-9757-27913c617f08#xywh=0,0,300,200",
               "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/96fa4c9b-b0ed-daa9-7986-8f1076442cfe",
@@ -7445,7 +7462,8 @@
       },
       "summary": {
         "en": [
-          "From the image of the fashionably shabby urban dweller, always at work yet always at play, to the ubiquitous “brainstorm” session, postwar ideas about what creativity is, who has it, and how to foster it still resonate today. Though much of the postwar context has changed, many of the key components–such as a hyper-consumer economy and fundamental anxieties about technology and the survival of our species–remain. Perhaps that’s why we continue to spend so much time and money attempting to uncover the secrets of the “creative mind” and the “creative process,” and why “creativity,” despite its vagueness, continues to be the thing we all want more of. "
+          "From the image of the fashionably shabby urban dweller, always at work yet always at play, to the ubiquitous “brainstorm” session, postwar ideas about what creativity is, who has it, and how to foster it still resonate today.",
+          "Though much of the postwar context has changed, many of the key components–such as a hyper-consumer economy and fundamental anxieties about technology and the survival of our species–remain. Perhaps that’s why we continue to spend so much time and money attempting to uncover the secrets of the “creative mind” and the “creative process,” and why “creativity,” despite its vagueness, continues to be the thing we all want more of. "
         ]
       },
       "requiredStatement": {
