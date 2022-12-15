@@ -15,8 +15,9 @@ This website provides access to the different facets of the academic heritage te
 The academic heritage team consists of:
 
 - Geertje van Achterberg (Project leader for presentation)
-- [Karin Clavel](https://www.tudelft.nl/staff/c.l.clavel/) (Head)
+- [Liselotte Neervoort](https://www.linkedin.com/in/liselotte-neervoort-b0b01324/) (Project manager Faculties)
 - [Sylvia Nijhuis](https://www.tudelft.nl/staff/s.m.nijhuis/) (Curator Museum Collection)
+- [Charlotte Rixten](https://www.linkedin.com/in/rixten/) (Head)
 - [Marietje Ruijgrok](https://www.tudelft.nl/staff/m.c.j.ruijgrok/) (Curator Trésor)
 - [Jules Schoonman](https://www.tudelft.nl/staff/j.a.schoonman/) (Policy advisor for presentation)
 - [Abel Streefland](https://www.tudelft.nl/staff/a.h.streefland/) (University historian)
