@@ -1,0 +1,103 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Filmrol"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "film"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2017.0060.3ME"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "5,0 (h) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/8095348e-4bd7-44c5-8f1a-4c10802b322d/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/8095348e-4bd7-44c5-8f1a-4c10802b322d/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/8095348e-4bd7-44c5-8f1a-4c10802b322d.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1385,
+                        "@id": "https://dlc.services/iiif-img/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7",
+                        "height": 1002
+                    },
+                    "width": 1385,
+                    "@id": "https://dlc.services/iiif-img/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7/full/1024,741/0/default.jpg",
+                    "height": 1002
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 741
+                        },
+                        {
+                            "width": 400,
+                            "height": 289
+                        },
+                        {
+                            "width": 200,
+                            "height": 145
+                        },
+                        {
+                            "width": 100,
+                            "height": 72
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 741
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1385,
+            "@id": "https://dlc.services/iiif-img/7/18/ac2e90ca-049b-4f6a-a3a3-d5b1243954f7/canvas/c0",
+            "label": "Image",
+            "height": 1002
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/8095348e-4bd7-44c5-8f1a-4c10802b322d/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
