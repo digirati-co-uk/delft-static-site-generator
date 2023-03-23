@@ -15,6 +15,7 @@ This website provides access to the different facets of the academic heritage te
 The academic heritage team consists of:
 
 - Geertje van Achterberg (Project leader for presentation)
+- [Kornelis Fragakis](https://nl.linkedin.com/in/kornelis-fragakis-3237a083) (Curator Art Collection)
 - [Liselotte Neervoort](https://www.linkedin.com/in/liselotte-neervoort-b0b01324/) (Project manager Faculties)
 - [Sylvia Nijhuis](https://www.tudelft.nl/staff/s.m.nijhuis/) (Curator Museum Collection)
 - [Charlotte Rixten](https://www.linkedin.com/in/rixten/) (Head)
