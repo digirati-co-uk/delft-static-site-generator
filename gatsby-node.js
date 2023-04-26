@@ -1,12 +1,8 @@
 // You can delete this file if you're not using it
 const path = require('path');
 const fs = require('fs');
-const Upgrader = require('iiif-prezi2to3');
-const { Traverse } = require('@iiif/parser');
 const objectIndex = require('./.build-cache/object-index.json');
-const { canonicalServiceUrl } = require('@iiif/parser/image-3');
 
-const upgrader = new Upgrader({ 'deref_links ': false });
 const TRANSLATIONS = ['en', 'nl'];
 const IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE =
   'http://iiif.io/api/presentation/3/context.json';
@@ -260,11 +256,17 @@ getCollectionFilePath = (pathname, collectionsGroup) => {
 
 const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
   (collection.items || []).reduce((objectLinks, manifest) => {
-    if (!objectLinks[manifest.id]) {
-      objectLinks[manifest.id] = [];
+    const id = manifest.id || manifest['@id'];
+    if (!objectLinks[id]) {
+      objectLinks[id] = [];
     }
-    objectLinks[manifest.id].push([
-      collection.id,
+
+    if (objectIndex.manifestIndex[id]) {
+      const link = objectIndex.manifestIndex[id];
+    }
+
+    objectLinks[manifest.id || manifest['@id']].push([
+      collection.id || collection['@id'],
       collectionPath,
       collection.label,
     ]);
@@ -290,11 +292,17 @@ const createCollectionPages = (objectLinks) => {
         context.items = items;
       }
 
+      const objectLinks2 = context.items.reduce((list, item) => {
+        list[item.id || item['@id']] =
+          objectIndex.manifestIndex[item.id || item['@id']];
+        return list;
+      }, {});
+
       meta.pages[pathname] = {
         path: pathname,
         component: collectionTemplate,
         context: {
-          objectLinks,
+          objectLinks: objectLinks2,
           collection: context,
           collectionGroup: collectionGroup,
         },
@@ -349,7 +357,7 @@ const createObjectPages = () => {
       // TODO: cover image if defined, first canvas thumbnail as fall-back,
       // than first canvas image fallback...
       meta.thumbnails[pathname] = getManifestThumbnail(context);
-      meta.links[context.id] = pathname;
+      meta.links[context.id || context['@id']] = pathname;
       meta.reverseLinks[pathname] = context.id;
       // getAllAnnotationsFromManifest(
       //   context,
