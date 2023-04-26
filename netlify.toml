@@ -1,4 +1,7 @@
 
+[build]
+  command = "yarn build"
+
 [[redirects]]
   from = "docs/*"
   to = "docs/index.html"
