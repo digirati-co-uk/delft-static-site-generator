@@ -1,560 +1,593 @@
 {
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/3/context.json"
-  ],
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "Bandoeng – Bandung"
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Bandoeng – Bandung"
+        ]
+    },
+    "items": [
+        {
+            "height": 1000,
+            "width": 1000,
+            "type": "Canvas",
+            "items": [
+                {
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "type": "Annotation",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Introduction</h1>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p>\n\n<p>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021.</p>",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/textualbody/a3ba7f54-4f49-14c3-25da-fa0586b086d1/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768",
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/674ce695-eaca-e67f-2664-d83873bd4eaa",
+                            "motivation": "painting"
+                        }
+                    ],
+                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/bc215a2e-967a-9f3e-6fb0-5b20784d4d9d"
+                }
+            ],
+            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768",
+            "behavior": [
+                "info",
+                "w-4",
+                "h-4"
+            ],
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Bandoeng – Bandung</h1>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": {
+                "en": [
+                    "Villa Isola"
+                ]
+            },
+            "height": 707,
+            "width": 1000,
+            "type": "Canvas",
+            "items": [
+                {
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "motivation": "painting",
+                            "type": "Annotation",
+                            "body": {
+                                "id": "https://dlc.services/iiif-img/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2780,
+                                "width": 3929,
+                                "label": {
+                                    "en": [
+                                        "-"
+                                    ]
+                                },
+                                "service": [
+                                    {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 3929,
+                                        "height": 2780,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 725
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 283
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 142
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 71
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/1bee9944-4dbe-47b2-00fa-95af763ef106",
+                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa#xywh=0,0,1000,707",
+                            "summary": {
+                                "en": [
+                                    "Photo: Leiden University Library, KITLV collection, A1085"
+                                ]
+                            },
+                            "label": {
+                                "en": [
+                                    "Villa Isola"
+                                ]
+                            }
+                        }
+                    ],
+                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/e3cc7dad-2153-3d66-0294-9758db18fe38"
+                }
+            ],
+            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa",
+            "summary": {
+                "en": [
+                    "The brothers Charles and Richard Schoemaker started their architectural career at the Royal Netherlands East Indies Army (KNIL). Their early designs in the East Indies were heavily influenced by the architecture of Frank Lloyd Wright and showed little consideration for the Indonesian context.",
+                    "While Richard’s oeuvre remained functional and sober throughout, Charles later manifested himself as a flamboyant artist, who adopted a wide variety of both commissions and styles. His Bandung designs vary from the Art Deco Villa Isola to the protestant Bethelkerk and the Cipaganti mosque.",
+                    "Villa Isola was designed for the Dutch media tycoon Dominique Willem Berretty, founder of the Aneta press-agency in the Dutch East Indies. The circular complex, which included a vast garden, took inspiration from both modern Art Deco and ancient Hindu temple architecture. The building now serves as the headmastership office of the Indonesia University of Education."
+                ]
+            },
+            "behavior": [
+                "right",
+                "w-12",
+                "h-6"
+            ],
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": [
+                        {
+                            "type": "ImageService2",
+                            "id": "https://dlc.services/thumbs/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c",
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "width": 1024,
+                            "height": 725,
+                            "sizes": [
+                                {
+                                    "width": 100,
+                                    "height": 71
+                                },
+                                {
+                                    "width": 200,
+                                    "height": 142
+                                },
+                                {
+                                    "width": 400,
+                                    "height": 283
+                                },
+                                {
+                                    "width": 1024,
+                                    "height": 725
+                                }
+                            ]
+                        }
+                    ],
+                    "format": "image/jpg"
+                }
+            ]
+        },
+        {
+            "label": {
+                "en": [
+                    "Technische Hogeschool"
+                ]
+            },
+            "height": 750,
+            "width": 1000,
+            "type": "Canvas",
+            "items": [
+                {
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "motivation": "painting",
+                            "type": "Annotation",
+                            "body": {
+                                "id": "https://dlc.services/iiif-img/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 3024,
+                                "width": 4032,
+                                "label": {
+                                    "en": [
+                                        "-"
+                                    ]
+                                },
+                                "service": [
+                                    {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 4032,
+                                        "height": 3024,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 768
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 75
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/81e70062-e9c3-d545-93e4-0de163903fa2",
+                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d#xywh=0,0,1000,750",
+                            "summary": {
+                                "en": [
+                                    "Photo: Abel Streefland"
+                                ]
+                            },
+                            "label": {
+                                "en": [
+                                    "Bandung Institute of Technology"
+                                ]
+                            }
+                        }
+                    ],
+                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/364ee59f-1c19-89c9-4ee4-be85b3c0b13f"
+                }
+            ],
+            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d",
+            "behavior": [
+                "left",
+                "w-12",
+                "h-6"
+            ],
+            "summary": {
+                "en": [
+                    "Henri Maclaine Pont (1884 – 1971) was born on Java in the Dutch East Indies and studied architecture in Delft from 1902-09. After his studies he returned to the East Indies and worked as a designer for the Semarang-Cheribon steam tram company in Semarang. Maclaine Pont was fascinated by indigenous building techniques and trained local craftsmen to work on his buildings.",
+                    "In 1918, Maclaine Pont was asked to design the campus for the newly founded technical college in Bandung, the first institute of higher technical learning in the Dutch colony. His preliminary plans were inspired by Javanese palace complexes (kratons) in Solo and Yogjakarta. For the first two buildings, he took inspiration from the traditional Sumatran Minangkabau roof system. The buildings are still in use today by ITB."
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": [
+                        {
+                            "type": "ImageService2",
+                            "id": "https://dlc.services/thumbs/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab",
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "width": 1024,
+                            "height": 768,
+                            "sizes": [
+                                {
+                                    "width": 100,
+                                    "height": 75
+                                },
+                                {
+                                    "width": 200,
+                                    "height": 150
+                                },
+                                {
+                                    "width": 400,
+                                    "height": 300
+                                },
+                                {
+                                    "width": 1024,
+                                    "height": 768
+                                }
+                            ]
+                        }
+                    ],
+                    "format": "image/jpg"
+                }
+            ]
+        },
+        {
+            "label": {
+                "en": [
+                    "Cikapundung Craft Community"
+                ]
+            },
+            "height": 640,
+            "width": 999,
+            "type": "Canvas",
+            "items": [
+                {
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "motivation": "painting",
+                            "type": "Annotation",
+                            "body": {
+                                "id": "https://dlc.services/iiif-img/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2467,
+                                "width": 3850,
+                                "label": {
+                                    "en": [
+                                        "-"
+                                    ]
+                                },
+                                "service": [
+                                    {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 3850,
+                                        "height": 2467,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 656
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 256
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 128
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 64
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/91a8a06a-d874-512c-48a6-f7708d5da64f",
+                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a#xywh=0,0,999,640",
+                            "summary": {
+                                "en": [
+                                    "Artist’s impression: Céline Mugica"
+                                ]
+                            },
+                            "label": {
+                                "en": [
+                                    "Cikapundung Craft Community"
+                                ]
+                            }
+                        }
+                    ],
+                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/44ad2c73-716f-8c24-d88b-79ad3c31a975"
+                }
+            ],
+            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a",
+            "behavior": [
+                "right",
+                "w-12",
+                "h-6"
+            ],
+            "summary": {
+                "en": [
+                    "Shared Heritage Lab is a three-year cross-domain collaboration between TU Delft’s Faculty of Architecture and the Built Environment and the School of Architecture, Planning & Policy Development of ITB. The city of Bandung served as one of the Lab’s case studies.",
+                    "In their projects, students connected contemporary themes such as climate, habitat and building culture to the regeneration of existing buildings and neighborhoods. Céline Mugica’s project takes the existing Cikapundung market as point of departure, connecting it to the theme of building culture.",
+                    "By transforming the building into a shared workspace for local craftsmen, she envisions a knowledge community in which new technologies such as CNC milling are used to strengthen local traditions. The expressive architectural design of the new roof reflects this ambition."
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": [
+                        {
+                            "type": "ImageService2",
+                            "id": "https://dlc.services/thumbs/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3",
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "width": 1024,
+                            "height": 656,
+                            "sizes": [
+                                {
+                                    "width": 100,
+                                    "height": 64
+                                },
+                                {
+                                    "width": 200,
+                                    "height": 128
+                                },
+                                {
+                                    "width": 400,
+                                    "height": 256
+                                },
+                                {
+                                    "width": 1024,
+                                    "height": 656
+                                }
+                            ]
+                        }
+                    ],
+                    "format": "image/jpg"
+                }
+            ]
+        }
+    ],
+    "id": "https://heritage.tudelft.nl/iiif/bandoeng-bandung/manifest",
+    "homepage": [
+        {
+            "id": "https://heritage.tudelft.nl/nl/exhibitions/bandoeng-bandung",
+            "type": "Text",
+            "format": "text/html",
+            "language": [
+                "nl"
+            ]
+        },
+        {
+            "id": "https://heritage.tudelft.nl/en/exhibitions/bandoeng-bandung",
+            "type": "Text",
+            "format": "text/html",
+            "language": [
+                "en"
+            ]
+        }
     ]
-  },
-  "items": [
-    {
-      "label": {
-        "en": [
-          "Introduction"
-        ]
-      },
-      "height": 1000,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "type": "Annotation",
-              "body": {
-                "type": "TextualBody",
-                "value": "new annotation",
-                "format": "text/plain",
-                "language": "en",
-                "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/textualbody/a3ba7f54-4f49-14c3-25da-fa0586b086d1"
-              },
-              "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768#xywh=0,0,300,200",
-              "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/674ce695-eaca-e67f-2664-d83873bd4eaa",
-              "motivation": "painting",
-              "summary": {
-                "en": [
-                  "<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>"
-                ]
-              },
-              "label": {
-                "en": [
-                  "Bandoeng – Bandung"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/bc215a2e-967a-9f3e-6fb0-5b20784d4d9d"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768",
-      "summary": {
-        "en": [
-          "TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).",
-          "NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021."
-        ]
-      },
-      "behavior": [
-        "info",
-        "info",
-        "w-4",
-        "h-4"
-      ]
-    },
-    {
-      "label": {
-        "en": [
-          "Villa Isola"
-        ]
-      },
-      "height": 707,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2780,
-                "width": 3929,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 3929,
-                  "height": 2780,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 725
-                    },
-                    {
-                      "width": 400,
-                      "height": 283
-                    },
-                    {
-                      "width": 200,
-                      "height": 142
-                    },
-                    {
-                      "width": 100,
-                      "height": 71
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 725,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 71
-                      },
-                      {
-                        "width": 200,
-                        "height": 142
-                      },
-                      {
-                        "width": 400,
-                        "height": 283
-                      },
-                      {
-                        "width": 1024,
-                        "height": 725
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/1bee9944-4dbe-47b2-00fa-95af763ef106",
-              "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa#xywh=0,0,1000,707",
-              "summary": {
-                "en": [
-                  "Photo: Leiden University Library, KITLV collection, A1085"
-                ]
-              },
-              "label": {
-                "en": [
-                  "Villa Isola"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/e3cc7dad-2153-3d66-0294-9758db18fe38"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa",
-      "summary": {
-        "en": [
-          "The brothers Charles and Richard Schoemaker started their architectural career at the Royal Netherlands East Indies Army (KNIL). Their early designs in the East Indies were heavily influenced by the architecture of Frank Lloyd Wright and showed little consideration for the Indonesian context.",
-          "While Richard’s oeuvre remained functional and sober throughout, Charles later manifested himself as a flamboyant artist, who adopted a wide variety of both commissions and styles. His Bandung designs vary from the Art Deco Villa Isola to the protestant Bethelkerk and the Cipaganti mosque.",
-          "Villa Isola was designed for the Dutch media tycoon Dominique Willem Berretty, founder of the Aneta press-agency in the Dutch East Indies. The circular complex, which included a vast garden, took inspiration from both modern Art Deco and ancient Hindu temple architecture. The building now serves as the headmastership office of the Indonesia University of Education."
-        ]
-      },
-      "behavior": [
-        "right",
-        "w-12",
-        "h-6"
-      ]
-    },
-    {
-      "label": {
-        "en": [
-          "Technische Hogeschool"
-        ]
-      },
-      "height": 750,
-      "width": 1000,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 3024,
-                "width": 4032,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 4032,
-                  "height": 3024,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 768
-                    },
-                    {
-                      "width": 400,
-                      "height": 300
-                    },
-                    {
-                      "width": 200,
-                      "height": 150
-                    },
-                    {
-                      "width": 100,
-                      "height": 75
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 768,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 75
-                      },
-                      {
-                        "width": 200,
-                        "height": 150
-                      },
-                      {
-                        "width": 400,
-                        "height": 300
-                      },
-                      {
-                        "width": 1024,
-                        "height": 768
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/81e70062-e9c3-d545-93e4-0de163903fa2",
-              "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d#xywh=0,0,1000,750",
-              "summary": {
-                "en": [
-                  "Photo: Abel Streefland"
-                ]
-              },
-              "label": {
-                "en": [
-                  "Bandung Institute of Technology"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/364ee59f-1c19-89c9-4ee4-be85b3c0b13f"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d",
-      "behavior": [
-        "left",
-        "w-12",
-        "h-6"
-      ],
-      "summary": {
-        "en": [
-          "Henri Maclaine Pont (1884 – 1971) was born on Java in the Dutch East Indies and studied architecture in Delft from 1902-09. After his studies he returned to the East Indies and worked as a designer for the Semarang-Cheribon steam tram company in Semarang. Maclaine Pont was fascinated by indigenous building techniques and trained local craftsmen to work on his buildings.",
-          "In 1918, Maclaine Pont was asked to design the campus for the newly founded technical college in Bandung, the first institute of higher technical learning in the Dutch colony. His preliminary plans were inspired by Javanese palace complexes (kratons) in Solo and Yogjakarta. For the first two buildings, he took inspiration from the traditional Sumatran Minangkabau roof system. The buildings are still in use today by ITB."
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Cikapundung Craft Community"
-        ]
-      },
-      "height": 640,
-      "width": 999,
-      "type": "Canvas",
-      "items": [
-        {
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "motivation": "painting",
-              "type": "Annotation",
-              "body": {
-                "id": "https://dlc.services/iiif-img/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2467,
-                "width": 3850,
-                "label": {
-                  "en": [
-                    "-"
-                  ]
-                },
-                "service": {
-                  "type": "ImageService2",
-                  "id": "https://dlc.services/iiif-img/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3",
-                  "protocol": "http://iiif.io/api/image",
-                  "width": 3850,
-                  "height": 2467,
-                  "tiles": [
-                    {
-                      "width": 256,
-                      "height": 256,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ]
-                    }
-                  ],
-                  "sizes": [
-                    {
-                      "width": 1024,
-                      "height": 656
-                    },
-                    {
-                      "width": 400,
-                      "height": 256
-                    },
-                    {
-                      "width": 200,
-                      "height": 128
-                    },
-                    {
-                      "width": 100,
-                      "height": 64
-                    }
-                  ],
-                  "profile": [
-                    "http://iiif.io/api/image/2/level1.json",
-                    {
-                      "formats": [
-                        "jpg"
-                      ],
-                      "qualities": [
-                        "native",
-                        "color",
-                        "gray"
-                      ],
-                      "supports": [
-                        "regionByPct",
-                        "sizeByForcedWh",
-                        "sizeByWh",
-                        "sizeAboveFull",
-                        "rotationBy90s",
-                        "mirroring",
-                        "gray"
-                      ]
-                    }
-                  ]
-                }
-              },
-              "thumbnail": [
-                {
-                  "id": "https://dlc.services/thumbs/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3/full/full/0/default.jpg",
-                  "type": "Image",
-                  "service": {
-                    "type": "ImageService2",
-                    "id": "https://dlc.services/thumbs/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3",
-                    "protocol": "http://iiif.io/api/image",
-                    "profile": [
-                      "http://iiif.io/api/image/2/level0.json",
-                      {
-                        "formats": [
-                          "jpg"
-                        ],
-                        "qualities": [
-                          "color"
-                        ],
-                        "supports": [
-                          "sizeByWhListed"
-                        ]
-                      }
-                    ],
-                    "width": 1024,
-                    "height": 656,
-                    "sizes": [
-                      {
-                        "width": 100,
-                        "height": 64
-                      },
-                      {
-                        "width": 200,
-                        "height": 128
-                      },
-                      {
-                        "width": 400,
-                        "height": 256
-                      },
-                      {
-                        "width": 1024,
-                        "height": 656
-                      }
-                    ]
-                  }
-                }
-              ],
-              "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/91a8a06a-d874-512c-48a6-f7708d5da64f",
-              "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a#xywh=0,0,999,640",
-              "summary": {
-                "en": [
-                  "Artist’s impression: Céline Mugica"
-                ]
-              },
-              "label": {
-                "en": [
-                  "Cikapundung Craft Community"
-                ]
-              }
-            }
-          ],
-          "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/44ad2c73-716f-8c24-d88b-79ad3c31a975"
-        }
-      ],
-      "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a",
-      "behavior": [
-        "right",
-        "w-12",
-        "h-6"
-      ],
-      "summary": {
-        "en": [
-          "Shared Heritage Lab is a three-year cross-domain collaboration between TU Delft’s Faculty of Architecture and the Built Environment and the School of Architecture, Planning & Policy Development of ITB. The city of Bandung served as one of the Lab’s case studies.",
-          "In their projects, students connected contemporary themes such as climate, habitat and building culture to the regeneration of existing buildings and neighborhoods. Céline Mugica’s project takes the existing Cikapundung market as point of departure, connecting it to the theme of building culture.",
-          "By transforming the building into a shared workspace for local craftsmen, she envisions a knowledge community in which new technologies such as CNC milling are used to strengthen local traditions. The expressive architectural design of the new roof reflects this ambition."
-        ]
-      }
-    }
-  ],
-  "id": "https://heritage.tudelft.nl/iiif/bandoeng-bandung/manifest"
 }

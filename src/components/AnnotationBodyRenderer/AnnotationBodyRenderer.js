@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { isImageService } from '@iiif/parser/image-3';
+import { createImageRequest } from '../../helpers/create-image-request';
+import {
+  parseRegionParameter,
+  parseImageServiceRequest,
+} from '@iiif/parser/image-3';
 
 const filterToPreferredChoices = (choices, pageLanguage = 'en') =>
   choices.filter(
@@ -43,39 +49,105 @@ const IIIFImageAnnotationCover = ({
   position,
   annotation,
   canvas,
+  selector,
   canvasSize: canvasPhysicalSize = { width: 1200, height: 1200 },
 }) => {
   if (!body) {
     return 'error';
   }
+
+  if (!selector) {
+    selector = { region: 'full' };
+  }
   if (body.id) {
+    const services = Array.isArray(body.service)
+      ? body.service
+      : [body.service];
+    const service = services.find(isImageService);
+
+    if (service) {
+      const parsed = parseImageServiceRequest(body.id);
+      const parsedRegion = parseRegionParameter(selector.region);
+      const sizes = [1000, 800, 500, 250];
+      const sources = [];
+      for (const size of sizes) {
+        sources.push(
+          <source
+            key={size}
+            media={`max-width: ${size}px`}
+            srcSet={createImageRequest(
+              service,
+              { full: false, confined: true, width: size, height: size },
+              parsedRegion,
+              parsed?.quality
+            )}
+          />
+        );
+      }
+
+      return (
+        <picture style={position}>
+          {sources}
+          <img
+            src={createImageRequest(
+              service,
+              { full: false, confined: true, width: 1000, height: 1000 },
+              parsedRegion,
+              parsed?.quality
+            )}
+            alt={body.id}
+            style={{ width: 'auto' }}
+          />
+        </picture>
+      );
+    }
+
     const imageRelativeSize = imageCanvasRealiveSize(body.id, canvas);
     canvasPhysicalSize.width /= imageRelativeSize.width;
     canvasPhysicalSize.height /= imageRelativeSize.height;
+
     return (
       <picture>
         <source
           media={'max-width: 980px'}
-          srcSet={body.id.replace('/full/full/', `/full/!1000,1000/`)}
+          srcSet={body.id.replace(
+            '/full/full/',
+            `/${selector.region}/!1000,1000/`
+          )}
         />
         <source
           media={'max-width: 700px'}
-          srcSet={body.id.replace('/full/full/', `/full/!800,800/`)}
+          srcSet={body.id.replace(
+            '/full/full/',
+            `/${selector.region}/!800,800/`
+          )}
         />
         <source
           media={'max-width: 600px'}
-          srcSet={body.id.replace('/full/full/', `/full/!600,600/`)}
+          srcSet={body.id.replace(
+            '/full/full/',
+            `/${selector.region}/!600,600/`
+          )}
         />
         <source
           media={'max-width: 480px'}
-          srcSet={body.id.replace('/full/full/', `/full/!500,500/`)}
+          srcSet={body.id.replace(
+            '/full/full/',
+            `/${selector.region}/!500,500/`
+          )}
         />
         <source
           media={'max-width: 320px'}
-          srcSet={body.id.replace('/full/full/', `/full/!250,250/`)}
+          srcSet={body.id.replace(
+            '/full/full/',
+            `/${selector.region}/!250,250/`
+          )}
         />
         <img
-          src={body.id.replace('/full/full/', `/full/!1000,1000/`)}
+          src={body.id.replace(
+            '/full/full/',
+            `/${selector.region}/!1000,1000/`
+          )}
           style={position}
           alt={body.id}
         />
@@ -200,6 +272,12 @@ export const AnnotationBodyRenderer = ({
   canvas,
   canvasSize,
 }) => {
+  let selector = null;
+  if (body.type === 'SpecificResource') {
+    selector = body.selector;
+    body = body.source;
+  }
+
   switch (body.type) {
     case 'Choice':
       return filterToPreferredChoices(body.items, pageLanguage).map(
@@ -229,6 +307,7 @@ export const AnnotationBodyRenderer = ({
           annotation={annotation}
           canvas={canvas}
           canvasSize={canvasSize}
+          selector={selector}
         />
       );
     case 'Text':

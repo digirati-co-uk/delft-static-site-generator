@@ -7,10 +7,25 @@ import { IIIFLink } from '../../components/IIIFLink/IIIFLink';
 import { Arrow } from '../../components/Arrow/Arrow';
 import { getTranslation as translate, getPageLanguage } from '../../utils';
 import { AnnotationBodyRenderer } from '../../components/AnnotationBodyRenderer/AnnotationBodyRenderer';
+import { InfoPanel } from '../../components/InfoPanel';
 
 const xywhResolver = (annotation, canvas) => {
-  if (annotation.target) {
-    const xywhMatch = annotation.target.match(/xywh=(\d+),(\d+),(\d+),(\d+)/);
+  let target = annotation.target;
+  if (target) {
+    // Although this is correct to find the XYWH, it's not for this case. If this function returns then a red box will
+    // be drawn around images.
+    if (target.type === 'Annotation') {
+      return { display: 'none' };
+    }
+    // const type = target.type;
+    // if (type === "Annotation") {
+    //   const found = canvas.items[0].items.find(anno => anno.id === annotation.target.id);
+    //   if (found) {
+    //     target = found.target;
+    //   }
+    // }
+
+    const xywhMatch = target.match(/xywh=(\d+),(\d+),(\d+),(\d+)/);
     if (xywhMatch) {
       const _x = parseInt(xywhMatch[1], 10);
       const _y = parseInt(xywhMatch[2], 10);
@@ -58,7 +73,7 @@ class ExhibitionPage extends React.Component {
     };
   }
 
-  showCanvasDetails = (canvas, annotationDetails) => () => {
+  showCanvasDetails = (canvas, annotationObjectReference) => () => {
     const { pageContext: manifest, path } = this.props;
     const pageLanguage = getPageLanguage(path);
     this.setState({
@@ -68,7 +83,7 @@ class ExhibitionPage extends React.Component {
           manifest={manifest}
           hideCanvasDetails={this.hideCanvasDetails}
           pageLanguage={pageLanguage}
-          annotationDetails={annotationDetails}
+          annotationObjectReference={annotationObjectReference}
         />
       ),
     });
@@ -103,13 +118,7 @@ class ExhibitionPage extends React.Component {
 
   renderCanvasBody = (canvas, pageLanguage) => (
     <React.Fragment>
-      {canvas.thumbnail && canvas.thumbnail.length > 0 ? (
-        <AnnotationBodyRenderer
-          body={canvas.thumbnail[0]}
-          pageLanguage={pageLanguage}
-        />
-      ) : (
-        canvas.items &&
+      {canvas.items &&
         (canvas.items[0].items || []).map((annotation, idx) =>
           this.renderAnnotation(
             annotation,
@@ -117,8 +126,7 @@ class ExhibitionPage extends React.Component {
             pageLanguage,
             canvas
           )
-        )
-      )}
+        )}
       {canvas.annotations &&
         (canvas.annotations[0].items || []).map((annotation, idx) =>
           this.renderAnnotation(
@@ -137,7 +145,7 @@ class ExhibitionPage extends React.Component {
         className="canvas-preview__flex"
         onClick={this.showCanvasDetails(
           canvas,
-          this.props.pageContext.annotationDetails
+          this.props.pageContext.annotationObjectReference
         )}
         style={{
           display: 'block',
@@ -329,6 +337,7 @@ class ExhibitionPage extends React.Component {
     const { pageContext: manifest, path } = this.props;
     const pageLanguage = getPageLanguage(path);
     const { renderCanvasModal } = this.state;
+
     return (
       <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
@@ -356,35 +365,29 @@ class ExhibitionPage extends React.Component {
               manifest.items.map((canvas, idx) =>
                 (canvas.behavior || []).indexOf('info') !== -1 ? (
                   <div className={this.getBlockClasses(canvas)}>
-                    <div className="boxtitle">
-                      {translate(
-                        canvas.label || { en: ['About'], nl: ['Over'] },
-                        pageLanguage,
-                        '\n'
-                      ).toUpperCase()}
-                    </div>
+                    {/*<div className="boxtitle">*/}
+                    {/*  {translate(*/}
+                    {/*    canvas.label || { en: ['About'], nl: ['Over'] },*/}
+                    {/*    pageLanguage,*/}
+                    {/*    '\n'*/}
+                    {/*  ).toUpperCase()}*/}
+                    {/*</div>*/}
                     <div className="text">
-                      {translate(canvas.summary, pageLanguage, '\n')
-                        .split('\n')
-                        .map((paragraph) => (
-                          <p key={`about__${paragraph}`}>{paragraph}</p>
-                        ))}
-                      {
-                        <p>
-                          <button
-                            className="readmore"
-                            onClick={this.showCanvasDetails(canvas)}
-                          >
-                            {translate(
-                              {
-                                en: ['Read more'],
-                                nl: ['Verder lezen'],
-                              },
-                              pageLanguage
-                            )}
-                          </button>
-                        </p>
-                      }
+                      <InfoPanel canvas={canvas} language={pageLanguage} />
+                      <p>
+                        <button
+                          className="readmore"
+                          onClick={this.showCanvasDetails(canvas)}
+                        >
+                          {translate(
+                            {
+                              en: ['Read more'],
+                              nl: ['Verder lezen'],
+                            },
+                            pageLanguage
+                          )}
+                        </button>
+                      </p>
                     </div>
                   </div>
                 ) : (
@@ -408,13 +411,13 @@ class ExhibitionPage extends React.Component {
                             <p>{translate(canvas.label, pageLanguage)}</p>
                           </div>
                           <div className="text">
-                            <p>
+                            <div>
                               {translate(canvas.summary, pageLanguage, '\n')
                                 .split('\n')
                                 .map((paragraph) => (
                                   <p key={`about__${idx}`}>{paragraph}</p>
                                 ))}
-                            </p>
+                            </div>
                             {canvas.requiredStatement && (
                               <div className="facts">
                                 {translate(

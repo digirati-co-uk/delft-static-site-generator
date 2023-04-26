@@ -1,3 +1,5 @@
+import { getValue } from '@iiif/vault-helpers';
+
 /**
  * The function replaces collection and exhibition links to display cover images
  * @param {String} html - html string to post process
