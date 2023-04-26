@@ -67,7 +67,7 @@ const IIIFImageAnnotationCover = ({
 
     if (service) {
       const parsed = parseImageServiceRequest(body.id);
-      const parsedRegion = parseRegionParameter(selector.region);
+      const parsedRegion = parseRegionParameter(selector.region || 'full');
       const sizes = [1000, 800, 500, 250];
       const sources = [];
       for (const size of sizes) {
