@@ -20,7 +20,7 @@ The academic heritage team consists of:
 - [Sylvia Nijhuis](https://www.tudelft.nl/staff/s.m.nijhuis/) (Curator Museum Collection)
 - [Charlotte Rixten](https://www.linkedin.com/in/rixten/) (Head)
 - [Marietje Ruijgrok](https://www.tudelft.nl/staff/m.c.j.ruijgrok/) (Curator Trésor)
-- [Jules Schoonman](https://www.tudelft.nl/staff/j.a.schoonman/) (Policy advisor for presentation)
+- [Jules Schoonman](https://www.tudelft.nl/staff/j.a.schoonman/) (Digital Curator)
 - [Abel Streefland](https://www.tudelft.nl/staff/a.h.streefland/) (University historian)
 
 For more information, please contact [TU Delft Library](https://www.tudelft.nl/en/library/about-the-library/contact-and-map).
