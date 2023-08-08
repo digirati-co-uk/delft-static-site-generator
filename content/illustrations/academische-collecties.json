@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dlc.services/iiif-resource/7/string1string2string3/academische-collecties",
+  "type": "Manifest",
+  "label": {
+    "nl": [
+      "Modellen uit de Architecture Collections"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=academische-collecties&n1=&n2=0",
+      "type": "Canvas",
+      "height": 3065,
+      "width": 4598,
+      "thumbnail": [
+        {
+          "id": "https://dlc.services/thumbs/7/21/d4de4d6e-cd3a-4a5a-8b1c-a15a0ff4e9e7/full/full/0/default.jpg",
+          "type": "Image",
+          "service": [
+            {
+              "@id": "https://apex.dlc.services/thumbs/7/21/d4de4d6e-cd3a-4a5a-8b1c-a15a0ff4e9e7",
+              "@type": "ImageService2",
+              "profile": "level2",
+              "width": 1024,
+              "height": 683,
+              "sizes": [
+                {
+                  "width": 1024,
+                  "height": 683
+                },
+                {
+                  "width": 400,
+                  "height": 267
+                },
+                {
+                  "width": 200,
+                  "height": 133
+                },
+                {
+                  "width": 100,
+                  "height": 67
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=academische-collecties&n1=&n2=0/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlc.services/iiif-img/7/21/d4de4d6e-cd3a-4a5a-8b1c-a15a0ff4e9e7/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://dlc.services/iiif-query/7/?canvas=n2&manifest=s1&sequence=n1&s1=academische-collecties&n1=&n2=0",
+              "label": {
+                "nl": [
+                  "Modellen uit de Architecture Collections"
+                ]
+              },
+              "body": {
+                "id": "https://dlc.services/iiif-img/7/21/d4de4d6e-cd3a-4a5a-8b1c-a15a0ff4e9e7/full/!2000,2000/0/default.jpg",
+                "type": "Image",
+                "height": 3065,
+                "width": 4598,
+                "service": [
+                  {
+                    "@id": "https://dlc.services/iiif-img/7/21/d4de4d6e-cd3a-4a5a-8b1c-a15a0ff4e9e7",
+                    "@type": "ImageService2",
+                    "profile": "level2",
+                    "protocol": "http://iiif.io/api/image",
+                    "height": 3065,
+                    "width": 4598
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
