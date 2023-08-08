@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../../components/Layout/layout';
-import GithubLink from '../../components/GithubLink/GithubLink';
+// import GithubLink from '../../components/GithubLink/GithubLink';
 import substituteSpecialLinks, { getPageLanguage } from '../../utils';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { MDXProvider } from '@mdx-js/react';
@@ -123,14 +123,14 @@ const Markdown = ({ pageContext, data, path }) => {
                   <div className="boxtitle">Article</div>
                   <div className="maintitle">
                     {title}
-                    <GithubLink href={path} />
+                    {/* <GithubLink href={path}/> */}
                   </div>
                   <div className="caption">{author}</div>
                 </div>
                 <div className="block info cutcorners w-4 h-4 ">
                   <div className="caption">Table of Contents</div>
                   <ul>
-                    {toc.items
+                    {toc && toc.items
                       ? toc.items.map((item) => {
                           return (
                             <li style={{ padding: '3px' }} key={item.url}>
