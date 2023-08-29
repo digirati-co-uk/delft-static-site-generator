@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Model van treinlocomotief 2b door W.J Rohrbeck"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Locomotief"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "1991.0017.TMD"
+        },
+        {
+            "label": "Datering",
+            "value": "1890"
+        },
+        {
+            "label": "Maker",
+            "value": "W.J. Rohrbeck  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "517,0 (h)  * 1.350,0 (b)  * 350,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal"
+        },
+        {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2761369\">Wenen, Oostenrijk<\/a>"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Schaalmodel van de sneltreinlocomotief type 2B, die rond de eeuwwisseling in gebruik was bij de Kaiserlich-Köningliche Österreichische Staats-Eisenbahnen op het traject Wenen - Salzburg - Wörgl in Tirol. Deze locomotieven werden gebouwd door een kleine Weense firma, de Wiener Lokomotivfabrik. Dit model is vervaardigd door W.J. Rohrbeck te Wenen. Het stond vroeger op de tekenzaal van Werktuigbouwkunde (volgens Ton Pruissen)."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/a9310bf3-8102-4116-87ba-79463e956e8c/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/9da48b3e-aeba-469d-8d6b-43fed8fe252c/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/9da48b3e-aeba-469d-8d6b-43fed8fe252c/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/9da48b3e-aeba-469d-8d6b-43fed8fe252c.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1184,
+                        "@id": "https://dlc.services/iiif-img/7/18/a9310bf3-8102-4116-87ba-79463e956e8c",
+                        "height": 779
+                    },
+                    "width": 1184,
+                    "@id": "https://dlc.services/iiif-img/7/18/a9310bf3-8102-4116-87ba-79463e956e8c/full/1024,674/0/default.jpg",
+                    "height": 779
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/a9310bf3-8102-4116-87ba-79463e956e8c/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/a9310bf3-8102-4116-87ba-79463e956e8c/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 674
+                        },
+                        {
+                            "width": 400,
+                            "height": 263
+                        },
+                        {
+                            "width": 200,
+                            "height": 132
+                        },
+                        {
+                            "width": 100,
+                            "height": 66
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/a9310bf3-8102-4116-87ba-79463e956e8c",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 674
+                },
+                "@id": "https://dlc.services/thumbs/7/18/a9310bf3-8102-4116-87ba-79463e956e8c/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1184,
+            "@id": "https://dlc.services/iiif-img/7/18/a9310bf3-8102-4116-87ba-79463e956e8c/canvas/c0",
+            "label": "Image",
+            "height": 779
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/9da48b3e-aeba-469d-8d6b-43fed8fe252c/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

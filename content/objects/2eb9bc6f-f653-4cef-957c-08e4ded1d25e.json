@@ -1,0 +1,111 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Portable computer"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Computer"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2016.0259.LIB"
+        },
+        {
+            "label": "Datering",
+            "value": "1989"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "360,0 (h)  * 330,0 (b)  * 390,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "kunststof, metaal"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Draagbare computer van Chicony electronics Co. Ltd Taiwan model LT3600"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/2eb9bc6f-f653-4cef-957c-08e4ded1d25e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/2eb9bc6f-f653-4cef-957c-08e4ded1d25e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/2eb9bc6f-f653-4cef-957c-08e4ded1d25e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 5184,
+                        "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2",
+                        "height": 3456
+                    },
+                    "width": 5184,
+                    "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/full/1024,683/0/default.jpg",
+                    "height": 3456
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 5184,
+            "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/canvas/c0",
+            "label": "Image",
+            "height": 3456
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/2eb9bc6f-f653-4cef-957c-08e4ded1d25e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

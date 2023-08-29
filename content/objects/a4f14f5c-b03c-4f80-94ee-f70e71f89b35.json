@@ -1,0 +1,115 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Gasontwikkelingsapparaat door Kipp & Zonen"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "Toestel van Kipp"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2003.0001.TMD"
+        },
+        {
+            "label": "Datering",
+            "value": "1925 - 1950"
+        },
+        {
+            "label": "Maker",
+            "value": "Kipp & Zonen  (producent)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "570,0 (h)  * 270,0 (b)  * 217,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "glas, rubber"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Gasontwikkelingsapparaat door Kipp & Zonen, ook wel 'Toestel van Kipp' genoemd. Het wordt gebruikt om gassen te maken, zoals waterstof, zwavelwaterstof en kooldioxide. Dit wordt bereid door de chemische reactie van een vloeibaar zuur met een vaste stof. Het bestaat uit drie glazen bollen boven elkaar. Tussen deze bollen bestaan verbindingen. Het bovenste en het onderste vat bevatten een vloeistof, die reageert met de vaste stof in de middelste bol. De reactie stopt als geen gasmengsel meer wordt afgenomen.<\/br>Uitgevonden door Kipp in 1844. Op afbeeldingen van vroege modellen is te zien dat de onderste ruimte bol is. Vermoedelijk zal de onderste ruimte bij vroege modellen bol zijn en bij latere modellen een andere vorm hebben. "
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/a4f14f5c-b03c-4f80-94ee-f70e71f89b35/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/a4f14f5c-b03c-4f80-94ee-f70e71f89b35/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/a4f14f5c-b03c-4f80-94ee-f70e71f89b35.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 3072,
+                        "@id": "https://dlc.services/iiif-img/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7",
+                        "height": 2048
+                    },
+                    "width": 3072,
+                    "@id": "https://dlc.services/iiif-img/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7/full/1024,683/0/default.jpg",
+                    "height": 2048
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 3072,
+            "@id": "https://dlc.services/iiif-img/7/18/95fa4907-4ea9-4c22-a6bd-84ce50ef52a7/canvas/c0",
+            "label": "Image",
+            "height": 2048
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/a4f14f5c-b03c-4f80-94ee-f70e71f89b35/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

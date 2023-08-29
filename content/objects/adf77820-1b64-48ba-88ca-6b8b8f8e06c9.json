@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Toerenteller door Th. Horn"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "toerenteller"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2000.0102.EWI"
+        },
+        {
+            "label": "Datering",
+            "value": "1900 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Horn, Th.  (maker)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "32,0 (h)  * 130,0 (b)  * 60,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "metaal, glas, hout, textiel"
+        },
+        {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2879139\">Leipzig, Duitsland<\/a>"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Mechanische toerenteller met drie bereiken, geproduceerd door Th. Horn in Leipzig. Het instrument is voorzien van een waterpas en is gevat in zwart kistje."
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/ebee86a8-4a5e-4501-b997-8e5721315488/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/adf77820-1b64-48ba-88ca-6b8b8f8e06c9/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/adf77820-1b64-48ba-88ca-6b8b8f8e06c9/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/adf77820-1b64-48ba-88ca-6b8b8f8e06c9.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1600,
+                        "@id": "https://dlc.services/iiif-img/7/18/ebee86a8-4a5e-4501-b997-8e5721315488",
+                        "height": 1200
+                    },
+                    "width": 1600,
+                    "@id": "https://dlc.services/iiif-img/7/18/ebee86a8-4a5e-4501-b997-8e5721315488/full/1024,768/0/default.jpg",
+                    "height": 1200
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/ebee86a8-4a5e-4501-b997-8e5721315488/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/ebee86a8-4a5e-4501-b997-8e5721315488/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 768
+                        },
+                        {
+                            "width": 400,
+                            "height": 300
+                        },
+                        {
+                            "width": 200,
+                            "height": 150
+                        },
+                        {
+                            "width": 100,
+                            "height": 75
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/ebee86a8-4a5e-4501-b997-8e5721315488",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 768
+                },
+                "@id": "https://dlc.services/thumbs/7/18/ebee86a8-4a5e-4501-b997-8e5721315488/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1600,
+            "@id": "https://dlc.services/iiif-img/7/18/ebee86a8-4a5e-4501-b997-8e5721315488/canvas/c0",
+            "label": "Image",
+            "height": 1200
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/adf77820-1b64-48ba-88ca-6b8b8f8e06c9/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
