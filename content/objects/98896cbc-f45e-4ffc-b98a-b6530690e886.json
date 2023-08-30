@@ -2,46 +2,38 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Laptop computer door Chicony Electronics Company model LT3600 "
+            "value": "Kristalmodellen van mineralen sfaleriet en chalcopyriet"
         },
         {
             "label": "Objectnaam",
-            "value": "Computer"
+            "value": "kristalmodel"
         },
         {
             "label": "Inventarisnummer",
-            "value": "2016.0259.LIB"
-        },
-        {
-            "label": "Datering",
-            "value": "1989"
+            "value": "2022.0017.CTG"
         },
         {
             "label": "Afmetingen",
-            "value": "360,0 (h)  * 330,0 (b)  * 390,0 (d) "
+            "value": "42 (h)  * 55 (b)  * 30 (d) "
         },
         {
             "label": "Materiaal",
-            "value": "kunststof, metaal"
-        },
-        {
-            "label": "Plaats vervaardiging",
-            "value": "<a href=\"https://www.geonames.org/1668341\">Taipei, Taiwan<\/a>"
+            "value": "hout, metaal, kunststof"
         },
         {
             "label": "Beschrijving",
-            "value": "Draagbare computer van Chicony Electronics Co. Ltd Taiwan model LT3600."
+            "value": "Het kleine model stelt een kristalrooster voor van het mineraal sfaleriet met als chemische formule ZnS en een kubische kristalstructuur. In het kristalmodel zijn de middelgrote grijze bollen zink (Zn) en de kleine gele bollen zwavel (S). <\/br>Het grote model is een weergave van het kristalrooster chalcopyriet. Het heeft CuFeS2 als chemische formule en heeft een tetragonale kristalstructuur. In dit kristalmodel zijn de grote rode bollen koper (Cu), de middelgrote blauwe bollen ijzer (Fe) en de kleine gele bollen zwavel (S)."
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/2eb9bc6f-f653-4cef-957c-08e4ded1d25e/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/31779c1e-131a-4989-b4e6-08de79dc365a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/98896cbc-f45e-4ffc-b98a-b6530690e886/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/2eb9bc6f-f653-4cef-957c-08e4ded1d25e/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/98896cbc-f45e-4ffc-b98a-b6530690e886/range/range-0-0.json",
         "label": "0"
     }],
-    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/2eb9bc6f-f653-4cef-957c-08e4ded1d25e.json",
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/98896cbc-f45e-4ffc-b98a-b6530690e886.json",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -53,17 +45,17 @@
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
                         "width": 5184,
-                        "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2",
+                        "@id": "https://dlc.services/iiif-img/7/18/31779c1e-131a-4989-b4e6-08de79dc365a",
                         "height": 3456
                     },
                     "width": 5184,
-                    "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/full/1024,683/0/default.jpg",
+                    "@id": "https://dlc.services/iiif-img/7/18/31779c1e-131a-4989-b4e6-08de79dc365a/full/1024,683/0/default.jpg",
                     "height": 3456
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/31779c1e-131a-4989-b4e6-08de79dc365a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/31779c1e-131a-4989-b4e6-08de79dc365a/canvas/c0"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -95,20 +87,20 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2",
+                    "@id": "https://dlc.services/thumbs/7/18/31779c1e-131a-4989-b4e6-08de79dc365a",
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 683
                 },
-                "@id": "https://dlc.services/thumbs/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/full/full/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/31779c1e-131a-4989-b4e6-08de79dc365a/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 5184,
-            "@id": "https://dlc.services/iiif-img/7/18/2373aae8-8715-4daa-87d2-9e8fdd23e4a2/canvas/c0",
+            "@id": "https://dlc.services/iiif-img/7/18/31779c1e-131a-4989-b4e6-08de79dc365a/canvas/c0",
             "label": "Image",
             "height": 3456
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/2eb9bc6f-f653-4cef-957c-08e4ded1d25e/sequences/normal",
+        "@id": "https://dlc.services/7/18/98896cbc-f45e-4ffc-b98a-b6530690e886/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"
