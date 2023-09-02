@@ -35,6 +35,10 @@
         {
             "label": "Beschrijving",
             "value": "Brunsviga 13RK handmatig bedienbare rekenmachine.Dit is een stevig geconstrueerde machine, met alle gebruikelijke Brunsviga-verfijningen zoals een controleregister, tientallen overdracht met een revolutie-teller en een terugtransfer. De schakelaar aan de rechterkant van de machine selecteert de opruimmodus. In de bovenste positie wist de bovenste hendel aan de rechterkant zowel de toerenteller als het invoerregister, en de middelste hendel aan de rechterkant wist alles. In de onderste stand wist de bovenste hendel alleen de toerenteller en de middelste hendel wist de toerenteller en het resultaatregister (accumulator). Alle registers kunnen afzonderlijk worden gewist met de schakelaar in de onderste positie. De terugtransfer werkt op precies dezelfde manier als de Brunsviga 20"
+        },
+        {
+            "label": "Documentatie",
+            "value": "Harkink, F., \"Inleiding Tot Het Praktisch Rekenen : Cijfervaardigheid, Het Afronden En Afbreken Van Getallen, Verkorte Bewerkingen, Interpolatie, Rekenhulpmiddelen, Het Rekenen Met Een Machine, Rekenautomaten\", 3e druk, Groningen: Noordhoff, 1960, pp. 174-180.<\/br>[Uitleg werking van de Brunsviga 18 RKW, vergelijkbaar model met de 13RK]"
         }
     ],
     "@type": "sc:Manifest",
@@ -52,6 +56,13 @@
             "@type": "sc:Range",
             "@id": "https://dlc.services/iiif-manifest/7/18/d8d9b568-9e90-44a0-83a7-afc2529fe8e5/range/range-0-1.json",
             "label": "1"
+        },
+        {
+            "canvases": ["https://dlc.services/iiif-img/7/18/13e37ece-2671-4002-a737-58552e1c4718/canvas/c0"],
+            "within": "https://dlc.services/iiif-manifest/7/18/d8d9b568-9e90-44a0-83a7-afc2529fe8e5/range/range-0.json",
+            "@type": "sc:Range",
+            "@id": "https://dlc.services/iiif-manifest/7/18/d8d9b568-9e90-44a0-83a7-afc2529fe8e5/range/range-0-2.json",
+            "label": "2"
         }
     ],
     "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/d8d9b568-9e90-44a0-83a7-afc2529fe8e5.json",
@@ -182,6 +193,68 @@
                 "@id": "https://dlc.services/iiif-img/7/18/21f9b6fa-35bb-456c-86ea-5c8d9868b3b0/canvas/c0",
                 "label": "Image",
                 "height": 2048
+            },
+            {
+                "images": [{
+                    "resource": {
+                        "@type": "dctypes:Image",
+                        "service": {
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": "http://iiif.io/api/image/2/level1.json",
+                            "width": 2005,
+                            "@id": "https://dlc.services/iiif-img/7/18/13e37ece-2671-4002-a737-58552e1c4718",
+                            "height": 2837
+                        },
+                        "width": 2005,
+                        "@id": "https://dlc.services/iiif-img/7/18/13e37ece-2671-4002-a737-58552e1c4718/full/724,1024/0/default.jpg",
+                        "height": 2837
+                    },
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "@id": "https://dlc.services/iiif-img/7/18/13e37ece-2671-4002-a737-58552e1c4718/imageanno/0",
+                    "on": "https://dlc.services/iiif-img/7/18/13e37ece-2671-4002-a737-58552e1c4718/canvas/c0"
+                }],
+                "thumbnail": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "sizes": [
+                            {
+                                "width": 724,
+                                "height": 1024
+                            },
+                            {
+                                "width": 283,
+                                "height": 400
+                            },
+                            {
+                                "width": 141,
+                                "height": 200
+                            },
+                            {
+                                "width": 71,
+                                "height": 100
+                            }
+                        ],
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": ["jpg"],
+                                "qualities": ["color"],
+                                "supports": ["sizeByWhListed"]
+                            }
+                        ],
+                        "width": 724,
+                        "@id": "https://dlc.services/thumbs/7/18/13e37ece-2671-4002-a737-58552e1c4718",
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "height": 1024
+                    },
+                    "@id": "https://dlc.services/thumbs/7/18/13e37ece-2671-4002-a737-58552e1c4718/full/full/0/default.jpg"
+                },
+                "@type": "sc:Canvas",
+                "width": 2005,
+                "@id": "https://dlc.services/iiif-img/7/18/13e37ece-2671-4002-a737-58552e1c4718/canvas/c0",
+                "label": "Image",
+                "height": 2837
             }
         ],
         "@type": "sc:Sequence",
