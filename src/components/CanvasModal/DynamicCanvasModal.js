@@ -14,7 +14,7 @@ DynamicCanvasModal.propTypes = {
   selectedCanvas: PropTypes.any,
   hideCanvasDetails: PropTypes.func.isRequired,
   pageLanguage: PropTypes.string.isRequired,
-  annotationDetails: PropTypes.any,
+  annotationObjectReference: PropTypes.any,
 };
 
 export default withLocation(DynamicCanvasModal);

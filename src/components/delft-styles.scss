@@ -161,7 +161,7 @@ main {
     font-weight: normal;
     font-style: normal;
   }
-  
+
   strong {
     font-family: 'f-medium';
     font-weight: normal;
@@ -539,8 +539,17 @@ h6 {
 
 .text {
   font-family: 'f-regular';
-}
 
+
+  h1, h2, h3 {
+    font-family: 'f-mono';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1.25em;
+    margin-bottom: 1.55em;
+  }
+}
 
 .caption {
   font-family: 'f-mono';

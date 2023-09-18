@@ -1,38 +1,26 @@
 // You can delete this file if you're not using it
 const path = require('path');
 const fs = require('fs');
-const Upgrader = require('iiif-prezi2to3');
+const objectIndex = require('./.build-cache/object-index.json');
 
-const upgrader = new Upgrader({ 'deref_links ': false });
 const TRANSLATIONS = ['en', 'nl'];
 const IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE =
   'http://iiif.io/api/presentation/3/context.json';
 
 const createTranslatedPage = (params, createPage) =>
-  TRANSLATIONS.forEach(language =>
+  TRANSLATIONS.forEach((language) =>
     createPage({
       ...params,
       path: `${language}/${params.path}`,
     })
   );
 
-const convertToV3ifNecessary = manifest => {
-  const context = manifest['@context'];
-  const isNotP3 =
-    context &&
-    ((context.constructor === Array &&
-      context.filter(
-        namespace => namespace === IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE
-      ).length === 0) ||
-      (context.constructor === String &&
-        !context !== IIIF_PRESENTATION_V3_CONTEXT_NAMESPACE));
-  if (isNotP3) {
-    return upgrader.processResource(manifest, true);
-  }
+const convertToV3ifNecessary = (manifest) => {
+  // It is not.
   return manifest;
 };
 
-const getManifestContext = itemPath => {
+const getManifestContext = (itemPath) => {
   const split = itemPath.split('/');
   let object = split.pop().split('-');
   if (!isNaN(object[0])) object.shift();
@@ -49,36 +37,36 @@ const getManifestContext = itemPath => {
   return [formatted, convertToV3ifNecessary(json)];
 };
 
-const getCollectionGroup = itemPath => {
+const getCollectionGroup = (itemPath) => {
   // Get the collection by filename
   return itemPath.split('/')[2];
 };
-const checkifFolder = filepath =>
+const checkifFolder = (filepath) =>
   fs.existsSync(filepath) && fs.lstatSync(filepath).isDirectory();
 
-const checkifSubfolder = root => fs.statSync(path.join(root)).isDirectory();
+const checkifSubfolder = (root) => fs.statSync(path.join(root)).isDirectory();
 
-const checkifJSON = filepath =>
+const checkifJSON = (filepath) =>
   fs.statSync(filepath).isFile() && path.extname(filepath) === '.json';
 
-const getFiles = filepath =>
-  fs.readdirSync(filepath).map(item => path.join(filepath, item));
+const getFiles = (filepath) =>
+  fs.readdirSync(filepath).map((item) => path.join(filepath, item));
 
-const getJSONFilesUnderPath = filepath => {
+const getJSONFilesUnderPath = (filepath) => {
   const files = [];
   try {
     const allDirectory = getFiles(filepath);
 
-    allDirectory.forEach(item => {
+    allDirectory.forEach((item) => {
       if (checkifJSON(item)) {
         files.push(item);
       } else if (checkifSubfolder(path.join(item))) {
         const subfiles = getFiles(item);
-        subfiles.forEach(file => {
+        subfiles.forEach((file) => {
           // eslint-disable-next-line no-unused-expressions
           checkifJSON(file)
             ? files.push(file)
-            : getFiles(file).forEach(subfile => {
+            : getFiles(file).forEach((subfile) => {
                 if (checkifJSON(subfile)) files.push(subfile);
               });
         });
@@ -90,15 +78,15 @@ const getJSONFilesUnderPath = filepath => {
   return files;
 };
 
-const getCollections = filepath => {
+const getCollections = (filepath) => {
   const files = [];
   const allDirectory = getFiles(filepath);
-  allDirectory.forEach(item => {
+  allDirectory.forEach((item) => {
     if (checkifJSON(item)) {
       files.push(item);
     } else if (checkifSubfolder(path.join(item))) {
       const subfiles = getFiles(item);
-      subfiles.forEach(file => {
+      subfiles.forEach((file) => {
         if (checkifJSON(file)) files.push(file);
       });
     }
@@ -106,14 +94,14 @@ const getCollections = filepath => {
   return files;
 };
 
-const getObjectsInCollection = items => {
+const getObjectsInCollection = (items) => {
   const formatted = [];
-  items.map(item => {
+  items.map((item) => {
     const [path, collectionItemContext] = getManifestContext(item);
 
     const labels = { en: [''], nl: [''] };
 
-    collectionItemContext.metadata.map(data => {
+    collectionItemContext.metadata.map((data) => {
       if (data.label && data.label.en && data.label.en[0] === 'Title') {
         labels.en =
           data.value && data.value.en && data.value.en[0]
@@ -140,26 +128,59 @@ const getObjectsInCollection = items => {
 
 const getAllAnnotationsFromManifest = (manifest, manifestPath, _annotations) =>
   (manifest.items || []).reduce((annotations, canvas) => {
-    const processAnnotationPage = annotationPage => {
-      (annotationPage.items || []).forEach(annotation => {
+    const processAnnotationPage = (annotationPage) => {
+      (annotationPage.items || []).forEach((annotation) => {
         let annotationId = annotation.id;
-        if (annotation.body && annotation.body.type === 'Image') {
-          if (annotation.body.service) {
-            const service = Array.isArray(annotation.body.service)
-              ? annotation.body.service[0]
-              : annotation.body.service;
-            if (typeof service === 'string') {
-              annotationId = service;
-            } else if (typeof service.id === 'string') {
-              annotationId = service.id;
+        let annotationId2;
+
+        if (annotation.target && annotation.target.type === 'Annotation') {
+          annotationId2 = canvas.items[0].items.find(
+            (t) => t.id === annotation.target.id
+          )?.id;
+        }
+
+        let annotation_body =
+          annotation.body && annotation.body.type === 'SpecificResource'
+            ? annotation.body.source
+            : annotation.body;
+
+        if (annotation_body && annotation_body.type === 'Image') {
+          // if (annotation_body.service) {
+          //   const service = Array.isArray(annotation_body.service)
+          //     ? annotation_body.service[0]
+          //     : annotation_body.service;
+          //   if (typeof service === 'string') {
+          //     annotationId = service;
+          //   } else if (typeof service.id === 'string') {
+          //     annotationId = service.id;
+          //   }
+          // }
+          // if (
+          //   annotationId === annotation.id &&
+          //   typeof annotation_body.id === 'string'
+          // ) {
+          //   annotationId = annotation_body.id;
+          // }
+
+          if (annotationId2) {
+            if (!annotations[annotationId2]) {
+              annotations[annotationId2] = [];
             }
+            annotations[annotationId2].push([
+              manifest.id,
+              manifestPath,
+              manifest.label,
+            ]);
           }
-          if (
-            annotationId === annotation.id &&
-            typeof annotation.body.id === 'string'
-          ) {
-            annotationId = annotation.body.id;
+
+          if (!annotations[annotation.id]) {
+            annotations[annotation.id] = [];
           }
+          annotations[annotation.id].push([
+            manifest.id,
+            manifestPath,
+            manifest.label,
+          ]);
 
           if (!annotations[annotationId]) {
             annotations[annotationId] = [];
@@ -174,24 +195,25 @@ const getAllAnnotationsFromManifest = (manifest, manifestPath, _annotations) =>
     };
     (canvas.items || []).forEach(processAnnotationPage);
     (canvas.annotations || []).forEach(processAnnotationPage);
+
     return annotations;
   }, _annotations || {});
 
-const getThumbnails = thumbnails =>
-  (thumbnails || []).map(thumbnail => thumbnail.id);
+const getThumbnails = (thumbnails) =>
+  (thumbnails || []).map((thumbnail) => thumbnail.id);
 
-const getFirstThumbnail = thumbnails => getThumbnails(thumbnails || [])[0];
+const getFirstThumbnail = (thumbnails) => getThumbnails(thumbnails || [])[0];
 
-const getCanvasThumbnail = canvas => {
+const getCanvasThumbnail = (canvas) => {
   let thumbnail = null;
   if (!thumbnail && canvas) {
     if (canvas.thumbnail) {
       thumbnail = getFirstThumbnail(canvas.thumbnail);
     }
     if (!thumbnail) {
-      canvas.items.forEach(annotationList => {
+      canvas.items.forEach((annotationList) => {
         if (!thumbnail && annotationList.items) {
-          annotationList.items.forEach(annotation => {
+          annotationList.items.forEach((annotation) => {
             if (!thumbnail && annotation.thumbnail) {
               thumbnail = getFirstThumbnail(annotation.thumbnail);
             }
@@ -203,7 +225,7 @@ const getCanvasThumbnail = canvas => {
   return thumbnail;
 };
 
-const getManifestThumbnail = manifest => {
+const getManifestThumbnail = (manifest) => {
   let thumbnail = null;
   if (manifest.thumbnail) {
     thumbnail = getFirstThumbnail(manifest.thumbnail);
@@ -218,7 +240,7 @@ const getManifestThumbnail = manifest => {
     Array.isArray(manifest.items) &&
     manifest.items.length > 0
   ) {
-    manifest.items.forEach(canvas => {
+    manifest.items.forEach((canvas) => {
       if (!thumbnail) {
         thumbnail = getCanvasThumbnail(canvas);
       }
@@ -234,18 +256,24 @@ getCollectionFilePath = (pathname, collectionsGroup) => {
 
 const getAllObjectLinks = (collection, collectionPath, _objectLinks) =>
   (collection.items || []).reduce((objectLinks, manifest) => {
-    if (!objectLinks[manifest.id]) {
-      objectLinks[manifest.id] = [];
+    const id = manifest.id || manifest['@id'];
+    if (!objectLinks[id]) {
+      objectLinks[id] = [];
     }
-    objectLinks[manifest.id].push([
-      collection.id,
+
+    if (objectIndex.manifestIndex[id]) {
+      const link = objectIndex.manifestIndex[id];
+    }
+
+    objectLinks[manifest.id || manifest['@id']].push([
+      collection.id || collection['@id'],
       collectionPath,
       collection.label,
     ]);
     return objectLinks;
   }, _objectLinks || []);
 
-const createCollectionPages = objectLinks => {
+const createCollectionPages = (objectLinks) => {
   const collectionTemplate = path.resolve(`src/pages/Collection/Collection.js`);
   const collectionsPath = './content/collections';
   return getCollections(collectionsPath).reduce(
@@ -264,11 +292,17 @@ const createCollectionPages = objectLinks => {
         context.items = items;
       }
 
+      const objectLinks2 = context.items.reduce((list, item) => {
+        list[item.id || item['@id']] =
+          objectIndex.manifestIndex[item.id || item['@id']];
+        return list;
+      }, {});
+
       meta.pages[pathname] = {
         path: pathname,
         component: collectionTemplate,
         context: {
-          objectLinks,
+          objectLinks: objectLinks2,
           collection: context,
           collectionGroup: collectionGroup,
         },
@@ -323,13 +357,13 @@ const createObjectPages = () => {
       // TODO: cover image if defined, first canvas thumbnail as fall-back,
       // than first canvas image fallback...
       meta.thumbnails[pathname] = getManifestThumbnail(context);
-      meta.links[context.id] = pathname;
+      meta.links[context.id || context['@id']] = pathname;
       meta.reverseLinks[pathname] = context.id;
-      getAllAnnotationsFromManifest(
-        context,
-        pathname,
-        meta.annotationsPartOfObjects
-      );
+      // getAllAnnotationsFromManifest(
+      //   context,
+      //   pathname,
+      //   meta.annotationsPartOfObjects
+      // );
       return meta;
     },
     {
@@ -356,11 +390,15 @@ const createExhibitionPages = () => {
       meta.thumbnails[pathname] = getManifestThumbnail(context);
       meta.links[context.id || context['@id']] = pathname;
       meta.reverseLinks[pathname] = context.id || context['@id'];
-      getAllAnnotationsFromManifest(
-        context,
-        pathname,
-        meta.annotationsPartOfExhibition
-      );
+
+      context.annotationObjectReference = objectIndex.exhibitionIndex[pathname];
+
+      // getAllAnnotationsFromManifest(
+      //   context,
+      //   pathname,
+      //   meta.annotationsPartOfExhibition
+      // );
+
       return meta;
     },
     {
@@ -399,14 +437,14 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
 
     const searchTemplate = path.resolve(`src/pages/Search/Search.js`);
 
-    TRANSLATIONS.forEach(language =>
+    TRANSLATIONS.forEach((language) =>
       createPage({
         path: `${language}/search/`,
         component: searchTemplate,
@@ -442,21 +480,21 @@ exports.createPages = ({ actions, graphql }) => {
         }, // additional data can be passed via context
       });
     });
-    TRANSLATIONS.forEach(language =>
+    TRANSLATIONS.forEach((language) =>
       createPage({
         path: `${language}/publications/`,
         component: publicationsTemplate,
       })
     );
 
-    Object.values(objectMeta.pages).forEach(object => {
+    Object.values(objectMeta.pages).forEach((object) => {
       object.context.collections =
         collectionMeta.objectInCollections[object.context.id];
 
       const annos = Object.entries(objectMeta.annotationsPartOfObjects)
         .filter(
           ([key, value]) =>
-            value.filter(item => item[1] === object.path).length > 0
+            value.filter((item) => item[1] === object.path).length > 0
         )
         .map(([key]) => key);
 
@@ -464,7 +502,7 @@ exports.createPages = ({ actions, graphql }) => {
         annos.reduce((_exhibitions, annotation) => {
           if (exhibitionMeta.annotationsPartOfExhibition[annotation]) {
             exhibitionMeta.annotationsPartOfExhibition[annotation].forEach(
-              exhibition => {
+              (exhibition) => {
                 _exhibitions[exhibition[1]] = exhibition;
               }
             );
@@ -491,24 +529,10 @@ exports.createPages = ({ actions, graphql }) => {
       // });
       createTranslatedPage(object, createPage);
     });
-    Object.values(exhibitionMeta.pages).forEach(exhibition => {
-      const annos = Object.entries(exhibitionMeta.annotationsPartOfExhibition)
-        .filter(
-          ([key, value]) =>
-            value.filter(item => item[1] === exhibition.path).length > 0
-        )
-        .reduce((_annos, [key]) => {
-          try {
-            _annos[key] = objectMeta.annotationsPartOfObjects[key][0][1];
-          } catch (err) {
-            // console.log(key, err);
-          }
-          return _annos;
-        }, {});
-      exhibition.context.annotationDetails = annos;
+    Object.values(exhibitionMeta.pages).forEach((exhibition) => {
       createTranslatedPage(exhibition, createPage);
     });
-    Object.values(collectionMeta.pages).forEach(collection =>
+    Object.values(collectionMeta.pages).forEach((collection) =>
       createTranslatedPage(collection, createPage)
     );
   });

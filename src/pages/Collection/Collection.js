@@ -126,49 +126,44 @@ class CollectionPage extends React.Component {
               </div>
             </aside>
             <article className="w-8">
-              {items.slice(0, this.state.objectsToShow).map((manifest) => (
-                <div
-                  key={`collection__${
-                    objectLinks[manifest.id || manifest['@id']]
-                  }`}
-                  className="w-4 h-min-6 block--align-right"
-                >
-                  <div className="block collection-item w-3 h-min-4">
-                    <Link
-                      to={
-                        '/' +
-                        pageLanguage +
-                        '/' +
-                        objectLinks[manifest.id || manifest['@id']].replace(
-                          'collections/',
-                          'objects/'
-                        ) +
-                        '/'
-                      }
-                    >
-                      <div className="block aspectratio-square image cutcorners w-3 h-3">
-                        <img
-                          src={getThumbnailImageSource(manifest.thumbnail)}
-                          className="object-link__image"
-                          alt=""
-                        />
-                      </div>
-                      <p className="collection-list__label">
-                        {translate(manifest.label, pageLanguage)}
-                      </p>
-                      {manifest.summary
-                        ? translate(manifest.summary, pageLanguage, '\n')
-                            .split('\n')
-                            .map((paragraph) => (
-                              <p className="collection-list__summary">
-                                {paragraph}
-                              </p>
-                            ))
-                        : ''}
-                    </Link>
+              {items.slice(0, this.state.objectsToShow).map((manifest) =>
+                !objectLinks[manifest.id || manifest['@id']] ? null : (
+                  <div
+                    key={`collection__${
+                      objectLinks[manifest.id || manifest['@id']]
+                    }`}
+                    className="w-4 h-min-6 block--align-right"
+                  >
+                    <div className="block collection-item w-3 h-min-4">
+                      <Link
+                        to={`/${pageLanguage}/objects/${
+                          objectLinks[manifest.id || manifest['@id']]
+                        }/`}
+                      >
+                        <div className="block aspectratio-square image cutcorners w-3 h-3">
+                          <img
+                            src={getThumbnailImageSource(manifest.thumbnail)}
+                            className="object-link__image"
+                            alt=""
+                          />
+                        </div>
+                        <p className="collection-list__label">
+                          {translate(manifest.label, pageLanguage)}
+                        </p>
+                        {manifest.summary
+                          ? translate(manifest.summary, pageLanguage, '\n')
+                              .split('\n')
+                              .map((paragraph) => (
+                                <p className="collection-list__summary">
+                                  {paragraph}
+                                </p>
+                              ))
+                          : ''}
+                      </Link>
+                    </div>
                   </div>
-                </div>
-              ))}
+                )
+              )}
               {items.length > this.state.objectsToShow ? (
                 <button
                   class="block w-4 h-min-6 block--align-right"

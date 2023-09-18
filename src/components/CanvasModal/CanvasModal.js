@@ -97,18 +97,27 @@ class CanvasModal extends React.Component {
       return false;
     let index = this.state.navItems.length > 1 ? this.state.currentNavIndex : 0;
 
-    return this.props.annotationDetails[
-      getAnnotationId(imageAnnotations[index])
-    ];
+    if (
+      !imageAnnotations[index] ||
+      !imageAnnotations[index].id ||
+      !this.props.annotationObjectReference[imageAnnotations[index].id]
+    ) {
+      return false;
+    }
+
+    return (
+      this.props.annotationObjectReference[imageAnnotations[index].id][0] ||
+      false
+    );
   };
 
   render() {
     const annotations =
       this.props.selectedCanvas &&
-      this.props.selectedCanvas.items &&
-      this.props.selectedCanvas.items[0] &&
-      this.props.selectedCanvas.items[0].items
-        ? this.props.selectedCanvas.items[0].items
+      this.props.selectedCanvas.annotations &&
+      this.props.selectedCanvas.annotations[0] &&
+      this.props.selectedCanvas.annotations[0].items
+        ? this.props.selectedCanvas.annotations[0].items
         : [];
     const activeAnnotationFallback =
       annotations && annotations.length && annotations[0] && annotations[0]
@@ -118,41 +127,64 @@ class CanvasModal extends React.Component {
       activeAnnotationFallback
     );
 
-    const imageAnnotations = annotations.filter(
-      (annotation) => annotation.body.type === 'Image'
-    );
+    const imageAnnotations = annotations
+      .filter((annotation) => annotation.target.type === 'Annotation')
+      .map((anno) => {
+        return this.props.selectedCanvas.items[0].items.find(
+          (paint) => anno.target.id === paint.id
+        );
+      });
+
     const detailsLink = this.getDetailsLink(imageAnnotations);
+
+    console.log('details link', detailsLink);
+
     return (
       <div className="canvas-modal">
         <ContainerDimensions>
           {({ width, height }) => (
             <div className="canvas-modal__content">
+              {/* This is the info panel, this is now describing annotations.  */}
               {(this.props.selectedCanvas.behavior || []).indexOf('info') !==
               -1 ? (
                 <div className="canvas-modal__essay">
                   {annotations.map((annotation) => (
                     <main>
-                      {annotation.label && (
-                        <h1>
-                          {getTranslation(
-                            annotation.label,
-                            this.props.pageLanguage
+                      {(annotation.body[0] || annotation.body).format ===
+                      'text/html' ? (
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: (annotation.body[0] || annotation.body)
+                              .value,
+                          }}
+                        />
+                      ) : (
+                        <>
+                          {annotation.label && (
+                            <h1>
+                              {getTranslation(
+                                annotation.label,
+                                this.props.pageLanguage
+                              )}
+                            </h1>
                           )}
-                        </h1>
+                          {annotation.summary &&
+                            getTranslation(
+                              annotation.summary,
+                              this.props.pageLanguage,
+                              '\n'
+                            )
+                              .split('\n')
+                              .map((paragraph) => (
+                                <p
+                                  key={`about__${paragraph}`}
+                                  dangerouslySetInnerHTML={{
+                                    __html: paragraph,
+                                  }}
+                                ></p>
+                              ))}
+                        </>
                       )}
-                      {annotation.summary &&
-                        getTranslation(
-                          annotation.summary,
-                          this.props.pageLanguage,
-                          '\n'
-                        )
-                          .split('\n')
-                          .map((paragraph) => (
-                            <p
-                              key={`about__${paragraph}`}
-                              dangerouslySetInnerHTML={{ __html: paragraph }}
-                            ></p>
-                          ))}
                     </main>
                   ))}
                 </div>
@@ -207,12 +239,7 @@ class CanvasModal extends React.Component {
                             to={
                               '/' +
                               this.props.pageLanguage +
-                              '/' +
-                              detailsLink.replace('collections/', 'objects/') +
-                              `/?id=${this.getModalObjectId(
-                                detailsLink.replace('collections/', 'objects/')
-                              )}` +
-                              `/`
+                              `/objects/${detailsLink.object}/?id=${detailsLink.objectIndex}`
                             }
                           >
                             {getTranslation(
@@ -262,7 +289,7 @@ CanvasModal.propTypes = {
   selectedCanvas: PropTypes.any,
   hideCanvasDetails: PropTypes.func.isRequired,
   pageLanguage: PropTypes.string.isRequired,
-  annotationDetails: PropTypes.any,
+  annotationObjectReference: PropTypes.any,
 };
 
 CanvasModal.defaultProps = {

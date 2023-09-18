@@ -182,11 +182,11 @@ class ThinCanvasPanel extends React.Component {
     }
   };
 
-  computeImageCords = (realCords, crop, annotation, canvas) => {
+  computeImageCords = (realCords, crop, annotation_body, canvas) => {
     if (!crop) {
       return this.convertCoordsToViewportRelative(realCords, canvas);
     }
-    const ratioX = crop.width / annotation.body.width;
+    const ratioX = crop.width / annotation_body.width;
     const ratioD = realCords.width / crop.width;
     return this.convertCoordsToViewportRelative(
       {
@@ -215,28 +215,51 @@ class ThinCanvasPanel extends React.Component {
     this.annotations = this.props.getAnnotations();
 
     this.annotations.forEach((annotation) => {
+      if (annotation.target && annotation.target.type === 'Annotation') {
+        annotation = canvas.items[0].items.find(
+          (t) => t.id === annotation.target.id
+        );
+      }
+
       const coords = this.convertCoordsToViewportRelative(
         parseXYWH(getHashParams(annotation.target || '').xywh),
         canvas
       );
-      switch (annotation.body.type) {
+
+      const annotation_body =
+        annotation.body.type === 'SpecificResource'
+          ? annotation.body.source
+          : annotation.body;
+
+      switch (annotation_body.type) {
         case 'Image':
           const realCords = parseXYWH(
             getHashParams(annotation.target || '').xywh
           );
-          const crop = this.getAnnotationCrop(annotation, canvas);
+
+          let crop;
+          if (
+            annotation.body.type === 'SpecificResource' &&
+            annotation.body.selector
+          ) {
+            const [x, y, w, h] = (annotation.body.selector.region || '')
+              .split(',')
+              .map((t) => parseFloat(t));
+            crop = { x, y, width: w, height: h };
+          }
+
           const computedImageCords = this.computeImageCords(
             realCords,
             crop,
-            annotation,
+            annotation_body,
             canvas
           );
           delete computedImageCords.height;
 
           this.viewer.addTiledImage({
-            tileSource: getTileSourceUrl(annotation.body.service),
-            degrees: this.getRotation(annotation.body.id),
-            tileQuality: this.getQuality(annotation.body.id),
+            tileSource: getTileSourceUrl(annotation_body.service),
+            degrees: this.getRotation(annotation_body.id),
+            tileQuality: this.getQuality(annotation_body.id),
             ...computedImageCords,
             ...(crop
               ? {
@@ -285,6 +308,8 @@ class ThinCanvasPanel extends React.Component {
   };
 
   render() {
+    console.log(this.props);
+
     return (
       <ContainerDimensions>
         {({ width, height }) =>
