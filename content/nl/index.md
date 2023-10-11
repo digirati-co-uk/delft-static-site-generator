@@ -7,6 +7,10 @@ title: "Academisch Erfgoed"
 ###### Welkom! Dit is het digitale portaal voor het academisch erfgoed van de TU Delft en de digitale bijzondere collecties van de TU Delft Library. Bezoek [online tentoonstellingen](/nl/exhibitions/), verken de [digitale bijzondere collecties](/nl/collections/), lees meer over de [geschiedenis van de universiteit](/nl/publications/) of neem [contact](/nl/about/) op met het Team Academisch Erfgoed van de TU Delft Library.
 
 <div class="blocks">
+<div class="block cutcorners w-4 h-4 article">
+
+[Academische Collecties](/nl/publications/academische-collecties)
+</div>
 <div class="block tint purple cutcorners w-4 h-4 image">
 
 [Irrigation Knowledge](/nl/exhibitions/irrigation-knowledge)
@@ -14,10 +18,6 @@ title: "Academisch Erfgoed"
 <div class="block tint copper cutcorners w-4 h-4 image">
 
 [Pekalenwerken](/en/objects/lib-tresor-trl-9-3)
-</div>
-<div class="block cutcorners w-4 h-4 article">
-
-[The Shared History of TU Delft and Bandung Institute of Technology](/en/publications/tu-itb)
 </div>
 <div class="block tint purple cutcorners w-4 h-4 image">
 
