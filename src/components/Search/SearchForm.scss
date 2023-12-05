@@ -4,6 +4,7 @@
   &__input {
     font-size: 1.5rem;
     line-height: unset;
+
     &:focus {
       outline: none;
     }
@@ -21,6 +22,36 @@
 
     &--icon {
       display: block;
+    }
+  }
+}
+
+.search-content {
+  em {
+    background-color: yellow;
+    font-weight: unset;
+    font-style: unset;
+    font-family: unset;
+  }
+
+  .ais-RefinementList {
+
+    &-item--selected {
+      border-bottom: 10px solid yellow;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        padding-right: 1rem;
+        margin: 0.5rem;
+      }
+
+      input {
+        display: none;
+      }
     }
   }
 }

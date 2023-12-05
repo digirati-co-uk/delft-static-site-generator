@@ -1,234 +1,134 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Layout from '../../components/Layout/layout';
-import SearchForm from '../../components/Search/SearchForm';
-import SearchResults from '../../components/Search/SearchResults';
-import { useLunr } from 'react-lunr';
+import { SearchResult } from '../../components/Search/SearchResults';
 import { graphql } from 'gatsby';
-import lunr from 'lunr';
+import { orderBy } from 'lodash';
+import { navigate } from 'gatsby';
+import qs from 'qs';
+import './Search.scss';
+import withLocation from '../../components/withLocation/withLocation';
 
-const searchGraphQL = (results) => {
-  return results.filter((node) => {
-    const nodeType = node.path.split('/')[2];
-    return (
-      nodeType !== 'publications' &&
-      nodeType !== 'Publications' &&
-      nodeType !== 'about' &&
-      nodeType !== 'search' &&
-      nodeType !== 'illustrations' &&
-      nodeType !== 'markdown' &&
-      nodeType !== 'Object' &&
-      nodeType !== 'Canvas'
-    );
-  });
-};
+import {
+  InstantSearch,
+  SearchBox,
+  Hits,
+  connectStats,
+  Pagination,
+  connectHighlight,
+  RefinementList,
+  Configure,
+} from 'react-instantsearch-dom';
+import TypesenseInstantSearchAdapter from 'typesense-instantsearch-adapter';
+const DEBOUNCE_TIME = 400;
+const createURL = (state) => `?${qs.stringify(state)}`;
 
-const removeDuplicates = (results, lang) => {
-  let results2 = [...results];
+const searchStateToUrl = (searchState) =>
+  searchState ? createURL(searchState) : '';
 
-  let resultsInCurrentLang = results2.filter(
-    (result) => result.path.split('/')[1] === lang
-  );
+const urlToSearchState = ({ search }) => qs.parse(search.slice(1));
 
-  const allOtherLang = results2.filter(
-    (result) => result.path.split('/')[1] !== lang
-  );
+const Search = ({ pageContext, path, location }) => {
+  const [isSearching, setIsSearching] = useState(false);
+  const [searchState, setSearchState] = useState(urlToSearchState(location));
 
-  const relevantOtherLang = [];
+  const debouncedSetStateRef = useRef(null);
 
-  allOtherLang.forEach((result) => {
-    let paths = resultsInCurrentLang.map((node) => node.path);
-    let otherLangPath = result.path.split('/');
-    let otherLang = otherLangPath[1] === 'en' ? 'nl' : 'en';
-    otherLangPath[1] = otherLang;
-    otherLangPath = otherLangPath.join('/');
-    if (!paths.includes(otherLangPath)) {
-      relevantOtherLang.push(result);
-    }
-  });
-  return [...resultsInCurrentLang, ...relevantOtherLang];
-};
+  function onSearchStateChange(updatedSearchState) {
+    clearTimeout(debouncedSetStateRef.current);
 
-// const resolveMetaDataEnglish = node => {
-//   if (node.pageContext && node.pageContext.metadata) {
-//     return node.pageContext.metadata.map(value => value.en).join(' | ');
-//   }
-// };
+    debouncedSetStateRef.current = setTimeout(() => {
+      navigate(searchStateToUrl(updatedSearchState), { replace: true });
+    }, DEBOUNCE_TIME);
 
-// const resolveMetaDataDutch = node => {
-//   if (node.pageContext && node.pageContext.metadata) {
-//     return node.pageContext.metadata.map(value => value.nl).join(' | ');
-//   }
-// };
-
-const mapToFE = (lunrResults, nonPublications) => {
-  const sortedOut = lunrResults
-    ? lunrResults.map((result) =>
-        nonPublications.filter((item) => item.path === result.ref)
-      )
-    : [];
-
-  const results = sortedOut.map((node) => {
-    const type = node[0].path && node[0].path.split('/')[2];
-    const lang = node[0].path && node[0].path.split('/')[1];
-    return {
-      path: node[0].path,
-      id: node[0].pageContext && node[0].pageContext.id,
-      metadata: node[0].pageContext && node[0].pageContext.metadata,
-      title: resolveTitle(node[0]),
-      type: type,
-    };
-  });
-
-  return results;
-};
-
-const resolveTitle = (node) => {
-  const lang = node.path && node.path.split('/')[1];
-  const type = node.path && node.path.split('/')[2];
-
-  let otherLang = lang === 'en' ? 'nl' : 'en';
-
-  if (type === 'objects') {
-    if (!node.pageContext) return '';
-    const title = node.pageContext.metadata[0].value[lang];
-    if (!title) return node.pageContext.metadata[0].value[otherLang];
-    return title;
+    setSearchState(updatedSearchState);
   }
-  if (type === 'collections') {
-    if (node.path === '/en/collections') {
-      return 'Collections';
-    }
-    if (node.path === '/nl/collections') {
-      return 'Collecties';
-    }
-    const title =
-      node.pageContext &&
-      node.pageContext.collection &&
-      node.pageContext.collection.label[lang][0];
-    return title
-      ? title
-      : node.pageContext &&
-          node.pageContext.collection &&
-          node.pageContext.collection.label[otherLang][0];
-  }
-  if (type === 'exhibitions') {
-    const title =
-      node.pageContext &&
-      node.pageContext.label &&
-      node.pageContext.label[lang];
-    return title
-      ? title
-      : node.pageContext &&
-          node.pageContext.label &&
-          node.pageContext.label[otherLang];
-  }
-};
-
-const Search = ({ data, location, pageContext, path }) => {
-  const [results, setResults] = useState([]);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [jsonResults, setJsonResults] = useState([]);
 
   useEffect(() => {
-    setSearchQuery(new URLSearchParams(location.search).get('keywords') || '');
-  }, [location.search]);
-
-  const nonPublications = searchGraphQL(data.allSitePage.nodes, searchQuery);
-
-  var idx = lunr(function () {
-    this.ref('path');
-    this.field('path');
-    this.field('id');
-    this.field('title');
-    this.field('type');
-
-    nonPublications.forEach(function (doc) {
-      this.add({
-        path: doc.path,
-        id: doc.pageContext && doc.pageContext.id,
-        title: resolveTitle(doc),
-        type: doc.path && doc.path.split('/')[2],
-      });
-    }, this);
-  });
-
-  const useLunrSearch = () => {
-    try {
-      return useLunr(
-        `${searchQuery}`,
-        data.localSearchMarkdown.index,
-        data.localSearchMarkdown.store
-      );
-    } catch (error) {
-      console.log('Something went wrong on the Search query');
-      setSearchQuery('');
-      return [];
-    }
-  };
-
-  const mdResults = useLunrSearch();
-
-  const lunrSearch = (query) => {
-    try {
-      const res = idx.search(`*${query}*`);
-      return res;
-    } catch (error) {
-      console.log('Something went wrong on the Search query');
-      setSearchQuery('');
-      return [];
-    }
-  };
+    setSearchState(urlToSearchState(location));
+  }, [location]);
 
   useEffect(() => {
-    const found =
-      searchQuery !== ''
-        ? mapToFE(
-            lunrSearch(searchQuery),
-            nonPublications,
-            pageContext.pageLanguage
-          )
-        : [];
-
-    const cleaned = found.filter((res) => {
-      return (
-        res.path !== '/Exhibition/Exhibition/' &&
-        !((res.path === '/en/exhibitions' || '/nl/exhibitions') && !res.title)
-      );
-    });
-    setJsonResults(cleaned);
-  }, [searchQuery]);
-
-  useEffect(() => {
-    if (searchQuery === '') {
-      setResults([]);
+    if (searchState.query !== '' && searchState.query) {
+      setIsSearching(true);
     } else {
-      const res = removeDuplicates(
-        [...jsonResults, ...mdResults],
-        location.pathname.split('/')[1]
-      );
-      setResults(res);
+      setIsSearching(false);
     }
-  }, [jsonResults, mdResults]);
+  }, [searchState]);
+
+  const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
+    server: {
+      apiKey: 'AOXs2nQnRYi5Cs9NvCiUPyLPXAWSdIeJ', // Be sure to use the search-only-api-key
+      nodes: [
+        {
+          host: '63flhve71t2un5xgp-1.a1.typesense.net',
+          port: '443',
+          protocol: 'https',
+        },
+      ],
+    },
+    // The following parameters are directly passed to Typesense's search API endpoint.
+    //  So you can pass any parameters supported by the search endpoint below.
+    //  queryBy is required.
+    additionalSearchParameters: {
+      query_by: 'title,about,image,type,content,author',
+    },
+    attributesToSnippet: ['content'],
+  });
+  const searchClient = typesenseInstantsearchAdapter.searchClient;
+
+  const Stats = ({ nbHits }) => <p> {nbHits} results</p>;
+  const CustomStats = connectStats(Stats);
+
+  const CustomHits = () => (
+    <Hits
+      hitComponent={({ hit }) => (
+        <SearchResult hit={hit} page_path={path} isSearching={isSearching} />
+      )}
+    />
+  );
+
+  const CustomHighlight = connectHighlight(CustomHits);
 
   return (
     <Layout
       language={pageContext.pageLanguage}
       path={path}
-      meta={{ desciption: 'Search' }}
+      meta={{ description: 'Search' }}
     >
       <main>
-        <SearchForm
-          pageLanguage={pageContext.pageLanguage}
-          query={searchQuery}
-          showTitle={true}
-        />
-        <SearchResults query={searchQuery} results={results} />
+        <InstantSearch
+          searchClient={searchClient}
+          indexName="pages_v1"
+          searchState={searchState}
+          onSearchStateChange={onSearchStateChange}
+          createURL={createURL}
+        >
+          <div className="search-content">
+            <h1>Search</h1>
+            <SearchBox />
+            <CustomStats />
+            <RefinementList
+              attribute="type"
+              // sortBy={['name:asc']}
+              facetOrdering={false}
+              transformItems={(items) => orderBy(items, 'label', 'asc')}
+            />
+            <Configure hitsPerPage={20} attributesToSnippet={['content']} />
+
+            <CustomHighlight />
+            <Pagination
+              // Optional parameters
+              showFirst={true}
+              showPrevious={true}
+              showNext={true}
+              showLast={true}
+            />
+          </div>
+        </InstantSearch>
       </main>
     </Layout>
   );
 };
-
-export default Search;
 
 export const pageQuery = graphql`
   query {
@@ -237,15 +137,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    localSearchMarkdown {
-      index
-      store
-    }
-    allSitePage {
-      nodes {
-        path
-        pageContext
-      }
-    }
   }
 `;
+
+export default withLocation(Search);

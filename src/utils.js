@@ -68,7 +68,11 @@ export const getTranslation = (obj, lang, glue = ' ') => {
 };
 
 export const getPageLanguage = (pathname) => {
-  // ...
+  // the gatsby build process will only see props.location for top level
+  // pages component. So it's important to note values that are required
+  // to be translated during the build process, such as that of the
+  // typesense search index, are required to be accessed from the page
+  // level components.
   if (!pathname) return 'nl';
   const languageCandidate = pathname.split('/')[1];
   return languageCandidate === 'nl' ? languageCandidate : 'en';

@@ -44,6 +44,10 @@ class CollectionPage extends React.Component {
     };
   }
 
+  componentDidMount() {
+    console.log(this.props);
+  }
+
   hideSummary = () => {
     this.setState({
       renderCanvasModal: false,
@@ -68,7 +72,7 @@ class CollectionPage extends React.Component {
       return 'Error: collection not defined, please check the source manifest.';
     }
     const path = this.props.path;
-    const pageLanguage = getPageLanguage(path);
+    const pageLanguage = getPageLanguage(this.props.location.pathname);
     const title = translate(collection.label, pageLanguage);
     const curator = getMetatataIfExist(
       collection.metadata || [],
@@ -95,6 +99,9 @@ class CollectionPage extends React.Component {
     return (
       <Layout language={pageLanguage} path={path} meta={this.getPageMetaData()}>
         <main>
+          <div style={{ display: 'none' }} data-typesense-field="type">
+            collection
+          </div>
           {this.state.renderCanvasModal ? (
             <Modal modalContent={this.summary} close={this.hideSummary} />
           ) : null}
@@ -103,14 +110,14 @@ class CollectionPage extends React.Component {
               <div className="block title cutcorners w-4 h-4 title--fountain-blue">
                 <div className="boxtitle">Collection</div>
                 <div className="maintitle">
-                  {title}
+                  <div data-typesense-field="title">{title}</div>
                   <GithubLink href={externalResource()} />
                   <IIIFLink href={externalResource()} />
                 </div>
                 <div className="caption">{curator}</div>
               </div>
               <div className="block info cutcorners w-min-4">
-                {summary[0]}
+                <div data-typesense-field="about">{summary[0]}</div>
                 <p>
                   {summary.length > 1 ? (
                     <button
@@ -126,7 +133,7 @@ class CollectionPage extends React.Component {
               </div>
             </aside>
             <article className="w-8">
-              {items.slice(0, this.state.objectsToShow).map((manifest) => (
+              {items.slice(0, this.state.objectsToShow).map((manifest, idx) => (
                 <div
                   key={`collection__${
                     objectLinks[manifest.id || manifest['@id']]
@@ -147,6 +154,14 @@ class CollectionPage extends React.Component {
                       }
                     >
                       <div className="block aspectratio-square image cutcorners w-3 h-3">
+                        {idx === 0 && (
+                          <div
+                            style={{ display: 'none' }}
+                            data-typesense-field="image"
+                          >
+                            {getThumbnailImageSource(manifest.thumbnail)}
+                          </div>
+                        )}
                         <img
                           src={getThumbnailImageSource(manifest.thumbnail)}
                           className="object-link__image"

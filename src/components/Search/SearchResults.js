@@ -1,50 +1,83 @@
 import React from 'react';
+import { Highlight, Snippet } from 'react-instantsearch-dom';
 
-const SearchResults = ({ results }) => {
+const withHighlight = ({ hit, isSearching }) => {
+  const language = hit.page_path.split('/')[1];
   return (
-    <section aria-label="Search results for all posts">
-      {!!results.length && (
-        <h2
-          className="search-results-count"
-          id="search-results-count"
-          aria-live="assertive"
-        >
-          {results.length} results
-        </h2>
-      )}
-      {!!results.length && (
-        <ul className="search-results-list" style={{ marginLeft: '0' }}>
-          {results.map(({ title, path, date, content, author }) => (
+    <div
+      key={hit.title}
+      className={isSearching ? 'search-result__isSearching' : 'search-result'}
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        right: 'auto',
+        paddingTop: '1.5rem',
+      }}
+    >
+      <div
+        style={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'flex-start',
+        }}
+      >
+        {hit.image && (
+          <div className="block">
             <div
-              key={title}
-              key={path}
-              style={{
-                listStyle: 'none',
-                display: 'flex',
-                justifyContent: 'left',
-              }}
+              className="block cutcorners w-2 h-2"
+              style={
+                hit.image && {
+                  marginRight: '1rem',
+                  width: '5rem',
+                  marginBottom: '0',
+                  paddingBottom: '0',
+                  height: '5rem',
+                }
+              }
             >
-              <div style={{ maxWidth: '70%' }}>
-                <h3 className="search-results-list__heading">
-                  <a href={path} className="search-results-list__link">
-                    {title ? title : path}
-                  </a>
-                  <p style={{ textTransform: 'capitalize' }}>
-                    {path ? path.split('/')[2] : <></>}
-                  </p>
-
-                  <p>{author}</p>
-                  {/* we might want to summerise the content here but too much for now */}
-                  <p dangerouslySetInnerHTML={{ __html: content }}></p>
-                </h3>
-                <p>{date}</p>
-              </div>
+              <img
+                style={{
+                  objectFit: 'cover',
+                  width: '10rem',
+                  marginBottom: '0',
+                  paddingBottom: '0',
+                  height: '10rem',
+                }}
+                src={hit.image}
+              />
             </div>
-          ))}
-        </ul>
-      )}
-    </section>
+          </div>
+        )}
+
+        <div className="search-results-list__heading">
+          <a
+            style={{
+              fontWeight: 'bold',
+              textDecoration: 'none',
+              fontSize: '1.5rem',
+            }}
+            href={hit.page_path}
+            className="search-results-list__link"
+          >
+            <Highlight attribute={'title'} hit={hit} /> ({language})
+          </a>
+          <p style={{ textTransform: 'capitalize', marginBottom: '0.25rem' }}>
+            {hit.type}
+          </p>
+          <div
+            style={{
+              borderBottom: '1px solid black',
+              width: '100%',
+              paddingBottom: '1rem',
+            }}
+          />
+          <Highlight attribute={'about'} hit={hit} />
+          <Snippet attribute={'content'} hit={hit} separator=" " />
+          <Highlight attribute={'author'} hit={hit} />
+        </div>
+      </div>
+    </div>
   );
 };
 
-export default SearchResults;
+export const SearchResult = withHighlight;

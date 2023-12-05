@@ -90,18 +90,28 @@ const Markdown = ({ pageContext, data, path }) => {
     ),
 
     h1: (props, children) => (
-      <h1
-        id={props.children.toLowerCase().replace(/ /g, '-')}
-        {...children}
-        {...props}
-      />
+      <>
+        <div style={{ display: 'none' }} data-typesense-field="title">
+          {props.children}
+        </div>
+        <h1
+          id={props.children.toLowerCase().replace(/ /g, '-')}
+          {...children}
+          {...props}
+        />
+      </>
     ),
     h2: (props, children) => (
-      <h2
-        id={props.children.toLowerCase().replace(/ /g, '-')}
-        {...children}
-        {...props}
-      />
+      <>
+        <div style={{ display: 'none' }} data-typesense-field="content">
+          {props.children}
+        </div>
+        <h2
+          id={props.children.toLowerCase().replace(/ /g, '-')}
+          {...children}
+          {...props}
+        />
+      </>
     ),
     h3: (props, children) => (
       <h3
@@ -110,22 +120,39 @@ const Markdown = ({ pageContext, data, path }) => {
         {...props}
       />
     ),
+    p: (props, children) => (
+      <p data-typesense-field="content" {...children} {...props} />
+    ),
+    img: (props, children) => (
+      <img data-typesense-field="image" {...children} {...props} />
+    ),
   };
 
   return (
     <Layout language={pageLanguage} path={path} meta={getPageMetaData()}>
       {content.isPublication ? (
         <MDXProvider components={shortcodes}>
+          <div style={{ display: 'none' }} data-typesense-field="type">
+            publication
+          </div>
           <main>
             <div className="blocks blocks--auto-height">
               <aside className="w-4">
                 <div className="block title cutcorners w-4 h-4 title--pomegranate">
                   <div className="boxtitle">Article</div>
                   <div className="maintitle">
+                    <div
+                      style={{ display: 'none' }}
+                      data-typesense-field="title"
+                    >
+                      {title}
+                    </div>
                     {title}
                     <GithubLink href={path} />
                   </div>
-                  <div className="caption">{author}</div>
+                  <div className="caption" data-typesense-field="author">
+                    {author}
+                  </div>
                 </div>
                 <div className="block info cutcorners w-4 h-4 ">
                   <div className="caption">Table of Contents</div>
@@ -135,7 +162,6 @@ const Markdown = ({ pageContext, data, path }) => {
                           return (
                             <li style={{ padding: '3px' }} key={item.url}>
                               <a href={item.url}>{item.title}</a>
-
                               {item.items ? (
                                 <ul style={{ paddingLeft: '10px' }}>
                                   {item.items.map((subitem) => (
