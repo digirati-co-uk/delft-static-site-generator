@@ -2,50 +2,42 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Bronzen plaquette met afbeelding van ir. H.J. Heuvelink naar een ontwerp van Odé"
+            "value": "Voorzittershamer 50 jaar TH Delft"
         },
         {
             "label": "Objectnaam",
-            "value": "plaquette (metalen reliëf)"
+            "value": "voorzittershamer"
         },
         {
             "label": "Inventarisnummer",
-            "value": "2003.0013.GEO"
+            "value": "2009.0013.CVB"
         },
         {
             "label": "Datering",
-            "value": "1925 - 1950"
-        },
-        {
-            "label": "Maker",
-            "value": "Odé, Arend Willem Maurits  (ontwerper)"
+            "value": "1955"
         },
         {
             "label": "Afmetingen",
-            "value": "5,0 (h)  * 575,0 (b)  * 400,0 (d) "
+            "value": "30,0 (h)  * 220,0 (b)  * 65,0 (d) "
         },
         {
             "label": "Materiaal",
-            "value": "brons"
+            "value": "zilver, ivoor"
         },
         {
             "label": "Beschrijving",
-            "value": "Bronzen plaquette naar een ontwerp van Odé, met de afbeelding van H.J. Heuvelink, hoogleraar Geodesie van 1897 tot 1922. Bij het bord hoorde een marmeren plaat."
-        },
-        {
-            "label": "Voorstelling",
-            "value": "Heuvelink, Hendrik Jan"
+            "value": "Deze voorzittershamer van ivoor en zilver is gemaakt ter ere van het 50-jarig bestaan en 10de lustrum van de Technische Hogeschool (TH), de voorloper van de huidige TU Delft. De TH werd in 1905 opgericht vanuit de Polytechnische School.<\/br>Op de hamerkop is ook \u2018de fakkel van Prometheus\u2019 afgebeeld. Deze werd in 1951 als motief ontworpen door de veelzijdige kunstenaar en destijds hoogleraar boetseren, Ludwig Oswald Wenckebach. De fakkel verwijst naar Prometheus, een Griekse mythologische figuur, die het vuur van de goden stal en het aan de mensen gaf.<\/br>"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/8ff85cf3-119b-49f2-95a6-be1768025c45/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/8ff85cf3-119b-49f2-95a6-be1768025c45/range/range-0-0.json",
         "label": "0"
     }],
-    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748.json",
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/8ff85cf3-119b-49f2-95a6-be1768025c45.json",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -57,17 +49,17 @@
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
                         "width": 3072,
-                        "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d",
+                        "@id": "https://dlc.services/iiif-img/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d",
                         "height": 2048
                     },
                     "width": 3072,
-                    "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/full/1024,683/0/default.jpg",
+                    "@id": "https://dlc.services/iiif-img/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d/full/1024,683/0/default.jpg",
                     "height": 2048
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d/canvas/c0"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -99,20 +91,20 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d",
+                    "@id": "https://dlc.services/thumbs/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d",
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 683
                 },
-                "@id": "https://dlc.services/thumbs/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/full/full/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 3072,
-            "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/canvas/c0",
+            "@id": "https://dlc.services/iiif-img/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d/canvas/c0",
             "label": "Image",
             "height": 2048
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748/sequences/normal",
+        "@id": "https://dlc.services/7/18/8ff85cf3-119b-49f2-95a6-be1768025c45/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"

@@ -1,0 +1,107 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Buste van prof. J.F. Klinkhamer"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "buste"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2009.0654.CVB"
+        },
+        {
+            "label": "Materiaal",
+            "value": "brons"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Bronzen buste van prof. ir. Jacob Frederik (Jaap) Klinkhamer (1854-1928). Van 1905 tot 1924 was hij professor Burgerlijke Bouwkunde aan de Technische Hogeschool te Delft."
+        },
+        {
+            "label": "Voorstelling",
+            "value": "Klinkhamer, Jacob Fredrik"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/173320d5-51c8-47ce-a103-9d54ef8606d7/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/173320d5-51c8-47ce-a103-9d54ef8606d7/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/173320d5-51c8-47ce-a103-9d54ef8606d7.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 1478,
+                        "@id": "https://dlc.services/iiif-img/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1",
+                        "height": 2007
+                    },
+                    "width": 1478,
+                    "@id": "https://dlc.services/iiif-img/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1/full/754,1024/0/default.jpg",
+                    "height": 2007
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 754,
+                            "height": 1024
+                        },
+                        {
+                            "width": 295,
+                            "height": 400
+                        },
+                        {
+                            "width": 147,
+                            "height": 200
+                        },
+                        {
+                            "width": 74,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 754,
+                    "@id": "https://dlc.services/thumbs/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 1024
+                },
+                "@id": "https://dlc.services/thumbs/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 1478,
+            "@id": "https://dlc.services/iiif-img/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1/canvas/c0",
+            "label": "Image",
+            "height": 2007
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/173320d5-51c8-47ce-a103-9d54ef8606d7/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}

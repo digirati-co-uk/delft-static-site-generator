@@ -2,46 +2,54 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Leren aktetas van college van curatoren."
+            "value": "Penning van prof. B.H. Pekelharing door J.M. Faddegon"
         },
         {
             "label": "Objectnaam",
-            "value": "aktetas"
+            "value": "penning"
         },
         {
             "label": "Inventarisnummer",
-            "value": "1992.0257.TMD"
+            "value": "2003.0004.TMD"
         },
         {
             "label": "Datering",
-            "value": "1905 - 1971"
+            "value": "1907 - 1925"
+        },
+        {
+            "label": "Maker",
+            "value": "Faddegon, Johan Melchior  (ontwerper)"
         },
         {
             "label": "Afmetingen",
-            "value": "400,0 (h)  * 420,0 (b)  * 130,0 (d) "
+            "value": "2,0 (h)  * 60,0 (b) "
         },
         {
             "label": "Materiaal",
-            "value": "leer"
+            "value": "brons"
         },
         {
             "label": "Beschrijving",
-            "value": "Deze aktetas werd van 1905 tot 1971 gebruikt door het college van curatoren.<\/br>Met de overgang van Polytechnische School naar de Technische Hoogeschool in 1905 kwam het bestuur in handen van het college van curatoren en de senaat. De curatoren waren belast met de zorg voor de huisvesting en het beheer van de financiën. De senaat, die bestond uit alle \u2018gewone\u2019 hoogleraren, behartigde het belang van het onderwijs en de wetenschap. <\/br>In 1971 werd de Wet Universitaire Bestuurshervorming ingevoerd, bedoeld om de oude, starre, bestuursstructuur te doorbreken zodat er makkelijker op maatschappelijke veranderingen ingesprongen kon worden. Het bestuur van de universiteit veranderde daarmee ingrijpend. Dit betekende het einde van het college van curatoren en daarmee het einde van het gebruik van deze aktetas. <\/br>"
+            "value": "Bronzen penning met de buste van prof. mr. Balthus Hendrik Pekelharing (1841-1922), hoogleraar aan de TU Delft. Professor Pekelharing stond door zijn socialistische opvattingen bekend als de 'rode hoogleraar'. De keerzijde biedt een blik op Delft met de Oude en de Nieuwe Kerk. De afbeelding is dezelfde als op de gedenksteen 2004.0002.CVB. Deze penning is gemaakt door beeldhouwer en medailleur Johan Melchior Faddegon (1871-1941)."
         },
         {
-            "label": "Herkomst",
-            "value": "College van Curatoren"
+            "label": "Voorstelling",
+            "value": "Pekelharing, Baltus Hendrik"
+        },
+        {
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Gedenkplaat voor prof. B.H. Pekelharing door J.M. Faddegon (CVB.2004.0002)"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/07f7610c-f245-4e70-86b8-0b3850b59b3b/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/07f7610c-f245-4e70-86b8-0b3850b59b3b/range/range-0-0.json",
         "label": "0"
     }],
-    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/95499e2d-d517-4c12-899c-83e2d7c3e8ce.json",
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/07f7610c-f245-4e70-86b8-0b3850b59b3b.json",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -53,17 +61,17 @@
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
                         "width": 2048,
-                        "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa",
+                        "@id": "https://dlc.services/iiif-img/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7",
                         "height": 1536
                     },
                     "width": 2048,
-                    "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/full/1024,768/0/default.jpg",
+                    "@id": "https://dlc.services/iiif-img/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7/full/1024,768/0/default.jpg",
                     "height": 1536
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7/canvas/c0"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -95,20 +103,20 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa",
+                    "@id": "https://dlc.services/thumbs/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7",
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 768
                 },
-                "@id": "https://dlc.services/thumbs/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/full/full/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 2048,
-            "@id": "https://dlc.services/iiif-img/7/18/61d8907c-7c3f-47ae-9856-ba5ba9ebf9fa/canvas/c0",
+            "@id": "https://dlc.services/iiif-img/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7/canvas/c0",
             "label": "Image",
             "height": 1536
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/95499e2d-d517-4c12-899c-83e2d7c3e8ce/sequences/normal",
+        "@id": "https://dlc.services/7/18/07f7610c-f245-4e70-86b8-0b3850b59b3b/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"

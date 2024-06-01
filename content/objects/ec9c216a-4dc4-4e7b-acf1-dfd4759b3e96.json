@@ -2,50 +2,46 @@
     "metadata": [
         {
             "label": "Titel",
-            "value": "Bronzen plaquette met afbeelding van ir. H.J. Heuvelink naar een ontwerp van Odé"
+            "value": "Stempel van het grootzegel van de TH Delft"
         },
         {
             "label": "Objectnaam",
-            "value": "plaquette (metalen reliëf)"
+            "value": "stempel grootzegel"
         },
         {
             "label": "Inventarisnummer",
-            "value": "2003.0013.GEO"
+            "value": "2009.0014.CVB"
         },
         {
             "label": "Datering",
-            "value": "1925 - 1950"
-        },
-        {
-            "label": "Maker",
-            "value": "Odé, Arend Willem Maurits  (ontwerper)"
+            "value": "1951"
         },
         {
             "label": "Afmetingen",
-            "value": "5,0 (h)  * 575,0 (b)  * 400,0 (d) "
+            "value": "100,0 (h)  * 80,0 (b) "
         },
         {
             "label": "Materiaal",
-            "value": "brons"
+            "value": "metaal"
         },
         {
             "label": "Beschrijving",
-            "value": "Bronzen plaquette naar een ontwerp van Odé, met de afbeelding van H.J. Heuvelink, hoogleraar Geodesie van 1897 tot 1922. Bij het bord hoorde een marmeren plaat."
+            "value": "Stempel van het grootzegel met als zegeltekst in het rond \"Technische Hogeschool MDCCCXLII\" (1842). Daarbinnen een fakkel, het wapen van het Koninkrijk der Nederlanden en het wapen van Delft. De fakkel verwijst naar Prometheus, een Griekse mythologische figuur, die het vuur van de goden stal en het aan de mensen gaf. Het ontwerp is van hoogleraar Ludwig Oswald Wenckebach, hoogleraar boetseren aan de T.H. Delft van1935 tot 1962. "
         },
         {
-            "label": "Voorstelling",
-            "value": "Heuvelink, Hendrik Jan"
+            "label": "Gerelateerd erfgoedobject",
+            "value": "Grootzegel van de TH Delft door L.O. Wenckebach (TMD.2003.0006)"
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/canvas/c0"],
-        "within": "https://dlc.services/iiif-manifest/7/18/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748/range/range-0.json",
+        "canvases": ["https://dlc.services/iiif-img/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/ec9c216a-4dc4-4e7b-acf1-dfd4759b3e96/range/range-0.json",
         "@type": "sc:Range",
-        "@id": "https://dlc.services/iiif-manifest/7/18/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748/range/range-0-0.json",
+        "@id": "https://dlc.services/iiif-manifest/7/18/ec9c216a-4dc4-4e7b-acf1-dfd4759b3e96/range/range-0-0.json",
         "label": "0"
     }],
-    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748.json",
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/ec9c216a-4dc4-4e7b-acf1-dfd4759b3e96.json",
     "sequences": [{
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
@@ -57,17 +53,17 @@
                         "protocol": "http://iiif.io/api/image",
                         "profile": "http://iiif.io/api/image/2/level1.json",
                         "width": 3072,
-                        "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d",
+                        "@id": "https://dlc.services/iiif-img/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9",
                         "height": 2048
                     },
                     "width": 3072,
-                    "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/full/1024,683/0/default.jpg",
+                    "@id": "https://dlc.services/iiif-img/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9/full/1024,683/0/default.jpg",
                     "height": 2048
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
-                "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/canvas/c0"
+                "@id": "https://dlc.services/iiif-img/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9/canvas/c0"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -99,20 +95,20 @@
                         }
                     ],
                     "width": 1024,
-                    "@id": "https://dlc.services/thumbs/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d",
+                    "@id": "https://dlc.services/thumbs/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9",
                     "@context": "http://iiif.io/api/image/2/context.json",
                     "height": 683
                 },
-                "@id": "https://dlc.services/thumbs/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/full/full/0/default.jpg"
+                "@id": "https://dlc.services/thumbs/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 3072,
-            "@id": "https://dlc.services/iiif-img/7/18/948638fe-3419-4dfb-85d5-292a4da5f88d/canvas/c0",
+            "@id": "https://dlc.services/iiif-img/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9/canvas/c0",
             "label": "Image",
             "height": 2048
         }],
         "@type": "sc:Sequence",
-        "@id": "https://dlc.services/7/18/4220bcd1-b4ae-4c86-9c3e-8d82c55aa748/sequences/normal",
+        "@id": "https://dlc.services/7/18/ec9c216a-4dc4-4e7b-acf1-dfd4759b3e96/sequences/normal",
         "label": "Current page order"
     }],
     "@context": "http://iiif.io/api/presentation/2/context.json"

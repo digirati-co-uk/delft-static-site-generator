@@ -316,6 +316,47 @@
                 "service": {
                     "sizes": [
                         {
+                            "width": 768,
+                            "height": 1024
+                        },
+                        {
+                            "width": 300,
+                            "height": 400
+                        },
+                        {
+                            "width": 150,
+                            "height": 200
+                        },
+                        {
+                            "width": 75,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 768,
+                    "id": "https://dlc.services/thumbs/7/18/cb6976c5-3c5a-4d70-982d-81c5e0f5e282",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/cb6976c5-3c5a-4d70-982d-81c5e0f5e282/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/78d5d473-8b5f-4ddc-85bd-c9ec3f1ab9bc.json",
+            "label": {"nl": ["Bronzen plaquette van prof. J.C. Dijxhoorn"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
                             "width": 846,
                             "height": 1024
                         },
@@ -1054,6 +1095,88 @@
                 "service": {
                     "sizes": [
                         {
+                            "width": 1024,
+                            "height": 768
+                        },
+                        {
+                            "width": 400,
+                            "height": 300
+                        },
+                        {
+                            "width": 200,
+                            "height": 150
+                        },
+                        {
+                            "width": 100,
+                            "height": 75
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7",
+                    "type": "ImageService2",
+                    "height": 768
+                },
+                "id": "https://dlc.services/thumbs/7/18/37bef74f-49c6-436e-8b4a-66a256e1f8d7/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/07f7610c-f245-4e70-86b8-0b3850b59b3b.json",
+            "label": {"nl": ["Penning van prof. B.H. Pekelharing door J.M. Faddegon"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 768
+                        },
+                        {
+                            "width": 400,
+                            "height": 300
+                        },
+                        {
+                            "width": 200,
+                            "height": 150
+                        },
+                        {
+                            "width": 100,
+                            "height": 75
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/96007ced-c6a5-4ba6-be0f-1f53fa439654",
+                    "type": "ImageService2",
+                    "height": 768
+                },
+                "id": "https://dlc.services/thumbs/7/18/96007ced-c6a5-4ba6-be0f-1f53fa439654/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/ac04d965-7552-438e-b808-1394b6bd651b.json",
+            "label": {"nl": ["Grootzegel van de TH Delft door L.O. Wenckebach"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
                             "width": 858,
                             "height": 1024
                         },
@@ -1300,6 +1423,129 @@
                 "service": {
                     "sizes": [
                         {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d",
+                    "type": "ImageService2",
+                    "height": 683
+                },
+                "id": "https://dlc.services/thumbs/7/18/b0750132-7682-4ea8-b2e8-daa74cd5106d/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/8ff85cf3-119b-49f2-95a6-be1768025c45.json",
+            "label": {"nl": ["Voorzittershamer 50 jaar TH Delft"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9",
+                    "type": "ImageService2",
+                    "height": 683
+                },
+                "id": "https://dlc.services/thumbs/7/18/78ec3efb-45fb-49e2-9b7b-1afb8a6946a9/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/ec9c216a-4dc4-4e7b-acf1-dfd4759b3e96.json",
+            "label": {"nl": ["Stempel van het grootzegel van de TH Delft"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 754,
+                            "height": 1024
+                        },
+                        {
+                            "width": 295,
+                            "height": 400
+                        },
+                        {
+                            "width": 147,
+                            "height": 200
+                        },
+                        {
+                            "width": 74,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 754,
+                    "id": "https://dlc.services/thumbs/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/3e7680c5-5334-4bd4-9f9c-be03a6042ad1/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/173320d5-51c8-47ce-a103-9d54ef8606d7.json",
+            "label": {"nl": ["Buste van prof. J.F. Klinkhamer"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
                             "width": 1022,
                             "height": 1024
                         },
@@ -1464,6 +1710,47 @@
                 "service": {
                     "sizes": [
                         {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/54293075-efed-4c81-847c-481d66cd832a",
+                    "type": "ImageService2",
+                    "height": 683
+                },
+                "id": "https://dlc.services/thumbs/7/18/54293075-efed-4c81-847c-481d66cd832a/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/6d721284-4bad-4af8-a6f4-8088cf216a5e.json",
+            "label": {"nl": ["Drie gedenkpenningen voor E.H. Gugel door L.F. Edema van der Tuuk"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
                             "width": 939,
                             "height": 1024
                         },
@@ -1506,6 +1793,47 @@
                     "sizes": [
                         {
                             "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "id": "https://dlc.services/thumbs/7/18/964a5e8a-7a7a-4580-b13b-b653da76ad50",
+                    "type": "ImageService2",
+                    "height": 683
+                },
+                "id": "https://dlc.services/thumbs/7/18/964a5e8a-7a7a-4580-b13b-b653da76ad50/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/c0740089-8cfa-4202-a7d6-ed200f049cf9.json",
+            "label": {"nl": ["Grootzegel van de Koninklijke Academie"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
                             "height": 928
                         },
                         {
@@ -1539,6 +1867,47 @@
             }],
             "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/dc434947-cd67-4361-8780-93cae5aa5688.json",
             "label": {"nl": ["Koker met promotiebul van prof. A.E. Korvezee"]},
+            "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 778,
+                            "height": 1024
+                        },
+                        {
+                            "width": 304,
+                            "height": 400
+                        },
+                        {
+                            "width": 152,
+                            "height": 200
+                        },
+                        {
+                            "width": 76,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 778,
+                    "id": "https://dlc.services/thumbs/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/db16d5e1-5d0c-49e6-9df7-4140924f45a2/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/83ee6b70-74c8-4c21-afd8-30c0a84645be.json",
+            "label": {"nl": ["Stenen plaquette van prof. C.B. Biezeno"]},
             "type": "Manifest"
         },
         {

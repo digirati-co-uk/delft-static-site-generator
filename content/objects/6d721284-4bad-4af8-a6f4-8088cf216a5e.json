@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        {
+            "label": "Titel",
+            "value": "Drie gedenkpenningen voor E.H. Gugel door L.F. Edema van der Tuuk"
+        },
+        {
+            "label": "Objectnaam",
+            "value": "gedenkpenning"
+        },
+        {
+            "label": "Inventarisnummer",
+            "value": "2011.0011.BKD"
+        },
+        {
+            "label": "Datering",
+            "value": "1902"
+        },
+        {
+            "label": "Maker",
+            "value": "Edema van der Tuuk, Lambertus Franciscus  (ontwerper)"
+        },
+        {
+            "label": "Afmetingen",
+            "value": "163,0 (h)  * 351,0 (b)  * 41,0 (d) "
+        },
+        {
+            "label": "Materiaal",
+            "value": "goud, zilver, brons, glas, hout"
+        },
+        {
+            "label": "Beschrijving",
+            "value": "Drie penningen in een neo-classisistisch lijstje, aangeboden aan Eugen Gugel door zijn leerlingen ter gelegenheid van diens 70-ste geboortedag. De penningen zijn van goud, brons en zilver en hebben allen dezelfde afbeelding: een dame die de bouwkunst verbeeld, met op de achtergrond een Grieks tempeltje, de boog van Titus te Rome, de pyramides van Gizeh, de Notre Dame van Parijs en de St. Pieter te Rome, of de St. Pauls in Londen. Op de keerzijde de tekst in kapitalen: \"Aan Eugen Gugel // hoogleraar aan de Polytechnische School // te Delft // door zijne leerlingen // op zijn 70en geboortedag // aangeboden // 26 maart 1902\". <\/br>"
+        },
+        {
+            "label": "Herkomst",
+            "value": "Gugel, Eugen Heinrich"
+        }
+    ],
+    "@type": "sc:Manifest",
+    "structures": [{
+        "canvases": ["https://dlc.services/iiif-img/7/18/54293075-efed-4c81-847c-481d66cd832a/canvas/c0"],
+        "within": "https://dlc.services/iiif-manifest/7/18/6d721284-4bad-4af8-a6f4-8088cf216a5e/range/range-0.json",
+        "@type": "sc:Range",
+        "@id": "https://dlc.services/iiif-manifest/7/18/6d721284-4bad-4af8-a6f4-8088cf216a5e/range/range-0-0.json",
+        "label": "0"
+    }],
+    "@id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/6d721284-4bad-4af8-a6f4-8088cf216a5e.json",
+    "sequences": [{
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "canvases": [{
+            "images": [{
+                "resource": {
+                    "@type": "dctypes:Image",
+                    "service": {
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "width": 5184,
+                        "@id": "https://dlc.services/iiif-img/7/18/54293075-efed-4c81-847c-481d66cd832a",
+                        "height": 3456
+                    },
+                    "width": 5184,
+                    "@id": "https://dlc.services/iiif-img/7/18/54293075-efed-4c81-847c-481d66cd832a/full/1024,683/0/default.jpg",
+                    "height": 3456
+                },
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "@id": "https://dlc.services/iiif-img/7/18/54293075-efed-4c81-847c-481d66cd832a/imageanno/0",
+                "on": "https://dlc.services/iiif-img/7/18/54293075-efed-4c81-847c-481d66cd832a/canvas/c0"
+            }],
+            "thumbnail": {
+                "@type": "dctypes:Image",
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 1024,
+                            "height": 683
+                        },
+                        {
+                            "width": 400,
+                            "height": 267
+                        },
+                        {
+                            "width": 200,
+                            "height": 133
+                        },
+                        {
+                            "width": 100,
+                            "height": 67
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 1024,
+                    "@id": "https://dlc.services/thumbs/7/18/54293075-efed-4c81-847c-481d66cd832a",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "height": 683
+                },
+                "@id": "https://dlc.services/thumbs/7/18/54293075-efed-4c81-847c-481d66cd832a/full/full/0/default.jpg"
+            },
+            "@type": "sc:Canvas",
+            "width": 5184,
+            "@id": "https://dlc.services/iiif-img/7/18/54293075-efed-4c81-847c-481d66cd832a/canvas/c0",
+            "label": "Image",
+            "height": 3456
+        }],
+        "@type": "sc:Sequence",
+        "@id": "https://dlc.services/7/18/6d721284-4bad-4af8-a6f4-8088cf216a5e/sequences/normal",
+        "label": "Current page order"
+    }],
+    "@context": "http://iiif.io/api/presentation/2/context.json"
+}
