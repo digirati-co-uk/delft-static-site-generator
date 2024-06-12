@@ -1300,47 +1300,6 @@
                 "service": {
                     "sizes": [
                         {
-                            "width": 683,
-                            "height": 1024
-                        },
-                        {
-                            "width": 267,
-                            "height": 400
-                        },
-                        {
-                            "width": 133,
-                            "height": 200
-                        },
-                        {
-                            "width": 67,
-                            "height": 100
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 683,
-                    "id": "https://dlc.services/thumbs/7/18/c2133925-8ee6-42b3-99fd-13c39d3a929c",
-                    "type": "ImageService2",
-                    "height": 1024
-                },
-                "id": "https://dlc.services/thumbs/7/18/c2133925-8ee6-42b3-99fd-13c39d3a929c/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/a991b854-e6b5-4403-936d-003ebd404356.json",
-            "label": {"nl": ["Schilderij '1940-1945 studenten streden en leden' door prof. G. de Josselin de Jong"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
                             "width": 732,
                             "height": 1024
                         },
@@ -1629,19 +1588,19 @@
                     "sizes": [
                         {
                             "width": 1024,
-                            "height": 251
+                            "height": 558
                         },
                         {
                             "width": 400,
-                            "height": 98
+                            "height": 218
                         },
                         {
                             "width": 200,
-                            "height": 49
+                            "height": 109
                         },
                         {
                             "width": 100,
-                            "height": 24
+                            "height": 54
                         }
                     ],
                     "profile": [
@@ -1653,11 +1612,11 @@
                         }
                     ],
                     "width": 1024,
-                    "id": "https://dlc.services/thumbs/7/18/c4516b56-25a2-4dc9-86b6-6d583eb573da",
+                    "id": "https://dlc.services/thumbs/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74",
                     "type": "ImageService2",
-                    "height": 251
+                    "height": 558
                 },
-                "id": "https://dlc.services/thumbs/7/18/c4516b56-25a2-4dc9-86b6-6d583eb573da/full/full/0/default.jpg",
+                "id": "https://dlc.services/thumbs/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/full/full/0/default.jpg",
                 "type": "Image"
             }],
             "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/2e2ac04c-537f-44ee-9425-db5667bb5820.json",
@@ -1908,47 +1867,6 @@
             }],
             "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/83ee6b70-74c8-4c21-afd8-30c0a84645be.json",
             "label": {"nl": ["Stenen plaquette van prof. C.B. Biezeno"]},
-            "type": "Manifest"
-        },
-        {
-            "thumbnail": [{
-                "service": {
-                    "sizes": [
-                        {
-                            "width": 708,
-                            "height": 1024
-                        },
-                        {
-                            "width": 276,
-                            "height": 400
-                        },
-                        {
-                            "width": 138,
-                            "height": 200
-                        },
-                        {
-                            "width": 69,
-                            "height": 100
-                        }
-                    ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 708,
-                    "id": "https://dlc.services/thumbs/7/18/55735582-4512-43fc-8c09-2c66cc15fffb",
-                    "type": "ImageService2",
-                    "height": 1024
-                },
-                "id": "https://dlc.services/thumbs/7/18/55735582-4512-43fc-8c09-2c66cc15fffb/full/full/0/default.jpg",
-                "type": "Image"
-            }],
-            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/52d84cce-1656-4bb9-896a-f1ec1010d1a0.json",
-            "label": {"nl": ["Herdenkingsplaquette voor gevallenen van WOII door prof. L.O. Wenckebach "]},
             "type": "Manifest"
         }
     ]
