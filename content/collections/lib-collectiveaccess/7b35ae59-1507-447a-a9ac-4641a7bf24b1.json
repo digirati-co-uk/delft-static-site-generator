@@ -1868,6 +1868,47 @@
             "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/83ee6b70-74c8-4c21-afd8-30c0a84645be.json",
             "label": {"nl": ["Stenen plaquette van prof. C.B. Biezeno"]},
             "type": "Manifest"
+        },
+        {
+            "thumbnail": [{
+                "service": {
+                    "sizes": [
+                        {
+                            "width": 727,
+                            "height": 1024
+                        },
+                        {
+                            "width": 284,
+                            "height": 400
+                        },
+                        {
+                            "width": 142,
+                            "height": 200
+                        },
+                        {
+                            "width": 71,
+                            "height": 100
+                        }
+                    ],
+                    "profile": [
+                        "http://iiif.io/api/image/2/level0.json",
+                        {
+                            "formats": ["jpg"],
+                            "qualities": ["color"],
+                            "supports": ["sizeByWhListed"]
+                        }
+                    ],
+                    "width": 727,
+                    "id": "https://dlc.services/thumbs/7/18/f4c83934-63be-479f-aecf-573beec8058a",
+                    "type": "ImageService2",
+                    "height": 1024
+                },
+                "id": "https://dlc.services/thumbs/7/18/f4c83934-63be-479f-aecf-573beec8058a/full/full/0/default.jpg",
+                "type": "Image"
+            }],
+            "id": "https://raw.githubusercontent.com/libis/ca_tudelft_iiif/main/objects/52d84cce-1656-4bb9-896a-f1ec1010d1a0.json",
+            "label": {"nl": ["Herdenkingsplaquette voor gevallenen van WOII door prof. L.O. Wenckebach "]},
+            "type": "Manifest"
         }
     ]
 }
