@@ -14,11 +14,11 @@
         },
         {
             "label": "Datering",
-            "value": "1850 - 1875"
+            "value": "1875 - 1878"
         },
         {
             "label": "Maker",
-            "value": "Kannemans, C.C.  (maker)"
+            "value": "Kannemans, Christiaan Cornelis  (maker)"
         },
         {
             "label": "Afmetingen",
@@ -29,8 +29,12 @@
             "value": "olieverf, linnen, hout"
         },
         {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2758400\">Breda, Nederland<\/a>"
+        },
+        {
             "label": "Beschrijving",
-            "value": "Schilderij van de monding van het Noorzeekanaal bij IJmuiden. Dit type schilderijen werd gemaakt in opdracht van Rijkswaterstaat na de afronding van een groot project."
+            "value": "Schilderij van de monding van het Noorzeekanaal bij IJmuiden door Christiaan Cornelis Kannemans (1812-1884). Het Noordzeekaneel (Amsterdam-IJmuiden) werd in 1876 geopend. Dit type schilderijen werd gemaakt in opdracht van Rijkswaterstaat na de afronding van een groot project."
         },
         {
             "label": "Gerelateerd erfgoedobject",
@@ -39,7 +43,7 @@
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/canvas/c0"],
+        "canvases": ["https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/canvas/c/1"],
         "within": "https://dlc.services/iiif-manifest/7/18/7cdc6179-2168-48b9-8155-ade6144010a3/range/range-0.json",
         "@type": "sc:Range",
         "@id": "https://dlc.services/iiif-manifest/7/18/7cdc6179-2168-48b9-8155-ade6144010a3/range/range-0-0.json",
@@ -50,24 +54,58 @@
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
         "canvases": [{
+            "metadata": [
+                {
+                    "label": "String 1",
+                    "value": ""
+                },
+                {
+                    "label": "String 2",
+                    "value": "9685"
+                },
+                {
+                    "label": "String 3",
+                    "value": "2002.0057.CTG tiff adobeRGB.tif"
+                },
+                {
+                    "label": "Number 1",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 2",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 3",
+                    "value": "0"
+                },
+                {
+                    "label": "Tags",
+                    "value": ""
+                },
+                {
+                    "label": "Roles",
+                    "value": ""
+                }
+            ],
             "images": [{
                 "resource": {
                     "@type": "dctypes:Image",
                     "service": {
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "profile": "http://iiif.io/api/image/2/level2.json",
                         "width": 9999,
                         "@id": "https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd",
+                        "@context": "http://iiif.io/api/image/2/context.json",
                         "height": 2753
                     },
-                    "width": 9999,
+                    "width": 1024,
                     "@id": "https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/full/1024,282/0/default.jpg",
-                    "height": 2753
+                    "height": 282
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "@id": "https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/canvas/c0"
+                "on": "https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/canvas/c/1"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -90,25 +128,16 @@
                             "height": 28
                         }
                     ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
+                    "profile": "http://iiif.io/api/image/2/level0.json",
                     "@id": "https://dlc.services/thumbs/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd",
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 282
+                    "@context": "http://iiif.io/api/image/2/context.json"
                 },
                 "@id": "https://dlc.services/thumbs/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 9999,
-            "@id": "https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/canvas/c0",
-            "label": "Image",
+            "@id": "https://dlc.services/iiif-img/7/18/fe4830a3-0f00-4a1c-bf9a-d3e4194184fd/canvas/c/1",
+            "label": "Canvas 1",
             "height": 2753
         }],
         "@type": "sc:Sequence",

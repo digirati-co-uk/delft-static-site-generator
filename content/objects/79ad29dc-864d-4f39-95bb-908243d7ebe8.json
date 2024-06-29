@@ -30,7 +30,7 @@
         },
         {
             "label": "Beschrijving",
-            "value": "Schilderij van de spoorbrug over de Waal bij Nijmegen. Dit type schilderijen werd gemaakt in opdracht van Rijkswaterstaat na de afronding van een groot project. "
+            "value": "Schilderij van de spoorbrug over de Waal bij Nijmegen door A.W. Stortenbeker. De spoorbrug werd geopend in 1878 en was de eerste brug over de Waal in Nijmegen. De drie bogen zijn ieder 130 meter lang. Dit type schilderijen werd gemaakt in opdracht van Rijkswaterstaat na de afronding van een groot project. "
         },
         {
             "label": "Gerelateerd erfgoedobject",
@@ -39,7 +39,7 @@
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/canvas/c0"],
+        "canvases": ["https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/canvas/c/1"],
         "within": "https://dlc.services/iiif-manifest/7/18/79ad29dc-864d-4f39-95bb-908243d7ebe8/range/range-0.json",
         "@type": "sc:Range",
         "@id": "https://dlc.services/iiif-manifest/7/18/79ad29dc-864d-4f39-95bb-908243d7ebe8/range/range-0-0.json",
@@ -50,24 +50,58 @@
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
         "canvases": [{
+            "metadata": [
+                {
+                    "label": "String 1",
+                    "value": ""
+                },
+                {
+                    "label": "String 2",
+                    "value": "9689"
+                },
+                {
+                    "label": "String 3",
+                    "value": "2002.0055.CTG tiff adobeRGB.tif"
+                },
+                {
+                    "label": "Number 1",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 2",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 3",
+                    "value": "0"
+                },
+                {
+                    "label": "Tags",
+                    "value": ""
+                },
+                {
+                    "label": "Roles",
+                    "value": ""
+                }
+            ],
             "images": [{
                 "resource": {
                     "@type": "dctypes:Image",
                     "service": {
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "profile": "http://iiif.io/api/image/2/level2.json",
                         "width": 10276,
                         "@id": "https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115",
+                        "@context": "http://iiif.io/api/image/2/context.json",
                         "height": 2928
                     },
-                    "width": 10276,
+                    "width": 1024,
                     "@id": "https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/full/1024,292/0/default.jpg",
-                    "height": 2928
+                    "height": 292
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "@id": "https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/canvas/c0"
+                "on": "https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/canvas/c/1"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -90,25 +124,16 @@
                             "height": 28
                         }
                     ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
+                    "profile": "http://iiif.io/api/image/2/level0.json",
                     "@id": "https://dlc.services/thumbs/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115",
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 292
+                    "@context": "http://iiif.io/api/image/2/context.json"
                 },
                 "@id": "https://dlc.services/thumbs/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 10276,
-            "@id": "https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/canvas/c0",
-            "label": "Image",
+            "@id": "https://dlc.services/iiif-img/7/18/ccb0adc3-b3b8-456a-9572-98c9c5f06115/canvas/c/1",
+            "label": "Canvas 1",
             "height": 2928
         }],
         "@type": "sc:Sequence",

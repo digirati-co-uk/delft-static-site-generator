@@ -18,7 +18,7 @@
         },
         {
             "label": "Maker",
-            "value": "Kannemans, C.C.  (maker)"
+            "value": "Kannemans, Christiaan Cornelis  (maker)"
         },
         {
             "label": "Afmetingen",
@@ -29,8 +29,12 @@
             "value": "olieverf, linnen, hout"
         },
         {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2758400\">Breda, Nederland<\/a>"
+        },
+        {
             "label": "Beschrijving",
-            "value": "Schilderij van de spoorbrug over de Waal bij Zaltbommel. De stalen vakwerkbrug uit 1869 is 865 meter lang en maakt deel uit van het spoorwegtraject Utrecht \u2013 \u2019s Hertogenbosch. Hij wordt gesteund door 10 peilers waarbij 3 overspanningen van 125 meter en 8 van 61 meter ontstaan. Na de oorlog is de brug omgedoopt tot Dr. W. Hupkesbrug naar dr.ir. Willem Hupkes (1880 \u2013 1965) oud directeur van de Nederlandse spoorwegen die uit verzet tegen de Duitsers in 1944 de spoorwegstaking organiseerde. Het schilderij maakt deel uit van een collectie van 6 schilderijen van waterwerken die gemaakt zijn in opdracht van Rijkswaterstaat. "
+            "value": "Schilderij van de spoorbrug over de Waal bij Zaltbommel door Christiaan Cornelis Kannemans (1812-1884). De stalen vakwerkbrug uit 1869 is 865 meter lang en maakt deel uit van het spoorwegtraject Utrecht \u2013 \u2019s Hertogenbosch. Hij wordt gesteund door 10 peilers waarbij 3 overspanningen van 125 meter en 8 van 61 meter ontstaan. Na de oorlog is de brug omgedoopt tot Dr. W. Hupkesbrug naar dr.ir. Willem Hupkes (1880-1965) oud directeur van de Nederlandse spoorwegen die uit verzet tegen de Duitsers in 1944 de spoorwegstaking organiseerde. Dit type schilderijen werd gemaakt in opdracht van Rijkswaterstaat na de afronding van een groot project."
         },
         {
             "label": "Gerelateerd erfgoedobject",
@@ -39,7 +43,7 @@
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/canvas/c0"],
+        "canvases": ["https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/canvas/c/1"],
         "within": "https://dlc.services/iiif-manifest/7/18/3a60b91e-5f73-4a6a-a3ff-6c572d9e317a/range/range-0.json",
         "@type": "sc:Range",
         "@id": "https://dlc.services/iiif-manifest/7/18/3a60b91e-5f73-4a6a-a3ff-6c572d9e317a/range/range-0-0.json",
@@ -50,24 +54,58 @@
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
         "canvases": [{
+            "metadata": [
+                {
+                    "label": "String 1",
+                    "value": ""
+                },
+                {
+                    "label": "String 2",
+                    "value": "9684"
+                },
+                {
+                    "label": "String 3",
+                    "value": "2002.0056.CTG tiff adobeRGB.tif"
+                },
+                {
+                    "label": "Number 1",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 2",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 3",
+                    "value": "0"
+                },
+                {
+                    "label": "Tags",
+                    "value": ""
+                },
+                {
+                    "label": "Roles",
+                    "value": ""
+                }
+            ],
             "images": [{
                 "resource": {
                     "@type": "dctypes:Image",
                     "service": {
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "profile": "http://iiif.io/api/image/2/level2.json",
                         "width": 9668,
                         "@id": "https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74",
+                        "@context": "http://iiif.io/api/image/2/context.json",
                         "height": 2644
                     },
-                    "width": 9668,
+                    "width": 1024,
                     "@id": "https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/full/1024,280/0/default.jpg",
-                    "height": 2644
+                    "height": 280
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "@id": "https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/canvas/c0"
+                "on": "https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/canvas/c/1"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -90,25 +128,16 @@
                             "height": 27
                         }
                     ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
+                    "profile": "http://iiif.io/api/image/2/level0.json",
                     "@id": "https://dlc.services/thumbs/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74",
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 280
+                    "@context": "http://iiif.io/api/image/2/context.json"
                 },
                 "@id": "https://dlc.services/thumbs/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 9668,
-            "@id": "https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/canvas/c0",
-            "label": "Image",
+            "@id": "https://dlc.services/iiif-img/7/18/5aa2a150-22cd-45ce-a5e2-f0d4ef916a74/canvas/c/1",
+            "label": "Canvas 1",
             "height": 2644
         }],
         "@type": "sc:Sequence",
