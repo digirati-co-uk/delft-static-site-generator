@@ -14,11 +14,11 @@
         },
         {
             "label": "Datering",
-            "value": "1900s"
+            "value": "1902 - 1925"
         },
         {
             "label": "Maker",
-            "value": "G. de Koningh (Arnhem)  (producent)"
+            "value": "G. de Koningh  (producent)"
         },
         {
             "label": "Afmetingen",
@@ -29,13 +29,17 @@
             "value": "metaal, glas"
         },
         {
+            "label": "Plaats vervaardiging",
+            "value": "<a href=\"https://www.geonames.org/2759660\">Arnhem, Nederland<\/a>"
+        },
+        {
             "label": "Beschrijving",
             "value": "Boussole tranche-montagne (bergboussole) door G. de Koningh, op een vast stelschroevenblok met een richtkijker. Dit type werd vooral gebruikt bij exploratiemetingen. De randverdeling sexagesimaal. Bij dit instrument hoort een schrift met een foto en getypte informatie."
         }
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/canvas/c0"],
+        "canvases": ["https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/canvas/c/1"],
         "within": "https://dlc.services/iiif-manifest/7/18/d85652d1-842c-473a-927d-c7d780148755/range/range-0.json",
         "@type": "sc:Range",
         "@id": "https://dlc.services/iiif-manifest/7/18/d85652d1-842c-473a-927d-c7d780148755/range/range-0-0.json",
@@ -46,24 +50,58 @@
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
         "canvases": [{
+            "metadata": [
+                {
+                    "label": "String 1",
+                    "value": "2000.0407.GEO"
+                },
+                {
+                    "label": "String 2",
+                    "value": "3004"
+                },
+                {
+                    "label": "String 3",
+                    "value": "2000.0407.GEO.jpg"
+                },
+                {
+                    "label": "Number 1",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 2",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 3",
+                    "value": "0"
+                },
+                {
+                    "label": "Tags",
+                    "value": ""
+                },
+                {
+                    "label": "Roles",
+                    "value": ""
+                }
+            ],
             "images": [{
                 "resource": {
                     "@type": "dctypes:Image",
                     "service": {
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "profile": "http://iiif.io/api/image/2/level2.json",
                         "width": 3072,
                         "@id": "https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60",
+                        "@context": "http://iiif.io/api/image/2/context.json",
                         "height": 2048
                     },
-                    "width": 3072,
+                    "width": 1024,
                     "@id": "https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/full/1024,683/0/default.jpg",
-                    "height": 2048
+                    "height": 683
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "@id": "https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/canvas/c0"
+                "on": "https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/canvas/c/1"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -86,25 +124,16 @@
                             "height": 67
                         }
                     ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
+                    "profile": "http://iiif.io/api/image/2/level0.json",
                     "@id": "https://dlc.services/thumbs/7/18/df969988-7972-4c72-876a-9ff59ffdec60",
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 683
+                    "@context": "http://iiif.io/api/image/2/context.json"
                 },
                 "@id": "https://dlc.services/thumbs/7/18/df969988-7972-4c72-876a-9ff59ffdec60/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 3072,
-            "@id": "https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/canvas/c0",
-            "label": "Image",
+            "@id": "https://dlc.services/iiif-img/7/18/df969988-7972-4c72-876a-9ff59ffdec60/canvas/c/1",
+            "label": "Canvas 1",
             "height": 2048
         }],
         "@type": "sc:Sequence",
