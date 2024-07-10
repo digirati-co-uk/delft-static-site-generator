@@ -35,7 +35,7 @@
     ],
     "@type": "sc:Manifest",
     "structures": [{
-        "canvases": ["https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/canvas/c0"],
+        "canvases": ["https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/canvas/c/1"],
         "within": "https://dlc.services/iiif-manifest/7/18/2e2ac04c-537f-44ee-9425-db5667bb5820/range/range-0.json",
         "@type": "sc:Range",
         "@id": "https://dlc.services/iiif-manifest/7/18/2e2ac04c-537f-44ee-9425-db5667bb5820/range/range-0-0.json",
@@ -46,24 +46,58 @@
         "viewingDirection": "left-to-right",
         "viewingHint": "paged",
         "canvases": [{
+            "metadata": [
+                {
+                    "label": "String 1",
+                    "value": ""
+                },
+                {
+                    "label": "String 2",
+                    "value": "10653"
+                },
+                {
+                    "label": "String 3",
+                    "value": ""
+                },
+                {
+                    "label": "Number 1",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 2",
+                    "value": "0"
+                },
+                {
+                    "label": "Number 3",
+                    "value": "0"
+                },
+                {
+                    "label": "Tags",
+                    "value": ""
+                },
+                {
+                    "label": "Roles",
+                    "value": ""
+                }
+            ],
             "images": [{
                 "resource": {
                     "@type": "dctypes:Image",
                     "service": {
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": "http://iiif.io/api/image/2/level1.json",
+                        "profile": "http://iiif.io/api/image/2/level2.json",
                         "width": 6000,
                         "@id": "https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74",
+                        "@context": "http://iiif.io/api/image/2/context.json",
                         "height": 3270
                     },
-                    "width": 6000,
+                    "width": 1024,
                     "@id": "https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/full/1024,558/0/default.jpg",
-                    "height": 3270
+                    "height": 558
                 },
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "@id": "https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/imageanno/0",
-                "on": "https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/canvas/c0"
+                "on": "https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/canvas/c/1"
             }],
             "thumbnail": {
                 "@type": "dctypes:Image",
@@ -86,25 +120,16 @@
                             "height": 54
                         }
                     ],
-                    "profile": [
-                        "http://iiif.io/api/image/2/level0.json",
-                        {
-                            "formats": ["jpg"],
-                            "qualities": ["color"],
-                            "supports": ["sizeByWhListed"]
-                        }
-                    ],
-                    "width": 1024,
+                    "profile": "http://iiif.io/api/image/2/level0.json",
                     "@id": "https://dlc.services/thumbs/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74",
-                    "@context": "http://iiif.io/api/image/2/context.json",
-                    "height": 558
+                    "@context": "http://iiif.io/api/image/2/context.json"
                 },
                 "@id": "https://dlc.services/thumbs/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/full/full/0/default.jpg"
             },
             "@type": "sc:Canvas",
             "width": 6000,
-            "@id": "https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/canvas/c0",
-            "label": "Image",
+            "@id": "https://dlc.services/iiif-img/7/18/c33b4d73-ab2b-4f64-9e65-1e5befdfef74/canvas/c/1",
+            "label": "Canvas 1",
             "height": 3270
         }],
         "@type": "sc:Sequence",
